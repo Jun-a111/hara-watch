@@ -164,9 +164,11 @@ def collect_from_xml(xml_bytes, category, lang):
 def controversy_template(title, source):
     """Create a richer shell for new controversy records.
 
-    Factual long-form body/timeline and verbatim user quotes are intentionally
-    not invented from an RSS headline. Those fields are filled only after
-    source research.
+    Factual long-form body/timeline and user reactions are intentionally not
+    invented from an RSS headline. Those fields are filled only after source
+    research. Do not add a standalone '■ その後' section. User-reaction display
+    omits poster names; non-Japanese reactions should be translated into natural,
+    casual Japanese while preserving the original meaning.
     """
     src = f'配信元: {source}。' if source else ''
     return {
