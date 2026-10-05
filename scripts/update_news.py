@@ -148,6 +148,7 @@ def collect_from_xml(xml_bytes, category, lang):
             'status': status,
             'lang': lang,
             'title': title,
+            'teaser_title': ('鳴潮リーク：新情報あり' if category == 'リーク' else title),
             'summary': summary,
             'url': link,
             'spoiler': bool(SPOILER_RE.search(title)),
