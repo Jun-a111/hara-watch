@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""KURO WATCH focused collector.
+"""HARA WATCH focused collector.
 
 Collect only:
 - Wuthering Waves / 鳴潮 leak-related information
@@ -21,7 +21,7 @@ import xml.etree.ElementTree as ET
 
 ROOT = pathlib.Path(__file__).resolve().parents[1]
 OUT = ROOT / 'data' / 'news.json'
-HEADERS = {'User-Agent': 'KURO-WATCH/4.0 (personal focused news aggregator)'}
+HEADERS = {'User-Agent': 'HARA-WATCH/5.0 (personal focused news aggregator)'}
 
 FEEDS = [
     ('リーク','JP','"Wuthering Waves" (leak OR leaked OR rumor OR datamine OR "test server" OR beta) when:14d','ja','JP','JP:ja'),
@@ -56,7 +56,7 @@ TEST_RE = re.compile(r'(?i)(test server|beta|cbt|テストサーバー|ベータ
 STRONG_RE = re.compile(r'(?i)(datamin|screenshot|image leak|footage|gameplay leak|画像|スクショ|実機|データマイン|拆包|实机|截图)')
 OFFICIAL_RE = re.compile(r'(?i)(wuthering\s*waves|鳴潮公式|鸣潮官方|kuro\s*games|庫洛遊戲|库洛游戏)')
 DEV_RE = re.compile(r'(?i)(new game|new project|unannounced|development|developing|recruit|hiring|trademark|新作|新規プロジェクト|開発中|求人|商標|新游|新项目|未公开|开发中|招聘|商标)')
-CONTROVERSY_RE = re.compile(r'(?i)(controversy|backlash|outrage|boycott|criticism|apology|lawsuit|regulation|drama|death threat|harassment|炎上|批判|騒動|問題|不満|不買|ボイコット|謝罪|訴訟|規制|殺害予告|脅迫|誹謗中傷|嫌がらせ|争议|舆论|抵制|道歉|节奏|不满|质疑|诉讼|监管|威胁|死亡威胁|骚扰)')
+CONTROVERSY_RE = re.compile(r'(?i)(controversy|backlash|outrage|boycott|criticism|apology|lawsuit|regulation|drama|death threat|harassment|debate|dispute|炎上|批判|騒動|問題|不満|不買|ボイコット|謝罪|訴訟|規制|殺害予告|脅迫|誹謗中傷|嫌がらせ|議論|論争|物議|争议|舆论|抵制|道歉|节奏|不满|质疑|诉讼|监管|威胁|死亡威胁|骚扰)')
 VIDEO_SOURCE_RE = re.compile(r'(?i)(youtube|ニコニコ|tiktok|bilibili)')
 GUIDE_RE = re.compile(r'(?i)(攻略|評価とおすすめ|おすすめパーティ|最強|tier|build|guide|武器|音骸|素材|育成|イベント攻略|ガチャ攻略|リセマラ|初心者|タブレット|スマホ|スマートフォン|pc benchmark)')
 SPOILER_RE = re.compile(r'(?i)(spoiler|ネタバレ|劇透|剧透|leak|リーク|爆料|内鬼|泄露)')
@@ -139,9 +139,10 @@ def collect_from_xml(xml_bytes, category, lang):
         else:
             status = '報道'
             tags = tags_for(f'{title} {source}')
-            summary = (f'配信元: {source}。' if source else '') + 'このカテゴリでは炎上・騒動・批判などの話題だけを収集しています。'
+            extra = controversy_template(title, source)
+            summary = extra['summary']
 
-        items.append({
+        record = {
             'id': 'rss-' + hashlib.sha256((title + '|' + source).encode()).hexdigest()[:18],
             'date': when.date().isoformat(),
             'category': category,
@@ -154,12 +155,40 @@ def collect_from_xml(xml_bytes, category, lang):
             'spoiler': bool(SPOILER_RE.search(title)),
             'source': source,
             'tags': tags,
-        })
+        }
+        if category in ('ハラ','スタレ','ゼンゼロ','ホヨバ'):
+            record.update(extra)
+        items.append(record)
     return items
+
+def controversy_template(title, source):
+    """Create a richer shell for new controversy records.
+
+    Factual long-form body/timeline and verbatim user quotes are intentionally
+    not invented from an RSS headline. Those fields are filled only after
+    source research.
+    """
+    src = f'配信元: {source}。' if source else ''
+    return {
+        'summary': src + '炎上・騒動・批判として検出。記事本文・時系列・反応は出典確認後に追記します。',
+        'body': (
+            '■ 概要\n'
+            f'{title}\n\n'
+            '■ 現在の確認状況\n'
+            'RSS見出しから自動検出した段階です。誤情報を避けるため、発端・経緯・収束は出典確認後に追記します。'
+        ),
+        'timeline': [],
+        'quoted_reactions': [],
+        'reactions': [],
+        'needs_research': True,
+    }
 
 def keep_old(x):
     if not isinstance(x, dict) or 'id' not in x:
         return False
+    item_id = str(x.get('id', ''))
+    if item_id.startswith(('manual-', 'backfill-')):
+        return True
     return wanted(clean(x.get('title')), clean(x.get('source')), x.get('category'))
 
 def main():
