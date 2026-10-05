@@ -115,6 +115,7 @@ def collect_from_xml(xml_bytes, category, lang):
         title = clean(item.findtext('title'))
         source = clean(item.findtext('source'))
         link = (item.findtext('link') or '').strip()
+        raw_title = title
         if not title or not link.startswith('https://') or not wanted(title, source, category):
             continue
         if VIDEO_SOURCE_RE.search(source) and category in ('リーク','新作'):
@@ -127,6 +128,9 @@ def collect_from_xml(xml_bytes, category, lang):
         max_age = 16 if category == 'リーク' else 35 if category == '新作' else 16
         if not (now - dt.timedelta(days=max_age) <= when <= now + dt.timedelta(days=1)):
             continue
+
+        if lang in ('EN','CN'):
+            title = translate_to_ja(title)
 
         if category == 'リーク':
             status = leak_status(title, source)
@@ -149,6 +153,7 @@ def collect_from_xml(xml_bytes, category, lang):
             'status': status,
             'lang': lang,
             'title': title,
+            'raw_title': raw_title if raw_title != title else '',
             'teaser_title': ('鳴潮リーク：新情報あり' if category == 'リーク' else title),
             'summary': summary,
             'url': link,
