@@ -166,9 +166,11 @@ def controversy_template(title, source):
 
     Factual long-form body/timeline and user reactions are intentionally not
     invented from an RSS headline. Those fields are filled only after source
-    research. Do not add a standalone '■ その後' section. User-reaction display
-    omits poster names; non-Japanese reactions should be translated into natural,
-    casual Japanese while preserving the original meaning.
+    research. Do not add a standalone '■ その後' section. General user-reaction
+    display omits poster names; non-Japanese reactions should be translated into
+    natural, casual Japanese while preserving the original meaning. If a specific
+    X/Twitter post is the origin or central trigger of the controversy, preserve
+    it separately as X ORIGINAL POST with author, post date, original text and link.
     """
     src = f'配信元: {source}。' if source else ''
     return {
