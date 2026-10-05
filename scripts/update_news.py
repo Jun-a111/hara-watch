@@ -58,7 +58,12 @@ OFFICIAL_RE = re.compile(r'(?i)(wuthering\s*waves|鳴潮公式|鸣潮官方|kuro
 DEV_RE = re.compile(r'(?i)(new game|new project|unannounced|development|developing|recruit|hiring|trademark|新作|新規プロジェクト|開発中|求人|商標|新游|新项目|未公开|开发中|招聘|商标)')
 CONTROVERSY_RE = re.compile(r'(?i)(controversy|backlash|outrage|boycott|criticism|apology|lawsuit|regulation|drama|death threat|harassment|debate|dispute|炎上|批判|騒動|問題|不満|不買|ボイコット|謝罪|訴訟|規制|殺害予告|脅迫|誹謗中傷|嫌がらせ|議論|論争|物議|争议|舆论|抵制|道歉|节奏|不满|质疑|诉讼|监管|威胁|死亡威胁|骚扰)')
 VIDEO_SOURCE_RE = re.compile(r'(?i)(youtube|ニコニコ|tiktok|bilibili)')
-GUIDE_RE = re.compile(r'(?i)(攻略|評価とおすすめ|おすすめパーティ|最強|tier|build|guide|武器|音骸|素材|育成|イベント攻略|ガチャ攻略|リセマラ|初心者|タブレット|スマホ|スマートフォン|pc benchmark)')
+GUIDE_RE = re.compile(r'(?i)(攻略|評価とおすすめ|おすすめパーティ|最強|tier|build|guide|武器|音骸|素材|育成|イベント攻略|ガチャ攻略|リセマラ|初心者|タブレット|スマホ|スマートフォン|pc benchmark|新キャラ・未実装キャラまとめ|未実装キャラまとめ)')
+LEAK_SOURCE_BLOCK_RE = re.compile(r'(?i)(GameWith|Game8|Gamerch|アルテマ)')
+HARA_ENTITY_RE = re.compile(r'(?i)(原神|Genshin)')
+STARRAIL_ENTITY_RE = re.compile(r'(?i)(スターレイル|スタレ|Honkai\\s*[:：]?\\s*Star\\s*Rail|崩坏星穹铁道|崩壊：?スターレイル)')
+ZZZ_ENTITY_RE = re.compile(r'(?i)(ゼンレスゾーンゼロ|ゼンゼロ|Zenless\\s*Zone\\s*Zero|绝区零|絕區零)')
+HOYO_ENTITY_RE = re.compile(r'(?i)(HoYoverse|miHoYo|ホヨバ|米哈游)')
 SPOILER_RE = re.compile(r'(?i)(spoiler|ネタバレ|劇透|剧透|leak|リーク|爆料|内鬼|泄露)')
 
 TAG_RULES = [
@@ -90,11 +95,19 @@ def wanted(title, source, category):
     if GUIDE_RE.search(title):
         return False
     if category == 'リーク':
-        return bool(WUWA_RE.search(text) and LEAK_RE.search(text))
+        if LEAK_SOURCE_BLOCK_RE.search(source):
+            return False
+        return bool(WUWA_RE.search(title) and LEAK_RE.search(title))
     if category == '新作':
-        return bool(KURO_RE.search(text) and DEV_RE.search(text))
-    if category in ('ハラ','スタレ','ゼンゼロ','ホヨバ'):
-        return bool(CONTROVERSY_RE.search(text))
+        return bool(KURO_RE.search(text) and DEV_RE.search(title))
+    if category == 'ハラ':
+        return bool(HARA_ENTITY_RE.search(title) and CONTROVERSY_RE.search(title))
+    if category == 'スタレ':
+        return bool(STARRAIL_ENTITY_RE.search(title) and CONTROVERSY_RE.search(title))
+    if category == 'ゼンゼロ':
+        return bool(ZZZ_ENTITY_RE.search(title) and CONTROVERSY_RE.search(title))
+    if category == 'ホヨバ':
+        return bool(HOYO_ENTITY_RE.search(title) and CONTROVERSY_RE.search(title))
     return False
 
 def leak_status(title, source):
@@ -147,7 +160,7 @@ def collect_from_xml(xml_bytes, category, lang):
             summary = extra['summary']
 
         record = {
-            'id': 'rss-' + hashlib.sha256((title + '|' + source).encode()).hexdigest()[:18],
+            'id': 'rss-' + hashlib.sha256((raw_title + '|' + source).encode()).hexdigest()[:18],
             'date': when.date().isoformat(),
             'category': category,
             'status': status,
@@ -157,7 +170,7 @@ def collect_from_xml(xml_bytes, category, lang):
             'teaser_title': ('鳴潮リーク：新情報あり' if category == 'リーク' else title),
             'summary': summary,
             'url': link,
-            'spoiler': bool(SPOILER_RE.search(title)),
+            'spoiler': bool(SPOILER_RE.search(raw_title)),
             'source': source,
             'tags': tags,
         }
