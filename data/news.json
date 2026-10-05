@@ -1,5 +1,95 @@
 [
   {
+    "id": "manual-20261005-newfed-fractsidus",
+    "date": "2026-10-01",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "EN",
+    "title": "4.x新連邦編はフラクトシデス色が強いとの見方。新連邦が主要拠点という話が継続",
+    "summary": "4.xで新連邦へ向かうというコミュニティ予想と、フラクトシデスの主要拠点・幹部が新連邦に関わるという過去リーク/作中示唆が結び付けられている。『フラクトシデス中心の章になる』という部分はまだ公式確定ではない。",
+    "url": "https://www.reddit.com/r/WutheringWaves/comments/1wupa0g/whatre_ur_expectations_for_4x/",
+    "spoiler": true,
+    "source": "Reddit / community discussion",
+    "tags": [
+      "ストーリー",
+      "新国",
+      "フラクトシデス",
+      "未確認"
+    ],
+    "teaser_title": "鳴潮リーク：ストーリー関連の新情報"
+  },
+  {
+    "id": "manual-20261005-starrail-inflation",
+    "date": "2026-10-01",
+    "category": "スタレ",
+    "status": "報道",
+    "lang": "JP",
+    "title": "スタレVer.4.6の高難度調整とインフレ加速に不満。特定編成への接待が強いとの批判",
+    "summary": "日本のゲームブログで、Ver.4.6の高難度コンテンツについて特定系統の編成を強く優遇するギミックや敵強化が批判されている。コミュニティ全体の総意ではなく、炎上・不満の一例として掲載。",
+    "url": "https://seraria.jp/",
+    "spoiler": false,
+    "source": "セラリアゲーム",
+    "tags": [
+      "性能",
+      "高難度",
+      "インフレ",
+      "運営"
+    ]
+  },
+  {
+    "id": "manual-20261005-calcharo-sp-rumor",
+    "date": "2026-09-28",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "EN",
+    "title": "カカロSP説が再び話題に。4.x男性キャラ情報と過去リークが結び付けられる",
+    "summary": "コミュニティでは、Seele由来とされる過去の4.x男性キャラ情報やTieba系の噂から、カカロのSP版ではないかという推測が継続中。具体的な実装確定情報はなく、現状は未確認の噂として扱う。",
+    "url": "https://www.reddit.com/r/WuWaHusbandos/comments/1wsfx3c/sp_calcharo_when/",
+    "spoiler": true,
+    "source": "Reddit / leak discussion",
+    "tags": [
+      "キャラ",
+      "SP",
+      "未確認"
+    ],
+    "teaser_title": "鳴潮リーク：キャラクター関連の新情報"
+  },
+  {
+    "id": "manual-20261005-hara-uesaka-threat",
+    "date": "2026-09-25",
+    "category": "ハラ",
+    "status": "報道",
+    "lang": "JP",
+    "title": "原神予告配信出演後、上坂すみれへの脅迫・殺害予告が問題化。事務所が被害届を提出",
+    "summary": "上坂すみれの所属事務所は、本人への具体的な誘拐・殺害予告を確認し警察へ被害届を提出したと発表。海外報道では原神の周年予告配信出演後の騒動として伝えられている。発端に関するネット上の推測と、脅迫自体の事実は分けて扱う必要がある。",
+    "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900200488.html",
+    "spoiler": false,
+    "source": "テレビ朝日 / Voice Kit",
+    "tags": [
+      "声優",
+      "予告配信",
+      "脅迫",
+      "重大"
+    ]
+  },
+  {
+    "id": "manual-20261005-sao-collab-rumor",
+    "date": "2026-09-16",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "EN",
+    "title": "鳴潮×SAOコラボ説が再浮上。Ver.4.xで「日本の有名IP」とのコラボという噂",
+    "summary": "リーク界隈ではVer.4.xに日本の有名IPとのコラボがあるという話が出回っており、二次的な噂として『ソードアート・オンライン』の名前が挙がっている。現時点でKURO GAMESや権利元から公式発表はなく、SAO確定とは扱えない。",
+    "url": "https://www.wuwabuild.com/news/wuthering-waves-sword-art-online-collab-leak",
+    "spoiler": true,
+    "source": "WuWaBuild / leak community",
+    "tags": [
+      "コラボ",
+      "未確認"
+    ],
+    "teaser_title": "鳴潮リーク：コラボ関連の新情報"
+  },
+  {
     "id": "manual-x-20260912-genshin-special-program",
     "date": "2026-09-12",
     "category": "ハラ",
@@ -26,60 +116,6 @@
     ]
   },
   {
-    "id": "manual-20261005-sao-collab-rumor",
-    "date": "2026-09-16",
-    "category": "リーク",
-    "status": "未確認の噂",
-    "lang": "EN",
-    "title": "鳴潮×SAOコラボ説が再浮上。Ver.4.xで「日本の有名IP」とのコラボという噂",
-    "summary": "リーク界隈ではVer.4.xに日本の有名IPとのコラボがあるという話が出回っており、二次的な噂として『ソードアート・オンライン』の名前が挙がっている。現時点でKURO GAMESや権利元から公式発表はなく、SAO確定とは扱えない。",
-    "url": "https://www.wuwabuild.com/news/wuthering-waves-sword-art-online-collab-leak",
-    "spoiler": true,
-    "source": "WuWaBuild / leak community",
-    "tags": [
-      "コラボ",
-      "未確認"
-    ],
-    "teaser_title": "鳴潮リーク：コラボ関連の新情報"
-  },
-  {
-    "id": "manual-20261005-calcharo-sp-rumor",
-    "date": "2026-09-28",
-    "category": "リーク",
-    "status": "未確認の噂",
-    "lang": "EN",
-    "title": "カカロSP説が再び話題に。4.x男性キャラ情報と過去リークが結び付けられる",
-    "summary": "コミュニティでは、Seele由来とされる過去の4.x男性キャラ情報やTieba系の噂から、カカロのSP版ではないかという推測が継続中。具体的な実装確定情報はなく、現状は未確認の噂として扱う。",
-    "url": "https://www.reddit.com/r/WuWaHusbandos/comments/1wsfx3c/sp_calcharo_when/",
-    "spoiler": true,
-    "source": "Reddit / leak discussion",
-    "tags": [
-      "キャラ",
-      "SP",
-      "未確認"
-    ],
-    "teaser_title": "鳴潮リーク：キャラクター関連の新情報"
-  },
-  {
-    "id": "manual-20261005-newfed-fractsidus",
-    "date": "2026-10-01",
-    "category": "リーク",
-    "status": "未確認の噂",
-    "lang": "EN",
-    "title": "4.x新連邦編はフラクトシデス色が強いとの見方。新連邦が主要拠点という話が継続",
-    "summary": "4.xで新連邦へ向かうというコミュニティ予想と、フラクトシデスの主要拠点・幹部が新連邦に関わるという過去リーク/作中示唆が結び付けられている。『フラクトシデス中心の章になる』という部分はまだ公式確定ではない。",
-    "url": "https://www.reddit.com/r/WutheringWaves/comments/1wupa0g/whatre_ur_expectations_for_4x/",
-    "spoiler": true,
-    "source": "Reddit / community discussion",
-    "tags": [
-      "ストーリー",
-      "新国",
-      "フラクトシデス",
-      "未確認"
-    ],
-    "teaser_title": "鳴潮リーク：ストーリー関連の新情報"
-  },
-  {
     "id": "manual-20261005-kuro-eureka",
     "date": "2026-09-01",
     "category": "新作",
@@ -95,24 +131,6 @@
       "商標",
       "NAMI",
       "SUN"
-    ]
-  },
-  {
-    "id": "manual-20261005-hara-uesaka-threat",
-    "date": "2026-09-25",
-    "category": "ハラ",
-    "status": "報道",
-    "lang": "JP",
-    "title": "原神予告配信出演後、上坂すみれへの脅迫・殺害予告が問題化。事務所が被害届を提出",
-    "summary": "上坂すみれの所属事務所は、本人への具体的な誘拐・殺害予告を確認し警察へ被害届を提出したと発表。海外報道では原神の周年予告配信出演後の騒動として伝えられている。発端に関するネット上の推測と、脅迫自体の事実は分けて扱う必要がある。",
-    "url": "https://news.tv-asahi.co.jp/news_geinou/articles/900200488.html",
-    "spoiler": false,
-    "source": "テレビ朝日 / Voice Kit",
-    "tags": [
-      "声優",
-      "予告配信",
-      "脅迫",
-      "重大"
     ]
   },
   {
@@ -133,21 +151,56 @@
     ]
   },
   {
-    "id": "manual-20261005-starrail-inflation",
-    "date": "2026-10-01",
-    "category": "スタレ",
+    "id": "backfill-zzz-20250109-gamesir-apology",
+    "date": "2025-01-09",
+    "category": "ゼンゼロ",
     "status": "報道",
-    "lang": "JP",
-    "title": "スタレVer.4.6の高難度調整とインフレ加速に不満。特定編成への接待が強いとの批判",
-    "summary": "日本のゲームブログで、Ver.4.6の高難度コンテンツについて特定系統の編成を強く優遇するギミックや敵強化が批判されている。コミュニティ全体の総意ではなく、炎上・不満の一例として掲載。",
-    "url": "https://seraria.jp/",
+    "lang": "CN",
+    "title": "ゼンゼロ×GameSirコラボで過去発言が掘り返され炎上、GameSirがプレイヤーへ謝罪",
+    "summary": "ゼンゼロとのコントローラーコラボ発表後、GameSir周辺の過去のmiHoYo作品に関する不適切発言が掘り返され、中国コミュニティで反発が拡大。GameSir側は過去の言辞について謝罪し、一部は別サービス運営時の発言で自社の立場ではないと説明。コラボ商品の発売延期や大量プレゼント施策にも発展した。",
+    "url": "https://news.zol.com.cn/937/9378737.html",
     "spoiler": false,
-    "source": "セラリアゲーム",
+    "source": "中関村在線 / GameSir",
     "tags": [
-      "性能",
-      "高難度",
-      "インフレ",
-      "運営"
+      "コラボ",
+      "謝罪",
+      "過去発言",
+      "中国"
+    ]
+  },
+  {
+    "id": "backfill-zzz-20241218-camera-transparency",
+    "date": "2024-12-18",
+    "category": "ゼンゼロ",
+    "status": "報道",
+    "lang": "EN",
+    "title": "Ver.1.4のカメラ接近時「キャラ透明化」で大炎上、HoYoverseが即日レベルで緩和",
+    "summary": "Ver.1.4で、特定角度からキャラクターへカメラを近づけるとモデルが半透明になる仕様が入り、海外を中心に『過剰な規制』『鑑賞機能の劣化』として強い反発が発生。炎上後、開発側は短期間で表示挙動を調整し、コミュニティでは実質的な方針後退と受け止められた。",
+    "url": "https://www.pcgamer.com/games/rpg/gooner-9-11-averted-as-zenless-zone-zeros-butt-obfuscation-technology-is-rolled-back-in-the-face-of-horny-outrage/",
+    "spoiler": false,
+    "source": "PC Gamer / Zenless Zone Zero Ver.1.4",
+    "tags": [
+      "キャラ",
+      "規制",
+      "運営",
+      "Ver.1.4"
+    ]
+  },
+  {
+    "id": "backfill-zzz-20231125-beta-censorship",
+    "date": "2023-11-25",
+    "category": "ゼンゼロ",
+    "status": "報道",
+    "lang": "EN",
+    "title": "ゼンゼロ第2回βでキャラ表現の変更が判明し、「検閲・ナーフ」として海外で炎上",
+    "summary": "第2回クローズドβで、ニコの胸部表現やアニメーション、衣装の露出、暴力表現などが以前の映像・テスト版より抑えられているとして海外コミュニティで反発が拡大。『正式サービス前から表現規制が進んでいる』と受け止める層が強く反応し、検閲を巡る代表的な初期炎上の一つになった。",
+    "url": "https://www.pushsquare.com/news/2023/11/zenless-zone-zero-fans-are-aggrieved-by-alleged-censorship-in-upcoming-gacha-game",
+    "spoiler": false,
+    "source": "Push Square / 海外コミュニティ",
+    "tags": [
+      "キャラ",
+      "規制",
+      "βテスト"
     ]
   }
 ]
