@@ -32,21 +32,21 @@ FEEDS = [
     ('新作','JP','"Kuro Games" (新作 OR 新規プロジェクト OR 開発中 OR 求人 OR 商標) when:30d','ja','JP','JP:ja'),
     ('新作','CN','库洛游戏 (新游 OR 新作 OR 新项目 OR 未公开 OR 开发中 OR 招聘 OR 商标) when:30d','zh-CN','CN','CN:zh-Hans'),
 
-    ('ハラ','JP','(原神 OR Genshin) (炎上 OR 批判 OR 騒動 OR 謝罪 OR 殺害予告 OR 脅迫 OR 不買 OR ボイコット OR 訴訟) when:14d','ja','JP','JP:ja'),
-    ('ハラ','EN','Genshin (controversy OR backlash OR outrage OR boycott OR "death threat" OR harassment OR apology OR lawsuit) when:14d','en-US','US','US:en'),
-    ('ハラ','CN','原神 (争议 OR 舆论 OR 抵制 OR 道歉 OR 威胁 OR 死亡威胁 OR 骚扰 OR 诉讼) when:14d','zh-CN','CN','CN:zh-Hans'),
+    ('ハラ','JP','(原神 OR Genshin) (炎上 OR 批判 OR 騒動 OR 謝罪 OR 殺害予告 OR 脅迫 OR 不買 OR ボイコット OR 訴訟 OR Ship War OR カップリング論争 OR ファンダム OR 解釈違い) when:14d','ja','JP','JP:ja'),
+    ('ハラ','EN','Genshin (controversy OR backlash OR outrage OR boycott OR "death threat" OR harassment OR apology OR lawsuit OR "ship war" OR "shipping controversy" OR "fandom drama") when:14d','en-US','US','US:en'),
+    ('ハラ','CN','原神 (争议 OR 舆论 OR 抵制 OR 道歉 OR 威胁 OR 死亡威胁 OR 骚扰 OR 诉讼 OR CP争议 OR CP大战 OR 粉圈争议) when:14d','zh-CN','CN','CN:zh-Hans'),
 
-    ('スタレ','JP','(スターレイル OR スタレ OR "Honkai Star Rail") (炎上 OR 批判 OR 騒動 OR 謝罪 OR 殺害予告 OR 脅迫 OR 不買 OR ボイコット) when:14d','ja','JP','JP:ja'),
-    ('スタレ','EN','"Honkai Star Rail" (controversy OR backlash OR outrage OR boycott OR "death threat" OR harassment OR apology) when:14d','en-US','US','US:en'),
-    ('スタレ','CN','崩坏星穹铁道 (争议 OR 舆论 OR 抵制 OR 道歉 OR 威胁 OR 骚扰) when:14d','zh-CN','CN','CN:zh-Hans'),
+    ('スタレ','JP','(スターレイル OR スタレ OR "Honkai Star Rail") (炎上 OR 批判 OR 騒動 OR 謝罪 OR 殺害予告 OR 脅迫 OR 不買 OR ボイコット OR Ship War OR カップリング論争 OR ファンダム OR 解釈違い) when:14d','ja','JP','JP:ja'),
+    ('スタレ','EN','"Honkai Star Rail" (controversy OR backlash OR outrage OR boycott OR "death threat" OR harassment OR apology OR "ship war" OR "shipping controversy" OR "fandom drama") when:14d','en-US','US','US:en'),
+    ('スタレ','CN','崩坏星穹铁道 (争议 OR 舆论 OR 抵制 OR 道歉 OR 威胁 OR 骚扰 OR CP争议 OR CP大战 OR 粉圈争议) when:14d','zh-CN','CN','CN:zh-Hans'),
 
-    ('ゼンゼロ','JP','(ゼンレスゾーンゼロ OR ゼンゼロ OR "Zenless Zone Zero") (炎上 OR 批判 OR 騒動 OR 謝罪 OR 殺害予告 OR 脅迫 OR 不買 OR ボイコット) when:14d','ja','JP','JP:ja'),
-    ('ゼンゼロ','EN','"Zenless Zone Zero" (controversy OR backlash OR outrage OR boycott OR "death threat" OR harassment OR apology) when:14d','en-US','US','US:en'),
-    ('ゼンゼロ','CN','绝区零 (争议 OR 舆论 OR 抵制 OR 道歉 OR 威胁 OR 骚扰) when:14d','zh-CN','CN','CN:zh-Hans'),
+    ('ゼンゼロ','JP','(ゼンレスゾーンゼロ OR ゼンゼロ OR "Zenless Zone Zero") (炎上 OR 批判 OR 騒動 OR 謝罪 OR 殺害予告 OR 脅迫 OR 不買 OR ボイコット OR Ship War OR カップリング論争 OR ファンダム OR 解釈違い) when:14d','ja','JP','JP:ja'),
+    ('ゼンゼロ','EN','"Zenless Zone Zero" (controversy OR backlash OR outrage OR boycott OR "death threat" OR harassment OR apology OR "ship war" OR "shipping controversy" OR "fandom drama") when:14d','en-US','US','US:en'),
+    ('ゼンゼロ','CN','绝区零 (争议 OR 舆论 OR 抵制 OR 道歉 OR 威胁 OR 骚扰 OR CP争议 OR CP大战 OR 粉圈争议) when:14d','zh-CN','CN','CN:zh-Hans'),
 
-    ('ホヨバ','JP','(HoYoverse OR miHoYo OR ホヨバ) (炎上 OR 批判 OR 騒動 OR 謝罪 OR 新作 OR 発表 OR 殺害予告 OR 脅迫 OR 訴訟) when:14d','ja','JP','JP:ja'),
-    ('ホヨバ','EN','(HoYoverse OR miHoYo) (controversy OR backlash OR outrage OR boycott OR lawsuit OR apology OR "new game") when:14d','en-US','US','US:en'),
-    ('ホヨバ','CN','(米哈游 OR HoYoverse) (争议 OR 舆论 OR 抵制 OR 道歉 OR 新作 OR 新项目 OR 威胁 OR 诉讼) when:14d','zh-CN','CN','CN:zh-Hans'),
+    ('ホヨバ','JP','(HoYoverse OR miHoYo OR ホヨバ) (炎上 OR 批判 OR 騒動 OR 謝罪 OR 新作 OR 発表 OR 殺害予告 OR 脅迫 OR 訴訟 OR Ship War OR カップリング論争 OR ファンダム OR 解釈違い) when:14d','ja','JP','JP:ja'),
+    ('ホヨバ','EN','(HoYoverse OR miHoYo) (controversy OR backlash OR outrage OR boycott OR lawsuit OR apology OR "new game" OR "ship war" OR "shipping controversy" OR "fandom drama") when:14d','en-US','US','US:en'),
+    ('ホヨバ','CN','(米哈游 OR HoYoverse) (争议 OR 舆论 OR 抵制 OR 道歉 OR 新作 OR 新项目 OR 威胁 OR 诉讼 OR CP争议 OR CP大战 OR 粉圈争议) when:14d','zh-CN','CN','CN:zh-Hans'),
 ]
 
 WUWA_RE = re.compile(r'(?i)(wuthering\s*waves|鳴潮|鸣潮)')
@@ -56,7 +56,7 @@ TEST_RE = re.compile(r'(?i)(test server|beta|cbt|テストサーバー|ベータ
 STRONG_RE = re.compile(r'(?i)(datamin|screenshot|image leak|footage|gameplay leak|画像|スクショ|実機|データマイン|拆包|实机|截图)')
 OFFICIAL_RE = re.compile(r'(?i)(wuthering\s*waves|鳴潮公式|鸣潮官方|kuro\s*games|庫洛遊戲|库洛游戏)')
 DEV_RE = re.compile(r'(?i)(new game|new project|unannounced|development|developing|recruit|hiring|trademark|新作|新規プロジェクト|開発中|求人|商標|新游|新项目|未公开|开发中|招聘|商标)')
-CONTROVERSY_RE = re.compile(r'(?i)(controversy|backlash|outrage|boycott|criticism|apology|lawsuit|regulation|drama|death threat|harassment|debate|dispute|炎上|批判|騒動|問題|不満|不買|ボイコット|謝罪|訴訟|規制|殺害予告|脅迫|誹謗中傷|嫌がらせ|議論|論争|物議|争议|舆论|抵制|道歉|节奏|不满|质疑|诉讼|监管|威胁|死亡威胁|骚扰)')
+CONTROVERSY_RE = re.compile(r'(?i)(ship\s*war|shipping controversy|fandom drama|カップリング論争|ファンダム|解釈違い|CP争议|CP大战|粉圈争议|controversy|backlash|outrage|boycott|criticism|apology|lawsuit|regulation|drama|death threat|harassment|debate|dispute|炎上|批判|騒動|問題|不満|不買|ボイコット|謝罪|訴訟|規制|殺害予告|脅迫|誹謗中傷|嫌がらせ|議論|論争|物議|争议|舆论|抵制|道歉|节奏|不满|质疑|诉讼|监管|威胁|死亡威胁|骚扰)')
 VIDEO_SOURCE_RE = re.compile(r'(?i)(youtube|ニコニコ|tiktok|bilibili)')
 GUIDE_RE = re.compile(r'(?i)(攻略|評価とおすすめ|おすすめパーティ|最強|tier|build|guide|武器|音骸|素材|育成|イベント攻略|ガチャ攻略|リセマラ|初心者|タブレット|スマホ|スマートフォン|pc benchmark|新キャラ・未実装キャラまとめ|未実装キャラまとめ)')
 LEAK_SOURCE_BLOCK_RE = re.compile(r'(?i)(GameWith|Game8|Gamerch|アルテマ)')
@@ -181,6 +181,11 @@ def collect_from_xml(xml_bytes, category, lang):
 
 def controversy_template(title, source):
     """Create a richer shell for new controversy records.
+
+    Official-post/illustration/character fandom and shipping disputes are candidates.
+    Research must verify substantial spread and distinguish official facts from
+    fan interpretations. A headline alone never proves scale; small isolated
+    arguments are not adopted as researched articles.
 
     Factual long-form body/timeline and user reactions are intentionally not
     invented from an RSS headline. Those fields are filled only after source
