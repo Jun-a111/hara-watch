@@ -211,22 +211,18 @@ def controversy_template(title, source):
     }
 
 def keep_old(x):
-    if not isinstance(x, dict) or 'id' not in x:
-        return False
-    item_id = str(x.get('id', ''))
-    if item_id.startswith(('manual-', 'backfill-')):
-        return True
-    return wanted(clean(x.get('title')), clean(x.get('source')), x.get('category'))
+    # Discovery filters apply only to incoming RSS items. Published articles,
+    # including researched China-game coverage, must never be re-filtered.
+    return isinstance(x, dict) and isinstance(x.get('id'), str) and bool(x['id'])
 
 def main():
-    try:
-        old = json.loads(OUT.read_text('utf-8')) if OUT.exists() else []
-        if not isinstance(old, list):
-            old = []
-    except (ValueError, OSError):
-        old = []
+    old = json.loads(OUT.read_text('utf-8')) if OUT.exists() else []
+    if not isinstance(old, list) or not all(keep_old(x) for x in old):
+        raise ValueError('Invalid archive; leaving existing file intact')
+    if len({x['id'] for x in old}) != len(old):
+        raise ValueError('Duplicate archive IDs; leaving existing file intact')
 
-    items = {x['id']: x for x in old if keep_old(x)}
+    items = {x['id']: x for x in old}
     success = 0
     for category, lang, q, hl, gl, ceid in FEEDS:
         url = 'https://news.google.com/rss/search?' + urllib.parse.urlencode({
@@ -238,7 +234,8 @@ def main():
                 fetched = collect_from_xml(r.read(1500000), category, lang)
             success += 1
             for x in fetched:
-                items[x['id']] = x
+                # A recurring feed result must not replace researched content.
+                items.setdefault(x['id'], x)
             print(category, lang, len(fetched))
         except Exception as e:
             print('RSS read failed:', category, lang, str(e))
@@ -246,7 +243,7 @@ def main():
     if success == 0:
         raise RuntimeError('Every feed failed; leaving archive intact')
 
-    archive = sorted(items.values(), key=lambda x: (x.get('date',''), x.get('id','')), reverse=True)[:500]
+    archive = sorted(items.values(), key=lambda x: (x.get('date',''), x.get('id','')), reverse=True)
     OUT.parent.mkdir(parents=True, exist_ok=True)
     OUT.write_text(json.dumps(archive, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
     print('Focused archive', len(archive))
