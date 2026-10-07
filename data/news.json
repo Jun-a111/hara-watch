@@ -107,6 +107,66 @@
     ]
   },
   {
+    "id": "china-industry-20261003-shanghai-national-day-events",
+    "date": "2026-10-03",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "JP / EN / CN",
+    "title": "国慶節の上海にゲーム各社のイベントが集中。RED LANDと150超の店舗が連動",
+    "summary": "国慶節商戦を巡り、CgamesはTencent・NetEase・miHoYoの上海での競合に注目。10月2日に開幕したRED LANDでは100超のIPが集まり、周辺商業施設でもゲーム関連の期間限定イベントや来場者向け特典が展開された。",
+    "url": "https://www.shanghai.gov.cn/nw4411/20261003/ba7a704f7b5b4430bce5ffe10a4f59fb.html",
+    "source": "解放日報（上海市公式サイト掲載） / Cgames / 上海市",
+    "spoiler": false,
+    "tags": [
+      "国慶節",
+      "上海",
+      "リアルイベント",
+      "中国ゲーム業界"
+    ],
+    "body": "■ 国慶節商戦を上海で展開\n中国ゲーム業界メディアのCgamesは9月27日付の週報で、国慶節に向けたTencent・NetEase・miHoYoの上海での競合を取り上げた。連休中にはゲーム・アニメのリアルイベントと商業施設の企画が重なった。\n\n■ RED LANDに100超のIP\n上海市の公式案内によると、RedNote主催のRED LAND 2026は10月2〜6日、上海・楊浦区の復興島で開催する日程だった。100を超えるゲーム・アニメなどのIPが集まり、『Honor of Kings』『黒神話：悟空』『原神』『崩壊：スターレイル』などを案内。会場の探索エリアは10万平方メートル超に拡大した。\n\n■ イベントから周辺店舗へ\n10月3日付の解放日報は、前日に開幕したRED LANDの来場者が上海市内の観光や買い物も楽しむ様子を報じた。楊浦区では150超の店舗がチケットと連動した飲食・買い物などの特典を用意。商業施設の百聯ZXでは、NetEaseの『逆水寒』などの期間限定企画も展開された。\n\n同紙によると、主催側はチケット保有者の7〜8割が上海市外から来ると説明している。ゲーム関連イベントへの集客を、周辺の観光・商業施設への来訪にもつなげる取り組みが進められた。",
+    "timeline": [
+      {
+        "date": "2026年9月27日",
+        "text": "Cgamesが国慶節商戦を扱う週報を公開し、Tencent・NetEase・miHoYoの上海での競合を取り上げる。"
+      },
+      {
+        "date": "2026年10月2日",
+        "text": "復興島でRED LAND 2026が開幕。公式案内の開催期間は10月6日まで。"
+      },
+      {
+        "date": "2026年10月3日",
+        "text": "解放日報が現地の来場者動向と、150超の店舗によるチケット連動企画を報道。"
+      }
+    ],
+    "quoted_reactions": [],
+    "reactions": [],
+    "needs_research": false,
+    "sources": [
+      {
+        "name": "Cgames",
+        "url": "https://cgames.com/contents/2/13003.html",
+        "date": "2026-09-27",
+        "type": "報道"
+      },
+      {
+        "name": "上海市・日本語案内",
+        "url": "https://japanese.shanghai.gov.cn/ja-FlagshipEvents-2026ShanghaiSummer/20260727/43cf247dc09348fabeb7c46efd2cb7ba.html",
+        "type": "公式"
+      },
+      {
+        "name": "上海市・英語案内",
+        "url": "https://english.shanghai.gov.cn/en-MajorConsumerEvents/20260904/713dcf220e5242c1802d0482fdc510f7.html",
+        "type": "公式"
+      },
+      {
+        "name": "解放日報（上海市公式サイト掲載）",
+        "url": "https://www.shanghai.gov.cn/nw4411/20261003/ba7a704f7b5b4430bce5ffe10a4f59fb.html",
+        "date": "2026-10-03",
+        "type": "報道"
+      }
+    ]
+  },
+  {
     "id": "manual-20261005-starrail-inflation",
     "date": "2026-10-01",
     "category": "スタレ",
