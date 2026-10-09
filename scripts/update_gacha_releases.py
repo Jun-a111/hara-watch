@@ -30,7 +30,7 @@ class Links(HTMLParser):
   if tag=="a" and self.href:
    self.items.append((self.href," ".join(" ".join(self.parts).split())))
    self.href=None
-DATE_RE=re.compile(r"(20\\d{2})[年/\\-.](0?[1-9]|1[0-2])[月/\\-.](0?[1-9]|[12]\\d|3[01])日?")
+DATE_RE=re.compile(r"(20\d{2})[年/\-.](0?[1-9]|1[0-2])[月/\-.](0?[1-9]|[12]\d|3[01])日?")
 PHASE_FIRST=("前半","第一期","第1期","phase 1","phase i","上半")
 PHASE_SECOND=("後半","第二期","第2期","phase 2","phase ii","下半")
 def hints(text):
@@ -84,7 +84,7 @@ seen={}
 for x in history:
  if isinstance(x,dict) and x.get("game") in SOURCES and isinstance(x.get("url"),str) and x["url"].startswith("https://"):seen[(x["game"],x["url"])]=x
 for items in collected.values():
- for x in items:seen.setdefault((x["game"],x["url"]),x)
+ for x in items:seen[(x["game"],x["url"])]=dict(seen.get((x["game"],x["url"]),{}),**x)
 records=sorted(seen.values(),key=lambda x:x.get("detected_at",""),reverse=True)[:400]
 OUTPUT.write_text(json.dumps({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"status":out,"candidates":records},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print("Official announcement candidate links:",len(records),{k:v.get("links_found",0) for k,v in out.items()})
