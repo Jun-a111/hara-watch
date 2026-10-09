@@ -16,46 +16,49 @@
       "id": "zzz-clarette",
       "game": "zzz",
       "type": "character",
-      "version": "Clarette",
+      "version": "クラレット",
       "date": "2026-09-09",
       "source_url": "https://zenless.hoyoverse.com/m/fr-fr/news/165979",
       "source_title": "Version 3.2 Limited-Time Channels Phase 1",
       "phase": "first",
-      "version_group": "Ver.3.2"
+      "version_group": "Ver.3.2",
+      "event_kind": "debut"
     },
     {
       "id": "zzz-roxy",
       "game": "zzz",
       "type": "character",
-      "version": "Roxy",
+      "version": "ロキシ",
       "date": "2026-09-30",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
       "source_title": "Version 3.2 Phase II Content Overview",
       "phase": "second",
-      "version_group": "Ver.3.2"
+      "version_group": "Ver.3.2",
+      "event_kind": "debut"
     },
     {
       "id": "zzz-promeia",
       "game": "zzz",
       "type": "character",
-      "version": "Promeia",
+      "version": "プロメイア",
       "date": "2026-09-30",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
       "source_title": "Version 3.2 Phase II Content Overview",
       "phase": "second",
-      "version_group": "Ver.3.2"
+      "version_group": "Ver.3.2",
+      "event_kind": "featured_banner"
     },
     {
       "id": "gi-luna-vii-lohen",
       "game": "gi",
       "type": "character",
-      "version": "Lohen",
+      "version": "ローエン",
       "date": "2026-06-09",
       "phase": "second",
       "version_group": "Luna VII",
       "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
       "source_title": "Version Luna VII Event Wishes Notice - Phase II",
-      "event_kind": "featured_banner"
+      "event_kind": "debut"
     },
     {
       "id": "gi-luna-vii-mavuika-rerun",
