@@ -117,6 +117,45 @@
       "event_kind": "rerun",
       "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
       "source_title": "Ver.3.7 第一期 ユーノピックアップ（公式）"
+    },
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "type": "character",
+      "version": "鎖暝",
+      "date": "2026-10-22",
+      "phase": "second",
+      "version_group": "Ver.3.7",
+      "event_kind": "debut",
+      "source_url": "https://www.zaikei.co.jp/releases/3625683/",
+      "source_title": "KURO GAMES Ver.3.7公式発表、後半開始日時は攻略情報でも確認",
+      "schedule_status": "announced"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "type": "character",
+      "version": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "phase": "second",
+      "version_group": "Ver.3.7",
+      "event_kind": "rerun",
+      "source_url": "https://www.zaikei.co.jp/releases/3625683/",
+      "source_title": "KURO GAMES Ver.3.7公式発表、後半開始日時は攻略情報でも確認",
+      "schedule_status": "announced"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "type": "character",
+      "version": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "phase": "second",
+      "version_group": "Ver.3.7",
+      "event_kind": "rerun",
+      "source_url": "https://www.zaikei.co.jp/releases/3625683/",
+      "source_title": "KURO GAMES Ver.3.7公式発表、後半開始日時は攻略情報でも確認",
+      "schedule_status": "announced"
     }
   ]
 }
