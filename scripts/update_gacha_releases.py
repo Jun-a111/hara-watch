@@ -292,7 +292,10 @@ for game,url in SOURCES.items():
   for title,link in SEEDS.get(game,[]):
    if not any(item["url"]==link for item in matched):matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
   collected[game]=list({x["url"]:x for x in matched}.values())[:80]
-  for item in collected[game][:8]:
+  # Prioritize newly discovered links for body analysis, while preserving seeded fallback.
+  discovered_urls={x["url"] for x in matched[:discovered_count]}
+  selected=sorted(collected[game],key=lambda x:(x["url"] not in discovered_urls,x["url"] in {u for _,u in SEEDS.get(game,[])}))[:12]
+  for item in selected:
    detail=page_hints(item["url"])
    if detail.get("body_status")=="unavailable":detail=rendered_hints(item["url"])
    item["date_candidates"]=detail["date_candidates"][:8]
