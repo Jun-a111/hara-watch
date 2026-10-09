@@ -46,7 +46,7 @@ SEEDS={
  ],
  "end":[
   ("特別スカウト「臨淵望北」","https://endfield.gryphline.com/ja-jp/news/2656"),
-  ("再現スカウト「超爆盛れカラフル」告知","https://endfield.gryphline.com/ja-jp/news/5208")
+  ("「雪氷の幽夢」バージョンアップデートについて","https://endfield.gryphline.com/ja-jp/news/5208")
  ]
 }
 KEYWORDS=("ガチャ","集音","祈願","跳躍","チャンネル","ピックアップ","新キャラ","実装","アップデート","バージョン","version","banner","update","recruit","new character","活动","卡池","版本","更新")
@@ -254,7 +254,7 @@ def browser_news_links(game,url):
     path=parsed.path.rstrip("/")
     if not path or path.endswith("/news") or path.endswith("/index.html"):continue
     if not ("/news/" in path or "/article/" in path):continue
-    if not title or not any(k in title.lower() for k in KEYWORDS):continue
+    if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
     matched.append((title,link))
    return list(dict.fromkeys(matched))[:50],"ok"
   finally:page.close()
