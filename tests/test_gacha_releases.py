@@ -158,4 +158,10 @@ class ExtractionCacheTests(unittest.TestCase):
   self.assertIn('item["extraction_version"]=2',source)
   self.assertIn('"character_candidates","extraction_version"',source)
 
+class CandidateSelectionTests(unittest.TestCase):
+ def test_stale_periods_prioritized(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn("stale and has_periods",source)
+  self.assertIn("selected=sorted(collected[game],key=selection_priority)[:12]",source)
+
 if __name__=="__main__":unittest.main()
