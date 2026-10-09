@@ -337,7 +337,7 @@ def browser_news_links(game,url):
 
 def save_candidates(payload):
  """Write atomically and validate before replacing the last usable candidate file."""
- content=json.dumps(payload,ensure_ascii=False,indent=2)+"\\n"
+ content=json.dumps(payload,ensure_ascii=False,indent=2)+"\n"
  decoded=json.loads(content)
  if decoded.get("schema")!="gacha-wars-release-candidates-v1" or not isinstance(decoded.get("candidates"),list):
   raise ValueError("Invalid official news candidate data")
