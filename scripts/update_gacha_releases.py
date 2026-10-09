@@ -75,13 +75,16 @@ def hints(text):
  second=any(k in low for k in PHASE_SECOND)
  return {"date_candidates":list(dict.fromkeys(dates))[:8],
          "phase_hint":"first" if first and not second else "second" if second and not first else "unknown"}
-PERIOD_RE=re.compile(r"(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)[^。\n]{0,65}?(?:～|〜|~|から|to|至)[^。\n]{0,35}?(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)",re.I)
+DATE_TOKEN=r"20\\d{2}(?:年|[./-])\\s*\\d{1,2}(?:月|[./-])\\s*\\d{1,2}日?"
+CLOCK_TOKEN=r"(?:\\s*[（(]?\\s*\\d{1,2}[:：時]\\d{0,2}分?\\s*[）)]?)?"
+PERIOD_RE=re.compile(r"("+DATE_TOKEN+CLOCK_TOKEN+r")\\s*(?:～|〜|~|－|–|—|から|to|至)\\s*("+DATE_TOKEN+CLOCK_TOKEN+r")",re.I)
+DATE_PREFIX_RE=re.compile(r"("+DATE_TOKEN+CLOCK_TOKEN+r")\\s*(?:～|〜|~|－|–|—|から|to|至)\\s*(\\d{1,2}月\\s*\\d{1,2}日"+CLOCK_TOKEN+r")",re.I)
 CHARACTER_CONTEXT=("提供割合が上昇","ピックアップ中","★6オペレーター","登場キャラクター","対象キャラクター","ピックアップ対象","限定キャラクター","対象エージェント","集音対象","祈願対象","跳躍対象","スカウト対象")
 QUOTED_NAME=re.compile(r"[「『〖](.{2,18}?)[」』〗]")
 NON_CHARACTER=("スカウト","ガチャ","イベント","チャンネル","祈願","集音","ピックアップ","バージョン","開催","更新","期間","記憶","武器","訓練","作戦","ショップ","任務","ストーリー")
 def article_details(text):
  text=" ".join(text.split())
- periods=[{"raw":m.group(0)[:110],"start_raw":m.group(1),"end_raw":m.group(2)} for m in PERIOD_RE.finditer(text)][:5]
+ periods=[{"raw":m.group(0)[:110],"start_raw":m.group(1),"end_raw":m.group(2)} for pattern in (PERIOD_RE,DATE_PREFIX_RE) for m in pattern.finditer(text)][:5]
  characters=[]
  for clue in CHARACTER_CONTEXT:
   for match in re.finditer(re.escape(clue),text):
