@@ -26,7 +26,9 @@ jobs:
       - name: 収集スクリプト構文検査
         run: python -m py_compile scripts/update_gacha_releases.py
       - name: 公式告知収集の回帰テスト
-        run: python -m unittest discover -s tests -p "test_gacha_releases.py" -v
+        run: |
+          python -m unittest discover -s tests -p "test_gacha_releases.py" -v 2>&1 | tee gacha-release-tests.log
+          exit ${PIPESTATUS[0]}
       - name: 現在の候補JSONの検証
         run: |
           python - <<'PY'
@@ -38,6 +40,14 @@ jobs:
           assert isinstance(d["candidates"],list)
           print("Saved candidates:",len(d["candidates"]),"updated:",d.get("updated_at"))
           PY
+      - name: 検証失敗時のテストログ保存
+        if: failure()
+        uses: actions/upload-artifact@v4
+        with:
+          name: gacha-release-test-failure
+          path: gacha-release-tests.log
+          if-no-files-found: warn
+          retention-days: 7
   collect:
     needs: validate
     runs-on: ubuntu-latest
