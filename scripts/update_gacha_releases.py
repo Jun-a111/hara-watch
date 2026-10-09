@@ -112,19 +112,60 @@ class ArticleText(HTMLParser):
   if self.in_body and not self.skip:
    self.body.append(data)
    if self.depth:self.parts.append(data)
+class StructuredArticle(HTMLParser):
+ """Read article text from JSON-LD and selected metadata, never arbitrary app state."""
+ def __init__(self):
+  super().__init__();self.capture=False;self.scripts=[];self.current=[];self.meta=[]
+ def handle_starttag(self,tag,attrs):
+  a=dict(attrs)
+  if tag=="script" and a.get("type","").lower()=="application/ld+json":
+   self.capture=True;self.current=[]
+  if tag=="meta" and a.get("property") in ("og:description","article:description"):
+   self.meta.append(a.get("content",""))
+  if tag=="meta" and a.get("name")=="description":
+   self.meta.append(a.get("content",""))
+ def handle_data(self,data):
+  if self.capture:self.current.append(data)
+ def handle_endtag(self,tag):
+  if tag=="script" and self.capture:
+   self.scripts.append("".join(self.current));self.capture=False
+ def texts(self):
+  out=[]
+  def visit(node,depth=0):
+   if depth>5:return
+   if isinstance(node,list):
+    for item in node[:30]:visit(item,depth+1)
+   elif isinstance(node,dict):
+    typ=node.get("@type",[])
+    if isinstance(typ,str):typ=[typ]
+    if any(t in ("NewsArticle","Article","BlogPosting") for t in typ):
+     for field in ("headline","articleBody","description"):
+      if isinstance(node.get(field),str):out.append(node[field])
+    if "@graph" in node:visit(node["@graph"],depth+1)
+  for data in self.scripts[:15]:
+   try:visit(json.loads(data))
+   except (ValueError,TypeError):pass
+  return out
+def blank_hints(status,context):
+ return {"date_candidates":[],"phase_hint":"unknown","date_context":context,
+         "body_status":status,"period_candidates":[],"character_candidates":[]}
 def page_hints(url):
  try:
   request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; GachaWars/1.0)"})
   with urllib.request.urlopen(request,timeout=10) as response:body=response.read(450000).decode("utf-8","replace")
   parser=ArticleText();parser.feed(body)
+  structured=StructuredArticle();structured.feed(body)
   main=" ".join(parser.parts)
   full=" ".join(parser.body)
-  if len(main)>=80:text=main;context="記事本文（main/article）"
-  elif len(full)>=200 and not urlparse(url).path.rstrip("/").endswith("/news") and "index.html" not in url:
-   text=full;context="記事ページの表示テキスト（要確認）"
-  else:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文未取得","body_status":"unavailable","period_candidates":[],"character_candidates":[]}
+  rich=" ".join(structured.texts())
+  path=urlparse(url).path.rstrip("/")
+  listing=path.endswith("/news") or path.endswith("/index.html") or path=="/"
+  if listing:return blank_hints("listing","ニュース一覧は本文解析対象外")
+  if len(rich)>=80:text=rich;context="構造化された記事本文"
+  elif len(main)>=80:text=main;context="main/article の本文"
+  elif len(full)>=200:text=full;context="記事ページの表示テキスト（要確認）"
+  else:return blank_hints("unavailable","本文未取得（JavaScript表示の可能性）")
   output=article_details(text[:18000])
-  # Calendar dates require explicit event-period context to avoid copyright/footer dates.
   output["date_candidates"]=[]
   for period in output["period_candidates"]:
    for raw in (period["start_raw"],period["end_raw"]):
@@ -140,7 +181,10 @@ def page_hints(url):
   output["date_context"]=context+"（開催日未確定）"
   output["body_status"]="extracted"
   return output
- except Exception:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文取得失敗","body_status":"error","period_candidates":[],"character_candidates":[]}
+ except Exception as error:
+  result=blank_hints("error","本文取得失敗")
+  result["body_error"]=str(error)[:100]
+  return result
 
 now=datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
@@ -171,10 +215,11 @@ for game,url in SOURCES.items():
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
    item["date_context"]=detail.get("date_context","本文未取得")
    item["body_status"]=detail.get("body_status","unavailable")
+   if detail.get("body_error"):item["body_error"]=detail["body_error"]
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"body_parsed":sum(x.get("body_status")=="extracted" for x in collected[game]),"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
+  out[game]={"ok":True,"body_errors":sum(x.get("body_status")=="error" for x in collected[game]),"body_parsed":sum(x.get("body_status")=="extracted" for x in collected[game]),"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
