@@ -213,7 +213,7 @@ class WutheringBodyQualityTests(unittest.TestCase):
   source=SCRIPT.read_text(encoding="utf-8")
   from urllib.parse import urlparse
   import re
-  ns={"urlparse":urlparse,"DATE_RE":re.compile(r"20\\d{2}[年/-]\\d{1,2}[月/-]\\d{1,2}")}
+  ns={"urlparse":urlparse,"DATE_RE":re.compile(r"20\d{2}[年/-]\d{1,2}[月/-]\d{1,2}")}
   exec(source[source.index("def article_text_quality("):source.index("def rendered_hints(")],ns)
   url="https://wutheringwaves.kurogames.com/jp/main/news/detail/5547"
   shell="鳴潮 ニュース アップデート ホーム キャラクター "*20
