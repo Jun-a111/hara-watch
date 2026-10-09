@@ -375,12 +375,12 @@ for game,url in SOURCES.items():
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
-  # Save a checkpoint after each game so a slow later site cannot erase all diagnostics.
-  partial={(x["game"],x["url"]):x for x in history if isinstance(x,dict) and x.get("game") in SOURCES and isinstance(x.get("url"),str) and x["url"].startswith("https://")}
-  for group in collected.values():
-   for item in group:partial[(item["game"],item["url"])]=dict(partial.get((item["game"],item["url"]),{}),**item)
-  OUTPUT.write_text(json.dumps({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"collection_partial":len(out)<len(SOURCES),"status":out,"candidates":list(partial.values())[:400]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
-  print("Checkpoint",game,"browser",out[game].get("browser_links_found"),"diag",out[game].get("browser_diagnostics"),flush=True)
+ # Save a checkpoint after each game so a slow later site cannot erase all diagnostics.
+ partial={(x["game"],x["url"]):x for x in history if isinstance(x,dict) and x.get("game") in SOURCES and isinstance(x.get("url"),str) and x["url"].startswith("https://")}
+ for group in collected.values():
+  for item in group:partial[(item["game"],item["url"])]=dict(partial.get((item["game"],item["url"]),{}),**item)
+ OUTPUT.write_text(json.dumps({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"collection_partial":len(out)<len(SOURCES),"status":out,"candidates":list(partial.values())[:400]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+ print("Checkpoint",game,"browser",out[game].get("browser_links_found"),"diag",out[game].get("browser_diagnostics"),flush=True)
 seen={}
 for x in history:
  if not isinstance(x,dict) or x.get("game") not in SOURCES or not isinstance(x.get("url"),str) or not x["url"].startswith("https://"):continue
