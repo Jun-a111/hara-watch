@@ -261,14 +261,16 @@ def browser_news_links(game,url):
    def collect_response(response):
     try:
      if len(api_items)>=100 or "json" not in response.headers.get("content-type","").lower():return
-     if (urlparse(response.url).hostname or "")!=(urlparse(url).hostname or ""):return
-     if not re.search(r"news|article|notice|information|list",response.url,re.I):return
+     host=urlparse(response.url).hostname or ""
+     trusted=host==(urlparse(url).hostname or "") or (game=="ww" and host.endswith(".kurogames.com")) or (game=="end" and host.endswith(".gryphline.com"))
+     if not trusted:return
+     if len(response.body())>1500000:return
      payload=response.json()
      api_items.extend(json_news_items(payload)[:80])
     except Exception:pass
    page.on("response",collect_response)
    page.goto(url,wait_until="domcontentloaded",timeout=20000)
-   page.wait_for_timeout(1800)
+   page.wait_for_timeout(2600)
    links=page.locator("a[href]").evaluate_all("(nodes) => nodes.map(a => ({href:a.href,title:(a.innerText||a.textContent||a.getAttribute('aria-label')||a.parentElement?.innerText||'').trim()})).slice(0,1200)")
    home=urlparse(url).hostname or ""
    matched=[]
