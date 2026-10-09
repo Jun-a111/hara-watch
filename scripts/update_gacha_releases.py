@@ -535,8 +535,8 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
   cache={x.get("url"):x for x in history if isinstance(x,dict) and x.get("game")==game}
   for item in selected:
    previous=cache.get(item["url"],{})
-   if previous.get("body_status") in ("rendered","extracted") and isinstance(previous.get("period_candidates"),list) and isinstance(previous.get("character_candidates"),list):
-    for field in ("date_candidates","date_context","body_status","period_candidates","character_candidates"):
+   if previous.get("extraction_version")==2 and previous.get("body_status") in ("rendered","extracted") and isinstance(previous.get("period_candidates"),list) and isinstance(previous.get("character_candidates"),list):
+    for field in ("date_candidates","date_context","body_status","period_candidates","character_candidates","extraction_version"):
      if field in previous:item[field]=previous[field]
     if item["phase_hint"]=="unknown":item["phase_hint"]=previous.get("phase_hint","unknown")
     continue
@@ -549,6 +549,7 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
    if detail.get("body_error"):item["body_error"]=detail["body_error"]
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
+   if item["body_status"] in ("rendered","extracted"):item["extraction_version"]=2
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
   out[game]={"ok":True,"body_cached":sum(x.get("url") in cache and x.get("body_status") in ("rendered","extracted") for x in collected[game]),"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"static_index_error":static_error,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","browser_diagnostics":browser_diag,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
