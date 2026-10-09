@@ -1,5 +1,42 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": null,
-  "events": []
+  "updated_at": "2026-10-09",
+  "events": [
+    {
+      "id": "zzz-3.2",
+      "game": "zzz",
+      "type": "version",
+      "version": "Ver.3.2",
+      "date": "2026-09-09",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/166000",
+      "source_title": "Version 3.2 Update Announcement"
+    },
+    {
+      "id": "zzz-clarette",
+      "game": "zzz",
+      "type": "character",
+      "version": "Clarette",
+      "date": "2026-09-09",
+      "source_url": "https://zenless.hoyoverse.com/m/fr-fr/news/165979",
+      "source_title": "Version 3.2 Limited-Time Channels Phase 1"
+    },
+    {
+      "id": "zzz-roxy",
+      "game": "zzz",
+      "type": "character",
+      "version": "Roxy",
+      "date": "2026-09-30",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
+      "source_title": "Version 3.2 Phase II Content Overview"
+    },
+    {
+      "id": "zzz-promeia",
+      "game": "zzz",
+      "type": "character",
+      "version": "Promeia",
+      "date": "2026-09-30",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
+      "source_title": "Version 3.2 Phase II Content Overview"
+    }
+  ]
 }
