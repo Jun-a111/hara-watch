@@ -78,7 +78,7 @@ def hints(text):
 PERIOD_RE=re.compile(r"(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)[^。\n]{0,65}?(?:～|〜|~|から|to|至)[^。\n]{0,35}?(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)",re.I)
 CHARACTER_CONTEXT=("提供割合が上昇","ピックアップ中","★6オペレーター","登場キャラクター","対象キャラクター","ピックアップ対象","限定キャラクター","対象エージェント","集音対象","祈願対象","跳躍対象","スカウト対象")
 QUOTED_NAME=re.compile(r"[「『〖](.{2,18}?)[」』〗]")
-NON_CHARACTER=("スカウト","ガチャ","イベント","チャンネル","祈願","集音","ピックアップ","バージョン","開催","更新","期間","記憶","武器")
+NON_CHARACTER=("スカウト","ガチャ","イベント","チャンネル","祈願","集音","ピックアップ","バージョン","開催","更新","期間","記憶","武器","訓練","作戦","ショップ","任務","ストーリー")
 def article_details(text):
  text=" ".join(text.split())
  periods=[{"raw":m.group(0)[:110],"start_raw":m.group(1),"end_raw":m.group(2)} for m in PERIOD_RE.finditer(text)][:5]
@@ -86,7 +86,7 @@ def article_details(text):
  for clue in CHARACTER_CONTEXT:
   for match in re.finditer(re.escape(clue),text):
    # Restrict to text after the explicit target label; avoid unrelated quoted announcements.
-   excerpt=text[match.end():match.end()+75]
+   excerpt=text[match.end():match.end()+65]
    for name in QUOTED_NAME.findall(excerpt):
     if any(word in name for word in NON_CHARACTER) or re.search(r"\d{4}|Ver\.|版本",name,re.I):continue
     if name not in characters:characters.append(name)
