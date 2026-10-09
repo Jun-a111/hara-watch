@@ -10,7 +10,8 @@
       "date": "2026-09-09",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166000",
       "source_title": "Version 3.2 Update Announcement",
-      "phase": "first"
+      "phase": "first",
+      "verification": "unreviewed"
     },
     {
       "id": "zzz-clarette",
@@ -22,7 +23,8 @@
       "source_title": "Version 3.2 Limited-Time Channels Phase 1",
       "phase": "first",
       "version_group": "Ver.3.2",
-      "event_kind": "debut"
+      "event_kind": "debut",
+      "verification": "unreviewed"
     },
     {
       "id": "zzz-roxy",
@@ -30,23 +32,25 @@
       "type": "character",
       "version": "ロキシ",
       "date": "2026-09-30",
-      "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
-      "source_title": "Version 3.2 Phase II Content Overview",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/166475?catchSpider=1",
+      "source_title": "Ver.3.2 後半ガチャ公式告知",
       "phase": "second",
       "version_group": "Ver.3.2",
-      "event_kind": "debut"
+      "event_kind": "debut",
+      "verification": "official"
     },
     {
       "id": "zzz-promeia",
       "game": "zzz",
       "type": "character",
-      "version": "プロメイア",
+      "version": "プロメイア（復刻）",
       "date": "2026-09-30",
-      "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
-      "source_title": "Version 3.2 Phase II Content Overview",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/166475?catchSpider=1",
+      "source_title": "Ver.3.2 後半ガチャ公式告知",
       "phase": "second",
       "version_group": "Ver.3.2",
-      "event_kind": "featured_banner"
+      "event_kind": "rerun",
+      "verification": "official"
     },
     {
       "id": "gi-luna-vii-lohen",
@@ -58,7 +62,8 @@
       "version_group": "Luna VII",
       "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
       "source_title": "Version Luna VII Event Wishes Notice - Phase II",
-      "event_kind": "debut"
+      "event_kind": "debut",
+      "verification": "official"
     },
     {
       "id": "gi-luna-vii-mavuika-rerun",
@@ -70,7 +75,8 @@
       "version_group": "Luna VII",
       "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
       "source_title": "Luna VII 後半の公式祈願告知",
-      "event_kind": "rerun"
+      "event_kind": "rerun",
+      "verification": "official"
     },
     {
       "id": "ww-3.7",
@@ -80,7 +86,8 @@
       "date": "2026-09-30",
       "phase": "first",
       "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
-      "source_title": "Ver.3.7 9月30日配信開始（公式）"
+      "source_title": "Ver.3.7 9月30日配信開始（公式）",
+      "verification": "official"
     },
     {
       "id": "ww-3.7-kokoro",
@@ -92,7 +99,8 @@
       "version_group": "Ver.3.7",
       "event_kind": "debut",
       "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
-      "source_title": "Ver.3.7 第一期 心ピックアップ（公式）"
+      "source_title": "Ver.3.7 第一期 心ピックアップ（公式）",
+      "verification": "official"
     },
     {
       "id": "ww-3.7-chisaki",
@@ -104,7 +112,8 @@
       "version_group": "Ver.3.7",
       "event_kind": "rerun",
       "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
-      "source_title": "Ver.3.7 第一期 千咲ピックアップ（公式）"
+      "source_title": "Ver.3.7 第一期 千咲ピックアップ（公式）",
+      "verification": "official"
     },
     {
       "id": "ww-3.7-iuno",
@@ -115,8 +124,9 @@
       "phase": "first",
       "version_group": "Ver.3.7",
       "event_kind": "rerun",
-      "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
-      "source_title": "Ver.3.7 第一期 ユーノピックアップ（公式）"
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+      "source_title": "Ver.3.7 第一期 ユーノピックアップ（公式）",
+      "verification": "official"
     },
     {
       "id": "ww-3.7-samei",
@@ -128,8 +138,9 @@
       "version_group": "Ver.3.7",
       "event_kind": "debut",
       "source_url": "https://www.zaikei.co.jp/releases/3625683/",
-      "source_title": "KURO GAMES Ver.3.7公式発表、後半開始日時は攻略情報でも確認",
-      "schedule_status": "announced"
+      "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
+      "schedule_status": "announced",
+      "verification": "secondary"
     },
     {
       "id": "ww-3.7-linne",
@@ -141,8 +152,9 @@
       "version_group": "Ver.3.7",
       "event_kind": "rerun",
       "source_url": "https://www.zaikei.co.jp/releases/3625683/",
-      "source_title": "KURO GAMES Ver.3.7公式発表、後半開始日時は攻略情報でも確認",
-      "schedule_status": "announced"
+      "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
+      "schedule_status": "announced",
+      "verification": "secondary"
     },
     {
       "id": "ww-3.7-lucilla",
@@ -154,8 +166,9 @@
       "version_group": "Ver.3.7",
       "event_kind": "rerun",
       "source_url": "https://www.zaikei.co.jp/releases/3625683/",
-      "source_title": "KURO GAMES Ver.3.7公式発表、後半開始日時は攻略情報でも確認",
-      "schedule_status": "announced"
+      "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
+      "schedule_status": "announced",
+      "verification": "secondary"
     }
   ]
 }
