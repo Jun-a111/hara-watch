@@ -23,6 +23,10 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: 収集コードの構文チェック
+        run: python -m py_compile scripts/update_gacha_releases.py
+      - name: 開催期間・キャラ名の抽出テスト
+        run: python -m unittest discover -s tests -p "test_gacha_releases.py" -v
       - name: ブラウザ解析を準備
         run: |
           python -m pip install --upgrade pip
@@ -32,10 +36,6 @@ jobs:
       - name: Playwright本文取得APIの動作確認
         run: |
           python -c "from playwright.sync_api import sync_playwright; p=sync_playwright().start(); b=p.chromium.launch(headless=True); page=b.new_page(); page.set_content('<main>公式告知テスト本文</main>'); assert page.locator('main, article').all_text_contents()==['公式告知テスト本文']; print('Playwright 本文取得成功'); b.close(); p.stop()"
-      - name: 収集コードの構文チェック
-        run: python -m py_compile scripts/update_gacha_releases.py
-      - name: 開催期間・キャラ名の抽出テスト
-        run: python -m unittest discover -s tests -p "test_gacha_releases.py" -v
       - name: 公式告知の候補リンクを集める
         run: |
           set +e
