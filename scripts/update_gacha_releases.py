@@ -252,19 +252,35 @@ def wuthering_steam_announcements():
  endpoint="https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=3513350&count=60&maxlength=0&format=json"
  found=[]
  errors=[]
+ diag={"api_items":0,"bad_url":0,"bad_host":0,"non_news_path":0,"other_game":0,"bad_title":0,"matched":0,"html_links":0,"html_matched":0,"sample_hosts":[],"sample_titles":[]}
  try:
   req=urllib.request.Request(endpoint,headers={"User-Agent":"GachaWars/1.0"})
   with urllib.request.urlopen(req,timeout=14) as response:data=json.load(response)
-  for item in data.get("appnews",{}).get("newsitems",[]):
+  news=data.get("appnews",{}).get("newsitems",[])
+  diag["api_items"]=len(news)
+  for item in news:
    title=item.get("title","")
    link=item.get("url","")
-   if not isinstance(title,str) or not isinstance(link,str):continue
+   if not isinstance(title,str) or not isinstance(link,str):
+    diag["bad_url"]+=1
+    continue
+   if len(diag["sample_titles"])<5:diag["sample_titles"].append(title[:100])
    parsed=urlparse(link)
-   if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","wutheringwaves.kurogames.com"):continue
-   if parsed.hostname=="store.steampowered.com" and "/news/" not in parsed.path:continue
-   if parsed.hostname=="steamcommunity.com" and not ("/games/3513350/" in parsed.path or "/app/3513350/" in parsed.path):continue
-   if not any(keyword in title.lower() for keyword in KEYWORDS):continue
+   if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","wutheringwaves.kurogames.com"):
+    diag["bad_host"]+=1
+    if len(diag["sample_hosts"])<6:diag["sample_hosts"].append(parsed.hostname or "")
+    continue
+   if parsed.hostname=="store.steampowered.com" and "/news/" not in parsed.path:
+    diag["non_news_path"]+=1
+    continue
+   if parsed.hostname=="steamcommunity.com" and not ("/games/3513350/" in parsed.path or "/app/3513350/" in parsed.path):
+    diag["other_game"]+=1
+    continue
+   if not any(keyword in title.lower() for keyword in KEYWORDS):
+    diag["bad_title"]+=1
+    continue
    found.append((title[:180],link))
+   diag["matched"]+=1
  except Exception as error:errors.append("api: "+str(error)[:100])
  if not found:
   try:
@@ -272,15 +288,18 @@ def wuthering_steam_announcements():
    req=urllib.request.Request(page_url,headers={"User-Agent":"Mozilla/5.0"})
    with urllib.request.urlopen(req,timeout=14) as response:html=response.read(1300000).decode("utf-8","replace")
    parser=Links();parser.feed(html)
+   diag["html_links"]=len(parser.items)
    for href,title in parser.items:
     link=urljoin(page_url,href)
     parsed=urlparse(link)
     if parsed.hostname not in ("steamcommunity.com","store.steampowered.com"):continue
     if not ("/announcements/detail/" in parsed.path or "/news/app/3513350/" in parsed.path):continue
     title=" ".join(title.split())[:180]
-    if title and any(keyword in title.lower() for keyword in KEYWORDS):found.append((title,link))
+    if title and any(keyword in title.lower() for keyword in KEYWORDS):
+     found.append((title,link))
+     diag["html_matched"]+=1
   except Exception as error:errors.append("html: "+str(error)[:100])
- return list(dict.fromkeys(found))[:25],"; ".join(errors)
+ return list(dict.fromkeys(found))[:25],"; ".join(errors),diag
 
 def endfield_news_items(value,depth=0):
  """Extract Endfield title/cid identifiers, keeping URLs provisional until verified."""
@@ -470,7 +489,8 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
    browser_diag["english_mobile_error"]=extra_error[:160]
    browser_links.extend(extra_links)
    if not browser_links:
-    steam_links,steam_error=wuthering_steam_announcements()
+    steam_links,steam_error,steam_diag=wuthering_steam_announcements()
+    browser_diag["steam_fallback_diagnostics"]=steam_diag
     browser_diag["steam_fallback_found"]=len(steam_links)
     browser_diag["steam_fallback_error"]=steam_error
     browser_links.extend(steam_links)
