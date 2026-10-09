@@ -279,6 +279,7 @@ for game,url in SOURCES.items():
    if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
    if not link.startswith("https://"):continue
    matched.append({"game":game,"title":title[:180],"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
+  static_found=len(matched)
   browser_found=0
   browser_error=""
   if not matched:
@@ -302,7 +303,7 @@ for game,url in SOURCES.items():
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":discovered_count,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
+  out[game]={"ok":True,"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
