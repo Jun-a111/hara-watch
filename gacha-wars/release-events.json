@@ -44,6 +44,18 @@
       "source_title": "Version 3.2 Phase II Content Overview",
       "phase": "second",
       "version_group": "Ver.3.2"
+    },
+    {
+      "id": "gi-luna-vii-lohen",
+      "game": "gi",
+      "type": "character",
+      "version": "Lohen",
+      "date": "2026-06-09",
+      "phase": "second",
+      "version_group": "Luna VII",
+      "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
+      "source_title": "Version Luna VII Event Wishes Notice - Phase II",
+      "event_kind": "featured_banner"
     }
   ]
 }
