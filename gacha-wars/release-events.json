@@ -56,6 +56,18 @@
       "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
       "source_title": "Version Luna VII Event Wishes Notice - Phase II",
       "event_kind": "featured_banner"
+    },
+    {
+      "id": "gi-luna-vii-mavuika-rerun",
+      "game": "gi",
+      "type": "character",
+      "version": "マーヴィカ（復刻）",
+      "date": "2026-06-09",
+      "phase": "second",
+      "version_group": "Luna VII",
+      "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
+      "source_title": "Luna VII 後半の公式祈願告知",
+      "event_kind": "featured_banner"
     }
   ]
 }
