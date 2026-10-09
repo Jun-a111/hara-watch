@@ -232,6 +232,21 @@ def close_browser():
  if _browser:_browser.close();_browser=None
  if _browser_driver:_browser_driver.stop();_browser_driver=None
 
+def json_news_items(value,depth=0):
+ """Discover title/URL pairs from official news API responses, never invent links."""
+ if depth>7:return []
+ if isinstance(value,list):
+  items=[]
+  for part in value[:120]:items.extend(json_news_items(part,depth+1))
+  return items
+ if not isinstance(value,dict):return []
+ title=next((value[k] for k in ("title","newsTitle","articleTitle","headline","name") if isinstance(value.get(k),str) and len(value[k])>5),None)
+ url=next((value[k] for k in ("url","link","href","newsUrl","articleUrl") if isinstance(value.get(k),str)),None)
+ out=[(title,url)] if title and url else []
+ for key,v in value.items():
+  if isinstance(v,(dict,list)) and key not in ("translations","locale","locales"):out.extend(json_news_items(v,depth+1))
+ return out
+
 def browser_news_links(game,url):
  """Read news-list anchors after client-side rendering, not announcement text."""
  global _browser,_browser_driver
@@ -242,12 +257,22 @@ def browser_news_links(game,url):
    _browser=_browser_driver.chromium.launch(headless=True,args=["--no-sandbox"])
   page=_browser.new_page(locale="ja-JP")
   try:
+   api_items=[]
+   def collect_response(response):
+    try:
+     if len(api_items)>=100 or "json" not in response.headers.get("content-type","").lower():return
+     if (urlparse(response.url).hostname or "")!=(urlparse(url).hostname or ""):return
+     if not re.search(r"news|article|notice|information|list",response.url,re.I):return
+     payload=response.json()
+     api_items.extend(json_news_items(payload)[:80])
+    except Exception:pass
+   page.on("response",collect_response)
    page.goto(url,wait_until="domcontentloaded",timeout=20000)
    page.wait_for_timeout(1800)
    links=page.locator("a[href]").evaluate_all("(nodes) => nodes.map(a => ({href:a.href,title:(a.innerText||a.textContent||a.getAttribute('aria-label')||a.parentElement?.innerText||'').trim()})).slice(0,1200)")
    home=urlparse(url).hostname or ""
    matched=[]
-   for x in links:
+   for x in links+ [{"href":urljoin(url,href),"title":title} for title,href in api_items]:
     link=str(x.get("href",""));title=" ".join(str(x.get("title","")).split())[:180]
     parsed=urlparse(link)
     if parsed.scheme!="https" or not parsed.hostname or not (parsed.hostname==home or parsed.hostname.endswith("."+home)):continue
