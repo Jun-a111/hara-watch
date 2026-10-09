@@ -89,27 +89,40 @@ def article_details(text):
     if name not in characters:characters.append(name)
  return {"period_candidates":periods,"character_candidates":characters[:12],"extraction_note":"本文の表現から抽出した未検証の候補"}
 class ArticleText(HTMLParser):
- def __init__(self):super().__init__();self.depth=0;self.parts=[];self.title=[];self.in_title=False;self.skip=0
+ def __init__(self):
+  super().__init__();self.depth=0;self.parts=[];self.body=[];self.title=[];self.in_title=False;self.skip=0;self.in_body=False
  def handle_starttag(self,tag,attrs):
-  if tag in ("script","style","footer","nav"):self.skip+=1
+  if tag in ("script","style","footer","nav","header"):self.skip+=1
+  if tag=="body":self.in_body=True
   if tag=="title":self.in_title=True
   if tag in ("article","main"):self.depth+=1
  def handle_endtag(self,tag):
-  if tag in ("script","style","footer","nav"):self.skip=max(0,self.skip-1)
+  if tag in ("script","style","footer","nav","header"):self.skip=max(0,self.skip-1)
   if tag=="title":self.in_title=False
   if tag in ("article","main"):self.depth=max(0,self.depth-1)
+  if tag=="body":self.in_body=False
  def handle_data(self,data):
   if self.in_title:self.title.append(data)
-  if self.depth and not self.skip:self.parts.append(data)
+  if self.in_body and not self.skip:
+   self.body.append(data)
+   if self.depth:self.parts.append(data)
 def page_hints(url):
  try:
   request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; GachaWars/1.0)"})
   with urllib.request.urlopen(request,timeout=10) as response:body=response.read(450000).decode("utf-8","replace")
   parser=ArticleText();parser.feed(body)
-  text=" ".join(parser.title+parser.parts)
-  # Only use article/main text. Listing pages and generic page metadata are excluded.
-  if len(" ".join(parser.parts))<80:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文未取得","body_status":"unavailable","period_candidates":[],"character_candidates":[]}
-  output=hints(text[:18000]);output.update(article_details(text[:18000]));output["body_status"]="extracted";output["date_context"]="記事本文内の候補（開催日未確定）"
+  main=" ".join(parser.parts)
+  full=" ".join(parser.body)
+  if len(main)>=80:text=main;context="記事本文（main/article）"
+  elif len(full)>=200 and not urlparse(url).path.rstrip("/").endswith("/news") and "index.html" not in url:
+   text=full;context="記事ページの表示テキスト（要確認）"
+  else:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文未取得","body_status":"unavailable","period_candidates":[],"character_candidates":[]}
+  output=article_details(text[:18000])
+  # Calendar dates require explicit event-period context to avoid copyright/footer dates.
+  output["date_candidates"]=[]
+  output["phase_hint"]=hints(" ".join(parser.title)+text[:1000])["phase_hint"]
+  output["date_context"]=context+"（開催日未確定）"
+  output["body_status"]="extracted"
   return output
  except Exception:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文取得失敗","body_status":"error","period_candidates":[],"character_candidates":[]}
 
