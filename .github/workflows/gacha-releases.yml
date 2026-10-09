@@ -22,6 +22,8 @@ jobs:
           python-version: '3.12'
       - name: 収集コードの構文チェック
         run: python -m py_compile scripts/update_gacha_releases.py
+      - name: 開催期間・キャラ名の抽出テスト
+        run: python -m unittest discover -s tests -p "test_gacha_releases.py" -v
       - name: 公式告知の候補リンクを集める
         run: python scripts/update_gacha_releases.py
       - name: 候補一覧を保存
