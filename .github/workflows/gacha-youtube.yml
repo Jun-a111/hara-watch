@@ -1,13 +1,6 @@
 name: Update GACHA WARS YouTube
 
 on:
-  schedule:
-    - cron: '40 11 * * *'
-  push:
-    paths:
-      - 'scripts/update_gacha_youtube.py'
-      - 'gacha-wars/youtube-targets.json'
-      - '.github/workflows/gacha-youtube.yml'
   workflow_dispatch:
 
 permissions:
