@@ -49,7 +49,7 @@ SEEDS={
   ("「雪氷の幽夢」バージョンアップデートについて","https://endfield.gryphline.com/ja-jp/news/5208")
  ]
 }
-KEYWORDS=("ガチャ","集音","祈願","跳躍","チャンネル","ピックアップ","新キャラ","実装","アップデート","バージョン","version","banner","update","recruit","new character","活动","卡池","版本","更新")
+KEYWORDS=("ガチャ","集音","祈願","跳躍","チャンネル","ピックアップ","新キャラ","実装","アップデート","バージョン","version","banner","update","recruit","new character","convene","patch notes","featured resonator","event preview","活动","卡池","版本","更新")
 class Links(HTMLParser):
  def __init__(self): super().__init__();self.href=None;self.parts=[];self.items=[]
  def handle_starttag(self,tag,attrs):
