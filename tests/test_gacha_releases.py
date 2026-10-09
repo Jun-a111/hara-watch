@@ -194,4 +194,12 @@ class ClassificationPreservationTests(unittest.TestCase):
   self.assertIn('period.get("classification","unknown")=="unknown"',source)
   self.assertIn('preserve_period_classification(detail.get("period_candidates",[]))',source)
 
+class FailedRefreshPreservationTests(unittest.TestCase):
+ def test_failed_reextraction_keeps_previous_body(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('detail.get("body_status") not in ("rendered","extracted")',source)
+  self.assertIn('previous.get("body_status") in ("rendered","extracted")',source)
+  self.assertIn('item["refresh_error"]=',source)
+  self.assertIn('"period_candidates","character_candidates","extraction_version"',source)
+
 if __name__=="__main__":unittest.main()
