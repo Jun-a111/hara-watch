@@ -108,10 +108,10 @@ def page_hints(url):
   parser=ArticleText();parser.feed(body)
   text=" ".join(parser.title+parser.parts)
   # Only use article/main text. Listing pages and generic page metadata are excluded.
-  if len(" ".join(parser.parts))<80:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文未取得"}
-  output=hints(text[:18000]);output.update(article_details(text[:18000]));output["date_context"]="記事本文内の候補（開催日未確定）"
+  if len(" ".join(parser.parts))<80:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文未取得","body_status":"unavailable","period_candidates":[],"character_candidates":[]}
+  output=hints(text[:18000]);output.update(article_details(text[:18000]));output["body_status"]="extracted";output["date_context"]="記事本文内の候補（開催日未確定）"
   return output
- except Exception:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文取得失敗"}
+ except Exception:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文取得失敗","body_status":"error","period_candidates":[],"character_candidates":[]}
 
 now=datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
@@ -141,10 +141,11 @@ for game,url in SOURCES.items():
    detail=page_hints(item["url"])
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
    item["date_context"]=detail.get("date_context","本文未取得")
+   item["body_status"]=detail.get("body_status","unavailable")
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
+  out[game]={"ok":True,"body_parsed":sum(x.get("body_status")=="extracted" for x in collected[game]),"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
