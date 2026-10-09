@@ -208,4 +208,17 @@ class DiscoveryMergePreservationTests(unittest.TestCase):
   self.assertIn('if "body_status" not in x and old_record.get("body_status") in ("rendered","extracted"):',source)
   self.assertIn('merged[field]=old_record[field]',source)
 
+class WutheringBodyQualityTests(unittest.TestCase):
+ def test_rejects_generic_site_shell(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  from urllib.parse import urlparse
+  import re
+  ns={"urlparse":urlparse,"DATE_RE":re.compile(r"20\\d{2}[年/-]\\d{1,2}[月/-]\\d{1,2}")}
+  exec(source[source.index("def article_text_quality("):source.index("def rendered_hints(")],ns)
+  url="https://wutheringwaves.kurogames.com/jp/main/news/detail/5547"
+  shell="鳴潮 ニュース アップデート ホーム キャラクター "*20
+  article="集音開催期間 2026年10月10日11:00 から 2026年10月30日11:00 共鳴者 "*12
+  self.assertFalse(ns["article_text_quality"](url,shell))
+  self.assertTrue(ns["article_text_quality"](url,article))
+
 if __name__=="__main__":unittest.main()
