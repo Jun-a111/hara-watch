@@ -94,7 +94,6 @@ class CollectorRegressionTests(unittest.TestCase):
   checkpoint=[n for n in ast.walk(loops[-1]) if isinstance(n,ast.Call) and isinstance(n.func,ast.Name) and n.func.id=="save_candidates"]
   self.assertTrue(checkpoint,"各作品ごとの保存が必要")
  def test_checkpoint_ends_in_newline(self):
-  import ast
   source=SCRIPT.read_text(encoding="utf-8")
   self.assertIn('content=json.dumps(payload,ensure_ascii=False,indent=2)+"\\n"',source)
 class AtomicCandidateOutputTests(unittest.TestCase):
