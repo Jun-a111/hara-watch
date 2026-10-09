@@ -3,6 +3,10 @@ name: Update GACHA WARS iOS charts
 on:
   schedule:
     - cron: '30 11 * * *'
+  push:
+    paths:
+      - 'scripts/update_gacha_ios.py'
+      - '.github/workflows/gacha-ios.yml'
   workflow_dispatch:
 
 permissions:
