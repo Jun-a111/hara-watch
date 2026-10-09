@@ -261,6 +261,7 @@ def wuthering_steam_announcements():
    parsed=urlparse(link)
    if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","wutheringwaves.kurogames.com"):continue
    if parsed.hostname=="store.steampowered.com" and not re.search(r"/news/app/3513350/",parsed.path):continue
+   if parsed.hostname=="steamcommunity.com" and not ("/games/3513350/" in parsed.path or "/app/3513350/" in parsed.path):continue
    if not any(keyword in title.lower() for keyword in KEYWORDS):continue
    found.append((title[:180],link))
   return list(dict.fromkeys(found))[:25],""
