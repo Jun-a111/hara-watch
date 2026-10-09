@@ -256,6 +256,23 @@ def browser_news_links(game,url):
     if not ("/news/" in path or "/article/" in path):continue
     if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
     matched.append((title,link))
+   # Endfield's news cards may navigate via JS without HTML anchor links.
+   if game=="end" and not matched:
+    cards=page.locator("main div, main li, section div").filter(has_text=re.compile("スカウト|アップデート|バージョン"))
+    for i in range(min(cards.count(),18)):
+     card=cards.nth(i)
+     try:
+      title=" ".join(card.inner_text(timeout=900).split())[:180]
+      if len(title)<5 or not any(k in title.lower() for k in KEYWORDS):continue
+      before=page.url
+      card.click(timeout=1200)
+      page.wait_for_timeout(250)
+      dest=page.url
+      path=urlparse(dest).path
+      if dest!=before and re.search(r"/news/[^/]+$",path) and urlparse(dest).hostname==home:
+       matched.append((title,dest))
+      if dest!=before:page.goto(url,wait_until="domcontentloaded",timeout=15000)
+     except Exception:continue
    return list(dict.fromkeys(matched))[:50],"ok"
   finally:page.close()
  except Exception as err:return [],str(err)[:120]
