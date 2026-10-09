@@ -26,6 +26,9 @@ jobs:
           python -m pip install 'playwright>=1.50,<2'
           python -m playwright install --with-deps chromium
           python -c "from playwright.sync_api import sync_playwright; p=sync_playwright().start(); b=p.chromium.launch(headless=True); print('Chromium起動成功:', b.version); b.close(); p.stop()"
+      - name: Playwright本文取得APIの動作確認
+        run: |
+          python -c "from playwright.sync_api import sync_playwright; p=sync_playwright().start(); b=p.chromium.launch(headless=True); page=b.new_page(); page.set_content('<main>公式告知テスト本文</main>'); assert page.locator('main, article').all_text_contents()==['公式告知テスト本文']; print('Playwright 本文取得成功'); b.close(); p.stop()"
       - name: 収集コードの構文チェック
         run: python -m py_compile scripts/update_gacha_releases.py
       - name: 開催期間・キャラ名の抽出テスト
