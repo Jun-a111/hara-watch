@@ -83,16 +83,31 @@ QUOTED_NAME=re.compile(r"[「『〖](.{2,18}?)[」』〗]")
 NON_CHARACTER=("スカウト","ガチャ","イベント","チャンネル","祈願","集音","ピックアップ","バージョン","開催","更新","期間","記憶","武器","訓練","作戦","ショップ","任務","ストーリー")
 def article_details(text):
  text=" ".join(text.split())
- periods=list({(m.group(1).strip(),m.group(2).strip()):{"raw":m.group(0)[:110].strip(),"start_raw":m.group(1).strip(),"end_raw":m.group(2).strip()} for pattern in (PERIOD_RE,DATE_PREFIX_RE) for m in pattern.finditer(text)}.values())[:5]
+ periods=[]
+ seen=set()
+ for pattern in (PERIOD_RE,DATE_PREFIX_RE):
+  for m in pattern.finditer(text):
+   start_raw,end_raw=m.group(1).strip(),m.group(2).strip()
+   key=(start_raw,end_raw)
+   if key in seen:continue
+   seen.add(key)
+   context=text[max(0,m.start()-110):min(len(text),m.end()+65)]
+   nearby=text[max(0,m.start()-75):m.start()].lower()
+   banner_words=("集音","祈願","跳躍","チャンネル","スカウト","ピックアップ","ガチャ","convene","banner","warp")
+   maintenance_words=("メンテナンス","サーバー停止","サーバーメンテ","アップデート作業","メンテ","maintenance","downtime")
+   banner=any(word in nearby for word in banner_words)
+   maintenance=any(word in nearby for word in maintenance_words)
+   classification="maintenance" if maintenance else ("banner_possible" if banner else "unknown")
+   periods.append({"raw":m.group(0)[:110].strip(),"start_raw":start_raw,"end_raw":end_raw,"classification":classification,"context_excerpt":context[:190]})
+ periods=periods[:5]
  characters=[]
  for clue in CHARACTER_CONTEXT:
   for match in re.finditer(re.escape(clue),text):
-   # Restrict to text after the explicit target label; avoid unrelated quoted announcements.
    excerpt=text[match.end():match.end()+65]
    for name in QUOTED_NAME.findall(excerpt):
-    if any(word in name for word in NON_CHARACTER) or re.search(r"\d{4}|Ver\.|版本",name,re.I):continue
+    if any(word in name for word in NON_CHARACTER) or re.search(r"\\d{4}|Ver\\.|版本",name,re.I):continue
     if name not in characters:characters.append(name)
- return {"period_candidates":periods,"character_candidates":characters[:12],"extraction_note":"告知本文内の対象表現に続く名前候補（未検証）"}
+ return {"period_candidates":periods,"character_candidates":characters[:12],"extraction_note":"本文周辺の語から期間用途を暫定分類。未検証のため戦績へ自動登録しません"}
 class ArticleText(HTMLParser):
  def __init__(self):
   super().__init__();self.depth=0;self.parts=[];self.body=[];self.title=[];self.in_title=False;self.skip=0;self.in_body=False
