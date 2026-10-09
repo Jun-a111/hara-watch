@@ -105,7 +105,7 @@ def article_details(text):
   for match in re.finditer(re.escape(clue),text):
    excerpt=text[match.end():match.end()+65]
    for name in QUOTED_NAME.findall(excerpt):
-    if any(word in name for word in NON_CHARACTER) or re.search(r"\\d{4}|Ver\\.|版本",name,re.I):continue
+    if any(word in name for word in NON_CHARACTER) or re.search(r"\d{4}|Ver\.|版本",name,re.I):continue
     if name not in characters:characters.append(name)
  return {"period_candidates":periods,"character_candidates":characters[:12],"extraction_note":"本文周辺の語から期間用途を暫定分類。未検証のため戦績へ自動登録しません"}
 class ArticleText(HTMLParser):
