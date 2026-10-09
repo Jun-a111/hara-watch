@@ -603,7 +603,12 @@ for x in history:
  seen[(x["game"],x["url"])]=x
 for items in collected.values():
  for x in items:
-  merged=dict(seen.get((x["game"],x["url"]),{}),**x)
+  old_record=seen.get((x["game"],x["url"]),{})
+  merged=dict(old_record,**x)
+  # Discovery-only records have no article body: do not overwrite earlier parsed details.
+  if "body_status" not in x and old_record.get("body_status") in ("rendered","extracted"):
+   for field in ("date_candidates","date_context","body_status","period_candidates","character_candidates","extraction_version","phase_hint"):
+    if field in old_record:merged[field]=old_record[field]
   if x.get("body_status") not in ("error","render_error"):merged.pop("body_error",None)
   seen[(x["game"],x["url"])]=merged
 # Collapse duplicate Steam announcements with identical titles, preserving the newest entry.
