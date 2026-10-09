@@ -1,16 +1,16 @@
 {
   "schema": "gacha-wars-release-candidates-v1",
-  "updated_at": "2026-10-09T10:35:59+00:00",
+  "updated_at": "2026-10-09T10:38:11+00:00",
   "status": {
     "ww": {
       "ok": true,
-      "body_rendered": 3,
+      "body_rendered": 4,
       "body_errors": 0,
-      "body_parsed": 3,
+      "body_parsed": 4,
       "links_found": 4,
       "index_links_found": 0,
       "seed_links": 4,
-      "checked_at": "2026-10-09T10:35:59+00:00"
+      "checked_at": "2026-10-09T10:38:11+00:00"
     },
     "gi": {
       "ok": true,
@@ -20,7 +20,7 @@
       "links_found": 3,
       "index_links_found": 0,
       "seed_links": 3,
-      "checked_at": "2026-10-09T10:35:59+00:00"
+      "checked_at": "2026-10-09T10:38:11+00:00"
     },
     "hsr": {
       "ok": true,
@@ -30,7 +30,7 @@
       "links_found": 1,
       "index_links_found": 0,
       "seed_links": 1,
-      "checked_at": "2026-10-09T10:35:59+00:00"
+      "checked_at": "2026-10-09T10:38:11+00:00"
     },
     "zzz": {
       "ok": true,
@@ -40,7 +40,7 @@
       "links_found": 4,
       "index_links_found": 0,
       "seed_links": 4,
-      "checked_at": "2026-10-09T10:35:59+00:00"
+      "checked_at": "2026-10-09T10:38:11+00:00"
     },
     "nte": {
       "ok": true,
@@ -50,7 +50,7 @@
       "links_found": 2,
       "index_links_found": 1,
       "seed_links": 1,
-      "checked_at": "2026-10-09T10:35:59+00:00"
+      "checked_at": "2026-10-09T10:38:11+00:00"
     },
     "end": {
       "ok": true,
@@ -60,7 +60,7 @@
       "links_found": 1,
       "index_links_found": 0,
       "seed_links": 1,
-      "checked_at": "2026-10-09T10:35:59+00:00"
+      "checked_at": "2026-10-09T10:38:11+00:00"
     }
   },
   "candidates": [
@@ -68,52 +68,85 @@
       "game": "ww",
       "title": "Ver.3.7 配信開始のお知らせ",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
-      "date_context": "ブラウザ表示後も本文未取得",
+      "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
       "character_candidates": [],
-      "body_status": "unavailable",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "ww",
       "title": "Ver.3.7 共鳴者・武器集音 第一期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
-      "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "character_candidates": [
+        "曇斬",
+        "万物を書き留める月相"
+      ],
+      "body_status": "rendered"
     },
     {
       "game": "ww",
       "title": "Ver.3.2 共鳴者・武器集音 第二期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4497",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
-      "date_candidates": [],
+      "date_candidates": [
+        "2026-04-09",
+        "2026-04-29"
+      ],
       "phase_hint": "second",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
-      "period_candidates": [],
-      "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "period_candidates": [
+        {
+          "raw": "2026年4月9日11:00 ~ 2026年4月29日12:59",
+          "start_raw": "2026年4月9日11:00 ",
+          "end_raw": "2026年4月29日12:59"
+        },
+        {
+          "raw": "2026年4月9日11:00 ~ 2026年4月29日12:59",
+          "start_raw": "2026年4月9日11:00 ",
+          "end_raw": "2026年4月29日12:59"
+        },
+        {
+          "raw": "2026年4月9日11:00 ~ 2026年4月29日12:59",
+          "start_raw": "2026年4月9日11:00 ",
+          "end_raw": "2026年4月29日12:59"
+        },
+        {
+          "raw": "2026年4月9日11:00 ~ 2026年4月29日12:59",
+          "start_raw": "2026年4月9日11:00 ",
+          "end_raw": "2026年4月29日12:59"
+        },
+        {
+          "raw": "2026年4月9日11:00 ~ 2026年4月29日12:59",
+          "start_raw": "2026年4月9日11:00 ",
+          "end_raw": "2026年4月29日12:59"
+        }
+      ],
+      "character_candidates": [
+        "スペクトル・ブラスター",
+        "焔光の裁き",
+        "光のハルモニア"
+      ],
+      "body_status": "rendered"
     },
     {
       "game": "ww",
       "title": "共鳴者集音 明日へ焼き付ける記憶",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4887",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [
-        "2026-06-01",
+        "2026-06-13",
         "2026-07-09"
       ],
       "phase_hint": "unknown",
@@ -126,31 +159,29 @@
         }
       ],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "gi",
       "title": "Luna V 前半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/162721",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "gi",
       "title": "Luna V 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163094",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [
-        "2026-03-01",
+        "2026-03-17",
         "2026-04-07"
       ],
       "phase_hint": "second",
@@ -173,18 +204,17 @@
         }
       ],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "gi",
       "title": "Luna VI 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163629",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [
-        "2026-04-02",
-        "2026-05-01"
+        "2026-04-28",
+        "2026-05-19"
       ],
       "phase_hint": "second",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
@@ -211,84 +241,78 @@
         }
       ],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "hsr",
       "title": "Ver.3.0「再創紀の凱歌」アップデートについて",
       "url": "https://hsr.hoyoverse.com/ja-jp/news/127987",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "zzz",
       "title": "Ver.3.2期間限定チャンネル（後半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166475",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "second",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "zzz",
       "title": "Ver.3.2 予告番組・情報まとめ",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/165917",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "zzz",
       "title": "Ver.2.6期間限定チャンネル（前半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/162496",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "zzz",
       "title": "Ver.3.3予告番組のお知らせ",
       "url": "https://zenless.hoyoverse.com/m/ja-jp/news/166552",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
       "date_context": "ブラウザ表示テキスト（内容未検証）",
       "period_candidates": [],
       "character_candidates": [],
-      "body_status": "rendered",
-      "body_error": "Locator.all_text_contents() got an unexpected keyword argument 'timeout'"
+      "body_status": "rendered"
     },
     {
       "game": "end",
       "title": "特別スカウト「臨淵望北」",
       "url": "https://endfield.gryphline.com/ja-jp/news/2656",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -312,11 +336,9 @@
       "game": "nte",
       "title": "Ver.1.4「名もなき祈歌」アップデートのお知らせ Ver.1.4「名もなき祈歌」アップデートのお知らせ 2026-09-29 ニュース",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
-      "date_candidates": [
-        "2026-09-02"
-      ],
+      "date_candidates": [],
       "phase_hint": "unknown",
       "date_context": "記事ページの表示テキスト（要確認）（開催日未確定）",
       "period_candidates": [],
@@ -327,7 +349,7 @@
       "game": "nte",
       "title": "NTE 正式サービス開始",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html",
-      "detected_at": "2026-10-09T10:35:59+00:00",
+      "detected_at": "2026-10-09T10:38:11+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
