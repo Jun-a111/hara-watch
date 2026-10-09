@@ -105,6 +105,9 @@ def article_details(text):
      pos=nearby.rfind(term)
      if pos>nearest[0]:nearest=(pos,category)
    classification=nearest[1]
+   # Regional server schedules may share one preceding maintenance heading.
+   if classification=="unknown" and ("サーバー：" in nearby or "server:" in nearby) and "メンテナンス" in text[max(0,m.start()-230):m.start()].lower():
+    classification="maintenance"
    if re.search(r"(?:集音|祈願|跳躍|スカウト).{0,4}開催期間[：:\\s〓]*$",nearby):classification="banner_possible"
    periods.append({"raw":m.group(0)[:110].strip(),"start_raw":start_raw,"end_raw":end_raw,"classification":classification,"context_excerpt":context[:190]})
  periods=periods[:5]
