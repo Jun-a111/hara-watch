@@ -7,7 +7,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "gacha-wars" / "steam-data.json"
-GAMES = {"ww": 3513350, "nte": 4508340}
+GAMES = {"ww": 3513350, "zzz": 4162040, "nte": 4508340}
 now = datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
     previous = json.loads(OUT.read_text(encoding="utf-8"))
