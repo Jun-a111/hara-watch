@@ -75,12 +75,30 @@ def hints(text):
  second=any(k in low for k in PHASE_SECOND)
  return {"date_candidates":list(dict.fromkeys(dates))[:8],
          "phase_hint":"first" if first and not second else "second" if second and not first else "unknown"}
+class ArticleText(HTMLParser):
+ def __init__(self):super().__init__();self.depth=0;self.parts=[];self.title=[];self.in_title=False;self.skip=0
+ def handle_starttag(self,tag,attrs):
+  if tag in ("script","style","footer","nav"):self.skip+=1
+  if tag=="title":self.in_title=True
+  if tag in ("article","main"):self.depth+=1
+ def handle_endtag(self,tag):
+  if tag in ("script","style","footer","nav"):self.skip=max(0,self.skip-1)
+  if tag=="title":self.in_title=False
+  if tag in ("article","main"):self.depth=max(0,self.depth-1)
+ def handle_data(self,data):
+  if self.in_title:self.title.append(data)
+  if self.depth and not self.skip:self.parts.append(data)
 def page_hints(url):
  try:
   request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; GachaWars/1.0)"})
   with urllib.request.urlopen(request,timeout=10) as response:body=response.read(450000).decode("utf-8","replace")
-  return hints(body[:180000])
- except Exception:return {"date_candidates":[],"phase_hint":"unknown"}
+  parser=ArticleText();parser.feed(body)
+  text=" ".join(parser.title+parser.parts)
+  # Only use article/main text. Listing pages and generic page metadata are excluded.
+  if len(" ".join(parser.parts))<80:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文未取得"}
+  output=hints(text[:18000]);output["date_context"]="記事本文内の候補（開催日未確定）"
+  return output
+ except Exception:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文取得失敗"}
 
 now=datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
@@ -109,6 +127,7 @@ for game,url in SOURCES.items():
   for item in collected[game][:8]:
    detail=page_hints(item["url"])
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
+   item["date_context"]=detail.get("date_context","本文未取得")
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
   out[game]={"ok":True,"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
