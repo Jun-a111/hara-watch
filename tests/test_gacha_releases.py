@@ -151,4 +151,11 @@ class PeriodClassificationTests(unittest.TestCase):
   sample="メンテナンス期間：2026年10月9日 06:00～2026年10月9日 12:00。集音開催期間：2026年10月10日 11:00～2026年10月30日 12:59"
   periods=ns["article_details"](sample)["period_candidates"]
   self.assertEqual([x["classification"] for x in periods],["maintenance","banner_possible"])
+class ExtractionCacheTests(unittest.TestCase):
+ def test_old_article_cache_requires_reextraction(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('previous.get("extraction_version")==2',source)
+  self.assertIn('item["extraction_version"]=2',source)
+  self.assertIn('"character_candidates","extraction_version"',source)
+
 if __name__=="__main__":unittest.main()
