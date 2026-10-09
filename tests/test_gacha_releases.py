@@ -136,4 +136,11 @@ class EndfieldCidTests(unittest.TestCase):
   ns={}
   exec(source[source.index("def endfield_news_items("):source.index("def json_news_structure(")],{},ns)
   self.assertEqual(ns["endfield_news_items"]({"cid":"../bad","title":"不正URLにさせない告知"}),[])
+class SteamDedupTests(unittest.TestCase):
+ def test_steam_title_deduplication_is_present(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('diag["duplicate_titles"]=len(found)-len(unique)',source)
+  self.assertIn('steam_seen.add(key)',source)
+  self.assertIn('records=deduplicated[:400]',source)
+
 if __name__=="__main__":unittest.main()
