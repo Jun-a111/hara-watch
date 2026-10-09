@@ -266,9 +266,12 @@ def wuthering_steam_announcements():
     continue
    if len(diag["sample_titles"])<5:diag["sample_titles"].append(title[:100])
    parsed=urlparse(link)
-   if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","wutheringwaves.kurogames.com"):
+   if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","steamstore-a.akamaihd.net","wutheringwaves.kurogames.com"):
     diag["bad_host"]+=1
     if len(diag["sample_hosts"])<6:diag["sample_hosts"].append(parsed.hostname or "")
+    continue
+   if parsed.hostname=="steamstore-a.akamaihd.net" and not parsed.path.startswith("/news/"):
+    diag["non_news_path"]+=1
     continue
    if parsed.hostname=="store.steampowered.com" and "/news/" not in parsed.path:
     diag["non_news_path"]+=1
