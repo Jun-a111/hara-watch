@@ -37,4 +37,20 @@ class ExtractorTests(unittest.TestCase):
   exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
   details=ns["article_details"]("スカウト対象「特別スカウト」「Ver.3.2」。対象キャラクター「オクギ」")
   self.assertEqual(details["character_candidates"],["オクギ"])
+class StructuredArticleTests(unittest.TestCase):
+ def parser(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  begin=source.index("class StructuredArticle(")
+  end=source.index("def blank_hints(",begin)
+  namespace={"HTMLParser":__import__("html.parser",fromlist=["HTMLParser"]).HTMLParser,"json":__import__("json")}
+  exec(source[begin:end],namespace)
+  return namespace["StructuredArticle"]()
+ def test_article_ld_json(self):
+  parser=self.parser()
+  parser.feed('<script type="application/ld+json">{"@context":"https://schema.org","@type":"NewsArticle","headline":"公式告知","articleBody":"2026年10月9日～2026年10月29日 対象キャラクター「オクギ」"}</script>')
+  self.assertIn("オクギ"," ".join(parser.texts()))
+ def test_unrelated_json_not_accepted(self):
+  parser=self.parser()
+  parser.feed('<script type="application/ld+json">{"@type":"WebSite","description":"2026年10月9日～2026年10月29日"}</script>')
+  self.assertEqual(parser.texts(),[])
 if __name__=="__main__":unittest.main()
