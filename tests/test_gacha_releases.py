@@ -154,8 +154,8 @@ class PeriodClassificationTests(unittest.TestCase):
 class ExtractionCacheTests(unittest.TestCase):
  def test_old_article_cache_requires_reextraction(self):
   source=SCRIPT.read_text(encoding="utf-8")
-  self.assertIn('previous.get("extraction_version")==2',source)
-  self.assertIn('item["extraction_version"]=2',source)
+  self.assertIn('previous.get("extraction_version")==3',source)
+  self.assertIn('item["extraction_version"]=3',source)
   self.assertIn('"character_candidates","extraction_version"',source)
 
 class CandidateSelectionTests(unittest.TestCase):
@@ -163,5 +163,19 @@ class CandidateSelectionTests(unittest.TestCase):
   source=SCRIPT.read_text(encoding="utf-8")
   self.assertIn("stale and has_periods",source)
   self.assertIn("selected=sorted(collected[game],key=selection_priority)[:12]",source)
+
+class SpecificDateLabelTests(unittest.TestCase):
+ def test_wish_and_other_event_dates(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
+  examples=[
+   ("〓Event Wish Duration〓 2026/3/17 18:00~2026/4/7 14:59","banner_possible"),
+   ("末日の幻影・忘却の支配 2026/10/05 04:00 ～ 2026/11/16 03:59","other_event"),
+   ("開催期間：2026/09/16 12:00～2026/09/30 16:00","other_event"),
+  ]
+  for line,expected in examples:
+   with self.subTest(line=line):
+    self.assertEqual(ns["article_details"](line)["period_candidates"][0]["classification"],expected)
 
 if __name__=="__main__":unittest.main()
