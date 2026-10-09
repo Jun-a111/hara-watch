@@ -428,6 +428,12 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
   browser_found=0
   browser_error=""
   browser_links,browser_error,browser_diag=browser_news_links(game,url)
+  if game=="ww" and not browser_links:
+   english_url="https://wutheringwaves.kurogames.com/m/en/main/news"
+   extra_links,extra_error,extra_diag=browser_news_links(game,english_url)
+   browser_diag["english_mobile_fallback"]=extra_diag
+   browser_diag["english_mobile_error"]=extra_error[:160]
+   browser_links.extend(extra_links)
   for title,link in browser_links:
    if not any(x["url"]==link for x in matched):
     matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
