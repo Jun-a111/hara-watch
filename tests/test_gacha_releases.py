@@ -91,7 +91,7 @@ class CollectorRegressionTests(unittest.TestCase):
   tree=ast.parse(SCRIPT.read_text(encoding="utf-8"))
   loops=[n for n in tree.body if isinstance(n,ast.For) and any(isinstance(child,ast.Assign) and any(isinstance(t,ast.Name) and t.id=="url" for t in child.targets) for child in n.body)]
   self.assertTrue(loops,"収集ループが見つからない")
-  checkpoint=[n for n in ast.walk(loops[-1]) if isinstance(n,ast.Call) and isinstance(n.func,ast.Attribute) and n.func.attr=="write_text"]
+  checkpoint=[n for n in ast.walk(loops[-1]) if isinstance(n,ast.Call) and isinstance(n.func,ast.Name) and n.func.id=="save_candidates"]
   self.assertTrue(checkpoint,"各作品ごとの保存が必要")
  def test_checkpoint_ends_in_newline(self):
   import ast
@@ -110,7 +110,7 @@ class AtomicCandidateOutputTests(unittest.TestCase):
    good={"schema":"gacha-wars-release-candidates-v1","candidates":[{"game":"ww","url":"https://example.org/news/1"}]}
    ns["save_candidates"](good)
    self.assertEqual(json.loads(target.read_text(encoding="utf-8")),good)
-   self.assertTrue(target.read_text(encoding="utf-8").endswith("\\n"))
+   self.assertTrue(target.read_text(encoding="utf-8").endswith("\n"))
    with self.assertRaises(ValueError):
     ns["save_candidates"]({"schema":"wrong","candidates":[]})
    self.assertEqual(json.loads(target.read_text(encoding="utf-8")),good)
