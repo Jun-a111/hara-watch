@@ -258,6 +258,7 @@ def browser_news_links(game,url):
   page=_browser.new_page(locale="ja-JP")
   try:
    api_items=[]
+   diagnostics={"api_json":0,"api_pairs":0,"dom_anchors":0,"filtered":0}
    def collect_response(response):
     try:
      if len(api_items)>=100 or "json" not in response.headers.get("content-type","").lower():return
@@ -266,12 +267,16 @@ def browser_news_links(game,url):
      if not trusted:return
      if len(response.body())>1500000:return
      payload=response.json()
-     api_items.extend(json_news_items(payload)[:80])
+     diagnostics["api_json"]+=1
+     found=json_news_items(payload)[:80]
+     diagnostics["api_pairs"]+=len(found)
+     api_items.extend(found)
     except Exception:pass
    page.on("response",collect_response)
    page.goto(url,wait_until="domcontentloaded",timeout=20000)
    page.wait_for_timeout(2600)
    links=page.locator("a[href]").evaluate_all("(nodes) => nodes.map(a => ({href:a.href,title:(a.innerText||a.textContent||a.getAttribute('aria-label')||a.parentElement?.innerText||'').trim()})).slice(0,1200)")
+   diagnostics["dom_anchors"]=len(links)
    home=urlparse(url).hostname or ""
    matched=[]
    for x in links+ [{"href":urljoin(url,href),"title":title} for title,href in api_items]:
@@ -283,6 +288,7 @@ def browser_news_links(game,url):
     if not ("/news/" in path or "/article/" in path):continue
     if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
     matched.append((title,link))
+   diagnostics["filtered"]=len(matched)
    # Endfield's news cards may navigate via JS without HTML anchor links.
    if game=="end" and not matched:
     cards=page.locator("main div, main li, section div").filter(has_text=re.compile("スカウト|アップデート|バージョン"))
@@ -300,9 +306,9 @@ def browser_news_links(game,url):
        matched.append((title,dest))
       if dest!=before:page.goto(url,wait_until="domcontentloaded",timeout=15000)
      except Exception:continue
-   return list(dict.fromkeys(matched))[:50],"ok"
+   return list(dict.fromkeys(matched))[:50],"ok",diagnostics
   finally:page.close()
- except Exception as err:return [],str(err)[:120]
+ except Exception as err:return [],str(err)[:120],{}
 
 now=datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
@@ -327,7 +333,7 @@ for game,url in SOURCES.items():
   static_found=len(matched)
   browser_found=0
   browser_error=""
-  browser_links,browser_error=browser_news_links(game,url)
+  browser_links,browser_error,browser_diag=browser_news_links(game,url)
   for title,link in browser_links:
    if not any(x["url"]==link for x in matched):
     matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
@@ -350,7 +356,7 @@ for game,url in SOURCES.items():
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
+  out[game]={"ok":True,"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","browser_diagnostics":browser_diag,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
