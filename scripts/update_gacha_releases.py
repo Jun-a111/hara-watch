@@ -75,6 +75,19 @@ def hints(text):
  second=any(k in low for k in PHASE_SECOND)
  return {"date_candidates":list(dict.fromkeys(dates))[:8],
          "phase_hint":"first" if first and not second else "second" if second and not first else "unknown"}
+PERIOD_RE=re.compile(r"(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)[^。\\n]{0,65}?(?:～|〜|~|から|to|至)[^。\\n]{0,20}?(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)",re.I)
+CHARACTER_CONTEXT=("登場キャラクター","対象キャラクター","ピックアップ対象","限定キャラクター","対象エージェント","集音対象","祈願対象","跳躍対象","スカウト対象")
+QUOTED_NAME=re.compile(r"[「『](.{2,18}?)[」』]")
+def article_details(text):
+ text=" ".join(text.split())
+ periods=[{"raw":m.group(0)[:110],"start_raw":m.group(1),"end_raw":m.group(2)} for m in PERIOD_RE.finditer(text)][:5]
+ characters=[]
+ for clue in CHARACTER_CONTEXT:
+  for match in re.finditer(re.escape(clue),text):
+   excerpt=text[max(0,match.start()-35):match.end()+110]
+   for name in QUOTED_NAME.findall(excerpt):
+    if name not in characters:characters.append(name)
+ return {"period_candidates":periods,"character_candidates":characters[:12],"extraction_note":"本文の表現から抽出した未検証の候補"}
 class ArticleText(HTMLParser):
  def __init__(self):super().__init__();self.depth=0;self.parts=[];self.title=[];self.in_title=False;self.skip=0
  def handle_starttag(self,tag,attrs):
@@ -96,7 +109,7 @@ def page_hints(url):
   text=" ".join(parser.title+parser.parts)
   # Only use article/main text. Listing pages and generic page metadata are excluded.
   if len(" ".join(parser.parts))<80:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文未取得"}
-  output=hints(text[:18000]);output["date_context"]="記事本文内の候補（開催日未確定）"
+  output=hints(text[:18000]);output.update(article_details(text[:18000]));output["date_context"]="記事本文内の候補（開催日未確定）"
   return output
  except Exception:return {"date_candidates":[],"phase_hint":"unknown","date_context":"本文取得失敗"}
 
@@ -128,6 +141,8 @@ for game,url in SOURCES.items():
    detail=page_hints(item["url"])
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
    item["date_context"]=detail.get("date_context","本文未取得")
+   item["period_candidates"]=detail.get("period_candidates",[])
+   item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
   out[game]={"ok":True,"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
