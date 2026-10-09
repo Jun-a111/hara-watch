@@ -31,9 +31,19 @@ for game, appid in GAMES.items():
     except (OSError, ValueError, KeyError) as error:
         print(f"{game}: unavailable: {error}")
 # Record no false zeros on transient API failures; retain historical snapshots.
-existing = {(r.get("game"), r.get("date")) for r in history}
-history.extend(r for r in added if (r["game"], r["date"]) not in existing)
-history = sorted(history, key=lambda r: r["date"])[-2000:]
+# Deduplicate existing and newly sampled observations, rejecting bad records.
+by_key = {}
+for record in [*history, *added]:
+    if not isinstance(record, dict):
+        continue
+    if record.get("game") not in GAMES or record.get("store") != "steam":
+        continue
+    if not isinstance(record.get("value"), int) or record["value"] < 0:
+        continue
+    if not isinstance(record.get("date"), str):
+        continue
+    by_key[(record["game"], record["date"])] = record
+history = sorted(by_key.values(), key=lambda r: r["date"])[-2000:]
 OUT.write_text(json.dumps({"schema": "gacha-wars-steam-v1", "updated_at": now,
                             "records": history}, ensure_ascii=False, indent=2) + "\n",
                encoding="utf-8")
