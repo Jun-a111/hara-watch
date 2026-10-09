@@ -553,6 +553,15 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
   selected=sorted(collected[game],key=selection_priority)[:12]
   for item in selected:
    previous=cache.get(item["url"],{})
+   # Keep context-backed classifications if a refreshed extraction has no stronger result.
+   previous_periods={(p.get("start_raw"),p.get("end_raw")):p for p in previous.get("period_candidates",[]) if isinstance(p,dict)}
+   def preserve_period_classification(periods):
+    for period in periods:
+     old=previous_periods.get((period.get("start_raw"),period.get("end_raw")))
+     if old and old.get("classification_source")=="stored_context_reclassified" and period.get("classification","unknown")=="unknown":
+      period["classification"]=old["classification"]
+      period["classification_source"]=old["classification_source"]
+    return periods
    if previous.get("extraction_version")==3 and previous.get("body_status") in ("rendered","extracted") and isinstance(previous.get("period_candidates"),list) and isinstance(previous.get("character_candidates"),list):
     for field in ("date_candidates","date_context","body_status","period_candidates","character_candidates","extraction_version"):
      if field in previous:item[field]=previous[field]
@@ -565,7 +574,7 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
    item["body_status"]=detail.get("body_status","unavailable")
    item.pop("body_error",None)
    if detail.get("body_error"):item["body_error"]=detail["body_error"]
-   item["period_candidates"]=detail.get("period_candidates",[])
+   item["period_candidates"]=preserve_period_classification(detail.get("period_candidates",[]))
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["body_status"] in ("rendered","extracted"):item["extraction_version"]=3
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
