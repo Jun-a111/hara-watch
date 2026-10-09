@@ -252,7 +252,7 @@ def wuthering_steam_announcements():
  endpoint="https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=3513350&count=60&maxlength=0&format=json"
  found=[]
  errors=[]
- diag={"api_items":0,"bad_url":0,"bad_host":0,"non_news_path":0,"other_game":0,"bad_title":0,"matched":0,"html_links":0,"html_matched":0,"sample_hosts":[],"sample_titles":[]}
+ diag={"api_items":0,"bad_url":0,"bad_host":0,"non_news_path":0,"other_game":0,"bad_title":0,"matched":0,"html_links":0,"html_matched":0,"sample_hosts":[],"sample_paths":[],"sample_titles":[]}
  try:
   req=urllib.request.Request(endpoint,headers={"User-Agent":"GachaWars/1.0"})
   with urllib.request.urlopen(req,timeout=14) as response:data=json.load(response)
@@ -266,6 +266,7 @@ def wuthering_steam_announcements():
     continue
    if len(diag["sample_titles"])<5:diag["sample_titles"].append(title[:100])
    parsed=urlparse(link)
+   if len(diag["sample_paths"])<6:diag["sample_paths"].append(parsed.path[:120])
    if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","steamstore-a.akamaihd.net","wutheringwaves.kurogames.com"):
     diag["bad_host"]+=1
     if len(diag["sample_hosts"])<6:diag["sample_hosts"].append(parsed.hostname or "")
