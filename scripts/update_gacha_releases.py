@@ -4,6 +4,7 @@ import json
 import re
 import urllib.request
 from datetime import datetime, timezone
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import urljoin, urlparse
@@ -29,6 +30,27 @@ class Links(HTMLParser):
   if tag=="a" and self.href:
    self.items.append((self.href," ".join(" ".join(self.parts).split())))
    self.href=None
+DATE_RE=re.compile(r"(20\\d{2})[年/\\-.](0?[1-9]|1[0-2])[月/\\-.](0?[1-9]|[12]\\d|3[01])日?")
+PHASE_FIRST=("前半","第一期","第1期","phase 1","phase i","上半")
+PHASE_SECOND=("後半","第二期","第2期","phase 2","phase ii","下半")
+def hints(text):
+ text=unescape(re.sub(r"<[^>]+>"," ",text or ""));low=" ".join(text.lower().split())
+ dates=[]
+ for y,m,d in DATE_RE.findall(low):
+  day=f"{y}-{int(m):02d}-{int(d):02d}"
+  try: datetime.fromisoformat(day);dates.append(day)
+  except ValueError:pass
+ first=any(k in low for k in PHASE_FIRST)
+ second=any(k in low for k in PHASE_SECOND)
+ return {"date_candidates":list(dict.fromkeys(dates))[:8],
+         "phase_hint":"first" if first and not second else "second" if second and not first else "unknown"}
+def page_hints(url):
+ try:
+  request=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; GachaWars/1.0)"})
+  with urllib.request.urlopen(request,timeout=10) as response:body=response.read(450000).decode("utf-8","replace")
+  return hints(body[:180000])
+ except Exception:return {"date_candidates":[],"phase_hint":"unknown"}
+
 now=datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
  previous=json.loads(OUTPUT.read_text(encoding="utf-8"))
@@ -48,8 +70,12 @@ for game,url in SOURCES.items():
    if not (domain==home or domain.endswith("."+home)):continue
    if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
    if not link.startswith("https://"):continue
-   matched.append({"game":game,"title":title[:180],"url":link,"detected_at":now,"verification":"unreviewed"})
+   matched.append({"game":game,"title":title[:180],"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
   collected[game]=list({x["url"]:x for x in matched}.values())[:80]
+  for item in collected[game][:6]:
+   detail=page_hints(item["url"])
+   item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
+   if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
   out[game]={"ok":True,"links_found":len(collected[game]),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
