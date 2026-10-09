@@ -1,23 +1,12 @@
-import importlib.util
 import pathlib
 import unittest
-from unittest.mock import patch
 ROOT=pathlib.Path(__file__).resolve().parents[1]
 SCRIPT=ROOT/"scripts"/"update_gacha_releases.py"
 
 class ExtractorTests(unittest.TestCase):
- def load(self):
-  # The collector runs on import: redirect requests into a temporary sandbox.
-  import tempfile
-  with tempfile.TemporaryDirectory() as temp:
-   with patch("urllib.request.urlopen", side_effect=OSError("offline test")):
-    spec=importlib.util.spec_from_file_location("gacha_release_collector",SCRIPT)
-    module=importlib.util.module_from_spec(spec)
-    # Output still goes to repo; avoid import-based tests until extractor becomes import-safe.
-  return None
  def test_regex_and_character_filters(self):
   source=SCRIPT.read_text(encoding="utf-8")
-  begin=source.index("PERIOD_RE=")
+  begin=source.index("DATE_TOKEN=")
   end=source.index("class ArticleText(",begin)
   namespace={"re":__import__("re")}
   exec(source[begin:end],namespace)
