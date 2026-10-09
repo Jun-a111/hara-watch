@@ -258,24 +258,30 @@ def browser_news_links(game,url):
   page=_browser.new_page(locale="ja-JP")
   try:
    api_items=[]
-   diagnostics={"api_json":0,"api_pairs":0,"dom_anchors":0,"filtered":0}
+   responses=[]
+   diagnostics={"api_json":0,"api_pairs":0,"dom_anchors":0,"filtered":0,"json_responses_seen":0}
    def collect_response(response):
     try:
-     if len(api_items)>=100 or "json" not in response.headers.get("content-type","").lower():return
+     if len(responses)>=90:return
+     if "json" not in response.headers.get("content-type","").lower():return
      host=urlparse(response.url).hostname or ""
      trusted=host==(urlparse(url).hostname or "") or (game=="ww" and host.endswith(".kurogames.com")) or (game=="end" and host.endswith(".gryphline.com"))
-     if not trusted:return
+     if trusted:responses.append(response)
+    except Exception:pass
+   page.on("response",collect_response)
+   page.goto(url,wait_until="domcontentloaded",timeout=20000)
+   page.wait_for_timeout(2600)
+   diagnostics["json_responses_seen"]=len(responses)
+   for response in responses:
+    try:
      size=response.headers.get("content-length","")
-     if size.isdigit() and int(size)>1500000:return
+     if size.isdigit() and int(size)>1500000:continue
      payload=response.json()
      diagnostics["api_json"]+=1
      found=json_news_items(payload)[:80]
      diagnostics["api_pairs"]+=len(found)
      api_items.extend(found)
-    except Exception:pass
-   page.on("response",collect_response)
-   page.goto(url,wait_until="domcontentloaded",timeout=20000)
-   page.wait_for_timeout(2600)
+    except Exception:continue
    links=page.locator("a[href]").evaluate_all("(nodes) => nodes.map(a => ({href:a.href,title:(a.innerText||a.textContent||a.getAttribute('aria-label')||a.parentElement?.innerText||'').trim()})).slice(0,1200)")
    diagnostics["api_pairs"]=len(api_items)
    diagnostics["dom_anchors"]=len(links)
