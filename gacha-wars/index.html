@@ -40,6 +40,7 @@ function candidateMarketSnapshot(x){
   const start=rawDate(period.start_raw),end=rawDate(period.end_raw);
   if(!start||!end||start>end)return '<p class="tiny">期間候補 '+(index+1)+'：日付を検証できず照合不可</p>';
   const duration=Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;
+  if(period.classification==="maintenance")return '<p class="tiny">期間候補 '+(index+1)+'：'+esc(start)+'〜'+esc(end)+' ／ メンテナンスの可能性が高いためガチャ戦績との照合対象外</p>';
   if(duration>90)return '<p class="tiny">期間候補 '+(index+1)+'：90日超のため照合対象外</p>';
   const rows=R.map(reg=>{
    const byDay=new Map();
