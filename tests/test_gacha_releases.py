@@ -82,4 +82,19 @@ class OfficialNewsApiTests(unittest.TestCase):
   ns={}
   exec(source[source.index("def json_news_items("):source.index("def browser_news_links(")],ns)
   self.assertEqual(ns["json_news_items"]({"data":[{"id":1234,"title":"集音のお知らせ"}]}),[])
+class CollectorRegressionTests(unittest.TestCase):
+ def test_collector_compiles(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  compile(source,str(SCRIPT),"exec")
+ def test_checkpoint_inside_game_loop(self):
+  import ast
+  tree=ast.parse(SCRIPT.read_text(encoding="utf-8"))
+  loops=[n for n in tree.body if isinstance(n,ast.For) and any(isinstance(child,ast.Assign) and any(isinstance(t,ast.Name) and t.id=="url" for t in child.targets) for child in n.body)]
+  self.assertTrue(loops,"収集ループが見つからない")
+  checkpoint=[n for n in ast.walk(loops[-1]) if isinstance(n,ast.Call) and isinstance(n.func,ast.Attribute) and n.func.attr=="write_text"]
+  self.assertTrue(checkpoint,"各作品ごとの保存が必要")
+ def test_checkpoint_ends_in_newline(self):
+  import ast
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('+"\\n",encoding="utf-8")',source)
 if __name__=="__main__":unittest.main()
