@@ -71,6 +71,52 @@
       "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
       "source_title": "Luna VII 後半の公式祈願告知",
       "event_kind": "rerun"
+    },
+    {
+      "id": "ww-3.7",
+      "game": "ww",
+      "type": "version",
+      "version": "Ver.3.7",
+      "date": "2026-09-30",
+      "phase": "first",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
+      "source_title": "Ver.3.7 9月30日配信開始（公式）"
+    },
+    {
+      "id": "ww-3.7-kokoro",
+      "game": "ww",
+      "type": "character",
+      "version": "心",
+      "date": "2026-09-30",
+      "phase": "first",
+      "version_group": "Ver.3.7",
+      "event_kind": "debut",
+      "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "source_title": "Ver.3.7 第一期 心ピックアップ（公式）"
+    },
+    {
+      "id": "ww-3.7-chisaki",
+      "game": "ww",
+      "type": "character",
+      "version": "千咲（復刻）",
+      "date": "2026-09-30",
+      "phase": "first",
+      "version_group": "Ver.3.7",
+      "event_kind": "rerun",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+      "source_title": "Ver.3.7 第一期 千咲ピックアップ（公式）"
+    },
+    {
+      "id": "ww-3.7-iuno",
+      "game": "ww",
+      "type": "character",
+      "version": "ユーノ（復刻）",
+      "date": "2026-09-30",
+      "phase": "first",
+      "version_group": "Ver.3.7",
+      "event_kind": "rerun",
+      "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "source_title": "Ver.3.7 第一期 ユーノピックアップ（公式）"
     }
   ]
 }
