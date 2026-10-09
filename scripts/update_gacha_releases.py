@@ -95,9 +95,9 @@ def article_details(text):
    nearby=text[max(0,m.start()-75):m.start()].lower()
    banner_words=("集音","祈願","跳躍","チャンネル","スカウト","ピックアップ","ガチャ","convene","banner","warp")
    maintenance_words=("メンテナンス","サーバー停止","サーバーメンテ","アップデート作業","メンテ","maintenance","downtime")
-   banner=any(word in nearby for word in banner_words)
-   maintenance=any(word in nearby for word in maintenance_words)
-   classification="maintenance" if maintenance else ("banner_possible" if banner else "unknown")
+   banner_pos=max((nearby.rfind(word) for word in banner_words),default=-1)
+   maintenance_pos=max((nearby.rfind(word) for word in maintenance_words),default=-1)
+   classification="maintenance" if maintenance_pos>banner_pos else ("banner_possible" if banner_pos>=0 else "unknown")
    periods.append({"raw":m.group(0)[:110].strip(),"start_raw":start_raw,"end_raw":end_raw,"classification":classification,"context_excerpt":context[:190]})
  periods=periods[:5]
  characters=[]
