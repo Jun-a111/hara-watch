@@ -34,7 +34,7 @@ class ExtractorTests(unittest.TestCase):
  def test_no_false_names(self):
   source=SCRIPT.read_text(encoding="utf-8")
   ns={"re":__import__("re")}
-  exec(source[source.index("PERIOD_RE="):source.index("class ArticleText(")],ns)
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
   details=ns["article_details"]("スカウト対象「特別スカウト」「Ver.3.2」。対象キャラクター「オクギ」")
   self.assertEqual(details["character_candidates"],["オクギ"])
 if __name__=="__main__":unittest.main()
