@@ -265,7 +265,8 @@ def browser_news_links(game,url):
      host=urlparse(response.url).hostname or ""
      trusted=host==(urlparse(url).hostname or "") or (game=="ww" and host.endswith(".kurogames.com")) or (game=="end" and host.endswith(".gryphline.com"))
      if not trusted:return
-     if len(response.body())>1500000:return
+     size=response.headers.get("content-length","")
+     if size.isdigit() and int(size)>1500000:return
      payload=response.json()
      diagnostics["api_json"]+=1
      found=json_news_items(payload)[:80]
