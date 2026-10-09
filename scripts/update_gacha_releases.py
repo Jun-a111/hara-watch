@@ -17,20 +17,33 @@ SOURCES={
  "hsr":"https://hsr.hoyoverse.com/ja-jp/news",
  "zzz":"https://zenless.hoyoverse.com/ja-jp/news",
  "nte":"https://nte.perfectworld.com/",
- "end":"https://endfield.gryphline.com/",
+ "end":"https://endfield.gryphline.com/ja-jp/news",
 }
 # Explicitly verified article URLs provide fallback when official news lists render client-side.
 SEEDS={
- "gi":[
-  ("Luna V 前半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/162721"),
-  ("Luna V 後半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/163094"),
-  ("Luna VI 後半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/163629")
- ],
  "ww":[
   ("Ver.3.7 配信開始のお知らせ","https://wutheringwaves.kurogames.com/jp/main/news/detail/5530"),
   ("Ver.3.7 共鳴者・武器集音 第一期","https://wutheringwaves.kurogames.com/jp/main/news/detail/5547"),
   ("Ver.3.2 共鳴者・武器集音 第二期","https://wutheringwaves.kurogames.com/jp/main/news/detail/4497"),
   ("共鳴者集音 明日へ焼き付ける記憶","https://wutheringwaves.kurogames.com/jp/main/news/detail/4887")
+ ],
+ "gi":[
+  ("Luna V 前半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/162721"),
+  ("Luna V 後半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/163094"),
+  ("Luna VI 後半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/163629")
+ ],
+ "hsr":[
+  ("Ver.3.0「再創紀の凱歌」アップデートについて","https://hsr.hoyoverse.com/ja-jp/news/127987")
+ ],
+ "zzz":[
+  ("Ver.3.2期間限定チャンネル（後半）","https://zenless.hoyoverse.com/ja-jp/news/166475"),
+  ("Ver.3.2 予告番組・情報まとめ","https://zenless.hoyoverse.com/ja-jp/news/165917"),
+  ("Ver.2.6期間限定チャンネル（前半）","https://zenless.hoyoverse.com/ja-jp/news/162496"),
+  ("Ver.3.3予告番組のお知らせ","https://zenless.hoyoverse.com/m/ja-jp/news/166552")
+ ],
+ "end":[
+  ("特別スカウト「臨淵望北」","https://endfield.gryphline.com/ja-jp/news/2656"),
+  ("公式ニュース一覧","https://endfield.gryphline.com/ja-jp/news")
  ]
 }
 KEYWORDS=("ガチャ","集音","祈願","跳躍","チャンネル","ピックアップ","新キャラ","実装","アップデート","バージョン","version","banner","update","recruit","new character","活动","卡池","版本","更新")
