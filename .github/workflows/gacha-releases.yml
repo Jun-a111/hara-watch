@@ -15,7 +15,31 @@ concurrency:
   group: gacha-releases
   cancel-in-progress: false
 jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 3
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: 収集スクリプト構文検査
+        run: python -m py_compile scripts/update_gacha_releases.py
+      - name: 公式告知収集の回帰テスト
+        run: python -m unittest discover -s tests -p "test_gacha_releases.py" -v
+      - name: 現在の候補JSONの検証
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("gacha-wars/release-candidates.json")
+          d=json.loads(p.read_text(encoding="utf-8"))
+          assert d["schema"]=="gacha-wars-release-candidates-v1"
+          assert isinstance(d["candidates"],list)
+          print("Saved candidates:",len(d["candidates"]),"updated:",d.get("updated_at"))
+          PY
   collect:
+    needs: validate
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -23,10 +47,6 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: 収集コードの構文チェック
-        run: python -m py_compile scripts/update_gacha_releases.py
-      - name: 開催期間・キャラ名の抽出テスト
-        run: python -m unittest discover -s tests -p "test_gacha_releases.py" -v
       - name: ブラウザ解析を準備
         run: |
           python -m pip install --upgrade pip
