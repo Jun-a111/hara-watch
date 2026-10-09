@@ -247,6 +247,33 @@ def json_news_items(value,depth=0):
   if isinstance(v,(dict,list)) and key not in ("translations","locale","locales"):out.extend(json_news_items(v,depth+1))
  return out
 
+def endfield_news_items(value,depth=0):
+ """Extract Endfield title/cid identifiers, keeping URLs provisional until verified."""
+ if depth>7:return []
+ if isinstance(value,list):
+  out=[]
+  for item in value[:100]:out.extend(endfield_news_items(item,depth+1))
+  return out
+ if not isinstance(value,dict):return []
+ out=[]
+ title=value.get("title")
+ cid=value.get("cid")
+ if isinstance(title,str) and len(title)>5 and isinstance(cid,(int,str)) and str(cid).isdigit():
+  out.append((title,"https://endfield.gryphline.com/ja-jp/news/"+str(cid)))
+ for child in value.values():
+  if isinstance(child,(dict,list)):out.extend(endfield_news_items(child,depth+1))
+ return out
+
+def verify_endfield_url(url):
+ """Only allow constructed Endfield URLs that resolve to an actual article."""
+ parsed=urlparse(url)
+ if parsed.hostname!="endfield.gryphline.com" or not re.fullmatch(r"/ja-jp/news/[0-9]+",parsed.path):return False
+ try:
+  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0"})
+  with urllib.request.urlopen(req,timeout=8) as response:
+   return response.status==200 and len(response.read(50000))>800
+ except Exception:return False
+
 def json_news_structure(value,depth=0):
  """Inspect JSON object shapes without recording API payload values."""
  if depth>5:return []
@@ -296,6 +323,10 @@ def browser_news_links(game,url):
       diagnostics["api_shapes"].extend(json_news_structure(payload)[:12-len(diagnostics["api_shapes"])])
      diagnostics["api_json"]+=1
      found=json_news_items(payload)[:80]
+     if game=="end":
+      proposed=endfield_news_items(payload)[:80]
+      diagnostics["endfield_cid_pairs"]=diagnostics.get("endfield_cid_pairs",0)+len(proposed)
+      found.extend((title,link) for title,link in proposed if verify_endfield_url(link))
      diagnostics["api_pairs"]+=len(found)
      api_items.extend(found)
     except Exception:continue
