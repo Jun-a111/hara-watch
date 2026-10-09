@@ -202,7 +202,7 @@ def rendered_hints(url):
    path=urlparse(url).path.rstrip("/")
    if path.endswith("/news") or path.endswith("/index.html") or not path:
     return blank_hints("listing","ニュース一覧は本文解析対象外")
-   text=page.locator("main, article").all_text_contents(timeout=3000)
+   text=page.locator("main, article").all_text_contents()
    joined=" ".join(text)
    if len(joined)<80:joined=page.locator("body").inner_text(timeout=5000)
    if len(joined)<180:return blank_hints("unavailable","ブラウザ表示後も本文未取得")
