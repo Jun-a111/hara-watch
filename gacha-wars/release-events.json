@@ -11,7 +11,8 @@
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166000",
       "source_title": "Version 3.2 Update Announcement",
       "phase": "first",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "zzz-clarette",
@@ -24,7 +25,8 @@
       "phase": "first",
       "version_group": "Ver.3.2",
       "event_kind": "debut",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "zzz-roxy",
@@ -37,7 +39,8 @@
       "phase": "second",
       "version_group": "Ver.3.2",
       "event_kind": "debut",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "zzz-promeia",
@@ -50,7 +53,8 @@
       "phase": "second",
       "version_group": "Ver.3.2",
       "event_kind": "rerun",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "gi-luna-vii-lohen",
@@ -63,7 +67,8 @@
       "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
       "source_title": "Version Luna VII Event Wishes Notice - Phase II",
       "event_kind": "debut",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "gi-luna-vii-mavuika-rerun",
@@ -76,7 +81,8 @@
       "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
       "source_title": "Luna VII 後半の公式祈願告知",
       "event_kind": "rerun",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "ww-3.7",
@@ -87,7 +93,8 @@
       "phase": "first",
       "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
       "source_title": "Ver.3.7 9月30日配信開始（公式）",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "ww-3.7-kokoro",
@@ -100,7 +107,8 @@
       "event_kind": "debut",
       "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
       "source_title": "Ver.3.7 第一期 心ピックアップ（公式）",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "ww-3.7-chisaki",
@@ -113,7 +121,8 @@
       "event_kind": "rerun",
       "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
       "source_title": "Ver.3.7 第一期 千咲ピックアップ（公式）",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "ww-3.7-iuno",
@@ -126,7 +135,8 @@
       "event_kind": "rerun",
       "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
       "source_title": "Ver.3.7 第一期 ユーノピックアップ（公式）",
-      "verification": "official"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "ww-3.7-samei",
@@ -140,7 +150,8 @@
       "source_url": "https://www.zaikei.co.jp/releases/3625683/",
       "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
       "schedule_status": "announced",
-      "verification": "secondary"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "ww-3.7-linne",
@@ -154,7 +165,8 @@
       "source_url": "https://www.zaikei.co.jp/releases/3625683/",
       "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
       "schedule_status": "announced",
-      "verification": "secondary"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "ww-3.7-lucilla",
@@ -168,7 +180,8 @@
       "source_url": "https://www.zaikei.co.jp/releases/3625683/",
       "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
       "schedule_status": "announced",
-      "verification": "secondary"
+      "verification": "unreviewed",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     },
     {
       "id": "zzz-nangongyu-3.2",
@@ -179,9 +192,10 @@
       "phase": "first",
       "version_group": "Ver.3.2",
       "event_kind": "featured_banner",
-      "verification": "official",
+      "verification": "unreviewed",
       "source_url": "https://zenless.hoyoverse.com/ja-jp/news?category=295",
-      "source_title": "日本語公式・Ver.3.2前半の登場キャラ告知"
+      "source_title": "日本語公式・Ver.3.2前半の登場キャラ告知",
+      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
     }
   ]
 }
