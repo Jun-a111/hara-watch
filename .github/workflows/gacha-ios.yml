@@ -2,7 +2,7 @@ name: Update GACHA WARS iOS charts
 
 on:
   schedule:
-    - cron: '41 12 * * *'
+    - cron: '5 12 * * *'
   workflow_dispatch:
 
 permissions:
