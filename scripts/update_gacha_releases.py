@@ -327,8 +327,12 @@ out={}
 collected={}
 for game,url in SOURCES.items():
  try:
-  req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; GachaWars/1.0)"})
-  with urllib.request.urlopen(req,timeout=22) as res:html=res.read(1200000).decode("utf-8","replace")
+  html=""
+  static_error=""
+  try:
+   req=urllib.request.Request(url,headers={"User-Agent":"Mozilla/5.0 (compatible; GachaWars/1.0)"})
+   with urllib.request.urlopen(req,timeout=12) as res:html=res.read(1200000).decode("utf-8","replace")
+  except Exception as err:static_error=str(err)[:120]
   parser=Links();parser.feed(html)
   matched=[]
   home=urlparse(url).hostname or ""
@@ -371,7 +375,7 @@ for game,url in SOURCES.items():
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"body_cached":sum(x.get("url") in cache and x.get("body_status") in ("rendered","extracted") for x in collected[game]),"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","browser_diagnostics":browser_diag,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
+  out[game]={"ok":True,"body_cached":sum(x.get("url") in cache and x.get("body_status") in ("rendered","extracted") for x in collected[game]),"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"static_index_error":static_error,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","browser_diagnostics":browser_diag,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
