@@ -40,7 +40,7 @@ function candidateMarketSnapshot(x){
   const start=rawDate(period.start_raw),end=rawDate(period.end_raw);
   if(!start||!end||start>end)return '<p class="tiny">期間候補 '+(index+1)+'：日付を検証できず照合不可</p>';
   const duration=Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;
-  if(period.classification==="maintenance")return '<p class="tiny">期間候補 '+(index+1)+'：'+esc(start)+'〜'+esc(end)+' ／ メンテナンスの可能性が高いためガチャ戦績との照合対象外</p>';
+  if(period.classification==="maintenance"||period.classification==="other_event")return '<p class="tiny">期間候補 '+(index+1)+'：'+esc(start)+'〜'+esc(end)+' ／ ガチャ以外の期間の可能性が高いため照合対象外</p>';
   if(duration>90)return '<p class="tiny">期間候補 '+(index+1)+'：90日超のため照合対象外</p>';
   const rows=R.map(reg=>{
    const byDay=new Map();
@@ -53,7 +53,7 @@ function candidateMarketSnapshot(x){
    const values=[...byDay.values()];
    return '<tr><td>'+esc(reg[1])+'</td><td>'+(values.length?'<b>'+Math.min(...values)+'位</b>':'未取得')+'</td><td>'+values.length+' / '+duration+'日</td></tr>';
   }).join("");
-  const typeLabel=period.classification==='maintenance'?'メンテナンスの可能性':period.classification==='banner_possible'?'ガチャ期間の可能性':'用途未判定';
+  const typeLabel=period.classification==='maintenance'?'メンテナンスの可能性':period.classification==='banner_possible'?'ガチャ期間の可能性':period.classification==='other_event'?'別イベントの期間':'用途未判定';
   return '<h4>期間候補 '+(index+1)+'：'+esc(start)+'〜'+esc(end)+'</h4><p class="tiny">判定：'+esc(typeLabel)+' ／ '+esc(period.raw||"")+' ／ '+duration+'日間・日別最良観測順位</p><div class="scroll"><table><thead><tr><th>地域</th><th>最高観測順位</th><th>観測日数</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
  }).join("");
  return '<details><summary>6地域セルランとの参考照合（候補 '+periods.length+'期間）</summary><p class="hint">本文から機械抽出した期間にはメンテナンスや別イベントも混じります。ガチャ開催期間とは未確定です。</p>'+sections+'<p class="tiny">観測がない日は圏外ではなく未取得。正式戦績・勝敗・売上には反映しません。</p></details>';
