@@ -1,5 +1,70 @@
 [
   {
+    "id": "manual-20261009-lily-ai-accusation",
+    "date": "2026-10-09",
+    "category": "中国ゲーム・最新",
+    "status": "公式",
+    "lang": "JP",
+    "title": "『鳴潮』リリーの立ち絵差分をXで「AI生成」と主張、日本公式は誤掲載を謝罪",
+    "summary": "日本語版と英語版のリリーの立ち絵に花や陰影などの差があり、XでAI生成疑惑が拡散。鳴潮日本公式は画像の誤掲載を認めて再投稿した。発端の投稿者は以前から鳴潮とHoYoverseの対立を煽る発信をしていたが、画像の差分はAI使用の証拠にならず、当該ポストの削除も未確認。",
+    "url": "https://x.com/WW_JP_Official/status/2108049802705649835",
+    "source": "鳴潮日本公式X・X投稿・Reddit",
+    "tags": [
+      "リリー",
+      "AI疑惑",
+      "X論争",
+      "公式訂正"
+    ],
+    "spoiler": false,
+    "body": "■ 発端\n10月8日、リリーの立ち絵が日本語版と英語版の公式アカウントで異なると指摘された。花の咲き具合、ベール、髪の色味、陰影や表情に違いがある。Xの@Euphoralizedは『日本公式は違うAI生成画像を投稿した』と断定する投稿を行い、疑惑が話題になった。\n\n■ 投稿者の過去の発信\n公開されている過去投稿には、TencentによるHoYoverse配信への著作権申し立てや鳴潮の広告展開を非難する主張がある。鳴潮を批判する発信歴は確認できるが、本人が特定のゲームのファンであると確定できる資料はない。また今回のAI疑惑ポストが本人によって削除されたかどうかも確認できていない。\n\n■ 日本公式の訂正\n鳴潮日本公式は『先ほどの投稿に掲載した立ち絵に誤りがございましたため、再投稿させていただきました』と謝罪。これは掲載画像の取り違えについての説明であり、生成AIの使用・不使用を公式が証明した発表ではない。\n\n■ 海外の反応\nRedditでは日英版の比較スレッドが3,000票以上を集めた。『日本語版は花がしおれ、英語版では咲いている』『制作途中の旧稿を誤って投稿したのでは』『違う制作段階の画像があること自体は自然』という意見が出た。一部にはAI補正を推測する声もあったが、画像比較だけでAI生成だと断定する根拠は示されていない。\n\n■ 現時点の確認範囲\n公式が認めたのは画像の誤掲載。投稿者によるAI生成の断定、AI使用を全面否定するファンの断定、投稿削除や動機の推測は、それぞれ根拠と区別して扱う。",
+    "timeline": [
+      {
+        "date": "2026年10月8日",
+        "text": "リリーの日本語版と英語版の画像差分がX・Redditで拡散。"
+      },
+      {
+        "date": "2026年10月8日",
+        "text": "@EuphoralizedのAI生成を断定する投稿が確認され、批判と反論が発生。"
+      },
+      {
+        "date": "2026年10月8日",
+        "text": "鳴潮日本公式が立ち絵の誤掲載を謝罪し、再投稿。"
+      },
+      {
+        "date": "2026年10月8〜9日",
+        "text": "Redditで制作途中の別稿説やAI断定への反論が広がる。"
+      }
+    ],
+    "post_author": "Euphoralized (@Euphoralized)",
+    "post_date": "2026-10-08",
+    "post_text": "JP posted a different AI generated image wtff 😭🙏",
+    "post_url": "https://x.com/Euphoralized",
+    "sources": [
+      {
+        "name": "鳴潮日本公式・立ち絵訂正",
+        "url": "https://x.com/WW_JP_Official/status/2108049802705649835",
+        "type": "公式"
+      },
+      {
+        "name": "Reddit・日英画像比較",
+        "url": "https://www.reddit.com/r/WutheringWaves/comments/1x0gxju/difference_for_en_and_jp/",
+        "type": "コミュニティ"
+      },
+      {
+        "name": "Reddit・AI疑惑を巡る議論",
+        "url": "https://www.reddit.com/r/WuWaves/comments/1x0nayc/isnt_this_crazy_first_time_ive_seen_something/",
+        "type": "コミュニティ"
+      },
+      {
+        "name": "Reddit・手描き工程説の反論",
+        "url": "https://www.reddit.com/r/WuWaves/comments/1x0zmeg/wuthering_waves_devs_caught_hiring_real_artists/",
+        "type": "コミュニティ"
+      }
+    ],
+    "quoted_reactions": [],
+    "needs_research": false
+  },
+  {
     "id": "china-industry-20261008-delta-force-58m-dau",
     "date": "2026-10-08",
     "category": "中国ゲーム業界",
