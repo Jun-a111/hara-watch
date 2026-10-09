@@ -92,12 +92,19 @@ def article_details(text):
    if key in seen:continue
    seen.add(key)
    context=text[max(0,m.start()-110):min(len(text),m.end()+65)]
-   nearby=text[max(0,m.start()-75):m.start()].lower()
-   banner_words=("集音","祈願","跳躍","チャンネル","スカウト","ピックアップ","ガチャ","convene","banner","warp")
-   maintenance_words=("メンテナンス","サーバー停止","サーバーメンテ","アップデート作業","メンテ","maintenance","downtime")
-   banner_pos=max((nearby.rfind(word) for word in banner_words),default=-1)
-   maintenance_pos=max((nearby.rfind(word) for word in maintenance_words),default=-1)
-   classification="maintenance" if maintenance_pos>banner_pos else ("banner_possible" if banner_pos>=0 else "unknown")
+   nearby=text[max(0,m.start()-110):m.start()].lower()
+   # The nearest preceding label is usually the event type, not the article title.
+   cues={
+    "maintenance":("メンテナンス実施日時","メンテナンス期間","メンテナンス","maintenance","downtime"),
+    "banner_possible":("祈願期間","集音期間","跳躍期間","スカウト開催期間","スカウト期間","チャンネル開催期間","event wish duration","convene duration","warp duration","banner duration"),
+    "other_event":("開催期間","開放期間","末日の幻影","虚構叙事","混沌の記憶","忘却の庭","simulated universe","event duration")
+   }
+   nearest=(-1,"unknown")
+   for category,terms in cues.items():
+    for term in terms:
+     pos=nearby.rfind(term)
+     if pos>nearest[0]:nearest=(pos,category)
+   classification=nearest[1]
    periods.append({"raw":m.group(0)[:110].strip(),"start_raw":start_raw,"end_raw":end_raw,"classification":classification,"context_excerpt":context[:190]})
  periods=periods[:5]
  characters=[]
