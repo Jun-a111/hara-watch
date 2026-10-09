@@ -25,6 +25,23 @@ class ExtractorTests(unittest.TestCase):
   self.assertEqual(len(details["period_candidates"]),1)
   self.assertIn("オクギ",details["character_candidates"])
   self.assertNotIn("通常スカウト",details["character_candidates"])
+ def test_yearless_end_date(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
+  cases=[
+   "開催期間：2026年10月9日 12:00 ～ 10月29日 11:59",
+   "2026/10/09 12:00～2026/10/29 11:59",
+   "2026年10月9日から2026年10月29日まで",
+  ]
+  for sample in cases:
+   with self.subTest(sample=sample):
+    self.assertEqual(len(ns["article_details"](sample)["period_candidates"]),1)
+ def test_non_period_dates(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
+  self.assertEqual(ns["article_details"]("公開日2026年10月9日 更新日2026年10月12日")["period_candidates"],[])
  def test_no_false_names(self):
   source=SCRIPT.read_text(encoding="utf-8")
   ns={"re":__import__("re")}
