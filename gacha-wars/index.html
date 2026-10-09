@@ -35,7 +35,7 @@ async function loadReleaseCandidates(){try{const r=await fetch("./release-candid
 function candidateMarketSnapshot(x){
  const periods=Array.isArray(x.period_candidates)?x.period_candidates.slice(0,5):[];
  if(!periods.length)return '<span class="empty">開催期間を抽出できていません</span>';
- const rawDate=raw=>{const m=String(raw||"").match(/(20\\d{2})[年\\/.\\-](\\d{1,2})[月\\/.\\-](\\d{1,2})/);if(!m)return "";const y=+m[1],mo=+m[2],d=+m[3];const iso=y+"-"+String(mo).padStart(2,"0")+"-"+String(d).padStart(2,"0");return new Date(iso+"T00:00:00Z").toISOString().slice(0,10)===iso?iso:""};
+ const rawDate=raw=>{const m=String(raw||"").match(/(20\d{2})[年\/.\-](\d{1,2})[月\/.\-](\d{1,2})/);if(!m)return "";const y=+m[1],mo=+m[2],d=+m[3];const iso=y+"-"+String(mo).padStart(2,"0")+"-"+String(d).padStart(2,"0");return new Date(iso+"T00:00:00Z").toISOString().slice(0,10)===iso?iso:""};
  const sections=periods.map((period,index)=>{
   const start=rawDate(period.start_raw),end=rawDate(period.end_raw);
   if(!start||!end||start>end)return '<p class="tiny">期間候補 '+(index+1)+'：日付を検証できず照合不可</p>';
