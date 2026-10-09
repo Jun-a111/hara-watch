@@ -20,7 +20,8 @@
       "date": "2026-09-09",
       "source_url": "https://zenless.hoyoverse.com/m/fr-fr/news/165979",
       "source_title": "Version 3.2 Limited-Time Channels Phase 1",
-      "phase": "first"
+      "phase": "first",
+      "version_group": "Ver.3.2"
     },
     {
       "id": "zzz-roxy",
@@ -30,7 +31,8 @@
       "date": "2026-09-30",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
       "source_title": "Version 3.2 Phase II Content Overview",
-      "phase": "second"
+      "phase": "second",
+      "version_group": "Ver.3.2"
     },
     {
       "id": "zzz-promeia",
@@ -40,7 +42,8 @@
       "date": "2026-09-30",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
       "source_title": "Version 3.2 Phase II Content Overview",
-      "phase": "second"
+      "phase": "second",
+      "version_group": "Ver.3.2"
     }
   ]
 }
