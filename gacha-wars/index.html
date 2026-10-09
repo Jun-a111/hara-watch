@@ -33,11 +33,13 @@ function prepareCandidate(index){const x=releaseCandidates[index];if(!x)return;g
 
 async function loadReleaseCandidates(){try{const r=await fetch("./release-candidates.json",{cache:"no-store"});if(!r.ok)throw Error("候補ファイル未取得");const j=await r.json();if(j.schema!=="gacha-wars-release-candidates-v1"||!Array.isArray(j.candidates))throw Error("形式不一致");releaseCandidates=j.candidates.filter(x=>G.some(g=>g.id===x.game)&&typeof x.title==="string"&&typeof x.url==="string"&&/^https:\/\//.test(x.url)).slice(0,100);candidateStatus=j.status||{};render()}catch(e){console.info("告知候補の取得失敗",e.message)}}
 function candidateMarketSnapshot(x){
- const period=(Array.isArray(x.period_candidates)?x.period_candidates:[])[0];
- if(!period)return '<span class="empty">期間候補なし</span>';
- const dates=(Array.isArray(x.date_candidates)?x.date_candidates:[]).filter(d=>/^\\d{4}-\\d{2}-\\d{2}$/.test(d));
- const start=dates[0],end=dates[1];
- if(!start||!end||start>end)return '<span class="empty">開始日と終了日を特定できず照合不可</span>';
+ const period=Array.isArray(x.period_candidates)?x.period_candidates[0]:null;
+ if(!period)return '<span class="empty">開催期間を抽出できていません</span>';
+ const rawDate=raw=>{const m=String(raw||"").match(/(20\d{2})[年\/.\-](\d{1,2})[月\/.\-](\d{1,2})/);if(!m)return "";const y=+m[1],mo=+m[2],d=+m[3];const iso=y+"-"+String(mo).padStart(2,"0")+"-"+String(d).padStart(2,"0");return new Date(iso+"T00:00:00Z").toISOString().slice(0,10)===iso?iso:""};
+ const start=rawDate(period.start_raw),end=rawDate(period.end_raw);
+ if(!start||!end||start>end)return '<span class="empty">開催日付を検証できず照合不可</span>';
+ const duration=Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;
+ const days=Math.min(duration,90);
  const rows=R.map(reg=>{
   const byDay=new Map();
   for(const r of autoRecords){
@@ -47,9 +49,9 @@ function candidateMarketSnapshot(x){
    if(!byDay.has(day)||rank<byDay.get(day))byDay.set(day,rank);
   }
   const values=[...byDay.values()];
-  return '<tr><td>'+esc(reg[1])+'</td><td>'+(values.length?'<b>'+Math.min(...values)+'位</b>':'未取得')+'</td><td>'+values.length+'日</td></tr>';
+  return '<tr><td>'+esc(reg[1])+'</td><td>'+(values.length?'<b>'+Math.min(...values)+'位</b>':'未取得')+'</td><td>'+values.length+' / '+days+'日</td></tr>';
  }).join("");
- return '<details><summary>6地域のセルラン履歴と照合（未確定）</summary><p class="tiny">'+esc(start)+'〜'+esc(end)+'。各日の最高観測順位を参照。未観測は圏外と断定しません。</p><table><thead><tr><th>地域</th><th>期間中の最高順位</th><th>観測日</th></tr></thead><tbody>'+rows+'</tbody></table><p class="tiny">公式告知の期間候補による参考値。確定戦績や勝敗、売上の計算には反映しません。</p></details>';
+ return '<details><summary>6地域のセルラン履歴と照合（未確定）</summary><p class="tiny">'+esc(start)+'〜'+esc(end)+'（'+duration+'日間）。各日の最良観測順位を使用。観測がない日は圏外ではなく未取得。</p><div class="scroll"><table><thead><tr><th>地域</th><th>最高観測順位</th><th>観測日数</th></tr></thead><tbody>'+rows+'</tbody></table></div><p class="tiny">未検証の告知期間に基づく参考値。正式戦績・勝敗・売上に反映しません。</p></details>';
 }
 function releaseCandidateBoard(){
  const rows=releaseCandidates.map((x,i)=>({...x,candidateIndex:i})).filter(x=>candidateFilter==="all"||x.game===candidateFilter).slice(0,70);
