@@ -1,48 +1,48 @@
 {
   "schema": "gacha-wars-release-candidates-v1",
-  "updated_at": "2026-10-09T10:13:01+00:00",
+  "updated_at": "2026-10-09T10:14:43+00:00",
   "status": {
     "ww": {
       "ok": true,
       "links_found": 4,
       "index_links_found": 0,
       "seed_links": 4,
-      "checked_at": "2026-10-09T10:13:01+00:00"
+      "checked_at": "2026-10-09T10:14:43+00:00"
     },
     "gi": {
       "ok": true,
       "links_found": 3,
       "index_links_found": 0,
       "seed_links": 3,
-      "checked_at": "2026-10-09T10:13:01+00:00"
+      "checked_at": "2026-10-09T10:14:43+00:00"
     },
     "hsr": {
       "ok": true,
-      "links_found": 0,
+      "links_found": 1,
       "index_links_found": 0,
-      "seed_links": 0,
-      "checked_at": "2026-10-09T10:13:01+00:00"
+      "seed_links": 1,
+      "checked_at": "2026-10-09T10:14:43+00:00"
     },
     "zzz": {
       "ok": true,
-      "links_found": 0,
+      "links_found": 4,
       "index_links_found": 0,
-      "seed_links": 0,
-      "checked_at": "2026-10-09T10:13:01+00:00"
+      "seed_links": 4,
+      "checked_at": "2026-10-09T10:14:43+00:00"
     },
     "nte": {
       "ok": true,
       "links_found": 0,
       "index_links_found": 0,
       "seed_links": 0,
-      "checked_at": "2026-10-09T10:13:01+00:00"
+      "checked_at": "2026-10-09T10:14:43+00:00"
     },
     "end": {
       "ok": true,
-      "links_found": 0,
+      "links_found": 2,
       "index_links_found": 0,
-      "seed_links": 0,
-      "checked_at": "2026-10-09T10:13:01+00:00"
+      "seed_links": 2,
+      "checked_at": "2026-10-09T10:14:43+00:00"
     }
   },
   "candidates": [
@@ -50,7 +50,7 @@
       "game": "ww",
       "title": "Ver.3.7 配信開始のお知らせ",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
-      "detected_at": "2026-10-09T10:13:01+00:00",
+      "detected_at": "2026-10-09T10:14:43+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown"
@@ -59,7 +59,7 @@
       "game": "ww",
       "title": "Ver.3.7 共鳴者・武器集音 第一期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
-      "detected_at": "2026-10-09T10:13:01+00:00",
+      "detected_at": "2026-10-09T10:14:43+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first"
@@ -68,7 +68,7 @@
       "game": "ww",
       "title": "Ver.3.2 共鳴者・武器集音 第二期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4497",
-      "detected_at": "2026-10-09T10:13:01+00:00",
+      "detected_at": "2026-10-09T10:14:43+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "second"
@@ -77,7 +77,7 @@
       "game": "ww",
       "title": "共鳴者集音 明日へ焼き付ける記憶",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4887",
-      "detected_at": "2026-10-09T10:13:01+00:00",
+      "detected_at": "2026-10-09T10:14:43+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown"
@@ -86,7 +86,7 @@
       "game": "gi",
       "title": "Luna V 前半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/162721",
-      "detected_at": "2026-10-09T10:13:01+00:00",
+      "detected_at": "2026-10-09T10:14:43+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2024-08-01"
@@ -97,7 +97,7 @@
       "game": "gi",
       "title": "Luna V 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163094",
-      "detected_at": "2026-10-09T10:13:01+00:00",
+      "detected_at": "2026-10-09T10:14:43+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2024-08-01"
@@ -108,12 +108,94 @@
       "game": "gi",
       "title": "Luna VI 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163629",
-      "detected_at": "2026-10-09T10:13:01+00:00",
+      "detected_at": "2026-10-09T10:14:43+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2024-08-01"
       ],
       "phase_hint": "second"
+    },
+    {
+      "game": "hsr",
+      "title": "Ver.3.0「再創紀の凱歌」アップデートについて",
+      "url": "https://hsr.hoyoverse.com/ja-jp/news/127987",
+      "detected_at": "2026-10-09T10:14:43+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [],
+      "phase_hint": "unknown"
+    },
+    {
+      "game": "zzz",
+      "title": "Ver.3.2期間限定チャンネル（後半）",
+      "url": "https://zenless.hoyoverse.com/ja-jp/news/166475",
+      "detected_at": "2026-10-09T10:14:43+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2024-05-01"
+      ],
+      "phase_hint": "second"
+    },
+    {
+      "game": "zzz",
+      "title": "Ver.3.2 予告番組・情報まとめ",
+      "url": "https://zenless.hoyoverse.com/ja-jp/news/165917",
+      "detected_at": "2026-10-09T10:14:43+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2024-05-01"
+      ],
+      "phase_hint": "unknown"
+    },
+    {
+      "game": "zzz",
+      "title": "Ver.2.6期間限定チャンネル（前半）",
+      "url": "https://zenless.hoyoverse.com/ja-jp/news/162496",
+      "detected_at": "2026-10-09T10:14:43+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2024-05-01"
+      ],
+      "phase_hint": "first"
+    },
+    {
+      "game": "zzz",
+      "title": "Ver.3.3予告番組のお知らせ",
+      "url": "https://zenless.hoyoverse.com/m/ja-jp/news/166552",
+      "detected_at": "2026-10-09T10:14:43+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2024-05-01"
+      ],
+      "phase_hint": "unknown"
+    },
+    {
+      "game": "end",
+      "title": "特別スカウト「臨淵望北」",
+      "url": "https://endfield.gryphline.com/ja-jp/news/2656",
+      "detected_at": "2026-10-09T10:14:43+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2026-07-01",
+        "2026-08-09"
+      ],
+      "phase_hint": "unknown"
+    },
+    {
+      "game": "end",
+      "title": "公式ニュース一覧",
+      "url": "https://endfield.gryphline.com/ja-jp/news",
+      "detected_at": "2026-10-09T10:14:43+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2026-10-07",
+        "2026-10-06",
+        "2026-09-03",
+        "2026-09-02",
+        "2026-10-08",
+        "2026-09-01",
+        "2026-10-01"
+      ],
+      "phase_hint": "unknown"
     }
   ]
 }
