@@ -276,6 +276,7 @@ def browser_news_links(game,url):
    page.goto(url,wait_until="domcontentloaded",timeout=20000)
    page.wait_for_timeout(2600)
    links=page.locator("a[href]").evaluate_all("(nodes) => nodes.map(a => ({href:a.href,title:(a.innerText||a.textContent||a.getAttribute('aria-label')||a.parentElement?.innerText||'').trim()})).slice(0,1200)")
+   diagnostics["api_pairs"]=len(api_items)
    diagnostics["dom_anchors"]=len(links)
    home=urlparse(url).hostname or ""
    matched=[]
@@ -289,6 +290,7 @@ def browser_news_links(game,url):
     if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
     matched.append((title,link))
    diagnostics["filtered"]=len(matched)
+   diagnostics["rejected"]=max(0,len(links)+len(api_items)-len(matched))
    # Endfield's news cards may navigate via JS without HTML anchor links.
    if game=="end" and not matched:
     cards=page.locator("main div, main li, section div").filter(has_text=re.compile("スカウト|アップデート|バージョン"))
