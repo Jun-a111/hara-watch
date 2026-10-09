@@ -122,4 +122,18 @@ class JsonDiagnosticsTests(unittest.TestCase):
   result=ns["json_news_structure"](example)
   self.assertTrue(any("id" in keys for keys in result))
   self.assertNotIn("sensitive-value",str(result))
+class EndfieldCidTests(unittest.TestCase):
+ def test_extract_known_cid_fields(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={}
+  exec(source[source.index("def endfield_news_items("):source.index("def json_news_structure(")],{"urlparse":None,"re":None,"urllib":None},ns)
+  data={"data":{"list":[{"cid":2656,"title":"特別スカウトのお知らせ"},{"cid":"5208","title":"バージョンアップデートのお知らせ"},{"title":"CIDなし","id":999}]}}
+  found=ns["endfield_news_items"](data)
+  self.assertEqual(len(found),2)
+  self.assertEqual(found[0][1],"https://endfield.gryphline.com/ja-jp/news/2656")
+ def test_ignore_non_numeric_cid(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={}
+  exec(source[source.index("def endfield_news_items("):source.index("def json_news_structure(")],{},ns)
+  self.assertEqual(ns["endfield_news_items"]({"cid":"../bad","title":"不正URLにさせない告知"}),[])
 if __name__=="__main__":unittest.main()
