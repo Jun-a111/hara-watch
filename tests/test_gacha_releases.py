@@ -202,4 +202,10 @@ class FailedRefreshPreservationTests(unittest.TestCase):
   self.assertIn('item["refresh_error"]=',source)
   self.assertIn('"period_candidates","character_candidates","extraction_version"',source)
 
+class DiscoveryMergePreservationTests(unittest.TestCase):
+ def test_discovery_only_updates_preserve_previous_article_fields(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('if "body_status" not in x and old_record.get("body_status") in ("rendered","extracted"):',source)
+  self.assertIn('merged[field]=old_record[field]',source)
+
 if __name__=="__main__":unittest.main()
