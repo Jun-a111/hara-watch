@@ -50,6 +50,7 @@ jobs:
           retention-days: 7
   collect:
     needs: validate
+    if: ${{ always() }}
     runs-on: ubuntu-latest
     timeout-minutes: 20
     steps:
@@ -57,6 +58,8 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
+      - name: 収集スクリプト単独の構文検査
+        run: python -m py_compile scripts/update_gacha_releases.py
       - name: ブラウザ解析を準備
         run: |
           python -m pip install --upgrade pip
