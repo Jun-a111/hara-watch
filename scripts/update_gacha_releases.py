@@ -303,7 +303,15 @@ def wuthering_steam_announcements():
      found.append((title,link))
      diag["html_matched"]+=1
   except Exception as error:errors.append("html: "+str(error)[:100])
- return list(dict.fromkeys(found))[:25],"; ".join(errors),diag
+ unique=[]
+ seen_titles=set()
+ for title,link in found:
+  normalized=" ".join(title.casefold().split())
+  if normalized in seen_titles:continue
+  seen_titles.add(normalized)
+  unique.append((title,link))
+ diag["duplicate_titles"]=len(found)-len(unique)
+ return unique[:25],"; ".join(errors),diag
 
 def endfield_news_items(value,depth=0):
  """Extract Endfield title/cid identifiers, keeping URLs provisional until verified."""
@@ -548,7 +556,16 @@ for items in collected.values():
   merged=dict(seen.get((x["game"],x["url"]),{}),**x)
   if x.get("body_status") not in ("error","render_error"):merged.pop("body_error",None)
   seen[(x["game"],x["url"])]=merged
-records=sorted(seen.values(),key=lambda x:x.get("detected_at",""),reverse=True)[:400]
+# Collapse duplicate Steam announcements with identical titles, preserving the newest entry.
+steam_seen=set()
+deduplicated=[]
+for record in sorted(seen.values(),key=lambda x:x.get("detected_at",""),reverse=True):
+ if record.get("game")=="ww" and urlparse(record.get("url","")).hostname=="steamstore-a.akamaihd.net":
+  key=" ".join(str(record.get("title","")).casefold().split())
+  if key in steam_seen:continue
+  steam_seen.add(key)
+ deduplicated.append(record)
+records=deduplicated[:400]
 close_browser()
 save_candidates({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"status":out,"candidates":records})
 print("Official announcement candidate links:",len(records),{k:v.get("links_found",0) for k,v in out.items()})
