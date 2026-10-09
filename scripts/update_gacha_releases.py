@@ -126,6 +126,16 @@ def page_hints(url):
   output=article_details(text[:18000])
   # Calendar dates require explicit event-period context to avoid copyright/footer dates.
   output["date_candidates"]=[]
+  for period in output["period_candidates"]:
+   for raw in (period["start_raw"],period["end_raw"]):
+    found=DATE_RE.search(raw)
+    if found:
+     year,month,day=found.groups()
+     normalized=f"{year}-{int(month):02d}-{int(day):02d}"
+     try:datetime.fromisoformat(normalized)
+     except ValueError:continue
+     if normalized not in output["date_candidates"]:output["date_candidates"].append(normalized)
+  output["date_candidates"]=output["date_candidates"][:8]
   output["phase_hint"]=hints(" ".join(parser.title)+text[:1000])["phase_hint"]
   output["date_context"]=context+"（開催日未確定）"
   output["body_status"]="extracted"
