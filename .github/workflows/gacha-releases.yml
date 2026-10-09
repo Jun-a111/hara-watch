@@ -35,7 +35,12 @@ jobs:
       - name: 開催期間・キャラ名の抽出テスト
         run: python -m unittest discover -s tests -p "test_gacha_releases.py" -v
       - name: 公式告知の候補リンクを集める
-        run: timeout 14m python -u scripts/update_gacha_releases.py || echo "収集が途中終了。保存済みチェックポイントを確認します。"
+        run: |
+          set +e
+          timeout 14m python -u scripts/update_gacha_releases.py
+          rc=$?
+          if [ "$rc" -ne 0 ]; then echo "収集が途中終了（終了コード $rc）。チェックポイントの保存を試みます。"; fi
+          exit "$rc"
       - name: 収集結果の診断を出力
         if: always()
         run: |
