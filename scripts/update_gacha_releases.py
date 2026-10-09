@@ -248,24 +248,39 @@ def json_news_items(value,depth=0):
  return out
 
 def wuthering_steam_announcements():
- """Use the game's Steam news feed as an independent fallback for discovery."""
- endpoint="https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=3513350&count=35&maxlength=0&format=json"
+ """Discover game-specific announcements from Steam API and public official announcements page."""
+ endpoint="https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=3513350&count=60&maxlength=0&format=json"
+ found=[]
+ errors=[]
  try:
   req=urllib.request.Request(endpoint,headers={"User-Agent":"GachaWars/1.0"})
   with urllib.request.urlopen(req,timeout=14) as response:data=json.load(response)
-  found=[]
   for item in data.get("appnews",{}).get("newsitems",[]):
    title=item.get("title","")
    link=item.get("url","")
    if not isinstance(title,str) or not isinstance(link,str):continue
    parsed=urlparse(link)
    if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","wutheringwaves.kurogames.com"):continue
-   if parsed.hostname=="store.steampowered.com" and not re.search(r"/news/app/3513350/",parsed.path):continue
+   if parsed.hostname=="store.steampowered.com" and "/news/" not in parsed.path:continue
    if parsed.hostname=="steamcommunity.com" and not ("/games/3513350/" in parsed.path or "/app/3513350/" in parsed.path):continue
    if not any(keyword in title.lower() for keyword in KEYWORDS):continue
    found.append((title[:180],link))
-  return list(dict.fromkeys(found))[:25],""
- except Exception as error:return [],str(error)[:150]
+ except Exception as error:errors.append("api: "+str(error)[:100])
+ if not found:
+  try:
+   page_url="https://steamcommunity.com/app/3513350/announcements/?l=japanese"
+   req=urllib.request.Request(page_url,headers={"User-Agent":"Mozilla/5.0"})
+   with urllib.request.urlopen(req,timeout=14) as response:html=response.read(1300000).decode("utf-8","replace")
+   parser=Links();parser.feed(html)
+   for href,title in parser.items:
+    link=urljoin(page_url,href)
+    parsed=urlparse(link)
+    if parsed.hostname not in ("steamcommunity.com","store.steampowered.com"):continue
+    if not ("/announcements/detail/" in parsed.path or "/news/app/3513350/" in parsed.path):continue
+    title=" ".join(title.split())[:180]
+    if title and any(keyword in title.lower() for keyword in KEYWORDS):found.append((title,link))
+  except Exception as error:errors.append("html: "+str(error)[:100])
+ return list(dict.fromkeys(found))[:25],"; ".join(errors)
 
 def endfield_news_items(value,depth=0):
  """Extract Endfield title/cid identifiers, keeping URLs provisional until verified."""
