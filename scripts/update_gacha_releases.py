@@ -569,6 +569,13 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
     continue
    detail=page_hints(item["url"])
    if detail.get("body_status")=="unavailable":detail=rendered_hints(item["url"])
+   if detail.get("body_status") not in ("rendered","extracted") and previous.get("body_status") in ("rendered","extracted"):
+    # A temporary fetch failure must not erase a previously successful parse.
+    for field in ("date_candidates","date_context","body_status","period_candidates","character_candidates","extraction_version"):
+     if field in previous:item[field]=previous[field]
+    item["refresh_error"]=detail.get("body_error") or detail.get("date_context","再取得失敗")
+    continue
+   item.pop("refresh_error",None)
    item["date_candidates"]=detail["date_candidates"][:8]
    item["date_context"]=detail.get("date_context","本文未取得")
    item["body_status"]=detail.get("body_status","unavailable")
