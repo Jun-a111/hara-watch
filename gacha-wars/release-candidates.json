@@ -1,36 +1,48 @@
 {
   "schema": "gacha-wars-release-candidates-v1",
-  "updated_at": "2026-10-09T10:10:02+00:00",
+  "updated_at": "2026-10-09T10:13:01+00:00",
   "status": {
     "ww": {
       "ok": true,
       "links_found": 4,
-      "checked_at": "2026-10-09T10:10:02+00:00"
+      "index_links_found": 0,
+      "seed_links": 4,
+      "checked_at": "2026-10-09T10:13:01+00:00"
     },
     "gi": {
       "ok": true,
-      "links_found": 0,
-      "checked_at": "2026-10-09T10:10:02+00:00"
+      "links_found": 3,
+      "index_links_found": 0,
+      "seed_links": 3,
+      "checked_at": "2026-10-09T10:13:01+00:00"
     },
     "hsr": {
       "ok": true,
       "links_found": 0,
-      "checked_at": "2026-10-09T10:10:02+00:00"
+      "index_links_found": 0,
+      "seed_links": 0,
+      "checked_at": "2026-10-09T10:13:01+00:00"
     },
     "zzz": {
       "ok": true,
       "links_found": 0,
-      "checked_at": "2026-10-09T10:10:02+00:00"
+      "index_links_found": 0,
+      "seed_links": 0,
+      "checked_at": "2026-10-09T10:13:01+00:00"
     },
     "nte": {
       "ok": true,
       "links_found": 0,
-      "checked_at": "2026-10-09T10:10:02+00:00"
+      "index_links_found": 0,
+      "seed_links": 0,
+      "checked_at": "2026-10-09T10:13:01+00:00"
     },
     "end": {
       "ok": true,
       "links_found": 0,
-      "checked_at": "2026-10-09T10:10:02+00:00"
+      "index_links_found": 0,
+      "seed_links": 0,
+      "checked_at": "2026-10-09T10:13:01+00:00"
     }
   },
   "candidates": [
@@ -38,7 +50,7 @@
       "game": "ww",
       "title": "Ver.3.7 配信開始のお知らせ",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
-      "detected_at": "2026-10-09T10:10:02+00:00",
+      "detected_at": "2026-10-09T10:13:01+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown"
@@ -47,7 +59,7 @@
       "game": "ww",
       "title": "Ver.3.7 共鳴者・武器集音 第一期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
-      "detected_at": "2026-10-09T10:10:02+00:00",
+      "detected_at": "2026-10-09T10:13:01+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first"
@@ -56,7 +68,7 @@
       "game": "ww",
       "title": "Ver.3.2 共鳴者・武器集音 第二期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4497",
-      "detected_at": "2026-10-09T10:10:02+00:00",
+      "detected_at": "2026-10-09T10:13:01+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "second"
@@ -65,10 +77,43 @@
       "game": "ww",
       "title": "共鳴者集音 明日へ焼き付ける記憶",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4887",
-      "detected_at": "2026-10-09T10:10:02+00:00",
+      "detected_at": "2026-10-09T10:13:01+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown"
+    },
+    {
+      "game": "gi",
+      "title": "Luna V 前半祈願 公式告知",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/162721",
+      "detected_at": "2026-10-09T10:13:01+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2024-08-01"
+      ],
+      "phase_hint": "first"
+    },
+    {
+      "game": "gi",
+      "title": "Luna V 後半祈願 公式告知",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/163094",
+      "detected_at": "2026-10-09T10:13:01+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2024-08-01"
+      ],
+      "phase_hint": "second"
+    },
+    {
+      "game": "gi",
+      "title": "Luna VI 後半祈願 公式告知",
+      "url": "https://genshin.hoyoverse.com/en/news/detail/163629",
+      "detected_at": "2026-10-09T10:13:01+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [
+        "2024-08-01"
+      ],
+      "phase_hint": "second"
     }
   ]
 }
