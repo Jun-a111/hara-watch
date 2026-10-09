@@ -31,6 +31,14 @@ class ExtractorTests(unittest.TestCase):
   ns={"re":__import__("re")}
   exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
   self.assertEqual(ns["article_details"]("公開日2026年10月9日 更新日2026年10月12日")["period_candidates"],[])
+ def test_date_not_truncated(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_RE="):source.index("PHASE_FIRST=")],ns)
+  examples=[("2026年6月13日",("2026","6","13")),("2026/3/17",("2026","3","17")),("2026/4/28",("2026","4","28")),("2026/5/19",("2026","5","19"))]
+  for raw,expected in examples:
+   with self.subTest(raw=raw):
+    self.assertEqual(ns["DATE_RE"].search(raw).groups(),expected)
  def test_real_world_period_deduplication(self):
   source=SCRIPT.read_text(encoding="utf-8")
   ns={"re":__import__("re")}
