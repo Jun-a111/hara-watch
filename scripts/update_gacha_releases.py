@@ -354,6 +354,12 @@ out={}
 collected={}
 for game in ("ww","end","gi","hsr","zzz","nte"):
  url=SOURCES[game]
+ out[game]={"ok":False,"in_progress":True,"checked_at":now,"stage":"starting"}
+ pending={(x["game"],x["url"]):x for x in history if isinstance(x,dict) and x.get("game") in SOURCES and isinstance(x.get("url"),str) and x["url"].startswith("https://")}
+ for group in collected.values():
+  for item in group:pending[(item["game"],item["url"])]=dict(pending.get((item["game"],item["url"]),{}),**item)
+ save_candidates({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"collection_partial":True,"status":out,"candidates":list(pending.values())[:400]})
+ print("Starting official news discovery:",game,flush=True)
  try:
   html=""
   static_error=""
