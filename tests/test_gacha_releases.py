@@ -187,4 +187,11 @@ class RegionalMaintenanceTests(unittest.TestCase):
   periods=ns["article_details"](sample)["period_candidates"]
   self.assertEqual([p["classification"] for p in periods],["maintenance","maintenance"])
 
+class ClassificationPreservationTests(unittest.TestCase):
+ def test_curated_classification_preservation_logic(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('old.get("classification_source")=="stored_context_reclassified"',source)
+  self.assertIn('period.get("classification","unknown")=="unknown"',source)
+  self.assertIn('preserve_period_classification(detail.get("period_candidates",[]))',source)
+
 if __name__=="__main__":unittest.main()
