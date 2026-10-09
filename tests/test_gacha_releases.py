@@ -126,7 +126,7 @@ class EndfieldCidTests(unittest.TestCase):
  def test_extract_known_cid_fields(self):
   source=SCRIPT.read_text(encoding="utf-8")
   ns={}
-  exec(source[source.index("def endfield_news_items("):source.index("def json_news_structure(")],{"urlparse":None,"re":None,"urllib":None},ns)
+  exec(source[source.index("def endfield_news_items("):source.index("def json_news_structure(")],ns)
   data={"data":{"list":[{"cid":2656,"title":"特別スカウトのお知らせ"},{"cid":"5208","title":"バージョンアップデートのお知らせ"},{"title":"CIDなし","id":999}]}}
   found=ns["endfield_news_items"](data)
   self.assertEqual(len(found),2)
