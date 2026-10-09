@@ -28,6 +28,15 @@ try:
     past = json.loads(OUTPUT.read_text(encoding="utf-8")).get("records", [])
 except (OSError, ValueError):
     past = []
+# App Store IDs are normally shared across regions; observations from earlier
+# successful chart matches can help identify localized titles safely.
+KNOWN_IDS = {}
+for record in past:
+    if not isinstance(record, dict):
+        continue
+    game, app_id = record.get("game"), record.get("app_id")
+    if game in ALIASES and app_id and str(app_id).isdigit():
+        KNOWN_IDS.setdefault(game, set()).add(str(app_id))
 new = []
 status = {}
 for market in MARKETS:
@@ -46,13 +55,18 @@ for market in MARKETS:
         matches = set()
         for rank, entry in enumerate(entries, 1):
             title = normalized(entry.get("im:name", {}).get("label", ""))
+            app_id = str(entry.get("id", {}).get("attributes", {}).get("im:id") or "")
             for game, names in MATCH.items():
-                if title in names and game not in matches:
+                matched_title = title in names
+                matched_id = bool(app_id) and app_id in KNOWN_IDS.get(game, set())
+                if (matched_title or matched_id) and game not in matches:
                     new.append({"game": game, "region": market, "kind": "rank",
                                 "store": "ios", "value": rank, "date": now,
                                 "source": "Apple iTunes top grossing Games RSS",
                                 "source_url": url, "chart": "topgrossingapplications",
-                                "chart_depth": len(entries), "app_id": entry.get("id", {}).get("attributes", {}).get("im:id")})
+                                "chart_depth": len(entries), "app_id": app_id, "matched_by": "name" if matched_title else "verified_app_id"})
+                    if app_id.isdigit():
+                        KNOWN_IDS.setdefault(game, set()).add(app_id)
                     matches.add(game)
         status[market] = {"ok": True, "chart_depth": len(entries),
                           "matched": sorted(matches), "checked_at": now}
