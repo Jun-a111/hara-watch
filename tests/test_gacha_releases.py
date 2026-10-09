@@ -31,6 +31,13 @@ class ExtractorTests(unittest.TestCase):
   ns={"re":__import__("re")}
   exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
   self.assertEqual(ns["article_details"]("公開日2026年10月9日 更新日2026年10月12日")["period_candidates"],[])
+ def test_real_world_period_deduplication(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
+  text="2026/3/17 18:00~2026/4/7 14:59。2026/3/17 18:00—2026/4/7 14:59。2026/3/17 18:00—2026/4/7 14:59"
+  result=ns["article_details"](text)
+  self.assertEqual(len(result["period_candidates"]),1)
  def test_no_false_names(self):
   source=SCRIPT.read_text(encoding="utf-8")
   ns={"re":__import__("re")}
