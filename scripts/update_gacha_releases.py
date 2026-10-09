@@ -102,6 +102,7 @@ for game,url in SOURCES.items():
    if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
    if not link.startswith("https://"):continue
    matched.append({"game":game,"title":title[:180],"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
+  discovered_count=len(matched)
   for title,link in SEEDS.get(game,[]):
    if not any(item["url"]==link for item in matched):matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
   collected[game]=list({x["url"]:x for x in matched}.values())[:80]
@@ -109,7 +110,7 @@ for game,url in SOURCES.items():
    detail=page_hints(item["url"])
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"links_found":len(collected[game]),"index_links_found":len(matched)-len(SEEDS.get(game,[])),"seed_links":len(SEEDS.get(game,[])),"checked_at":now}
+  out[game]={"ok":True,"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
