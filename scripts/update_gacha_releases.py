@@ -16,7 +16,7 @@ SOURCES={
  "gi":"https://genshin.hoyoverse.com/ja/news",
  "hsr":"https://hsr.hoyoverse.com/ja-jp/news",
  "zzz":"https://zenless.hoyoverse.com/ja-jp/news",
- "nte":"https://nte.perfectworld.com/",
+ "nte":"https://nte.perfectworld.com/jp/article/news/gamenews/index.html",
  "end":"https://endfield.gryphline.com/ja-jp/news",
 }
 # Explicitly verified article URLs provide fallback when official news lists render client-side.
@@ -40,6 +40,10 @@ SEEDS={
   ("Ver.3.2 予告番組・情報まとめ","https://zenless.hoyoverse.com/ja-jp/news/165917"),
   ("Ver.2.6期間限定チャンネル（前半）","https://zenless.hoyoverse.com/ja-jp/news/162496"),
   ("Ver.3.3予告番組のお知らせ","https://zenless.hoyoverse.com/m/ja-jp/news/166552")
+ ],
+ "nte":[
+  ("NTE 正式サービス開始","https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html"),
+  ("NTE 公式ニュース一覧","https://nte.perfectworld.com/jp/article/news/gamenews/index.html")
  ],
  "end":[
   ("特別スカウト「臨淵望北」","https://endfield.gryphline.com/ja-jp/news/2656"),
