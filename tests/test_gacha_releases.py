@@ -68,4 +68,18 @@ class StructuredArticleTests(unittest.TestCase):
   parser=self.parser()
   parser.feed('<script type="application/ld+json">{"@type":"WebSite","description":"2026年10月9日～2026年10月29日"}</script>')
   self.assertEqual(parser.texts(),[])
+class OfficialNewsApiTests(unittest.TestCase):
+ def test_nested_json_news_links(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={}
+  exec(source[source.index("def json_news_items("):source.index("def browser_news_links(")],ns)
+  payload={"data":{"items":[{"title":"特別スカウト『新キャラ』のお知らせ","url":"/ja-jp/news/1234"},{"title":"ゲーム告知","link":"https://endfield.gryphline.com/ja-jp/news/5555"}]}}
+  items=ns["json_news_items"](payload)
+  self.assertEqual(len(items),2)
+  self.assertEqual(items[0][1],"/ja-jp/news/1234")
+ def test_ignore_id_without_url(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={}
+  exec(source[source.index("def json_news_items("):source.index("def browser_news_links(")],ns)
+  self.assertEqual(ns["json_news_items"]({"data":[{"id":1234,"title":"集音のお知らせ"}]}),[])
 if __name__=="__main__":unittest.main()
