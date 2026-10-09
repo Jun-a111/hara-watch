@@ -308,7 +308,7 @@ def wuthering_steam_announcements():
     diag["bad_host"]+=1
     if len(diag["sample_hosts"])<6:diag["sample_hosts"].append(parsed.hostname or "")
     continue
-   if parsed.hostname=="steamstore-a.akamaihd.net" and not parsed.path.startswith("/news/"):
+   if parsed.hostname=="steamstore-a.akamaihd.net" and not parsed.path.startswith("/news/externalpost/steam_community_announcements/"):
     diag["non_news_path"]+=1
     continue
    if parsed.hostname=="store.steampowered.com" and "/news/" not in parsed.path:
@@ -560,7 +560,8 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
    prior=cache.get(item["url"],{})
    stale=prior.get("extraction_version")!=4 and prior.get("body_status") in ("rendered","extracted")
    has_periods=bool(prior.get("period_candidates"))
-   return (not (stale and has_periods),not stale,item["url"] not in discovered_urls)
+   official_ww=game=="ww" and urlparse(item["url"]).hostname=="wutheringwaves.kurogames.com"
+   return (not (stale and has_periods),not (stale and official_ww),not stale,item["url"] not in discovered_urls)
   selected=sorted(collected[game],key=selection_priority)[:12]
   for item in selected:
    previous=cache.get(item["url"],{})
