@@ -301,17 +301,27 @@ def browser_news_links(game,url):
      if 8<=len(title)<=110 and any(k in title.lower() for k in KEYWORDS) and title not in titles:
       titles.append(title)
     diagnostics["clickable_titles"]=len(titles)
+    diagnostics["clicked_routes"]=0
     for title in titles[:16]:
      try:
       node=page.get_by_text(title,exact=True).first
       if node.count()!=1:continue
       before=page.url
-      node.click(timeout=1500)
-      page.wait_for_timeout(350)
+      node.click(timeout=1000)
+      page.wait_for_timeout(300)
       dest=page.url
+      if dest==before:
+       try:
+        clickable=node.locator("xpath=ancestor::*[@role='button' or @onclick or contains(@class,'cursor')][1]")
+        if clickable.count():
+         clickable.click(timeout=1000)
+         page.wait_for_timeout(350)
+         dest=page.url
+       except Exception:pass
       parsed=urlparse(dest)
       if dest!=before and parsed.hostname==home and re.search(r"/news/[^/]+$",parsed.path):
        matched.append((title,dest))
+       diagnostics["clicked_routes"]+=1
       if dest!=before:page.goto(url,wait_until="domcontentloaded",timeout=15000)
      except Exception:continue
    return list(dict.fromkeys(matched))[:50],"ok",diagnostics
