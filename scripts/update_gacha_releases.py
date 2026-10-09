@@ -247,6 +247,25 @@ def json_news_items(value,depth=0):
   if isinstance(v,(dict,list)) and key not in ("translations","locale","locales"):out.extend(json_news_items(v,depth+1))
  return out
 
+def wuthering_steam_announcements():
+ """Use the game's Steam news feed as an independent fallback for discovery."""
+ endpoint="https://api.steampowered.com/ISteamNews/GetNewsForApp/v2/?appid=3513350&count=35&maxlength=0&format=json"
+ try:
+  req=urllib.request.Request(endpoint,headers={"User-Agent":"GachaWars/1.0"})
+  with urllib.request.urlopen(req,timeout=14) as response:data=json.load(response)
+  found=[]
+  for item in data.get("appnews",{}).get("newsitems",[]):
+   title=item.get("title","")
+   link=item.get("url","")
+   if not isinstance(title,str) or not isinstance(link,str):continue
+   parsed=urlparse(link)
+   if parsed.scheme!="https" or parsed.hostname not in ("store.steampowered.com","steamcommunity.com","wutheringwaves.kurogames.com"):continue
+   if parsed.hostname=="store.steampowered.com" and not re.search(r"/news/app/3513350/",parsed.path):continue
+   if not any(keyword in title.lower() for keyword in KEYWORDS):continue
+   found.append((title[:180],link))
+  return list(dict.fromkeys(found))[:25],""
+ except Exception as error:return [],str(error)[:150]
+
 def endfield_news_items(value,depth=0):
  """Extract Endfield title/cid identifiers, keeping URLs provisional until verified."""
  if depth>7:return []
@@ -434,6 +453,11 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
    browser_diag["english_mobile_fallback"]=extra_diag
    browser_diag["english_mobile_error"]=extra_error[:160]
    browser_links.extend(extra_links)
+   if not browser_links:
+    steam_links,steam_error=wuthering_steam_announcements()
+    browser_diag["steam_fallback_found"]=len(steam_links)
+    browser_diag["steam_fallback_error"]=steam_error
+    browser_links.extend(steam_links)
   for title,link in browser_links:
    if not any(x["url"]==link for x in matched):
     matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
