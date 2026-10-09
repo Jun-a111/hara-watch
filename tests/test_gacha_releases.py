@@ -96,7 +96,7 @@ class CollectorRegressionTests(unittest.TestCase):
  def test_checkpoint_ends_in_newline(self):
   import ast
   source=SCRIPT.read_text(encoding="utf-8")
-  self.assertIn('+"\\n",encoding="utf-8")',source)
+  self.assertIn('content=json.dumps(payload,ensure_ascii=False,indent=2)+"\\n"',source)
 class AtomicCandidateOutputTests(unittest.TestCase):
  def test_atomic_save_preserves_valid_file(self):
   import json,tempfile
