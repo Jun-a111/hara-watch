@@ -33,25 +33,28 @@ function prepareCandidate(index){const x=releaseCandidates[index];if(!x)return;g
 
 async function loadReleaseCandidates(){try{const r=await fetch("./release-candidates.json",{cache:"no-store"});if(!r.ok)throw Error("候補ファイル未取得");const j=await r.json();if(j.schema!=="gacha-wars-release-candidates-v1"||!Array.isArray(j.candidates))throw Error("形式不一致");releaseCandidates=j.candidates.filter(x=>G.some(g=>g.id===x.game)&&typeof x.title==="string"&&typeof x.url==="string"&&/^https:\/\//.test(x.url)).slice(0,100);candidateStatus=j.status||{};candidateCollectionPartial=!!j.collection_partial;candidateUpdatedAt=j.updated_at||"";render()}catch(e){console.info("告知候補の取得失敗",e.message)}}
 function candidateMarketSnapshot(x){
- const period=Array.isArray(x.period_candidates)?x.period_candidates[0]:null;
- if(!period)return '<span class="empty">開催期間を抽出できていません</span>';
- const rawDate=raw=>{const m=String(raw||"").match(/(20\d{2})[年\/.\-](\d{1,2})[月\/.\-](\d{1,2})/);if(!m)return "";const y=+m[1],mo=+m[2],d=+m[3];const iso=y+"-"+String(mo).padStart(2,"0")+"-"+String(d).padStart(2,"0");return new Date(iso+"T00:00:00Z").toISOString().slice(0,10)===iso?iso:""};
- const start=rawDate(period.start_raw),end=rawDate(period.end_raw);
- if(!start||!end||start>end)return '<span class="empty">開催日付を検証できず照合不可</span>';
- const duration=Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;
- const days=Math.min(duration,90);
- const rows=R.map(reg=>{
-  const byDay=new Map();
-  for(const r of autoRecords){
-   if(r.game!==x.game||r.region!==reg[0]||r.store!=="ios"||r.kind!=="rank")continue;
-   const day=observationDay(r),rank=Number(r.value);
-   if(day<start||day>end||!Number.isInteger(rank)||rank<1)continue;
-   if(!byDay.has(day)||rank<byDay.get(day))byDay.set(day,rank);
-  }
-  const values=[...byDay.values()];
-  return '<tr><td>'+esc(reg[1])+'</td><td>'+(values.length?'<b>'+Math.min(...values)+'位</b>':'未取得')+'</td><td>'+values.length+' / '+days+'日</td></tr>';
+ const periods=Array.isArray(x.period_candidates)?x.period_candidates.slice(0,5):[];
+ if(!periods.length)return '<span class="empty">開催期間を抽出できていません</span>';
+ const rawDate=raw=>{const m=String(raw||"").match(/(20\\d{2})[年\\/.\\-](\\d{1,2})[月\\/.\\-](\\d{1,2})/);if(!m)return "";const y=+m[1],mo=+m[2],d=+m[3];const iso=y+"-"+String(mo).padStart(2,"0")+"-"+String(d).padStart(2,"0");return new Date(iso+"T00:00:00Z").toISOString().slice(0,10)===iso?iso:""};
+ const sections=periods.map((period,index)=>{
+  const start=rawDate(period.start_raw),end=rawDate(period.end_raw);
+  if(!start||!end||start>end)return '<p class="tiny">期間候補 '+(index+1)+'：日付を検証できず照合不可</p>';
+  const duration=Math.round((Date.parse(end)-Date.parse(start))/86400000)+1;
+  if(duration>90)return '<p class="tiny">期間候補 '+(index+1)+'：90日超のため照合対象外</p>';
+  const rows=R.map(reg=>{
+   const byDay=new Map();
+   for(const r of autoRecords){
+    if(r.game!==x.game||r.region!==reg[0]||r.store!=="ios"||r.kind!=="rank")continue;
+    const day=observationDay(r),rank=Number(r.value);
+    if(day<start||day>end||!Number.isInteger(rank)||rank<1)continue;
+    if(!byDay.has(day)||rank<byDay.get(day))byDay.set(day,rank);
+   }
+   const values=[...byDay.values()];
+   return '<tr><td>'+esc(reg[1])+'</td><td>'+(values.length?'<b>'+Math.min(...values)+'位</b>':'未取得')+'</td><td>'+values.length+' / '+duration+'日</td></tr>';
+  }).join("");
+  return '<h4>期間候補 '+(index+1)+'：'+esc(start)+'〜'+esc(end)+'</h4><p class="tiny">'+esc(period.raw||"")+' ／ '+duration+'日間・日別最良観測順位</p><div class="scroll"><table><thead><tr><th>地域</th><th>最高観測順位</th><th>観測日数</th></tr></thead><tbody>'+rows+'</tbody></table></div>';
  }).join("");
- return '<details><summary>6地域のセルラン履歴と照合（未確定）</summary><p class="tiny">'+esc(start)+'〜'+esc(end)+'（'+duration+'日間）。各日の最良観測順位を使用。観測がない日は圏外ではなく未取得。</p><div class="scroll"><table><thead><tr><th>地域</th><th>最高観測順位</th><th>観測日数</th></tr></thead><tbody>'+rows+'</tbody></table></div><p class="tiny">未検証の告知期間に基づく参考値。正式戦績・勝敗・売上に反映しません。</p></details>';
+ return '<details><summary>6地域セルランとの参考照合（候補 '+periods.length+'期間）</summary><p class="hint">本文から機械抽出した期間にはメンテナンスや別イベントも混じります。ガチャ開催期間とは未確定です。</p>'+sections+'<p class="tiny">観測がない日は圏外ではなく未取得。正式戦績・勝敗・売上には反映しません。</p></details>';
 }
 function releaseCandidateBoard(){
  const rows=releaseCandidates.map((x,i)=>({...x,candidateIndex:i})).filter(x=>candidateFilter==="all"||x.game===candidateFilter).slice(0,70);
