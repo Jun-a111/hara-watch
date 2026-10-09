@@ -353,7 +353,14 @@ for game,url in SOURCES.items():
   # Prioritize newly discovered links for body analysis, while preserving seeded fallback.
   discovered_urls={x["url"] for x in matched[:discovered_count]}
   selected=sorted(collected[game],key=lambda x:(x["url"] not in discovered_urls,x["url"] in {u for _,u in SEEDS.get(game,[])}))[:12]
+  cache={x.get("url"):x for x in history if isinstance(x,dict) and x.get("game")==game}
   for item in selected:
+   previous=cache.get(item["url"],{})
+   if previous.get("body_status") in ("rendered","extracted") and isinstance(previous.get("period_candidates"),list) and isinstance(previous.get("character_candidates"),list):
+    for field in ("date_candidates","date_context","body_status","period_candidates","character_candidates"):
+     if field in previous:item[field]=previous[field]
+    if item["phase_hint"]=="unknown":item["phase_hint"]=previous.get("phase_hint","unknown")
+    continue
    detail=page_hints(item["url"])
    if detail.get("body_status")=="unavailable":detail=rendered_hints(item["url"])
    item["date_candidates"]=detail["date_candidates"][:8]
@@ -364,7 +371,7 @@ for game,url in SOURCES.items():
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","browser_diagnostics":browser_diag,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
+  out[game]={"ok":True,"body_cached":sum(x.get("url") in cache and x.get("body_status") in ("rendered","extracted") for x in collected[game]),"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":static_found,"browser_links_found":browser_found,"browser_index_error":browser_error if browser_error!="ok" else "","browser_diagnostics":browser_diag,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
