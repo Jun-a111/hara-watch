@@ -306,9 +306,8 @@ def browser_news_links(game,url):
       node=page.get_by_text(title,exact=True).first
       if node.count()!=1:continue
       before=page.url
-      async_urls=[]
-      with page.expect_navigation(timeout=2500) as info:
-       node.click(timeout=1500)
+      node.click(timeout=1500)
+      page.wait_for_timeout(350)
       dest=page.url
       parsed=urlparse(dest)
       if dest!=before and parsed.hostname==home and re.search(r"/news/[^/]+$",parsed.path):
