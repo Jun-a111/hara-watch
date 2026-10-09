@@ -59,7 +59,7 @@ class Links(HTMLParser):
   if tag=="a" and self.href:
    self.items.append((self.href," ".join(" ".join(self.parts).split())))
    self.href=None
-DATE_RE=re.compile(r"(20\d{2})[年/\-.](0?[1-9]|1[0-2])[月/\-.](0?[1-9]|[12]\d|3[01])日?")
+DATE_RE=re.compile(r"(?<!\d)(20\d{2})[年/\-.](0?[1-9]|1[0-2])[月/\-.](0?[1-9]|[12]\d|3[01])(?!\d)日?")
 PHASE_FIRST=("前半","第一期","第1期","phase 1","phase i","上半")
 PHASE_SECOND=("後半","第二期","第2期","phase 2","phase ii","下半")
 def hints(text):
@@ -258,9 +258,10 @@ for game,url in SOURCES.items():
   for item in collected[game][:8]:
    detail=page_hints(item["url"])
    if detail.get("body_status")=="unavailable":detail=rendered_hints(item["url"])
-   item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
+   item["date_candidates"]=detail["date_candidates"][:8]
    item["date_context"]=detail.get("date_context","本文未取得")
    item["body_status"]=detail.get("body_status","unavailable")
+   item.pop("body_error",None)
    if detail.get("body_error"):item["body_error"]=detail["body_error"]
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
@@ -276,7 +277,10 @@ for x in history:
  if path.endswith("/news") or path.endswith("/index.html") or not path:continue
  seen[(x["game"],x["url"])]=x
 for items in collected.values():
- for x in items:seen[(x["game"],x["url"])]=dict(seen.get((x["game"],x["url"]),{}),**x)
+ for x in items:
+  merged=dict(seen.get((x["game"],x["url"]),{}),**x)
+  if x.get("body_status") not in ("error","render_error"):merged.pop("body_error",None)
+  seen[(x["game"],x["url"])]=merged
 records=sorted(seen.values(),key=lambda x:x.get("detected_at",""),reverse=True)[:400]
 close_browser()
 OUTPUT.write_text(json.dumps({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"status":out,"candidates":records},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
