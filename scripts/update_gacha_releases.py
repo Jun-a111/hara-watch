@@ -96,7 +96,7 @@ def article_details(text):
    # The nearest preceding label is usually the event type, not the article title.
    cues={
     "maintenance":("メンテナンス実施日時","メンテナンス期間","メンテナンス","maintenance","downtime"),
-    "banner_possible":("祈願期間","集音期間","跳躍期間","スカウト開催期間","スカウト期間","チャンネル開催期間","event wish duration","convene duration","warp duration","banner duration"),
+    "banner_possible":("祈願期間","集音期間","集音開催期間","祈願開催期間","跳躍期間","跳躍開催期間","スカウト開催期間","スカウト期間","チャンネル開催期間","event wish duration","convene duration","warp duration","banner duration"),
     "other_event":("開催期間","開放期間","末日の幻影","虚構叙事","混沌の記憶","忘却の庭","simulated universe","event duration")
    }
    nearest=(-1,"unknown")
