@@ -215,6 +215,13 @@ def page_hints(url):
 # Browser-rendered text is still an unverified extraction, never a confirmed release.
 _browser=None
 _browser_driver=None
+def article_text_quality(url,text):
+ """Reject a generic website shell masquerading as official announcement text."""
+ if urlparse(url).hostname!="wutheringwaves.kurogames.com":return True
+ if "/news/detail/" not in urlparse(url).path:return True
+ cues=("集音","共鳴者","開催期間","開始時間","アップデート","ver.","バージョン","開催日時","convene","update")
+ return len(text)>=180 and any(word in text.lower() for word in cues) and bool(DATE_RE.search(text))
+
 def rendered_hints(url):
  global _browser,_browser_driver
  try:
@@ -233,6 +240,10 @@ def rendered_hints(url):
    joined=" ".join(text)
    if len(joined)<80:joined=page.locator("body").inner_text(timeout=5000)
    if len(joined)<180:return blank_hints("unavailable","ブラウザ表示後も本文未取得")
+   if not article_text_quality(url,joined):
+    result=blank_hints("unavailable","記事本文を確認できず（共通ページの可能性）")
+    result["body_error"]="本文の先頭: "+" ".join(joined[:220].split())
+    return result
    output=article_details(joined[:18000])
    output["phase_hint"]=hints(joined[:1000])["phase_hint"]
    output["date_candidates"]=[]
