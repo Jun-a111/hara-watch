@@ -59,7 +59,7 @@ class Links(HTMLParser):
   if tag=="a" and self.href:
    self.items.append((self.href," ".join(" ".join(self.parts).split())))
    self.href=None
-DATE_RE=re.compile(r"(?<!\d)(20\d{2})[年/\-.](0?[1-9]|1[0-2])[月/\-.](0?[1-9]|[12]\d|3[01])(?!\d)日?")
+DATE_RE=re.compile(r"(?<!\d)(20\d{2})[年/\-.](0?[1-9]|1[0-2])[月/\-.](0?[1-9]|[12]\d|3[01])日?(?!\d)")
 PHASE_FIRST=("前半","第一期","第1期","phase 1","phase i","上半")
 PHASE_SECOND=("後半","第二期","第2期","phase 2","phase ii","下半")
 def hints(text):
@@ -82,7 +82,7 @@ QUOTED_NAME=re.compile(r"[「『〖](.{2,18}?)[」』〗]")
 NON_CHARACTER=("スカウト","ガチャ","イベント","チャンネル","祈願","集音","ピックアップ","バージョン","開催","更新","期間","記憶","武器","訓練","作戦","ショップ","任務","ストーリー")
 def article_details(text):
  text=" ".join(text.split())
- periods=[{"raw":m.group(0)[:110],"start_raw":m.group(1),"end_raw":m.group(2)} for pattern in (PERIOD_RE,DATE_PREFIX_RE) for m in pattern.finditer(text)][:5]
+ periods=list({(m.group(1).strip(),m.group(2).strip()):{"raw":m.group(0)[:110].strip(),"start_raw":m.group(1).strip(),"end_raw":m.group(2).strip()} for pattern in (PERIOD_RE,DATE_PREFIX_RE) for m in pattern.finditer(text)}.values())[:5]
  characters=[]
  for clue in CHARACTER_CONTEXT:
   for match in re.finditer(re.escape(clue),text):
