@@ -184,6 +184,53 @@ def page_hints(url):
   result["body_error"]=str(error)[:100]
   return result
 
+# A headless browser is used only when static HTML lacks article content.
+# Browser-rendered text is still an unverified extraction, never a confirmed release.
+_browser=None
+_browser_driver=None
+def rendered_hints(url):
+ global _browser,_browser_driver
+ try:
+  from playwright.sync_api import sync_playwright
+  if _browser is None:
+   _browser_driver=sync_playwright().start()
+   _browser=_browser_driver.chromium.launch(headless=True,args=["--no-sandbox"])
+  page=_browser.new_page(locale="ja-JP")
+  try:
+   page.goto(url,wait_until="domcontentloaded",timeout=18000)
+   page.wait_for_timeout(1400)
+   path=urlparse(url).path.rstrip("/")
+   if path.endswith("/news") or path.endswith("/index.html") or not path:
+    return blank_hints("listing","ニュース一覧は本文解析対象外")
+   text=page.locator("main, article").all_text_contents(timeout=3000)
+   joined=" ".join(text)
+   if len(joined)<80:joined=page.locator("body").inner_text(timeout=5000)
+   if len(joined)<180:return blank_hints("unavailable","ブラウザ表示後も本文未取得")
+   output=article_details(joined[:18000])
+   output["phase_hint"]=hints(joined[:1000])["phase_hint"]
+   output["date_candidates"]=[]
+   for period in output["period_candidates"]:
+    for raw in (period["start_raw"],period["end_raw"]):
+     match=DATE_RE.search(raw)
+     if match:
+      year,month,day=match.groups()
+      day_text=f"{year}-{int(month):02d}-{int(day):02d}"
+      try:datetime.fromisoformat(day_text)
+      except ValueError:continue
+      if day_text not in output["date_candidates"]:output["date_candidates"].append(day_text)
+   output["body_status"]="rendered"
+   output["date_context"]="ブラウザ表示テキスト（内容未検証）"
+   return output
+  finally:page.close()
+ except Exception as err:
+  result=blank_hints("render_error","ブラウザ本文抽出失敗")
+  result["body_error"]=str(err)[:140]
+  return result
+def close_browser():
+ global _browser,_browser_driver
+ if _browser:_browser.close();_browser=None
+ if _browser_driver:_browser_driver.stop();_browser_driver=None
+
 now=datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
  previous=json.loads(OUTPUT.read_text(encoding="utf-8"))
@@ -210,6 +257,7 @@ for game,url in SOURCES.items():
   collected[game]=list({x["url"]:x for x in matched}.values())[:80]
   for item in collected[game][:8]:
    detail=page_hints(item["url"])
+   if detail.get("body_status")=="unavailable":detail=rendered_hints(item["url"])
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
    item["date_context"]=detail.get("date_context","本文未取得")
    item["body_status"]=detail.get("body_status","unavailable")
@@ -217,7 +265,7 @@ for game,url in SOURCES.items():
    item["period_candidates"]=detail.get("period_candidates",[])
    item["character_candidates"]=detail.get("character_candidates",[])
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"body_errors":sum(x.get("body_status")=="error" for x in collected[game]),"body_parsed":sum(x.get("body_status")=="extracted" for x in collected[game]),"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
+  out[game]={"ok":True,"body_rendered":sum(x.get("body_status")=="rendered" for x in collected[game]),"body_errors":sum(x.get("body_status") in ("error","render_error") for x in collected[game]),"body_parsed":sum(x.get("body_status") in ("extracted","rendered") for x in collected[game]),"links_found":len(collected[game]),"index_links_found":discovered_count,"seed_links":max(0,len(collected[game])-discovered_count),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
@@ -230,5 +278,6 @@ for x in history:
 for items in collected.values():
  for x in items:seen[(x["game"],x["url"])]=dict(seen.get((x["game"],x["url"]),{}),**x)
 records=sorted(seen.values(),key=lambda x:x.get("detected_at",""),reverse=True)[:400]
+close_browser()
 OUTPUT.write_text(json.dumps({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"status":out,"candidates":records},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
 print("Official announcement candidate links:",len(records),{k:v.get("links_found",0) for k,v in out.items()})
