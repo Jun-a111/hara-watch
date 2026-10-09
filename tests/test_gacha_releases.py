@@ -143,4 +143,12 @@ class SteamDedupTests(unittest.TestCase):
   self.assertIn('steam_seen.add(key)',source)
   self.assertIn('records=deduplicated[:400]',source)
 
+class PeriodClassificationTests(unittest.TestCase):
+ def test_maintenance_separated_from_banner(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
+  sample="メンテナンス期間：2026年10月9日 06:00～2026年10月9日 12:00。集音開催期間：2026年10月10日 11:00～2026年10月30日 12:59"
+  periods=ns["article_details"](sample)["period_candidates"]
+  self.assertEqual([x["classification"] for x in periods],["maintenance","banner_possible"])
 if __name__=="__main__":unittest.main()
