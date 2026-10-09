@@ -221,4 +221,13 @@ class WutheringBodyQualityTests(unittest.TestCase):
   self.assertFalse(ns["article_text_quality"](url,shell))
   self.assertTrue(ns["article_text_quality"](url,article))
 
+class OriginalSourcePriorityTests(unittest.TestCase):
+ def test_kuro_refresh_not_starved_by_steam(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('not (stale and official_ww)',source)
+  self.assertIn('hostname=="wutheringwaves.kurogames.com"',source)
+ def test_steam_news_must_be_own_announcement(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('/news/externalpost/steam_community_announcements/',source)
+
 if __name__=="__main__":unittest.main()
