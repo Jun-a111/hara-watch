@@ -1,8 +1,8 @@
-name: Update GACHA WARS iOS charts
+name: ガチャウォーズ・iOS順位自動収集
 
 on:
   schedule:
-    - cron: '30 11 * * *'
+    - cron: '30 5,11,17,23 * * *'
   push:
     paths:
       - 'scripts/update_gacha_ios.py'
@@ -24,9 +24,9 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-      - name: Fetch iOS top grossing game charts
+      - name: iOSセルランを取得
         run: python scripts/update_gacha_ios.py
-      - name: Commit chart observations
+      - name: 収集結果を保存
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
