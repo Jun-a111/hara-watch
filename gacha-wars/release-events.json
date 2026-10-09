@@ -11,26 +11,26 @@
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166000",
       "source_title": "Version 3.2 Update Announcement",
       "phase": "first",
-      "verification": "unreviewed"
+      "verification": "official"
     },
     {
       "id": "zzz-clarette",
       "game": "zzz",
       "type": "character",
-      "version": "クラレット",
+      "version": "クラレッタ",
       "date": "2026-09-09",
-      "source_url": "https://zenless.hoyoverse.com/m/fr-fr/news/165979",
-      "source_title": "Version 3.2 Limited-Time Channels Phase 1",
+      "source_url": "https://zenless.hoyoverse.com/ja-jp/news?category=295",
+      "source_title": "日本語公式・Ver.3.2前半の登場キャラ告知",
       "phase": "first",
       "version_group": "Ver.3.2",
       "event_kind": "debut",
-      "verification": "unreviewed"
+      "verification": "official"
     },
     {
       "id": "zzz-roxy",
       "game": "zzz",
       "type": "character",
-      "version": "ロキシ",
+      "version": "ロクシー",
       "date": "2026-09-30",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166475?catchSpider=1",
       "source_title": "Ver.3.2 後半ガチャ公式告知",
@@ -169,6 +169,19 @@
       "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
       "schedule_status": "announced",
       "verification": "secondary"
+    },
+    {
+      "id": "zzz-nangongyu-3.2",
+      "game": "zzz",
+      "type": "character",
+      "version": "南宮羽（ピックアップ）",
+      "date": "2026-09-09",
+      "phase": "first",
+      "version_group": "Ver.3.2",
+      "event_kind": "featured_banner",
+      "verification": "official",
+      "source_url": "https://zenless.hoyoverse.com/ja-jp/news?category=295",
+      "source_title": "日本語公式・Ver.3.2前半の登場キャラ告知"
     }
   ]
 }
