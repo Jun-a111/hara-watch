@@ -62,9 +62,19 @@ for market in MARKETS:
         print(f"{market}: unavailable: {exc}")
 # Only append positive observations. A missing game might be beyond chart depth,
 # unavailable in the country, or published under another localized title.
-known = {(r.get("game"), r.get("region"), r.get("date")) for r in past}
-past.extend(r for r in new if (r["game"], r["region"], r["date"]) not in known)
-past = sorted(past, key=lambda r: r["date"])[-5000:]
+# Deduplicate within a run as well as against previous observations.
+by_key = {}
+for record in [*past, *new]:
+    if not isinstance(record, dict):
+        continue
+    if record.get("game") not in ALIASES or record.get("region") not in MARKETS:
+        continue
+    value = record.get("value")
+    if not isinstance(value, int) or value <= 0:
+        continue
+    key = (record.get("game"), record.get("region"), record.get("date"))
+    by_key[key] = record
+past = sorted(by_key.values(), key=lambda r: r.get("date") or "")[-5000:]
 OUTPUT.write_text(json.dumps({
     "schema": "gacha-wars-ios-v1", "updated_at": now,
     "market_status": status, "records": past
