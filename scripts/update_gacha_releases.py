@@ -247,6 +247,21 @@ def json_news_items(value,depth=0):
   if isinstance(v,(dict,list)) and key not in ("translations","locale","locales"):out.extend(json_news_items(v,depth+1))
  return out
 
+def json_news_structure(value,depth=0):
+ """Inspect JSON object shapes without recording API payload values."""
+ if depth>5:return []
+ if isinstance(value,list):
+  shapes=[]
+  for x in value[:8]:shapes.extend(json_news_structure(x,depth+1))
+  return shapes[:20]
+ if not isinstance(value,dict):return []
+ keys=sorted(str(k)[:40] for k in value.keys())[:24]
+ shapes=[keys] if any(k.lower() in ("title","newstitle","id","articleid","newsid","link","url","list","data","items","records") for k in keys) else []
+ for val in value.values():
+  if isinstance(val,(dict,list)):shapes.extend(json_news_structure(val,depth+1))
+  if len(shapes)>=20:break
+ return shapes[:20]
+
 def browser_news_links(game,url):
  """Read news-list anchors after client-side rendering, not announcement text."""
  global _browser,_browser_driver
@@ -259,7 +274,7 @@ def browser_news_links(game,url):
   try:
    api_items=[]
    responses=[]
-   diagnostics={"api_json":0,"api_pairs":0,"dom_anchors":0,"filtered":0,"json_responses_seen":0}
+   diagnostics={"api_json":0,"api_pairs":0,"dom_anchors":0,"filtered":0,"json_responses_seen":0,"api_shapes":[]}
    def collect_response(response):
     try:
      if len(responses)>=90:return
@@ -277,6 +292,8 @@ def browser_news_links(game,url):
      size=response.headers.get("content-length","")
      if size.isdigit() and int(size)>1500000:continue
      payload=response.json()
+     if game=="end" and len(diagnostics["api_shapes"])<12:
+      diagnostics["api_shapes"].extend(json_news_structure(payload)[:12-len(diagnostics["api_shapes"])])
      diagnostics["api_json"]+=1
      found=json_news_items(payload)[:80]
      diagnostics["api_pairs"]+=len(found)
