@@ -15,6 +15,7 @@ try:
 except (FileNotFoundError, ValueError):
     history = []
 added = []
+status = {}
 for game, appid in GAMES.items():
     url = f"https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid={appid}"
     try:
@@ -27,8 +28,10 @@ for game, appid in GAMES.items():
         added.append({"game": game, "region": "global", "kind": "steam",
                       "store": "steam", "value": count, "date": now,
                       "source": "Steam Web API", "source_url": url})
+        status[game] = {"ok": True, "checked_at": now, "players": count}
         print(f"{game}: {count}")
-    except (OSError, ValueError, KeyError) as error:
+    except (OSError, ValueError, KeyError, TypeError) as error:
+        status[game] = {"ok": False, "checked_at": now, "error": str(error)[:150]}
         print(f"{game}: unavailable: {error}")
 # Record no false zeros on transient API failures; retain historical snapshots.
 # Deduplicate existing and newly sampled observations, rejecting bad records.
@@ -45,5 +48,5 @@ for record in [*history, *added]:
     by_key[(record["game"], record["date"])] = record
 history = sorted(by_key.values(), key=lambda r: r["date"])[-2000:]
 OUT.write_text(json.dumps({"schema": "gacha-wars-steam-v1", "updated_at": now,
-                            "records": history}, ensure_ascii=False, indent=2) + "\n",
+                            "game_status": status, "records": history}, ensure_ascii=False, indent=2) + "\n",
                encoding="utf-8")
