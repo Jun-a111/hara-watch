@@ -21,6 +21,11 @@ SOURCES={
 }
 # Explicitly verified article URLs provide fallback when official news lists render client-side.
 SEEDS={
+ "gi":[
+  ("Luna V 前半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/162721"),
+  ("Luna V 後半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/163094"),
+  ("Luna VI 後半祈願 公式告知","https://genshin.hoyoverse.com/en/news/detail/163629")
+ ],
  "ww":[
   ("Ver.3.7 配信開始のお知らせ","https://wutheringwaves.kurogames.com/jp/main/news/detail/5530"),
   ("Ver.3.7 共鳴者・武器集音 第一期","https://wutheringwaves.kurogames.com/jp/main/news/detail/5547"),
@@ -87,7 +92,7 @@ for game,url in SOURCES.items():
    detail=page_hints(item["url"])
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
-  out[game]={"ok":True,"links_found":len(collected[game]),"checked_at":now}
+  out[game]={"ok":True,"links_found":len(collected[game]),"index_links_found":len(matched)-len(SEEDS.get(game,[])),"seed_links":len(SEEDS.get(game,[])),"checked_at":now}
  except Exception as exc:
   collected[game]=[]
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
