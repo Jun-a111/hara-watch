@@ -178,4 +178,13 @@ class SpecificDateLabelTests(unittest.TestCase):
    with self.subTest(line=line):
     self.assertEqual(ns["article_details"](line)["period_candidates"][0]["classification"],expected)
 
+class RegionalMaintenanceTests(unittest.TestCase):
+ def test_second_region_is_still_maintenance(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
+  sample="■ メンテナンス実施日時 Asiaサーバー：2026/09/02 06:00～2026/09/02 12:00（UTC+8） Americas / Europeサーバー：2026/09/01 17:00～2026/09/01 23:00"
+  periods=ns["article_details"](sample)["period_candidates"]
+  self.assertEqual([p["classification"] for p in periods],["maintenance","maintenance"])
+
 if __name__=="__main__":unittest.main()
