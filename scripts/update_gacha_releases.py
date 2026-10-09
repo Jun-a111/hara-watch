@@ -324,7 +324,7 @@ def browser_news_links(game,url):
      diagnostics["api_json"]+=1
      found=json_news_items(payload)[:80]
      if game=="end":
-      proposed=endfield_news_items(payload)[:80]
+      proposed=endfield_news_items(payload)[:12]
       diagnostics["endfield_cid_pairs"]=diagnostics.get("endfield_cid_pairs",0)+len(proposed)
       found.extend((title,link) for title,link in proposed if verify_endfield_url(link))
      diagnostics["api_pairs"]+=len(found)
