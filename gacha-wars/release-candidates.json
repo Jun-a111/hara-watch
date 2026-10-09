@@ -1,6 +1,37 @@
 {
   "schema": "gacha-wars-release-candidates-v1",
-  "updated_at": null,
-  "status": {},
+  "updated_at": "2026-10-09T10:08:46+00:00",
+  "status": {
+    "ww": {
+      "ok": true,
+      "links_found": 0,
+      "checked_at": "2026-10-09T10:08:46+00:00"
+    },
+    "gi": {
+      "ok": true,
+      "links_found": 0,
+      "checked_at": "2026-10-09T10:08:46+00:00"
+    },
+    "hsr": {
+      "ok": true,
+      "links_found": 0,
+      "checked_at": "2026-10-09T10:08:46+00:00"
+    },
+    "zzz": {
+      "ok": true,
+      "links_found": 0,
+      "checked_at": "2026-10-09T10:08:46+00:00"
+    },
+    "nte": {
+      "ok": true,
+      "links_found": 0,
+      "checked_at": "2026-10-09T10:08:46+00:00"
+    },
+    "end": {
+      "ok": true,
+      "links_found": 0,
+      "checked_at": "2026-10-09T10:08:46+00:00"
+    }
+  },
   "candidates": []
 }
