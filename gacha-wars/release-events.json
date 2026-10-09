@@ -9,7 +9,8 @@
       "version": "Ver.3.2",
       "date": "2026-09-09",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166000",
-      "source_title": "Version 3.2 Update Announcement"
+      "source_title": "Version 3.2 Update Announcement",
+      "phase": "first"
     },
     {
       "id": "zzz-clarette",
@@ -18,7 +19,8 @@
       "version": "Clarette",
       "date": "2026-09-09",
       "source_url": "https://zenless.hoyoverse.com/m/fr-fr/news/165979",
-      "source_title": "Version 3.2 Limited-Time Channels Phase 1"
+      "source_title": "Version 3.2 Limited-Time Channels Phase 1",
+      "phase": "first"
     },
     {
       "id": "zzz-roxy",
@@ -27,7 +29,8 @@
       "version": "Roxy",
       "date": "2026-09-30",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
-      "source_title": "Version 3.2 Phase II Content Overview"
+      "source_title": "Version 3.2 Phase II Content Overview",
+      "phase": "second"
     },
     {
       "id": "zzz-promeia",
@@ -36,7 +39,8 @@
       "version": "Promeia",
       "date": "2026-09-30",
       "source_url": "https://zenless.hoyoverse.com/en-us/news/166497",
-      "source_title": "Version 3.2 Phase II Content Overview"
+      "source_title": "Version 3.2 Phase II Content Overview",
+      "phase": "second"
     }
   ]
 }
