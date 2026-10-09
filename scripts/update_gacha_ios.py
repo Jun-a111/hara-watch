@@ -31,7 +31,7 @@ except (OSError, ValueError):
 new = []
 status = {}
 for market in MARKETS:
-    url = f"https://itunes.apple.com/{market}/rss/topgrossingapplications/limit=200/genre=6014/json"
+    url = f"https://itunes.apple.com/{market}/rss/topgrossingapplications/limit=100/genre=6014/json"
     try:
         req = urllib.request.Request(url, headers={
             "User-Agent": "Mozilla/5.0 (compatible; GachaWars/1.0)",
@@ -52,12 +52,12 @@ for market in MARKETS:
                                 "store": "ios", "value": rank, "date": now,
                                 "source": "Apple iTunes top grossing Games RSS",
                                 "source_url": url, "chart": "topgrossingapplications",
-                                "chart_depth": len(entries)})
+                                "chart_depth": len(entries), "app_id": entry.get("id", {}).get("attributes", {}).get("im:id")})
                     matches.add(game)
         status[market] = {"ok": True, "chart_depth": len(entries),
                           "matched": sorted(matches), "checked_at": now}
         print(f"{market}: top {len(entries)}, matched {sorted(matches)}")
-    except (OSError, ValueError, TypeError, KeyError) as exc:
+    except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
         status[market] = {"ok": False, "error": str(exc)[:150], "checked_at": now}
         print(f"{market}: unavailable: {exc}")
 # Only append positive observations. A missing game might be beyond chart depth,
