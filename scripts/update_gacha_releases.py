@@ -76,8 +76,8 @@ def hints(text):
  return {"date_candidates":list(dict.fromkeys(dates))[:8],
          "phase_hint":"first" if first and not second else "second" if second and not first else "unknown"}
 PERIOD_RE=re.compile(r"(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)[^。\\n]{0,65}?(?:～|〜|~|から|to|至)[^。\\n]{0,20}?(20\d{2}[年/.-]\d{1,2}[月/.-]\d{1,2}日?)",re.I)
-CHARACTER_CONTEXT=("登場キャラクター","対象キャラクター","ピックアップ対象","限定キャラクター","対象エージェント","集音対象","祈願対象","跳躍対象","スカウト対象")
-QUOTED_NAME=re.compile(r"[「『](.{2,18}?)[」』]")
+CHARACTER_CONTEXT=("提供割合が上昇","ピックアップ中","★6オペレーター","登場キャラクター","対象キャラクター","ピックアップ対象","限定キャラクター","対象エージェント","集音対象","祈願対象","跳躍対象","スカウト対象")
+QUOTED_NAME=re.compile(r"[「『〖](.{2,18}?)[」』〗]")
 def article_details(text):
  text=" ".join(text.split())
  periods=[{"raw":m.group(0)[:110],"start_raw":m.group(1),"end_raw":m.group(2)} for m in PERIOD_RE.finditer(text)][:5]
