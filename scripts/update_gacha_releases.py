@@ -283,12 +283,11 @@ for game,url in SOURCES.items():
   static_found=len(matched)
   browser_found=0
   browser_error=""
-  if True:
-   browser_links,browser_error=browser_news_links(game,url)
-   for title,link in browser_links:
-    if not any(x["url"]==link for x in matched):
-     matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
-     browser_found+=1
+  browser_links,browser_error=browser_news_links(game,url)
+  for title,link in browser_links:
+   if not any(x["url"]==link for x in matched):
+    matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
+    browser_found+=1
   discovered_count=len(matched)
   for title,link in SEEDS.get(game,[]):
    if not any(item["url"]==link for item in matched):matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
