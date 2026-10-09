@@ -291,20 +291,27 @@ def browser_news_links(game,url):
     matched.append((title,link))
    diagnostics["filtered"]=len(matched)
    diagnostics["rejected"]=max(0,len(links)+len(api_items)-len(matched))
-   # Endfield's news cards may navigate via JS without HTML anchor links.
+   # News cards on Endfield's index expose article titles as clickable text
+   # but may not have anchor hrefs. Click precise headings, never arbitrary divs.
    if game=="end" and not matched:
-    cards=page.locator("main div, main li, section div").filter(has_text=re.compile("スカウト|アップデート|バージョン"))
-    for i in range(min(cards.count(),18)):
-     card=cards.nth(i)
+    cards=page.locator("body").inner_text(timeout=4000)
+    titles=[]
+    for line in cards.splitlines():
+     title=" ".join(line.split())
+     if 8<=len(title)<=110 and any(k in title.lower() for k in KEYWORDS) and title not in titles:
+      titles.append(title)
+    diagnostics["clickable_titles"]=len(titles)
+    for title in titles[:16]:
      try:
-      title=" ".join(card.inner_text(timeout=900).split())[:180]
-      if len(title)<5 or not any(k in title.lower() for k in KEYWORDS):continue
+      node=page.get_by_text(title,exact=True).first
+      if node.count()!=1:continue
       before=page.url
-      card.click(timeout=1200)
-      page.wait_for_timeout(250)
+      async_urls=[]
+      with page.expect_navigation(timeout=2500) as info:
+       node.click(timeout=1500)
       dest=page.url
-      path=urlparse(dest).path
-      if dest!=before and re.search(r"/news/[^/]+$",path) and urlparse(dest).hostname==home:
+      parsed=urlparse(dest)
+      if dest!=before and parsed.hostname==home and re.search(r"/news/[^/]+$",parsed.path):
        matched.append((title,dest))
       if dest!=before:page.goto(url,wait_until="domcontentloaded",timeout=15000)
      except Exception:continue
