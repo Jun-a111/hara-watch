@@ -42,12 +42,10 @@ SEEDS={
   ("Ver.3.3予告番組のお知らせ","https://zenless.hoyoverse.com/m/ja-jp/news/166552")
  ],
  "nte":[
-  ("NTE 正式サービス開始","https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html"),
-  ("NTE 公式ニュース一覧","https://nte.perfectworld.com/jp/article/news/gamenews/index.html")
+  ("NTE 正式サービス開始","https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html")
  ],
  "end":[
-  ("特別スカウト「臨淵望北」","https://endfield.gryphline.com/ja-jp/news/2656"),
-  ("公式ニュース一覧","https://endfield.gryphline.com/ja-jp/news")
+  ("特別スカウト「臨淵望北」","https://endfield.gryphline.com/ja-jp/news/2656")
  ]
 }
 KEYWORDS=("ガチャ","集音","祈願","跳躍","チャンネル","ピックアップ","新キャラ","実装","アップデート","バージョン","version","banner","update","recruit","new character","活动","卡池","版本","更新")
@@ -225,7 +223,10 @@ for game,url in SOURCES.items():
   out[game]={"ok":False,"error":str(exc)[:120],"checked_at":now}
 seen={}
 for x in history:
- if isinstance(x,dict) and x.get("game") in SOURCES and isinstance(x.get("url"),str) and x["url"].startswith("https://"):seen[(x["game"],x["url"])]=x
+ if not isinstance(x,dict) or x.get("game") not in SOURCES or not isinstance(x.get("url"),str) or not x["url"].startswith("https://"):continue
+ path=urlparse(x["url"]).path.rstrip("/")
+ if path.endswith("/news") or path.endswith("/index.html") or not path:continue
+ seen[(x["game"],x["url"])]=x
 for items in collected.values():
  for x in items:seen[(x["game"],x["url"])]=dict(seen.get((x["game"],x["url"]),{}),**x)
 records=sorted(seen.values(),key=lambda x:x.get("detected_at",""),reverse=True)[:400]
