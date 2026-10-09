@@ -335,6 +335,16 @@ def browser_news_links(game,url):
   finally:page.close()
  except Exception as err:return [],str(err)[:120],{}
 
+def save_candidates(payload):
+ """Write atomically and validate before replacing the last usable candidate file."""
+ content=json.dumps(payload,ensure_ascii=False,indent=2)+"\\n"
+ decoded=json.loads(content)
+ if decoded.get("schema")!="gacha-wars-release-candidates-v1" or not isinstance(decoded.get("candidates"),list):
+  raise ValueError("Invalid official news candidate data")
+ temp=OUTPUT.with_suffix(".json.tmp")
+ temp.write_text(content,encoding="utf-8")
+ temp.replace(OUTPUT)
+
 now=datetime.now(timezone.utc).isoformat(timespec="seconds")
 try:
  previous=json.loads(OUTPUT.read_text(encoding="utf-8"))
@@ -401,7 +411,7 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
  partial={(x["game"],x["url"]):x for x in history if isinstance(x,dict) and x.get("game") in SOURCES and isinstance(x.get("url"),str) and x["url"].startswith("https://")}
  for group in collected.values():
   for item in group:partial[(item["game"],item["url"])]=dict(partial.get((item["game"],item["url"]),{}),**item)
- OUTPUT.write_text(json.dumps({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"collection_partial":len(out)<len(SOURCES),"status":out,"candidates":list(partial.values())[:400]},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+ save_candidates({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"collection_partial":len(out)<len(SOURCES),"status":out,"candidates":list(partial.values())[:400]})
  print("Checkpoint",game,"browser",out[game].get("browser_links_found"),"diag",out[game].get("browser_diagnostics"),"error",out[game].get("error"),flush=True)
 seen={}
 for x in history:
@@ -416,5 +426,5 @@ for items in collected.values():
   seen[(x["game"],x["url"])]=merged
 records=sorted(seen.values(),key=lambda x:x.get("detected_at",""),reverse=True)[:400]
 close_browser()
-OUTPUT.write_text(json.dumps({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"status":out,"candidates":records},ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+save_candidates({"schema":"gacha-wars-release-candidates-v1","updated_at":now,"status":out,"candidates":records})
 print("Official announcement candidate links:",len(records),{k:v.get("links_found",0) for k,v in out.items()})
