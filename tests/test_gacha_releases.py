@@ -154,8 +154,8 @@ class PeriodClassificationTests(unittest.TestCase):
 class ExtractionCacheTests(unittest.TestCase):
  def test_old_article_cache_requires_reextraction(self):
   source=SCRIPT.read_text(encoding="utf-8")
-  self.assertIn('previous.get("extraction_version")==3',source)
-  self.assertIn('item["extraction_version"]=3',source)
+  self.assertIn('previous.get("extraction_version")==4',source)
+  self.assertIn('item["extraction_version"]=4',source)
   self.assertIn('"character_candidates","extraction_version"',source)
 
 class CandidateSelectionTests(unittest.TestCase):
