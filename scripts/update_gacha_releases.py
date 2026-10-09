@@ -19,6 +19,15 @@ SOURCES={
  "nte":"https://nte.perfectworld.com/",
  "end":"https://endfield.gryphline.com/",
 }
+# Explicitly verified article URLs provide fallback when official news lists render client-side.
+SEEDS={
+ "ww":[
+  ("Ver.3.7 配信開始のお知らせ","https://wutheringwaves.kurogames.com/jp/main/news/detail/5530"),
+  ("Ver.3.7 共鳴者・武器集音 第一期","https://wutheringwaves.kurogames.com/jp/main/news/detail/5547"),
+  ("Ver.3.2 共鳴者・武器集音 第二期","https://wutheringwaves.kurogames.com/jp/main/news/detail/4497"),
+  ("共鳴者集音 明日へ焼き付ける記憶","https://wutheringwaves.kurogames.com/jp/main/news/detail/4887")
+ ]
+}
 KEYWORDS=("ガチャ","集音","祈願","跳躍","チャンネル","ピックアップ","新キャラ","実装","アップデート","バージョン","version","banner","update","recruit","new character","活动","卡池","版本","更新")
 class Links(HTMLParser):
  def __init__(self): super().__init__();self.href=None;self.parts=[];self.items=[]
@@ -71,8 +80,10 @@ for game,url in SOURCES.items():
    if not title or len(title)>180 or not any(k in title.lower() for k in KEYWORDS):continue
    if not link.startswith("https://"):continue
    matched.append({"game":game,"title":title[:180],"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
+  for title,link in SEEDS.get(game,[]):
+   if not any(item["url"]==link for item in matched):matched.append({"game":game,"title":title,"url":link,"detected_at":now,"verification":"unreviewed",**hints(title)})
   collected[game]=list({x["url"]:x for x in matched}.values())[:80]
-  for item in collected[game][:6]:
+  for item in collected[game][:8]:
    detail=page_hints(item["url"])
    item["date_candidates"]=list(dict.fromkeys(item["date_candidates"]+detail["date_candidates"]))[:8]
    if item["phase_hint"]=="unknown":item["phase_hint"]=detail["phase_hint"]
