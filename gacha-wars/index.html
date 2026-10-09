@@ -60,12 +60,12 @@ function candidateMarketSnapshot(x){
 }
 function releaseCandidateBoard(){
  const total=releaseCandidates.length;
- const current=releaseCandidates.filter(x=>Number(x.extraction_version)>=3).length;
+ const current=releaseCandidates.filter(x=>Number(x.extraction_version)>=4).length;
  const parsed=releaseCandidates.filter(x=>x.body_status==="rendered"||x.body_status==="extracted").length;
  const classifications=releaseCandidates.flatMap(x=>x.period_candidates||[]);
  const categoryCount=k=>classifications.filter(x=>x.classification===k).length;
  const ageHours=candidateUpdatedAt?(Date.now()-Date.parse(candidateUpdatedAt))/3600000:Infinity;
- const health='<div class="card"><b>収集データ点検</b><p class="tiny">候補 '+total+'件 ／ 本文取得 '+parsed+'件 ／ 解析Ver.3 '+current+'件 ／ 旧方式 '+(total-current)+'件</p><p class="tiny">ガチャ候補 '+categoryCount("banner_possible")+'件 ／ 別イベント '+categoryCount("other_event")+'件 ／ メンテナンス '+categoryCount("maintenance")+'件 ／ 未判定 '+classifications.filter(p=>!["banner_possible","other_event","maintenance"].includes(p.classification)).length+'件</p><p class="tiny">'+(ageHours>48?'⚠ 最終更新から48時間以上':ageHours>12?'最終更新から12時間以上':'12時間以内に更新')+' ／ 候補は正式戦績に反映しません</p></div>';
+ const health='<div class="card"><b>収集データ点検</b><p class="tiny">候補 '+total+'件 ／ 本文取得 '+parsed+'件 ／ 解析Ver.4 '+current+'件 ／ 旧方式 '+(total-current)+'件</p><p class="tiny">ガチャ候補 '+categoryCount("banner_possible")+'件 ／ 別イベント '+categoryCount("other_event")+'件 ／ メンテナンス '+categoryCount("maintenance")+'件 ／ 未判定 '+classifications.filter(p=>!["banner_possible","other_event","maintenance"].includes(p.classification)).length+'件</p><p class="tiny">'+(ageHours>48?'⚠ 最終更新から48時間以上':ageHours>12?'最終更新から12時間以上':'12時間以内に更新')+' ／ 候補は正式戦績に反映しません</p></div>';
  const rows=releaseCandidates.map((x,i)=>({...x,candidateIndex:i})).filter(x=>candidateFilter==="all"||x.game===candidateFilter).slice(0,70);
  const labels={first:"前半の可能性",second:"後半の可能性",unknown:"判定なし"};
  const cards=G.map(g=>{const st=candidateStatus[g.id];return '<div class="card"><b>'+esc(g.name)+'</b><p class="tiny">'+(!st?'収集待ち':st.ok?(st.links_found?'候補 '+st.links_found+'件 / 本文解析 '+(st.body_parsed??'未計測')+'件（新着発見 '+(st.browser_links_found??0)+'件 / ブラウザ本文 '+(st.body_rendered??0)+'件 / 失敗 '+(st.body_errors??0)+'件）'+(st.browser_diagnostics?' / リンク'+st.browser_diagnostics.dom_anchors+'・JSON応答'+st.browser_diagnostics.api_json+'・記事ペア'+st.browser_diagnostics.api_pairs+'・抽出'+st.browser_diagnostics.filtered:'')+(st.browser_index_error?' / ニュース一覧解析：'+esc(st.browser_index_error):''):'ページ取得成功・候補0件'):'取得失敗：'+esc(st.error||'詳細不明'))+'</p></div>'}).join("");
