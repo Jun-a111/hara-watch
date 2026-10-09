@@ -45,7 +45,8 @@ SEEDS={
   ("NTE 正式サービス開始","https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html")
  ],
  "end":[
-  ("特別スカウト「臨淵望北」","https://endfield.gryphline.com/ja-jp/news/2656")
+  ("特別スカウト「臨淵望北」","https://endfield.gryphline.com/ja-jp/news/2656"),
+  ("再現スカウト「超爆盛れカラフル」告知","https://endfield.gryphline.com/ja-jp/news/5208")
  ]
 }
 KEYWORDS=("ガチャ","集音","祈願","跳躍","チャンネル","ピックアップ","新キャラ","実装","アップデート","バージョン","version","banner","update","recruit","new character","活动","卡池","版本","更新")
@@ -243,7 +244,7 @@ def browser_news_links(game,url):
   try:
    page.goto(url,wait_until="domcontentloaded",timeout=20000)
    page.wait_for_timeout(1800)
-   links=page.locator("a[href]").evaluate_all("(nodes) => nodes.map(a => ({href:a.href,title:(a.innerText||a.textContent||a.getAttribute('aria-label')||'').trim()})).slice(0,1200)")
+   links=page.locator("a[href]").evaluate_all("(nodes) => nodes.map(a => ({href:a.href,title:(a.innerText||a.textContent||a.getAttribute('aria-label')||a.parentElement?.innerText||'').trim()})).slice(0,1200)")
    home=urlparse(url).hostname or ""
    matched=[]
    for x in links:
@@ -282,7 +283,7 @@ for game,url in SOURCES.items():
   static_found=len(matched)
   browser_found=0
   browser_error=""
-  if not matched:
+  if True:
    browser_links,browser_error=browser_news_links(game,url)
    for title,link in browser_links:
     if not any(x["url"]==link for x in matched):
