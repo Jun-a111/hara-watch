@@ -97,4 +97,21 @@ class CollectorRegressionTests(unittest.TestCase):
   import ast
   source=SCRIPT.read_text(encoding="utf-8")
   self.assertIn('+"\\n",encoding="utf-8")',source)
+class AtomicCandidateOutputTests(unittest.TestCase):
+ def test_atomic_save_preserves_valid_file(self):
+  import json,tempfile
+  from pathlib import Path
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"json":json}
+  exec(source[source.index("def save_candidates("):source.index("now=datetime.now(")],ns)
+  with tempfile.TemporaryDirectory() as temp:
+   target=Path(temp)/"release-candidates.json"
+   ns["OUTPUT"]=target
+   good={"schema":"gacha-wars-release-candidates-v1","candidates":[{"game":"ww","url":"https://example.org/news/1"}]}
+   ns["save_candidates"](good)
+   self.assertEqual(json.loads(target.read_text(encoding="utf-8")),good)
+   self.assertTrue(target.read_text(encoding="utf-8").endswith("\\n"))
+   with self.assertRaises(ValueError):
+    ns["save_candidates"]({"schema":"wrong","candidates":[]})
+   self.assertEqual(json.loads(target.read_text(encoding="utf-8")),good)
 if __name__=="__main__":unittest.main()
