@@ -113,4 +113,13 @@ class AtomicCandidateOutputTests(unittest.TestCase):
    with self.assertRaises(ValueError):
     ns["save_candidates"]({"schema":"wrong","candidates":[]})
    self.assertEqual(json.loads(target.read_text(encoding="utf-8")),good)
+class JsonDiagnosticsTests(unittest.TestCase):
+ def test_shapes_contain_keys_not_values(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={}
+  exec(source[source.index("def json_news_structure("):source.index("def browser_news_links(")],ns)
+  example={"data":{"items":[{"id":123,"headline":"Private headline value","secret":"sensitive-value"}]}}
+  result=ns["json_news_structure"](example)
+  self.assertTrue(any("id" in keys for keys in result))
+  self.assertNotIn("sensitive-value",str(result))
 if __name__=="__main__":unittest.main()
