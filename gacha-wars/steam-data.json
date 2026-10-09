@@ -1,1 +1,26 @@
-{"schema":"gacha-wars-steam-v1","updated_at":null,"records":[]}
+{
+  "schema": "gacha-wars-steam-v1",
+  "updated_at": "2026-10-09T07:39:28+00:00",
+  "records": [
+    {
+      "game": "ww",
+      "region": "global",
+      "kind": "steam",
+      "store": "steam",
+      "value": 9880,
+      "date": "2026-10-09T07:39:28+00:00",
+      "source": "Steam Web API",
+      "source_url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=3513350"
+    },
+    {
+      "game": "nte",
+      "region": "global",
+      "kind": "steam",
+      "store": "steam",
+      "value": 2632,
+      "date": "2026-10-09T07:39:28+00:00",
+      "source": "Steam Web API",
+      "source_url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=4508340"
+    }
+  ]
+}
