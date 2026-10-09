@@ -531,8 +531,15 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
   collected[game]=list({x["url"]:x for x in matched}.values())[:80]
   # Prioritize newly discovered links for body analysis, while preserving seeded fallback.
   discovered_urls={x["url"] for x in matched[:discovered_count]}
-  selected=sorted(collected[game],key=lambda x:(x["url"] not in discovered_urls,x["url"] in {u for _,u in SEEDS.get(game,[])}))[:12]
   cache={x.get("url"):x for x in history if isinstance(x,dict) and x.get("game")==game}
+  # Reprocess older period-bearing announcements first when extraction rules change.
+  # This also prevents newly discovered Steam news from starving old verified body parses.
+  def selection_priority(item):
+   prior=cache.get(item["url"],{})
+   stale=prior.get("extraction_version")!=2 and prior.get("body_status") in ("rendered","extracted")
+   has_periods=bool(prior.get("period_candidates"))
+   return (not (stale and has_periods),not stale,item["url"] not in discovered_urls)
+  selected=sorted(collected[game],key=selection_priority)[:12]
   for item in selected:
    previous=cache.get(item["url"],{})
    if previous.get("extraction_version")==2 and previous.get("body_status") in ("rendered","extracted") and isinstance(previous.get("period_candidates"),list) and isinstance(previous.get("character_candidates"),list):
