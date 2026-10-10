@@ -2,6 +2,12 @@ name: Update GACHA WARS YouTube
 
 on:
   workflow_dispatch:
+  schedule:
+    - cron: '45 5,11,17,23 * * *'
+  push:
+    paths:
+      - 'scripts/update_gacha_youtube.py'
+      - '.github/workflows/gacha-youtube.yml'
 
 permissions:
   contents: write
@@ -15,6 +21,10 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: main
+      - name: Sync latest archive
+        run: git pull --ff-only origin main
       - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
