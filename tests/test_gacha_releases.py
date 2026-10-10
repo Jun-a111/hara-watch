@@ -251,4 +251,11 @@ class KuroDelayedRenderTests(unittest.TestCase):
   self.assertIn('if article_text_quality(url,more):',source)
   self.assertIn('page.wait_for_timeout(1200)',source)
 
+class KuroArticleContainerTests(unittest.TestCase):
+ def test_detail_selectors_require_body_validation(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('detail_selectors=(',source)
+  self.assertIn('page.locator(selector).all_inner_texts',source)
+  self.assertIn('if article_text_quality(url,candidate):',source)
+
 if __name__=="__main__":unittest.main()
