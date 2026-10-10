@@ -114,9 +114,57 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add gacha-wars/release-candidates.json
-          if ! git diff --cached --quiet; then
+          # Other workflows may update the same JSON while collection is running.
+          # Rebase on the latest main and merge by article URL instead of overwriting it.
+          cp gacha-wars/release-candidates.json /tmp/gacha-release-collected.json
+          for attempt in 1 2 3 4 5; do
+            git fetch origin main
+            git reset --hard origin/main
+            python - <<'PY'
+          import json
+          from pathlib import Path
+          p=Path("gacha-wars/release-candidates.json")
+          latest=json.loads(p.read_text(encoding="utf-8"))
+          collected=json.loads(Path("/tmp/gacha-release-collected.json").read_text(encoding="utf-8"))
+          merged={}
+          for record in latest.get("candidates",[]):
+              if isinstance(record,dict) and record.get("url"):
+                  merged[(record.get("game"),record["url"])]=record
+          for record in collected.get("candidates",[]):
+              if not isinstance(record,dict) or not record.get("url"):continue
+              key=(record.get("game"),record["url"])
+              old=merged.get(key,{})
+              fresh=dict(old)
+              fresh.update(record)
+              if old.get("body_status") in ("rendered","extracted") and fresh.get("body_status") not in ("rendered","extracted"):
+                  for field in ("date_candidates","date_context","body_status","period_candidates","character_candidates","extraction_version","phase_hint"):
+                      if field in old:fresh[field]=old[field]
+              previous_periods={(x.get("start_raw"),x.get("end_raw")):x for x in old.get("period_candidates",[]) if isinstance(x,dict)}
+              for period in fresh.get("period_candidates",[]):
+                  if not isinstance(period,dict):continue
+                  earlier=previous_periods.get((period.get("start_raw"),period.get("end_raw")))
+                  if earlier and earlier.get("classification_source") in ("stored_context_reclassified","convene_notice_context"):
+                      if period.get("classification") in (None,"unknown","other_event"):
+                          period["classification"]=earlier.get("classification")
+                          period["classification_source"]=earlier["classification_source"]
+              merged[key]=fresh
+          latest["candidates"]=list(merged.values())[:400]
+          latest["status"]=collected.get("status",latest.get("status",{}))
+          latest["updated_at"]=collected.get("updated_at",latest.get("updated_at"))
+          p.write_text(json.dumps(latest,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+          PY
+            git add gacha-wars/release-candidates.json
+            if git diff --cached --quiet; then
+              echo "候補データに変更なし"
+              break
+            fi
             git commit -m "Update official news link candidates"
-            git pull --rebase
-            git push
-          fi
+            if git push origin HEAD:main; then
+              echo "収集結果を競合なく保存"
+              break
+            fi
+            if [ "$attempt" -eq 5 ]; then
+              echo "::error::5回試行しても保存できませんでした"
+              exit 1
+            fi
+          done
