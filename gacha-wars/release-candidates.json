@@ -314,7 +314,9 @@
       "extraction_version": 3,
       "refresh_error": "本文の先頭: 戻る Back 関連情報 『後悲鳴人類記事：強敵情報』——リナシータ中小型音骸 お知らせ 『鳴潮』Ver2.0メンテナンスのお知らせ お知らせ 『悲鳴人類記事：万端造物』——詩と音楽シリーズ お知らせ 『後悲鳴人類記事:交錯する星群れ』| カルロッタ お知らせ プロフィール公開丨ストラクチュアル・リコンストラクション——カルロッタ お知らせ 『後悲鳴人類記事：万端造物』——ラストダンス お知らせ 『鳴潮』Ver2.0「静寂を讃える歌」ア",
       "refresh_checked_at": "2026-10-10T02:14:31+00:00",
-      "body_review_status": "manual_review_required"
+      "body_review_status": "image_based_official_notice",
+      "review_note": "公式ページは画像中心の告知。テキスト本文抽出未確認。内容を推測して期間・キャラを登録しない。",
+      "alternative_official_source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
     },
     {
       "game": "ww",
