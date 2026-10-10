@@ -16,7 +16,7 @@ class SiteTests(unittest.TestCase):
 
     def test_html_javascript_syntax(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
-        scripts = re.findall(r"<script(?:\\s[^>]*)?>(.*?)</script>", html, re.S | re.I)
+        scripts = re.findall(r"<script(?:\s[^>]*)?>(.*?)</script>", html, re.S | re.I)
         self.assertTrue(scripts, "inline site script missing")
         with tempfile.TemporaryDirectory() as temp:
             for i, script in enumerate(scripts):
