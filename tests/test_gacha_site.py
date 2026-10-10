@@ -82,7 +82,7 @@ class SiteTests(unittest.TestCase):
         for event in data["events"]:
             self.assertIn(event["game"], {"gi", "hsr", "zzz", "ww", "nte", "end"})
             self.assertIn(event["type"], {"character", "version"})
-            self.assertRegex(event["date"], r"^\\d{4}-\\d{2}-\\d{2}$")
+            self.assertRegex(event["date"], r"^\d{4}-\d{2}-\d{2}$")
             from datetime import date
             self.assertEqual(date.fromisoformat(event["date"]).isoformat(), event["date"])
             self.assertTrue(event["version"].strip())
@@ -130,6 +130,17 @@ class SiteTests(unittest.TestCase):
             self.assertEqual(len(saved["records"]), 3001)
             self.assertEqual(saved["records"][0]["date"], original[0]["date"])
             self.assertEqual(saved["records"][-1]["date"], original[-1]["date"])
+
+    def test_release_coverage_by_game(self):
+        """Track archive coverage without pretending it proves completeness."""
+        data = self.read("release-events.json")["events"]
+        baseline = {"gi": 196, "hsr": 139, "zzz": 63,
+                    "ww": 83, "nte": 12, "end": 12}
+        for game, minimum in baseline.items():
+            rows = [e for e in data if e["game"] == game]
+            self.assertGreaterEqual(len(rows), minimum,
+                                    f"{game} release history unexpectedly shrank")
+            self.assertTrue(any(e["type"] == "character" for e in rows))
 
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
