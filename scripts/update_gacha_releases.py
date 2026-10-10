@@ -487,6 +487,35 @@ def browser_news_links(game,url):
     matched.append((title,link))
    diagnostics["filtered"]=len(matched)
    diagnostics["rejected"]=max(0,len(links)+len(api_items)-len(matched))
+   # Try Kuro's SPA cards that navigate without an anchor href.
+   # Only retain links whose final URL is an official numeric news detail page.
+   if game=="ww" and not matched:
+    diagnostics["kuro_click_attempts"]=0
+    diagnostics["kuro_click_verified"]=0
+    selectors=('[class*="news"] [class*="item"]','[class*="news"] [class*="card"]','[class*="news"] [class*="title"]','[class*="News"] [class*="item"]')
+    for selector in selectors:
+     try:count=min(page.locator(selector).count(),20)
+     except Exception:continue
+     for i in range(count):
+      try:
+       node=page.locator(selector).nth(i)
+       title=" ".join(node.inner_text(timeout=700).split())[:180]
+       if not (8<=len(title)<=180 and any(k in title.lower() for k in KEYWORDS)):continue
+       before=page.url
+       diagnostics["kuro_click_attempts"]+=1
+       node.click(timeout=1200)
+       page.wait_for_timeout(300)
+       dest=page.url
+       parsed=urlparse(dest)
+       if dest!=before and parsed.hostname==home and re.fullmatch(r"/(?:m/)?(?:jp|en)/main/news/detail/\d+",parsed.path):
+        matched.append((title,dest))
+        diagnostics["kuro_click_verified"]+=1
+       if dest!=before:page.goto(url,wait_until="domcontentloaded",timeout=15000)
+      except Exception:
+       try:
+        if page.url!=url:page.goto(url,wait_until="domcontentloaded",timeout=15000)
+       except Exception:break
+     if matched:break
    # News cards on Endfield's index expose article titles as clickable text
    # but may not have anchor hrefs. Click precise headings, never arbitrary divs.
    if game=="end" and not matched:
