@@ -272,4 +272,11 @@ class KuroStaticBodyValidationTests(unittest.TestCase):
   self.assertIn('if not article_text_quality(url,text):',part)
   self.assertIn('blank_hints("unavailable","静的HTMLの記事本文を確認できず")',part)
 
+class RefreshMetricIntegrityTests(unittest.TestCase):
+ def test_failed_refresh_not_counted_as_success(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('x.get("body_status")=="rendered" and not x.get("refresh_error")',source)
+  self.assertIn('x.get("body_status") in ("rendered","extracted") and not x.get("refresh_error")',source)
+  self.assertIn('or bool(x.get("refresh_error"))',source)
+
 if __name__=="__main__":unittest.main()
