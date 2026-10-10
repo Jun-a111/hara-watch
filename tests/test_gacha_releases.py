@@ -244,4 +244,11 @@ class ConveneClassificationPersistenceTests(unittest.TestCase):
   source=SCRIPT.read_text(encoding="utf-8")
   self.assertIn('"stored_context_reclassified","convene_notice_context"',source)
 
+class KuroDelayedRenderTests(unittest.TestCase):
+ def test_article_shell_gets_a_bounded_retry(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('for _ in range(3):',source)
+  self.assertIn('if article_text_quality(url,more):',source)
+  self.assertIn('page.wait_for_timeout(1200)',source)
+
 if __name__=="__main__":unittest.main()
