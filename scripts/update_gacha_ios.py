@@ -134,7 +134,21 @@ for record in [*past, *new]:
 # Keep every valid historical observation. Truncating to the latest 5,000
 # silently destroyed older banner-window rankings as the archive grew.
 past = sorted(by_key.values(), key=lambda r: r.get("date") or "")
+# Verify every successful chart match produced a real observation during this run.
+# This is a diagnostic only: never create artificial rank records to fill gaps.
+by_market = {}
+for record in new:
+    by_market.setdefault(record["region"], set()).add(record["game"])
+integrity = {}
+for market, st in status.items():
+    if st.get("ok"):
+        missing = sorted(set(st.get("matched", [])) - by_market.get(market, set()))
+        integrity[market] = {"ok": not missing, "missing_rank_records": missing,
+                             "matched_count": len(st.get("matched", [])),
+                             "recorded_count": len(by_market.get(market, set()))}
+    else:
+        integrity[market] = {"ok": None, "reason": "chart_fetch_failed"}
 OUTPUT.write_text(json.dumps({
     "schema": "gacha-wars-ios-v1", "updated_at": now,
-    "market_status": status, "records": past
-}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+    "market_status": status, "integrity": integrity, "records": past
+}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
