@@ -105,6 +105,9 @@ def article_details(text):
      pos=nearby.rfind(term)
      if pos>nearest[0]:nearest=(pos,category)
    classification=nearest[1]
+   # Generic 開催期間 on a confirmed convene announcement is a banner period.
+   if classification=="other_event" and "開催期間" in nearby and re.search(r"共鳴者集音(?:（イベント）)?|武器集音(?:（イベント）)?",context):
+    classification="banner_possible"
    # Regional server schedules may share one preceding maintenance heading.
    if classification=="unknown" and ("サーバー：" in nearby or "server:" in nearby) and "メンテナンス" in text[max(0,m.start()-230):m.start()].lower():
     classification="maintenance"
