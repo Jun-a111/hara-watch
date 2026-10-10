@@ -258,4 +258,11 @@ class KuroArticleContainerTests(unittest.TestCase):
   self.assertIn('page.locator(selector).all_inner_texts',source)
   self.assertIn('if article_text_quality(url,candidate):',source)
 
+class ReviewedConveneFallbackTests(unittest.TestCase):
+ def test_generic_other_event_does_not_erase_reviewed_convene(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('old.get("classification_source")=="convene_notice_context"',source)
+  self.assertIn('period.get("classification")=="other_event"',source)
+  self.assertIn('re.search(r"共鳴者集音|武器集音"',source)
+
 if __name__=="__main__":unittest.main()
