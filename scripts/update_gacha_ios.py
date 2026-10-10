@@ -15,8 +15,18 @@ ALIASES = {
     "gi": ("原神", "원신", "genshinimpact"),
     "hsr": ("崩壊スターレイル", "崩坏星穹铁道", "崩壞星穹鐵道", "붕괴스타레일", "honkaistarrail"),
     "zzz": ("ゼンレスゾーンゼロ", "绝区零", "絕區零", "젠레스존제로", "zenlesszonezero"),
-    "nte": ("異環", "异环", "이환", "nevernesstoeverness"),
+    "nte": ("異環", "异环", "이환", "nevernesstoeverness", "NTE: Neverness to Everness"),
     "end": ("アークナイツエンドフィールド", "明日方舟终末地", "明日方舟終末地", "명일방주엔드필드", "arknightsendfield"),
+}
+# Apple App Store product IDs verified against their public App Store pages.
+# These remain stable when display titles gain event/version subtitles.
+OFFICIAL_APP_IDS = {
+    "gi": {"1517783697"},
+    "zzz": {"1606356401"},
+    "nte": {"6754593077"},
+    "end": {"6752642477"},
+    "hsr": {"1599719154"},
+    "ww": {"6475033368"},
 }
 # Strict title matching avoids assigning the rank of unrelated apps to a game.
 def normalized(value):
@@ -30,7 +40,7 @@ except (OSError, ValueError):
     past = []
 # App Store IDs are normally shared across regions; observations from earlier
 # successful chart matches can help identify localized titles safely.
-KNOWN_IDS = {}
+KNOWN_IDS = {game: set(ids) for game, ids in OFFICIAL_APP_IDS.items()}
 for record in past:
     if not isinstance(record, dict):
         continue
@@ -69,7 +79,9 @@ for market in MARKETS:
                         KNOWN_IDS.setdefault(game, set()).add(app_id)
                     matches.add(game)
         status[market] = {"ok": True, "chart_depth": len(entries),
-                          "matched": sorted(matches), "checked_at": now}
+                          "matched": sorted(matches),
+                          "not_seen_in_top_chart": sorted(set(ALIASES) - matches),
+                          "checked_at": now}
         print(f"{market}: top {len(entries)}, matched {sorted(matches)}")
     except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
         status[market] = {"ok": False, "error": str(exc)[:150], "checked_at": now}
