@@ -315,7 +315,7 @@ def json_news_items(value,depth=0):
   for part in value[:120]:items.extend(json_news_items(part,depth+1))
   return items
  if not isinstance(value,dict):return []
- title=next((value[k] for k in ("title","newsTitle","articleTitle","headline","name") if isinstance(value.get(k),str) and len(value[k])>5),None)
+ title=next((value[k] for k in ("title","newsTitle","articleTitle","headline","name") if isinstance(value.get(k),str) and len(value[k])>=4),None)
  url=next((value[k] for k in ("url","link","href","newsUrl","articleUrl") if isinstance(value.get(k),str)),None)
  out=[(title,url)] if title and url else []
  for key,v in value.items():
