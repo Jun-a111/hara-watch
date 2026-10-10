@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-10T16:09:05.809Z",
+  "updated_at": "2026-10-10T17:12:47.266Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -7236,6 +7236,34 @@
       "source_title": "HK KURO GAMES LIMITED名義・周年記念共鳴者集音第2期の掲載告知",
       "verification": "secondary",
       "review_note": "2025年5月22日開始、対象5人を運営名義の告知転載と複数の開催資料で照合。通常の限定ガチャとは別枠で表示する。"
+    },
+    {
+      "id": "zzz-1.5-ellen-rerun",
+      "version": "エレン（復刻）",
+      "date": "2025-01-22",
+      "phase": "first",
+      "game": "zzz",
+      "type": "character",
+      "version_group": "Ver.1.5",
+      "event_kind": "rerun",
+      "source_url": "https://thenerdstash.com/complete-zenless-zone-zero-banner-history/",
+      "source_title": "The Nerd Stash・Ver.1.5歴代限定ガチャ日程",
+      "verification": "secondary",
+      "review_note": "Ver.1.5の同時復刻枠。ゲーム内公式告知との個別突合は未実施"
+    },
+    {
+      "id": "zzz-1.5-qingyi-rerun",
+      "version": "青衣（復刻）",
+      "date": "2025-02-12",
+      "phase": "second",
+      "game": "zzz",
+      "type": "character",
+      "version_group": "Ver.1.5",
+      "event_kind": "rerun",
+      "source_url": "https://thenerdstash.com/complete-zenless-zone-zero-banner-history/",
+      "source_title": "The Nerd Stash・Ver.1.5歴代限定ガチャ日程",
+      "verification": "secondary",
+      "review_note": "Ver.1.5の同時復刻枠。ゲーム内公式告知との個別突合は未実施"
     }
   ]
 }
