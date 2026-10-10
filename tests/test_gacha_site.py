@@ -28,7 +28,7 @@ class SiteTests(unittest.TestCase):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
         rows = data["records"]
-        self.assertTrue(rows)
+        self.assertGreaterEqual(len(rows), 190, "iOS history fell below verified archive baseline")
         keys = [(r["game"], r["region"], r["date"]) for r in rows]
         self.assertEqual(len(keys), len(set(keys)), "duplicate chart observations")
         for r in rows:
@@ -51,7 +51,7 @@ class SiteTests(unittest.TestCase):
     def test_published_release_events(self):
         data = self.read("release-events.json")
         self.assertEqual(data["schema"], "gacha-wars-releases-v1")
-        self.assertGreater(len(data["events"]), 0)
+        self.assertGreaterEqual(len(data["events"]), 505, "published release archive shrank")
         ids = [e["id"] for e in data["events"]]
         self.assertEqual(len(ids), len(set(ids)), "duplicate release event IDs")
 
@@ -62,6 +62,7 @@ class SiteTests(unittest.TestCase):
             self.assertIn("updated_at", data)
         steam = self.read("steam-data.json")
         self.assertIsInstance(steam["records"], list)
+        self.assertGreaterEqual(len(steam["records"]), 32, "Steam history fell below verified archive baseline")
         keys = [(row["game"], row["date"]) for row in steam["records"]]
         self.assertEqual(len(keys), len(set(keys)), "duplicate Steam observations")
         for row in steam["records"]:
