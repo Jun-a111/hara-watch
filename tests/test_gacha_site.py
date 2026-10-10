@@ -65,6 +65,7 @@ class SiteTests(unittest.TestCase):
         self.assertIn('ranked.slice(characterPage*50,(characterPage+1)*50)', html)
         self.assertIn('visibleRanked.map((x,i)', html)
         self.assertIn('ranked.slice(0,characterPage*50+i+1)', html)
+        self.assertIn("+'</tbody></table></div>'+pager+'</section>'", html)
 
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
