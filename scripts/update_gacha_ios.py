@@ -88,7 +88,9 @@ for record in [*past, *new]:
         continue
     key = (record.get("game"), record.get("region"), record.get("date"))
     by_key[key] = record
-past = sorted(by_key.values(), key=lambda r: r.get("date") or "")[-5000:]
+# Keep every valid historical observation. Truncating to the latest 5,000
+# silently destroyed older banner-window rankings as the archive grew.
+past = sorted(by_key.values(), key=lambda r: r.get("date") or "")
 OUTPUT.write_text(json.dumps({
     "schema": "gacha-wars-ios-v1", "updated_at": now,
     "market_status": status, "records": past
