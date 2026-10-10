@@ -509,7 +509,8 @@ def browser_news_links(game,url):
       if 12<=len(title)<=150 and any(k in title.lower() for k in KEYWORDS) and title not in titles:
        titles.append(title)
      diagnostics["kuro_visible_titles"]=titles[:12]
-     for title in titles[:14]:
+     # Bound expensive SPA navigation attempts; keep frequent release notices first.
+     for title in titles[:6]:
       try:
        node=page.get_by_text(title,exact=True).first
        if not node.count():continue
