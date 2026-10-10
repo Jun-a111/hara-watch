@@ -165,6 +165,11 @@ for market, st in status.items():
                              "recorded_count": len(by_market.get(market, set()))}
     else:
         integrity[market] = {"ok": None, "reason": "chart_fetch_failed"}
+# Treat a successful fetch with missing saved observations as a hard failure.
+# A failed chart fetch is reported separately; it must never create fake ranks.
+invalid_markets = [market for market, result in integrity.items() if result["ok"] is False]
+if invalid_markets:
+    raise RuntimeError("Refusing to save incomplete iOS observations: " + ", ".join(invalid_markets))
 OUTPUT.write_text(json.dumps({
     "schema": "gacha-wars-ios-v1", "updated_at": now,
     "market_status": status, "integrity": integrity, "records": past
