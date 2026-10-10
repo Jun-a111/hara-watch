@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-10T17:12:47.266Z",
+  "updated_at": "2026-10-11T00:00:00.000Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -7264,6 +7264,110 @@
       "source_title": "The Nerd Stash・Ver.1.5歴代限定ガチャ日程",
       "verification": "secondary",
       "review_note": "Ver.1.5の同時復刻枠。ゲーム内公式告知との個別突合は未実施"
+    },
+    {
+      "id": "audit-ww-2025-08-28-0",
+      "game": "ww",
+      "type": "character",
+      "version": "ショアキーパー（復刻）",
+      "date": "2025-08-28",
+      "phase": "first",
+      "version_group": "Ver.2.6",
+      "event_kind": "rerun",
+      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
+      "source_title": "鳴潮 Ver.2.6 前半ガチャ履歴",
+      "verification": "secondary",
+      "review_note": "外部のガチャ履歴資料と照合。公式個別告知での最終検証は未実施"
+    },
+    {
+      "id": "audit-ww-2026-07-10-1",
+      "game": "ww",
+      "type": "character",
+      "version": "忌炎（特別復刻）",
+      "date": "2026-07-10",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
+      "source_title": "鳴潮 Ver.3.5 Starpath Reverbs 特別復刻記事",
+      "verification": "secondary",
+      "review_note": "外部のガチャ履歴資料と照合。公式個別告知での最終検証は未実施"
+    },
+    {
+      "id": "audit-ww-2026-07-10-2",
+      "game": "ww",
+      "type": "character",
+      "version": "吟霖（特別復刻）",
+      "date": "2026-07-10",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
+      "source_title": "鳴潮 Ver.3.5 Starpath Reverbs 特別復刻記事",
+      "verification": "secondary",
+      "review_note": "外部のガチャ履歴資料と照合。公式個別告知での最終検証は未実施"
+    },
+    {
+      "id": "audit-ww-2026-07-10-3",
+      "game": "ww",
+      "type": "character",
+      "version": "今汐（特別復刻）",
+      "date": "2026-07-10",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
+      "source_title": "鳴潮 Ver.3.5 Starpath Reverbs 特別復刻記事",
+      "verification": "secondary",
+      "review_note": "外部のガチャ履歴資料と照合。公式個別告知での最終検証は未実施"
+    },
+    {
+      "id": "audit-ww-2026-07-10-4",
+      "game": "ww",
+      "type": "character",
+      "version": "長離（特別復刻）",
+      "date": "2026-07-10",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
+      "source_title": "鳴潮 Ver.3.5 Starpath Reverbs 特別復刻記事",
+      "verification": "secondary",
+      "review_note": "外部のガチャ履歴資料と照合。公式個別告知での最終検証は未実施"
+    },
+    {
+      "id": "audit-ww-2026-07-10-5",
+      "game": "ww",
+      "type": "character",
+      "version": "折枝（特別復刻）",
+      "date": "2026-07-10",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
+      "source_title": "鳴潮 Ver.3.5 Starpath Reverbs 特別復刻記事",
+      "verification": "secondary",
+      "review_note": "外部のガチャ履歴資料と照合。公式個別告知での最終検証は未実施"
+    },
+    {
+      "id": "audit-ww-2026-07-10-6",
+      "game": "ww",
+      "type": "character",
+      "version": "相里要（特別復刻）",
+      "date": "2026-07-10",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
+      "source_title": "鳴潮 Ver.3.5 Starpath Reverbs 特別復刻記事",
+      "verification": "secondary",
+      "review_note": "外部のガチャ履歴資料と照合。公式個別告知での最終検証は未実施"
     }
   ]
 }
