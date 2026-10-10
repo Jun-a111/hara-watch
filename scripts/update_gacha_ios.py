@@ -151,4 +151,4 @@ for market, st in status.items():
 OUTPUT.write_text(json.dumps({
     "schema": "gacha-wars-ios-v1", "updated_at": now,
     "market_status": status, "integrity": integrity, "records": past
-}, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8")
+}, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
