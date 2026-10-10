@@ -97,7 +97,11 @@ for market in MARKETS:
             lookup = {"ok": True, "available": sorted(
                 game for game, ids in OFFICIAL_APP_IDS.items() if available_ids.intersection(ids)),
                 "not_listed": sorted(
-                    game for game, ids in OFFICIAL_APP_IDS.items() if not available_ids.intersection(ids))}
+                    game for game, ids in OFFICIAL_APP_IDS.items()
+                    if not available_ids.intersection(ids) and game not in matches),
+                "alternate_region_id": sorted(
+                    game for game in matches if not available_ids.intersection(OFFICIAL_APP_IDS[game])),
+                "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"}
         except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
             lookup = {"ok": False, "error": str(exc)[:150]}
         status[market] = {"ok": True, "chart_depth": len(entries),
