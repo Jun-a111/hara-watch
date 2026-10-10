@@ -1,3 +1,4 @@
+# Verify repeat completion notification delivery on existing issue.
 import pathlib
 import unittest
 ROOT=pathlib.Path(__file__).resolve().parents[1]
