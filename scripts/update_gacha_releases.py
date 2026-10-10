@@ -573,7 +573,7 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
    def preserve_period_classification(periods):
     for period in periods:
      old=previous_periods.get((period.get("start_raw"),period.get("end_raw")))
-     if old and old.get("classification_source")=="stored_context_reclassified" and period.get("classification","unknown")=="unknown":
+     if old and old.get("classification_source") in ("stored_context_reclassified","convene_notice_context") and period.get("classification","unknown")=="unknown":
       period["classification"]=old["classification"]
       period["classification_source"]=old["classification_source"]
     return periods
