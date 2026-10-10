@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-10T06:59:47.171Z",
+  "updated_at": "2026-10-10T07:01:19.968Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -8,11 +8,11 @@
       "type": "version",
       "version": "Ver.3.2",
       "date": "2026-09-09",
-      "source_url": "https://zenless.hoyoverse.com/en-us/news/166000",
-      "source_title": "Version 3.2 Update Announcement",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000442.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・Ver.3.2",
       "phase": "first",
-      "verification": "unreviewed",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "verification": "official",
+      "review_note": "Ver.3.2の2026年9月9日公開日を運営発表で確認"
     },
     {
       "id": "zzz-clarette",
@@ -20,13 +20,13 @@
       "type": "character",
       "version": "クラレッタ",
       "date": "2026-09-09",
-      "source_url": "https://zenless.hoyoverse.com/ja-jp/news?category=295",
-      "source_title": "日本語公式・Ver.3.2前半の登場キャラ告知",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000442.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・Ver.3.2前半",
       "phase": "first",
       "version_group": "Ver.3.2",
       "event_kind": "debut",
-      "verification": "unreviewed",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "verification": "official",
+      "review_note": "新実装・前半登場は運営発表で確認。前半の開始日はVer.3.2開始日と一致"
     },
     {
       "id": "zzz-roxy",
@@ -181,15 +181,15 @@
       "id": "zzz-nangongyu-3.2",
       "game": "zzz",
       "type": "character",
-      "version": "南宮羽（ピックアップ）",
+      "version": "南宮羽（復刻）",
       "date": "2026-09-09",
       "phase": "first",
       "version_group": "Ver.3.2",
-      "event_kind": "featured_banner",
-      "verification": "unreviewed",
-      "source_url": "https://zenless.hoyoverse.com/ja-jp/news?category=295",
-      "source_title": "日本語公式・Ver.3.2前半の登場キャラ告知",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "event_kind": "rerun",
+      "verification": "official",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000442.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・南宮羽復刻",
+      "review_note": "Ver.3.2前半の南宮羽復刻を運営発表で確認"
     },
     {
       "id": "history-ww-2024-05-23-0",
