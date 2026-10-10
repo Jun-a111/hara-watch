@@ -175,6 +175,18 @@ class SiteTests(unittest.TestCase):
              ("青衣（復刻）", "2025-02-12", "second")}
         )
 
+    def test_special_reruns_not_ranked_as_regular_banners(self):
+        """Special select-a-character events must not inherit regular banner results."""
+        data = self.read("release-events.json")["events"]
+        special = [e for e in data if e.get("banner_type") == "special_rerun"]
+        self.assertGreaterEqual(len(special), 6)
+        self.assertEqual(len({(e["game"], e["date"], e["version"]) for e in special}),
+                         len(special))
+        self.assertTrue(all(e["event_kind"] == "rerun" for e in special))
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertEqual(html.count('"anniversary_convene","special_rerun"'), 2)
+        self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', html)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
