@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-10T06:58:43.234Z",
+  "updated_at": "2026-10-10T06:59:47.171Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -141,11 +141,11 @@
       "phase": "second",
       "version_group": "Ver.3.7",
       "event_kind": "debut",
-      "source_url": "https://www.zaikei.co.jp/releases/3625683/",
-      "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "source_title": "鳴潮Ver.3.7運営発表（登場・復刻キャラ）",
       "schedule_status": "announced",
-      "verification": "unreviewed",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "verification": "secondary",
+      "review_note": "登場・復刻キャラは運営発表と照合済み。開催開始日10月22日は攻略サイト記載で確認、開催前の予定。"
     },
     {
       "id": "ww-3.7-linne",
@@ -156,11 +156,11 @@
       "phase": "second",
       "version_group": "Ver.3.7",
       "event_kind": "rerun",
-      "source_url": "https://www.zaikei.co.jp/releases/3625683/",
-      "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "source_title": "鳴潮Ver.3.7運営発表（登場・復刻キャラ）",
       "schedule_status": "announced",
-      "verification": "unreviewed",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "verification": "secondary",
+      "review_note": "登場・復刻キャラは運営発表と照合済み。開催開始日10月22日は攻略サイト記載で確認、開催前の予定。"
     },
     {
       "id": "ww-3.7-lucilla",
@@ -171,11 +171,11 @@
       "phase": "second",
       "version_group": "Ver.3.7",
       "event_kind": "rerun",
-      "source_url": "https://www.zaikei.co.jp/releases/3625683/",
-      "source_title": "運営発表の転載記事。開始日は別資料を参照したため要追加照合",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "source_title": "鳴潮Ver.3.7運営発表（登場・復刻キャラ）",
       "schedule_status": "announced",
-      "verification": "unreviewed",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "verification": "secondary",
+      "review_note": "登場・復刻キャラは運営発表と照合済み。開催開始日10月22日は攻略サイト記載で確認、開催前の予定。"
     },
     {
       "id": "zzz-nangongyu-3.2",
@@ -6859,43 +6859,43 @@
       "id": "history-ww-2026-08-20-490",
       "game": "ww",
       "type": "character",
-      "version": "青霄",
+      "version": "清宵",
       "date": "2026-08-20",
-      "source_url": "https://buffbuff.com/blog/wuwa-banners",
-      "source_title": "Wuthering Waves Banner Schedule",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "source_title": "鳴潮運営公式プレスリリース・Ver.3.6キャラと復刻告知",
       "phase": "first",
       "version_group": "Ver.3.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "運営公式プレスリリースでキャラ名・前後半・復刻対象を確認。ガチャ開始日は別途要照合。"
     },
     {
       "id": "history-ww-2026-08-20-491",
       "game": "ww",
       "type": "character",
-      "version": "デニア（復刻）",
+      "version": "ダーニャ（復刻）",
       "date": "2026-08-20",
-      "source_url": "https://buffbuff.com/blog/wuwa-banners",
-      "source_title": "Wuthering Waves Banner Schedule",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "source_title": "鳴潮運営公式プレスリリース・Ver.3.6キャラと復刻告知",
       "phase": "first",
       "version_group": "Ver.3.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "運営公式プレスリリースでキャラ名・前後半・復刻対象を確認。ガチャ開始日は別途要照合。"
     },
     {
       "id": "history-ww-2026-09-10-492",
       "game": "ww",
       "type": "character",
-      "version": "景然",
+      "version": "景燃",
       "date": "2026-09-10",
-      "source_url": "https://buffbuff.com/blog/wuwa-banners",
-      "source_title": "Wuthering Waves Banner Schedule",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "source_title": "鳴潮運営公式プレスリリース・Ver.3.6キャラと復刻告知",
       "phase": "second",
       "version_group": "Ver.3.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "運営公式プレスリリースでキャラ名・前後半・復刻対象を確認。ガチャ開始日は別途要照合。"
     },
     {
       "id": "history-ww-2026-09-10-493",
@@ -6903,13 +6903,13 @@
       "type": "character",
       "version": "緋雪（復刻）",
       "date": "2026-09-10",
-      "source_url": "https://buffbuff.com/blog/wuwa-banners",
-      "source_title": "Wuthering Waves Banner Schedule",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "source_title": "鳴潮運営公式プレスリリース・Ver.3.6キャラと復刻告知",
       "phase": "second",
       "version_group": "Ver.3.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "運営公式プレスリリースでキャラ名・前後半・復刻対象を確認。ガチャ開始日は別途要照合。"
     },
     {
       "id": "history-ww-2026-09-10-494",
@@ -6917,13 +6917,13 @@
       "type": "character",
       "version": "モーニエ（復刻）",
       "date": "2026-09-10",
-      "source_url": "https://buffbuff.com/blog/wuwa-banners",
-      "source_title": "Wuthering Waves Banner Schedule",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "source_title": "鳴潮運営公式プレスリリース・Ver.3.6キャラと復刻告知",
       "phase": "second",
       "version_group": "Ver.3.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "運営公式プレスリリースでキャラ名・前後半・復刻対象を確認。ガチャ開始日は別途要照合。"
     }
   ]
 }
