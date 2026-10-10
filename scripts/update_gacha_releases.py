@@ -487,6 +487,15 @@ def browser_news_links(game,url):
     matched.append((title,link))
    diagnostics["filtered"]=len(matched)
    diagnostics["rejected"]=max(0,len(links)+len(api_items)-len(matched))
+   if game=="ww" and not matched:
+    # Expose safe structural diagnostics; don't guess new article URLs.
+    try:
+     diagnostics["body_text_sample"]=" ".join(page.locator("body").inner_text(timeout=3000).split())[:500]
+     diagnostics["title_like_nodes"]=page.locator('[class*="title"],[class*="Title"],[role="link"],[role="button"]').count()
+     diagnostics["news_detail_dom_urls"]=page.locator('a[href*="/news/detail/"]').count()
+     diagnostics["page_url"]=page.url[:180]
+    except Exception as diagnostic_error:
+     diagnostics["dom_diagnostic_error"]=str(diagnostic_error)[:100]
    # Try Kuro's SPA cards that navigate without an anchor href.
    # Only retain links whose final URL is an official numeric news detail page.
    if game=="ww" and not matched:
