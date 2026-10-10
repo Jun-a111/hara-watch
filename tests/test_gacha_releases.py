@@ -220,6 +220,9 @@ class WutheringBodyQualityTests(unittest.TestCase):
   article="集音開催期間 2026年10月10日11:00 から 2026年10月30日11:00 共鳴者 "*12
   self.assertFalse(ns["article_text_quality"](url,shell))
   self.assertTrue(ns["article_text_quality"](url,article))
+  # Kuro announcements often omit the year in the visible event date.
+  yearless=("Ver.3.7アップデート 集音開催期間 10月10日11:00から10月30日11:00、共鳴者集音の詳細情報です。"*5)
+  self.assertTrue(ns["article_text_quality"](url,yearless))
 
 class OriginalSourcePriorityTests(unittest.TestCase):
  def test_kuro_refresh_not_starved_by_steam(self):
