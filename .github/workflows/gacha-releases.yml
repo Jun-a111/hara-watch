@@ -119,7 +119,12 @@ jobs:
           # Rebase on the latest main and merge by article URL instead of overwriting it.
           cp gacha-wars/release-candidates.json /tmp/gacha-release-collected.json
           for attempt in 1 2 3 4 5; do
-            git fetch origin main
+            if ! timeout 35s git -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=15 fetch origin main; then
+              echo "::warning::GitHubへの接続失敗（取得、試行 $attempt/5）"
+              if [ "$attempt" -eq 5 ]; then exit 1; fi
+              sleep 3
+              continue
+            fi
             git reset --hard origin/main
           python - <<'PY'
           import json
@@ -161,7 +166,7 @@ jobs:
               break
             fi
             git commit -m "Update official news link candidates"
-            if git push origin HEAD:main; then
+            if timeout 35s git -c http.lowSpeedLimit=1000 -c http.lowSpeedTime=15 push origin HEAD:main; then
               echo "収集結果を競合なく保存"
               break
             fi
