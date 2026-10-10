@@ -46,7 +46,20 @@ for record in [*history, *added]:
     if not isinstance(record.get("date"), str):
         continue
     by_key[(record["game"], record["date"])] = record
-history = sorted(by_key.values(), key=lambda r: r["date"])[-2000:]
+# Never truncate valid historical measurements. The old 2,000-row cap
+# would silently destroy older Steam trend observations.
+previous_keys = {
+    (row["game"], row["date"])
+    for row in history
+    if isinstance(row, dict)
+    and row.get("game") in GAMES and row.get("store") == "steam"
+    and type(row.get("value")) is int and row["value"] >= 0
+    and isinstance(row.get("date"), str)
+}
+missing = previous_keys - set(by_key)
+if missing:
+    raise RuntimeError(f"Steam history loss prevented: {len(missing)} snapshots missing")
+history = sorted(by_key.values(), key=lambda r: r["date"])
 OUT.write_text(json.dumps({"schema": "gacha-wars-steam-v1", "updated_at": now,
                             "game_status": status, "records": history}, ensure_ascii=False, indent=2) + "\n",
                encoding="utf-8")
