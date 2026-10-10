@@ -29,6 +29,17 @@ jobs:
         run: |
           python -m unittest discover -s tests -p "test_gacha_releases.py" -v 2>&1 | tee gacha-release-tests.log
           exit ${PIPESTATUS[0]}
+      - name: テスト結果をActions概要に記録
+        if: always()
+        run: |
+          {
+            echo '## 公式告知の回帰テスト'
+            if [ -f gacha-release-tests.log ]; then
+              grep -E '^Ran [0-9]+ tests|^OK$|^FAILED' gacha-release-tests.log || true
+            else
+              echo 'テストログなし'
+            fi
+          } >> "$GITHUB_STEP_SUMMARY"
       - name: 現在の候補JSONの検証
         run: |
           python - <<'PY'
