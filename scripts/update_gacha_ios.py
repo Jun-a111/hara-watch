@@ -78,9 +78,32 @@ for market in MARKETS:
                     if app_id.isdigit():
                         KNOWN_IDS.setdefault(game, set()).add(app_id)
                     matches.add(game)
+        # App availability is distinct from placement on a revenue chart.
+        # Look up all known storefront IDs in one request per region. Never
+        # manufacture ranking observations from these metadata responses.
+        lookup = {}
+        try:
+            from urllib.parse import urlencode
+            ids = sorted({aid for values in OFFICIAL_APP_IDS.values() for aid in values})
+            lookup_url = "https://itunes.apple.com/lookup?" + urlencode({
+                "id": ",".join(ids), "country": market, "entity": "software"})
+            lookup_req = urllib.request.Request(lookup_url, headers={
+                "User-Agent": "Mozilla/5.0 (compatible; GachaWars/1.0)",
+                "Accept": "application/json"})
+            with urllib.request.urlopen(lookup_req, timeout=12) as response:
+                lookup_data = json.load(response)
+            available_ids = {str(item.get("trackId")) for item in lookup_data.get("results", [])
+                             if item.get("trackId") is not None}
+            lookup = {"ok": True, "available": sorted(
+                game for game, ids in OFFICIAL_APP_IDS.items() if available_ids.intersection(ids)),
+                "not_listed": sorted(
+                    game for game, ids in OFFICIAL_APP_IDS.items() if not available_ids.intersection(ids))}
+        except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
+            lookup = {"ok": False, "error": str(exc)[:150]}
         status[market] = {"ok": True, "chart_depth": len(entries),
                           "matched": sorted(matches),
                           "not_seen_in_top_chart": sorted(set(ALIASES) - matches),
+                          "app_store_lookup": lookup,
                           "checked_at": now}
         print(f"{market}: top {len(entries)}, matched {sorted(matches)}")
     except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
