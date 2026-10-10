@@ -243,6 +243,16 @@ def rendered_hints(url):
    joined=" ".join(text)
    if len(joined)<80:joined=page.locator("body").inner_text(timeout=5000)
    if len(joined)<180:return blank_hints("unavailable","ブラウザ表示後も本文未取得")
+   if not article_text_quality(url,joined) and urlparse(url).hostname=="wutheringwaves.kurogames.com":
+    # Kuro SPA sometimes renders the related-articles shell before the main news body.
+    # Retry DOM extraction briefly instead of caching the initial shell as the article.
+    for _ in range(3):
+     page.wait_for_timeout(1200)
+     more=" ".join(page.locator("main, article").all_text_contents())
+     if len(more)<80:more=page.locator("body").inner_text(timeout=5000)
+     if article_text_quality(url,more):
+      joined=more
+      break
    if not article_text_quality(url,joined):
     result=blank_hints("unavailable","記事本文を確認できず（共通ページの可能性）")
     result["body_error"]="本文の先頭: "+" ".join(joined[:220].split())
