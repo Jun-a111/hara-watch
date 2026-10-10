@@ -1,3 +1,4 @@
+# Trigger completion-notification integration test (no collector logic change).
 #!/usr/bin/env python3
 """Collect unverified links to official announcements. No release dates are inferred."""
 import json
