@@ -298,4 +298,10 @@ class KuroRelatedNewsShellTests(unittest.TestCase):
   article=("Ver.3.7の配信開始について、9月30日にアップデートしました。新規任務や調整に関する情報を掲載しています。"*5)
   self.assertTrue(ns["article_text_quality"](url,article))
 
+class ManualBodyReviewStatusTests(unittest.TestCase):
+ def test_unextractable_article_is_flagged_for_manual_review(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('item["body_review_status"]="manual_review_required"',source)
+  self.assertIn('item.pop("body_review_status",None)',source)
+
 if __name__=="__main__":unittest.main()
