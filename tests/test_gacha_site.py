@@ -55,6 +55,40 @@ class SiteTests(unittest.TestCase):
         ids = [e["id"] for e in data["events"]]
         self.assertEqual(len(ids), len(set(ids)), "duplicate release event IDs")
 
+    def test_youtube_archive_over_3000_records(self):
+        """A missing API key must not truncate or corrupt a large archive."""
+        import os
+        import shutil
+        from datetime import datetime, timedelta, timezone
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            (root / "scripts").mkdir()
+            (root / "gacha-wars").mkdir()
+            shutil.copy2(ROOT / "scripts" / "update_gacha_youtube.py",
+                         root / "scripts" / "update_gacha_youtube.py")
+            (root / "gacha-wars" / "youtube-targets.json").write_text(
+                json.dumps({"videos": [{"game": "ww", "video_id": "LczEBLHeu24"}]}),
+                encoding="utf-8")
+            start = datetime(2017, 1, 1, tzinfo=timezone.utc)
+            original = [
+                {"game": "ww", "region": "global", "kind": "sns",
+                 "store": "youtube", "video_id": "LczEBLHeu24",
+                 "value": i, "date": (start + timedelta(days=i)).isoformat(),
+                 "source": "YouTube Data API v3"}
+                for i in range(3001)
+            ]
+            out = root / "gacha-wars" / "youtube-data.json"
+            out.write_text(json.dumps({"records": original}), encoding="utf-8")
+            env = dict(os.environ)
+            env.pop("YOUTUBE_API_KEY", None)
+            subprocess.run(["python", str(root / "scripts" / "update_gacha_youtube.py")],
+                           env=env, check=True, capture_output=True, text=True)
+            saved = json.loads(out.read_text(encoding="utf-8"))
+            self.assertEqual(saved["status"], "missing_api_key")
+            self.assertEqual(len(saved["records"]), 3001)
+            self.assertEqual(saved["records"][0]["date"], original[0]["date"])
+            self.assertEqual(saved["records"][-1]["date"], original[-1]["date"])
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
