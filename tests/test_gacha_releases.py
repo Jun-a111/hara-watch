@@ -239,4 +239,9 @@ class WutheringConvenePeriodTests(unittest.TestCase):
   periods=ns["article_details"](sample)["period_candidates"]
   self.assertEqual(periods[0]["classification"],"banner_possible")
 
+class ConveneClassificationPersistenceTests(unittest.TestCase):
+ def test_convene_context_correction_survives_failed_reclassification(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('"stored_context_reclassified","convene_notice_context"',source)
+
 if __name__=="__main__":unittest.main()
