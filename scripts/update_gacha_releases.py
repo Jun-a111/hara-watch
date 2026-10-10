@@ -193,6 +193,10 @@ def page_hints(url):
   elif len(main)>=80:text=main;context="main/article の本文"
   elif len(full)>=200:text=full;context="記事ページの表示テキスト（要確認）"
   else:return blank_hints("unavailable","本文未取得（JavaScript表示の可能性）")
+  if not article_text_quality(url,text):
+   result=blank_hints("unavailable","静的HTMLの記事本文を確認できず")
+   result["body_error"]="静的HTML先頭: "+" ".join(text[:180].split())
+   return result
   output=article_details(text[:18000])
   output["date_candidates"]=[]
   for period in output["period_candidates"]:
