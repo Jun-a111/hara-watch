@@ -534,7 +534,10 @@ def browser_news_links(game,url):
          try:popup.close()
          except Exception:pass
        if page.url!=url:page.goto(url,wait_until="domcontentloaded",timeout=15000)
-      except Exception:
+      except Exception as click_error:
+       diagnostics.setdefault("kuro_text_click_errors",[])
+       if len(diagnostics["kuro_text_click_errors"])<5:
+        diagnostics["kuro_text_click_errors"].append({"title":title[:65],"error":str(click_error)[:220]})
        try:
         if page.url!=url:page.goto(url,wait_until="domcontentloaded",timeout=15000)
        except Exception:break
