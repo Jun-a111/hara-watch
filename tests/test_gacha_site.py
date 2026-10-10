@@ -164,6 +164,17 @@ class SiteTests(unittest.TestCase):
                                     f"{game} release history unexpectedly shrank")
             self.assertTrue(any(e["type"] == "character" for e in rows))
 
+    def test_zzz_15_reruns_are_recorded(self):
+        events = self.read("release-events.json")["events"]
+        reruns = [e for e in events if e["game"] == "zzz" and
+                  e.get("version_group") == "Ver.1.5" and
+                  e.get("event_kind") == "rerun"]
+        self.assertEqual(
+            {(e["version"], e["date"], e["phase"]) for e in reruns},
+            {("エレン（復刻）", "2025-01-22", "first"),
+             ("青衣（復刻）", "2025-02-12", "second")}
+        )
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
