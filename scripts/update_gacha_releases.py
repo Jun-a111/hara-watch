@@ -227,7 +227,14 @@ def article_text_quality(url,text):
  if urlparse(url).hostname!="wutheringwaves.kurogames.com":return True
  if "/news/detail/" not in urlparse(url).path:return True
  cues=("集音","共鳴者","開催期間","開始時間","アップデート","ver.","バージョン","開催日時","convene","update")
- return len(text)>=180 and any(word in text.lower() for word in cues) and bool(DATE_RE.search(text))
+ # A date elsewhere in a huge navigation shell is not evidence of article content.
+ # For version-release notices the actual post can use yearless dates; inspect the
+ # article text before the related-news list instead of searching the entire shell.
+ core=text.split("関連情報",1)[0].split("Related Articles",1)[0]
+ if len(core)<160:return False
+ has_topic=any(word in core.lower() for word in cues)
+ has_date=bool(DATE_RE.search(core) or re.search(r"\\d{1,2}月\\d{1,2}日",core))
+ return has_topic and has_date
 
 def rendered_hints(url):
  global _browser,_browser_driver
