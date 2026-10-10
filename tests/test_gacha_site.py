@@ -60,7 +60,15 @@ class SiteTests(unittest.TestCase):
             data = self.read(filename)
             self.assertIsInstance(data, dict)
             self.assertIn("updated_at", data)
-        self.assertIsInstance(self.read("steam-data.json")["records"], list)
+        steam = self.read("steam-data.json")
+        self.assertIsInstance(steam["records"], list)
+        keys = [(row["game"], row["date"]) for row in steam["records"]]
+        self.assertEqual(len(keys), len(set(keys)), "duplicate Steam observations")
+        for row in steam["records"]:
+            self.assertIn(row["game"], {"ww", "zzz", "nte"})
+            self.assertEqual(row["store"], "steam")
+            self.assertIs(type(row["value"]), int)
+            self.assertGreaterEqual(row["value"], 0)
         self.assertIsInstance(self.read("youtube-data.json")["records"], list)
         self.assertIsInstance(self.read("release-candidates.json")["candidates"], list)
 
