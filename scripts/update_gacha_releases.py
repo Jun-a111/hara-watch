@@ -496,6 +496,38 @@ def browser_news_links(game,url):
      diagnostics["page_url"]=page.url[:180]
     except Exception as diagnostic_error:
      diagnostics["dom_diagnostic_error"]=str(diagnostic_error)[:100]
+   # Kuro news-list titles appear in body text but have no anchor href.
+   # Resolve article navigation by exact visible title, then verify the destination.
+   if game=="ww" and not matched:
+    diagnostics["kuro_text_click_attempts"]=0
+    diagnostics["kuro_text_click_verified"]=0
+    try:
+     body_lines=page.locator("body").inner_text(timeout=4000).splitlines()
+     titles=[]
+     for line in body_lines:
+      title=" ".join(line.split())
+      if 12<=len(title)<=150 and any(k in title.lower() for k in KEYWORDS) and title not in titles:
+       titles.append(title)
+     diagnostics["kuro_visible_titles"]=titles[:12]
+     for title in titles[:14]:
+      try:
+       node=page.get_by_text(title,exact=True).first
+       if not node.count():continue
+       diagnostics["kuro_text_click_attempts"]+=1
+       node.click(timeout=1400)
+       page.wait_for_timeout(450)
+       dest=page.url
+       parsed=urlparse(dest)
+       if parsed.hostname==home and re.fullmatch(r"/(?:m/)?(?:jp|en)/main/news/detail/\d+",parsed.path):
+        matched.append((title,dest))
+        diagnostics["kuro_text_click_verified"]+=1
+       if page.url!=url:page.goto(url,wait_until="domcontentloaded",timeout=15000)
+      except Exception:
+       try:
+        if page.url!=url:page.goto(url,wait_until="domcontentloaded",timeout=15000)
+       except Exception:break
+    except Exception as text_click_error:
+     diagnostics["kuro_text_click_error"]=str(text_click_error)[:120]
    # Try Kuro's SPA cards that navigate without an anchor href.
    # Only retain links whose final URL is an official numeric news detail page.
    if game=="ww" and not matched:
