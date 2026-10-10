@@ -535,6 +535,8 @@ def browser_news_links(game,url):
         # The title <p> is frequently not a Playwright-actionable hit target.
         # Dispatch through the nearest enclosing card without force-clicking coordinates.
         node.evaluate("""el => {
+          const article=el.closest('.artical');
+          if(article){article.click();return;}
           let node=el;
           for(let depth=0;depth<5 && node;depth++,node=node.parentElement){
             if(node.matches('a,button,[role="link"],[role="button"]') ||
