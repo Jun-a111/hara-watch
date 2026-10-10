@@ -68,6 +68,27 @@ class SiteTests(unittest.TestCase):
         self.assertGreaterEqual(len(data["events"]), 505, "published release archive shrank")
         ids = [e["id"] for e in data["events"]]
         self.assertEqual(len(ids), len(set(ids)), "duplicate release event IDs")
+        # A large archive is not useful if the same banner is counted twice or
+        # entries silently lose their provenance.  Keep these checks independent
+        # of the total baseline: the archive can grow without hiding corruption.
+        semantic_keys = []
+        for event in data["events"]:
+            self.assertIn(event["game"], {"gi", "hsr", "zzz", "ww", "nte", "end"})
+            self.assertIn(event["type"], {"character", "version"})
+            self.assertRegex(event["date"], r"^\\d{4}-\\d{2}-\\d{2}$")
+            from datetime import date
+            self.assertEqual(date.fromisoformat(event["date"]).isoformat(), event["date"])
+            self.assertTrue(event["version"].strip())
+            self.assertTrue(event["source_url"].startswith("https://"))
+            self.assertIn(event["verification"], {"official", "secondary", "unreviewed"})
+            if event["type"] == "character":
+                self.assertIn(event["event_kind"], {"debut", "rerun", "featured_banner"})
+                self.assertIn(event["phase"], {"first", "second", "unknown"})
+                self.assertTrue(event["version_group"].strip())
+                semantic_keys.append((event["game"], event["version"], event["date"]))
+        self.assertEqual(len(semantic_keys), len(set(semantic_keys)),
+                         "duplicate character banner on the same date")
+
 
     def test_youtube_archive_over_3000_records(self):
         """A missing API key must not truncate or corrupt a large archive."""
