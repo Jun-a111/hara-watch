@@ -230,4 +230,13 @@ class OriginalSourcePriorityTests(unittest.TestCase):
   source=SCRIPT.read_text(encoding="utf-8")
   self.assertIn('/news/externalpost/steam_community_announcements/',source)
 
+class WutheringConvenePeriodTests(unittest.TestCase):
+ def test_generic_event_period_under_convene_is_banner(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  ns={"re":__import__("re")}
+  exec(source[source.index("DATE_TOKEN="):source.index("class ArticleText(")],ns)
+  sample="共鳴者集音（イベント）「明日へ焼き付ける記憶」 イベント期間中、星5共鳴者「ルシラー」の出現率UP！ ✦開催期間✦ 2026年6月13日11:00 ~ 2026年7月9日12:59"
+  periods=ns["article_details"](sample)["period_candidates"]
+  self.assertEqual(periods[0]["classification"],"banner_possible")
+
 if __name__=="__main__":unittest.main()
