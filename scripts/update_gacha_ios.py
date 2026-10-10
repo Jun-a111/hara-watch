@@ -120,6 +120,18 @@ for market in MARKETS:
 # Only append positive observations. A missing game might be beyond chart depth,
 # unavailable in the country, or published under another localized title.
 # Deduplicate within a run as well as against previous observations.
+def record_key(record):
+    return (record.get("game"), record.get("region"), record.get("date"))
+
+# Loss-prevention guard: a collector must never silently erase previously
+# persisted valid measurements (including old 14-day banner windows).
+previous_keys = {
+    record_key(record) for record in past
+    if isinstance(record, dict)
+    and record.get("game") in ALIASES
+    and record.get("region") in MARKETS
+    and type(record.get("value")) is int and record["value"] > 0
+}
 by_key = {}
 for record in [*past, *new]:
     if not isinstance(record, dict):
@@ -131,6 +143,11 @@ for record in [*past, *new]:
         continue
     key = (record.get("game"), record.get("region"), record.get("date"))
     by_key[key] = record
+missing_previous = previous_keys - set(by_key)
+if missing_previous:
+    raise RuntimeError(
+        f"Refusing to overwrite iOS history: {len(missing_previous)} previous records would be lost"
+    )
 # Keep every valid historical observation. Truncating to the latest 5,000
 # silently destroyed older banner-window rankings as the archive grew.
 past = sorted(by_key.values(), key=lambda r: r.get("date") or "")
