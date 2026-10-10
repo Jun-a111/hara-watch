@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-10T07:04:22.954Z",
+  "updated_at": "2026-10-10T07:12:31.798Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -855,13 +855,15 @@
       "type": "character",
       "version": "刻晴（ピックアップ）",
       "date": "2021-02-17",
-      "source_url": "https://genshin-impact.fandom.com/wiki/Wish/History",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "source_title": "原神公式・刻晴イベント祈願『魚龍灯昼』",
       "phase": "second",
       "version_group": "Ver.1.3",
       "event_kind": "featured_banner",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "恒常★5刻晴の期間限定ピックアップ。限定キャラの初実装とは区別する。",
+      "banner_type": "standard_character_event",
+      "rarity": 5
     },
     {
       "id": "historical-gi-2021-03-02-62",
@@ -7036,6 +7038,54 @@
       "rarity": 5,
       "verification": "secondary",
       "review_note": "限定★5の通常復刻ではなくスメール集録祈願の対象。通常の復刻件数に算入しないこと"
+    },
+    {
+      "id": "gi-2021-02-17-four-ningguang",
+      "game": "gi",
+      "type": "character",
+      "version": "凝光",
+      "date": "2021-02-17",
+      "phase": "second",
+      "version_group": "Ver.1.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "source_title": "原神公式・刻晴イベント祈願『魚龍灯昼』",
+      "verification": "official",
+      "review_note": "刻晴祈願の公式発表に掲載された★4ピックアップ。初実装ではない。"
+    },
+    {
+      "id": "gi-2021-02-17-four-bennett",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2021-02-17",
+      "phase": "second",
+      "version_group": "Ver.1.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "source_title": "原神公式・刻晴イベント祈願『魚龍灯昼』",
+      "verification": "official",
+      "review_note": "刻晴祈願の公式発表に掲載された★4ピックアップ。初実装ではない。"
+    },
+    {
+      "id": "gi-2021-02-17-four-barbara",
+      "game": "gi",
+      "type": "character",
+      "version": "バーバラ",
+      "date": "2021-02-17",
+      "phase": "second",
+      "version_group": "Ver.1.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "source_title": "原神公式・刻晴イベント祈願『魚龍灯昼』",
+      "verification": "official",
+      "review_note": "刻晴祈願の公式発表に掲載された★4ピックアップ。初実装ではない。"
     }
   ]
 }
