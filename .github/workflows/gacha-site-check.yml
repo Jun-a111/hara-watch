@@ -1,0 +1,26 @@
+name: GACHA WARS site quality gate
+on:
+  push:
+    paths:
+      - 'gacha-wars/**'
+      - 'tests/test_gacha_site.py'
+      - '.github/workflows/gacha-site-check.yml'
+  workflow_dispatch:
+  schedule:
+    - cron: '55 5,11,17,23 * * *'
+permissions:
+  contents: read
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Validate public site, feed schemas and JavaScript
+        run: python -m unittest discover -s tests -p 'test_gacha_site.py' -v
