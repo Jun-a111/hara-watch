@@ -513,6 +513,19 @@ def browser_news_links(game,url):
       try:
        node=page.get_by_text(title,exact=True).first
        if not node.count():continue
+       if "kuro_card_ancestors" not in diagnostics:
+        try:
+         diagnostics["kuro_card_ancestors"]=node.evaluate("""el => {
+           const result=[];
+           for(let n=el,level=0;n && level<7;n=n.parentElement,level++){
+             result.push({tag:n.tagName.toLowerCase(),classes:String(n.className||'').slice(0,130),
+               role:n.getAttribute('role'),href:n.getAttribute('href'),
+               onclick:n.hasAttribute('onclick'),cursor:getComputedStyle(n).cursor});
+           }
+           return result;
+         }""",timeout=2000)
+        except Exception as structure_error:
+         diagnostics["kuro_card_ancestor_error"]=str(structure_error)[:120]
        diagnostics["kuro_text_click_attempts"]+=1
        opened=[]
        def record_popup(popup):opened.append(popup)
