@@ -24,6 +24,20 @@ class SiteTests(unittest.TestCase):
                 js.write_text(script, encoding="utf-8")
                 subprocess.run(["node", "--check", str(js)], check=True, capture_output=True, text=True)
 
+    def test_duel_requires_comparable_observations(self):
+        """Do not regress safeguards for incomparable ranking snapshots."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function duel(){")
+        end = html.index("function ", start + len("function duel(){"))
+        duel = html[start:end]
+        self.assertIn('sameIosScan(ra,iosMarketStatus[region])', duel)
+        self.assertIn('sameIosScan(rb,iosMarketStatus[region])', duel)
+        self.assertIn('iosMarketStatus[region].matched?.includes(a)', duel)
+        self.assertIn('iosMarketStatus[region].matched?.includes(b)', duel)
+        self.assertIn('ra.source.trim().toLowerCase()!==rb.source.trim().toLowerCase()', duel)
+        self.assertIn('Androidの取得元が異なるため比較不可', duel)
+        self.assertIn('同じ最新巡回の実測順位が揃っていないため比較不可', duel)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
