@@ -49,9 +49,9 @@ jobs:
           result = os.environ["RUN_RESULT"]
           label = "成功" if result == "success" else f"終了（{result}）"
           body = (
-              f"@{owner} ガチャウォーズの公式告知収集が**{label}**しました。\\n\\n"
-              f"実行結果: {os.environ['RUN_URL']}\\n"
-              f"Run ID: {os.environ['RUN_ID']}\\n\\n"
+              f"@{owner} ガチャウォーズの公式告知収集が**{label}**しました。\n\n"
+              f"実行結果: {os.environ['RUN_URL']}\n"
+              f"Run ID: {os.environ['RUN_ID']}\n\n"
               "通知が届かない場合は、このIssueのSubscribeとGitHubの通知設定を確認してください。"
           )
           issues = api("/issues?state=open&per_page=100")
