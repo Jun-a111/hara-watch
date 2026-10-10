@@ -120,7 +120,7 @@ jobs:
           for attempt in 1 2 3 4 5; do
             git fetch origin main
             git reset --hard origin/main
-            python - <<'PY'
+          python - <<'PY'
           import json
           from pathlib import Path
           p=Path("gacha-wars/release-candidates.json")
@@ -151,7 +151,7 @@ jobs:
           latest["candidates"]=list(merged.values())[:400]
           latest["status"]=collected.get("status",latest.get("status",{}))
           latest["updated_at"]=collected.get("updated_at",latest.get("updated_at"))
-          p.write_text(json.dumps(latest,ensure_ascii=False,indent=2)+"\\n",encoding="utf-8")
+          p.write_text(json.dumps(latest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
           PY
             git add gacha-wars/release-candidates.json
             if git diff --cached --quiet; then
