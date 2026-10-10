@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-ios-v1",
-  "updated_at": "2026-10-09T23:42:18+00:00",
+  "updated_at": "2026-10-10T05:43:06+00:00",
   "market_status": {
     "jp": {
       "ok": true,
@@ -9,7 +9,7 @@
         "hsr",
         "ww"
       ],
-      "checked_at": "2026-10-09T23:42:18+00:00"
+      "checked_at": "2026-10-10T05:43:06+00:00"
     },
     "cn": {
       "ok": true,
@@ -18,7 +18,7 @@
         "hsr",
         "ww"
       ],
-      "checked_at": "2026-10-09T23:42:18+00:00"
+      "checked_at": "2026-10-10T05:43:06+00:00"
     },
     "tw": {
       "ok": true,
@@ -26,7 +26,7 @@
       "matched": [
         "ww"
       ],
-      "checked_at": "2026-10-09T23:42:18+00:00"
+      "checked_at": "2026-10-10T05:43:06+00:00"
     },
     "hk": {
       "ok": true,
@@ -35,7 +35,7 @@
         "hsr",
         "ww"
       ],
-      "checked_at": "2026-10-09T23:42:18+00:00"
+      "checked_at": "2026-10-10T05:43:06+00:00"
     },
     "kr": {
       "ok": true,
@@ -44,13 +44,13 @@
         "hsr",
         "ww"
       ],
-      "checked_at": "2026-10-09T23:42:18+00:00"
+      "checked_at": "2026-10-10T05:43:06+00:00"
     },
     "us": {
       "ok": true,
       "chart_depth": 100,
       "matched": [],
-      "checked_at": "2026-10-09T23:42:18+00:00"
+      "checked_at": "2026-10-10T05:43:06+00:00"
     }
   },
   "records": [
@@ -857,6 +857,132 @@
       "store": "ios",
       "value": 61,
       "date": "2026-10-09T23:42:18+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/kr/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "1599719154",
+      "matched_by": "name"
+    },
+    {
+      "game": "hsr",
+      "region": "jp",
+      "kind": "rank",
+      "store": "ios",
+      "value": 49,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "1599719154",
+      "matched_by": "name"
+    },
+    {
+      "game": "ww",
+      "region": "jp",
+      "kind": "rank",
+      "store": "ios",
+      "value": 79,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "6475033368",
+      "matched_by": "name"
+    },
+    {
+      "game": "ww",
+      "region": "cn",
+      "kind": "rank",
+      "store": "ios",
+      "value": 61,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/cn/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "6450693428",
+      "matched_by": "name"
+    },
+    {
+      "game": "hsr",
+      "region": "cn",
+      "kind": "rank",
+      "store": "ios",
+      "value": 67,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/cn/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "1523037824",
+      "matched_by": "name"
+    },
+    {
+      "game": "ww",
+      "region": "tw",
+      "kind": "rank",
+      "store": "ios",
+      "value": 33,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/tw/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "6475033368",
+      "matched_by": "name"
+    },
+    {
+      "game": "ww",
+      "region": "hk",
+      "kind": "rank",
+      "store": "ios",
+      "value": 53,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/hk/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "6475033368",
+      "matched_by": "name"
+    },
+    {
+      "game": "hsr",
+      "region": "hk",
+      "kind": "rank",
+      "store": "ios",
+      "value": 85,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/hk/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "1599719154",
+      "matched_by": "name"
+    },
+    {
+      "game": "ww",
+      "region": "kr",
+      "kind": "rank",
+      "store": "ios",
+      "value": 24,
+      "date": "2026-10-10T05:43:06+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/kr/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "6475033368",
+      "matched_by": "verified_app_id"
+    },
+    {
+      "game": "hsr",
+      "region": "kr",
+      "kind": "rank",
+      "store": "ios",
+      "value": 62,
+      "date": "2026-10-10T05:43:06+00:00",
       "source": "Apple iTunes top grossing Games RSS",
       "source_url": "https://itunes.apple.com/kr/rss/topgrossingapplications/limit=100/genre=6014/json",
       "chart": "topgrossingapplications",
