@@ -518,8 +518,13 @@ def browser_news_links(game,url):
        def record_popup(popup):opened.append(popup)
        page.on("popup",record_popup)
        try:
-        node.click(timeout=1400)
-        page.wait_for_timeout(450)
+        # The title <p> is frequently not a Playwright-actionable hit target.
+        # Dispatch through the nearest enclosing card without force-clicking coordinates.
+        node.evaluate("""el => {
+          const card=el.closest('[class*="item"],[class*="card"],[class*="news"],[class*="list"]');
+          (card || el.parentElement || el).click();
+        }""",timeout=1800)
+        page.wait_for_timeout(650)
         destinations=[page.url]+[popup.url for popup in opened]
         for dest in destinations:
          parsed=urlparse(dest)
