@@ -285,4 +285,17 @@ class RefreshAttemptTimestampTests(unittest.TestCase):
   self.assertIn('item["refresh_checked_at"]=now',source)
   self.assertIn('item.pop("refresh_checked_at",None)',source)
 
+class KuroRelatedNewsShellTests(unittest.TestCase):
+ def test_navigation_dates_do_not_count_as_article(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  from urllib.parse import urlparse
+  import re
+  ns={"urlparse":urlparse,"re":re,"DATE_RE":re.compile(r"20\\d{2}[年/-]\\d{1,2}[月/-]\\d{1,2}")}
+  exec(source[source.index("def article_text_quality("):source.index("def rendered_hints(")],ns)
+  url="https://wutheringwaves.kurogames.com/jp/main/news/detail/5530"
+  navigation="お知らせ Ver.3.7、9月30日に配信開始！ 戻る Back 関連情報 "+"2026年10月10日 アップデート関連ニュース "*15
+  self.assertFalse(ns["article_text_quality"](url,navigation))
+  article=("Ver.3.7の配信開始について、9月30日にアップデートしました。新規任務や調整に関する情報を掲載しています。"*5)
+  self.assertTrue(ns["article_text_quality"](url,article))
+
 if __name__=="__main__":unittest.main()
