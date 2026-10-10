@@ -279,4 +279,10 @@ class RefreshMetricIntegrityTests(unittest.TestCase):
   self.assertIn('x.get("body_status") in ("rendered","extracted") and not x.get("refresh_error")',source)
   self.assertIn('or bool(x.get("refresh_error"))',source)
 
+class RefreshAttemptTimestampTests(unittest.TestCase):
+ def test_failed_refresh_has_a_check_time_and_success_clears_it(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  self.assertIn('item["refresh_checked_at"]=now',source)
+  self.assertIn('item.pop("refresh_checked_at",None)',source)
+
 if __name__=="__main__":unittest.main()
