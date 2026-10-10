@@ -514,13 +514,25 @@ def browser_news_links(game,url):
        node=page.get_by_text(title,exact=True).first
        if not node.count():continue
        diagnostics["kuro_text_click_attempts"]+=1
-       node.click(timeout=1400)
-       page.wait_for_timeout(450)
-       dest=page.url
-       parsed=urlparse(dest)
-       if parsed.hostname==home and re.fullmatch(r"/(?:m/)?(?:jp|en)/main/news/detail/\d+",parsed.path):
-        matched.append((title,dest))
-        diagnostics["kuro_text_click_verified"]+=1
+       opened=[]
+       def record_popup(popup):opened.append(popup)
+       page.on("popup",record_popup)
+       try:
+        node.click(timeout=1400)
+        page.wait_for_timeout(450)
+        destinations=[page.url]+[popup.url for popup in opened]
+        for dest in destinations:
+         parsed=urlparse(dest)
+         if parsed.hostname==home and re.fullmatch(r"/(?:m/)?(?:jp|en)/main/news/detail/\d+",parsed.path):
+          matched.append((title,dest))
+          diagnostics["kuro_text_click_verified"]+=1
+        diagnostics.setdefault("kuro_click_destinations",[])
+        if len(diagnostics["kuro_click_destinations"])<8:diagnostics["kuro_click_destinations"].append(destinations[:3])
+       finally:
+        page.remove_listener("popup",record_popup)
+        for popup in opened:
+         try:popup.close()
+         except Exception:pass
        if page.url!=url:page.goto(url,wait_until="domcontentloaded",timeout=15000)
       except Exception:
        try:
