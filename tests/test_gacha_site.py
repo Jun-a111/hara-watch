@@ -59,6 +59,13 @@ class SiteTests(unittest.TestCase):
         self.assertIn('"anniversary_convene"', html)
         self.assertIn('周年記念・選択式★5', html)
 
+    def test_character_ranking_pagination(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn('function changeCharacterPage(n)', html)
+        self.assertIn('ranked.slice(characterPage*50,(characterPage+1)*50)', html)
+        self.assertIn('visibleRanked.map((x,i)', html)
+        self.assertIn('ranked.slice(0,characterPage*50+i+1)', html)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
