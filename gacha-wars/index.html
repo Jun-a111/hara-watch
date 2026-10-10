@@ -36,9 +36,9 @@ function setCandidatePage(value){candidatePage=Math.max(0,Math.floor(Number(valu
 let candidateExportRows=[];
 function exportCandidateCsv(){
  const header=["作品","告知タイトル","公式URL","検出日時","日付候補","前半後半","キャラ候補","本文取得状態","要確認"];
- const safe=v=>{let x=String(v??"");if(/^[\\s]*[=+@-]/.test(x))x="'"+x;return '"'+x.replace(/"/g,'""')+'"';};
+ const safe=v=>{let x=String(v??"");if(/^\s*[=+@-]/.test(x))x="'"+x;return '"'+x.replace(/"/g,'""')+'"';};
  const lines=[header,...candidateExportRows.map(x=>[name(x.game),x.title,x.url,x.detected_at||"",Array.isArray(x.date_candidates)?x.date_candidates.join(" / "):"",x.phase_hint||"",Array.isArray(x.character_candidates)?x.character_candidates.join(" / "):"",x.body_status||"",x.body_review_status||""])].map(row=>row.map(safe).join(","));
- const blob=new Blob(["\\uFEFF"+lines.join("\\r\\n")],{type:"text/csv;charset=utf-8"});
+ const blob=new Blob(["\uFEFF"+lines.join("\r\n")],{type:"text/csv;charset=utf-8"});
  const url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="gacha-wars-official-notices.csv";a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);
 }
 function prepareCandidate(index){const x=releaseCandidates[index];if(!x)return;go("update");const form=document.querySelector("#screen form");if(!form)return;form.elements.namedItem("game").value=x.game;form.elements.namedItem("type").value="version";form.elements.namedItem("source_url").value=x.url;form.elements.namedItem("phase").value="unknown";form.elements.namedItem("version").value="";form.elements.namedItem("date").value="";msg("出典のみ入力。イベント種類・名前・日付を告知から確認してください");form.elements.namedItem("version").focus()}
