@@ -265,4 +265,11 @@ class ReviewedConveneFallbackTests(unittest.TestCase):
   self.assertIn('period.get("classification")=="other_event"',source)
   self.assertIn('re.search(r"共鳴者集音|武器集音"',source)
 
+class KuroStaticBodyValidationTests(unittest.TestCase):
+ def test_static_body_is_validated_before_extraction(self):
+  source=SCRIPT.read_text(encoding="utf-8")
+  part=source[source.index("def page_hints("):source.index("def article_text_quality(")]
+  self.assertIn('if not article_text_quality(url,text):',part)
+  self.assertIn('blank_hints("unavailable","静的HTMLの記事本文を確認できず")',part)
+
 if __name__=="__main__":unittest.main()
