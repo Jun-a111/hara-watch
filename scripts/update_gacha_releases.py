@@ -233,7 +233,7 @@ def article_text_quality(url,text):
  core=text.split("関連情報",1)[0].split("Related Articles",1)[0]
  if len(core)<160:return False
  has_topic=any(word in core.lower() for word in cues)
- has_date=bool(DATE_RE.search(core) or re.search(r"\\d{1,2}月\\d{1,2}日",core))
+ has_date=bool(DATE_RE.search(core) or re.search(r"\d{1,2}月\d{1,2}日",core))
  return has_topic and has_date
 
 def rendered_hints(url):
