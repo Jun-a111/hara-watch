@@ -152,6 +152,7 @@ jobs:
           latest["status"]=collected.get("status",latest.get("status",{}))
           latest["updated_at"]=collected.get("updated_at",latest.get("updated_at"))
           p.write_text(json.dumps(latest,ensure_ascii=False,indent=2)+"\n",encoding="utf-8")
+          json.loads(p.read_text(encoding="utf-8"))  # Verify saved JSON before committing
           PY
             git add gacha-wars/release-candidates.json
             if git diff --cached --quiet; then
