@@ -55,7 +55,32 @@ if key and videos:
     except (OSError, ValueError, KeyError) as exc:
         status = "fetch_failed"
         print("YouTube stats unavailable:", type(exc).__name__, str(exc)[:120])
-records = sorted(records, key=lambda x: x.get("date", ""))[-3000:]
+# Preserve every valid historical observation. Never discard old snapshots
+# merely because the archive exceeded an arbitrary row limit.
+def valid(record):
+    return (
+        isinstance(record, dict)
+        and record.get("game") in games
+        and record.get("kind") == "sns"
+        and record.get("store") == "youtube"
+        and isinstance(record.get("video_id"), str)
+        and re.fullmatch(r"[A-Za-z0-9_-]{11}", record["video_id"])
+        and isinstance(record.get("date"), str)
+        and type(record.get("value")) is int
+        and record["value"] >= 0
+    )
+
+original_keys = {
+    (r["game"], r["video_id"], r["date"])
+    for r in previous.get("records", []) if valid(r)
+}
+dedup = {
+    (r["game"], r["video_id"], r["date"]): r
+    for r in records if valid(r)
+}
+if original_keys - dedup.keys():
+    raise RuntimeError("YouTube observation history would lose saved records")
+records = sorted(dedup.values(), key=lambda x: x["date"])
 output.write_text(json.dumps({
     "schema": "gacha-wars-youtube-v1", "updated_at": now,
     "status": status, "tracked_videos": len(videos), "records": records
