@@ -253,6 +253,20 @@ def rendered_hints(url):
      if article_text_quality(url,more):
       joined=more
       break
+   if not article_text_quality(url,joined) and urlparse(url).hostname=="wutheringwaves.kurogames.com":
+    # Prefer the actual news-detail container over the SPA's generic related-news sidebar.
+    # Validate the text before accepting it; selectors are hints, not proof.
+    detail_selectors=('[class*="newsDetail"]','[class*="news-detail"]','[class*="articleContent"]','[class*="article-content"]','[class*="detailContent"]','[class*="detail-content"]')
+    for selector in detail_selectors:
+     try:
+      candidates=page.locator(selector).all_inner_texts(timeout=1500)
+     except Exception:
+      continue
+     for candidate in candidates:
+      if article_text_quality(url,candidate):
+       joined=candidate
+       break
+     if article_text_quality(url,joined):break
    if not article_text_quality(url,joined):
     result=blank_hints("unavailable","記事本文を確認できず（共通ページの可能性）")
     result["body_error"]="本文の先頭: "+" ".join(joined[:220].split())
