@@ -1,11 +1,11 @@
 {
   "schema": "gacha-wars-release-candidates-v1",
-  "updated_at": "2026-10-09T23:26:13+00:00",
+  "updated_at": "2026-10-10T01:15:36+00:00",
   "status": {
     "ww": {
       "ok": true,
       "body_cached": 12,
-      "body_rendered": 2,
+      "body_rendered": 1,
       "body_errors": 0,
       "body_parsed": 12,
       "links_found": 16,
@@ -63,7 +63,7 @@
         "steam_fallback_error": ""
       },
       "seed_links": 4,
-      "checked_at": "2026-10-09T23:26:13+00:00"
+      "checked_at": "2026-10-10T01:15:36+00:00"
     },
     "end": {
       "ok": true,
@@ -81,7 +81,7 @@
         "api_pairs": 10,
         "dom_anchors": 6,
         "filtered": 5,
-        "json_responses_seen": 3,
+        "json_responses_seen": 5,
         "api_shapes": [
           [
             "code",
@@ -197,7 +197,7 @@
         "rejected": 11
       },
       "seed_links": 1,
-      "checked_at": "2026-10-09T23:26:13+00:00"
+      "checked_at": "2026-10-10T01:15:36+00:00"
     },
     "gi": {
       "ok": true,
@@ -220,7 +220,7 @@
         "rejected": 30
       },
       "seed_links": 3,
-      "checked_at": "2026-10-09T23:26:13+00:00"
+      "checked_at": "2026-10-10T01:15:36+00:00"
     },
     "hsr": {
       "ok": true,
@@ -236,14 +236,14 @@
       "browser_diagnostics": {
         "api_json": 0,
         "api_pairs": 0,
-        "dom_anchors": 26,
+        "dom_anchors": 27,
         "filtered": 1,
         "json_responses_seen": 0,
         "api_shapes": [],
-        "rejected": 25
+        "rejected": 26
       },
       "seed_links": 1,
-      "checked_at": "2026-10-09T23:26:13+00:00"
+      "checked_at": "2026-10-10T01:15:36+00:00"
     },
     "zzz": {
       "ok": true,
@@ -266,7 +266,7 @@
         "rejected": 51
       },
       "seed_links": 4,
-      "checked_at": "2026-10-09T23:26:13+00:00"
+      "checked_at": "2026-10-10T01:15:36+00:00"
     },
     "nte": {
       "ok": true,
@@ -289,7 +289,7 @@
         "rejected": 72
       },
       "seed_links": 1,
-      "checked_at": "2026-10-09T23:26:13+00:00"
+      "checked_at": "2026-10-10T01:15:36+00:00"
     }
   },
   "candidates": [
@@ -297,7 +297,7 @@
       "game": "ww",
       "title": "Ver.3.7 配信開始のお知らせ",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -312,7 +312,7 @@
       "game": "ww",
       "title": "Ver.3.7 共鳴者・武器集音 第一期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -329,7 +329,7 @@
       "game": "ww",
       "title": "Ver.3.2 共鳴者・武器集音 第二期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4497",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-04-09",
@@ -360,7 +360,7 @@
       "game": "ww",
       "title": "共鳴者集音 明日へ焼き付ける記憶",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4887",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-06-13",
@@ -386,7 +386,7 @@
       "game": "gi",
       "title": "Luna V 前半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/162721",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -400,7 +400,7 @@
       "game": "gi",
       "title": "Luna V 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163094",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-03-17",
@@ -425,7 +425,7 @@
       "game": "gi",
       "title": "Luna VI 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163629",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-04-28",
@@ -450,7 +450,7 @@
       "game": "hsr",
       "title": "Ver.3.0「再創紀の凱歌」アップデートについて",
       "url": "https://hsr.hoyoverse.com/ja-jp/news/127987",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -464,7 +464,7 @@
       "game": "zzz",
       "title": "Ver.3.2期間限定チャンネル（後半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166475",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "second",
@@ -478,7 +478,7 @@
       "game": "zzz",
       "title": "Ver.3.2 予告番組・情報まとめ",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/165917",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -492,7 +492,7 @@
       "game": "zzz",
       "title": "Ver.2.6期間限定チャンネル（前半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/162496",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -506,7 +506,7 @@
       "game": "zzz",
       "title": "Ver.3.3予告番組のお知らせ",
       "url": "https://zenless.hoyoverse.com/m/ja-jp/news/166552",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -520,7 +520,7 @@
       "game": "end",
       "title": "特別スカウト「臨淵望北」",
       "url": "https://endfield.gryphline.com/ja-jp/news/2656",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -545,7 +545,7 @@
       "game": "nte",
       "title": "Ver.1.4「名もなき祈歌」アップデートのお知らせ Ver.1.4「名もなき祈歌」アップデートのお知らせ 2026-09-29 ニュース",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -559,7 +559,7 @@
       "game": "nte",
       "title": "NTE 正式サービス開始",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -573,7 +573,7 @@
       "game": "gi",
       "title": "Ver.7.1イベント祈願のお知らせ 第2期 イベント祈願でより多くのキャラクターや武器を手に入れ、強力なチームを組みましょう！",
       "url": "https://genshin.hoyoverse.com/ja/news/detail/166634",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-10-13",
@@ -600,7 +600,7 @@
       "game": "hsr",
       "title": "Ver.4.6「月立つ前に獣と踊れ」アップデートについて 暗闇にうごめく獣が再びその口を開き、生贄に一柱の神を求める。月が再び昇る前にその飢えと渇きを鎮められるのは、智者の血だけだ…… 2026/9/28",
       "url": "https://hsr.hoyoverse.com/ja-jp/news/166468",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-10-05",
@@ -643,7 +643,7 @@
       "game": "zzz",
       "title": "2026/09/30 ニュース 秘密と、過去と、彼女たちと｜Ver.3.2最新情報一覧（後半） プロキシの皆様、『ゼンレスゾーンゼロ』Ver.3.2がリリースされました！S級エージェント「ロクシー（風・撃破）」、「プロメイア（氷・異常）」、S級音動機「緋月の銀棺（撃破）」、「フロスト・クレセント（異常）」が期間限定チャンネルに登場します。",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166497",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "second",
@@ -657,7 +657,7 @@
       "game": "end",
       "title": "「雪氷の幽夢」 バージョンアップデートについて",
       "url": "https://endfield.gryphline.com/ja-jp/news/5208",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-09-02",
@@ -728,7 +728,7 @@
       "game": "end",
       "title": "『アークナイツ：エンドフィールド』バージョン「丹青渡」開発通信",
       "url": "https://endfield.gryphline.com/ja-jp/news/7014",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -742,7 +742,7 @@
       "game": "end",
       "title": "「丹青渡」新バージョン注目情報特設ページ公開説明",
       "url": "https://endfield.gryphline.com/ja-jp/news/5207",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -756,7 +756,7 @@
       "game": "end",
       "title": "Discordゲーム統計ウィジェット更新",
       "url": "https://endfield.gryphline.com/ja-jp/news/8995",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -770,7 +770,7 @@
       "game": "end",
       "title": "『アークナイツ：エンドフィールド』ゲームツールが更新",
       "url": "https://endfield.gryphline.com/ja-jp/news/9562",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -784,7 +784,7 @@
       "game": "ww",
       "title": "[Preview] Upcoming Client Update & Launcher Replacement on Steam",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498235453",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -798,7 +798,7 @@
       "game": "ww",
       "title": "New Content in Version 3.7: Prism's Illusion, Heart's Illumination",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1844751498235329",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -812,7 +812,7 @@
       "game": "ww",
       "title": "New Content in Version 3.6: Lamplight in Mirage, Sword's Resolve in Heart",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1841579228663631",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -826,7 +826,7 @@
       "game": "ww",
       "title": "New Content in Version 3.5: Blade of Past Resounds, Lingering Dream Hymns",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1836506165584478",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -840,7 +840,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 3.4: The Dream Not Dreamed",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1834602721196870",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -854,7 +854,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 3.2: Resolution to Illuminate the Shadows",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1827626365751305",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -868,7 +868,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 3.1: For You Who Walk in Snow",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1823825466494991",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -882,7 +882,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 3.0: We Who See the Stars",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1819386365107164",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -896,7 +896,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 2.8: To the City Set in Amber",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1816849002008951",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -910,7 +910,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 2.7: Dawn Breaks on Dark Tides",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1813041031225547",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -924,7 +924,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 2.5: Unfading Melody of Life",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1806064758586643",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -938,7 +938,7 @@
       "game": "ww",
       "title": "New Content in Wuthering Waves Version 2.4 \"Lightly We Toss the Crown\"",
       "url": "https://steamstore-a.akamaihd.net/news/externalpost/steam_community_announcements/1802261838724137",
-      "detected_at": "2026-10-09T23:26:13+00:00",
+      "detected_at": "2026-10-10T01:15:36+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
