@@ -38,6 +38,13 @@ class SiteTests(unittest.TestCase):
         self.assertIn('Androidの取得元が異なるため比較不可', duel)
         self.assertIn('同じ最新巡回の実測順位が揃っていないため比較不可', duel)
 
+    def test_character_search_controls_and_filter(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn('function changeCharacterSearch(value)', html)
+        self.assertIn('id="characterSearch"', html)
+        self.assertIn('characterSearch.toLocaleLowerCase()', html)
+        self.assertIn('changeCharacterSearch(&quot;&quot;)', html)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
