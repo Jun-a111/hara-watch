@@ -625,7 +625,7 @@ for game in ("ww","end","gi","hsr","zzz","nte"):
      if field in previous:item[field]=previous[field]
     item["refresh_error"]=detail.get("body_error") or detail.get("date_context","再取得失敗")
     item["refresh_checked_at"]=now
-    item["body_review_status"]="manual_review_required" if not previous.get("period_candidates") and not previous.get("character_candidates") else "stale_cached_body"
+    item["body_review_status"]="image_based_official_notice" if previous.get("body_review_status")=="image_based_official_notice" else ("manual_review_required" if not previous.get("period_candidates") and not previous.get("character_candidates") else "stale_cached_body")
     continue
    item.pop("refresh_error",None)
    item.pop("refresh_checked_at",None)
