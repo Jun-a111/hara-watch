@@ -45,6 +45,20 @@ class SiteTests(unittest.TestCase):
         self.assertIn('characterSearch.toLocaleLowerCase()', html)
         self.assertIn('changeCharacterSearch(&quot;&quot;)', html)
 
+    def test_anniversary_convenes_separate_from_normal_ranking(self):
+        events = self.read("release-events.json")["events"]
+        anniversary = [e for e in events if e.get("banner_type") == "anniversary_convene"]
+        self.assertGreaterEqual(len(anniversary), 10)
+        expected = {"first": 5, "second": 5}
+        for phase, count in expected.items():
+            self.assertGreaterEqual(sum(e["game"] == "ww" and
+                                        e["version_group"] == "Ver.2.3" and
+                                        e["phase"] == phase for e in anniversary), count)
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn('specialEvents=events.filter(e=>', html)
+        self.assertIn('"anniversary_convene"', html)
+        self.assertIn('周年記念・選択式★5', html)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
