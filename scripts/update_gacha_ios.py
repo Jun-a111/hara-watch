@@ -41,12 +41,15 @@ except (OSError, ValueError):
 # App Store IDs are normally shared across regions; observations from earlier
 # successful chart matches can help identify localized titles safely.
 KNOWN_IDS = {game: set(ids) for game, ids in OFFICIAL_APP_IDS.items()}
+REGIONAL_IDS = {market: {game: set() for game in ALIASES} for market in MARKETS}
 for record in past:
     if not isinstance(record, dict):
         continue
     game, app_id = record.get("game"), record.get("app_id")
     if game in ALIASES and app_id and str(app_id).isdigit():
         KNOWN_IDS.setdefault(game, set()).add(str(app_id))
+        if record.get("region") in REGIONAL_IDS:
+            REGIONAL_IDS[record["region"]][game].add(str(app_id))
 new = []
 status = {}
 for market in MARKETS:
@@ -77,6 +80,7 @@ for market in MARKETS:
                                 "chart_depth": len(entries), "app_id": app_id, "matched_by": "name" if matched_title else "verified_app_id"})
                     if app_id.isdigit():
                         KNOWN_IDS.setdefault(game, set()).add(app_id)
+                        REGIONAL_IDS[market][game].add(app_id)
                     matches.add(game)
         # App availability is distinct from placement on a revenue chart.
         # Look up all known storefront IDs in one request per region. Never
@@ -84,7 +88,7 @@ for market in MARKETS:
         lookup = {}
         try:
             from urllib.parse import urlencode
-            ids = sorted({aid for values in OFFICIAL_APP_IDS.values() for aid in values})
+            ids = sorted({aid for game in ALIASES for aid in (OFFICIAL_APP_IDS[game] | REGIONAL_IDS[market][game])})
             lookup_url = "https://itunes.apple.com/lookup?" + urlencode({
                 "id": ",".join(ids), "country": market, "entity": "software"})
             lookup_req = urllib.request.Request(lookup_url, headers={
@@ -95,12 +99,12 @@ for market in MARKETS:
             available_ids = {str(item.get("trackId")) for item in lookup_data.get("results", [])
                              if item.get("trackId") is not None}
             lookup = {"ok": True, "available": sorted(
-                game for game, ids in OFFICIAL_APP_IDS.items() if available_ids.intersection(ids)),
+                game for game, ids in OFFICIAL_APP_IDS.items() if available_ids.intersection(ids | REGIONAL_IDS[market][game])),
                 "not_listed": sorted(
                     game for game, ids in OFFICIAL_APP_IDS.items()
-                    if not available_ids.intersection(ids) and game not in matches),
+                    if not available_ids.intersection(ids | REGIONAL_IDS[market][game]) and game not in matches),
                 "alternate_region_id": sorted(
-                    game for game in matches if not available_ids.intersection(OFFICIAL_APP_IDS[game])),
+                    game for game in matches if not available_ids.intersection(OFFICIAL_APP_IDS[game] | REGIONAL_IDS[market][game])),
                 "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"}
         except (OSError, ValueError, TypeError, KeyError, json.JSONDecodeError) as exc:
             lookup = {"ok": False, "error": str(exc)[:150]}
