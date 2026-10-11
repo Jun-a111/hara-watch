@@ -5505,13 +5505,13 @@
       "type": "character",
       "version": "デニア",
       "date": "2026-05-21",
-      "source_url": "https://oldstorepubg.com/en/blog/wuthering-waves-banner-schedule-history",
-      "source_title": "過去ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4691",
+      "source_title": "鳴潮公式 Ver.3.3後半 共鳴者集音告知（2026年5月20日）",
       "phase": "second",
       "version_group": "Ver.3.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代開催履歴から採録。個別公式告知の突合せは未完了"
+      "verification": "official",
+      "review_note": "公式告知本文に5月21日10:00開始の星5対象としてDenia、Chisa、Phrolovaが明記。以前登録のフルールドリス復刻は誤りで、フローヴァ復刻へ修正。"
     },
     {
       "id": "history-ww-2026-05-21-394",
@@ -5519,27 +5519,27 @@
       "type": "character",
       "version": "千咲（復刻）",
       "date": "2026-05-21",
-      "source_url": "https://oldstorepubg.com/en/blog/wuthering-waves-banner-schedule-history",
-      "source_title": "過去ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4691",
+      "source_title": "鳴潮公式 Ver.3.3後半 共鳴者集音告知（2026年5月20日）",
       "phase": "second",
       "version_group": "Ver.3.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代開催履歴から採録。個別公式告知の突合せは未完了"
+      "verification": "official",
+      "review_note": "公式告知本文に5月21日10:00開始の星5対象としてDenia、Chisa、Phrolovaが明記。以前登録のフルールドリス復刻は誤りで、フローヴァ復刻へ修正。"
     },
     {
       "id": "history-ww-2026-05-21-395",
       "game": "ww",
       "type": "character",
-      "version": "フルールドリス（復刻）",
+      "version": "フローヴァ（復刻）",
       "date": "2026-05-21",
-      "source_url": "https://oldstorepubg.com/en/blog/wuthering-waves-banner-schedule-history",
-      "source_title": "過去ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4691",
+      "source_title": "鳴潮公式 Ver.3.3後半 共鳴者集音告知（2026年5月20日）",
       "phase": "second",
       "version_group": "Ver.3.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代開催履歴から採録。個別公式告知の突合せは未完了"
+      "verification": "official",
+      "review_note": "公式告知本文に5月21日10:00開始の星5対象としてDenia、Chisa、Phrolovaが明記。以前登録のフルールドリス復刻は誤りで、フローヴァ復刻へ修正。"
     },
     {
       "id": "history-zzz-2026-03-24-396",
