@@ -67,6 +67,12 @@ class SiteTests(unittest.TestCase):
         self.assertIn('ranked.slice(0,characterPage*50+i+1)', html)
         self.assertIn("+'</tbody></table></div>'+pager+'</section>'", html)
 
+    def test_character_rank_requires_full_14_day_observation(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn("complete:after&&possible>=14&&daily.size===14", html)
+        self.assertIn('e.schedule_status!=="announced"', html)
+        self.assertIn('const scheduledEvents=events.filter(e=>e.schedule_status==="announced")', html)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
