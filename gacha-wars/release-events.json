@@ -6777,15 +6777,15 @@
       "id": "history-hsr-2026-08-26-484",
       "game": "hsr",
       "type": "character",
-      "version": "ロビン・サマレット",
+      "version": "ロビン・夏空の歌",
       "date": "2026-08-26",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000441.000096124.html",
+      "source_title": "COGNOSPHERE 公式Ver.4.5/4.6 イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式Ver.4.5更新告知に8月26日開始の限定星5ロビン・夏空の歌を明記。英語仮称だった登録名を日本語公式名へ修正。"
     },
     {
       "id": "history-hsr-2026-08-26-485",
@@ -6793,41 +6793,41 @@
       "type": "character",
       "version": "ヒアンシー（復刻）",
       "date": "2026-08-26",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000441.000096124.html",
+      "source_title": "COGNOSPHERE 公式Ver.4.5/4.6 イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式Ver.4.5告知に8月26日からのヒアンシー復刻跳躍『晨昏を穿つ虹』を明記。"
     },
     {
       "id": "history-hsr-2026-09-12-486",
       "game": "hsr",
       "type": "character",
-      "version": "アベンチュリン・ウェーブフレア",
+      "version": "アベンチュリン・波と戯れる夏",
       "date": "2026-09-12",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000444.000096124.html",
+      "source_title": "COGNOSPHERE 公式Ver.4.5/4.6 イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式告知に9月12日開始のアベンチュリン・波と戯れる夏（黄金の波しぶき）を明記。英語仮称を日本語公式名へ修正。"
     },
     {
       "id": "history-hsr-2026-09-12-487",
       "game": "hsr",
       "type": "character",
-      "version": "アッシュベール（復刻）",
+      "version": "不死途（復刻）",
       "date": "2026-09-12",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000444.000096124.html",
+      "source_title": "COGNOSPHERE 公式Ver.4.5/4.6 イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式告知に9月12日開始の不死途復刻跳躍『影の夜狩』を明記。英語名Ashveilの仮表記を日本語公式名へ修正。"
     },
     {
       "id": "history-hsr-2026-09-28-488",
@@ -6835,13 +6835,13 @@
       "type": "character",
       "version": "パール",
       "date": "2026-09-28",
-      "source_url": "https://www.itechguides.com/honkai-star-rail-banner-schedule-current-and-upcoming-warps/",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000451.000096124.html",
+      "source_title": "COGNOSPHERE 公式Ver.4.5/4.6 イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式Ver.4.6更新告知で9月28日からパールのイベント跳躍『海より出づる真珠』開始を確認。"
     },
     {
       "id": "history-hsr-2026-09-28-489",
@@ -6849,13 +6849,13 @@
       "type": "character",
       "version": "緋英（復刻）",
       "date": "2026-09-28",
-      "source_url": "https://www.itechguides.com/honkai-star-rail-banner-schedule-current-and-upcoming-warps/",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000451.000096124.html",
+      "source_title": "COGNOSPHERE 公式Ver.4.5/4.6 イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式Ver.4.6更新告知で9月28日から緋英復刻跳躍『花盛りの裁き手』開始を確認。"
     },
     {
       "id": "history-ww-2026-08-20-490",
