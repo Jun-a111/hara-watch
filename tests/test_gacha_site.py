@@ -296,6 +296,15 @@ assert.equal(periodStats("ww",start,true).days,1);
         self.assertIn("開催予定 '+scheduledEvents.length+'件", html)
         self.assertIn('e.schedule_status!=="announced"&&[', html)
 
+    def test_phase_battles_exclude_scheduled_and_special_banners(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function phaseBattles()")
+        end = html.index("function ", start + len("function phaseBattles()"))
+        phase = html[start:end]
+        self.assertIn('e.schedule_status!=="announced"', phase)
+        self.assertIn('!specialTypes.includes(e.banner_type)', phase)
+        self.assertIn('"anniversary_convene","special_rerun"', phase)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
