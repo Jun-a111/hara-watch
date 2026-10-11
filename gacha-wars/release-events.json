@@ -7501,6 +7501,21 @@
       "source_title": "Endfield Hub・Ver.1.6 RE-Factorガチャ予定",
       "verification": "secondary",
       "review_note": "RE-Factor特別復刻として掲載。開催前の予定で通常限定ガチャとは別枠"
+    },
+    {
+      "id": "scheduled-end-1.6-argent-flow",
+      "game": "end",
+      "type": "character",
+      "version": "Argent Flow",
+      "date": "2026-11-05",
+      "phase": "second",
+      "version_group": "Ver.1.6",
+      "event_kind": "debut",
+      "schedule_status": "announced",
+      "source_url": "https://endfieldhub.org/blog/sanctuary-of-ink-recap-endfield-1-6-banners-and-dates",
+      "source_title": "Endfield Hub・Ver.1.6公式配信内容まとめ",
+      "verification": "secondary",
+      "review_note": "11月5日開始の外部報道による予定。正式な個別ガチャ告知は未確認"
     }
   ]
 }
