@@ -225,13 +225,13 @@
       "type": "character",
       "version": "今汐",
       "date": "2024-06-28",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Event/History/Version_1",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/version-1-1-thaw-of-eons-patch-notes/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "Ver.1.1公式パッチノートの転載で6/28更新・Jinhsi新実装を確認"
     },
     {
       "id": "history-ww-2024-07-22-3",
@@ -239,13 +239,13 @@
       "type": "character",
       "version": "長離",
       "date": "2024-07-22",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Event/History/Version_1",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/vermillions-ploy-featured-resonator-convene-boosted-drop-rate-for-changli/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にChangli、7/22 10:00開始と明記"
     },
     {
       "id": "history-gi-2020-09-28-4",
@@ -617,13 +617,13 @@
       "type": "character",
       "version": "折枝",
       "date": "2024-08-15",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Convene/List",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/version-1-2-in-the-turquoise-moonglow-patch-notes-4/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.1.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "Ver.1.2公式パッチノート転載に8/15更新・Zhezhi初登場を明記"
     },
     {
       "id": "historical-ww-2024-09-07-45",
@@ -631,13 +631,13 @@
       "type": "character",
       "version": "相里要",
       "date": "2024-09-07",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Convene/List",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/celestial-revelation-featured-resonator-convene-boosted-drop-rate-for-xiangli-yao/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.1.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にXiangli Yao、9/7 10:00開始と明記"
     },
     {
       "id": "historical-ww-2024-09-29-46",
@@ -645,13 +645,13 @@
       "type": "character",
       "version": "ショアキーパー",
       "date": "2024-09-29",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Convene/List",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/wuthering-waves-version-1-3-update-maintenance-notice-2/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.1.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "Ver.1.3公式メンテナンス告知転載に9/29更新・Shorekeeper集音開始を記載"
     },
     {
       "id": "historical-ww-2024-10-24-47",
@@ -659,13 +659,13 @@
       "type": "character",
       "version": "忌炎（復刻）",
       "date": "2024-10-24",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Convene/List",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/prevail-the-lasting-night-featured-resonator-convene-boosted-drop-rate-for-jiyan-3/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.1.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にJiyan復刻・10/24 10:00開始と明記"
     },
     {
       "id": "historical-ww-2024-11-14-48",
@@ -673,13 +673,13 @@
       "type": "character",
       "version": "ツバキ",
       "date": "2024-11-14",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Convene/List",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/version-1-4-when-the-night-knocks-patch-notes-2/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.1.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "Ver.1.4公式パッチノート転載に11/14更新・Camellya新実装を記載"
     },
     {
       "id": "historical-ww-2024-12-12-49",
@@ -687,13 +687,13 @@
       "type": "character",
       "version": "吟霖（復刻）",
       "date": "2024-12-12",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Convene/List",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/when-thunder-pours-featured-resonator-convene-boosted-drop-rate-for-yinlin-2/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.1.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にYinlin復刻・12/12 10:00開始と明記"
     },
     {
       "id": "historical-ww-2024-12-12-50",
@@ -701,13 +701,13 @@
       "type": "character",
       "version": "相里要（復刻）",
       "date": "2024-12-12",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Convene/List",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/39/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.1.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にXiangli Yao復刻・12/12 10:00開始と明記"
     },
     {
       "id": "historical-ww-2025-01-02-51",
@@ -729,13 +729,13 @@
       "type": "character",
       "version": "折枝（復刻）",
       "date": "2025-01-02",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/version-2-0-all-silent-souls-can-sing-patch-notes/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.2.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "Ver.2.0公式パッチノートと同バージョンZhezhi復刻集音告知を照合。1/2更新開始"
     },
     {
       "id": "historical-ww-2025-01-23-53",
@@ -743,13 +743,13 @@
       "type": "character",
       "version": "ロココ",
       "date": "2025-01-23",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/39/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にRoccia・1/23 10:00開始と明記"
     },
     {
       "id": "historical-ww-2025-01-23-54",
@@ -757,13 +757,13 @@
       "type": "character",
       "version": "今汐（復刻）",
       "date": "2025-01-23",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/39/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にJinhsi復刻・1/23 10:00開始と明記"
     },
     {
       "id": "historical-ww-2025-02-13-55",
@@ -799,13 +799,13 @@
       "type": "character",
       "version": "長離（復刻）",
       "date": "2025-03-06",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/vermillions-ploy-featured-resonator-convene-boosted-drop-rate-for-changli-3/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.1",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式集音告知転載にChangli復刻・3/6 10:00開始と明記"
     },
     {
       "id": "historical-gi-2020-12-23-58",
@@ -1235,13 +1235,13 @@
       "type": "character",
       "version": "ツバキ（復刻）",
       "date": "2025-03-27",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/21/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.2.2",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式集音告知転載にCamellya復刻・Ver.2.2更新から4/17 09:59までと明記。Ver.2.2更新日は3/27"
     },
     {
       "id": "history-ww-2025-04-17-89",
@@ -1249,13 +1249,13 @@
       "type": "character",
       "version": "ショアキーパー（復刻）",
       "date": "2025-04-17",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/till-the-sea-turns-clear-featured-resonator-convene-boosted-drop-rate-for-shorekeeper-3/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.2",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式集音告知転載にShorekeeper復刻・4/17 10:00開始と明記"
     },
     {
       "id": "history-ww-2025-04-29-90",
@@ -1263,13 +1263,13 @@
       "type": "character",
       "version": "ザンニー",
       "date": "2025-04-29",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/version-2-3-fiery-arpeggio-of-summer-reunion-patch-notes/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.2.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "Ver.2.3公式パッチノート転載に4/29更新・Zani実装を明記"
     },
     {
       "id": "history-ww-2025-05-22-91",
@@ -1277,13 +1277,13 @@
       "type": "character",
       "version": "シャコンヌ",
       "date": "2025-05-22",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/through-verses-and-rhythms-featured-resonator-convene-boosted-drop-rate-for-ciaccona/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式集音告知転載にCiaccona・5/22 10:00開始と明記"
     },
     {
       "id": "history-ww-2025-06-12-92",
@@ -1291,13 +1291,13 @@
       "type": "character",
       "version": "カルテジア",
       "date": "2025-06-12",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/patch-notes-for-version-2-4-lightly-we-toss-the-crown/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.2.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "Ver.2.4公式パッチノート転載に6/12更新・Cartethyia実装を記載"
     },
     {
       "id": "history-ww-2025-07-03-93",
@@ -1305,27 +1305,27 @@
       "type": "character",
       "version": "ルパ",
       "date": "2025-07-03",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/roar-of-triumph-featured-resonator-convene-boosted-drop-rate-for-lupa/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式集音告知転載にLupa・7/3 10:00開始と明記"
     },
     {
       "id": "history-ww-2025-07-24-94",
       "game": "ww",
       "type": "character",
-      "version": "フルールドリス",
+      "version": "フローヴァ",
       "date": "2025-07-24",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/patch-notes-for-version-2-5-unfading-melody-of-life/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "Ver.2.5公式パッチノート転載に7/24更新・Phrolova実装を記載。誤記フルールドリスは別キャラクターの別名のためフローヴァに修正"
     },
     {
       "id": "history-ww-2025-07-24-95",
@@ -1333,13 +1333,13 @@
       "type": "character",
       "version": "ロココ（復刻）",
       "date": "2025-07-24",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "KURO GAMES公式ニュース一覧",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式ニュース一覧に7/23付Roccia集音告知・7/24のVer.2.5更新日を確認"
     },
     {
       "id": "history-ww-2025-08-14-96",
@@ -1347,13 +1347,13 @@
       "type": "character",
       "version": "カンタレラ（復刻）",
       "date": "2025-08-14",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/neptunes-lullaby-featured-resonator-convene-boosted-drop-rate-for-cantarella-5/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式集音告知転載にCantarella復刻・8/14 10:00開始と明記"
     },
     {
       "id": "history-ww-2025-08-14-97",
@@ -1361,13 +1361,13 @@
       "type": "character",
       "version": "ブラント（復刻）",
       "date": "2025-08-14",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/blaze-across-the-deep-featured-resonator-convene-boosted-drop-rate-for-brant-5/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式集音告知転載にBrant復刻・8/14 10:00開始と明記"
     },
     {
       "id": "history-ww-2025-08-28-98",
@@ -1375,13 +1375,13 @@
       "type": "character",
       "version": "オーガスタ",
       "date": "2025-08-28",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/eternal-radiance-on-the-crown-featured-resonator-convene-boosted-drop-rate-for-augusta/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "first",
       "version_group": "Ver.2.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "Ver.2.6公式パッチノートと公式集音告知転載に8/28更新・Augusta実装を記載"
     },
     {
       "id": "history-ww-2025-08-28-99",
@@ -1389,13 +1389,13 @@
       "type": "character",
       "version": "カルロッタ（復刻）",
       "date": "2025-08-28",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "KURO GAMES公式ニュース一覧",
       "phase": "first",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式ニュース一覧に8/27付Carlotta集音告知とVer.2.6開始日8/28を確認"
     },
     {
       "id": "history-ww-2025-09-17-100",
@@ -1403,13 +1403,13 @@
       "type": "character",
       "version": "ユーノ",
       "date": "2025-09-17",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.gg/across-times-waxes-and-wanes-featured-resonator-convene-boosted-drop-rate-for-iuno/",
+      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.2.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式集音告知転載にIuno・9/17 10:00開始と明記"
     },
     {
       "id": "history-ww-2025-09-17-101",
@@ -1417,13 +1417,13 @@
       "type": "character",
       "version": "シャコンヌ（復刻）",
       "date": "2025-09-17",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "KURO GAMES公式ニュース一覧",
       "phase": "second",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式ニュース一覧に9/16付Ciaccona集音告知、同日付Iuno集音告知に9/17開始の明記"
     },
     {
       "id": "history-hsr-2023-11-15-102",
@@ -1723,7 +1723,7 @@
       "id": "history-ww-2025-12-11-123",
       "game": "ww",
       "type": "character",
-      "version": "フルールドリス（復刻）",
+      "version": "フローヴァ（復刻）",
       "date": "2025-12-11",
       "source_url": "https://game8.co/games/Wuthering-Waves/archives/494979",
       "source_title": "歴代ガチャ開催履歴",
@@ -1731,7 +1731,7 @@
       "version_group": "Ver.2.8",
       "event_kind": "rerun",
       "verification": "secondary",
-      "review_note": "歴代ピックアップ開催記録を参照。公式告知との個別照合は未完了"
+      "review_note": "歴代ピックアップ開催記録を参照。公式告知との個別照合は未完了。キャラクター名の誤りを訂正：フルールドリスはカルテジアの別名、Phrolovaはフローヴァ。復刻開催日の直接公式照合は未完了。"
     },
     {
       "id": "history-ww-2025-12-11-124",
@@ -7274,10 +7274,10 @@
       "phase": "first",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "source_url": "https://www.4gamer.net/games/634/G063420/20250828059/",
-      "source_title": "4Gamer 2025年8月28日・Ver.2.6復刻告知",
-      "verification": "secondary",
-      "review_note": "2025年8月28日付の報道およびガチャ履歴で開催日と復刻を照合。公式個別告知での検証は未実施"
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "KURO GAMES公式ニュース一覧",
+      "verification": "official",
+      "review_note": "公式ニュース一覧に8/27付Shorekeeper集音告知とVer.2.6開始日8/28を確認"
     },
     {
       "id": "audit-ww-2026-07-10-1",
