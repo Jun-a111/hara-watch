@@ -6177,13 +6177,13 @@
       "type": "character",
       "version": "帰忘の流離人（復刻）",
       "date": "2026-01-07",
-      "source_url": "https://news.spotlightnews.us/articles/next-and-current-banners-in-honkai-star-rail",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000377.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.8",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/1/7公式発表に帰忘の流離人・霊砂の復刻と同日開催を記載。"
     },
     {
       "id": "history-hsr-2026-01-07-442",
@@ -6191,13 +6191,13 @@
       "type": "character",
       "version": "霊砂（復刻）",
       "date": "2026-01-07",
-      "source_url": "https://news.spotlightnews.us/articles/next-and-current-banners-in-honkai-star-rail",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000377.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.8",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/1/7公式発表に帰忘の流離人・霊砂の復刻と同日開催を記載。"
     },
     {
       "id": "history-hsr-2026-01-28-443",
@@ -6205,13 +6205,13 @@
       "type": "character",
       "version": "アグライア（復刻）",
       "date": "2026-01-28",
-      "source_url": "https://news.spotlightnews.us/articles/next-and-current-banners-in-honkai-star-rail",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000380.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.8",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/1/28公式発表にアグライア・サンデー復刻と同日開催を記載。"
     },
     {
       "id": "history-hsr-2026-01-28-444",
@@ -6219,13 +6219,13 @@
       "type": "character",
       "version": "サンデー（復刻）",
       "date": "2026-01-28",
-      "source_url": "https://news.spotlightnews.us/articles/next-and-current-banners-in-honkai-star-rail",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000380.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.8",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/1/28公式発表にアグライア・サンデー復刻と同日開催を記載。"
     },
     {
       "id": "history-ww-2026-06-08-445",
@@ -6679,15 +6679,15 @@
       "id": "history-hsr-2026-07-15-477",
       "game": "hsr",
       "type": "character",
-      "version": "姫子・ノヴァ",
+      "version": "姫子・旅立ち",
       "date": "2026-07-15",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/7/15公式発表に姫子・旅立ち初登場、火花・丹恒・騰荒・長夜月の復刻と開始日を明記。旧登録『姫子・ノヴァ』は公式日本語名『姫子・旅立ち』に訂正。"
     },
     {
       "id": "history-hsr-2026-07-15-478",
@@ -6695,13 +6695,13 @@
       "type": "character",
       "version": "火花（復刻）",
       "date": "2026-07-15",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/7/15公式発表に姫子・旅立ち初登場、火花・丹恒・騰荒・長夜月の復刻と開始日を明記。旧登録『姫子・ノヴァ』は公式日本語名『姫子・旅立ち』に訂正。"
     },
     {
       "id": "history-hsr-2026-07-15-479",
@@ -6709,13 +6709,13 @@
       "type": "character",
       "version": "丹恒・騰荒（復刻）",
       "date": "2026-07-15",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/7/15公式発表に姫子・旅立ち初登場、火花・丹恒・騰荒・長夜月の復刻と開始日を明記。旧登録『姫子・ノヴァ』は公式日本語名『姫子・旅立ち』に訂正。"
     },
     {
       "id": "history-hsr-2026-07-15-480",
@@ -6723,13 +6723,13 @@
       "type": "character",
       "version": "長夜月（復刻）",
       "date": "2026-07-15",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/7/15公式発表に姫子・旅立ち初登場、火花・丹恒・騰荒・長夜月の復刻と開始日を明記。旧登録『姫子・ノヴァ』は公式日本語名『姫子・旅立ち』に訂正。"
     },
     {
       "id": "history-hsr-2026-08-05-481",
@@ -6737,13 +6737,13 @@
       "type": "character",
       "version": "ケリュドラ（復刻）",
       "date": "2026-08-05",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000433.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/8/5公式発表にケリュドラ・アナイクス・アベンチュリン復刻と同日開催を明記。"
     },
     {
       "id": "history-hsr-2026-08-05-482",
@@ -6751,13 +6751,13 @@
       "type": "character",
       "version": "アナイクス（復刻）",
       "date": "2026-08-05",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000433.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/8/5公式発表にケリュドラ・アナイクス・アベンチュリン復刻と同日開催を明記。"
     },
     {
       "id": "history-hsr-2026-08-05-483",
@@ -6765,13 +6765,13 @@
       "type": "character",
       "version": "アベンチュリン（復刻）",
       "date": "2026-08-05",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000433.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE 2026/8/5公式発表にケリュドラ・アナイクス・アベンチュリン復刻と同日開催を明記。"
     },
     {
       "id": "history-hsr-2026-08-26-484",
