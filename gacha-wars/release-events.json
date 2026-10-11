@@ -477,13 +477,13 @@
       "type": "character",
       "version": "青衣",
       "date": "2024-08-14",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.gg/version-1-1-undercover-rb-update-details/",
+      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
       "phase": "first",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverse Ver.1.1更新内容の転載で青衣を新S級エージェントとして確認、8月14日の更新日を照合。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2024-09-04-21",
@@ -491,13 +491,13 @@
       "type": "character",
       "version": "ジェーン",
       "date": "2024-09-04",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/125645",
+      "source_title": "HoYoverse公式サイト",
       "phase": "second",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverse公式のNo Match Found集音詳細にジェーン、9月4日12:00開始と明記。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2024-09-25-22",
@@ -505,13 +505,13 @@
       "type": "character",
       "version": "シーザー",
       "date": "2024-09-25",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.hoyoverse.com/id-id/news/126054",
+      "source_title": "HoYoverse公式サイト",
       "phase": "first",
       "version_group": "Ver.1.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverse公式Ver.1.2更新詳細（インドネシア語）に9月25日更新とシーザー限定S級追加を明記。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2024-10-16-23",
@@ -519,13 +519,13 @@
       "type": "character",
       "version": "バーニス",
       "date": "2024-10-16",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.gg/born-to-burn-channel-details/",
+      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
       "phase": "second",
       "version_group": "Ver.1.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverseのBorn to Burn集音告知転載にバーニス、10月16日12:00開始を明記。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2024-11-06-24",
@@ -533,13 +533,13 @@
       "type": "character",
       "version": "柳",
       "date": "2024-11-06",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.gg/moonlit-serenity-signal-search-details/",
+      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
       "phase": "first",
       "version_group": "Ver.1.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverseのMoonlit Serenity集音告知転載で柳がVer.1.3更新時から登場、11月6日更新は公式Ver.1.3特番告知と照合。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2024-11-27-25",
@@ -547,13 +547,13 @@
       "type": "character",
       "version": "ライト",
       "date": "2024-11-27",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.gg/champion-of-embers-signal-search-details/",
+      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
       "phase": "second",
       "version_group": "Ver.1.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverseのChampion of Embers集音告知転載にライト、11月27日12:00開始と明記。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2024-12-18-26",
@@ -561,13 +561,13 @@
       "type": "character",
       "version": "雅",
       "date": "2024-12-18",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/127322",
+      "source_title": "HoYoverse公式サイト",
       "phase": "first",
       "version_group": "Ver.1.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverse公式Ver.1.4告知に12月18日更新、雅が限定チャンネルに追加と明記。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2024-12-18-27",
@@ -575,13 +575,13 @@
       "type": "character",
       "version": "悠真",
       "date": "2024-12-18",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/127322",
+      "source_title": "HoYoverse公式サイト",
       "phase": "first",
       "version_group": "Ver.1.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "HoYoverse公式Ver.1.4告知に12月18日更新、悠真が限定チャンネルに追加・無料配布と明記。照合日2026-10-12。"
     },
     {
       "id": "history-zzz-2025-01-22-28",
