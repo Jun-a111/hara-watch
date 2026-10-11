@@ -131,7 +131,7 @@ function eventSource(ev){const url=typeof ev.source_url==="string"&&/^https:\/\/
 function eventKindLabel(e){return e.event_kind==="debut"?"初実装":e.event_kind==="rerun"?"復刻":e.event_kind==="featured_banner"?"ピックアップ開始":e.type==="character"?"キャラ登場（区分未確認）":"バージョン更新"}
 function eventVerification(e){return e.published?(e.verification==="official"?"内容照合済":e.verification==="secondary"?"外部資料・要確認":"内容未照合"):"手動登録・要確認"}
 function reliableEvent(e){return e.published&&e.verification==="official"}
-function eventTiming(e){const today=new Date(Date.now()+9*3600000).toISOString().slice(0,10);return e.date>today?"実装予定":"実装日到来"}
+function eventTiming(e){const today=new Date(Date.now()+9*3600000).toISOString().slice(0,10);if(e.schedule_status==="announced")return e.date<today?"予定日経過・実施未確認":e.verification==="official"?"公式発表の予定":"外部資料の予定・未確定";return e.date>today?"実装予定":"実装日到来"}
 function phaseLabel(e){return e.phase==="first"?"前半":e.phase==="second"?"後半":"未設定"}
 function removeUpdate(id){updateEvents=updateEvents.filter(x=>x.id!==id);localStorage.setItem("gw-updates-v1",JSON.stringify(updateEvents));render()}
 function observationDay(r){const raw=String(r.date||"");if(/^\d{4}-\d{2}-\d{2}$/.test(raw))return raw;const t=Date.parse(raw);return Number.isFinite(t)?new Date(t+9*3600000).toISOString().slice(0,10):""}
