@@ -87,6 +87,13 @@ class SiteTests(unittest.TestCase):
         self.assertIn("t>=max||t>current", period)
         self.assertIn("complete:after&&possible>=14&&daily.size===14", period)
 
+    def test_phase_trend_rejects_future_observations(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function phaseTrend(")
+        end = html.index("function phaseBattles(", start)
+        phase = html[start:end]
+        self.assertIn("Number.isFinite(t)&&t<=today&&i>=0&&i<14", phase)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
