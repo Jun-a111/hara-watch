@@ -567,6 +567,13 @@ assert.deepEqual(recs("ww","rank").map(x=>x.value),[7]);
             subprocess.run(["node", str(p)], check=True,
                            capture_output=True, text=True)
 
+    def test_release_calendar_discloses_source_coverage(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        calendar = html[html.index("function releaseCalendar("):
+                        html.index("function eventTiming(")]
+        self.assertIn('publishedEvents.filter(e=>e.verification==="official").length', calendar)
+        self.assertIn("外部資料は公式確定情報ではありません", calendar)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
