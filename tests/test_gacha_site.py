@@ -277,6 +277,18 @@ assert.equal(periodStats("ww",start,true).days,1);
         for e in scheduled:
             self.assertIn(e["verification"], {"official", "secondary", "unreviewed"})
 
+    def test_ww_35_phase_two_start_date(self):
+        events = self.read("release-events.json")["events"]
+        expected = ("スイスイ", "エイメス（復刻）")
+        for name in expected:
+            rows = [e for e in events if e["game"] == "ww"
+                    and e.get("version_group") == "Ver.3.5"
+                    and e["version"] == name]
+            self.assertEqual(len(rows), 1)
+            self.assertEqual(rows[0]["date"], "2026-07-30")
+            self.assertEqual(rows[0]["phase"], "second")
+            self.assertEqual(rows[0]["verification"], "official")
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
