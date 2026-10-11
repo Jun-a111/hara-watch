@@ -361,7 +361,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         start = html.index("function updates(){")
         end = html.index("function ", start + len("function updates(){"))
         section = html[start:end]
-        self.assertIn('filter(ev=>ev.schedule_status!=="announced")', section)
+        self.assertIn('ev.schedule_status!=="announced"&&!specialTypes.includes(ev.banner_type)', section)
         self.assertIn("14日分すべての順位観測が揃った場合", html)
 
     def test_update_verdict_requires_full_21_day_coverage(self):
