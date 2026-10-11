@@ -1,0 +1,1025 @@
+{
+  "review_date": "2026-10-12",
+  "game": "gi",
+  "scope": "101 Genshin character banner records verified via COGNOSPHERE publisher press releases or HoYoverse direct announcement; historical records retained with source URLs",
+  "total_verified_in_batch": 101,
+  "unique_source_urls": 47,
+  "year_counts": {
+    "2022": 16,
+    "2024": 16,
+    "2025": 43,
+    "2026": 26
+  },
+  "records": [
+    {
+      "id": "history-gi-2022-05-31-216",
+      "date": "2022-05-31",
+      "character": "夜蘭",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-05-31開始のイベント祈願で『夜蘭』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-05-31-217",
+      "date": "2022-05-31",
+      "character": "魈（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-05-31開始のイベント祈願で『魈』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-07-13-219",
+      "date": "2022-07-13",
+      "character": "楓原万葉（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-07-13開始のイベント祈願で『楓原万葉』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-07-13-220",
+      "date": "2022-07-13",
+      "character": "クレー（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-07-13開始のイベント祈願で『クレー』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-08-24-236",
+      "date": "2022-08-24",
+      "character": "ティナリ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-08-24開始のイベント祈願で『ティナリ』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-08-24-237",
+      "date": "2022-08-24",
+      "character": "鍾離（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-08-24開始のイベント祈願で『鍾離』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-09-28-240",
+      "date": "2022-09-28",
+      "character": "セノ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-09-28開始のイベント祈願で『セノ』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-09-28-241",
+      "date": "2022-09-28",
+      "character": "ウェンティ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-09-28開始のイベント祈願で『ウェンティ』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-11-02-244",
+      "date": "2022-11-02",
+      "character": "ナヒーダ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-11-02開始のイベント祈願で『ナヒーダ』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-11-02-245",
+      "date": "2022-11-02",
+      "character": "宵宮（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-11-02開始のイベント祈願で『宵宮』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-11-18-246",
+      "date": "2022-11-18",
+      "character": "八重神子（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104457",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
+      "review_note": "2022-11-18開始のイベント祈願で『八重神子』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-11-18-247",
+      "date": "2022-11-18",
+      "character": "タルタリヤ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104457",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
+      "review_note": "2022-11-18開始のイベント祈願で『タルタリヤ』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-12-07-248",
+      "date": "2022-12-07",
+      "character": "放浪者",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-12-07開始のイベント祈願で『放浪者』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-12-07-249",
+      "date": "2022-12-07",
+      "character": "荒瀧一斗（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
+      "review_note": "2022-12-07開始のイベント祈願で『荒瀧一斗』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-12-27-250",
+      "date": "2022-12-27",
+      "character": "雷電将軍（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104497",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
+      "review_note": "2022-12-27開始のイベント祈願で『雷電将軍』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2022-12-27-251",
+      "date": "2022-12-27",
+      "character": "神里綾人（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104497",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
+      "review_note": "2022-12-27開始のイベント祈願で『神里綾人』が星5対象と明記された運営発表の本文を照合。"
+    },
+    {
+      "id": "history-gi-2024-07-17-304",
+      "date": "2024-07-17",
+      "character": "ナヴィア（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000096124.html",
+      "source_title": "COGNOSPHERE 2024-07-17 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-07-17からの星5ピックアップ『ナヴィア』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-07-17-305",
+      "date": "2024-07-17",
+      "character": "ニィロウ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000096124.html",
+      "source_title": "COGNOSPHERE 2024-07-17 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-07-17からの星5ピックアップ『ニィロウ』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-08-06-306",
+      "date": "2024-08-06",
+      "character": "エミリエ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000096124.html",
+      "source_title": "COGNOSPHERE 2024-08-06 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-08-06からの星5ピックアップ『エミリエ』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-08-06-307",
+      "date": "2024-08-06",
+      "character": "夜蘭（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000096124.html",
+      "source_title": "COGNOSPHERE 2024-08-06 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-08-06からの星5ピックアップ『夜蘭』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-08-28-308",
+      "date": "2024-08-28",
+      "character": "ムアラニ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000240.000096124.html",
+      "source_title": "COGNOSPHERE 2024-08-28 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-08-28からの星5ピックアップ『ムアラニ』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-08-28-309",
+      "date": "2024-08-28",
+      "character": "楓原万葉（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000240.000096124.html",
+      "source_title": "COGNOSPHERE 2024-08-28 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-08-28からの星5ピックアップ『楓原万葉』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-09-17-310",
+      "date": "2024-09-17",
+      "character": "キィニチ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000245.000096124.html",
+      "source_title": "COGNOSPHERE 2024-09-17 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-09-17からの星5ピックアップ『キィニチ』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-09-17-311",
+      "date": "2024-09-17",
+      "character": "雷電将軍（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000245.000096124.html",
+      "source_title": "COGNOSPHERE 2024-09-17 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-09-17からの星5ピックアップ『雷電将軍』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-10-09-312",
+      "date": "2024-10-09",
+      "character": "シロネン",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000096124.html",
+      "source_title": "COGNOSPHERE 2024-10-09 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-10-09からの星5ピックアップ『シロネン』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-10-09-313",
+      "date": "2024-10-09",
+      "character": "千織（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000096124.html",
+      "source_title": "COGNOSPHERE 2024-10-09 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-10-09からの星5ピックアップ『千織』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-10-29-314",
+      "date": "2024-10-29",
+      "character": "ナヒーダ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000096124.html",
+      "source_title": "COGNOSPHERE 2024-10-29 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-10-29からの星5ピックアップ『ナヒーダ』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-10-29-315",
+      "date": "2024-10-29",
+      "character": "胡桃（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000096124.html",
+      "source_title": "COGNOSPHERE 2024-10-29 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-10-29からの星5ピックアップ『胡桃』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-11-20-316",
+      "date": "2024-11-20",
+      "character": "チャスカ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000264.000096124.html",
+      "source_title": "COGNOSPHERE 2024-11-20 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-11-20からの星5ピックアップ『チャスカ』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-11-20-317",
+      "date": "2024-11-20",
+      "character": "リネ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000264.000096124.html",
+      "source_title": "COGNOSPHERE 2024-11-20 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-11-20からの星5ピックアップ『リネ』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-12-10-318",
+      "date": "2024-12-10",
+      "character": "鍾離（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000270.000096124.html",
+      "source_title": "COGNOSPHERE 2024-12-10 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-12-10からの星5ピックアップ『鍾離』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2024-12-10-319",
+      "date": "2024-12-10",
+      "character": "ヌヴィレット（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000270.000096124.html",
+      "source_title": "COGNOSPHERE 2024-12-10 開催イベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2024-12-10からの星5ピックアップ『ヌヴィレット』と開催日を確認。"
+    },
+    {
+      "id": "history-gi-2025-01-01-320",
+      "date": "2025-01-01",
+      "character": "マーヴィカ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000275.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-01-01開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-01-01開始の星5ピックアップ対象『マーヴィカ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-01-01-321",
+      "date": "2025-01-01",
+      "character": "シトラリ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000275.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-01-01開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-01-01開始の星5ピックアップ対象『シトラリ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-01-21-322",
+      "date": "2025-01-21",
+      "character": "アルレッキーノ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-01-21開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-01-21開始の星5ピックアップ対象『アルレッキーノ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-01-21-323",
+      "date": "2025-01-21",
+      "character": "クロリンデ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-01-21開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-01-21開始の星5ピックアップ対象『クロリンデ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-02-12-324",
+      "date": "2025-02-12",
+      "character": "夢見月瑞希",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000290.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-02-12開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-02-12開始の星5ピックアップ対象『夢見月瑞希』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-02-12-325",
+      "date": "2025-02-12",
+      "character": "シグウィン（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000290.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-02-12開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-02-12開始の星5ピックアップ対象『シグウィン』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-03-04-326",
+      "date": "2025-03-04",
+      "character": "フリーナ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000295.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-03-04開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-03-04開始の星5ピックアップ対象『フリーナ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-03-04-327",
+      "date": "2025-03-04",
+      "character": "リオセスリ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000295.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-03-04開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-03-04開始の星5ピックアップ対象『リオセスリ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-03-26-328",
+      "date": "2025-03-26",
+      "character": "ヴァレサ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000301.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-03-26開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-03-26開始の星5ピックアップ対象『ヴァレサ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-03-26-329",
+      "date": "2025-03-26",
+      "character": "閑雲（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000301.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-03-26開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-03-26開始の星5ピックアップ対象『閑雲』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-04-15-330",
+      "date": "2025-04-15",
+      "character": "シロネン（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000304.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-04-15開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-04-15開始の星5ピックアップ対象『シロネン』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-04-15-331",
+      "date": "2025-04-15",
+      "character": "ウェンティ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000304.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-04-15開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-04-15開始の星5ピックアップ対象『ウェンティ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-05-07-332",
+      "date": "2025-05-07",
+      "character": "エスコフィエ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000310.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-05-07開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-05-07開始の星5ピックアップ対象『エスコフィエ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-05-07-333",
+      "date": "2025-05-07",
+      "character": "ナヴィア（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000310.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-05-07開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-05-07開始の星5ピックアップ対象『ナヴィア』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-05-27-334",
+      "date": "2025-05-27",
+      "character": "キィニチ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-05-27開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-05-27開始の星5ピックアップ対象『キィニチ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-05-27-335",
+      "date": "2025-05-27",
+      "character": "雷電将軍（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-05-27開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-05-27開始の星5ピックアップ対象『雷電将軍』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-06-18-336",
+      "date": "2025-06-18",
+      "character": "スカーク",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000323.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-06-18開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-06-18開始の星5ピックアップ対象『スカーク』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-06-18-337",
+      "date": "2025-06-18",
+      "character": "申鶴（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000323.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-06-18開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-06-18開始の星5ピックアップ対象『申鶴』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-07-08-338",
+      "date": "2025-07-08",
+      "character": "マーヴィカ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000327.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-07-08開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-07-08開始の星5ピックアップ対象『マーヴィカ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-07-08-339",
+      "date": "2025-07-08",
+      "character": "エミリエ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000327.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-07-08開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-07-08開始の星5ピックアップ対象『エミリエ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-07-30-340",
+      "date": "2025-07-30",
+      "character": "イネファ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000334.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-07-30開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-07-30開始の星5ピックアップ対象『イネファ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-07-30-341",
+      "date": "2025-07-30",
+      "character": "シトラリ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000334.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-07-30開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-07-30開始の星5ピックアップ対象『シトラリ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-08-19-342",
+      "date": "2025-08-19",
+      "character": "ムアラニ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000337.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-08-19開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-08-19開始の星5ピックアップ対象『ムアラニ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "history-gi-2025-08-19-343",
+      "date": "2025-08-19",
+      "character": "チャスカ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000337.000096124.html",
+      "source_title": "株式会社COGNOSPHERE プレスリリース：2025-08-19開催イベント祈願",
+      "review_note": "COGNOSPHEREが2025-08-19開始の星5ピックアップ対象『チャスカ』とイベント祈願開催日を発表。初登場・復刻区分は各キャラの初出履歴とも突合。"
+    },
+    {
+      "id": "historical-gi-2025-09-10-344",
+      "date": "2025-09-10",
+      "character": "ラウマ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-09-10に実施されたピックアップの対象キャララウマと開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-09-10-345",
+      "date": "2025-09-10",
+      "character": "ナヒーダ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-09-10に実施されたピックアップの対象キャラナヒーダ（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-1",
+      "date": "2025-09-10",
+      "character": "ディシア（集録祈願）",
+      "event_kind": "featured_banner",
+      "banner_type": "chronicled_wish",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 集録祈願『露と草の盃』公式告知",
+      "review_note": "COGNOSPHERE公式告知に集録祈願『露と草の盃』開催日と星5キャラ6名の個別名が明記。通常ピックアップの復刻ではなく集録祈願として維持。"
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-2",
+      "date": "2025-09-10",
+      "character": "アルハイゼン（集録祈願）",
+      "event_kind": "featured_banner",
+      "banner_type": "chronicled_wish",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 集録祈願『露と草の盃』公式告知",
+      "review_note": "COGNOSPHERE公式告知に集録祈願『露と草の盃』開催日と星5キャラ6名の個別名が明記。通常ピックアップの復刻ではなく集録祈願として維持。"
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-3",
+      "date": "2025-09-10",
+      "character": "放浪者（集録祈願）",
+      "event_kind": "featured_banner",
+      "banner_type": "chronicled_wish",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 集録祈願『露と草の盃』公式告知",
+      "review_note": "COGNOSPHERE公式告知に集録祈願『露と草の盃』開催日と星5キャラ6名の個別名が明記。通常ピックアップの復刻ではなく集録祈願として維持。"
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-4",
+      "date": "2025-09-10",
+      "character": "セノ（集録祈願）",
+      "event_kind": "featured_banner",
+      "banner_type": "chronicled_wish",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 集録祈願『露と草の盃』公式告知",
+      "review_note": "COGNOSPHERE公式告知に集録祈願『露と草の盃』開催日と星5キャラ6名の個別名が明記。通常ピックアップの復刻ではなく集録祈願として維持。"
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-5",
+      "date": "2025-09-10",
+      "character": "ニィロウ（集録祈願）",
+      "event_kind": "featured_banner",
+      "banner_type": "chronicled_wish",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 集録祈願『露と草の盃』公式告知",
+      "review_note": "COGNOSPHERE公式告知に集録祈願『露と草の盃』開催日と星5キャラ6名の個別名が明記。通常ピックアップの復刻ではなく集録祈願として維持。"
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-6",
+      "date": "2025-09-10",
+      "character": "ティナリ（集録祈願）",
+      "event_kind": "featured_banner",
+      "banner_type": "chronicled_wish",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-10 集録祈願『露と草の盃』公式告知",
+      "review_note": "COGNOSPHERE公式告知に集録祈願『露と草の盃』開催日と星5キャラ6名の個別名が明記。通常ピックアップの復刻ではなく集録祈願として維持。"
+    },
+    {
+      "id": "historical-gi-2025-09-30-346",
+      "date": "2025-09-30",
+      "character": "フリンズ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-30 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-09-30に実施されたピックアップの対象キャラフリンズと開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-09-30-347",
+      "date": "2025-09-30",
+      "character": "夜蘭（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-30 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-09-30に実施されたピックアップの対象キャラ夜蘭（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "history-gi-lunai-new_four_star-0",
+      "date": "2025-09-30",
+      "character": "アイノ",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "source_title": "COGNOSPHERE 2025-09-30 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-09-30に実施されたピックアップの対象キャラアイノと開催日を直接照合。星4ピックアップ扱い。"
+    },
+    {
+      "id": "historical-gi-2025-10-22-348",
+      "date": "2025-10-22",
+      "character": "ネフェル",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000356.000096124.html",
+      "source_title": "COGNOSPHERE 2025-10-22 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-10-22に実施されたピックアップの対象キャラネフェルと開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-10-22-349",
+      "date": "2025-10-22",
+      "character": "フリーナ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000356.000096124.html",
+      "source_title": "COGNOSPHERE 2025-10-22 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-10-22に実施されたピックアップの対象キャラフリーナ（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-11-11-350",
+      "date": "2025-11-11",
+      "character": "アルレッキーノ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000361.000096124.html",
+      "source_title": "COGNOSPHERE 2025-11-11 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-11-11に実施されたピックアップの対象キャラアルレッキーノ（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-11-11-351",
+      "date": "2025-11-11",
+      "character": "鍾離（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000361.000096124.html",
+      "source_title": "COGNOSPHERE 2025-11-11 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-11-11に実施されたピックアップの対象キャラ鍾離（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-12-03-352",
+      "date": "2025-12-03",
+      "character": "ドゥリン",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000366.000096124.html",
+      "source_title": "COGNOSPHERE 2025-12-03 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-12-03に実施されたピックアップの対象キャラドゥリンと開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-12-03-353",
+      "date": "2025-12-03",
+      "character": "ウェンティ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000366.000096124.html",
+      "source_title": "COGNOSPHERE 2025-12-03 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-12-03に実施されたピックアップの対象キャラウェンティ（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-12-23-354",
+      "date": "2025-12-23",
+      "character": "ヴァレサ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000371.000096124.html",
+      "source_title": "COGNOSPHERE 2025-12-23 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-12-23に実施されたピックアップの対象キャラヴァレサ（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2025-12-23-355",
+      "date": "2025-12-23",
+      "character": "シロネン（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000371.000096124.html",
+      "source_title": "COGNOSPHERE 2025-12-23 実施のイベント祈願発表",
+      "review_note": "COGNOSPHERE公式発表で2025-12-23に実施されたピックアップの対象キャラシロネン（復刻）と開催日を直接照合。"
+    },
+    {
+      "id": "historical-gi-2026-01-14-356",
+      "date": "2026-01-14",
+      "character": "コロンビーナ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-01-14のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-01-14当日のガチャ告知で対象星5『コロンビーナ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-01-14-357",
+      "date": "2026-01-14",
+      "character": "イネファ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-01-14のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-01-14当日のガチャ告知で対象星5『イネファ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-02-03-358",
+      "date": "2026-02-03",
+      "character": "茲白",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000382.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-03のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-02-03当日のガチャ告知で対象星5『茲白』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。 公式プレスリリースでは字形が「兹白」となっている。"
+    },
+    {
+      "id": "historical-gi-2026-02-03-359",
+      "date": "2026-02-03",
+      "character": "ヌヴィレット（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000382.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-03のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-02-03当日のガチャ告知で対象星5『ヌヴィレット』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-02-25-360",
+      "date": "2026-02-25",
+      "character": "ファルカ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-25のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-02-25当日のガチャ告知で対象星5『ファルカ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-02-25-361",
+      "date": "2026-02-25",
+      "character": "フリンズ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-25のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-02-25当日のガチャ告知で対象星5『フリンズ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-03-17-362",
+      "date": "2026-03-17",
+      "character": "スカーク（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000395.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-03-17のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-03-17当日のガチャ告知で対象星5『スカーク』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-03-17-363",
+      "date": "2026-03-17",
+      "character": "エスコフィエ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000395.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-03-17のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-03-17当日のガチャ告知で対象星5『エスコフィエ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-04-08-364",
+      "date": "2026-04-08",
+      "character": "リンネア",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-08のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-04-08当日のガチャ告知で対象星5『リンネア』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-04-08-365",
+      "date": "2026-04-08",
+      "character": "チャスカ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-08のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-04-08当日のガチャ告知で対象星5『チャスカ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-04-28-366",
+      "date": "2026-04-28",
+      "character": "ネフェル（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000405.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-28のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-04-28当日のガチャ告知で対象星5『ネフェル』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-04-28-367",
+      "date": "2026-04-28",
+      "character": "ラウマ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000405.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-28のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-04-28当日のガチャ告知で対象星5『ラウマ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-05-20-368",
+      "date": "2026-05-20",
+      "character": "ニコ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000408.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-05-20のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-05-20当日のガチャ告知で対象星5『ニコ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-05-20-369",
+      "date": "2026-05-20",
+      "character": "ドゥリン（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000408.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-05-20のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-05-20当日のガチャ告知で対象星5『ドゥリン』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "gi-luna-vii-lohen",
+      "date": "2026-06-09",
+      "character": "ローエン",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000415.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-06-09のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-06-09当日のガチャ告知で対象星5『ローエン』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "gi-luna-vii-mavuika-rerun",
+      "date": "2026-06-09",
+      "character": "マーヴィカ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000415.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-06-09のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-06-09当日のガチャ告知で対象星5『マーヴィカ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-07-01-370",
+      "date": "2026-07-01",
+      "character": "サンドローネ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-01のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-07-01当日のガチャ告知で対象星5『サンドローネ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-07-01-371",
+      "date": "2026-07-01",
+      "character": "シトラリ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-01のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-07-01当日のガチャ告知で対象星5『シトラリ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-07-21-372",
+      "date": "2026-07-21",
+      "character": "コロンビーナ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000426.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-21のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-07-21当日のガチャ告知で対象星5『コロンビーナ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-07-21-373",
+      "date": "2026-07-21",
+      "character": "雷電将軍（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000426.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-21のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-07-21当日のガチャ告知で対象星5『雷電将軍』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-08-12-374",
+      "date": "2026-08-12",
+      "character": "オデット",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000436.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-08-12のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-08-12当日のガチャ告知で対象星5『オデット』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-08-12-375",
+      "date": "2026-08-12",
+      "character": "アルレッキーノ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000436.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-08-12のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-08-12当日のガチャ告知で対象星5『アルレッキーノ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-09-01-376",
+      "date": "2026-09-01",
+      "character": "フリンズ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-01のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-09-01当日のガチャ告知で対象星5『フリンズ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-09-01-377",
+      "date": "2026-09-01",
+      "character": "イネファ（復刻）",
+      "event_kind": "rerun",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-01のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-09-01当日のガチャ告知で対象星5『イネファ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-09-23-378",
+      "date": "2026-09-23",
+      "character": "ヴェスナ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000449.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-23のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-09-23当日のガチャ告知で対象星5『ヴェスナ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    },
+    {
+      "id": "historical-gi-2026-09-23-379",
+      "date": "2026-09-23",
+      "character": "ヴォジャニーツァ",
+      "event_kind": "debut",
+      "banner_type": "normal",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000449.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-23のガチャ開催発表",
+      "review_note": "COGNOSPHEREによる2026-09-23当日のガチャ告知で対象星5『ヴォジャニーツァ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
+    }
+  ]
+}
