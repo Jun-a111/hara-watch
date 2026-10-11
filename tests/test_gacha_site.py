@@ -507,6 +507,12 @@ assert.equal(stats.best,7);
         self.assertIn('validRankValue(x.value)', code)
         self.assertIn('Date.parse(b.date)-Date.parse(a.date)', code)
 
+    def test_history_nonrank_values_are_validated(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        code = html[html.index("function recs("):html.index("function isFresh(")]
+        self.assertIn('x.value.trim()!==""', code)
+        self.assertIn('Number.isInteger(v)&&v>=0', code)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
