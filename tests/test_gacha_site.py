@@ -542,6 +542,31 @@ assert.equal(validMetricValue("steam",0), true);
             subprocess.run(["node", str(path)], check=True,
                            capture_output=True, text=True)
 
+    def test_latest_and_history_runtime_agree(self):
+        """Latest and history must select the same valid observation set."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        code = html[html.index("function validRankValue("):
+                    html.index("function isFresh(")]
+        scenario = r"""
+const assert = require("node:assert/strict");
+const now = new Date().toISOString();
+const future = new Date(Date.now()+86400000).toISOString();
+const records = [
+ {game:"ww",region:"jp",kind:"rank",store:"ios",value:7,date:now},
+ {game:"ww",region:"jp",kind:"rank",store:"ios",value:2,date:future},
+ {game:"ww",region:"jp",kind:"rank",store:"ios",value:"0x10",date:now},
+ {game:"ww",region:"jp",kind:"rank",store:"ios",value:true,date:now}
+];
+const autoRecords = [];
+assert.equal(latest("ww","jp","rank","ios").value,7);
+assert.deepEqual(recs("ww","rank").map(x=>x.value),[7]);
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            p = Path(temp) / "history-consistency.cjs"
+            p.write_text(code + "\n" + scenario, encoding="utf-8")
+            subprocess.run(["node", str(p)], check=True,
+                           capture_output=True, text=True)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
