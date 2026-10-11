@@ -94,7 +94,7 @@ class SiteTests(unittest.TestCase):
     def test_published_release_events(self):
         data = self.read("release-events.json")
         self.assertEqual(data["schema"], "gacha-wars-releases-v1")
-        self.assertGreaterEqual(len(data["events"]), 530, "published release archive shrank")
+        self.assertGreaterEqual(len(data["events"]), 533, "published release archive shrank")
         ids = [e["id"] for e in data["events"]]
         self.assertEqual(len(ids), len(set(ids)), "duplicate release event IDs")
         # A large archive is not useful if the same banner is counted twice or
@@ -173,7 +173,7 @@ class SiteTests(unittest.TestCase):
         """Track archive coverage without pretending it proves completeness."""
         data = self.read("release-events.json")["events"]
         baseline = {"gi": 196, "hsr": 139, "zzz": 71,
-                    "ww": 100, "nte": 12, "end": 12}
+                    "ww": 100, "nte": 13, "end": 14}
         for game, minimum in baseline.items():
             rows = [e for e in data if e["game"] == game]
             self.assertGreaterEqual(len(rows), minimum,
