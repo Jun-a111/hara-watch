@@ -14,6 +14,8 @@ on:
       - 'scripts/update_gacha_youtube.py'
       - '.github/workflows/gacha-wars-checks.yml'
   workflow_dispatch:
+  schedule:
+    - cron: '0 0 * * 1' # Monday 09:00 JST; runs even without a push
 
 permissions:
   contents: read
