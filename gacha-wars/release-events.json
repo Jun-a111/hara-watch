@@ -3027,13 +3027,13 @@
       "type": "character",
       "version": "夜蘭",
       "date": "2022-05-31",
-      "source_url": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.2.7",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2022-05-31開始のイベント祈願で『夜蘭』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-05-31-217",
@@ -3041,13 +3041,13 @@
       "type": "character",
       "version": "魈（復刻）",
       "date": "2022-05-31",
-      "source_url": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.2.7",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2022-05-31開始のイベント祈願で『魈』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-06-21-218",
@@ -3069,13 +3069,13 @@
       "type": "character",
       "version": "楓原万葉（復刻）",
       "date": "2022-07-13",
-      "source_url": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.2.8",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2022-07-13開始のイベント祈願で『楓原万葉』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-07-13-220",
@@ -3083,13 +3083,13 @@
       "type": "character",
       "version": "クレー（復刻）",
       "date": "2022-07-13",
-      "source_url": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.2.8",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2022-07-13開始のイベント祈願で『クレー』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-08-02-221",
@@ -3307,13 +3307,13 @@
       "type": "character",
       "version": "ティナリ",
       "date": "2022-08-24",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-08-24開始のイベント祈願で『ティナリ』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-08-24-237",
@@ -3321,13 +3321,13 @@
       "type": "character",
       "version": "鍾離（復刻）",
       "date": "2022-08-24",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-08-24開始のイベント祈願で『鍾離』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-09-09-238",
@@ -3363,13 +3363,13 @@
       "type": "character",
       "version": "セノ",
       "date": "2022-09-28",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-09-28開始のイベント祈願で『セノ』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-09-28-241",
@@ -3377,13 +3377,13 @@
       "type": "character",
       "version": "ウェンティ（復刻）",
       "date": "2022-09-28",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.1",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-09-28開始のイベント祈願で『ウェンティ』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-10-14-242",
@@ -3419,13 +3419,13 @@
       "type": "character",
       "version": "ナヒーダ",
       "date": "2022-11-02",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-11-02開始のイベント祈願で『ナヒーダ』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-11-02-245",
@@ -3433,13 +3433,13 @@
       "type": "character",
       "version": "宵宮（復刻）",
       "date": "2022-11-02",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.2",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-11-02開始のイベント祈願で『宵宮』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-11-18-246",
@@ -3447,13 +3447,13 @@
       "type": "character",
       "version": "八重神子（復刻）",
       "date": "2022-11-18",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104457",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
       "phase": "second",
       "version_group": "Ver.3.2",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-11-18開始のイベント祈願で『八重神子』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-11-18-247",
@@ -3461,13 +3461,13 @@
       "type": "character",
       "version": "タルタリヤ（復刻）",
       "date": "2022-11-18",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104457",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
       "phase": "second",
       "version_group": "Ver.3.2",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-11-18開始のイベント祈願で『タルタリヤ』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-12-07-248",
@@ -3475,13 +3475,13 @@
       "type": "character",
       "version": "放浪者",
       "date": "2022-12-07",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-12-07開始のイベント祈願で『放浪者』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-12-07-249",
@@ -3489,13 +3489,13 @@
       "type": "character",
       "version": "荒瀧一斗（復刻）",
       "date": "2022-12-07",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース（開催日・星5対象キャラ）",
       "phase": "first",
       "version_group": "Ver.3.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-12-07開始のイベント祈願で『荒瀧一斗』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-12-27-250",
@@ -3503,13 +3503,13 @@
       "type": "character",
       "version": "雷電将軍（復刻）",
       "date": "2022-12-27",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104497",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
       "phase": "second",
       "version_group": "Ver.3.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-12-27開始のイベント祈願で『雷電将軍』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2022-12-27-251",
@@ -3517,13 +3517,13 @@
       "type": "character",
       "version": "神里綾人（復刻）",
       "date": "2022-12-27",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104497",
+      "source_title": "HoYoverse公式イベント祈願告知（開催期間・星5対象キャラ）",
       "phase": "second",
       "version_group": "Ver.3.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "2022-12-27開始のイベント祈願で『神里綾人』が星5対象と明記された運営発表の本文を照合。"
     },
     {
       "id": "history-gi-2023-01-18-252",
