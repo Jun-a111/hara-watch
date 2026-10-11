@@ -383,6 +383,13 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                              "special_rerun"):
             self.assertIn('"' + special_type + '"', section)
 
+    def test_elapsed_unconfirmed_schedules_keep_warning(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn("予定日経過・実施未確認", html)
+        self.assertEqual(html.count("予定日経過・実施未確認"), 2)
+        self.assertIn('ev.schedule_status!=="announced"', html)
+        self.assertIn('e.schedule_status!=="announced"', html)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
