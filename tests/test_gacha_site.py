@@ -451,6 +451,9 @@ const records = [
 ];
 const autoRecords = [];
 assert.equal(latest("ww","jp","rank","ios").value,7);
+records.push({game:"ww",region:"global",kind:"steam",store:"steam",date:now,value:1200});
+records.push({game:"ww",region:"global",kind:"steam",store:"steam",date:new Date(Date.now()+1000).toISOString(),value:1250.5});
+assert.equal(latest("ww","global","steam","steam").value,1200);
 """
         with tempfile.TemporaryDirectory() as temp:
             path = Path(temp) / "latest.cjs"
