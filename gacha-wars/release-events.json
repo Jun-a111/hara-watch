@@ -715,13 +715,13 @@
       "type": "character",
       "version": "カルロッタ",
       "date": "2025-01-02",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1897",
+      "source_title": "KURO GAMES 公式パッチノート・集音告知",
       "phase": "first",
       "version_group": "Ver.2.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式『When Silence Tolls』告知にCarlottaとVer.2.0更新〜1月23日の期間が明記。Ver.2.0開始は1月2日。"
     },
     {
       "id": "historical-ww-2025-01-02-52",
@@ -771,13 +771,13 @@
       "type": "character",
       "version": "フィービー",
       "date": "2025-02-13",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2154",
+      "source_title": "KURO GAMES 公式パッチノート・集音告知",
       "phase": "first",
       "version_group": "Ver.2.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式Ver.2.1パッチノートに2月13日の更新とPhoebe新実装、対象集音名が明記。"
     },
     {
       "id": "historical-ww-2025-03-06-56",
@@ -785,13 +785,13 @@
       "type": "character",
       "version": "ブラント",
       "date": "2025-03-06",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2154",
+      "source_title": "KURO GAMES 公式パッチノート・集音告知",
       "phase": "second",
       "version_group": "Ver.2.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代ガチャ履歴から採録。個別の公式告知との照合は未実施"
+      "verification": "official",
+      "review_note": "公式Ver.2.1パッチノートにBrantの新実装と3月6日からのキャラコンテンツが記載。公式集音一覧にも3月5日のBrant告知が掲載。"
     },
     {
       "id": "historical-ww-2025-03-06-57",
@@ -1221,13 +1221,13 @@
       "type": "character",
       "version": "カンタレラ",
       "date": "2025-03-27",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2381",
+      "source_title": "KURO GAMES 公式パッチノート・集音告知",
       "phase": "first",
       "version_group": "Ver.2.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "公式Ver.2.2パッチノートに3月27日の更新とCantarella新実装、対象集音名が明記。"
     },
     {
       "id": "history-ww-2025-03-27-88",
