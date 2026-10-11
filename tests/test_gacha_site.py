@@ -512,7 +512,7 @@ assert.equal(stats.best,7);
         code = html[html.index("function recs("):html.index("function isFresh(")]
         self.assertIn('validMetricValue(x.kind,x.value)', code)
         helper = html[html.index('function validMetricValue('):html.index('function latest(')]
-        self.assertIn('value.trim()!==""', helper)
+        self.assertIn('/^[0-9]+$/.test(value.trim())', helper)
         self.assertIn('Number.isInteger(v)&&v>=0', helper)
 
     def test_latest_and_history_share_metric_validation(self):
@@ -521,6 +521,26 @@ assert.equal(stats.best,7);
         history = html[html.index("function recs("):html.index("function isFresh(")]
         self.assertIn("validMetricValue(kind,x.value)", latest)
         self.assertIn("validMetricValue(x.kind,x.value)", history)
+
+    def test_metric_strings_require_plain_decimal_digits(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        code = html[html.index("function validRankValue("):
+                    html.index("function latest(")]
+        scenario = r"""
+const assert = require("node:assert/strict");
+assert.equal(validRankValue("12"), true);
+assert.equal(validRankValue("1e2"), false);
+assert.equal(validRankValue("0x10"), false);
+assert.equal(validRankValue(" "), false);
+assert.equal(validMetricValue("steam","1200"), true);
+assert.equal(validMetricValue("steam","0x10"), false);
+assert.equal(validMetricValue("steam",0), true);
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "metric-format.cjs"
+            path.write_text(code + "\n" + scenario, encoding="utf-8")
+            subprocess.run(["node", str(path)], check=True,
+                           capture_output=True, text=True)
 
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
