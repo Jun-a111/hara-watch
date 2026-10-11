@@ -5323,13 +5323,13 @@
       "type": "character",
       "version": "エイメス",
       "date": "2026-02-05",
-      "source_url": "https://www.lootbar.com/blog/en/wuthering-waves-banner-schedule-history.html",
-      "source_title": "過去ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "鳴潮公式ニュース：Ver.3.1前半ガチャ告知（2月4日掲載）／Ver.3.1パッチノート（2月5日公開）",
       "phase": "first",
       "version_group": "Ver.3.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代開催履歴から採録。個別公式告知の突合せは未完了"
+      "verification": "official",
+      "review_note": "Ver.3.1前半ガチャの公式告知と2月5日のパッチノート、およびエイメス紹介を照合。開催開始日と初登場キャラが一致。"
     },
     {
       "id": "history-ww-2026-02-05-381",
@@ -5463,13 +5463,13 @@
       "type": "character",
       "version": "緋雪",
       "date": "2026-04-30",
-      "source_url": "https://oldstorepubg.com/en/blog/wuthering-waves-banner-schedule-history",
-      "source_title": "過去ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "鳴潮公式ニュース：Ver.3.3前半ガチャ告知（4月29日掲載）／Ver.3.3パッチノート（4月30日公開）",
       "phase": "first",
       "version_group": "Ver.3.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代開催履歴から採録。個別公式告知の突合せは未完了"
+      "verification": "official",
+      "review_note": "Ver.3.3前半ガチャの公式告知と4月30日のパッチノート、および緋雪紹介を照合。開催開始日と初登場キャラが一致。"
     },
     {
       "id": "history-ww-2026-04-30-391",
