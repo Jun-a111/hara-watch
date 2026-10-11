@@ -390,6 +390,15 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('ev.schedule_status!=="announced"', html)
         self.assertIn('e.schedule_status!=="announced"', html)
 
+    def test_overdue_unconfirmed_banners_remain_visible(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function releaseCalendar()")
+        end = html.index("function ", start + len("function releaseCalendar()"))
+        calendar = html[start:end]
+        self.assertIn('e.date<today&&e.schedule_status==="announced"', calendar)
+        self.assertIn('e.date<today&&e.schedule_status!=="announced"', calendar)
+        self.assertIn("const events=[...upcoming,...overdue,...recent]", calendar)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
