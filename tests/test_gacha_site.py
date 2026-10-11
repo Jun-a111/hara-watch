@@ -416,6 +416,25 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn("予定日経過・実施未確認", timing)
         self.assertIn("外部資料の予定・未確定", timing)
 
+    def test_event_timing_runtime_scenarios(self):
+        """Execute status labels, not just a string-presence assertion."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        code = html[html.index("function eventTiming("):
+                    html.index("function phaseLabel(")]
+        scenario = r"""
+const assert = require("node:assert/strict");
+const today = new Date(Date.now()+9*3600000).toISOString().slice(0,10);
+const offset = n => new Date(Date.parse(today+"T00:00:00Z")+n*86400000).toISOString().slice(0,10);
+assert.equal(eventTiming({date:offset(-2),schedule_status:"announced",verification:"secondary"}),"予定日経過・実施未確認");
+assert.equal(eventTiming({date:offset(2),schedule_status:"announced",verification:"secondary"}),"外部資料の予定・未確定");
+assert.equal(eventTiming({date:offset(2),schedule_status:"announced",verification:"official"}),"公式発表の予定");
+assert.equal(eventTiming({date:offset(-2),verification:"official"}),"実装日到来");
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "timing-status.cjs"
+            path.write_text(code + "\n" + scenario, encoding="utf-8")
+            subprocess.run(["node", str(path)], check=True, capture_output=True, text=True)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
