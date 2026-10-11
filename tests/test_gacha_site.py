@@ -321,6 +321,17 @@ assert.equal(periodStats("ww",start,true).days,1);
         self.assertIn("pre.days===7&&post.complete&&post.days===14", code)
         self.assertIn("合計21日すべてに実測順位", code)
 
+    def test_special_banners_excluded_from_update_battles(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function updates(){")
+        end = html.index("function ", start + len("function updates(){"))
+        section = html[start:end]
+        self.assertIn("!specialTypes.includes(ev.banner_type)", section)
+        for special_type in ("chronicled_wish", "event_wish_four_star",
+                             "standard_character_event", "anniversary_convene",
+                             "special_rerun"):
+            self.assertIn('"' + special_type + '"', section)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
