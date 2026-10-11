@@ -498,6 +498,15 @@ assert.equal(stats.best,7);
         end = html.index("function recs(", start)
         self.assertIn('if(kind==="rank")return validRankValue(x.value)', html[start:end])
 
+    def test_history_list_rejects_invalid_rank_dates(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function recs(")
+        end = html.index("function isFresh(", start)
+        code = html[start:end]
+        self.assertIn('t>Date.now()+3600000', code)
+        self.assertIn('validRankValue(x.value)', code)
+        self.assertIn('Date.parse(b.date)-Date.parse(a.date)', code)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
