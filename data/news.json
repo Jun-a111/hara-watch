@@ -438,6 +438,52 @@
     "needs_research": false
   },
   {
+    "id": "china-industry-20261008-apple-china-developers-global",
+    "date": "2026-10-08",
+    "category": "中国ゲーム業界",
+    "status": "公式",
+    "lang": "CN",
+    "title": "中国開発者の海外売上比率が52％へ上昇。AppleがKURO GAMESを世界展開の事例に紹介",
+    "summary": "Appleが10月8日に公表した調査では、中国開発者の海外売上比率は2020年の32％から2025年に52％へ上昇し、76％が海外で事業を展開。KURO GAMESも代表例として紹介され、李松倫CEOは『鳴潮』『戦双帕弥什』が世界の数千万規模のプレイヤーに届いていると説明した。",
+    "url": "https://www.apple.com.cn/newsroom/2026/10/new-data-shows-app-store-ecosystem-is-fueling-developer-success/",
+    "source": "Apple Newsroom 中国",
+    "tags": [
+      "中国ゲーム業界",
+      "海外展開",
+      "KURO GAMES",
+      "鳴潮",
+      "App Store",
+      "中国開発者"
+    ],
+    "spoiler": false,
+    "body": "■ 中国開発者の海外売上比率が5年で20ポイント上昇\nAppleが2026年10月8日に公表した調査では、中国開発者の海外売上比率は2020年の32％から2025年には52％へ上昇した。2025年は中国開発者の76％が海外で事業を展開し、海外ユーザーによる中国製アプリのダウンロードは38億回に達したとされる。\n\n■ KURO GAMESを代表例として紹介\nAppleは、中国のゲームスタジオがApp Storeを通じて世界市場へ展開する事例としてKURO GAMESを挙げた。KURO GAMES CEOの李松倫氏は、『戦双帕弥什』『鳴潮』でAppleの技術を活用し、世界のほぼすべての地域にいる数千万規模のプレイヤーへ届けていると説明した。\n\n■ 中国ゲーム企業の海外展開を示す公式データ\n個別ゲームの売上や利用者数ではなく、中国のアプリ開発者全体を対象とする調査である。ゲーム以外のアプリも含むため中国ゲーム市場だけの指標ではないが、KURO GAMESを含む中国開発企業が海外売上と利用者を拡大している流れを示す一次資料として記録する。",
+    "timeline": [
+      {
+        "date": "2020年",
+        "text": "中国開発者の海外売上比率は32％。"
+      },
+      {
+        "date": "2025年",
+        "text": "海外売上比率が52％へ上昇。中国開発者の76％が海外で事業を展開し、海外ダウンロードは38億回。"
+      },
+      {
+        "date": "2026年10月8日",
+        "text": "Appleが調査結果を公表し、KURO GAMESを中国ゲーム企業の世界展開事例として紹介。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Apple Newsroom 中国",
+        "url": "https://www.apple.com.cn/newsroom/2026/10/new-data-shows-app-store-ecosystem-is-fueling-developer-success/",
+        "date": "2026-10-08",
+        "type": "公式資料"
+      }
+    ],
+    "quoted_reactions": [],
+    "reactions": [],
+    "needs_research": false
+  },
+  {
     "id": "zzz-20261007-evelyn-birthday-shipping-debate",
     "date": "2026-10-07",
     "category": "ゼンゼロ",
