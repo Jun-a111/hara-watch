@@ -492,6 +492,12 @@ assert.equal(stats.best,7);
                            capture_output=True,text=True)
         self.assertIn("!validRankValue(r.value)", html[html.index("function phaseTrend("):html.index("function phaseBattles(")])
 
+    def test_latest_uses_shared_rank_validator(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function latest(")
+        end = html.index("function recs(", start)
+        self.assertIn('if(kind==="rank")return validRankValue(x.value)', html[start:end])
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
