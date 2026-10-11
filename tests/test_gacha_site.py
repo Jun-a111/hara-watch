@@ -289,6 +289,13 @@ assert.equal(periodStats("ww",start,true).days,1);
             self.assertEqual(rows[0]["phase"], "second")
             self.assertEqual(rows[0]["verification"], "official")
 
+    def test_scheduled_banners_have_separate_visible_section(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn("開催予定のキャラ・復刻（ランキング対象外）", html)
+        self.assertIn("scheduledEvents.slice().sort(", html)
+        self.assertIn("開催予定 '+scheduledEvents.length+'件", html)
+        self.assertIn('e.schedule_status!=="announced"&&[', html)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
