@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-11T06:30:00Z",
+  "updated_at": "2026-10-11T06:40:00Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -7396,6 +7396,65 @@
       "source_title": "ゼンゼロ公式・Ver.3.0後半ガチャ告知",
       "verification": "official",
       "review_note": "公式のVer.3.0後半告知で千夏（Sunna）と開催期間を照合"
+    },
+    {
+      "id": "backfill-zzz-3.1-0",
+      "game": "zzz",
+      "type": "character",
+      "version": "アリア（復刻）",
+      "date": "2026-07-29",
+      "phase": "first",
+      "version_group": "Ver.3.1",
+      "event_kind": "rerun",
+      "source_url": "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+      "source_title": "Icy Veins・ゼンゼロVer.3.1歴代ガチャ一覧",
+      "verification": "secondary",
+      "review_note": "Ver.3.1の掲載履歴と照合。掲載サイトのサーバー日時と日本版の開始日が異なる場合があるため、日本向け開始日を登録。公式個別告知の照合は未実施"
+    },
+    {
+      "id": "backfill-zzz-3.1-1",
+      "game": "zzz",
+      "type": "character",
+      "version": "ダイアリン（復刻）",
+      "date": "2026-08-19",
+      "phase": "second",
+      "version_group": "Ver.3.1",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+      "source_title": "Icy Veins・ゼンゼロVer.3.1歴代ガチャ一覧",
+      "verification": "secondary",
+      "review_note": "Ver.3.1の掲載履歴と照合。掲載サイトのサーバー日時と日本版の開始日が異なる場合があるため、日本向け開始日を登録。公式個別告知の照合は未実施"
+    },
+    {
+      "id": "backfill-zzz-3.1-2",
+      "game": "zzz",
+      "type": "character",
+      "version": "浮波柚葉（復刻）",
+      "date": "2026-08-19",
+      "phase": "second",
+      "version_group": "Ver.3.1",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+      "source_title": "Icy Veins・ゼンゼロVer.3.1歴代ガチャ一覧",
+      "verification": "secondary",
+      "review_note": "Ver.3.1の掲載履歴と照合。掲載サイトのサーバー日時と日本版の開始日が異なる場合があるため、日本向け開始日を登録。公式個別告知の照合は未実施"
+    },
+    {
+      "id": "backfill-zzz-3.1-3",
+      "game": "zzz",
+      "type": "character",
+      "version": "浅羽悠真（復刻）",
+      "date": "2026-08-19",
+      "phase": "second",
+      "version_group": "Ver.3.1",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "source_url": "https://www.icy-veins.com/zenless-zone-zero/current-banner",
+      "source_title": "Icy Veins・ゼンゼロVer.3.1歴代ガチャ一覧",
+      "verification": "secondary",
+      "review_note": "Ver.3.1の掲載履歴と照合。掲載サイトのサーバー日時と日本版の開始日が異なる場合があるため、日本向け開始日を登録。公式個別告知の照合は未実施"
     }
   ]
 }
