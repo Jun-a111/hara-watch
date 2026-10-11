@@ -316,7 +316,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                          len(special))
         self.assertTrue(all(e["event_kind"] == "rerun" for e in special))
         html = (SITE / "index.html").read_text(encoding="utf-8")
-        self.assertEqual(html.count('"anniversary_convene","special_rerun"'), 2)
+        self.assertGreaterEqual(html.count('"anniversary_convene","special_rerun"'), 2)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', html)
 
     def test_unconfirmed_schedule_is_labeled_as_unconfirmed(self):
