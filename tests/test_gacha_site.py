@@ -94,7 +94,7 @@ class SiteTests(unittest.TestCase):
     def test_published_release_events(self):
         data = self.read("release-events.json")
         self.assertEqual(data["schema"], "gacha-wars-releases-v1")
-        self.assertGreaterEqual(len(data["events"]), 533, "published release archive shrank")
+        self.assertGreaterEqual(len(data["events"]), 534, "published release archive shrank")
         ids = [e["id"] for e in data["events"]]
         self.assertEqual(len(ids), len(set(ids)), "duplicate release event IDs")
         # A large archive is not useful if the same banner is counted twice or
@@ -173,7 +173,7 @@ class SiteTests(unittest.TestCase):
         """Track archive coverage without pretending it proves completeness."""
         data = self.read("release-events.json")["events"]
         baseline = {"gi": 196, "hsr": 139, "zzz": 71,
-                    "ww": 100, "nte": 13, "end": 14}
+                    "ww": 100, "nte": 13, "end": 15}
         for game, minimum in baseline.items():
             rows = [e for e in data if e["game"] == game]
             self.assertGreaterEqual(len(rows), minimum,
@@ -202,6 +202,15 @@ class SiteTests(unittest.TestCase):
         html = (SITE / "index.html").read_text(encoding="utf-8")
         self.assertEqual(html.count('"anniversary_convene","special_rerun"'), 2)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', html)
+
+    def test_unconfirmed_schedule_is_labeled_as_unconfirmed(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn("外部資料の予定・未確定", html)
+        events = self.read("release-events.json")["events"]
+        scheduled = [e for e in events if e.get("schedule_status") == "announced"]
+        self.assertTrue(scheduled)
+        for e in scheduled:
+            self.assertIn(e["verification"], {"official", "secondary", "unreviewed"})
 
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
