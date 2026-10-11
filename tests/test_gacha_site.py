@@ -305,6 +305,14 @@ assert.equal(periodStats("ww",start,true).days,1);
         self.assertIn('!specialTypes.includes(e.banner_type)', phase)
         self.assertIn('"anniversary_convene","special_rerun"', phase)
 
+    def test_update_battles_exclude_announced_schedule(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function updates(){")
+        end = html.index("function ", start + len("function updates(){"))
+        section = html[start:end]
+        self.assertIn('filter(ev=>ev.schedule_status!=="announced")', section)
+        self.assertIn("14日分すべての順位観測が揃った場合", html)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
