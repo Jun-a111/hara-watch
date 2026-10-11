@@ -435,6 +435,28 @@ assert.equal(eventTiming({date:offset(-2),verification:"official"}),"実装日�
             path.write_text(code + "\n" + scenario, encoding="utf-8")
             subprocess.run(["node", str(path)], check=True, capture_output=True, text=True)
 
+    def test_latest_filters_invalid_and_future_records(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        function = html[html.index("function latest("):
+                        html.index("function recs(", html.index("function latest("))]
+        scenario = r"""
+const assert = require("node:assert/strict");
+const now = new Date().toISOString();
+const nextYear = new Date(Date.now()+365*86400000).toISOString();
+const records = [
+ {game:"ww",region:"jp",kind:"rank",store:"ios",date:now,value:7},
+ {game:"ww",region:"jp",kind:"rank",store:"ios",date:nextYear,value:1},
+ {game:"ww",region:"jp",kind:"rank",store:"ios",date:"invalid",value:1},
+ {game:"ww",region:"jp",kind:"rank",store:"ios",date:now,value:0}
+];
+const autoRecords = [];
+assert.equal(latest("ww","jp","rank","ios").value,7);
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "latest.cjs"
+            path.write_text(function + "\n" + scenario, encoding="utf-8")
+            subprocess.run(["node", str(path)], check=True, capture_output=True, text=True)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
