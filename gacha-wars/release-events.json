@@ -1585,13 +1585,13 @@
       "type": "character",
       "version": "黄泉",
       "date": "2024-03-27",
-      "source_url": "https://game8.co/games/Honkai-Star-Rail/archives/447025",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000190.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ピックアップ開催記録を参照。公式告知との個別照合は未完了"
+      "verification": "official",
+      "review_note": "2024/3/27運営公式告知で黄泉初登場と羅刹復刻を同日開催と明記。"
     },
     {
       "id": "history-hsr-2024-03-27-114",
@@ -1599,13 +1599,13 @@
       "type": "character",
       "version": "羅刹（復刻）",
       "date": "2024-03-27",
-      "source_url": "https://game8.co/games/Honkai-Star-Rail/archives/447025",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000190.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.1",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ピックアップ開催記録を参照。公式告知との個別照合は未完了"
+      "verification": "official",
+      "review_note": "2024/3/27運営公式告知で黄泉初登場と羅刹復刻を同日開催と明記。"
     },
     {
       "id": "history-hsr-2024-04-17-115",
@@ -1613,13 +1613,13 @@
       "type": "character",
       "version": "アベンチュリン",
       "date": "2024-04-17",
-      "source_url": "https://game8.co/games/Honkai-Star-Rail/archives/447025",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000200.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ピックアップ開催記録を参照。公式告知との個別照合は未完了"
+      "verification": "official",
+      "review_note": "2024/4/17運営公式告知でアベンチュリン初登場と同日開催を明記。"
     },
     {
       "id": "history-hsr-2024-04-17-116",
@@ -2005,13 +2005,13 @@
       "type": "character",
       "version": "ロビン",
       "date": "2024-05-08",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000204.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/5/8運営公式告知でロビン初登場とトパーズ＆カブ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-05-08-144",
@@ -2019,13 +2019,13 @@
       "type": "character",
       "version": "トパーズ＆カブ（復刻）",
       "date": "2024-05-08",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000204.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.2",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/5/8運営公式告知でロビン初登場とトパーズ＆カブ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-05-29-145",
@@ -2033,13 +2033,13 @@
       "type": "character",
       "version": "ブートヒル",
       "date": "2024-05-29",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000210.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/5/29運営公式告知でブートヒル初登場と符玄復刻を明記。"
     },
     {
       "id": "history-hsr-2024-05-29-146",
@@ -2047,13 +2047,13 @@
       "type": "character",
       "version": "符玄（復刻）",
       "date": "2024-05-29",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000210.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.2",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/5/29運営公式告知でブートヒル初登場と符玄復刻を明記。"
     },
     {
       "id": "history-hsr-2024-06-19-147",
@@ -2061,13 +2061,13 @@
       "type": "character",
       "version": "ホタル",
       "date": "2024-06-19",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000215.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/6/19運営公式告知でホタル初登場とルアン・メェイ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-06-19-148",
@@ -2075,13 +2075,13 @@
       "type": "character",
       "version": "ルアン・メェイ（復刻）",
       "date": "2024-06-19",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000215.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/6/19運営公式告知でホタル初登場とルアン・メェイ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-07-10-149",
@@ -2089,13 +2089,13 @@
       "type": "character",
       "version": "ジェイド",
       "date": "2024-07-10",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/7/10運営公式告知でジェイド初登場とアルジェンティ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-07-10-150",
@@ -2103,13 +2103,13 @@
       "type": "character",
       "version": "アルジェンティ（復刻）",
       "date": "2024-07-10",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/7/10運営公式告知でジェイド初登場とアルジェンティ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-07-31-151",
@@ -2173,13 +2173,13 @@
       "type": "character",
       "version": "飛霄",
       "date": "2024-09-10",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/9/10運営公式告知で飛霄初登場とロビン・ブラックスワン・カフカの3人同時復刻を明記。"
     },
     {
       "id": "history-hsr-2024-09-10-156",
@@ -2187,13 +2187,13 @@
       "type": "character",
       "version": "ロビン（復刻）",
       "date": "2024-09-10",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/9/10運営公式告知で飛霄初登場とロビン・ブラックスワン・カフカの3人同時復刻を明記。"
     },
     {
       "id": "history-hsr-2024-09-10-157",
@@ -2201,13 +2201,13 @@
       "type": "character",
       "version": "ブラックスワン（復刻）",
       "date": "2024-09-10",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/9/10運営公式告知で飛霄初登場とロビン・ブラックスワン・カフカの3人同時復刻を明記。"
     },
     {
       "id": "history-hsr-2024-09-10-158",
@@ -2215,13 +2215,13 @@
       "type": "character",
       "version": "カフカ（復刻）",
       "date": "2024-09-10",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/9/10運営公式告知で飛霄初登場とロビン・ブラックスワン・カフカの3人同時復刻を明記。"
     },
     {
       "id": "history-hsr-2024-10-02-159",
@@ -2229,13 +2229,13 @@
       "type": "character",
       "version": "霊砂",
       "date": "2024-10-02",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000251.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/10/2運営公式告知で霊砂初登場とトパーズ＆カブ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-10-02-160",
@@ -2243,13 +2243,13 @@
       "type": "character",
       "version": "トパーズ＆カブ（復刻）",
       "date": "2024-10-02",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000251.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/10/2運営公式告知で霊砂初登場とトパーズ＆カブ復刻を明記。"
     },
     {
       "id": "history-hsr-2024-10-23-161",
@@ -2257,13 +2257,13 @@
       "type": "character",
       "version": "乱破",
       "date": "2024-10-23",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000256.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/10/23運営公式告知で乱破初登場と丹恒・飲月復刻を明記。"
     },
     {
       "id": "history-hsr-2024-10-23-162",
@@ -2271,13 +2271,13 @@
       "type": "character",
       "version": "丹恒・飲月（復刻）",
       "date": "2024-10-23",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000256.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/10/23運営公式告知で乱破初登場と丹恒・飲月復刻を明記。"
     },
     {
       "id": "history-hsr-2024-11-13-163",
@@ -2285,13 +2285,13 @@
       "type": "character",
       "version": "黄泉（復刻）",
       "date": "2024-11-13",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000262.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/11/13運営公式告知で黄泉・アベンチュリン復刻を明記。"
     },
     {
       "id": "history-hsr-2024-11-13-164",
@@ -2299,13 +2299,13 @@
       "type": "character",
       "version": "アベンチュリン（復刻）",
       "date": "2024-11-13",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000262.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/11/13運営公式告知で黄泉・アベンチュリン復刻を明記。"
     },
     {
       "id": "history-hsr-2024-12-04-165",
@@ -2313,13 +2313,13 @@
       "type": "character",
       "version": "サンデー",
       "date": "2024-12-04",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000267.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.7",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/12/4運営公式告知でサンデー初登場と景元復刻を明記。"
     },
     {
       "id": "history-hsr-2024-12-04-166",
@@ -2327,13 +2327,13 @@
       "type": "character",
       "version": "景元（復刻）",
       "date": "2024-12-04",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000267.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.2.7",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/12/4運営公式告知でサンデー初登場と景元復刻を明記。"
     },
     {
       "id": "history-hsr-2024-12-25-167",
@@ -2341,13 +2341,13 @@
       "type": "character",
       "version": "帰忘の流離人",
       "date": "2024-12-25",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000274.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.7",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/12/25運営公式告知で帰忘の流離人初登場とホタル復刻を明記。"
     },
     {
       "id": "history-hsr-2024-12-25-168",
@@ -2355,13 +2355,13 @@
       "type": "character",
       "version": "ホタル（復刻）",
       "date": "2024-12-25",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000274.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.2.7",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024/12/25運営公式告知で帰忘の流離人初登場とホタル復刻を明記。"
     },
     {
       "id": "history-hsr-2025-01-15-169",
