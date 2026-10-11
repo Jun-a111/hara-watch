@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-11T00:00:00.000Z",
+  "updated_at": "2026-10-11T06:30:00Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -7368,6 +7368,34 @@
       "source_title": "Starpath Reverbs・KURO GAMES告知転載（2026-07-09）",
       "verification": "secondary",
       "review_note": "Ver.3.5全期間の選択式特別復刻。通常復刻との混同を防ぐため別枠。公式告知転載および複数の外部記事で照合"
+    },
+    {
+      "id": "audit-zzz-3.0-ye-rerun",
+      "game": "zzz",
+      "type": "character",
+      "version": "葉瞬光（復刻）",
+      "date": "2026-06-17",
+      "phase": "first",
+      "version_group": "Ver.3.0",
+      "event_kind": "rerun",
+      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
+      "source_title": "Zenless Zone Zero Wiki・Exclusive Channel History",
+      "verification": "secondary",
+      "review_note": "Ver.3.0前半（6月17日開始）の復刻履歴と複数資料を照合。公式個別告知との最終照合は未完了"
+    },
+    {
+      "id": "audit-zzz-3.0-sunna-rerun",
+      "game": "zzz",
+      "type": "character",
+      "version": "千夏（復刻）",
+      "date": "2026-07-08",
+      "phase": "second",
+      "version_group": "Ver.3.0",
+      "event_kind": "rerun",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/165144",
+      "source_title": "ゼンゼロ公式・Ver.3.0後半ガチャ告知",
+      "verification": "official",
+      "review_note": "公式のVer.3.0後半告知で千夏（Sunna）と開催期間を照合"
     }
   ]
 }
