@@ -574,6 +574,15 @@ assert.deepEqual(recs("ww","rank").map(x=>x.value),[7]);
         self.assertIn('publishedEvents.filter(e=>e.verification==="official").length', calendar)
         self.assertIn("外部資料は公式確定情報ではありません", calendar)
 
+    def test_calendar_shows_per_game_verified_coverage(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        section = html[html.index("function releaseCalendar("):
+                       html.index("function home(", html.index("function releaseCalendar("))]
+        self.assertIn('const byGame=G.map(g=>', section)
+        self.assertIn('items.filter(e=>e.verification==="official").length', section)
+        self.assertIn('作品別（確認済/総数）', section)
+        self.assertIn('公式告知の転載が含まれます', section)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
