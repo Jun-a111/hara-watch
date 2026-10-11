@@ -6501,13 +6501,13 @@
       "type": "character",
       "version": "ブートヒル（復刻）",
       "date": "2026-04-08",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://gamewith.jp/houkaistarrail/article/show/561173",
+      "source_title": "GameWith：Ver.4.1公式予告番組のガチャ日程まとめ（一次資料未照合）",
       "phase": "second",
       "version_group": "Ver.4.1",
       "event_kind": "rerun",
       "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "review_note": "Ver.4.1後期のブートヒル復刻（4月8日〜4月21日）はGameWithの3月13日公式予告番組内容まとめ、およびスタレWiki更新履歴で一致。COGNOSPHERE一次資料での開始日明記は未確認のためsecondaryを維持。"
     },
     {
       "id": "history-hsr-2026-04-22-465",
@@ -7380,10 +7380,10 @@
       "phase": "first",
       "version_group": "Ver.3.0",
       "event_kind": "rerun",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "Zenless Zone Zero Wiki・Exclusive Channel History",
-      "verification": "secondary",
-      "review_note": "Ver.3.0前半（6月17日開始）の復刻履歴と複数資料を照合。公式個別告知との最終照合は未完了"
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000416.000096124.html",
+      "source_title": "COGNOSPHERE Ver.3.0正式発表（葉瞬光復刻）",
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式プレスリリースに6月17日Ver.3.0更新と葉瞬光の復刻を明記。前半の6月17日開始は攻略媒体の詳細スケジュールと突合。公式告知本文が前半日時まで直接明記するわけではない点を区別する。"
     },
     {
       "id": "audit-zzz-3.0-sunna-rerun",
