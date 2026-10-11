@@ -197,13 +197,13 @@
       "type": "character",
       "version": "忌炎",
       "date": "2024-05-23",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Event/History/Version_1",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.fandom.com/wiki/Prevail_the_Lasting_Night/2024-05-23",
+      "source_title": "ゲームリリース・集音履歴照合（外部wiki）",
       "phase": "first",
       "version_group": "Ver.1.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "Ver.1.0初回Jiyan集音は2024-05-23 10:00のゲーム開幕から、公式リリース発表とガチャ記録を照合"
     },
     {
       "id": "history-ww-2024-06-06-1",
@@ -211,13 +211,13 @@
       "type": "character",
       "version": "吟霖",
       "date": "2024-06-06",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Event/History/Version_1",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://wutheringwaves.gg/when-thunder-pours-featured-resonator-convene-boosted-drop-rate-for-yinlin/",
+      "source_title": "KURO公式告知の転載（WutheringWaves.gg）",
       "phase": "second",
       "version_group": "Ver.1.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "KURO公式集音告知の転載でYinlin、2024-06-06 10:00開始を直接確認"
     },
     {
       "id": "history-ww-2024-06-28-2",
@@ -6289,13 +6289,13 @@
       "type": "character",
       "version": "玄翎雀",
       "date": "2026-07-10",
-      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "KURO公式ニュース一覧",
       "phase": "first",
       "version_group": "Ver.3.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "KURO公式ニュースのVer.3.5集音告知・更新日とPC Gamerの7月10日開始バナー一覧を照合。Yangyang: Xuanling、Lynae、Luuk Herssenの3名"
     },
     {
       "id": "history-ww-2026-07-10-450",
@@ -6303,13 +6303,13 @@
       "type": "character",
       "version": "リンネー（復刻）",
       "date": "2026-07-10",
-      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "KURO公式ニュース一覧",
       "phase": "first",
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "KURO公式ニュースのVer.3.5集音告知・更新日とPC Gamerの7月10日開始バナー一覧を照合。Yangyang: Xuanling、Lynae、Luuk Herssenの3名"
     },
     {
       "id": "history-ww-2026-07-10-451",
@@ -6317,13 +6317,13 @@
       "type": "character",
       "version": "リューク（復刻）",
       "date": "2026-07-10",
-      "source_url": "https://www.pcgamer.com/games/rpg/wuthering-waves-banner-next-current/",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "KURO公式ニュース一覧",
       "phase": "first",
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "KURO公式ニュースのVer.3.5集音告知・更新日とPC Gamerの7月10日開始バナー一覧を照合。Yangyang: Xuanling、Lynae、Luuk Herssenの3名"
     },
     {
       "id": "history-ww-2026-07-31-452",
@@ -7172,10 +7172,10 @@
       "version_group": "Ver.2.3",
       "event_kind": "rerun",
       "banner_type": "anniversary_convene",
-      "source_url": "https://www.dearplayers.com/en-MY/updates/wuthering-waves/1925016194782003236",
-      "source_title": "HK KURO GAMES LIMITED名義・周年記念共鳴者集音第2期の掲載告知",
-      "verification": "secondary",
-      "review_note": "2025年5月22日開始、対象5人を運営名義の告知転載と複数の開催資料で照合。通常の限定ガチャとは別枠で表示する。"
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "source_title": "KURO公式告知の転載（WutheringWaves.gg）",
+      "verification": "official",
+      "review_note": "KURO公式周年集音告知の転載に2025-05-22開始、選択可能な星5共鳴者Jinhsi・Changli・Carlotta・Roccia・Brantを直接確認。各キャラの周年復刻枠を検証"
     },
     {
       "id": "ww-23-anniv-second-2",
@@ -7187,10 +7187,10 @@
       "version_group": "Ver.2.3",
       "event_kind": "rerun",
       "banner_type": "anniversary_convene",
-      "source_url": "https://www.dearplayers.com/en-MY/updates/wuthering-waves/1925016194782003236",
-      "source_title": "HK KURO GAMES LIMITED名義・周年記念共鳴者集音第2期の掲載告知",
-      "verification": "secondary",
-      "review_note": "2025年5月22日開始、対象5人を運営名義の告知転載と複数の開催資料で照合。通常の限定ガチャとは別枠で表示する。"
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "source_title": "KURO公式告知の転載（WutheringWaves.gg）",
+      "verification": "official",
+      "review_note": "KURO公式周年集音告知の転載に2025-05-22開始、選択可能な星5共鳴者Jinhsi・Changli・Carlotta・Roccia・Brantを直接確認。各キャラの周年復刻枠を検証"
     },
     {
       "id": "ww-23-anniv-second-3",
@@ -7202,10 +7202,10 @@
       "version_group": "Ver.2.3",
       "event_kind": "rerun",
       "banner_type": "anniversary_convene",
-      "source_url": "https://www.dearplayers.com/en-MY/updates/wuthering-waves/1925016194782003236",
-      "source_title": "HK KURO GAMES LIMITED名義・周年記念共鳴者集音第2期の掲載告知",
-      "verification": "secondary",
-      "review_note": "2025年5月22日開始、対象5人を運営名義の告知転載と複数の開催資料で照合。通常の限定ガチャとは別枠で表示する。"
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "source_title": "KURO公式告知の転載（WutheringWaves.gg）",
+      "verification": "official",
+      "review_note": "KURO公式周年集音告知の転載に2025-05-22開始、選択可能な星5共鳴者Jinhsi・Changli・Carlotta・Roccia・Brantを直接確認。各キャラの周年復刻枠を検証"
     },
     {
       "id": "ww-23-anniv-second-4",
@@ -7217,10 +7217,10 @@
       "version_group": "Ver.2.3",
       "event_kind": "rerun",
       "banner_type": "anniversary_convene",
-      "source_url": "https://www.dearplayers.com/en-MY/updates/wuthering-waves/1925016194782003236",
-      "source_title": "HK KURO GAMES LIMITED名義・周年記念共鳴者集音第2期の掲載告知",
-      "verification": "secondary",
-      "review_note": "2025年5月22日開始、対象5人を運営名義の告知転載と複数の開催資料で照合。通常の限定ガチャとは別枠で表示する。"
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "source_title": "KURO公式告知の転載（WutheringWaves.gg）",
+      "verification": "official",
+      "review_note": "KURO公式周年集音告知の転載に2025-05-22開始、選択可能な星5共鳴者Jinhsi・Changli・Carlotta・Roccia・Brantを直接確認。各キャラの周年復刻枠を検証"
     },
     {
       "id": "ww-23-anniv-second-5",
@@ -7232,10 +7232,10 @@
       "version_group": "Ver.2.3",
       "event_kind": "rerun",
       "banner_type": "anniversary_convene",
-      "source_url": "https://www.dearplayers.com/en-MY/updates/wuthering-waves/1925016194782003236",
-      "source_title": "HK KURO GAMES LIMITED名義・周年記念共鳴者集音第2期の掲載告知",
-      "verification": "secondary",
-      "review_note": "2025年5月22日開始、対象5人を運営名義の告知転載と複数の開催資料で照合。通常の限定ガチャとは別枠で表示する。"
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "source_title": "KURO公式告知の転載（WutheringWaves.gg）",
+      "verification": "official",
+      "review_note": "KURO公式周年集音告知の転載に2025-05-22開始、選択可能な星5共鳴者Jinhsi・Changli・Carlotta・Roccia・Brantを直接確認。各キャラの周年復刻枠を検証"
     },
     {
       "id": "zzz-1.5-ellen-rerun",
@@ -7289,10 +7289,10 @@
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
       "banner_type": "special_rerun",
-      "source_url": "https://wutheringwaves.gg/starpath-reverbs-reverb-resonator-convene/",
-      "source_title": "Starpath Reverbs・KURO GAMES告知転載（2026-07-09）",
-      "verification": "secondary",
-      "review_note": "Ver.3.5全期間の選択式特別復刻。通常復刻との混同を防ぐため別枠。公式告知転載および複数の外部記事で照合"
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "source_title": "KURO公式Facebook告知",
+      "verification": "official",
+      "review_note": "KURO公式SNSのStarpath Reverbs告知に6キャラ選択復刻が列挙され、PC Gamerの2026年7月10日公開のVer.3.5バナー報道で7月10日開始を突合"
     },
     {
       "id": "audit-ww-2026-07-10-2",
@@ -7304,10 +7304,10 @@
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
       "banner_type": "special_rerun",
-      "source_url": "https://wutheringwaves.gg/starpath-reverbs-reverb-resonator-convene/",
-      "source_title": "Starpath Reverbs・KURO GAMES告知転載（2026-07-09）",
-      "verification": "secondary",
-      "review_note": "Ver.3.5全期間の選択式特別復刻。通常復刻との混同を防ぐため別枠。公式告知転載および複数の外部記事で照合"
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "source_title": "KURO公式Facebook告知",
+      "verification": "official",
+      "review_note": "KURO公式SNSのStarpath Reverbs告知に6キャラ選択復刻が列挙され、PC Gamerの2026年7月10日公開のVer.3.5バナー報道で7月10日開始を突合"
     },
     {
       "id": "audit-ww-2026-07-10-3",
@@ -7319,10 +7319,10 @@
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
       "banner_type": "special_rerun",
-      "source_url": "https://wutheringwaves.gg/starpath-reverbs-reverb-resonator-convene/",
-      "source_title": "Starpath Reverbs・KURO GAMES告知転載（2026-07-09）",
-      "verification": "secondary",
-      "review_note": "Ver.3.5全期間の選択式特別復刻。通常復刻との混同を防ぐため別枠。公式告知転載および複数の外部記事で照合"
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "source_title": "KURO公式Facebook告知",
+      "verification": "official",
+      "review_note": "KURO公式SNSのStarpath Reverbs告知に6キャラ選択復刻が列挙され、PC Gamerの2026年7月10日公開のVer.3.5バナー報道で7月10日開始を突合"
     },
     {
       "id": "audit-ww-2026-07-10-4",
@@ -7334,10 +7334,10 @@
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
       "banner_type": "special_rerun",
-      "source_url": "https://wutheringwaves.gg/starpath-reverbs-reverb-resonator-convene/",
-      "source_title": "Starpath Reverbs・KURO GAMES告知転載（2026-07-09）",
-      "verification": "secondary",
-      "review_note": "Ver.3.5全期間の選択式特別復刻。通常復刻との混同を防ぐため別枠。公式告知転載および複数の外部記事で照合"
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "source_title": "KURO公式Facebook告知",
+      "verification": "official",
+      "review_note": "KURO公式SNSのStarpath Reverbs告知に6キャラ選択復刻が列挙され、PC Gamerの2026年7月10日公開のVer.3.5バナー報道で7月10日開始を突合"
     },
     {
       "id": "audit-ww-2026-07-10-5",
@@ -7349,10 +7349,10 @@
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
       "banner_type": "special_rerun",
-      "source_url": "https://wutheringwaves.gg/starpath-reverbs-reverb-resonator-convene/",
-      "source_title": "Starpath Reverbs・KURO GAMES告知転載（2026-07-09）",
-      "verification": "secondary",
-      "review_note": "Ver.3.5全期間の選択式特別復刻。通常復刻との混同を防ぐため別枠。公式告知転載および複数の外部記事で照合"
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "source_title": "KURO公式Facebook告知",
+      "verification": "official",
+      "review_note": "KURO公式SNSのStarpath Reverbs告知に6キャラ選択復刻が列挙され、PC Gamerの2026年7月10日公開のVer.3.5バナー報道で7月10日開始を突合"
     },
     {
       "id": "audit-ww-2026-07-10-6",
@@ -7364,10 +7364,10 @@
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
       "banner_type": "special_rerun",
-      "source_url": "https://wutheringwaves.gg/starpath-reverbs-reverb-resonator-convene/",
-      "source_title": "Starpath Reverbs・KURO GAMES告知転載（2026-07-09）",
-      "verification": "secondary",
-      "review_note": "Ver.3.5全期間の選択式特別復刻。通常復刻との混同を防ぐため別枠。公式告知転載および複数の外部記事で照合"
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "source_title": "KURO公式Facebook告知",
+      "verification": "official",
+      "review_note": "KURO公式SNSのStarpath Reverbs告知に6キャラ選択復刻が列挙され、PC Gamerの2026年7月10日公開のVer.3.5バナー報道で7月10日開始を突合"
     },
     {
       "id": "audit-zzz-3.0-ye-rerun",
