@@ -313,6 +313,14 @@ assert.equal(periodStats("ww",start,true).days,1);
         self.assertIn('filter(ev=>ev.schedule_status!=="announced")', section)
         self.assertIn("14日分すべての順位観測が揃った場合", html)
 
+    def test_update_verdict_requires_full_21_day_coverage(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function updates(){")
+        end = html.index("function ", start + len("function updates(){"))
+        code = html[start:end]
+        self.assertIn("pre.days===7&&post.complete&&post.days===14", code)
+        self.assertIn("合計21日すべてに実測順位", code)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
