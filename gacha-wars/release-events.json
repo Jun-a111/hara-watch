@@ -309,13 +309,13 @@
       "type": "character",
       "version": "ゼーレ",
       "date": "2023-04-26",
-      "source_url": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000082.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.1.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "2023年4月26日のリリースとVer.1.0前半『切先の蝶』ゼーレを会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-05-17-9",
@@ -323,13 +323,13 @@
       "type": "character",
       "version": "景元",
       "date": "2023-05-17",
-      "source_url": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000085.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.1.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "2023年5月17日開始の『奔放な天矛』景元を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-06-07-10",
@@ -337,13 +337,13 @@
       "type": "character",
       "version": "銀狼",
       "date": "2023-06-07",
-      "source_url": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000095.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "2023年6月7日Ver.1.1前半『零号協定』銀狼を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-06-28-11",
@@ -351,13 +351,13 @@
       "type": "character",
       "version": "羅刹",
       "date": "2023-06-28",
-      "source_url": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000100.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "2023年6月28日後半『世界を探して』羅刹を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-07-19-12",
@@ -393,13 +393,13 @@
       "type": "character",
       "version": "丹恒・飲月",
       "date": "2023-08-30",
-      "source_url": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000121.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.1.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "2023年8月30日Ver.1.3前半『世を濯ぐ垂虹』丹恒・飲月を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-09-20-15",
@@ -1431,13 +1431,13 @@
       "type": "character",
       "version": "フォフォ",
       "date": "2023-11-15",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000144.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.1.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2023年11月15日Ver.1.5前半『貞凶の令を承りて』フォフォを会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-12-06-103",
@@ -1445,13 +1445,13 @@
       "type": "character",
       "version": "アルジェンティ",
       "date": "2023-12-06",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000148.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.1.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2023年12月6日Ver.1.5後半アルジェンティ『荊冠と勲章』・銀狼『零号協定』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-12-06-104",
@@ -1459,13 +1459,13 @@
       "type": "character",
       "version": "銀狼（復刻）",
       "date": "2023-12-06",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000148.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.1.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2023年12月6日Ver.1.5後半アルジェンティ『荊冠と勲章』・銀狼『零号協定』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-12-27-105",
@@ -1473,13 +1473,13 @@
       "type": "character",
       "version": "ルアン・メェイ",
       "date": "2023-12-27",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000162.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.1.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2023年12月27日Ver.1.6前半ルアン・メェイ『疎影三迭』・刃『業途を彷徨う魂』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2023-12-27-106",
@@ -1487,13 +1487,13 @@
       "type": "character",
       "version": "刃（復刻）",
       "date": "2023-12-27",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000162.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.1.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2023年12月27日Ver.1.6前半ルアン・メェイ『疎影三迭』・刃『業途を彷徨う魂』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-01-17-107",
@@ -1501,13 +1501,13 @@
       "type": "character",
       "version": "Dr.レイシオ",
       "date": "2024-01-17",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000171.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.1.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2024年1月17日Ver.1.6後半Dr.レイシオ『パンタ・レイ』・カフカ『夜は眠らぬ』復刻を会社公式発表で照合（記事内年号の誤植に注意）"
     },
     {
       "id": "history-hsr-2024-01-17-108",
@@ -1515,13 +1515,13 @@
       "type": "character",
       "version": "カフカ（復刻）",
       "date": "2024-01-17",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000171.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.1.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2024年1月17日Ver.1.6後半Dr.レイシオ『パンタ・レイ』・カフカ『夜は眠らぬ』復刻を会社公式発表で照合（記事内年号の誤植に注意）"
     },
     {
       "id": "history-hsr-2024-02-06-109",
@@ -1529,13 +1529,13 @@
       "type": "character",
       "version": "ブラックスワン",
       "date": "2024-02-06",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000181.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.2.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2024年2月6日Ver.2.0前半ブラックスワン『鏡に映る舞』・丹恒・飲月復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-02-06-110",
@@ -1543,13 +1543,13 @@
       "type": "character",
       "version": "丹恒・飲月（復刻）",
       "date": "2024-02-06",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000181.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.2.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2024年2月6日Ver.2.0前半ブラックスワン『鏡に映る舞』・丹恒・飲月復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-02-29-111",
@@ -1557,13 +1557,13 @@
       "type": "character",
       "version": "花火",
       "date": "2024-02-29",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000184.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.2.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2024年2月29日Ver.2.0後半花火『焔錦に遊魚』・景元『奔放な天矛』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-02-29-112",
@@ -1571,13 +1571,13 @@
       "type": "character",
       "version": "景元（復刻）",
       "date": "2024-02-29",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "歴代限定ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000184.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.2.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開ガチャ履歴から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "2024年2月29日Ver.2.0後半花火『焔錦に遊魚』・景元『奔放な天矛』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-03-27-113",
@@ -1627,13 +1627,13 @@
       "type": "character",
       "version": "鏡流（復刻）",
       "date": "2024-04-17",
-      "source_url": "https://game8.co/games/Honkai-Star-Rail/archives/447025",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000200.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.2.1",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ピックアップ開催記録を参照。公式告知との個別照合は未完了"
+      "verification": "official",
+      "review_note": "2024年4月17日Ver.2.1後半鏡流『淡く月欠けて』復刻を会社公式発表で照合"
     },
     {
       "id": "history-ww-2025-10-09-117",
@@ -2117,13 +2117,13 @@
       "type": "character",
       "version": "雲璃",
       "date": "2024-07-31",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000233.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.2.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024年7月31日Ver.2.4前半雲璃『擲山破雲』・フォフォ『貞凶の令を承りて』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-07-31-152",
@@ -2131,13 +2131,13 @@
       "type": "character",
       "version": "フォフォ（復刻）",
       "date": "2024-07-31",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000233.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "first",
       "version_group": "Ver.2.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024年7月31日Ver.2.4前半雲璃『擲山破雲』・フォフォ『貞凶の令を承りて』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-08-21-153",
@@ -2145,13 +2145,13 @@
       "type": "character",
       "version": "椒丘",
       "date": "2024-08-21",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000238.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.2.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024年8月21日Ver.2.4後半椒丘『鼎に見る計略』・花火『焔錦に遊魚』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-08-21-154",
@@ -2159,13 +2159,13 @@
       "type": "character",
       "version": "花火（復刻）",
       "date": "2024-08-21",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000238.000096124.html",
+      "source_title": "COGNOSPHERE（HoYoverse）公式プレスリリース",
       "phase": "second",
       "version_group": "Ver.2.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "2024年8月21日Ver.2.4後半椒丘『鼎に見る計略』・花火『焔錦に遊魚』復刻を会社公式発表で照合"
     },
     {
       "id": "history-hsr-2024-09-10-155",
