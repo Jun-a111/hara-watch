@@ -316,8 +316,16 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                          len(special))
         self.assertTrue(all(e["event_kind"] == "rerun" for e in special))
         html = (SITE / "index.html").read_text(encoding="utf-8")
-        self.assertGreaterEqual(html.count('"anniversary_convene","special_rerun"'), 2)
-        self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', html)
+        ranking = html[html.index("function characterRanking()"):
+                       html.index("function ", html.index("function characterRanking()") + 30)]
+        updates = html[html.index("function updates(){"):
+                       html.index("function ", html.index("function updates(){") + 20)]
+        phases = html[html.index("function phaseBattles()"):
+                      html.index("function updates(){")]
+        self.assertIn('"special_rerun"', ranking)
+        self.assertIn('!specialTypes.includes(ev.banner_type)', updates)
+        self.assertIn('!specialTypes.includes(e.banner_type)', phases)
+        self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
 
     def test_unconfirmed_schedule_is_labeled_as_unconfirmed(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
