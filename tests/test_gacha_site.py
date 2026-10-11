@@ -119,6 +119,22 @@ class SiteTests(unittest.TestCase):
                          "duplicate character banner on the same date")
 
 
+    def test_special_banner_types_are_explicit_and_separate(self):
+        events = self.read("release-events.json")["events"]
+        special_types = {
+            "anniversary_convene", "special_rerun", "event_wish_four_star",
+            "chronicled_wish", "standard_character_event"
+        }
+        specials = [e for e in events if e.get("banner_type")]
+        self.assertGreaterEqual(len(specials), 20)
+        for event in specials:
+            self.assertIn(event["banner_type"], special_types)
+            self.assertEqual(event["type"], "character")
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        # Both the actual group filter and the coverage counters must agree.
+        for kind in special_types:
+            self.assertGreaterEqual(html.count('"' + kind + '"'), 2, kind)
+
     def test_youtube_archive_over_3000_records(self):
         """A missing API key must not truncate or corrupt a large archive."""
         import os
