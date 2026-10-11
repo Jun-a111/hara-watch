@@ -1,0 +1,34 @@
+name: GACHA WARS checks
+
+on:
+  push:
+    paths:
+      - 'gacha-wars/**'
+      - 'tests/test_gacha_site.py'
+      - 'scripts/update_gacha_youtube.py'
+      - '.github/workflows/gacha-wars-checks.yml'
+  pull_request:
+    paths:
+      - 'gacha-wars/**'
+      - 'tests/test_gacha_site.py'
+      - 'scripts/update_gacha_youtube.py'
+      - '.github/workflows/gacha-wars-checks.yml'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Run GACHA WARS regression tests
+        run: python -m unittest discover -s tests -p 'test_gacha_site.py' -v
