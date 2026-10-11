@@ -504,14 +504,23 @@ assert.equal(stats.best,7);
         end = html.index("function isFresh(", start)
         code = html[start:end]
         self.assertIn('t>Date.now()+3600000', code)
-        self.assertIn('validRankValue(x.value)', code)
+        self.assertIn('validMetricValue(x.kind,x.value)', code)
         self.assertIn('Date.parse(b.date)-Date.parse(a.date)', code)
 
     def test_history_nonrank_values_are_validated(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
         code = html[html.index("function recs("):html.index("function isFresh(")]
-        self.assertIn('x.value.trim()!==""', code)
-        self.assertIn('Number.isInteger(v)&&v>=0', code)
+        self.assertIn('validMetricValue(x.kind,x.value)', code)
+        helper = html[html.index('function validMetricValue('):html.index('function latest(')]
+        self.assertIn('value.trim()!==""', helper)
+        self.assertIn('Number.isInteger(v)&&v>=0', helper)
+
+    def test_latest_and_history_share_metric_validation(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        latest = html[html.index("function latest("):html.index("function recs(")]
+        history = html[html.index("function recs("):html.index("function isFresh(")]
+        self.assertIn("validMetricValue(kind,x.value)", latest)
+        self.assertIn("validMetricValue(x.kind,x.value)", history)
 
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
