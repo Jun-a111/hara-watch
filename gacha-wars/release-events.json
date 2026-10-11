@@ -2801,15 +2801,15 @@
       "id": "history-hsr-2025-08-13-200",
       "game": "hsr",
       "type": "character",
-      "version": "ヒシレンス",
+      "version": "セイレンス",
       "date": "2025-08-13",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000336.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.3.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/8/13告知に新登場セイレンスとカフカ復刻、同日開催を明記。英語名Hysilensの日本語公式名はセイレンス。"
     },
     {
       "id": "history-hsr-2025-08-13-201",
@@ -2817,13 +2817,13 @@
       "type": "character",
       "version": "カフカ（復刻）",
       "date": "2025-08-13",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000336.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/8/13告知に新登場セイレンスとカフカ復刻、同日開催を明記。英語名Hysilensの日本語公式名はセイレンス。"
     },
     {
       "id": "history-hsr-2025-09-02-202",
@@ -2831,13 +2831,13 @@
       "type": "character",
       "version": "ケリュドラ",
       "date": "2025-09-02",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000344.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/9/2告知にケリュドラ初登場と銀狼復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2025-09-02-203",
@@ -2845,13 +2845,13 @@
       "type": "character",
       "version": "銀狼（復刻）",
       "date": "2025-09-02",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000344.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/9/2告知にケリュドラ初登場と銀狼復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2025-09-24-204",
@@ -2859,13 +2859,13 @@
       "type": "character",
       "version": "長夜月",
       "date": "2025-09-24",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000350.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.3.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/9/24告知に長夜月初登場とマダム・ヘルタ復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2025-09-24-205",
@@ -2873,13 +2873,13 @@
       "type": "character",
       "version": "マダム・ヘルタ（復刻）",
       "date": "2025-09-24",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000350.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.3.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/9/24告知に長夜月初登場とマダム・ヘルタ復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2025-10-15-206",
@@ -2887,13 +2887,13 @@
       "type": "character",
       "version": "丹恒・騰荒",
       "date": "2025-10-15",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000355.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/10/15告知に丹恒・騰荒初登場とアナイクス復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2025-10-15-207",
@@ -2901,13 +2901,13 @@
       "type": "character",
       "version": "アナイクス（復刻）",
       "date": "2025-10-15",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000355.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.3.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2025/10/15告知に丹恒・騰荒初登場とアナイクス復刻、同日開催を明記。"
     },
     {
       "id": "history-gi-2022-01-25-208",
@@ -6359,13 +6359,13 @@
       "type": "character",
       "version": "爻光",
       "date": "2026-02-13",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/2/13告知に爻光初登場、長夜月・セイレンス・ブラックスワンの復刻、同日開催を明記。『ヒシレンス』は公式日本語名『セイレンス』に修正。"
     },
     {
       "id": "history-hsr-2026-02-13-455",
@@ -6373,27 +6373,27 @@
       "type": "character",
       "version": "長夜月（復刻）",
       "date": "2026-02-13",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/2/13告知に爻光初登場、長夜月・セイレンス・ブラックスワンの復刻、同日開催を明記。『ヒシレンス』は公式日本語名『セイレンス』に修正。"
     },
     {
       "id": "history-hsr-2026-02-13-456",
       "game": "hsr",
       "type": "character",
-      "version": "ヒシレンス（復刻）",
+      "version": "セイレンス（復刻）",
       "date": "2026-02-13",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/2/13告知に爻光初登場、長夜月・セイレンス・ブラックスワンの復刻、同日開催を明記。『ヒシレンス』は公式日本語名『セイレンス』に修正。"
     },
     {
       "id": "history-hsr-2026-02-13-457",
@@ -6401,13 +6401,13 @@
       "type": "character",
       "version": "ブラックスワン（復刻）",
       "date": "2026-02-13",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/2/13告知に爻光初登場、長夜月・セイレンス・ブラックスワンの復刻、同日開催を明記。『ヒシレンス』は公式日本語名『セイレンス』に修正。"
     },
     {
       "id": "history-hsr-2026-03-03-458",
@@ -6415,13 +6415,13 @@
       "type": "character",
       "version": "火花",
       "date": "2026-03-03",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/3/3告知に火花初登場、ケリュドラ・乱破・花火復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2026-03-03-459",
@@ -6429,13 +6429,13 @@
       "type": "character",
       "version": "ケリュドラ（復刻）",
       "date": "2026-03-03",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/3/3告知に火花初登場、ケリュドラ・乱破・花火復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2026-03-03-460",
@@ -6443,13 +6443,13 @@
       "type": "character",
       "version": "乱破（復刻）",
       "date": "2026-03-03",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/3/3告知に火花初登場、ケリュドラ・乱破・花火復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2026-03-03-461",
@@ -6457,27 +6457,27 @@
       "type": "character",
       "version": "花火（復刻）",
       "date": "2026-03-03",
-      "source_url": "https://www.starrailbuilds.com/versions/version-4-0",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "second",
       "version_group": "Ver.4.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/3/3告知に火花初登場、ケリュドラ・乱破・花火復刻、同日開催を明記。"
     },
     {
       "id": "history-hsr-2026-03-25-462",
       "game": "hsr",
       "type": "character",
-      "version": "アッシュベール",
+      "version": "不死途",
       "date": "2026-03-25",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/3/25告知に不死途初登場とヒアンシー復刻を記載。『アッシュベール』は英語名Ashveilであり、日本語正式名『不死途』へ訂正。"
     },
     {
       "id": "history-hsr-2026-03-25-463",
@@ -6485,13 +6485,13 @@
       "type": "character",
       "version": "ヒアンシー（復刻）",
       "date": "2026-03-25",
-      "source_url": "https://astravoy.net/hsr/banners/history",
-      "source_title": "HSR Banner History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
+      "source_title": "COGNOSPHERE公式イベント跳躍告知",
       "phase": "first",
       "version_group": "Ver.4.1",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "日付と登場枠を公開履歴で照合。公式告知の個別照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE公式2026/3/25告知に不死途初登場とヒアンシー復刻を記載。『アッシュベール』は英語名Ashveilであり、日本語正式名『不死途』へ訂正。"
     },
     {
       "id": "history-hsr-2026-04-08-464",
