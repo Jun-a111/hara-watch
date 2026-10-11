@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-11T06:40:00Z",
+  "updated_at": "2026-10-11T08:50:00Z",
   "events": [
     {
       "id": "zzz-3.2",
@@ -7455,6 +7455,52 @@
       "source_title": "ゲームエイト・過去の復刻ガチャ開催履歴",
       "verification": "secondary",
       "review_note": "日本版2026年8月19日開始の復刻対象として国内履歴とIcy Veinsを照合。公式個別告知は未確認"
+    },
+    {
+      "id": "scheduled-nte-1.4-akane-rin",
+      "game": "nte",
+      "type": "character",
+      "version": "Akane Rin",
+      "date": "2026-10-21",
+      "phase": "second",
+      "version_group": "Ver.1.4",
+      "event_kind": "debut",
+      "schedule_status": "announced",
+      "source_url": "https://www.itechguides.com/neverness-to-everness-banners-current-and-next-october-2026/",
+      "source_title": "NTE Ver.1.4ガチャ日程・外部掲載",
+      "verification": "secondary",
+      "review_note": "2026年10月11日時点の外部掲載予定。開催前、公式個別告知未確認。日付はUTC+8基準"
+    },
+    {
+      "id": "scheduled-end-1.6-si",
+      "game": "end",
+      "type": "character",
+      "version": "Si",
+      "date": "2026-10-15",
+      "phase": "first",
+      "version_group": "Ver.1.6",
+      "event_kind": "debut",
+      "schedule_status": "announced",
+      "source_url": "https://endfieldhub.org/tools/banner-history",
+      "source_title": "Endfield Hub・Ver.1.6ガチャ予定",
+      "verification": "secondary",
+      "review_note": "2026年10月7日更新の予定表。開催前の見込み日であり実施確定ではない"
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "type": "character",
+      "version": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "phase": "first",
+      "version_group": "Ver.1.6",
+      "event_kind": "rerun",
+      "banner_type": "special_rerun",
+      "schedule_status": "announced",
+      "source_url": "https://endfieldhub.org/tools/banner-history",
+      "source_title": "Endfield Hub・Ver.1.6 RE-Factorガチャ予定",
+      "verification": "secondary",
+      "review_note": "RE-Factor特別復刻として掲載。開催前の予定で通常限定ガチャとは別枠"
     }
   ]
 }
