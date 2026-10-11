@@ -463,6 +463,35 @@ assert.equal(latest("ww","global","steam","steam").value,1200);
             path.write_text(function + "\n" + scenario, encoding="utf-8")
             subprocess.run(["node", str(path)], check=True, capture_output=True, text=True)
 
+    def test_rank_statistics_reject_blank_and_boolean_values(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        script = html[html.index("function validRankValue("):
+                      html.index("function observationQuality(")]
+        scenario = r"""
+const assert=require("node:assert/strict");
+let records=[],autoRecords=[],region="jp",store="ios";
+const day=86400000;
+const now=Date.parse(new Date(Date.now()+9*3600000).toISOString().slice(0,10)+"T00:00:00Z");
+const start=new Date(now-20*day).toISOString().slice(0,10);
+records=[
+ {game:"ww",region:"jp",store:"ios",kind:"rank",date:start,value:7},
+ {game:"ww",region:"jp",store:"ios",kind:"rank",date:start,value:true},
+ {game:"ww",region:"jp",store:"ios",kind:"rank",date:new Date(now-19*day).toISOString().slice(0,10),value:" "}
+];
+assert.equal(validRankValue(true),false);
+assert.equal(validRankValue(" "),false);
+assert.equal(validRankValue("7"),true);
+const stats=periodStats("ww",start,true);
+assert.equal(stats.days,1);
+assert.equal(stats.best,7);
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            script_path=Path(temp)/"rank-values.cjs"
+            script_path.write_text(script+"\n"+scenario, encoding="utf-8")
+            subprocess.run(["node",str(script_path)],check=True,
+                           capture_output=True,text=True)
+        self.assertIn("!validRankValue(r.value)", html[html.index("function phaseTrend("):html.index("function phaseBattles(")])
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
