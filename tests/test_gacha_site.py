@@ -94,6 +94,44 @@ class SiteTests(unittest.TestCase):
         phase = html[start:end]
         self.assertIn("Number.isFinite(t)&&t<=today&&i>=0&&i<14", phase)
 
+    def test_period_stats_runtime_scenarios(self):
+        """Execute the actual inline JS with complete, missing and future rows."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        day_start = html.index("function observationDay(")
+        day_end = html.index("function observationQuality(", day_start)
+        functions = html[day_start:day_end]
+        scenario = r"""
+const assert = require("node:assert/strict");
+let records = [], autoRecords = [], region = "jp", store = "ios";
+const dayMs = 86400000;
+const current = new Date(Date.now() + 9 * 3600000).toISOString().slice(0,10);
+const today = Date.parse(current+"T00:00:00Z");
+const start = new Date(today-20*dayMs).toISOString().slice(0,10);
+const make = i => ({
+  game:"ww",kind:"rank",region:"jp",store:"ios",value:i+1,
+  date:new Date(Date.parse(start+"T00:00:00Z")+i*dayMs).toISOString().slice(0,10)
+});
+records = Array.from({length:14},(_,i)=>make(i));
+let full = periodStats("ww",start,true);
+assert.equal(full.days,14);
+assert.equal(full.complete,true);
+assert.equal(full.best,1);
+records.splice(5,1);
+let missing = periodStats("ww",start,true);
+assert.equal(missing.days,13);
+assert.equal(missing.complete,false);
+records = [make(0)];
+const futureStart = new Date(today+2*dayMs).toISOString().slice(0,10);
+assert.equal(periodStats("ww",futureStart,true),null);
+records.push({...make(1),date:new Date(today+10*dayMs).toISOString()});
+assert.equal(periodStats("ww",start,true).days,1);
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "period-scenarios.cjs"
+            path.write_text(functions + "\n" + scenario, encoding="utf-8")
+            subprocess.run(["node", str(path)], check=True,
+                           capture_output=True, text=True)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
