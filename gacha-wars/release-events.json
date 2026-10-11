@@ -1655,13 +1655,13 @@
       "type": "character",
       "version": "ルパ（復刻）",
       "date": "2025-10-09",
-      "source_url": "https://wutheringpity.com/wuthering-waves/banner-history/",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "鳴潮公式ニュース一覧：2025年10月8日[Roar of Triumph] Lupa復刻告知",
       "phase": "first",
       "version_group": "Ver.2.7",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ピックアップ開催記録を参照。公式告知との個別照合は未完了"
+      "verification": "official",
+      "review_note": "公式ニュースの2025-10-08『Roar of Triumph / Boosted Drop Rate for Lupa』掲載と2025-10-09 Ver.2.7リリースを照合。"
     },
     {
       "id": "history-ww-2025-10-30-119",
@@ -6233,13 +6233,13 @@
       "type": "character",
       "version": "ルーシー",
       "date": "2026-06-08",
-      "source_url": "https://beebom.com/wuthering-waves-banners/",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4765",
+      "source_title": "鳴潮公式Ver.3.4更新・コラボキャラ告知",
       "phase": "first",
       "version_group": "Ver.3.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "公式Ver.3.4メンテナンス告知で2026-06-08更新とLucyが[Dreaming Upon the Moon]コラボ集音で登場することを明記。"
     },
     {
       "id": "history-ww-2026-06-08-446",
@@ -6247,13 +6247,13 @@
       "type": "character",
       "version": "レベッカ",
       "date": "2026-06-08",
-      "source_url": "https://beebom.com/wuthering-waves-banners/",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4765",
+      "source_title": "鳴潮公式Ver.3.4更新・コラボキャラ告知",
       "phase": "first",
       "version_group": "Ver.3.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "公式Ver.3.4メンテナンス告知で2026-06-08更新とRebeccaが[Rekindled Embers of Rage]コラボ集音で登場することを明記。"
     },
     {
       "id": "history-ww-2026-06-13-447",
@@ -6261,13 +6261,13 @@
       "type": "character",
       "version": "ルシラー",
       "date": "2026-06-13",
-      "source_url": "https://beebom.com/wuthering-waves-banners/",
-      "source_title": "歴代限定キャラガチャ開催履歴",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "source_title": "鳴潮公式ニュース一覧：2026年6月12日[Tomorrow in the Frame] Lucilla集音",
       "phase": "second",
       "version_group": "Ver.3.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開のガチャ履歴・開催日を照合。個別公式告知との突合せは未完了"
+      "verification": "official",
+      "review_note": "公式ニュースに2026-06-12付『Tomorrow in the Frame』Lucilla集音告知、別資料で2026-06-13 10:00開始を照合。"
     },
     {
       "id": "history-ww-2026-06-18-448",
