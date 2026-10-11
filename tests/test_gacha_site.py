@@ -79,6 +79,14 @@ class SiteTests(unittest.TestCase):
         self.assertIn('"集計期間途中 "+p.days+"/14日"', html)
         self.assertIn('complete:after&&possible>=14&&daily.size===14', html)
 
+    def test_future_rank_observations_are_excluded(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function periodStats(")
+        end = html.index("function observationQuality(", start)
+        period = html[start:end]
+        self.assertIn("t>=max||t>current", period)
+        self.assertIn("complete:after&&possible>=14&&daily.size===14", period)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
