@@ -132,6 +132,14 @@ assert.equal(periodStats("ww",start,true).days,1);
             subprocess.run(["node", str(path)], check=True,
                            capture_output=True, text=True)
 
+    def test_14_day_window_waits_until_next_day(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function periodStats(")
+        end = html.index("function observationQuality(", start)
+        period = html[start:end]
+        self.assertIn("Math.floor((current-start)/86400000))):7", period)
+        self.assertNotIn("Math.floor((current-start)/86400000)+1", period)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
