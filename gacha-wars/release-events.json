@@ -62,11 +62,11 @@
       "date": "2026-06-09",
       "phase": "second",
       "version_group": "Luna VII",
-      "source_url": "https://dengekionline.com/article/202606/76856",
-      "source_title": "電撃オンライン・原神公式X祈願予告引用（2026年6月）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000415.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-06-09のガチャ開催発表",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "2026年6月9日開始のLuna VII後半について、原神公式X告知を引用した電撃オンライン記事と祈願告知転載でキャラ・日付・区分を照合。公式サイト本文の直接取得は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-06-09当日のガチャ告知で対象星5『ローエン』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "gi-luna-vii-mavuika-rerun",
@@ -76,11 +76,11 @@
       "date": "2026-06-09",
       "phase": "second",
       "version_group": "Luna VII",
-      "source_url": "https://dengekionline.com/article/202606/76856",
-      "source_title": "電撃オンライン・原神公式X祈願予告引用（2026年6月）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000415.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-06-09のガチャ開催発表",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "2026年6月9日開始のLuna VII後半について、原神公式X告知を引用した電撃オンライン記事と祈願告知転載でキャラ・日付・区分を照合。公式サイト本文の直接取得は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-06-09当日のガチャ告知で対象星5『マーヴィカ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "ww-3.7",
@@ -4987,13 +4987,13 @@
       "type": "character",
       "version": "コロンビーナ",
       "date": "2026-01-14",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-01-14のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna IV",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-01-14当日のガチャ告知で対象星5『コロンビーナ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-01-14-357",
@@ -5001,13 +5001,13 @@
       "type": "character",
       "version": "イネファ（復刻）",
       "date": "2026-01-14",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-01-14のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna IV",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-01-14当日のガチャ告知で対象星5『イネファ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-02-03-358",
@@ -5015,13 +5015,13 @@
       "type": "character",
       "version": "茲白",
       "date": "2026-02-03",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000382.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-03のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna IV",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-02-03当日のガチャ告知で対象星5『茲白』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。 公式プレスリリースでは字形が「兹白」となっている。"
     },
     {
       "id": "historical-gi-2026-02-03-359",
@@ -5029,13 +5029,13 @@
       "type": "character",
       "version": "ヌヴィレット（復刻）",
       "date": "2026-02-03",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000382.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-03のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna IV",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-02-03当日のガチャ告知で対象星5『ヌヴィレット』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-02-25-360",
@@ -5043,13 +5043,13 @@
       "type": "character",
       "version": "ファルカ",
       "date": "2026-02-25",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-25のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna V",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-02-25当日のガチャ告知で対象星5『ファルカ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-02-25-361",
@@ -5057,13 +5057,13 @@
       "type": "character",
       "version": "フリンズ（復刻）",
       "date": "2026-02-25",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-02-25のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna V",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-02-25当日のガチャ告知で対象星5『フリンズ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-03-17-362",
@@ -5071,13 +5071,13 @@
       "type": "character",
       "version": "スカーク（復刻）",
       "date": "2026-03-17",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000395.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-03-17のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna V",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-03-17当日のガチャ告知で対象星5『スカーク』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-03-17-363",
@@ -5085,13 +5085,13 @@
       "type": "character",
       "version": "エスコフィエ（復刻）",
       "date": "2026-03-17",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000395.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-03-17のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna V",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-03-17当日のガチャ告知で対象星5『エスコフィエ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-04-08-364",
@@ -5099,13 +5099,13 @@
       "type": "character",
       "version": "リンネア",
       "date": "2026-04-08",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-08のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna VI",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-04-08当日のガチャ告知で対象星5『リンネア』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-04-08-365",
@@ -5113,13 +5113,13 @@
       "type": "character",
       "version": "チャスカ（復刻）",
       "date": "2026-04-08",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-08のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna VI",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-04-08当日のガチャ告知で対象星5『チャスカ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-04-28-366",
@@ -5127,13 +5127,13 @@
       "type": "character",
       "version": "ネフェル（復刻）",
       "date": "2026-04-28",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000405.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-28のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna VI",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-04-28当日のガチャ告知で対象星5『ネフェル』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-04-28-367",
@@ -5141,13 +5141,13 @@
       "type": "character",
       "version": "ラウマ（復刻）",
       "date": "2026-04-28",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000405.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-04-28のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna VI",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-04-28当日のガチャ告知で対象星5『ラウマ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-05-20-368",
@@ -5155,13 +5155,13 @@
       "type": "character",
       "version": "ニコ",
       "date": "2026-05-20",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000408.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-05-20のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna VII",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-05-20当日のガチャ告知で対象星5『ニコ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-05-20-369",
@@ -5169,13 +5169,13 @@
       "type": "character",
       "version": "ドゥリン（復刻）",
       "date": "2026-05-20",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000408.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-05-20のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna VII",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-05-20当日のガチャ告知で対象星5『ドゥリン』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-07-01-370",
@@ -5183,13 +5183,13 @@
       "type": "character",
       "version": "サンドローネ",
       "date": "2026-07-01",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-01のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna VIII",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-07-01当日のガチャ告知で対象星5『サンドローネ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-07-01-371",
@@ -5197,13 +5197,13 @@
       "type": "character",
       "version": "シトラリ（復刻）",
       "date": "2026-07-01",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-01のガチャ開催発表",
       "phase": "first",
       "version_group": "Luna VIII",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-07-01当日のガチャ告知で対象星5『シトラリ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-07-21-372",
@@ -5211,13 +5211,13 @@
       "type": "character",
       "version": "コロンビーナ（復刻）",
       "date": "2026-07-21",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000426.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-21のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna VIII",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-07-21当日のガチャ告知で対象星5『コロンビーナ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-07-21-373",
@@ -5225,13 +5225,13 @@
       "type": "character",
       "version": "雷電将軍（復刻）",
       "date": "2026-07-21",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000426.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-07-21のガチャ開催発表",
       "phase": "second",
       "version_group": "Luna VIII",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-07-21当日のガチャ告知で対象星5『雷電将軍』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-08-12-374",
@@ -5239,13 +5239,13 @@
       "type": "character",
       "version": "オデット",
       "date": "2026-08-12",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000436.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-08-12のガチャ開催発表",
       "phase": "first",
       "version_group": "Ver.7.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-08-12当日のガチャ告知で対象星5『オデット』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-08-12-375",
@@ -5253,13 +5253,13 @@
       "type": "character",
       "version": "アルレッキーノ（復刻）",
       "date": "2026-08-12",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000436.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-08-12のガチャ開催発表",
       "phase": "first",
       "version_group": "Ver.7.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-08-12当日のガチャ告知で対象星5『アルレッキーノ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-09-01-376",
@@ -5267,13 +5267,13 @@
       "type": "character",
       "version": "フリンズ（復刻）",
       "date": "2026-09-01",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-01のガチャ開催発表",
       "phase": "second",
       "version_group": "Ver.7.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-09-01当日のガチャ告知で対象星5『フリンズ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-09-01-377",
@@ -5281,13 +5281,13 @@
       "type": "character",
       "version": "イネファ（復刻）",
       "date": "2026-09-01",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-01のガチャ開催発表",
       "phase": "second",
       "version_group": "Ver.7.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-09-01当日のガチャ告知で対象星5『イネファ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-09-23-378",
@@ -5295,13 +5295,13 @@
       "type": "character",
       "version": "ヴェスナ",
       "date": "2026-09-23",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000449.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-23のガチャ開催発表",
       "phase": "first",
       "version_group": "Ver.7.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-09-23当日のガチャ告知で対象星5『ヴェスナ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "historical-gi-2026-09-23-379",
@@ -5309,13 +5309,13 @@
       "type": "character",
       "version": "ヴォジャニーツァ",
       "date": "2026-09-23",
-      "source_url": "https://game8.jp/genshin/631517",
-      "source_title": "ゲームエイト・過去のガチャ開催スケジュール（2026-10-08更新）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000449.000096124.html",
+      "source_title": "株式会社COGNOSPHERE：2026-09-23のガチャ開催発表",
       "phase": "first",
       "version_group": "Ver.7.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "過去のガチャ開催履歴より登録。個別公式告知との照合は未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHEREによる2026-09-23当日のガチャ告知で対象星5『ヴォジャニーツァ』と開始日を照合。初登場/復刻区分は過去の初登場履歴にも一致。"
     },
     {
       "id": "history-ww-2026-02-05-380",
