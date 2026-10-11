@@ -116,6 +116,18 @@ let full = periodStats("ww",start,true);
 assert.equal(full.days,14);
 assert.equal(full.complete,true);
 assert.equal(full.best,1);
+// The 14th observation can exist on the 14th calendar day, but that
+// day is still in progress and must not be treated as a final result.
+const ongoingStart = new Date(today-13*dayMs).toISOString().slice(0,10);
+const ongoingMake = i => ({
+  ...make(i),
+  date:new Date(Date.parse(ongoingStart+"T00:00:00Z")+i*dayMs).toISOString().slice(0,10)
+});
+records = Array.from({length:14},(_,i)=>ongoingMake(i));
+const ongoing = periodStats("ww",ongoingStart,true);
+assert.equal(ongoing.days,14);
+assert.equal(ongoing.complete,false);
+records = Array.from({length:14},(_,i)=>make(i));
 records.splice(5,1);
 let missing = periodStats("ww",start,true);
 assert.equal(missing.days,13);
