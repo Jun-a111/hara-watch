@@ -407,6 +407,15 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('e.date<today&&e.schedule_status!=="announced"', calendar)
         self.assertIn("const events=[...upcoming,...overdue,...recent]", calendar)
 
+    def test_event_timing_keeps_unconfirmed_status(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function eventTiming(")
+        end = html.index("function phaseLabel(", start)
+        timing = html[start:end]
+        self.assertIn('e.schedule_status==="announced"', timing)
+        self.assertIn("予定日経過・実施未確認", timing)
+        self.assertIn("外部資料の予定・未確定", timing)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
