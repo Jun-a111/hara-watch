@@ -62,11 +62,11 @@
       "date": "2026-06-09",
       "phase": "second",
       "version_group": "Luna VII",
-      "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
-      "source_title": "Version Luna VII Event Wishes Notice - Phase II",
+      "source_url": "https://dengekionline.com/article/202606/76856",
+      "source_title": "電撃オンライン・原神公式X祈願予告引用（2026年6月）",
       "event_kind": "debut",
-      "verification": "unreviewed",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "verification": "secondary",
+      "review_note": "2026年6月9日開始のLuna VII後半について、原神公式X告知を引用した電撃オンライン記事と祈願告知転載でキャラ・日付・区分を照合。公式サイト本文の直接取得は未完了"
     },
     {
       "id": "gi-luna-vii-mavuika-rerun",
@@ -76,11 +76,11 @@
       "date": "2026-06-09",
       "phase": "second",
       "version_group": "Luna VII",
-      "source_url": "https://genshin.hoyoverse.com/m/en/news/detail/164591",
-      "source_title": "Luna VII 後半の公式祈願告知",
+      "source_url": "https://dengekionline.com/article/202606/76856",
+      "source_title": "電撃オンライン・原神公式X祈願予告引用（2026年6月）",
       "event_kind": "rerun",
-      "verification": "unreviewed",
-      "review_note": "出典ページの本文とキャラ名・実装日・前半後半の突合せが未完了"
+      "verification": "secondary",
+      "review_note": "2026年6月9日開始のLuna VII後半について、原神公式X告知を引用した電撃オンライン記事と祈願告知転載でキャラ・日付・区分を照合。公式サイト本文の直接取得は未完了"
     },
     {
       "id": "ww-3.7",
