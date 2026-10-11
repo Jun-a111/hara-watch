@@ -152,6 +152,37 @@ assert.equal(periodStats("ww",start,true).days,1);
         self.assertIn("Math.floor((current-start)/86400000))):7", period)
         self.assertNotIn("Math.floor((current-start)/86400000)+1", period)
 
+    def test_update_21_day_comparison_runtime(self):
+        """Evaluate the actual ranking function under full and missing day scenarios."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        functions = html[html.index("function observationDay("):
+                         html.index("function observationQuality(")]
+        scenario = r"""
+const assert = require("node:assert/strict");
+let records = [], autoRecords = [], region = "jp", store = "ios";
+const step = 86400000;
+const today = Date.parse(new Date(Date.now()+9*3600000).toISOString().slice(0,10)+"T00:00:00Z");
+const base = today - 30*step;
+const date = i => new Date(base+i*step).toISOString().slice(0,10);
+const sample = Array.from({length:21},(_,i)=>({
+  game:"ww",kind:"rank",region:"jp",store:"ios",date:date(i),value:i<7?20:10
+}));
+function comparable(rows) {
+  records = rows;
+  const pre = periodStats("ww",date(7),false);
+  const post = periodStats("ww",date(7),true);
+  return Boolean(pre&&post&&pre.days===7&&post.complete&&post.days===14);
+}
+assert.equal(comparable(sample),true);
+assert.equal(comparable(sample.filter((_,i)=>i!==3)),false);
+assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "comparison-21-days.cjs"
+            path.write_text(functions + "\n" + scenario, encoding="utf-8")
+            subprocess.run(["node", str(path)], check=True,
+                           capture_output=True, text=True)
+
     def test_ios_history_and_integrity(self):
         data = self.read("ios-rank-data.json")
         self.assertEqual(data["schema"], "gacha-wars-ios-v1")
