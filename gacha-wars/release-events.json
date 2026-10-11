@@ -1977,13 +1977,13 @@
       "type": "character",
       "version": "申鶴",
       "date": "2022-01-05",
-      "source_url": "https://gamingonphone.com/news/genshin-impact-all-wish-banner-history/",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000129.000048345.html",
+      "source_title": "miHoYo 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "first",
       "version_group": "Ver.2.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "miHoYo発表のイベント祈願情報で申鶴と2022-01-05の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-01-05-142",
@@ -1991,13 +1991,13 @@
       "type": "character",
       "version": "魈（復刻）",
       "date": "2022-01-05",
-      "source_url": "https://gamingonphone.com/news/genshin-impact-all-wish-banner-history/",
-      "source_title": "歴代ピックアップ開催履歴（外部資料）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000129.000048345.html",
+      "source_title": "miHoYo 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "first",
       "version_group": "Ver.2.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ一覧から採録。公式告知への個別照合は未実施"
+      "verification": "official",
+      "review_note": "miHoYo発表のイベント祈願情報で魈（復刻）と2022-01-05の開催開始を照合。"
     },
     {
       "id": "history-hsr-2024-05-08-143",
@@ -2915,13 +2915,13 @@
       "type": "character",
       "version": "鍾離（復刻）",
       "date": "2022-01-25",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000133.000048345.html",
+      "source_title": "miHoYo 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.2.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "miHoYo発表のイベント祈願情報で鍾離（復刻）と2022-01-25の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-01-25-209",
@@ -2929,13 +2929,13 @@
       "type": "character",
       "version": "甘雨（復刻）",
       "date": "2022-01-25",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000133.000048345.html",
+      "source_title": "miHoYo 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.2.4",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "miHoYo発表のイベント祈願情報で甘雨（復刻）と2022-01-25の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-02-16-210",
@@ -2943,13 +2943,13 @@
       "type": "character",
       "version": "八重神子",
       "date": "2022-02-16",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000135.000048345.html",
+      "source_title": "miHoYo 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "miHoYo発表のイベント祈願情報で八重神子と2022-02-16の開催開始を照合。2月4日付バージョン告知およびアップデート当日の実装報道を突合。"
     },
     {
       "id": "history-gi-2022-03-08-211",
@@ -2957,13 +2957,13 @@
       "type": "character",
       "version": "雷電将軍（復刻）",
       "date": "2022-03-08",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で雷電将軍（復刻）と2022-03-08の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-03-08-212",
@@ -2971,13 +2971,13 @@
       "type": "character",
       "version": "珊瑚宮心海（復刻）",
       "date": "2022-03-08",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.2.5",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で珊瑚宮心海（復刻）と2022-03-08の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-03-30-213",
@@ -2985,13 +2985,13 @@
       "type": "character",
       "version": "神里綾人",
       "date": "2022-03-30",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "first",
       "version_group": "Ver.2.6",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で神里綾人と2022-03-30の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-03-30-214",
@@ -2999,13 +2999,13 @@
       "type": "character",
       "version": "ウェンティ（復刻）",
       "date": "2022-03-30",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "first",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報でウェンティ（復刻）と2022-03-30の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-04-19-215",
@@ -3013,13 +3013,13 @@
       "type": "character",
       "version": "神里綾華（復刻）",
       "date": "2022-04-19",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000007.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.2.6",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で神里綾華（復刻）と2022-04-19の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-05-31-216",
@@ -3055,13 +3055,13 @@
       "type": "character",
       "version": "荒瀧一斗（復刻）",
       "date": "2022-06-21",
-      "source_url": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000017.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.2.7",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で荒瀧一斗（復刻）と2022-06-21の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-07-13-219",
@@ -3097,13 +3097,13 @@
       "type": "character",
       "version": "宵宮（復刻）",
       "date": "2022-08-02",
-      "source_url": "https://genshin-impact.fandom.com/wiki/Test_Run_-_Character_Trial_Event",
-      "source_title": "歴代ガチャ開催履歴",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000021.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.2.8",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公開履歴資料から採録。公式告知との個別突合せは未完了"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で宵宮（復刻）と2022-08-02の開催開始を照合。"
     },
     {
       "id": "history-zzz-2025-10-15-222",
@@ -3335,13 +3335,13 @@
       "type": "character",
       "version": "甘雨（復刻）",
       "date": "2022-09-09",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000027.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.3.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で甘雨（復刻）と2022-09-09の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-09-09-239",
@@ -3349,13 +3349,13 @@
       "type": "character",
       "version": "珊瑚宮心海（復刻）",
       "date": "2022-09-09",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000027.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.3.0",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報で珊瑚宮心海（復刻）と2022-09-09の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-09-28-240",
@@ -3391,13 +3391,13 @@
       "type": "character",
       "version": "ニィロウ",
       "date": "2022-10-14",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.3.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報でニィロウと2022-10-14の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-10-14-243",
@@ -3405,13 +3405,13 @@
       "type": "character",
       "version": "アルベド（復刻）",
       "date": "2022-10-14",
-      "source_url": "https://www.lootbar.com/blog/en/genshin-impact-banner-schedule-history.html",
-      "source_title": "Genshin Impact Banner Schedule & History",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000096124.html",
+      "source_title": "COGNOSPHERE 公式プレスリリース（開催日・対象星5キャラ）",
       "phase": "second",
       "version_group": "Ver.3.1",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "歴代限定祈願の公開開催記録。公式個別告知との照合は未実施"
+      "verification": "official",
+      "review_note": "COGNOSPHERE発表のイベント祈願情報でアルベド（復刻）と2022-10-14の開催開始を照合。"
     },
     {
       "id": "history-gi-2022-11-02-244",
