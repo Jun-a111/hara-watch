@@ -449,13 +449,13 @@
       "type": "character",
       "version": "エレン",
       "date": "2024-07-04",
-      "source_url": "https://zenless-zone-zero.fandom.com/wiki/Exclusive_Channel/History",
-      "source_title": "歴代ガチャ・イベント履歴（コミュニティ記録）",
+      "source_url": "https://zenless.gg/mellow-waveride-channel-details/",
+      "source_title": "ゼンゼロ・エレン独占変調公式告知の転載（Mellow Waveride）",
       "phase": "first",
       "version_group": "Ver.1.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "歴代ガチャ資料による日付とピックアップ情報。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "公式告知の転載にエレンの独占変調『Mellow Waveride』が配信開始時から2024年7月24日まで実施と明記。配信日は2024年7月4日。"
     },
     {
       "id": "history-zzz-2024-07-24-19",
@@ -2775,13 +2775,13 @@
       "type": "character",
       "version": "セイバー",
       "date": "2025-07-11",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000330.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・Fateコラボ跳躍（2025年7月11日）",
       "phase": "second",
       "version_group": "Ver.3.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "運営発表にコラボ限定星5セイバーのイベント跳躍『輝く聖剣の誓い』が2025年7月11日13:00（日本時間）開始と明記。"
     },
     {
       "id": "history-hsr-2025-07-11-199",
@@ -2789,13 +2789,13 @@
       "type": "character",
       "version": "アーチャー",
       "date": "2025-07-11",
-      "source_url": "https://www.lootbar.com/blog/en/honkai-star-rail-banner-schedule-history.html",
-      "source_title": "歴代跳躍の開催一覧（UTC表記は日本・アジア開始日に補正）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000330.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・Fateコラボ跳躍（2025年7月11日）",
       "phase": "second",
       "version_group": "Ver.3.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公開の歴代跳躍資料から採録。Fateコラボは通常のフェーズ分けと異なる特設ガチャ。公式告知との個別照合は未実施"
+      "verification": "official",
+      "review_note": "運営発表にコラボ限定星5アーチャーのイベント跳躍『体は剣で出来ている』が2025年7月11日13:00（日本時間）開始と明記。無料配布とは別のイベント跳躍を対象とする。"
     },
     {
       "id": "history-hsr-2025-08-13-200",
