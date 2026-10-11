@@ -5477,13 +5477,13 @@
       "type": "character",
       "version": "モーニエ（復刻）",
       "date": "2026-04-30",
-      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
-      "source_title": "鳴潮公式ニュース一覧・Ver.3.3前半集音告知（2026年4月29日掲載）",
+      "source_url": "https://wutheringwaves.kurogames.com/es/main/news/detail/4597",
+      "source_title": "鳴潮公式 Ver.3.3前半 共鳴者/武器集音告知（2026年4月29日）",
       "phase": "first",
       "version_group": "Ver.3.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公式ニュース一覧に4月29日付『Version 3.3 Featured Resonator/Weapon Convene: Phase I』の掲載を確認。2026年4月30日のVer.3.3開始も公式一覧で確認。ただし公式ガチャ告知本文でモーニエ（復刻）の復刻・開始日を直接照合できていないためsecondaryを維持。"
+      "verification": "official",
+      "review_note": "公式ガチャ告知本文で「Mornye（モーニエ）」と「Iuno（ユーノ）」がVer.3.3開始から2026年5月21日までの星5ピックアップ対象と直接確認。Ver.3.3公開日は2026年4月30日。"
     },
     {
       "id": "history-ww-2026-04-30-392",
@@ -5491,13 +5491,13 @@
       "type": "character",
       "version": "ユーノ（復刻）",
       "date": "2026-04-30",
-      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
-      "source_title": "鳴潮公式ニュース一覧・Ver.3.3前半集音告知（2026年4月29日掲載）",
+      "source_url": "https://wutheringwaves.kurogames.com/es/main/news/detail/4597",
+      "source_title": "鳴潮公式 Ver.3.3前半 共鳴者/武器集音告知（2026年4月29日）",
       "phase": "first",
       "version_group": "Ver.3.3",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "公式ニュース一覧に4月29日付『Version 3.3 Featured Resonator/Weapon Convene: Phase I』の掲載を確認。2026年4月30日のVer.3.3開始も公式一覧で確認。ただし公式ガチャ告知本文でユーノ（復刻）の復刻・開始日を直接照合できていないためsecondaryを維持。"
+      "verification": "official",
+      "review_note": "公式ガチャ告知本文で「Mornye（モーニエ）」と「Iuno（ユーノ）」がVer.3.3開始から2026年5月21日までの星5ピックアップ対象と直接確認。Ver.3.3公開日は2026年4月30日。"
     },
     {
       "id": "history-ww-2026-05-21-393",
