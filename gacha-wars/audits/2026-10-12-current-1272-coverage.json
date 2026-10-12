@@ -1,0 +1,96 @@
+{
+  "schema": "gacha-wars-current-coverage-v10",
+  "audit_date": "2026-10-12",
+  "base_audit": "gacha-wars/audits/2026-10-12-current-1164-coverage.json",
+  "data_blob_sha": "bd4064ab08744e7342b80024a41376c6481dead3",
+  "total_events": 1272,
+  "by_game": {
+    "zzz": {
+      "total": 127,
+      "official": 71,
+      "secondary": 56,
+      "unreviewed": 0
+    },
+    "gi": {
+      "total": 547,
+      "official": 547,
+      "secondary": 0,
+      "unreviewed": 0
+    },
+    "ww": {
+      "total": 251,
+      "official": 140,
+      "secondary": 111,
+      "unreviewed": 0
+    },
+    "hsr": {
+      "total": 316,
+      "official": 139,
+      "secondary": 177,
+      "unreviewed": 0
+    },
+    "end": {
+      "total": 19,
+      "official": 18,
+      "secondary": 1,
+      "unreviewed": 0
+    },
+    "nte": {
+      "total": 12,
+      "official": 12,
+      "secondary": 0,
+      "unreviewed": 0
+    }
+  },
+  "by_banner_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 318,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5,
+    "event_warp_four_star": 177,
+    "exclusive_channel_a_rank": 56,
+    "featured_convene_four_star": 135,
+    "anniversary_convene_four_star": 6,
+    "collab_convene_four_star": 6,
+    "reverb_convene_four_star": 3
+  },
+  "verification": {
+    "official": 927,
+    "secondary": 345
+  },
+  "current_batch": {
+    "previous_total": 1164,
+    "added": 108,
+    "game": "ww",
+    "banner_phases": 36,
+    "unique_dates": 32,
+    "all_secondary": true,
+    "by_type": {
+      "featured_convene_four_star": 96,
+      "anniversary_convene_four_star": 3,
+      "collab_convene_four_star": 6,
+      "reverb_convene_four_star": 3
+    },
+    "by_year": {
+      "2024": 21,
+      "2025": 45,
+      "2026": 42
+    },
+    "saved_ids_prefix": "ww-extra-four-",
+    "source_categories": [
+      "third-party article archive",
+      "official-notice mirror",
+      "community historical listing"
+    ],
+    "separate_revenue_credit": true
+  },
+  "limitations": [
+    "All 108 newly added WW four-star rosters are labeled secondary pending direct original publisher roster verification.",
+    "Previously official-labeled records were not modified.",
+    "This dated audit was derived from the prior 1,164-record audit and the exactly 108-record backfill verified during the write; the GitHub file read connector no longer returns the entire expanded file due to payload size.",
+    "The site does not yet have complete weapon banners, permanent banners, or all game histories."
+  ]
+}
