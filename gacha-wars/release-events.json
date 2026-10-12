@@ -12348,6 +12348,966 @@
         "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
       ],
       "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2025-01-01-1",
+      "game": "gi",
+      "type": "character",
+      "version": "カチーナ",
+      "date": "2025-01-01",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000275.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "マーヴィカ／シトラリ",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-01-01-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2025-01-01",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000275.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "マーヴィカ／シトラリ",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-01-01-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ディオナ",
+      "date": "2025-01-01",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000275.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "マーヴィカ／シトラリ",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-01-21-2",
+      "game": "gi",
+      "type": "character",
+      "version": "シュヴルーズ",
+      "date": "2025-01-21",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ（復刻）／クロリンデ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-01-21-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ロサリア",
+      "date": "2025-01-21",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ（復刻）／クロリンデ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-02-12-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ゴロー",
+      "date": "2025-02-12",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000290.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "夢見月瑞希／シグウィン（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-02-12-2",
+      "game": "gi",
+      "type": "character",
+      "version": "早柚",
+      "date": "2025-02-12",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000290.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "夢見月瑞希／シグウィン（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-02-12-3",
+      "game": "gi",
+      "type": "character",
+      "version": "香菱",
+      "date": "2025-02-12",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000290.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "夢見月瑞希／シグウィン（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-03-04-1",
+      "game": "gi",
+      "type": "character",
+      "version": "シャルロット",
+      "date": "2025-03-04",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000295.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "フリーナ（復刻）／リオセスリ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-03-04-2",
+      "game": "gi",
+      "type": "character",
+      "version": "重雲",
+      "date": "2025-03-04",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000295.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "フリーナ（復刻）／リオセスリ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-03-04-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ミカ",
+      "date": "2025-03-04",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000295.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "フリーナ（復刻）／リオセスリ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-03-26-2",
+      "game": "gi",
+      "type": "character",
+      "version": "シュヴルーズ",
+      "date": "2025-03-26",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000301.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヴァレサ／閑雲（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-03-26-3",
+      "game": "gi",
+      "type": "character",
+      "version": "嘉明",
+      "date": "2025-03-26",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000301.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヴァレサ／閑雲（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-04-15-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ファルザン",
+      "date": "2025-04-15",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000304.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シロネン（復刻）／ウェンティ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-04-15-2",
+      "game": "gi",
+      "type": "character",
+      "version": "北斗",
+      "date": "2025-04-15",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000304.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シロネン（復刻）／ウェンティ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-04-15-3",
+      "game": "gi",
+      "type": "character",
+      "version": "煙緋",
+      "date": "2025-04-15",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000304.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シロネン（復刻）／ウェンティ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-05-07-2",
+      "game": "gi",
+      "type": "character",
+      "version": "オロルン",
+      "date": "2025-05-07",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000310.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エスコフィエ／ナヴィア（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-05-07-3",
+      "game": "gi",
+      "type": "character",
+      "version": "レイラ",
+      "date": "2025-05-07",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000310.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エスコフィエ／ナヴィア（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-05-27-1",
+      "game": "gi",
+      "type": "character",
+      "version": "トーマ",
+      "date": "2025-05-27",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "キィニチ（復刻）／雷電将軍（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-05-27-2",
+      "game": "gi",
+      "type": "character",
+      "version": "九条裟羅",
+      "date": "2025-05-27",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "キィニチ（復刻）／雷電将軍（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-05-27-3",
+      "game": "gi",
+      "type": "character",
+      "version": "リネット",
+      "date": "2025-05-27",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "キィニチ（復刻）／雷電将軍（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-06-18-2",
+      "game": "gi",
+      "type": "character",
+      "version": "キャンディス",
+      "date": "2025-06-18",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000323.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "スカーク／申鶴（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-06-18-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ディオナ",
+      "date": "2025-06-18",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000323.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "スカーク／申鶴（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-07-08-1",
+      "game": "gi",
+      "type": "character",
+      "version": "イアンサ",
+      "date": "2025-07-08",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000327.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "マーヴィカ（復刻）／エミリエ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-07-08-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ヨォーヨ",
+      "date": "2025-07-08",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000327.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "マーヴィカ（復刻）／エミリエ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-07-08-3",
+      "game": "gi",
+      "type": "character",
+      "version": "香菱",
+      "date": "2025-07-08",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000327.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "マーヴィカ（復刻）／エミリエ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-07-30-1",
+      "game": "gi",
+      "type": "character",
+      "version": "フィッシュル",
+      "date": "2025-07-30",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000334.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "イネファ／シトラリ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-07-30-2",
+      "game": "gi",
+      "type": "character",
+      "version": "セトス",
+      "date": "2025-07-30",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000334.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "イネファ／シトラリ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-07-30-3",
+      "game": "gi",
+      "type": "character",
+      "version": "行秋",
+      "date": "2025-07-30",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000334.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Ver.5.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "イネファ／シトラリ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-08-19-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2025-08-19",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000337.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ムアラニ（復刻）／チャスカ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-08-19-2",
+      "game": "gi",
+      "type": "character",
+      "version": "オロルン",
+      "date": "2025-08-19",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000337.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ムアラニ（復刻）／チャスカ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-08-19-3",
+      "game": "gi",
+      "type": "character",
+      "version": "イファ",
+      "date": "2025-08-19",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000337.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Ver.5.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ムアラニ（復刻）／チャスカ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-09-10-1",
+      "game": "gi",
+      "type": "character",
+      "version": "バーバラ",
+      "date": "2025-09-10",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna I",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ラウマ／ナヒーダ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-09-10-2",
+      "game": "gi",
+      "type": "character",
+      "version": "久岐忍",
+      "date": "2025-09-10",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna I",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ラウマ／ナヒーダ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-09-10-3",
+      "game": "gi",
+      "type": "character",
+      "version": "カーヴェ",
+      "date": "2025-09-10",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna I",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ラウマ／ナヒーダ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-09-30-2",
+      "game": "gi",
+      "type": "character",
+      "version": "スクロース",
+      "date": "2025-09-30",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna I",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "フリンズ／夜蘭（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-09-30-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ドリー",
+      "date": "2025-09-30",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna I",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "フリンズ／夜蘭（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-10-22-1",
+      "game": "gi",
+      "type": "character",
+      "version": "行秋",
+      "date": "2025-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000356.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna II",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ネフェル／フリーナ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-10-22-2",
+      "game": "gi",
+      "type": "character",
+      "version": "コレイ",
+      "date": "2025-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000356.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna II",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ネフェル／フリーナ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-10-22-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ヨォーヨ",
+      "date": "2025-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000356.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna II",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ネフェル／フリーナ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-11-11-1",
+      "game": "gi",
+      "type": "character",
+      "version": "藍硯",
+      "date": "2025-11-11",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000361.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna II",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ（復刻）／鍾離（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-11-11-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ロサリア",
+      "date": "2025-11-11",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000361.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna II",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ（復刻）／鍾離（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-11-11-3",
+      "game": "gi",
+      "type": "character",
+      "version": "雲菫",
+      "date": "2025-11-11",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000361.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna II",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ（復刻）／鍾離（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-12-03-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2025-12-03",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000366.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna III",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ドゥリン／ウェンティ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-12-03-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ファルザン",
+      "date": "2025-12-03",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000366.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "first",
+      "version_group": "Luna III",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ドゥリン／ウェンティ（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-12-23-1",
+      "game": "gi",
+      "type": "character",
+      "version": "イアンサ",
+      "date": "2025-12-23",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000371.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna III",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヴァレサ（復刻）／シロネン（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-12-23-2",
+      "game": "gi",
+      "type": "character",
+      "version": "シュヴルーズ",
+      "date": "2025-12-23",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000371.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna III",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヴァレサ（復刻）／シロネン（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
+    },
+    {
+      "id": "gi-four-pu-2025-12-23-3",
+      "game": "gi",
+      "type": "character",
+      "version": "嘉明",
+      "date": "2025-12-23",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000371.000096124.html",
+      "source_title": "COGNOSPHERE公式ガチャ開催告知・★4PU候補",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "phase": "second",
+      "version_group": "Luna III",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヴァレサ（復刻）／シロネン（復刻）",
+      "review_note": "COGNOSPHERE公式ガチャ告知を出典とし、同日開催の★4ピックアップ枠を歴代ガチャ資料と対照。キャラクター個別の独立ガチャではなく、同時開催★5祈願の共有対象。全18告知本文の単独精査は未実施。"
     }
   ]
 }
