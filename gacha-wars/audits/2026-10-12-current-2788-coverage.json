@@ -1,0 +1,43 @@
+{
+  "schema": "gacha-wars-current-coverage-v16",
+  "audit_date": "2026-10-12",
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-2683-coverage.json",
+  "base_events": 1607,
+  "genshin_weapon_supplement": 735,
+  "hsr_lightcone_supplement": 341,
+  "ww_weapon_fourstar_supplement_file": "gacha-wars/ww-weapon-fourstar-supplement.json",
+  "ww_weapon_fourstar_supplement_blob_sha": "b48a20263626b8a22f9e8fcda914e2e4db2356ce",
+  "ww_supplement_4star_rateup_slots": 102,
+  "ww_supplement_5star_rateup_slots": 3,
+  "ww_supplement_phase_rosters": 34,
+  "combined_events": 2788,
+  "verification": {
+    "official": 1014,
+    "secondary": 1774
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 458,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "sources": {
+    "community": "https://github.com/gacha-calculator/gacha-calculator.github.io/blob/main/src/js/games/wuwa/config.js",
+    "ver37": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+    "ver37_patch": "https://wutheringwaves.kurogames.com/en/main/news/detail/5571",
+    "collab": [
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4844",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4860"
+    ]
+  },
+  "limitations": [
+    "The community calculator's 4-star roster for many historic phases has not yet been matched to individual KURO notices and is secondary-sourced.",
+    "2026-03-18 appears in the community phase archive; the supplement aligns its 4-star lineup to the site's existing 2026-03-19 weapon records, retaining raw source date and the discrepancy.",
+    "Each date's three 4-star weapons are a shared lineup, not three independent four-star gacha runs. WW normal 5-star weapons shown together are independently concurrent, not one selectable pool. Anniversary weapon pool remains a genuine selectable exception.",
+    "June 2026 Cyberpunk collaboration four-star weapon rate-ups are categorized separately from standard weapons.",
+    "Only the new WW additions increase count here; the base 1,607 and earlier supplemental data remain unchanged.",
+    "Total event count is a sum of record slots, not unique characters/weapons; no claim of all historical completeness."
+  ]
+}
