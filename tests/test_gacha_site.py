@@ -1898,5 +1898,71 @@ assert.ok(rows.some(e=>e.version==="Daybreaker's Spine"));
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+class WutheringOfficialBaseWeaponSourceUpgradeTests(unittest.TestCase):
+    def test_64_existing_ww_weapon_records_use_publisher_notices(self):
+        data=json.loads((SITE/"ww-base-weapon-official-overrides.json").read_text(encoding="utf-8"))
+        self.assertEqual(data["schema"],"gacha-wars-ww-base-weapon-official-overrides-v1")
+        self.assertEqual(data["count"],64)
+        rows=data["upgrades"]
+        self.assertEqual(len(rows),64)
+        self.assertEqual(len(set(x["id"] for x in rows)),64)
+        self.assertEqual(sum(x["id"].startswith("ww-weapon-featured-") for x in rows),58)
+        self.assertEqual(sum(x["id"].startswith("ww-weapon-four-") for x in rows),6)
+        self.assertEqual(len(set(x["date"] for x in rows)),33)
+        self.assertTrue(all(x["verification"]=="official" for x in rows))
+        self.assertTrue(all(x["source_url"].startswith("https://wutheringwaves.kurogames.com/en/main/news/detail/") for x in rows))
+        self.assertEqual(next(x for x in rows if x["date"]=="2026-02-05" and x["version"]=="Everbright Polestar")["source_url"],
+            "https://wutheringwaves.kurogames.com/en/main/news/detail/4204")
+        self.assertEqual(next(x for x in rows if x["date"]=="2024-06-28" and x["version"]=="Ages of Harvest")["corroborating_sources"],
+            ["https://wutheringwaves.kurogames.com/en/main/news/detail/945"])
+        self.assertTrue(any(x["date_basis"]=="publisher_rateup_lineup_community_phase_start" for x in rows))
+
+    def test_override_references_exact_base_records_and_not_duplicate_entries(self):
+        raw=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        base={x["id"]:x for x in raw}
+        override=json.loads((SITE/"ww-base-weapon-official-overrides.json").read_text(encoding="utf-8"))["upgrades"]
+        for item in override:
+            old=base[item["id"]]
+            self.assertEqual(old["game"],"ww")
+            self.assertEqual(old["type"],"weapon")
+            self.assertEqual(old["date"],item["date"])
+            self.assertEqual(old["version"],item["version"])
+            self.assertEqual(old["verification"],"secondary")
+            self.assertIn(old["banner_type"],("ww_weapon_five","ww_weapon_four"))
+        self.assertEqual(len(raw),1607)
+
+    def test_javascript_upgrade_reclassifies_64_without_increasing_total(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./ww-base-weapon-official-overrides.json"',html)
+        code=html[html.index("function applyWwBaseWeaponSourceOverrides(primary,data){"):
+                  html.index("async function loadEvents(){")]
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const primary=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const source=JSON.parse(fs.readFileSync("gacha-wars/ww-base-weapon-official-overrides.json","utf8"));
+const result=applyWwBaseWeaponSourceOverrides(primary,source);
+assert.equal(result.upgraded,64);
+assert.equal(primary.length,result.events.length);
+assert.equal(new Set(result.events.map(x=>x.id)).size,result.events.length);
+assert.equal(result.events.filter(x=>x.id.startsWith("ww-weapon-featured-")&&x.verification==="official").length,58);
+assert.equal(result.events.filter(x=>x.id.startsWith("ww-weapon-four-")&&x.verification==="official").length,6);
+assert.equal(primary.find(x=>x.id==="ww-weapon-featured-2026-02-05-49").verification,"secondary");
+assert.equal(result.events.find(x=>x.id==="ww-weapon-featured-2026-02-05-49").source_url,
+ "https://wutheringwaves.kurogames.com/en/main/news/detail/4204");
+assert.equal(result.events.find(x=>x.id==="ww-weapon-featured-2024-05-23-1").verification,"secondary");
+let failed=false;
+try{
+ const invalid=JSON.parse(JSON.stringify(source));invalid.upgrades[0].date="2024-01-01";
+ applyWwBaseWeaponSourceOverrides(primary,invalid);
+}catch(e){failed=true}
+assert.equal(failed,true);
+'''
+        run=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
