@@ -1,0 +1,34 @@
+{
+  "schema": "gacha-wars-current-coverage-v21",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-2806-verified-1125-date-reviewed.json",
+  "combined_events": 2806,
+  "verification": {
+    "official": 1189,
+    "secondary": 1617
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 476,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "source_reclassification": {
+    "source_file": "gacha-wars/ww-base-weapon-official-overrides.json",
+    "source_blob_sha": "87964c191ebe1cf179fd63b0d2dd989e2aef491c",
+    "existing_entries_upgraded": 64,
+    "existing_five_star_slots": 58,
+    "existing_four_star_slots": 6,
+    "publisher_review_dates": 33,
+    "exact_start_notice_exceptions": 19
+  },
+  "notes": [
+    "Source upgrade replaces verification and provenance on existing records after exact ID, weapon name and date checks; no new gacha appearances were inserted.",
+    "The publisher confirms featured weapons on all upgraded entries. For publisher notices specifying only 'Version update', phase date is cross-checked against an external historical timeline and explicitly flagged.",
+    "2024-05-23 original weapon records remain secondary because the direct historical first-party featured-lineup notice was not located.",
+    "2026-03-19 4-star weapons remain secondary although official maintenance confirms the phase date; its original 5-star featured records also remain secondary pending direct featured-notice checks.",
+    "There remain other games' historical character/weapon rateup records requiring further verification and completion."
+  ]
+}
