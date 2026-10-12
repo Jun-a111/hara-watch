@@ -1,20 +1,35 @@
 {
   "schema": "gacha-wars-ww-fourstar-supplement-v1",
   "audit_date": "2026-10-12",
-  "verification_policy": "publisher_for_selected_notices_else_secondary",
+  "verification_policy": "publisher_individual_notices_for_nine_phases_else_secondary",
   "primary_roster_source": "https://github.com/gacha-calculator/gacha-calculator.github.io/blob/main/src/js/games/wuwa/config.js",
   "primary_roster_blob_sha": "abaa1ab92076baf5e1d58f341acf5486cef9b9cf",
   "publisher_notices": [
     "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
     "https://wutheringwaves.kurogames.com/en/main/news/detail/4844",
-    "https://wutheringwaves.kurogames.com/en/main/news/detail/4860"
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4860",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3501",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3516",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3859",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3861",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/3863",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4017",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4033",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4049",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4204",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4329",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4345",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4591"
   ],
   "notes": [
     "The gacha-calculator community timeline is secondary. Shared four-star phase rosters do not imply player-selectable multiple 5-star weapons.",
     "Ver.3.7 Phase 1 three 5-star and three 4-star items are directly present in the KURO GAMES 5546 notice, but it states version update instead of explicit clock start.",
     "The Cyberpunk: Edgerunners June 8 4-star roster is also in official KURO GAMES 4844 and 4860 notices.",
     "The community date for March 18 2026 is one day different from site's existing March 19 banner date; phase roster is aligned to March 19 while retaining source_date.",
-    "Potential updates after October 12 2026 are excluded. Other dates without a corresponding archived 5-star banner are not admitted automatically."
+    "Potential updates after October 12 2026 are excluded. Other dates without a corresponding archived 5-star banner are not admitted automatically.",
+    "Seven additional phases on 2025-10-30, 2025-12-25, 2026-01-15, 2026-02-05, 2026-02-26, 2026-04-09, and 2026-04-30 were directly verified for ★5 and ★4 lineups against each applicable KURO GAMES official weapon notice; 21 existing secondary rows can be reclassified as official."
   ],
   "phases": [
     {
@@ -429,19 +444,24 @@
       "source_date": "2025-10-30",
       "phase": "second",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "tier": "official",
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
       "featured_four": [
         "Endless Collapse",
         "Hollow Mirage",
         "Dauntless Evernight"
       ],
-      "official_notice": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3501",
       "matching_five_star": [
         "Blazing Justice",
         "Emerald Sentence"
       ],
-      "version_group": "Ver.2.7"
+      "version_group": "Ver.2.7",
+      "publisher_notices": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3501",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3516"
+      ],
+      "official_confirmation": "Individual 5-star featured weapon banners and all three shared 4-star rate-up names checked against the corresponding KURO GAMES publisher announcement text, dated within seven days before the phase starts."
     },
     {
       "date": "2025-11-20",
@@ -486,79 +506,101 @@
       "source_date": "2025-12-25",
       "phase": "first",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "tier": "official",
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
       "featured_four": [
         "Relativistic Jet",
         "Endless Collapse",
         "Undying Flame"
       ],
-      "official_notice": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3859",
       "matching_five_star": [
         "Defier's Thorn",
         "Spectrum Blaster",
         "Woodland Aria"
       ],
-      "version_group": "Ver.3.0"
+      "version_group": "Ver.3.0",
+      "publisher_notices": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3859",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3861",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3863"
+      ],
+      "official_confirmation": "Individual 5-star featured weapon banners and all three shared 4-star rate-up names checked against the corresponding KURO GAMES publisher announcement text, dated within seven days before the phase starts."
     },
     {
       "date": "2026-01-15",
       "source_date": "2026-01-15",
       "phase": "second",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "tier": "official",
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
       "featured_four": [
         "Waning Redshift",
         "Celestial Spiral",
         "Discord"
       ],
-      "official_notice": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4017",
       "matching_five_star": [
         "Moongazer's Sigil",
         "Starfield Calibrator",
         "Thunderflare Dominion"
       ],
-      "version_group": "Ver.3.0"
+      "version_group": "Ver.3.0",
+      "publisher_notices": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4017",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4033",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4049"
+      ],
+      "official_confirmation": "Individual 5-star featured weapon banners and all three shared 4-star rate-up names checked against the corresponding KURO GAMES publisher announcement text, dated within seven days before the phase starts."
     },
     {
       "date": "2026-02-05",
       "source_date": "2026-02-05",
       "phase": "first",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "tier": "official",
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
       "featured_four": [
         "Waning Redshift",
         "Commando of Conviction",
         "Cadenza"
       ],
-      "official_notice": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
       "matching_five_star": [
         "Everbright Polestar",
         "Kumokiri",
         "Wildfire Mark"
       ],
-      "version_group": "Ver.3.1"
+      "version_group": "Ver.3.1",
+      "publisher_notices": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4204"
+      ],
+      "official_confirmation": "Individual 5-star featured weapon banners and all three shared 4-star rate-up names checked against the corresponding KURO GAMES publisher announcement text, dated within seven days before the phase starts."
     },
     {
       "date": "2026-02-26",
       "source_date": "2026-02-26",
       "phase": "second",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "tier": "official",
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
       "featured_four": [
         "Overture",
         "Jinzhou Keeper",
         "Hollow Mirage"
       ],
-      "official_notice": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4329",
       "matching_five_star": [
         "Daybreaker's Spine",
         "Lux & Umbra"
       ],
-      "version_group": "Ver.3.1"
+      "version_group": "Ver.3.1",
+      "publisher_notices": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4329",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4345"
+      ],
+      "official_confirmation": "Individual 5-star featured weapon banners and all three shared 4-star rate-up names checked against the corresponding KURO GAMES publisher announcement text, dated within seven days before the phase starts."
     },
     {
       "date": "2026-03-19",
@@ -584,40 +626,48 @@
       "source_date": "2026-04-09",
       "phase": "second",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "tier": "official",
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
       "featured_four": [
         "Relativistic Jet",
         "Marcato",
         "Variation"
       ],
-      "official_notice": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
       "matching_five_star": [
         "Blazing Justice",
         "Luminous Hymn",
         "Spectrum Blaster"
       ],
-      "version_group": "Ver.3.2"
+      "version_group": "Ver.3.2",
+      "publisher_notices": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4493"
+      ],
+      "official_confirmation": "Individual 5-star featured weapon banners and all three shared 4-star rate-up names checked against the corresponding KURO GAMES publisher announcement text, dated within seven days before the phase starts."
     },
     {
       "date": "2026-04-30",
       "source_date": "2026-04-30",
       "phase": "first",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "tier": "official",
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
       "featured_four": [
         "Undying Flame",
         "Commando of Conviction",
         "Discord"
       ],
-      "official_notice": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
       "matching_five_star": [
         "Frostburn",
         "Moongazer's Sigil",
         "Starfield Calibrator"
       ],
-      "version_group": "Ver.3.3"
+      "version_group": "Ver.3.3",
+      "publisher_notices": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4591"
+      ],
+      "official_confirmation": "Individual 5-star featured weapon banners and all three shared 4-star rate-up names checked against the corresponding KURO GAMES publisher announcement text, dated within seven days before the phase starts."
     },
     {
       "date": "2026-06-08",
