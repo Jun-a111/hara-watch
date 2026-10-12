@@ -1,0 +1,104 @@
+{
+  "schema": "gacha-wars-ww-weapons-2026-summer-official-v1",
+  "audit_date": "2026-10-12",
+  "verification": "official",
+  "source_method": "Official KURO GAMES Featured Resonator/Weapon Convene notice texts archived verbatim in TheLovinator1/wutheringwaves; official URLs and article publication dates retained, maintenance source for phase-one dates.",
+  "source_archive": "https://github.com/TheLovinator1/wutheringwaves",
+  "note": "Each phase includes distinct simultaneously featured 5-star weapon banners and one shared 4-star featured weapon lineup; not a selectable shared five-star pool. Community source has a 1-day mismatch for two phase-II starts; KURO publisher time is authoritative.",
+  "phases": [
+    {
+      "id": 5039,
+      "date": "2026-07-10",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "basis": "publisher_convene_version_update_plus_maintenance_notice",
+      "maintenance": 4973,
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039",
+      "maintenance_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4973",
+      "source_title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase I]",
+      "source_article_id": 5039,
+      "source_publication_date": "2026-07-08",
+      "four": [
+        "Commando of Conviction",
+        "Hollow Mirage",
+        "Discord"
+      ],
+      "five": [
+        "Daybreaker's Spine",
+        "Spectrum Blaster"
+      ],
+      "community_archive_date": "2026-07-10",
+      "weapon_banner_group": "Absolute Pulsation"
+    },
+    {
+      "id": 5220,
+      "date": "2026-07-30",
+      "phase": "second",
+      "version_group": "Ver.3.5",
+      "basis": "publisher_exact_banner_start",
+      "maintenance": null,
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220",
+      "maintenance_url": null,
+      "source_title": "[Version 3.5 Featured Resonator/Weapon Convene: Phase II]",
+      "source_article_id": 5220,
+      "source_publication_date": "2026-07-28",
+      "four": [
+        "Variation",
+        "Endless Collapse",
+        "Relativistic Jet"
+      ],
+      "five": [
+        "Everbright Polestar"
+      ],
+      "community_archive_date": "2026-07-31",
+      "weapon_banner_group": "Absolute Pulsation"
+    },
+    {
+      "id": 5318,
+      "date": "2026-08-20",
+      "phase": "first",
+      "version_group": "Ver.3.6",
+      "basis": "publisher_convene_version_update_plus_maintenance_notice",
+      "maintenance": 5281,
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5318",
+      "maintenance_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5281",
+      "source_title": "[Version 3.6 Featured Resonator/Weapon Convene: Phase I]",
+      "source_article_id": 5318,
+      "source_publication_date": "2026-08-17",
+      "four": [
+        "Commando of Conviction",
+        "Fusion Accretion",
+        "Lunar Cutter"
+      ],
+      "five": [
+        "Forged Dwarf Star"
+      ],
+      "community_archive_date": "2026-08-20",
+      "weapon_banner_group": "Absolute Pulsation"
+    },
+    {
+      "id": 5431,
+      "date": "2026-09-10",
+      "phase": "second",
+      "version_group": "Ver.3.6",
+      "basis": "publisher_exact_banner_start",
+      "maintenance": null,
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5431",
+      "maintenance_url": null,
+      "source_title": "[Version 3.6 Featured Resonator/Weapon Convene: Phase Ⅱ]",
+      "source_article_id": 5431,
+      "source_publication_date": "2026-09-08",
+      "four": [
+        "Waning Redshift",
+        "Discord",
+        "Novaburst"
+      ],
+      "five": [
+        "Frostburn",
+        "Starfield Calibrator"
+      ],
+      "community_archive_date": "2026-09-11",
+      "weapon_banner_group": "Absolute Pulsation"
+    }
+  ]
+}
