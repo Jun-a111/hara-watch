@@ -1700,5 +1700,76 @@ assert.ok([...g,...h].every(x=>x.verification==="secondary"&&x.type==="weapon"))
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
+    """Do not inflate normal five-star weapon rankings or mistake rerun co-listings for selectable banners."""
+    def archive(self):
+        return json.loads((SITE/"ww-weapon-fourstar-supplement.json").read_text(encoding="utf-8"))
+
+    def test_105_new_weapon_slots_and_source_tiers(self):
+        data=self.archive()
+        self.assertEqual(data["schema"],"gacha-wars-ww-fourstar-supplement-v1")
+        self.assertEqual(len(data["phases"]),34)
+        self.assertEqual(sum(len(x["featured_four"]) for x in data["phases"]),102)
+        self.assertEqual(sum(x["tier"]=="official" for x in data["phases"]),2)
+        self.assertEqual(len({x["date"] for x in data["phases"]}),34)
+        self.assertEqual(next(x for x in data["phases"] if x["date"]=="2026-09-30")["matching_five_star"],["Blooming Jadehaven","Kumokiri","Moongazer's Sigil"])
+        for p in data["phases"]:
+            self.assertLessEqual(p["date"],"2026-10-12")
+            self.assertEqual(len(p["featured_four"]),3)
+            self.assertEqual(len(set(p["featured_four"])),3)
+            self.assertTrue(p["version_group"].startswith("Ver."))
+
+    def test_prior_ww_five_star_phases_match_and_no_duplicate_4star_slots(self):
+        data=self.archive()
+        primary=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        for phase in data["phases"]:
+            if phase["date"]=="2026-09-30":
+                continue
+            matched=[e for e in primary if e["game"]=="ww" and e["type"]=="weapon" and
+                     e["date"]==phase["date"] and
+                     e.get("banner_type") in ("ww_weapon_five","ww_weapon_collab_five")]
+            self.assertGreaterEqual(len(matched),1,phase["date"])
+            self.assertEqual(set(e["version_group"] for e in matched),{phase["version_group"]})
+            existing=[e["version"] for e in primary if e.get("banner_type") in ("ww_weapon_four","ww_weapon_anniversary_four") and e["date"]==phase["date"]]
+            # Anniversary is a separate, selectable weapon pool; it can have
+            # the same underlying 4-star weapons without being the same banner.
+            self.assertFalse(set(phase["featured_four"]) & set(e["version"] for e in primary if
+                             e.get("banner_type")=="ww_weapon_four" and e["date"]==phase["date"]))
+        adjusted=next(p for p in data["phases"] if p["date"]=="2026-03-19")
+        self.assertEqual(adjusted["source_date"],"2026-03-18")
+        collab=next(p for p in data["phases"] if p["date"]=="2026-06-08")
+        self.assertEqual(collab["kind"],"collab")
+        self.assertEqual(collab["tier"],"official")
+
+    def test_runtime_105_weapon_records_distinct_normal_and_collab(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('"ww_weapon_collab_four"',html)
+        self.assertIn("function parseWwWeaponFourstarSupplement(data)",html)
+        self.assertIn('["ww-weapon-fourstar-supplement.json",parseWwWeaponFourstarSupplement',html)
+        self.assertIn('const combinedWw=e.game==="ww"',html)
+        self.assertIn("同日併催の個別武器PU",html)
+        code=html[html.index("function parseWwWeaponFourstarSupplement(data){"):html.index("async function loadEvents(){")]
+        script=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const d=JSON.parse(fs.readFileSync("gacha-wars/ww-weapon-fourstar-supplement.json","utf8"));
+const events=parseWwWeaponFourstarSupplement(d);
+assert.equal(events.length,105);
+assert.equal(new Set(events.map(e=>e.id)).size,105);
+assert.equal(events.filter(e=>e.rarity===4).length,102);
+assert.equal(events.filter(e=>e.rarity===5).length,3);
+assert.equal(events.filter(e=>e.verification==="official").length,9);
+assert.equal(events.filter(e=>e.verification==="secondary").length,96);
+assert.equal(events.filter(e=>e.banner_type==="ww_weapon_collab_four").length,3);
+assert.ok(events.every(e=>e.type==="weapon"&&e.game==="ww"&&e.version_group.startsWith("Ver.")));
+assert.deepEqual(events.filter(e=>e.date==="2026-09-30"&&e.rarity===5).map(e=>e.version),
+ ["Blooming Jadehaven","Kumokiri","Moongazer's Sigil"]);
+'''
+        result=subprocess.run(["node","-e",script],cwd=ROOT,text=True,capture_output=True)
+        self.assertEqual(result.returncode,0,result.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
