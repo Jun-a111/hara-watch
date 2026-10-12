@@ -1,0 +1,2120 @@
+{
+  "schema": "gacha-wars-hsr-lightcone-history-v1",
+  "source": "https://github.com/FuriaPaladins/Hoyoverse-Data/blob/main/banners/hsr_formatted.json",
+  "source_sha": "03f9ad9c78f63fc92be4b26e28a021a191958881",
+  "verification": "secondary",
+  "note": "Semi-auto-updating public community archive with HoYoLab API extraction; neither 68 groups nor all 341 slots have been verified against each original publisher notice. Simultaneous 5-star warps may be co-listed in one archive row; these are not selectable shared banners. Dates in archive can be server/time-zone-specific. The initial 2023-04-25 archive start is normalized to the 2023-04-26 Japan release day for display.",
+  "banners": [
+    {
+      "date": "2023-04-26",
+      "source_start": "2023-04-25 09:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 1,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23001",
+          "name": "In the Night"
+        }
+      ],
+      "four": [
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        },
+        {
+          "id": "21001",
+          "name": "Good Night and Sleep Well"
+        },
+        {
+          "id": "21005",
+          "name": "The Moles Welcome You"
+        }
+      ],
+      "date_note": "Archive's initial start 2023-04-25 is normalized to Japanese 2023-04-26 launch day; direct individual official announcement should be rechecked."
+    },
+    {
+      "date": "2023-05-17",
+      "source_start": "2023-05-17 18:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 2,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23010",
+          "name": "Before Dawn"
+        }
+      ],
+      "four": [
+        {
+          "id": "21003",
+          "name": "Only Silence Remains"
+        },
+        {
+          "id": "21002",
+          "name": "Day One of My New Life"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-07",
+      "source_start": "2023-06-07 09:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 3,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23007",
+          "name": "Incessant Rain"
+        }
+      ],
+      "four": [
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21004",
+          "name": "Memories of the Past"
+        },
+        {
+          "id": "21017",
+          "name": "Subscribe for More!"
+        }
+      ]
+    },
+    {
+      "date": "2023-06-28",
+      "source_start": "2023-06-28 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 4,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23008",
+          "name": "Echoes of the Coffin"
+        }
+      ],
+      "four": [
+        {
+          "id": "21020",
+          "name": "Geniuses' Repose"
+        },
+        {
+          "id": "21001",
+          "name": "Good Night and Sleep Well"
+        },
+        {
+          "id": "21018",
+          "name": "Dance! Dance! Dance!"
+        }
+      ]
+    },
+    {
+      "date": "2023-07-19",
+      "source_start": "2023-07-19 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 5,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23009",
+          "name": "The Unreachable Side"
+        }
+      ],
+      "four": [
+        {
+          "id": "21012",
+          "name": "A Secret Vow"
+        },
+        {
+          "id": "21007",
+          "name": "Shared Feeling"
+        },
+        {
+          "id": "21010",
+          "name": "Swordplay"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-09",
+      "source_start": "2023-08-09 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 6,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23006",
+          "name": "Patience Is All You Need"
+        }
+      ],
+      "four": [
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        },
+        {
+          "id": "21008",
+          "name": "Eyes of the Prey"
+        }
+      ]
+    },
+    {
+      "date": "2023-08-30",
+      "source_start": "2023-08-30 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 7,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23015",
+          "name": "Brighter Than the Sun"
+        }
+      ],
+      "four": [
+        {
+          "id": "21009",
+          "name": "Landau's Choice"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21018",
+          "name": "Dance! Dance! Dance!"
+        }
+      ]
+    },
+    {
+      "date": "2023-09-20",
+      "source_start": "2023-09-20 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 8,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23011",
+          "name": "She Already Shut Her Eyes"
+        }
+      ],
+      "four": [
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21014",
+          "name": "Perfect Timing"
+        },
+        {
+          "id": "21016",
+          "name": "Trend of the Universal Market"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-11",
+      "source_start": "2023-10-11 11:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 9,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23014",
+          "name": "I Shall Be My Own Sword"
+        }
+      ],
+      "four": [
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21004",
+          "name": "Memories of the Past"
+        },
+        {
+          "id": "21008",
+          "name": "Eyes of the Prey"
+        }
+      ]
+    },
+    {
+      "date": "2023-10-27",
+      "source_start": "2023-10-27 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 10,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23016",
+          "name": "Worrisome, Blissful"
+        },
+        {
+          "id": "23001",
+          "name": "In the Night"
+        }
+      ],
+      "four": [
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        },
+        {
+          "id": "21003",
+          "name": "Only Silence Remains"
+        },
+        {
+          "id": "21005",
+          "name": "The Moles Welcome You"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-15",
+      "source_start": "2023-11-15 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 11,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23017",
+          "name": "Night of Fright"
+        }
+      ],
+      "four": [
+        {
+          "id": "21016",
+          "name": "Trend of the Universal Market"
+        },
+        {
+          "id": "21007",
+          "name": "Shared Feeling"
+        },
+        {
+          "id": "21017",
+          "name": "Subscribe for More!"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-06",
+      "source_start": "2023-12-06 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 12,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23018",
+          "name": "An Instant Before A Gaze"
+        },
+        {
+          "id": "23007",
+          "name": "Incessant Rain"
+        }
+      ],
+      "four": [
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        },
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-27",
+      "source_start": "2023-12-27 10:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 13,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23009",
+          "name": "The Unreachable Side"
+        },
+        {
+          "id": "23019",
+          "name": "Past Self in Mirror"
+        }
+      ],
+      "four": [
+        {
+          "id": "21012",
+          "name": "A Secret Vow"
+        },
+        {
+          "id": "21002",
+          "name": "Day One of My New Life"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        }
+      ]
+    },
+    {
+      "date": "2024-01-17",
+      "source_start": "2024-01-17 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 14,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23020",
+          "name": "Baptism of Pure Thought"
+        },
+        {
+          "id": "23006",
+          "name": "Patience Is All You Need"
+        }
+      ],
+      "four": [
+        {
+          "id": "21009",
+          "name": "Landau's Choice"
+        },
+        {
+          "id": "21014",
+          "name": "Perfect Timing"
+        },
+        {
+          "id": "21003",
+          "name": "Only Silence Remains"
+        }
+      ]
+    },
+    {
+      "date": "2024-02-06",
+      "source_start": "2024-02-06 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 15,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23022",
+          "name": "Reforged Remembrance"
+        },
+        {
+          "id": "23015",
+          "name": "Brighter Than the Sun"
+        }
+      ],
+      "four": [
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        },
+        {
+          "id": "21042",
+          "name": "Indelible Promise"
+        },
+        {
+          "id": "21018",
+          "name": "Dance! Dance! Dance!"
+        }
+      ]
+    },
+    {
+      "date": "2024-02-29",
+      "source_start": "2024-02-29 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 16,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23010",
+          "name": "Before Dawn"
+        },
+        {
+          "id": "23021",
+          "name": "Earthly Escapade"
+        }
+      ],
+      "four": [
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21020",
+          "name": "Geniuses' Repose"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        }
+      ]
+    },
+    {
+      "date": "2024-03-27",
+      "source_start": "2024-03-27 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 17,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23024",
+          "name": "Along the Passing Shore"
+        },
+        {
+          "id": "23008",
+          "name": "Echoes of the Coffin"
+        }
+      ],
+      "four": [
+        {
+          "id": "21017",
+          "name": "Subscribe for More!"
+        },
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        },
+        {
+          "id": "21001",
+          "name": "Good Night and Sleep Well"
+        }
+      ]
+    },
+    {
+      "date": "2024-04-17",
+      "source_start": "2024-04-17 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 18,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23014",
+          "name": "I Shall Be My Own Sword"
+        },
+        {
+          "id": "23023",
+          "name": "Inherently Unjust Destiny"
+        }
+      ],
+      "four": [
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21043",
+          "name": "Concert for Two"
+        },
+        {
+          "id": "21007",
+          "name": "Shared Feeling"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-08",
+      "source_start": "2024-05-08 10:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 19,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23016",
+          "name": "Worrisome, Blissful"
+        },
+        {
+          "id": "23026",
+          "name": "Flowing Nightglow"
+        }
+      ],
+      "four": [
+        {
+          "id": "21010",
+          "name": "Swordplay"
+        },
+        {
+          "id": "21014",
+          "name": "Perfect Timing"
+        },
+        {
+          "id": "21044",
+          "name": "Boundless Choreo"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-29",
+      "source_start": "2024-05-29 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 20,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23011",
+          "name": "She Already Shut Her Eyes"
+        },
+        {
+          "id": "23027",
+          "name": "Sailing Towards a Second Life"
+        }
+      ],
+      "four": [
+        {
+          "id": "21020",
+          "name": "Geniuses' Repose"
+        },
+        {
+          "id": "21009",
+          "name": "Landau's Choice"
+        },
+        {
+          "id": "21012",
+          "name": "A Secret Vow"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-19",
+      "source_start": "2024-06-19 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 21,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23025",
+          "name": "Whereabouts Should Dreams Rest"
+        },
+        {
+          "id": "23019",
+          "name": "Past Self in Mirror"
+        }
+      ],
+      "four": [
+        {
+          "id": "21008",
+          "name": "Eyes of the Prey"
+        },
+        {
+          "id": "21002",
+          "name": "Day One of My New Life"
+        },
+        {
+          "id": "21004",
+          "name": "Memories of the Past"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-10",
+      "source_start": "2024-07-10 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 22,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23028",
+          "name": "Yet Hope Is Priceless"
+        },
+        {
+          "id": "23018",
+          "name": "An Instant Before A Gaze"
+        }
+      ],
+      "four": [
+        {
+          "id": "21045",
+          "name": "After the Charmony Fall"
+        },
+        {
+          "id": "21007",
+          "name": "Shared Feeling"
+        },
+        {
+          "id": "21016",
+          "name": "Trend of the Universal Market"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-31",
+      "source_start": "2024-07-31 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 23,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23030",
+          "name": "Dance at Sunset"
+        },
+        {
+          "id": "23017",
+          "name": "Night of Fright"
+        }
+      ],
+      "four": [
+        {
+          "id": "21014",
+          "name": "Perfect Timing"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        },
+        {
+          "id": "21005",
+          "name": "The Moles Welcome You"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-21",
+      "source_start": "2024-08-21 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 24,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23029",
+          "name": "Those Many Springs"
+        },
+        {
+          "id": "23021",
+          "name": "Earthly Escapade"
+        }
+      ],
+      "four": [
+        {
+          "id": "21012",
+          "name": "A Secret Vow"
+        },
+        {
+          "id": "21008",
+          "name": "Eyes of the Prey"
+        },
+        {
+          "id": "21046",
+          "name": "Poised to Bloom"
+        }
+      ]
+    },
+    {
+      "date": "2024-09-10",
+      "source_start": "2024-09-10 10:00:00+08:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 25,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23006",
+          "name": "Patience Is All You Need"
+        },
+        {
+          "id": "23022",
+          "name": "Reforged Remembrance"
+        },
+        {
+          "id": "23026",
+          "name": "Flowing Nightglow"
+        },
+        {
+          "id": "23031",
+          "name": "I Venture Forth to Hunt"
+        }
+      ],
+      "four": [
+        {
+          "id": "21010",
+          "name": "Swordplay"
+        },
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-02",
+      "source_start": "2024-10-02 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 26,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23032",
+          "name": "Scent Alone Stays True"
+        },
+        {
+          "id": "23016",
+          "name": "Worrisome, Blissful"
+        }
+      ],
+      "four": [
+        {
+          "id": "21047",
+          "name": "Shadowed by Night"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21007",
+          "name": "Shared Feeling"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-23",
+      "source_start": "2024-10-23 10:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 27,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23015",
+          "name": "Brighter Than the Sun"
+        },
+        {
+          "id": "23033",
+          "name": "Ninjutsu Inscription: Dazzling Evilbreaker"
+        }
+      ],
+      "four": [
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21045",
+          "name": "After the Charmony Fall"
+        },
+        {
+          "id": "21048",
+          "name": "Dream's Montage"
+        }
+      ]
+    },
+    {
+      "date": "2024-11-13",
+      "source_start": "2024-11-13 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence 2024-11-13",
+      "banner_index": 28,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23023",
+          "name": "Inherently Unjust Destiny"
+        },
+        {
+          "id": "23024",
+          "name": "Along the Passing Shore"
+        }
+      ],
+      "four": [
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21002",
+          "name": "Day One of My New Life"
+        },
+        {
+          "id": "21044",
+          "name": "Boundless Choreo"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-04",
+      "source_start": "2024-12-04 10:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 29,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23010",
+          "name": "Before Dawn"
+        },
+        {
+          "id": "23034",
+          "name": "A Grounded Ascent"
+        }
+      ],
+      "four": [
+        {
+          "id": "21046",
+          "name": "Poised to Bloom"
+        },
+        {
+          "id": "21010",
+          "name": "Swordplay"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-25",
+      "source_start": "2024-12-25 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 30,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23025",
+          "name": "Whereabouts Should Dreams Rest"
+        },
+        {
+          "id": "23035",
+          "name": "Long Road Leads Home"
+        }
+      ],
+      "four": [
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        },
+        {
+          "id": "21042",
+          "name": "Indelible Promise"
+        },
+        {
+          "id": "21043",
+          "name": "Concert for Two"
+        }
+      ]
+    },
+    {
+      "date": "2025-01-15",
+      "source_start": "2025-01-15 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 31,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23037",
+          "name": "Into the Unreachable Veil"
+        },
+        {
+          "id": "23031",
+          "name": "I Venture Forth to Hunt"
+        },
+        {
+          "id": "23028",
+          "name": "Yet Hope Is Priceless"
+        },
+        {
+          "id": "23032",
+          "name": "Scent Alone Stays True"
+        }
+      ],
+      "four": [
+        {
+          "id": "21020",
+          "name": "Geniuses' Repose"
+        },
+        {
+          "id": "21009",
+          "name": "Landau's Choice"
+        },
+        {
+          "id": "21003",
+          "name": "Only Silence Remains"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-05",
+      "source_start": "2025-02-05 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 32,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23036",
+          "name": "Time Woven Into Gold"
+        },
+        {
+          "id": "23007",
+          "name": "Incessant Rain"
+        },
+        {
+          "id": "23027",
+          "name": "Sailing Towards a Second Life"
+        },
+        {
+          "id": "23026",
+          "name": "Flowing Nightglow"
+        }
+      ],
+      "four": [
+        {
+          "id": "21018",
+          "name": "Dance! Dance! Dance!"
+        },
+        {
+          "id": "21017",
+          "name": "Subscribe for More!"
+        },
+        {
+          "id": "21051",
+          "name": "Geniuses' Greetings"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-26",
+      "source_start": "2025-02-26 10:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 33,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23030",
+          "name": "Dance at Sunset"
+        },
+        {
+          "id": "23038",
+          "name": "If Time Were a Flower"
+        }
+      ],
+      "four": [
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21016",
+          "name": "Trend of the Universal Market"
+        }
+      ]
+    },
+    {
+      "date": "2025-03-19",
+      "source_start": "2025-03-19 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 34,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23039",
+          "name": "Flame of Blood, Blaze My Path"
+        },
+        {
+          "id": "23017",
+          "name": "Night of Fright"
+        }
+      ],
+      "four": [
+        {
+          "id": "21012",
+          "name": "A Secret Vow"
+        },
+        {
+          "id": "21014",
+          "name": "Perfect Timing"
+        },
+        {
+          "id": "21004",
+          "name": "Memories of the Past"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-09",
+      "source_start": "2025-04-09 10:00:00+08:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 35,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23029",
+          "name": "Those Many Springs"
+        },
+        {
+          "id": "23035",
+          "name": "Long Road Leads Home"
+        },
+        {
+          "id": "23024",
+          "name": "Along the Passing Shore"
+        },
+        {
+          "id": "23040",
+          "name": "Make Farewells More Beautiful"
+        }
+      ],
+      "four": [
+        {
+          "id": "21001",
+          "name": "Good Night and Sleep Well"
+        },
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        },
+        {
+          "id": "21044",
+          "name": "Boundless Choreo"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-30",
+      "source_start": "2025-04-30 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 36,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23020",
+          "name": "Baptism of Pure Thought"
+        },
+        {
+          "id": "23041",
+          "name": "Life Should Be Cast to Flames"
+        }
+      ],
+      "four": [
+        {
+          "id": "21045",
+          "name": "After the Charmony Fall"
+        },
+        {
+          "id": "21005",
+          "name": "The Moles Welcome You"
+        },
+        {
+          "id": "21016",
+          "name": "Trend of the Universal Market"
+        }
+      ]
+    },
+    {
+      "date": "2025-05-21",
+      "source_start": "2025-05-21 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 37,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23042",
+          "name": "Long May Rainbows Adorn the Sky"
+        },
+        {
+          "id": "23037",
+          "name": "Into the Unreachable Veil"
+        }
+      ],
+      "four": [
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21047",
+          "name": "Shadowed by Night"
+        },
+        {
+          "id": "21002",
+          "name": "Day One of My New Life"
+        }
+      ]
+    },
+    {
+      "date": "2025-06-11",
+      "source_start": "2025-06-11 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 38,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23043",
+          "name": "Lies Dance on the Breeze"
+        },
+        {
+          "id": "23036",
+          "name": "Time Woven Into Gold"
+        }
+      ],
+      "four": [
+        {
+          "id": "21007",
+          "name": "Shared Feeling"
+        },
+        {
+          "id": "21008",
+          "name": "Eyes of the Prey"
+        },
+        {
+          "id": "21051",
+          "name": "Geniuses' Greetings"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-02",
+      "source_start": "2025-07-02 10:00:00+08:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 39,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23021",
+          "name": "Earthly Escapade"
+        },
+        {
+          "id": "23034",
+          "name": "A Grounded Ascent"
+        },
+        {
+          "id": "23038",
+          "name": "If Time Were a Flower"
+        },
+        {
+          "id": "23044",
+          "name": "Thus Burns the Dawn"
+        }
+      ],
+      "four": [
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21054",
+          "name": "The Story's Next Page"
+        }
+      ]
+    },
+    {
+      "date": "2025-07-11",
+      "source_start": "2025-07-11 12:00:00+01:00",
+      "banner_name": "Birth of a King",
+      "banner_index": 1,
+      "kind": "special",
+      "five": [
+        {
+          "id": "23045",
+          "name": "A Thankless Coronation"
+        },
+        {
+          "id": "23046",
+          "name": "The Hell Where Ideals Burn"
+        }
+      ],
+      "four": []
+    },
+    {
+      "date": "2025-07-23",
+      "source_start": "2025-07-23 12:00:00+01:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 40,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23014",
+          "name": "I Shall Be My Own Sword"
+        },
+        {
+          "id": "23025",
+          "name": "Whereabouts Should Dreams Rest"
+        },
+        {
+          "id": "23009",
+          "name": "The Unreachable Side"
+        }
+      ],
+      "four": [
+        {
+          "id": "21017",
+          "name": "Subscribe for More!"
+        },
+        {
+          "id": "21012",
+          "name": "A Secret Vow"
+        },
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        }
+      ]
+    },
+    {
+      "date": "2025-08-13",
+      "source_start": "2025-08-13 10:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 41,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23047",
+          "name": "Why Does the Ocean Sing"
+        },
+        {
+          "id": "23006",
+          "name": "Patience Is All You Need"
+        }
+      ],
+      "four": [
+        {
+          "id": "21042",
+          "name": "Indelible Promise"
+        },
+        {
+          "id": "21008",
+          "name": "Eyes of the Prey"
+        },
+        {
+          "id": "21046",
+          "name": "Poised to Bloom"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-02",
+      "source_start": "2025-09-02 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 42,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23007",
+          "name": "Incessant Rain"
+        },
+        {
+          "id": "23048",
+          "name": "Epoch Etched in Golden Blood"
+        }
+      ],
+      "four": [
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        },
+        {
+          "id": "21001",
+          "name": "Good Night and Sleep Well"
+        },
+        {
+          "id": "21010",
+          "name": "Swordplay"
+        }
+      ]
+    },
+    {
+      "date": "2025-09-24",
+      "source_start": "2025-09-24 10:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 43,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23037",
+          "name": "Into the Unreachable Veil"
+        },
+        {
+          "id": "23049",
+          "name": "To Evernight's Stars"
+        }
+      ],
+      "four": [
+        {
+          "id": "21045",
+          "name": "After the Charmony Fall"
+        },
+        {
+          "id": "21048",
+          "name": "Dream's Montage"
+        },
+        {
+          "id": "21018",
+          "name": "Dance! Dance! Dance!"
+        }
+      ]
+    },
+    {
+      "date": "2025-10-15",
+      "source_start": "2025-10-15 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 44,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23051",
+          "name": "Though Worlds Apart"
+        },
+        {
+          "id": "23041",
+          "name": "Life Should Be Cast to Flames"
+        }
+      ],
+      "four": [
+        {
+          "id": "21009",
+          "name": "Landau's Choice"
+        },
+        {
+          "id": "21014",
+          "name": "Perfect Timing"
+        },
+        {
+          "id": "21003",
+          "name": "Only Silence Remains"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-05",
+      "source_start": "2025-11-05 10:00:00+08:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 45,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23042",
+          "name": "Long May Rainbows Adorn the Sky"
+        },
+        {
+          "id": "23038",
+          "name": "If Time Were a Flower"
+        },
+        {
+          "id": "23040",
+          "name": "Make Farewells More Beautiful"
+        },
+        {
+          "id": "23052",
+          "name": "This Love, Forever"
+        }
+      ],
+      "four": [
+        {
+          "id": "21043",
+          "name": "Concert for Two"
+        },
+        {
+          "id": "21044",
+          "name": "Boundless Choreo"
+        },
+        {
+          "id": "21054",
+          "name": "The Story's Next Page"
+        }
+      ]
+    },
+    {
+      "date": "2025-11-26",
+      "source_start": "2025-11-26 12:00:00+01:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 46,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23039",
+          "name": "Flame of Blood, Blaze My Path"
+        },
+        {
+          "id": "23044",
+          "name": "Thus Burns the Dawn"
+        },
+        {
+          "id": "23043",
+          "name": "Lies Dance on the Breeze"
+        },
+        {
+          "id": "23052",
+          "name": "This Love, Forever"
+        }
+      ],
+      "four": [
+        {
+          "id": "21054",
+          "name": "The Story's Next Page"
+        },
+        {
+          "id": "21043",
+          "name": "Concert for Two"
+        },
+        {
+          "id": "21044",
+          "name": "Boundless Choreo"
+        }
+      ]
+    },
+    {
+      "date": "2025-12-17",
+      "source_start": "2025-12-17 03:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 47,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23025",
+          "name": "Whereabouts Should Dreams Rest"
+        },
+        {
+          "id": "23050",
+          "name": "Never Forget Her Flame"
+        }
+      ],
+      "four": [
+        {
+          "id": "21043",
+          "name": "Concert for Two"
+        },
+        {
+          "id": "21001",
+          "name": "Good Night and Sleep Well"
+        },
+        {
+          "id": "21004",
+          "name": "Memories of the Past"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-07",
+      "source_start": "2026-01-07 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 48,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23035",
+          "name": "Long Road Leads Home"
+        },
+        {
+          "id": "23032",
+          "name": "Scent Alone Stays True"
+        }
+      ],
+      "four": [
+        {
+          "id": "21020",
+          "name": "Geniuses' Repose"
+        },
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        },
+        {
+          "id": "21005",
+          "name": "The Moles Welcome You"
+        }
+      ]
+    },
+    {
+      "date": "2026-01-28",
+      "source_start": "2026-01-28 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 49,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23034",
+          "name": "A Grounded Ascent"
+        },
+        {
+          "id": "23036",
+          "name": "Time Woven Into Gold"
+        }
+      ],
+      "four": [
+        {
+          "id": "21051",
+          "name": "Geniuses' Greetings"
+        },
+        {
+          "id": "21016",
+          "name": "Trend of the Universal Market"
+        },
+        {
+          "id": "21018",
+          "name": "Dance! Dance! Dance!"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "source_start": "2026-02-13 03:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 50,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23054",
+          "name": "When She Decided to See"
+        }
+      ],
+      "four": [
+        {
+          "id": "21054",
+          "name": "The Story's Next Page"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        }
+      ]
+    },
+    {
+      "date": "2026-02-13",
+      "source_start": "2026-02-13 03:00:00+08:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 51,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23049",
+          "name": "To Evernight's Stars"
+        },
+        {
+          "id": "23047",
+          "name": "Why Does the Ocean Sing"
+        },
+        {
+          "id": "23022",
+          "name": "Reforged Remembrance"
+        }
+      ],
+      "four": [
+        {
+          "id": "21054",
+          "name": "The Story's Next Page"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-03",
+      "source_start": "2026-03-03 12:00:00+01:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 52,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23048",
+          "name": "Epoch Etched in Golden Blood"
+        },
+        {
+          "id": "23021",
+          "name": "Earthly Escapade"
+        },
+        {
+          "id": "23053",
+          "name": "Dazzled by a Flowery World"
+        },
+        {
+          "id": "23033",
+          "name": "Ninjutsu Inscription: Dazzling Evilbreaker"
+        }
+      ],
+      "four": [
+        {
+          "id": "21054",
+          "name": "The Story's Next Page"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21015",
+          "name": "Resolution Shines As Pearls of Sweat"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "source_start": "2026-03-25 03:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 53,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23042",
+          "name": "Long May Rainbows Adorn the Sky"
+        }
+      ],
+      "four": [
+        {
+          "id": "21047",
+          "name": "Shadowed by Night"
+        },
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21048",
+          "name": "Dream's Montage"
+        }
+      ]
+    },
+    {
+      "date": "2026-03-25",
+      "source_start": "2026-03-25 03:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 54,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23056",
+          "name": "The Finale of a Lie"
+        }
+      ],
+      "four": [
+        {
+          "id": "21047",
+          "name": "Shadowed by Night"
+        },
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21048",
+          "name": "Dream's Montage"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "source_start": "2026-04-08 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 55,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23027",
+          "name": "Sailing Towards a Second Life"
+        }
+      ],
+      "four": [
+        {
+          "id": "21047",
+          "name": "Shadowed by Night"
+        },
+        {
+          "id": "21013",
+          "name": "Make the World Clamor"
+        },
+        {
+          "id": "21048",
+          "name": "Dream's Montage"
+        }
+      ]
+    },
+    {
+      "date": "2026-04-22",
+      "source_start": "2026-04-22 03:00:00+08:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 56,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23050",
+          "name": "Never Forget Her Flame"
+        },
+        {
+          "id": "23025",
+          "name": "Whereabouts Should Dreams Rest"
+        },
+        {
+          "id": "23040",
+          "name": "Make Farewells More Beautiful"
+        },
+        {
+          "id": "23057",
+          "name": "Welcome to the Cosmic City"
+        }
+      ],
+      "four": [
+        {
+          "id": "21046",
+          "name": "Poised to Bloom"
+        },
+        {
+          "id": "21042",
+          "name": "Indelible Promise"
+        },
+        {
+          "id": "21008",
+          "name": "Eyes of the Prey"
+        }
+      ]
+    },
+    {
+      "date": "2026-05-13",
+      "source_start": "2026-05-13 12:00:00+01:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 57,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23058",
+          "name": "Until the Flowers Bloom Again"
+        },
+        {
+          "id": "23034",
+          "name": "A Grounded Ascent"
+        },
+        {
+          "id": "23031",
+          "name": "I Venture Forth to Hunt"
+        },
+        {
+          "id": "23038",
+          "name": "If Time Were a Flower"
+        }
+      ],
+      "four": [
+        {
+          "id": "21010",
+          "name": "Swordplay"
+        },
+        {
+          "id": "21004",
+          "name": "Memories of the Past"
+        },
+        {
+          "id": "21007",
+          "name": "Shared Feeling"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-01",
+      "source_start": "2026-06-01 03:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 58,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23054",
+          "name": "When She Decided to See"
+        },
+        {
+          "id": "23059",
+          "name": "Reforged in Hellfire"
+        }
+      ],
+      "four": [
+        {
+          "id": "21001",
+          "name": "Good Night and Sleep Well"
+        },
+        {
+          "id": "21002",
+          "name": "Day One of My New Life"
+        },
+        {
+          "id": "21005",
+          "name": "The Moles Welcome You"
+        }
+      ]
+    },
+    {
+      "date": "2026-06-24",
+      "source_start": "2026-06-24 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 59,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23052",
+          "name": "This Love, Forever"
+        },
+        {
+          "id": "23044",
+          "name": "Thus Burns the Dawn"
+        }
+      ],
+      "four": [
+        {
+          "id": "21012",
+          "name": "A Secret Vow"
+        },
+        {
+          "id": "21017",
+          "name": "Subscribe for More!"
+        },
+        {
+          "id": "21018",
+          "name": "Dance! Dance! Dance!"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "source_start": "2026-07-15 03:00:00+08:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 60,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23051",
+          "name": "Though Worlds Apart"
+        },
+        {
+          "id": "23053",
+          "name": "Dazzled by a Flowery World"
+        },
+        {
+          "id": "23049",
+          "name": "To Evernight's Stars"
+        }
+      ],
+      "four": [
+        {
+          "id": "21045",
+          "name": "After the Charmony Fall"
+        },
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-15",
+      "source_start": "2026-07-15 03:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 61,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23060",
+          "name": "A Star That Lights the Night"
+        }
+      ],
+      "four": [
+        {
+          "id": "21045",
+          "name": "After the Charmony Fall"
+        },
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        }
+      ]
+    },
+    {
+      "date": "2026-07-24",
+      "source_start": "2026-07-24 12:00:00+01:00",
+      "banner_name": "Age of Gods Golden Gate",
+      "banner_index": 2,
+      "kind": "special",
+      "five": [
+        {
+          "id": "23062",
+          "name": "I Am As You Behold"
+        },
+        {
+          "id": "23061",
+          "name": "Flickering Stars"
+        }
+      ],
+      "four": []
+    },
+    {
+      "date": "2026-08-05",
+      "source_start": "2026-08-05 12:00:00+01:00",
+      "banner_name": "Coalesced Truths",
+      "banner_index": 62,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23023",
+          "name": "Inherently Unjust Destiny"
+        },
+        {
+          "id": "23048",
+          "name": "Epoch Etched in Golden Blood"
+        },
+        {
+          "id": "23041",
+          "name": "Life Should Be Cast to Flames"
+        }
+      ],
+      "four": [
+        {
+          "id": "21045",
+          "name": "After the Charmony Fall"
+        },
+        {
+          "id": "21019",
+          "name": "Under the Blue Sky"
+        },
+        {
+          "id": "21006",
+          "name": "The Birth of the Self"
+        }
+      ]
+    },
+    {
+      "date": "2026-08-26",
+      "source_start": "2026-08-26 03:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 63,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23042",
+          "name": "Long May Rainbows Adorn the Sky"
+        },
+        {
+          "id": "23063",
+          "name": "Rise and Sing"
+        }
+      ],
+      "four": [
+        {
+          "id": "21066",
+          "name": "A Little Getaway"
+        },
+        {
+          "id": "21051",
+          "name": "Geniuses' Greetings"
+        },
+        {
+          "id": "21048",
+          "name": "Dream's Montage"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-12",
+      "source_start": "2026-09-12 12:00:00+01:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 64,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23056",
+          "name": "The Finale of a Lie"
+        },
+        {
+          "id": "23064",
+          "name": "Summer Rides the Surf"
+        }
+      ],
+      "four": [
+        {
+          "id": "21054",
+          "name": "The Story's Next Page"
+        },
+        {
+          "id": "21014",
+          "name": "Perfect Timing"
+        },
+        {
+          "id": "21003",
+          "name": "Only Silence Remains"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "source_start": "2026-09-28 03:00:00+08:00",
+      "banner_name": "Bygone Reminiscence",
+      "banner_index": 65,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23058",
+          "name": "Until the Flowers Bloom Again"
+        }
+      ],
+      "four": [
+        {
+          "id": "21044",
+          "name": "Boundless Choreo"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        }
+      ]
+    },
+    {
+      "date": "2026-09-28",
+      "source_start": "2026-09-28 03:00:00+08:00",
+      "banner_name": "Brilliant Fixation",
+      "banner_index": 66,
+      "kind": "standard",
+      "five": [
+        {
+          "id": "23055",
+          "name": "Colors for Tomorrow"
+        }
+      ],
+      "four": [
+        {
+          "id": "21044",
+          "name": "Boundless Choreo"
+        },
+        {
+          "id": "21011",
+          "name": "Planetary Rendezvous"
+        },
+        {
+          "id": "21000",
+          "name": "Post-Op Conversation"
+        }
+      ]
+    }
+  ]
+}
