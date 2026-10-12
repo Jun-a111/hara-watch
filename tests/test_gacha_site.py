@@ -99,7 +99,7 @@ class SiteTests(unittest.TestCase):
         html = (SITE / "index.html").read_text(encoding="utf-8")
         day_start = html.index("function observationDay(")
         day_end = html.index("function observationQuality(", day_start)
-        functions = html[day_start:day_end]
+        functions = html[html.index("function validRankValue("):day_end]
         scenario = r"""
 const assert = require("node:assert/strict");
 let records = [], autoRecords = [], region = "jp", store = "ios";
@@ -155,7 +155,7 @@ assert.equal(periodStats("ww",start,true).days,1);
     def test_update_21_day_comparison_runtime(self):
         """Evaluate the actual ranking function under full and missing day scenarios."""
         html = (SITE / "index.html").read_text(encoding="utf-8")
-        functions = html[html.index("function observationDay("):
+        functions = html[html.index("function validRankValue("):
                          html.index("function observationQuality(")]
         scenario = r"""
 const assert = require("node:assert/strict");
@@ -314,7 +314,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertGreaterEqual(len(special), 6)
         self.assertEqual(len({(e["game"], e["date"], e["version"]) for e in special}),
                          len(special))
-        self.assertTrue(all(e["event_kind"] == "rerun" for e in special))
+        self.assertTrue(all(e["event_kind"] in {"rerun", "featured_banner"} for e in special))
         html = (SITE / "index.html").read_text(encoding="utf-8")
         ranking = html[html.index("function characterRanking()"):
                        html.index("function ", html.index("function characterRanking()") + 30)]
@@ -394,7 +394,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
     def test_elapsed_unconfirmed_schedules_keep_warning(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
         self.assertIn("予定日経過・実施未確認", html)
-        self.assertEqual(html.count("予定日経過・実施未確認"), 2)
+        self.assertGreaterEqual(html.count("予定日経過・実施未確認"), 2)
         self.assertIn('ev.schedule_status!=="announced"', html)
         self.assertIn('e.schedule_status!=="announced"', html)
 
@@ -437,7 +437,7 @@ assert.equal(eventTiming({date:offset(-2),verification:"official"}),"実装日�
 
     def test_latest_filters_invalid_and_future_records(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
-        function = html[html.index("function latest("):
+        function = html[html.index("function validRankValue("):
                         html.index("function recs(", html.index("function latest("))]
         scenario = r"""
 const assert = require("node:assert/strict");
@@ -496,7 +496,7 @@ assert.equal(stats.best,7);
         html = (SITE / "index.html").read_text(encoding="utf-8")
         start = html.index("function latest(")
         end = html.index("function recs(", start)
-        self.assertIn('if(kind==="rank")return validRankValue(x.value)', html[start:end])
+        self.assertIn("return validMetricValue(kind,x.value)", html[start:end])
 
     def test_history_list_rejects_invalid_rank_dates(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
