@@ -1,0 +1,367 @@
+{
+  "schema": "gacha-wars-primary-source-batch-v1",
+  "date": "2026-10-12",
+  "data_blob_sha": "754b2202a2bf40830f7a26464a364256efa6b3b0",
+  "summary": {
+    "total_events": 538,
+    "upgraded_this_batch": 35,
+    "first_party_labeled": 530,
+    "secondary_labeled": 8
+  },
+  "methodology": "Stored event records were linked to first-party KURO GAMES original banner or release notices using a public archive of the original article text for cross-checking character and banner dates. This is NOT proof that every other stored record was independently audited or that the full roster is complete.",
+  "source_archive": "https://github.com/TheLovinator1/wutheringwaves",
+  "upgraded": [
+    {
+      "id": "history-ww-2024-06-06-1",
+      "name": "吟霖",
+      "date": "2024-06-06",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/846"
+    },
+    {
+      "id": "historical-ww-2024-10-24-47",
+      "name": "忌炎（復刻）",
+      "date": "2024-10-24",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/1541"
+    },
+    {
+      "id": "historical-ww-2024-12-12-50",
+      "name": "相里要（復刻）",
+      "date": "2024-12-12",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/1770"
+    },
+    {
+      "id": "historical-ww-2025-01-02-52",
+      "name": "折枝（復刻）",
+      "date": "2025-01-02",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/1899"
+    },
+    {
+      "id": "historical-ww-2025-01-23-53",
+      "name": "ロココ",
+      "date": "2025-01-23",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2044"
+    },
+    {
+      "id": "historical-ww-2025-01-23-54",
+      "name": "今汐（復刻）",
+      "date": "2025-01-23",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2046"
+    },
+    {
+      "id": "historical-ww-2025-03-06-57",
+      "name": "長離（復刻）",
+      "date": "2025-03-06",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2228"
+    },
+    {
+      "id": "history-ww-2025-03-27-88",
+      "name": "ツバキ（復刻）",
+      "date": "2025-03-27",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2341"
+    },
+    {
+      "id": "history-ww-2025-04-17-89",
+      "name": "ショアキーパー（復刻）",
+      "date": "2025-04-17",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2452"
+    },
+    {
+      "id": "history-ww-2025-04-29-90",
+      "name": "ザンニー",
+      "date": "2025-04-29",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2532"
+    },
+    {
+      "id": "history-ww-2025-05-22-91",
+      "name": "シャコンヌ",
+      "date": "2025-05-22",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2640"
+    },
+    {
+      "id": "history-ww-2025-07-03-93",
+      "name": "ルパ",
+      "date": "2025-07-03",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2867"
+    },
+    {
+      "id": "history-ww-2025-08-14-96",
+      "name": "カンタレラ（復刻）",
+      "date": "2025-08-14",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3017"
+    },
+    {
+      "id": "history-ww-2025-08-14-97",
+      "name": "ブラント（復刻）",
+      "date": "2025-08-14",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3035"
+    },
+    {
+      "id": "history-ww-2025-09-17-100",
+      "name": "ユーノ",
+      "date": "2025-09-17",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3260"
+    },
+    {
+      "id": "history-ww-2025-10-09-118",
+      "name": "ルパ（復刻）",
+      "date": "2025-10-09",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3394"
+    },
+    {
+      "id": "history-ww-2025-10-30-120",
+      "name": "ザンニー（復刻）",
+      "date": "2025-10-30",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3509"
+    },
+    {
+      "id": "history-ww-2025-11-20-121",
+      "name": "千咲",
+      "date": "2025-11-20",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3616"
+    },
+    {
+      "id": "history-ww-2025-11-20-122",
+      "name": "フィービー（復刻）",
+      "date": "2025-11-20",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3631"
+    },
+    {
+      "id": "history-ww-2025-12-11-124",
+      "name": "カンタレラ（復刻）",
+      "date": "2025-12-11",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3737"
+    },
+    {
+      "id": "history-ww-2025-12-25-126",
+      "name": "カルテジア（復刻）",
+      "date": "2025-12-25",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3860"
+    },
+    {
+      "id": "history-ww-2026-01-15-127",
+      "name": "モーニエ",
+      "date": "2026-01-15",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4009"
+    },
+    {
+      "id": "history-ww-2026-01-15-129",
+      "name": "ユーノ（復刻）",
+      "date": "2026-01-15",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4041"
+    },
+    {
+      "id": "history-ww-2026-02-05-381",
+      "name": "千咲（復刻）",
+      "date": "2026-02-05",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167"
+    },
+    {
+      "id": "history-ww-2026-02-05-382",
+      "name": "ルパ（復刻）",
+      "date": "2026-02-05",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167"
+    },
+    {
+      "id": "history-ww-2026-04-09-387",
+      "name": "リンネー（復刻）",
+      "date": "2026-04-09",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493"
+    },
+    {
+      "id": "history-ww-2026-04-09-388",
+      "name": "ザンニー（復刻）",
+      "date": "2026-04-09",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493"
+    },
+    {
+      "id": "history-ww-2026-04-09-389",
+      "name": "フィービー（復刻）",
+      "date": "2026-04-09",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493"
+    },
+    {
+      "id": "ww-23-anniv-second-1",
+      "name": "今汐（周年復刻）",
+      "date": "2025-05-22",
+      "event_kind": "rerun",
+      "banner_type": "anniversary_convene",
+      "official_notice": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2655"
+    },
+    {
+      "id": "ww-23-anniv-second-2",
+      "name": "長離（周年復刻）",
+      "date": "2025-05-22",
+      "event_kind": "rerun",
+      "banner_type": "anniversary_convene",
+      "official_notice": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2655"
+    },
+    {
+      "id": "ww-23-anniv-second-3",
+      "name": "カルロッタ（周年復刻）",
+      "date": "2025-05-22",
+      "event_kind": "rerun",
+      "banner_type": "anniversary_convene",
+      "official_notice": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2655"
+    },
+    {
+      "id": "ww-23-anniv-second-4",
+      "name": "ロココ（周年復刻）",
+      "date": "2025-05-22",
+      "event_kind": "rerun",
+      "banner_type": "anniversary_convene",
+      "official_notice": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2655"
+    },
+    {
+      "id": "ww-23-anniv-second-5",
+      "name": "ブラント（周年復刻）",
+      "date": "2025-05-22",
+      "event_kind": "rerun",
+      "banner_type": "anniversary_convene",
+      "official_notice": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2655"
+    },
+    {
+      "id": "verified-ww-2025-12-25-ciaccona-rerun",
+      "name": "シャコンヌ（復刻）",
+      "date": "2025-12-25",
+      "event_kind": "rerun",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3862"
+    },
+    {
+      "id": "history-ww-2026-02-26-383",
+      "name": "リューク",
+      "date": "2026-02-26",
+      "event_kind": "debut",
+      "banner_type": null,
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4321"
+    }
+  ],
+  "remaining_secondary": [
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "character": "鎖暝",
+      "date": "2026-10-22",
+      "existing_source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "reason": "Future start date or banner period not yet corroborated by first-party exact-date announcement"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "character": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "existing_source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "reason": "Future start date or banner period not yet corroborated by first-party exact-date announcement"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "character": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "existing_source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "reason": "Future start date or banner period not yet corroborated by first-party exact-date announcement"
+    },
+    {
+      "id": "history-zzz-2024-07-04-18",
+      "game": "zzz",
+      "character": "エレン",
+      "date": "2024-07-04",
+      "existing_source": "https://zenless.gg/mellow-waveride-channel-details/",
+      "reason": "Historical banner is listed by a third party; exact-date original publisher post not yet confirmed."
+    },
+    {
+      "id": "history-zzz-2024-10-16-23",
+      "game": "zzz",
+      "character": "バーニス",
+      "date": "2024-10-16",
+      "existing_source": "https://zenless.gg/born-to-burn-channel-details/",
+      "reason": "Historical banner is listed by a third party; exact-date original publisher post not yet confirmed."
+    },
+    {
+      "id": "history-zzz-2024-11-27-25",
+      "game": "zzz",
+      "character": "ライト",
+      "date": "2024-11-27",
+      "existing_source": "https://zenless.gg/champion-of-embers-signal-search-details/",
+      "reason": "Historical banner is listed by a third party; exact-date original publisher post not yet confirmed."
+    },
+    {
+      "id": "history-hsr-2026-04-08-464",
+      "game": "hsr",
+      "character": "ブートヒル（復刻）",
+      "date": "2026-04-08",
+      "existing_source": "https://gamewith.jp/houkaistarrail/article/show/561173",
+      "reason": "Historical banner is listed by a third party; exact-date original publisher post not yet confirmed."
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "character": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "existing_source": "https://game8.jp/arknights-endfield/822407",
+      "reason": "Future start date or banner period not yet corroborated by first-party exact-date announcement"
+    }
+  ],
+  "limitations": [
+    "Many upgraded source URLs were cross-checked against third-party mirrors of publisher-authored text, not independent HTTP retrieval from every publisher landing page.",
+    "Three Wuthering Waves 2026-10-22 phase-II schedule entries and the 2026-10-29 Endfield entry remain secondary because future banner dates need direct publisher confirmation.",
+    "A source marked official is not the same as exhaustively auditing every historical banner.",
+    "PR TIMES publisher identity and consistency audit is a separate remaining backlog."
+  ]
+}
