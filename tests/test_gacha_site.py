@@ -659,7 +659,7 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
             e["id"] for e in events
             if e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-"))
         }
-        self.assertEqual(len(new_secondary_ids), 110)
+        self.assertEqual(len(new_secondary_ids), 233)  # 110 earlier + 123 in the next 2025–26 backfill
         self.assertTrue((secondary - new_secondary_ids) <= original_backlog)
         self.assertTrue(new_secondary_ids <= secondary)
         self.assertEqual(summary["secondary_labeled"], len(original_backlog))
@@ -1125,7 +1125,7 @@ class Genshin2026FourStarOfficialTests(unittest.TestCase):
 
 
 class HsrAndZenlessLowRarityRosterTests(unittest.TestCase):
-    """Cross-checked 2023–24 4-star/A-rank pools do not distort five-star rankings."""
+    """2023–26 4-star/A-rank pools do not distort five-star rankings."""
 
     def test_archived_low_rarity_roster_counts_and_provenance(self):
         import json
@@ -1136,10 +1136,16 @@ class HsrAndZenlessLowRarityRosterTests(unittest.TestCase):
         )["events"]
         hsr = [e for e in events if e.get("banner_type") == "event_warp_four_star"]
         zzz = [e for e in events if e.get("banner_type") == "exclusive_channel_a_rank"]
-        self.assertEqual(len(hsr), 90)
-        self.assertEqual(len(zzz), 20)
-        self.assertEqual(len({e["date"] for e in hsr}), 30)
-        self.assertEqual(len({(e["date"],e["featured_five_star"]) for e in zzz}), 10)
+        hsr_older = [e for e in hsr if e["date"] < "2025-01-01"]
+        zzz_older = [e for e in zzz if e["date"] < "2025-01-01"]
+        self.assertEqual(len(hsr), 177)
+        self.assertEqual(len(zzz), 56)
+        self.assertEqual(len(hsr_older), 90)
+        self.assertEqual(len(zzz_older), 20)
+        self.assertEqual(len({e["date"] for e in hsr_older}), 30)
+        self.assertEqual(len({(e["date"],e["featured_five_star"]) for e in zzz_older}), 10)
+        self.assertEqual(len({e["date"] for e in hsr}), 59)
+        self.assertEqual(len({(e["date"],e["featured_five_star"]) for e in zzz}), 28)
         self.assertEqual({e["version"] for e in zzz
                           if e["date"] == "2024-12-18" and
                           e["featured_five_star"] == "雅"}, {"蒼角", "パイパー"})
@@ -1169,6 +1175,61 @@ class HsrAndZenlessLowRarityRosterTests(unittest.TestCase):
         self.assertIn('e.banner_type==="exclusive_channel_a_rank"?e.featured_five_star||""',html)
         self.assertIn('イベント跳躍・共有★4枠',html)
         self.assertIn('独占変調・A級PU',html)
+
+
+class Hsr2025Zenless2025AdditionalRegressionTests(unittest.TestCase):
+    """2025–26 source-labeled roster additions and phase grouping."""
+
+    def test_new_123_slots_and_2025_26_phase_ranges(self):
+        import json
+        import pathlib
+        root = pathlib.Path(__file__).resolve().parents[1]
+        events = json.loads(
+            (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
+        )["events"]
+        self.assertEqual(len(events), 1122)
+        hsr_new = [x for x in events
+                   if x.get("banner_type") == "event_warp_four_star"
+                   and x["date"] >= "2025-01-01"]
+        zzz_new = [x for x in events
+                   if x.get("banner_type") == "exclusive_channel_a_rank"
+                   and x["date"] >= "2025-01-01"]
+        self.assertEqual(len(hsr_new), 87)
+        self.assertEqual(len(zzz_new), 36)
+        self.assertEqual(len({x["date"] for x in hsr_new}), 29)
+        self.assertEqual(len({(x["date"], x["featured_five_star"]) for x in zzz_new}), 18)
+        self.assertEqual(sum(x["date"].startswith("2025-") for x in hsr_new), 51)
+        self.assertEqual(sum(x["date"].startswith("2026-") for x in hsr_new), 36)
+        self.assertTrue(all(x["verification"] == "secondary" for x in hsr_new + zzz_new))
+        self.assertTrue(all(x["date_basis"].startswith("first_party_") for x in hsr_new + zzz_new))
+        for e in hsr_new:
+            self.assertEqual(e["source_url"],
+                             "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/")
+        for e in zzz_new:
+            self.assertTrue(e["source_url"].startswith(
+                "https://game8.co/games/Zenless-Zone-Zero/archives/"))
+        self.assertEqual({e["version"] for e in hsr_new if e["date"] == "2025-12-17"},
+                         {"ギャラガー", "ルカ", "三月なのか"})
+        self.assertEqual({e["version"] for e in hsr_new if e["date"] == "2026-04-22"},
+                         {"ギャラガー", "雪衣", "フック"})
+        self.assertEqual({e["version"] for e in zzz_new if e["date"] == "2025-10-15"},
+                         {"狛野真斗", "パイパー"})
+        self.assertEqual({e["version"] for e in zzz_new if e["date"] == "2025-12-30"},
+                         {"ニコ", "ルーシー", "アンビー", "ベン"})
+        self.assertEqual({e["version"] for e in zzz_new
+                          if e["date"] == "2025-12-30"
+                          and e["featured_five_star"] == "葉瞬光"},
+                         {"ニコ", "ルーシー"})
+        self.assertEqual({e["version"] for e in zzz_new
+                          if e["date"] == "2025-12-30"
+                          and e["featured_five_star"] == "照"},
+                         {"アンビー", "ベン"})
+        self.assertEqual(
+            {e["version"] for e in zzz_new if e.get("event_kind") == "debut"},
+            {"プルクラ", "潘引壺", "狛野真斗"})
+        self.assertEqual(
+            len({(e["game"], e["date"], e["version"], e["featured_five_star"]) for e in hsr_new + zzz_new}),
+            123)
 
 if __name__ == "__main__":
     unittest.main()
