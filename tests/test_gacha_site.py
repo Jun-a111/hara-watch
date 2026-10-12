@@ -327,6 +327,20 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('!specialTypes.includes(e.banner_type)', phases)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
 
+    def test_third_party_sources_are_not_marked_official(self):
+        """A fan archive or aggregator link cannot by itself prove a publisher announcement."""
+        events = self.read("release-events.json")["events"]
+        third_party_hosts = {
+            "wutheringwaves.gg", "wutheringwaves.fandom.com",
+            "zenless.gg", "www.dearplayers.com"
+        }
+        checked = [
+            e for e in events if
+            e["source_url"].split("/")[2].lower() in third_party_hosts
+        ]
+        self.assertGreaterEqual(len(checked), 52)
+        self.assertTrue(all(e["verification"] != "official" for e in checked))
+
     def test_endfield_celebration_scout_has_all_four_candidates(self):
         """The May 2026 special scout was a shared pool, not four rate-up reruns."""
         events = self.read("release-events.json")["events"]
