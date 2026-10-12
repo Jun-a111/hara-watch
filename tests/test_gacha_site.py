@@ -1948,7 +1948,10 @@ assert.equal(result.upgraded,64);
 assert.equal(primary.length,result.events.length);
 assert.equal(new Set(result.events.map(x=>x.id)).size,result.events.length);
 assert.equal(result.events.filter(x=>x.id.startsWith("ww-weapon-featured-")&&x.verification==="official").length,58);
-assert.equal(result.events.filter(x=>x.id.startsWith("ww-weapon-four-")&&x.verification==="official").length,6);
+assert.equal(result.events.filter(x=>x.id.startsWith("ww-weapon-four-")&&x.verification==="official").length,12);
+const upgradedIds=new Set(source.upgrades.map(x=>x.id));
+assert.equal(result.events.filter(x=>upgradedIds.has(x.id)&&x.id.startsWith("ww-weapon-four-")&&x.verification==="official").length,6);
+assert.equal(primary.filter(x=>x.id.startsWith("ww-weapon-four-")&&x.verification==="official").length,6);
 assert.equal(primary.find(x=>x.id==="ww-weapon-featured-2026-02-05-49").verification,"secondary");
 assert.equal(result.events.find(x=>x.id==="ww-weapon-featured-2026-02-05-49").source_url,
  "https://wutheringwaves.kurogames.com/en/main/news/detail/4204");
