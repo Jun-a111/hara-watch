@@ -467,6 +467,7 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         events = self.read("release-events.json")["events"]
         special_types = {
             "anniversary_convene", "special_rerun", "event_wish_four_star",
+            "event_warp_four_star", "exclusive_channel_a_rank",
             "chronicled_wish", "reminiscence_wish", "standard_character_event"
         }
         specials = [e for e in events if e.get("banner_type")]
@@ -654,7 +655,13 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         original_backlog = {e["id"] for e in ledger["remaining_secondary"]}
         # This audit is a dated snapshot: later source verifications may
         # reduce the outstanding set without rewriting historical evidence.
-        self.assertTrue(secondary <= original_backlog)
+        new_secondary_ids = {
+            e["id"] for e in events
+            if e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-"))
+        }
+        self.assertEqual(len(new_secondary_ids), 110)
+        self.assertTrue((secondary - new_secondary_ids) <= original_backlog)
+        self.assertTrue(new_secondary_ids <= secondary)
         self.assertEqual(summary["secondary_labeled"], len(original_backlog))
         self.assertEqual(summary["first_party_labeled"],
                          summary["total_events"] - len(original_backlog))
@@ -1115,6 +1122,53 @@ class Genshin2026FourStarOfficialTests(unittest.TestCase):
             {"アリョーシャ", "ディオナ", "フレミネ"},
             "The COGNOSPHERE announcement must take precedence over a conflicting third-party table.",
         )
+
+
+class HsrAndZenlessLowRarityRosterTests(unittest.TestCase):
+    """Cross-checked 2023–24 4-star/A-rank pools do not distort five-star rankings."""
+
+    def test_archived_low_rarity_roster_counts_and_provenance(self):
+        import json
+        import pathlib
+        root = pathlib.Path(__file__).resolve().parents[1]
+        events = json.loads(
+            (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
+        )["events"]
+        hsr = [e for e in events if e.get("banner_type") == "event_warp_four_star"]
+        zzz = [e for e in events if e.get("banner_type") == "exclusive_channel_a_rank"]
+        self.assertEqual(len(hsr), 90)
+        self.assertEqual(len(zzz), 20)
+        self.assertEqual(len({e["date"] for e in hsr}), 30)
+        self.assertEqual(len({(e["date"],e["featured_five_star"]) for e in zzz}), 10)
+        self.assertEqual({e["version"] for e in zzz
+                          if e["date"] == "2024-12-18" and
+                          e["featured_five_star"] == "雅"}, {"蒼角", "パイパー"})
+        self.assertEqual({e["version"] for e in zzz
+                          if e["date"] == "2024-12-18" and
+                          e["featured_five_star"] == "浅羽悠真"}, {"ルーシー", "セス"})
+        for event in hsr + zzz:
+            with self.subTest(id=event["id"]):
+                self.assertEqual(event["type"], "character")
+                self.assertEqual(event["verification"], "secondary")
+                self.assertTrue(event["source_url"].startswith("https://"))
+                self.assertTrue(event["date_basis"])
+                self.assertTrue(event["review_note"])
+                self.assertTrue(event["corroborating_sources"])
+        for date in {e["date"] for e in hsr}:
+            self.assertEqual(sum(e["date"] == date for e in hsr), 3)
+        for date, featured in {(e["date"],e["featured_five_star"]) for e in zzz}:
+            self.assertEqual(sum(e["date"] == date and
+                                 e["featured_five_star"] == featured for e in zzz), 2)
+
+    def test_new_types_are_excluded_from_normal_revenue_rankings(self):
+        import pathlib
+        root = pathlib.Path(__file__).resolve().parents[1]
+        html = (root / "gacha-wars" / "index.html").read_text(encoding="utf-8")
+        for banner_type in ("event_warp_four_star", "exclusive_channel_a_rank"):
+            self.assertGreaterEqual(html.count('"' + banner_type + '"'), 4)
+        self.assertIn('e.banner_type==="exclusive_channel_a_rank"?e.featured_five_star||""',html)
+        self.assertIn('イベント跳躍・共有★4枠',html)
+        self.assertIn('独占変調・A級PU',html)
 
 if __name__ == "__main__":
     unittest.main()
