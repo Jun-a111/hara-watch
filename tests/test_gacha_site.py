@@ -235,6 +235,56 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                          "duplicate character banner on the same date")
 
 
+    def test_genshin_2023_2025_four_star_phase_coverage(self):
+        """Every 2023-25 limited wish phase has one shared three-character pool."""
+        audit = self.read("audits/2026-10-12-genshin-2023-2025-fourstar-rotations.json")
+        events = self.read("release-events.json")["events"]
+        summary = audit["summary"]
+        self.assertEqual(summary["periods"], 52)
+        self.assertEqual(summary["slots"], 156)
+        self.assertEqual(summary["newly_added"], 138)
+        self.assertGreaterEqual(len(events), summary["total_live_records"])
+        self.assertEqual(len(audit["banner_periods"]), 52)
+        per_date = {}
+        for event in events:
+            if (event["game"] == "gi" and
+                "2023-01-01" <= event["date"] < "2026-01-01" and
+                event.get("banner_type") == "event_wish_four_star"):
+                per_date.setdefault(event["date"], []).append(event)
+        self.assertEqual(len(per_date), 52)
+        self.assertEqual(sum(map(len, per_date.values())), 156)
+        self.assertEqual({v[0]["date"][:4] for v in per_date.values()},
+                         {"2023", "2024", "2025"})
+        all_added = set()
+        for phase in audit["banner_periods"]:
+            with self.subTest(date=phase["date"]):
+                current = per_date[phase["date"]]
+                self.assertEqual(len(current), 3)
+                self.assertEqual(len(set(e["version"] for e in current)), 3)
+                self.assertEqual({e["version"] for e in current}, set(phase["members"]))
+                self.assertEqual({e["id"] for e in current}, set(phase["ids"]))
+                self.assertEqual({e["source_url"] for e in current}, set(phase["sources"]))
+                self.assertTrue(all(e["rarity"] == 4 and
+                                    e["verification"] == "official" and
+                                    e["phase"] == phase["phase"] and
+                                    e["version_group"] == phase["version_group"]
+                                    for e in current))
+                self.assertTrue(any(x["game"] == "gi" and
+                                    x["date"] == phase["date"] and
+                                    x.get("rarity", 5) != 4 and
+                                    x["event_kind"] in {"debut", "rerun"}
+                                    for x in events))
+                all_added.update(phase["new_this_batch"])
+        self.assertEqual(len(all_added), 138)
+        self.assertTrue(all(x.startswith("gi-four-pu-") for x in all_added))
+        june = per_date["2023-06-13"]
+        self.assertEqual({e["version"] for e in june},
+                         {"鹿野院平蔵", "香菱", "ヨォーヨ"})
+        self.assertTrue(all(e["banner_type"] == "event_wish_four_star"
+                            for e in june))
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn('!specialTypes.includes(ev.banner_type)', html)
+
     def test_genshin_2020_2022_five_star_banner_four_star_pool_coverage(self):
         """Every historic 2020-2022 banner phase has exactly three shared 4-star PU slots."""
         ledger = self.read("audits/2026-10-12-genshin-2020-2022-fourstar-rotations.json")
