@@ -1646,5 +1646,59 @@ assert.ok(events.some(e=>e.multiple_concurrent));
         self.assertEqual(result.returncode,0,result.stderr)
 
 
+
+class WeaponLocalizationCoverageTests(unittest.TestCase):
+    def test_all_119_genshin_weapon_names_are_localized_in_both_languages(self):
+        data=json.loads((SITE/"gi-weapon-history.json").read_text(encoding="utf-8"))
+        keys={name for b in data["banners"] for name in b["five"]+b["four"]}
+        self.assertEqual(len(keys),119)
+        self.assertEqual(keys,set(data["ja_names"]))
+        self.assertEqual(keys,set(data["en_names"]))
+        self.assertEqual(data["localization"]["entries"],119)
+        self.assertEqual(data["ja_names"]["beyond_the_chrysalis"],"蝶の羽化")
+        self.assertEqual(data["en_names"]["beyond_the_chrysalis"],"Beyond the Chrysalis")
+        self.assertEqual(data["ja_names"]["amos_bow"],"アモスの弓")
+        self.assertTrue(all(data["ja_names"][key] and data["en_names"][key] for key in keys))
+
+    def test_all_89_hsr_cone_names_are_localized_by_item_id(self):
+        data=json.loads((SITE/"hsr-lightcone-history.json").read_text(encoding="utf-8"))
+        ids={str(item["id"]) for b in data["banners"] for item in b["five"]+b["four"]}
+        self.assertEqual(len(ids),89)
+        self.assertEqual(set(data["ja_names"]),ids)
+        self.assertEqual(data["localization"]["entries"],89)
+        self.assertEqual(data["ja_names"]["23001"],"夜の帳の中で")
+        self.assertEqual(data["ja_names"]["23055"],"明日に捧げる色")
+        self.assertTrue(all(data["ja_names"][k].strip() for k in ids))
+
+    def test_runtime_1076_weapon_slots_japanese_names_and_original_search(self):
+        site=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('e.original_name||""',site)
+        self.assertIn('typeof data.en_names[key]==="string"',site)
+        self.assertIn('typeof names[String(x.id)]==="string"',site)
+        a=site.index("function labelGenshinWeapon(key){")
+        b=site.index("async function loadEvents(){",a)
+        js=site[a:b]
+        script=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+js+r'''
+const gi=JSON.parse(fs.readFileSync("gacha-wars/gi-weapon-history.json","utf8"));
+const hsr=JSON.parse(fs.readFileSync("gacha-wars/hsr-lightcone-history.json","utf8"));
+const g=parseGenshinWeaponArchive(gi), h=parseHsrLightconeArchive(hsr);
+assert.equal(g.length,735);
+assert.equal(h.length,341);
+assert.equal(g.filter(x=>x.version!==x.original_name).length,735);
+assert.equal(h.filter(x=>x.version!==x.original_name).length,341);
+assert.equal(g.find(x=>x.item_key==="beyond_the_chrysalis").version,"蝶の羽化");
+assert.equal(g.find(x=>x.item_key==="beyond_the_chrysalis").original_name,"Beyond the Chrysalis");
+assert.equal(h.find(x=>x.item_id==="23001").version,"夜の帳の中で");
+assert.equal(h.find(x=>x.item_id==="23001").original_name,"In the Night");
+assert.equal(h.find(x=>x.item_id==="23055").version,"明日に捧げる色");
+assert.ok([...g,...h].every(x=>x.verification==="secondary"&&x.type==="weapon"));
+'''
+        run=subprocess.run(["node","-e",script],cwd=ROOT,text=True,capture_output=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
