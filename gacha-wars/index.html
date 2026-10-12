@@ -179,14 +179,14 @@ function renderSpecialEventsGrouped(events){
 function weaponHistory(){
  const weaponBannerKinds=["hsr_lightcone_five","hsr_lightcone_four","hsr_lightcone_special_five","gi_weapon_five","gi_weapon_four","w_engine_s_rank","w_engine_a_rank","w_engine_a_default","ww_weapon_five","ww_weapon_four","ww_weapon_anniversary_five","ww_weapon_anniversary_four","ww_weapon_collab_five"];
  const query=characterSearch.toLocaleLowerCase();
- const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.version_group,e.featured_five_star||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
+ const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.version_group,e.featured_five_star||"",e.event_banner_name||"",e.weapon_banner_group||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
  const pools=new Map();
  for(const e of weapons){
   const key=[e.game,e.date,e.version_group||"",e.phase||"",e.featured_five_star||"",e.weapon_banner_group||""].join("|");
   if(!pools.has(key))pools.set(key,{game:e.game,date:e.date,group:e.version_group,phase:e.phase,parent:e.featured_five_star,items:[]});
   pools.get(key).items.push(e);
  }
- const rows=[...pools.values()].sort((a,b)=>b.date.localeCompare(a.date)||a.parent.localeCompare(b.parent));
+ const rows=[...pools.values()].sort((a,b)=>b.date.localeCompare(a.date)||String(a.parent||a.items[0]?.event_banner_name||"").localeCompare(String(b.parent||b.items[0]?.event_banner_name||"")));
  const perPage=40,totalPages=Math.max(1,Math.ceil(rows.length/perPage));weaponPage=Math.min(weaponPage,totalPages-1);
  const visibleRows=rows.slice(weaponPage*perPage,(weaponPage+1)*perPage);
  const pager='<div class="row" style="margin:12px 0"><button class="btn" onclick="changeWeaponPage('+(weaponPage-1)+')" '+(weaponPage===0?'disabled':'')+'>前へ</button><span class="tiny">ページ '+(weaponPage+1)+' / '+totalPages+'</span><button class="btn" onclick="changeWeaponPage('+(weaponPage+1)+')" '+(weaponPage===totalPages-1?'disabled':'')+'>次へ</button></div>';
