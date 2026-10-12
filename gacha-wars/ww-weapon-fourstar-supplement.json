@@ -68,7 +68,8 @@
     "Potential updates after October 12 2026 are excluded. Other dates without a corresponding archived 5-star banner are not admitted automatically.",
     "Seven additional phases on 2025-10-30, 2025-12-25, 2026-01-15, 2026-02-05, 2026-02-26, 2026-04-09, and 2026-04-30 were directly verified for ★5 and ★4 lineups against each applicable KURO GAMES official weapon notice; 21 existing secondary rows can be reclassified as official.",
     "24 additional historical phases from July 2024 to December 2025 have their ★5 and common ★4 featured weapons cross-checked with named KURO GAMES publisher notices; two inaccurate four-star lineups (2025-11-20 and 2025-12-11) corrected to those publisher notices.",
-    "For 12 phases where the official announcement gives only 'Version update' instead of an exact local clock start, the four-star contents are first-party verified but the day is still archive-aligned; these have a distinct date_basis and are not claimed to have exact official-date confirmation."
+    "For 12 phases where the official announcement gives only 'Version update' instead of an exact local clock start, the four-star contents are first-party verified but the day is still archive-aligned; these have a distinct date_basis and are not claimed to have exact official-date confirmation.",
+    "The remaining 2026-03-19 phase's start day has now been corroborated directly by the KURO GAMES 4403 maintenance and 4447 patch notices. Its ★4 rate-up content remains secondary-source because a direct KURO rate-up announcement was not located."
   ],
   "phases": [
     {
@@ -756,7 +757,7 @@
       "phase": "first",
       "kind": "regular",
       "tier": "secondary",
-      "date_basis": "corrected_one_day_date_mismatch_to_existing_record",
+      "date_basis": "publisher_maintenance_day_2026_03_19_secondary_weapon_rateup",
       "featured_four": [
         "Celestial Spiral",
         "Endless Collapse",
@@ -767,7 +768,14 @@
         "Emerald Sentence",
         "Solsworn Ciphers"
       ],
-      "version_group": "Ver.3.2"
+      "version_group": "Ver.3.2",
+      "publisher_date_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/4403",
+      "publisher_patch_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/4447",
+      "roster_external_crosschecks": [
+        "https://wutheringwaves.fandom.com/wiki/Absolute%20Pulsation%3A%20Emerald%20Sentence/2026-03-19",
+        "https://game8.co/games/Wuthering-Waves/archives/453303"
+      ],
+      "date_justification": "KURO GAMES Ver.3.2 maintenance announcement confirms March 19; the community phase calendar lists March 18. The three ★4 weapons are corroborated externally but not upgraded to first-party verification."
     },
     {
       "date": "2026-04-09",
