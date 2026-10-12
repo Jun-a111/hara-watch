@@ -1,0 +1,298 @@
+{
+  "schema": "gacha-wars-current-coverage-v9",
+  "audit_date": "2026-10-12",
+  "dataset_blob_sha": "42fa068e98b1c1eceed439353e55a332eae7a6ae",
+  "total_events": 1164,
+  "by_game": {
+    "zzz": {
+      "total": 127,
+      "official": 71,
+      "secondary": 56,
+      "unreviewed": 0
+    },
+    "gi": {
+      "total": 547,
+      "official": 547,
+      "secondary": 0,
+      "unreviewed": 0
+    },
+    "ww": {
+      "total": 143,
+      "official": 140,
+      "secondary": 3,
+      "unreviewed": 0
+    },
+    "hsr": {
+      "total": 316,
+      "official": 139,
+      "secondary": 177,
+      "unreviewed": 0
+    },
+    "end": {
+      "total": 19,
+      "official": 18,
+      "secondary": 1,
+      "unreviewed": 0
+    },
+    "nte": {
+      "total": 12,
+      "official": 12,
+      "secondary": 0,
+      "unreviewed": 0
+    }
+  },
+  "by_banner_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 318,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5,
+    "event_warp_four_star": 177,
+    "exclusive_channel_a_rank": 56,
+    "featured_convene_four_star": 39,
+    "anniversary_convene_four_star": 3
+  },
+  "verification": {
+    "official": 927,
+    "secondary": 237
+  },
+  "batch": {
+    "new_records": 165,
+    "previous_total": 999,
+    "hsr_2025_26": {
+      "count": 87,
+      "phase_dates": 29,
+      "verification": "secondary",
+      "roster_source": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "periods": [
+        "2025-01-15",
+        "2025-02-05",
+        "2025-02-26",
+        "2025-03-19",
+        "2025-04-09",
+        "2025-04-30",
+        "2025-05-21",
+        "2025-06-11",
+        "2025-07-02",
+        "2025-07-23",
+        "2025-08-13",
+        "2025-09-02",
+        "2025-09-24",
+        "2025-10-15",
+        "2025-11-05",
+        "2025-11-26",
+        "2025-12-17",
+        "2026-01-07",
+        "2026-01-28",
+        "2026-02-13",
+        "2026-03-03",
+        "2026-03-25",
+        "2026-04-08",
+        "2026-04-22",
+        "2026-05-13",
+        "2026-06-01",
+        "2026-06-24",
+        "2026-07-15",
+        "2026-08-05"
+      ]
+    },
+    "zzz_2025": {
+      "count": 36,
+      "distinct_banners": 18,
+      "verification": "secondary",
+      "roster_source": "Game8 individually dated Version 1.5–2.5 guide pages",
+      "periods": [
+        "2025-01-22|アストラ",
+        "2025-02-12|イヴリン",
+        "2025-03-12|0号・アンビー",
+        "2025-04-02|トリガー",
+        "2025-04-23|ビビアン",
+        "2025-05-14|ヒューゴ",
+        "2025-06-06|儀玄",
+        "2025-06-25|橘福福",
+        "2025-07-16|浮波柚葉",
+        "2025-08-06|アリス",
+        "2025-09-04|シード",
+        "2025-09-24|オルペウス＆「鬼火」",
+        "2025-10-15|リュシア",
+        "2025-11-05|イドリー",
+        "2025-11-26|ダイアリン",
+        "2025-12-17|盤岳",
+        "2025-12-30|照",
+        "2025-12-30|葉瞬光"
+      ]
+    },
+    "ww_2024_26": {
+      "count": 42,
+      "phase_dates": 14,
+      "regular": 39,
+      "anniversary": 3,
+      "verification": "official",
+      "first_party_rosters": [
+        {
+          "date": "2024-06-28",
+          "members": [
+            "散華",
+            "丹瑾",
+            "秧秧"
+          ],
+          "parent_five_star": "今汐",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/973"
+        },
+        {
+          "date": "2024-09-29",
+          "members": [
+            "桃祈",
+            "秧秧",
+            "熾霞"
+          ],
+          "parent_five_star": "ショアキーパー",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/1420"
+        },
+        {
+          "date": "2024-12-12",
+          "members": [
+            "灯灯",
+            "白芷",
+            "淵武"
+          ],
+          "parent_five_star": "相里要（復刻）",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/1770"
+        },
+        {
+          "date": "2025-01-02",
+          "members": [
+            "散華",
+            "熾霞",
+            "モルトフィー"
+          ],
+          "parent_five_star": "カルロッタ",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/1897"
+        },
+        {
+          "date": "2025-04-29",
+          "members": [
+            "灯灯",
+            "桃祈",
+            "淵武"
+          ],
+          "parent_five_star": "周年記念第1期",
+          "banner_type": "anniversary_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2533"
+        },
+        {
+          "date": "2025-06-12",
+          "members": [
+            "アールト",
+            "白芷",
+            "釉瑚"
+          ],
+          "parent_five_star": "カルテジア",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2766"
+        },
+        {
+          "date": "2025-07-24",
+          "members": [
+            "桃祈",
+            "灯灯",
+            "淵武"
+          ],
+          "parent_five_star": "フローヴァ",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/2936"
+        },
+        {
+          "date": "2025-10-30",
+          "members": [
+            "秧秧",
+            "桃祈",
+            "丹瑾"
+          ],
+          "parent_five_star": "仇遠",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3494"
+        },
+        {
+          "date": "2025-12-11",
+          "members": [
+            "卜霊",
+            "丹瑾",
+            "熾霞"
+          ],
+          "parent_five_star": "フローヴァ（復刻）",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3723"
+        },
+        {
+          "date": "2025-12-25",
+          "members": [
+            "秧秧",
+            "釉瑚",
+            "白芷"
+          ],
+          "parent_five_star": "リンネー",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3858"
+        },
+        {
+          "date": "2026-01-15",
+          "members": [
+            "熾霞",
+            "散華",
+            "丹瑾"
+          ],
+          "parent_five_star": "オーガスタ（復刻）",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4025"
+        },
+        {
+          "date": "2026-05-21",
+          "members": [
+            "熾霞",
+            "卜霊",
+            "秧秧"
+          ],
+          "parent_five_star": "ダーニャ",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4691"
+        },
+        {
+          "date": "2026-06-18",
+          "members": [
+            "秧秧",
+            "淵武",
+            "モルトフィー"
+          ],
+          "parent_five_star": "カルテジア（復刻）",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4916"
+        },
+        {
+          "date": "2026-07-10",
+          "members": [
+            "丹瑾",
+            "熾霞",
+            "アールト"
+          ],
+          "parent_five_star": "リューク（復刻）",
+          "banner_type": "featured_convene_four_star",
+          "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039"
+        }
+      ]
+    }
+  },
+  "constraints": [
+    "2025–26 HSR ★4 and 2025 ZZZ A-rank rosters are secondary-sourced and not claimed publisher-text verified.",
+    "HSR PC Gamer history may display dates differing by one day across server time zones; each saved date is aligned to an existing first-party parent banner record.",
+    "Four-star and A-rank roles and select-a-five-star anniversary pools are not included in normal five-star banner revenue comparisons.",
+    "42 new Wuthering ★4 records were directly crosschecked against KURO GAMES English notice text naming all three rated-up Resonators.",
+    "This audit does not imply completed all-time history for all six games, weapon banners, permanent banners, or 2026 after the listed periods."
+  ]
+}
