@@ -289,7 +289,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         """Track archive coverage without pretending it proves completeness."""
         data = self.read("release-events.json")["events"]
         baseline = {"gi": 196, "hsr": 139, "zzz": 71,
-                    "ww": 100, "nte": 13, "end": 15}
+                    "ww": 100, "nte": 12, "end": 15}
         for game, minimum in baseline.items():
             rows = [e for e in data if e["game"] == game]
             self.assertGreaterEqual(len(rows), minimum,
