@@ -366,7 +366,8 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
     def test_genshin_four_star_debut_backfill_2020_through_2025(self):
         """New four-stars are documented but excluded from five-star banner rankings."""
         events = self.read("release-events.json")["events"]
-        four = [e for e in events if e["id"].startswith("gi-four-debut-")]
+        four = [e for e in events if e["id"].startswith("gi-four-debut-")
+                and e["date"] < "2026-01-01"]
         self.assertEqual(len(four), 33)
         expected = {
             "ディオナ": "2020-11-11", "辛炎": "2020-12-01",
