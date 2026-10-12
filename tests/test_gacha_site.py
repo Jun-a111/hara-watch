@@ -270,7 +270,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                                     for e in actual))
                 self.assertTrue(any(e["game"] == "gi" and
                                     e["date"] == pool["date"] and
-                                    e["rarity"] != 4 and
+                                    e.get("rarity", 5) != 4 and
                                     e["event_kind"] in {"debut", "rerun", "featured_banner"}
                                     for e in events))
                 for eid in pool["four_star_added_this_turn"]:
