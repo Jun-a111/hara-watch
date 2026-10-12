@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-12T15:24:00+09:00",
+  "updated_at": "2026-10-12T16:32:00+09:00",
   "events": [
     {
       "id": "zzz-3.2",
@@ -539,18 +539,15 @@
       "type": "character",
       "version": "バーニス",
       "date": "2024-10-16",
-      "source_url": "https://zenless.gg/born-to-burn-channel-details/",
-      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
+      "source_url": "https://zenless.hoyoverse.com/ja-jp/news/126371",
+      "source_title": "『ゼンレスゾーンゼロ』公式サイト：「高嶺の火花」変調詳細",
       "phase": "second",
       "version_group": "Ver.1.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.1.2公式更新資料にバーニス追加予定と10月16日の秘話開放を確認し、公式音動機チャンネルも10月16日開始。しかしキャラ独占チャンネルの正確な開始告知は未取得。",
-      "date_basis": "secondary_banner_schedule",
-      "corroborating_sources": [
-        "https://zenless.hoyoverse.com/id-id/news/126054",
-        "https://zenless.hoyoverse.com/ja-jp/news/126372"
-      ]
+      "verification": "official",
+      "review_note": "公式サイト2024年10月16日13:00（JST）〜11月5日15:59:59の『高嶺の火花』にバーニスのS級エージェントPUを明記。キャラクター・開始日を公式告知で直接確認。",
+      "date_basis": "first_party_exact_banner_start",
+      "corroborating_sources": []
     },
     {
       "id": "history-zzz-2024-11-06-24",
@@ -6576,18 +6573,15 @@
       "type": "character",
       "version": "ブートヒル（復刻）",
       "date": "2026-04-08",
-      "source_url": "https://gamewith.jp/houkaistarrail/article/show/561173",
-      "source_title": "GameWith：Ver.4.1公式予告番組のガチャ日程まとめ（一次資料未照合）",
+      "source_url": "https://x.com/houkaistarrail/status/2041380447087927707",
+      "source_title": "『崩壊：スターレイル』公式X：Ver.4.1イベント跳躍・その2",
       "phase": "second",
       "version_group": "Ver.4.1",
       "event_kind": "rerun",
-      "verification": "secondary",
-      "review_note": "COGNOSPHERE公式でVer.4.1前半復刻ヒアンシーの4月8日終了を確認。3月13日の運営予告番組を報じた各媒体はブートヒル後半復刻を掲載するが、4月8日開始を明示する運営発表原文は未取得。",
-      "date_basis": "official_phase_boundary_plus_secondary_banner_schedule",
-      "corroborating_sources": [
-        "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
-        "https://prtimes.jp/main/html/rd/p/000000396.000096124.html"
-      ]
+      "verification": "official",
+      "review_note": "2026年4月の公式X原投稿で『Ver.4.1イベント跳躍・その2』のブートヒル復刻開催期間2026/04/08 12:00〜2026/04/21 15:00（サーバー時間）と明記。",
+      "date_basis": "first_party_exact_banner_start",
+      "corroborating_sources": []
     },
     {
       "id": "history-hsr-2026-04-22-465",
