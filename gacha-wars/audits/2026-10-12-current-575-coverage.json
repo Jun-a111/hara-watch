@@ -1,0 +1,254 @@
+{
+  "schema": "gacha-wars-current-coverage-v3",
+  "audit_date": "2026-10-12",
+  "data_blob_sha": "29257267f508fbc6f5f2d67881a1e785ca564d2f",
+  "total_records": 575,
+  "by_game": {
+    "zzz": {
+      "records": 71,
+      "debut": 40,
+      "normal_rerun": 30,
+      "featured_other": 0,
+      "version": 1,
+      "official": 71,
+      "secondary": 0
+    },
+    "gi": {
+      "records": 233,
+      "debut": 63,
+      "normal_rerun": 122,
+      "featured_other": 48,
+      "version": 0,
+      "official": 233,
+      "secondary": 0
+    },
+    "ww": {
+      "records": 101,
+      "debut": 39,
+      "normal_rerun": 61,
+      "featured_other": 0,
+      "version": 1,
+      "official": 98,
+      "secondary": 3
+    },
+    "hsr": {
+      "records": 139,
+      "debut": 56,
+      "normal_rerun": 83,
+      "featured_other": 0,
+      "version": 0,
+      "official": 139,
+      "secondary": 0
+    },
+    "end": {
+      "records": 19,
+      "debut": 13,
+      "normal_rerun": 2,
+      "featured_other": 4,
+      "version": 0,
+      "official": 18,
+      "secondary": 1
+    },
+    "nte": {
+      "records": 12,
+      "debut": 9,
+      "normal_rerun": 3,
+      "featured_other": 0,
+      "version": 0,
+      "official": 12,
+      "secondary": 0
+    }
+  },
+  "source_flags": {
+    "official": 571,
+    "secondary": 4
+  },
+  "chronicled_and_reminiscence_wish_pools": [
+    {
+      "date": "2024-03-13",
+      "wish_name": "暁風の詩",
+      "kind": "chronicled_wish",
+      "version": "Ver.4.5",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000185.000096124.html",
+      "characters": [
+        "モナ（集録祈願）",
+        "クレー（集録祈願）",
+        "ディルック（集録祈願）",
+        "ジン（集録祈願）",
+        "アルベド（集録祈願）",
+        "エウルア（集録祈願）"
+      ]
+    },
+    {
+      "date": "2025-01-21",
+      "wish_name": "玉岩の憶",
+      "kind": "chronicled_wish",
+      "version": "Ver.5.3",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html",
+      "characters": [
+        "白朮（集録祈願）",
+        "申鶴（集録祈願）",
+        "刻晴（集録祈願）",
+        "甘雨（集録祈願）",
+        "七七（集録祈願）",
+        "タルタリヤ（集録祈願）",
+        "魈（集録祈願）"
+      ]
+    },
+    {
+      "date": "2025-05-27",
+      "wish_name": "天を裂く雷鳴",
+      "kind": "chronicled_wish",
+      "version": "Ver.5.6",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "characters": [
+        "神里綾華（集録祈願）",
+        "神里綾人（集録祈願）",
+        "宵宮（集録祈願）",
+        "千織（集録祈願）",
+        "八重神子（集録祈願）",
+        "荒瀧一斗（集録祈願）",
+        "珊瑚宮心海（集録祈願）",
+        "楓原万葉（集録祈願）"
+      ]
+    },
+    {
+      "date": "2025-09-10",
+      "wish_name": "露と草の盃",
+      "kind": "chronicled_wish",
+      "version": "Luna I",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "characters": [
+        "ディシア（集録祈願）",
+        "アルハイゼン（集録祈願）",
+        "放浪者（集録祈願）",
+        "セノ（集録祈願）",
+        "ニィロウ（集録祈願）",
+        "ティナリ（集録祈願）"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "wish_name": "暁風の詩",
+      "kind": "chronicled_wish",
+      "version": "Luna V",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+      "characters": [
+        "エウルア（集録祈願）",
+        "モナ（集録祈願）",
+        "アルベド（集録祈願）",
+        "クレー（集録祈願）",
+        "ディルック（集録祈願）",
+        "ジン（集録祈願）"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "wish_name": "ルキナのせせらぎ",
+      "kind": "chronicled_wish",
+      "version": "Luna VI",
+      "source_url": "https://genshin.hoyoverse.com/ja/news/detail/163629",
+      "characters": [
+        "エミリエ（集録祈願）",
+        "クロリンデ（集録祈願）",
+        "シグウィン（集録祈願）",
+        "ナヴィア（集録祈願）",
+        "リネ（集録祈願）"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "wish_name": "空に輝く星のお告げ",
+      "kind": "reminiscence_wish",
+      "version": "Luna VIII",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+      "characters": [
+        "夢見月瑞希（追憶祈願）",
+        "リオセスリ（追憶祈願）",
+        "セノ（追憶祈願）",
+        "八重神子（追憶祈願）",
+        "七七（追憶祈願）"
+      ]
+    }
+  ],
+  "added_event_ids": [
+    "gi-mondstadt-45-5star-1",
+    "gi-mondstadt-45-5star-2",
+    "gi-mondstadt-45-5star-3",
+    "gi-mondstadt-45-5star-4",
+    "gi-mondstadt-45-5star-5",
+    "gi-mondstadt-45-5star-6",
+    "gi-liyue-53-5star-1",
+    "gi-liyue-53-5star-2",
+    "gi-liyue-53-5star-3",
+    "gi-liyue-53-5star-4",
+    "gi-liyue-53-5star-5",
+    "gi-liyue-53-5star-6",
+    "gi-liyue-53-5star-7",
+    "gi-inazuma-56-5star-1",
+    "gi-inazuma-56-5star-2",
+    "gi-inazuma-56-5star-3",
+    "gi-inazuma-56-5star-4",
+    "gi-inazuma-56-5star-5",
+    "gi-inazuma-56-5star-6",
+    "gi-inazuma-56-5star-7",
+    "gi-inazuma-56-5star-8",
+    "gi-mondstadt-lunav-5star-1",
+    "gi-mondstadt-lunav-5star-2",
+    "gi-mondstadt-lunav-5star-3",
+    "gi-mondstadt-lunav-5star-4",
+    "gi-mondstadt-lunav-5star-5",
+    "gi-mondstadt-lunav-5star-6",
+    "gi-fontaine-lunavi-5star-1",
+    "gi-fontaine-lunavi-5star-2",
+    "gi-fontaine-lunavi-5star-3",
+    "gi-fontaine-lunavi-5star-4",
+    "gi-fontaine-lunavi-5star-5",
+    "gi-reminiscence-lunaviii-5star-1",
+    "gi-reminiscence-lunaviii-5star-2",
+    "gi-reminiscence-lunaviii-5star-3",
+    "gi-reminiscence-lunaviii-5star-4",
+    "gi-reminiscence-lunaviii-5star-5"
+  ],
+  "open_first_party_exact_date_backlog": [
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "name": "鎖暝",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "basis": "official_phase_boundary_inference"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "name": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "basis": "official_phase_boundary_inference"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "name": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "basis": "official_phase_boundary_inference"
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "name": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "source_url": "https://game8.jp/arknights-endfield/822407",
+      "basis": "secondary_future_schedule"
+    }
+  ],
+  "limitations": [
+    "A pooled selectable five-star eligibility is a character's inclusion in a Chronicled/Reminiscence Wish, not a standalone boosted banner. It must not be counted as a conventional rerun in sales-vs-banner correlation.",
+    "The 571 'official' records are provenance classifications; archive exhaustiveness and independent manual verification of every source are not certified.",
+    "Four future 2026-10-22/10-29 banner schedules are still secondary, not direct exact-time publisher announcements.",
+    "Four-star roster coverage outside a few documented samples remains incomplete. A complete all-rarity or all-weapon wish history is not claimed.",
+    "Historic source audit files named current-538 were snapshots when 538 records were present; this file supersedes them for totals."
+  ]
+}
