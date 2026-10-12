@@ -1,0 +1,1226 @@
+{
+  "schema": "gacha-wars-four-star-periods-v2",
+  "audit_date": "2026-10-12",
+  "source_dataset_blob_sha": "368716774dfa7100b0e1767682b60c1aecd1e791",
+  "scope": "Genshin character event wish four-star shared rate-ups 2023–2025",
+  "summary": {
+    "periods": 52,
+    "slots": 156,
+    "newly_added": 138,
+    "previously_present": 18,
+    "by_year": {
+      "2023": {
+        "periods": 17,
+        "slots": 51,
+        "new": 44
+      },
+      "2024": {
+        "periods": 17,
+        "slots": 51,
+        "new": 46
+      },
+      "2025": {
+        "periods": 18,
+        "slots": 54,
+        "new": 48
+      }
+    },
+    "total_live_records": 850
+  },
+  "independent_roster_comparison": "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/",
+  "special_verification_note": "Each event's source_url points to issuer-authored wish press materials from an existing dated five-star event. The three-person rate-up slots are cross-referenced with published historical banner tables. Individual 4-star descriptions in all 52 publisher announcements have NOT been re-read in full.",
+  "banner_periods": [
+    {
+      "date": "2023-01-18",
+      "version_group": "Ver.3.4",
+      "phase": "first",
+      "members": [
+        "ヨォーヨ",
+        "雲菫",
+        "辛炎"
+      ],
+      "ids": [
+        "gi-four-debut-2023-01-18-16",
+        "gi-four-pu-2023-01-18-2",
+        "gi-four-pu-2023-01-18-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000050.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-01-18-2",
+        "gi-four-pu-2023-01-18-3"
+      ]
+    },
+    {
+      "date": "2023-02-07",
+      "version_group": "Ver.3.4",
+      "phase": "second",
+      "members": [
+        "行秋",
+        "凝光",
+        "北斗"
+      ],
+      "ids": [
+        "gi-four-pu-2023-02-07-1",
+        "gi-four-pu-2023-02-07-2",
+        "gi-four-pu-2023-02-07-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000054.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-02-07-1",
+        "gi-four-pu-2023-02-07-2",
+        "gi-four-pu-2023-02-07-3"
+      ]
+    },
+    {
+      "date": "2023-03-01",
+      "version_group": "Ver.3.5",
+      "phase": "first",
+      "members": [
+        "ベネット",
+        "バーバラ",
+        "コレイ"
+      ],
+      "ids": [
+        "gi-four-pu-2023-03-01-1",
+        "gi-four-pu-2023-03-01-2",
+        "gi-four-pu-2023-03-01-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000064.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-03-01-1",
+        "gi-four-pu-2023-03-01-2",
+        "gi-four-pu-2023-03-01-3"
+      ]
+    },
+    {
+      "date": "2023-03-21",
+      "version_group": "Ver.3.5",
+      "phase": "second",
+      "members": [
+        "ミカ",
+        "ディオナ",
+        "スクロース"
+      ],
+      "ids": [
+        "gi-four-debut-2023-03-21-17",
+        "gi-four-pu-2023-03-21-1",
+        "gi-four-pu-2023-03-21-2"
+      ],
+      "sources": [
+        "https://genshin.hoyoverse.com/ja/news/detail/105560",
+        "https://prtimes.jp/main/html/rd/p/000000069.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-03-21-1",
+        "gi-four-pu-2023-03-21-2"
+      ]
+    },
+    {
+      "date": "2023-04-12",
+      "version_group": "Ver.3.6",
+      "phase": "first",
+      "members": [
+        "久岐忍",
+        "ドリー",
+        "レイラ"
+      ],
+      "ids": [
+        "gi-four-pu-2023-04-12-1",
+        "gi-four-pu-2023-04-12-2",
+        "gi-four-pu-2023-04-12-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000074.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-04-12-1",
+        "gi-four-pu-2023-04-12-2",
+        "gi-four-pu-2023-04-12-3"
+      ]
+    },
+    {
+      "date": "2023-05-02",
+      "version_group": "Ver.3.6",
+      "phase": "second",
+      "members": [
+        "カーヴェ",
+        "キャンディス",
+        "フィッシュル"
+      ],
+      "ids": [
+        "gi-four-debut-2023-05-02-18",
+        "gi-four-pu-2023-05-02-2",
+        "gi-four-pu-2023-05-02-3"
+      ],
+      "sources": [
+        "https://genshin.hoyoverse.com/fr/news/detail/111269",
+        "https://prtimes.jp/main/html/rd/p/000000079.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-05-02-2",
+        "gi-four-pu-2023-05-02-3"
+      ]
+    },
+    {
+      "date": "2023-05-24",
+      "version_group": "Ver.3.7",
+      "phase": "first",
+      "members": [
+        "綺良々",
+        "雲菫",
+        "重雲"
+      ],
+      "ids": [
+        "gi-four-debut-2023-05-24-19",
+        "gi-four-pu-2023-05-24-2",
+        "gi-four-pu-2023-05-24-3"
+      ],
+      "sources": [
+        "https://www.hoyoverse.com/en-us/news/111610",
+        "https://prtimes.jp/main/html/rd/p/000000088.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-05-24-2",
+        "gi-four-pu-2023-05-24-3"
+      ]
+    },
+    {
+      "date": "2023-06-13",
+      "version_group": "Ver.3.7",
+      "phase": "second",
+      "members": [
+        "鹿野院平蔵",
+        "香菱",
+        "ヨォーヨ"
+      ],
+      "ids": [
+        "gi-four-pu-2023-06-13-1",
+        "gi-four-pu-2023-06-13-2",
+        "gi-four-pu-2023-06-13-3"
+      ],
+      "sources": [
+        "https://www.hoyolab.com/article_pre/11000"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-06-13-1",
+        "gi-four-pu-2023-06-13-2",
+        "gi-four-pu-2023-06-13-3"
+      ]
+    },
+    {
+      "date": "2023-07-05",
+      "version_group": "Ver.3.8",
+      "phase": "first",
+      "members": [
+        "ミカ",
+        "レザー",
+        "トーマ"
+      ],
+      "ids": [
+        "gi-four-pu-2023-07-05-1",
+        "gi-four-pu-2023-07-05-2",
+        "gi-four-pu-2023-07-05-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000102.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-07-05-1",
+        "gi-four-pu-2023-07-05-2",
+        "gi-four-pu-2023-07-05-3"
+      ]
+    },
+    {
+      "date": "2023-07-25",
+      "version_group": "Ver.3.8",
+      "phase": "second",
+      "members": [
+        "ファルザン",
+        "ロサリア",
+        "煙緋"
+      ],
+      "ids": [
+        "gi-four-pu-2023-07-25-1",
+        "gi-four-pu-2023-07-25-2",
+        "gi-four-pu-2023-07-25-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000109.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-07-25-1",
+        "gi-four-pu-2023-07-25-2",
+        "gi-four-pu-2023-07-25-3"
+      ]
+    },
+    {
+      "date": "2023-08-16",
+      "version_group": "Ver.4.0",
+      "phase": "first",
+      "members": [
+        "リネット",
+        "ベネット",
+        "バーバラ"
+      ],
+      "ids": [
+        "gi-four-debut-2023-08-16-20",
+        "gi-four-pu-2023-08-16-2",
+        "gi-four-pu-2023-08-16-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000114.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-08-16-2",
+        "gi-four-pu-2023-08-16-3"
+      ]
+    },
+    {
+      "date": "2023-09-05",
+      "version_group": "Ver.4.0",
+      "phase": "second",
+      "members": [
+        "フレミネ",
+        "早柚",
+        "ノエル"
+      ],
+      "ids": [
+        "gi-four-debut-2023-09-05-21",
+        "gi-four-pu-2023-09-05-2",
+        "gi-four-pu-2023-09-05-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000123.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-09-05-2",
+        "gi-four-pu-2023-09-05-3"
+      ]
+    },
+    {
+      "date": "2023-09-27",
+      "version_group": "Ver.4.1",
+      "phase": "first",
+      "members": [
+        "フィッシュル",
+        "行秋",
+        "ディオナ"
+      ],
+      "ids": [
+        "gi-four-pu-2023-09-27-1",
+        "gi-four-pu-2023-09-27-2",
+        "gi-four-pu-2023-09-27-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000130.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-09-27-1",
+        "gi-four-pu-2023-09-27-2",
+        "gi-four-pu-2023-09-27-3"
+      ]
+    },
+    {
+      "date": "2023-10-17",
+      "version_group": "Ver.4.1",
+      "phase": "second",
+      "members": [
+        "重雲",
+        "トーマ",
+        "ドリー"
+      ],
+      "ids": [
+        "gi-four-pu-2023-10-17-1",
+        "gi-four-pu-2023-10-17-2",
+        "gi-four-pu-2023-10-17-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000137.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-10-17-1",
+        "gi-four-pu-2023-10-17-2",
+        "gi-four-pu-2023-10-17-3"
+      ]
+    },
+    {
+      "date": "2023-11-08",
+      "version_group": "Ver.4.2",
+      "phase": "first",
+      "members": [
+        "シャルロット",
+        "コレイ",
+        "北斗"
+      ],
+      "ids": [
+        "gi-four-debut-2023-11-08-22",
+        "gi-four-pu-2023-11-08-2",
+        "gi-four-pu-2023-11-08-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000143.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-11-08-2",
+        "gi-four-pu-2023-11-08-3"
+      ]
+    },
+    {
+      "date": "2023-11-28",
+      "version_group": "Ver.4.2",
+      "phase": "second",
+      "members": [
+        "綺良々",
+        "久岐忍",
+        "香菱"
+      ],
+      "ids": [
+        "gi-four-pu-2023-11-28-1",
+        "gi-four-pu-2023-11-28-2",
+        "gi-four-pu-2023-11-28-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000146.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-11-28-1",
+        "gi-four-pu-2023-11-28-2",
+        "gi-four-pu-2023-11-28-3"
+      ]
+    },
+    {
+      "date": "2023-12-20",
+      "version_group": "Ver.4.3",
+      "phase": "first",
+      "members": [
+        "スクロース",
+        "ロサリア",
+        "キャンディス"
+      ],
+      "ids": [
+        "gi-four-pu-2023-12-20-1",
+        "gi-four-pu-2023-12-20-2",
+        "gi-four-pu-2023-12-20-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000157.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2023-12-20-1",
+        "gi-four-pu-2023-12-20-2",
+        "gi-four-pu-2023-12-20-3"
+      ]
+    },
+    {
+      "date": "2024-01-09",
+      "version_group": "Ver.4.3",
+      "phase": "second",
+      "members": [
+        "シュヴルーズ",
+        "九条裟羅",
+        "ベネット"
+      ],
+      "ids": [
+        "gi-four-debut-2024-01-09-23",
+        "gi-four-pu-2024-01-09-2",
+        "gi-four-pu-2024-01-09-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000169.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-01-09-2",
+        "gi-four-pu-2024-01-09-3"
+      ]
+    },
+    {
+      "date": "2024-01-31",
+      "version_group": "Ver.4.4",
+      "phase": "first",
+      "members": [
+        "嘉明",
+        "ファルザン",
+        "ノエル"
+      ],
+      "ids": [
+        "gi-four-debut-2024-01-31-24",
+        "gi-four-pu-2024-01-31-2",
+        "gi-four-pu-2024-01-31-3"
+      ],
+      "sources": [
+        "https://www.hoyoverse.com/en-us/news/122237",
+        "https://prtimes.jp/main/html/rd/p/000000176.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-01-31-2",
+        "gi-four-pu-2024-01-31-3"
+      ]
+    },
+    {
+      "date": "2024-02-20",
+      "version_group": "Ver.4.4",
+      "phase": "second",
+      "members": [
+        "ヨォーヨ",
+        "辛炎",
+        "凝光"
+      ],
+      "ids": [
+        "gi-four-pu-2024-02-20-1",
+        "gi-four-pu-2024-02-20-2",
+        "gi-four-pu-2024-02-20-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000182.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-02-20-1",
+        "gi-four-pu-2024-02-20-2",
+        "gi-four-pu-2024-02-20-3"
+      ]
+    },
+    {
+      "date": "2024-03-13",
+      "version_group": "Ver.4.5",
+      "phase": "first",
+      "members": [
+        "ゴロー",
+        "雲菫",
+        "ドリー"
+      ],
+      "ids": [
+        "gi-four-pu-2024-03-13-1",
+        "gi-four-pu-2024-03-13-2",
+        "gi-four-pu-2024-03-13-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000186.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-03-13-1",
+        "gi-four-pu-2024-03-13-2",
+        "gi-four-pu-2024-03-13-3"
+      ]
+    },
+    {
+      "date": "2024-04-02",
+      "version_group": "Ver.4.5",
+      "phase": "second",
+      "members": [
+        "バーバラ",
+        "行秋",
+        "煙緋"
+      ],
+      "ids": [
+        "gi-four-pu-2024-04-02-1",
+        "gi-four-pu-2024-04-02-2",
+        "gi-four-pu-2024-04-02-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000192.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-04-02-1",
+        "gi-four-pu-2024-04-02-2",
+        "gi-four-pu-2024-04-02-3"
+      ]
+    },
+    {
+      "date": "2024-04-24",
+      "version_group": "Ver.4.6",
+      "phase": "first",
+      "members": [
+        "フレミネ",
+        "リネット",
+        "香菱"
+      ],
+      "ids": [
+        "gi-four-pu-2024-04-24-1",
+        "gi-four-pu-2024-04-24-2",
+        "gi-four-pu-2024-04-24-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000201.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-04-24-1",
+        "gi-four-pu-2024-04-24-2",
+        "gi-four-pu-2024-04-24-3"
+      ]
+    },
+    {
+      "date": "2024-05-14",
+      "version_group": "Ver.4.6",
+      "phase": "second",
+      "members": [
+        "北斗",
+        "ファルザン",
+        "レイラ"
+      ],
+      "ids": [
+        "gi-four-pu-2024-05-14-1",
+        "gi-four-pu-2024-05-14-2",
+        "gi-four-pu-2024-05-14-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000206.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-05-14-1",
+        "gi-four-pu-2024-05-14-2",
+        "gi-four-pu-2024-05-14-3"
+      ]
+    },
+    {
+      "date": "2024-06-05",
+      "version_group": "Ver.4.7",
+      "phase": "first",
+      "members": [
+        "セトス",
+        "ベネット",
+        "トーマ"
+      ],
+      "ids": [
+        "gi-four-debut-2024-06-05-25",
+        "gi-four-pu-2024-06-05-2",
+        "gi-four-pu-2024-06-05-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000211.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-06-05-2",
+        "gi-four-pu-2024-06-05-3"
+      ]
+    },
+    {
+      "date": "2024-06-25",
+      "version_group": "Ver.4.7",
+      "phase": "second",
+      "members": [
+        "ノエル",
+        "嘉明",
+        "ロサリア"
+      ],
+      "ids": [
+        "gi-four-pu-2024-06-25-1",
+        "gi-four-pu-2024-06-25-2",
+        "gi-four-pu-2024-06-25-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000217.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-06-25-1",
+        "gi-four-pu-2024-06-25-2",
+        "gi-four-pu-2024-06-25-3"
+      ]
+    },
+    {
+      "date": "2024-07-17",
+      "version_group": "Ver.4.8",
+      "phase": "first",
+      "members": [
+        "綺良々",
+        "カーヴェ",
+        "凝光"
+      ],
+      "ids": [
+        "gi-four-pu-2024-07-17-1",
+        "gi-four-pu-2024-07-17-2",
+        "gi-four-pu-2024-07-17-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000229.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-07-17-1",
+        "gi-four-pu-2024-07-17-2",
+        "gi-four-pu-2024-07-17-3"
+      ]
+    },
+    {
+      "date": "2024-08-06",
+      "version_group": "Ver.4.8",
+      "phase": "second",
+      "members": [
+        "煙緋",
+        "香菱",
+        "レザー"
+      ],
+      "ids": [
+        "gi-four-pu-2024-08-06-1",
+        "gi-four-pu-2024-08-06-2",
+        "gi-four-pu-2024-08-06-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000234.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-08-06-1",
+        "gi-four-pu-2024-08-06-2",
+        "gi-four-pu-2024-08-06-3"
+      ]
+    },
+    {
+      "date": "2024-08-28",
+      "version_group": "Ver.5.0",
+      "phase": "first",
+      "members": [
+        "カチーナ",
+        "辛炎",
+        "ベネット"
+      ],
+      "ids": [
+        "gi-four-debut-2024-08-28-26",
+        "gi-four-pu-2024-08-28-2",
+        "gi-four-pu-2024-08-28-3"
+      ],
+      "sources": [
+        "https://blog.playstation.com/2024/08/16/genshin-impact-welcomes-the-sixth-major-nation-of-teyvat-with-version-5-0-going-live-august-28/",
+        "https://prtimes.jp/main/html/rd/p/000000240.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-08-28-2",
+        "gi-four-pu-2024-08-28-3"
+      ]
+    },
+    {
+      "date": "2024-09-17",
+      "version_group": "Ver.5.0",
+      "phase": "second",
+      "members": [
+        "トーマ",
+        "九条裟羅",
+        "シュヴルーズ"
+      ],
+      "ids": [
+        "gi-four-pu-2024-09-17-1",
+        "gi-four-pu-2024-09-17-2",
+        "gi-four-pu-2024-09-17-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000245.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-09-17-1",
+        "gi-four-pu-2024-09-17-2",
+        "gi-four-pu-2024-09-17-3"
+      ]
+    },
+    {
+      "date": "2024-10-09",
+      "version_group": "Ver.5.1",
+      "phase": "first",
+      "members": [
+        "ドリー",
+        "キャンディス",
+        "コレイ"
+      ],
+      "ids": [
+        "gi-four-pu-2024-10-09-1",
+        "gi-four-pu-2024-10-09-2",
+        "gi-four-pu-2024-10-09-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000252.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-10-09-1",
+        "gi-four-pu-2024-10-09-2",
+        "gi-four-pu-2024-10-09-3"
+      ]
+    },
+    {
+      "date": "2024-10-29",
+      "version_group": "Ver.5.1",
+      "phase": "second",
+      "members": [
+        "セトス",
+        "行秋",
+        "久岐忍"
+      ],
+      "ids": [
+        "gi-four-pu-2024-10-29-1",
+        "gi-four-pu-2024-10-29-2",
+        "gi-four-pu-2024-10-29-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000258.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-10-29-1",
+        "gi-four-pu-2024-10-29-2",
+        "gi-four-pu-2024-10-29-3"
+      ]
+    },
+    {
+      "date": "2024-11-20",
+      "version_group": "Ver.5.2",
+      "phase": "first",
+      "members": [
+        "オロルン",
+        "スクロース",
+        "バーバラ"
+      ],
+      "ids": [
+        "gi-four-debut-2024-11-20-27",
+        "gi-four-pu-2024-11-20-2",
+        "gi-four-pu-2024-11-20-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000264.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-11-20-2",
+        "gi-four-pu-2024-11-20-3"
+      ]
+    },
+    {
+      "date": "2024-12-10",
+      "version_group": "Ver.5.2",
+      "phase": "second",
+      "members": [
+        "鹿野院平蔵",
+        "フィッシュル",
+        "ヨォーヨ"
+      ],
+      "ids": [
+        "gi-four-pu-2024-12-10-1",
+        "gi-four-pu-2024-12-10-2",
+        "gi-four-pu-2024-12-10-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000270.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2024-12-10-1",
+        "gi-four-pu-2024-12-10-2",
+        "gi-four-pu-2024-12-10-3"
+      ]
+    },
+    {
+      "date": "2025-01-01",
+      "version_group": "Ver.5.3",
+      "phase": "first",
+      "members": [
+        "カチーナ",
+        "ベネット",
+        "ディオナ"
+      ],
+      "ids": [
+        "gi-four-pu-2025-01-01-1",
+        "gi-four-pu-2025-01-01-2",
+        "gi-four-pu-2025-01-01-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000275.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-01-01-1",
+        "gi-four-pu-2025-01-01-2",
+        "gi-four-pu-2025-01-01-3"
+      ]
+    },
+    {
+      "date": "2025-01-21",
+      "version_group": "Ver.5.3",
+      "phase": "second",
+      "members": [
+        "藍硯",
+        "シュヴルーズ",
+        "ロサリア"
+      ],
+      "ids": [
+        "gi-four-debut-2025-01-21-28",
+        "gi-four-pu-2025-01-21-2",
+        "gi-four-pu-2025-01-21-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000285.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-01-21-2",
+        "gi-four-pu-2025-01-21-3"
+      ]
+    },
+    {
+      "date": "2025-02-12",
+      "version_group": "Ver.5.4",
+      "phase": "first",
+      "members": [
+        "ゴロー",
+        "早柚",
+        "香菱"
+      ],
+      "ids": [
+        "gi-four-pu-2025-02-12-1",
+        "gi-four-pu-2025-02-12-2",
+        "gi-four-pu-2025-02-12-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000290.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-02-12-1",
+        "gi-four-pu-2025-02-12-2",
+        "gi-four-pu-2025-02-12-3"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "version_group": "Ver.5.4",
+      "phase": "second",
+      "members": [
+        "シャルロット",
+        "重雲",
+        "ミカ"
+      ],
+      "ids": [
+        "gi-four-pu-2025-03-04-1",
+        "gi-four-pu-2025-03-04-2",
+        "gi-four-pu-2025-03-04-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000295.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-03-04-1",
+        "gi-four-pu-2025-03-04-2",
+        "gi-four-pu-2025-03-04-3"
+      ]
+    },
+    {
+      "date": "2025-03-26",
+      "version_group": "Ver.5.5",
+      "phase": "first",
+      "members": [
+        "イアンサ",
+        "シュヴルーズ",
+        "嘉明"
+      ],
+      "ids": [
+        "gi-four-debut-2025-03-26-29",
+        "gi-four-pu-2025-03-26-2",
+        "gi-four-pu-2025-03-26-3"
+      ],
+      "sources": [
+        "https://www.hoyoverse.com/en-us/news/155170",
+        "https://prtimes.jp/main/html/rd/p/000000301.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-03-26-2",
+        "gi-four-pu-2025-03-26-3"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "version_group": "Ver.5.5",
+      "phase": "second",
+      "members": [
+        "ファルザン",
+        "北斗",
+        "煙緋"
+      ],
+      "ids": [
+        "gi-four-pu-2025-04-15-1",
+        "gi-four-pu-2025-04-15-2",
+        "gi-four-pu-2025-04-15-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000304.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-04-15-1",
+        "gi-four-pu-2025-04-15-2",
+        "gi-four-pu-2025-04-15-3"
+      ]
+    },
+    {
+      "date": "2025-05-07",
+      "version_group": "Ver.5.6",
+      "phase": "first",
+      "members": [
+        "イファ",
+        "オロルン",
+        "レイラ"
+      ],
+      "ids": [
+        "gi-four-debut-2025-05-07-30",
+        "gi-four-pu-2025-05-07-2",
+        "gi-four-pu-2025-05-07-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000310.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-05-07-2",
+        "gi-four-pu-2025-05-07-3"
+      ]
+    },
+    {
+      "date": "2025-05-27",
+      "version_group": "Ver.5.6",
+      "phase": "second",
+      "members": [
+        "トーマ",
+        "九条裟羅",
+        "リネット"
+      ],
+      "ids": [
+        "gi-four-pu-2025-05-27-1",
+        "gi-four-pu-2025-05-27-2",
+        "gi-four-pu-2025-05-27-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000314.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-05-27-1",
+        "gi-four-pu-2025-05-27-2",
+        "gi-four-pu-2025-05-27-3"
+      ]
+    },
+    {
+      "date": "2025-06-18",
+      "version_group": "Ver.5.7",
+      "phase": "first",
+      "members": [
+        "ダリア",
+        "キャンディス",
+        "ディオナ"
+      ],
+      "ids": [
+        "gi-four-debut-2025-06-18-31",
+        "gi-four-pu-2025-06-18-2",
+        "gi-four-pu-2025-06-18-3"
+      ],
+      "sources": [
+        "https://www.hoyoverse.com/en-us/news/157079",
+        "https://prtimes.jp/main/html/rd/p/000000323.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-06-18-2",
+        "gi-four-pu-2025-06-18-3"
+      ]
+    },
+    {
+      "date": "2025-07-08",
+      "version_group": "Ver.5.7",
+      "phase": "second",
+      "members": [
+        "イアンサ",
+        "ヨォーヨ",
+        "香菱"
+      ],
+      "ids": [
+        "gi-four-pu-2025-07-08-1",
+        "gi-four-pu-2025-07-08-2",
+        "gi-four-pu-2025-07-08-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000327.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-07-08-1",
+        "gi-four-pu-2025-07-08-2",
+        "gi-four-pu-2025-07-08-3"
+      ]
+    },
+    {
+      "date": "2025-07-30",
+      "version_group": "Ver.5.8",
+      "phase": "first",
+      "members": [
+        "フィッシュル",
+        "セトス",
+        "行秋"
+      ],
+      "ids": [
+        "gi-four-pu-2025-07-30-1",
+        "gi-four-pu-2025-07-30-2",
+        "gi-four-pu-2025-07-30-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000334.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-07-30-1",
+        "gi-four-pu-2025-07-30-2",
+        "gi-four-pu-2025-07-30-3"
+      ]
+    },
+    {
+      "date": "2025-08-19",
+      "version_group": "Ver.5.8",
+      "phase": "second",
+      "members": [
+        "ベネット",
+        "オロルン",
+        "イファ"
+      ],
+      "ids": [
+        "gi-four-pu-2025-08-19-1",
+        "gi-four-pu-2025-08-19-2",
+        "gi-four-pu-2025-08-19-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000337.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-08-19-1",
+        "gi-four-pu-2025-08-19-2",
+        "gi-four-pu-2025-08-19-3"
+      ]
+    },
+    {
+      "date": "2025-09-10",
+      "version_group": "Luna I",
+      "phase": "first",
+      "members": [
+        "バーバラ",
+        "久岐忍",
+        "カーヴェ"
+      ],
+      "ids": [
+        "gi-four-pu-2025-09-10-1",
+        "gi-four-pu-2025-09-10-2",
+        "gi-four-pu-2025-09-10-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000347.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-09-10-1",
+        "gi-four-pu-2025-09-10-2",
+        "gi-four-pu-2025-09-10-3"
+      ]
+    },
+    {
+      "date": "2025-09-30",
+      "version_group": "Luna I",
+      "phase": "second",
+      "members": [
+        "アイノ",
+        "スクロース",
+        "ドリー"
+      ],
+      "ids": [
+        "history-gi-lunai-new_four_star-0",
+        "gi-four-pu-2025-09-30-2",
+        "gi-four-pu-2025-09-30-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000352.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-09-30-2",
+        "gi-four-pu-2025-09-30-3"
+      ]
+    },
+    {
+      "date": "2025-10-22",
+      "version_group": "Luna II",
+      "phase": "first",
+      "members": [
+        "行秋",
+        "コレイ",
+        "ヨォーヨ"
+      ],
+      "ids": [
+        "gi-four-pu-2025-10-22-1",
+        "gi-four-pu-2025-10-22-2",
+        "gi-four-pu-2025-10-22-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000356.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-10-22-1",
+        "gi-four-pu-2025-10-22-2",
+        "gi-four-pu-2025-10-22-3"
+      ]
+    },
+    {
+      "date": "2025-11-11",
+      "version_group": "Luna II",
+      "phase": "second",
+      "members": [
+        "藍硯",
+        "ロサリア",
+        "雲菫"
+      ],
+      "ids": [
+        "gi-four-pu-2025-11-11-1",
+        "gi-four-pu-2025-11-11-2",
+        "gi-four-pu-2025-11-11-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000361.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-11-11-1",
+        "gi-four-pu-2025-11-11-2",
+        "gi-four-pu-2025-11-11-3"
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "version_group": "Luna III",
+      "phase": "first",
+      "members": [
+        "ヤフォダ",
+        "ベネット",
+        "ファルザン"
+      ],
+      "ids": [
+        "gi-four-debut-2025-12-03-32",
+        "gi-four-pu-2025-12-03-2",
+        "gi-four-pu-2025-12-03-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000366.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-12-03-2",
+        "gi-four-pu-2025-12-03-3"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "version_group": "Luna III",
+      "phase": "second",
+      "members": [
+        "イアンサ",
+        "シュヴルーズ",
+        "嘉明"
+      ],
+      "ids": [
+        "gi-four-pu-2025-12-23-1",
+        "gi-four-pu-2025-12-23-2",
+        "gi-four-pu-2025-12-23-3"
+      ],
+      "sources": [
+        "https://prtimes.jp/main/html/rd/p/000000371.000096124.html"
+      ],
+      "new_this_batch": [
+        "gi-four-pu-2025-12-23-1",
+        "gi-four-pu-2025-12-23-2",
+        "gi-four-pu-2025-12-23-3"
+      ]
+    }
+  ],
+  "remaining_gap": [
+    "2026 historical four-star recurring rate-up pools not yet comprehensively added.",
+    "All eligible banner dates 2020–2025 are recorded as one shared three-character pool per event phase; this does not cover independently all character release histories, all rarity/weapon wishes or additional limited mechanics.",
+    "Source flags indicate provenance citation targets, not that every publisher article's 4-star list was independently verified; independent primary-source textual audit is outstanding.",
+    "Four future dates in other games remain tagged secondary.",
+    "Five-star independent revenue ranking excludes these four-star participation records."
+  ]
+}
