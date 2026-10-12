@@ -1,7 +1,7 @@
 {
   "schema": "gacha-wars-coverage-audit-v2",
   "audit_date": "2026-10-12",
-  "event_data_blob_sha": "754b2202a2bf40830f7a26464a364256efa6b3b0",
+  "event_data_blob_sha": "7a8746d5b12fcfb902f2f3f7698b04c79420a478",
   "total_events": 538,
   "counts_by_game": {
     "zzz": {
@@ -139,15 +139,17 @@
     "Reverified four 2024 character debut entries on original publishers' pages: Qingyi/青衣, Yanagi/柳, Shorekeeper, and Camellya. Their original secondary links were replaced with COGNOSPHERE official news and KURO GAMES patch notes.",
     "Replaced third-party sources for launch Jiyan/忌炎, July 22 Changli/長離, and September 7 Xiangli Yao/相里要 with KURO GAMES's own PR TIMES press releases. This brings newly verified entries in this audit batch to seven.",
     "Confirmed 2024-12-12 Yinlin rerun using KURO GAMES official Japanese convene notice /1762.",
-    "On 2026-10-12, 35 secondary-sourced Wuthering Waves events were upgraded together to specific KURO GAMES publisher notices, with event-specific evidence in audits/2026-10-12-batch-primary-source-backfill.json."
+    "On 2026-10-12, 35 secondary-sourced Wuthering Waves events were upgraded together to specific KURO GAMES publisher notices, with event-specific evidence in audits/2026-10-12-batch-primary-source-backfill.json.",
+    "Added per-record date_basis, explicit limits of official corroboration, and secondary evidence links for all eight outstanding banners; site now publicly renders these in a dedicated provenance backlog."
   ],
   "remaining_gaps": [
-    "Eight events still rely on non-primary sources: three upcoming Wuthering Waves banners (2026-10-22), three Zenless Zone Zero debut banners (2024), a Honkai: Star Rail rerun (2026-04-08), and one future Endfield banner (2026-10-29).",
-    "The 530 records flagged official have not all been individually revalidated in this audit: original announcement provenance, press-release publisher identity, and historical roster completeness are outstanding.",
-    "Publisher event notices independently back the 35 records added this batch, but some were inspected via a third-party mirror of original publisher text."
+    "Eight records are still designated secondary because the exact banner event announcement or start time has not been directly verified from the publisher.",
+    "Future WW October 22 dates are inferred from the publisher-confirmed phase I end date, not directly announced phase II banner notices. Endfield Tangtang October 29 is from a secondary published schedule.",
+    "Thirty-five prior publisher-link upgrades included source content inspected in an independent archive; direct availability of every publisher page remains a separate check.",
+    "All 530 officially labeled events have not been individually revalidated in this audit; full history completeness is not certified."
   ],
   "notes": "This is a structured local-data audit, not an exhaustive review of every official announcement. Historic earlier audit snapshots must not be treated as current totals.",
-  "audit_updated_at": "2026-10-12T06:45:04.239Z",
+  "audit_updated_at": "2026-10-12T15:24:00+09:00",
   "further_source_checks": [
     {
       "id": "history-ww-2024-06-28-2",
@@ -234,5 +236,108 @@
       "new_source": "https://wutheringwaves.kurogames.com/jp/main/news/detail/1762"
     }
   ],
-  "latest_bulk_audit": "gacha-wars/audits/2026-10-12-batch-primary-source-backfill.json"
+  "latest_bulk_audit": "gacha-wars/audits/2026-10-12-batch-primary-source-backfill.json",
+  "outstanding_source_verifications": [
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "name": "鎖暝",
+      "date": "2026-10-22",
+      "date_basis": "official_phase_boundary_inference",
+      "review_note": "KURO GAMES公式が鎖暝をVer.3.7後半に告知し、公式第1期ガチャが10月22日10:59（JST）終了。第2期の正確な開始時刻と開催告知は未照合。",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+        "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+      ]
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "name": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "date_basis": "official_phase_boundary_inference",
+      "review_note": "KURO GAMES公式はリンネーのVer.3.7後半復刻を発表。第1期10月22日10:59（JST）終了を確認したが、第2期の直接の開催告知は未確認。",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+        "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+      ]
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "name": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "date_basis": "official_phase_boundary_inference",
+      "review_note": "KURO GAMES公式はルシラーのVer.3.7後半復刻を発表。第1期10月22日10:59（JST）終了を確認したが、第2期の直接の開催告知は未確認。",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+        "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+      ]
+    },
+    {
+      "id": "history-zzz-2024-07-04-18",
+      "game": "zzz",
+      "name": "エレン",
+      "date": "2024-07-04",
+      "date_basis": "secondary_banner_schedule",
+      "review_note": "COGNOSPHERE公式が2024年7月4日のサービス開始を発表し、公式にエレンのキャラ紹介も掲載。ただし初回独占チャンネルの開始日を明記した運営告知は未取得。",
+      "source_url": "https://zenless.gg/mellow-waveride-channel-details/",
+      "corroborating_sources": [
+        "https://zenless.hoyoverse.com/m/ja-jp/news/123829",
+        "https://zenless.hoyoverse.com/ja-jp/news/124517"
+      ]
+    },
+    {
+      "id": "history-zzz-2024-10-16-23",
+      "game": "zzz",
+      "name": "バーニス",
+      "date": "2024-10-16",
+      "date_basis": "secondary_banner_schedule",
+      "review_note": "Ver.1.2公式更新資料にバーニス追加予定と10月16日の秘話開放を確認し、公式音動機チャンネルも10月16日開始。しかしキャラ独占チャンネルの正確な開始告知は未取得。",
+      "source_url": "https://zenless.gg/born-to-burn-channel-details/",
+      "corroborating_sources": [
+        "https://zenless.hoyoverse.com/id-id/news/126054",
+        "https://zenless.hoyoverse.com/ja-jp/news/126372"
+      ]
+    },
+    {
+      "id": "history-zzz-2024-11-27-25",
+      "game": "zzz",
+      "name": "ライト",
+      "date": "2024-11-27",
+      "date_basis": "secondary_banner_schedule",
+      "review_note": "COGNOSPHERE公式Ver.1.3予告にライトの登場を確認し、公式エージェント秘話が11月27日に開放。しかし独占チャンネルの正確な開始日を明記した一次告知は未取得。",
+      "source_url": "https://zenless.gg/champion-of-embers-signal-search-details/",
+      "corroborating_sources": [
+        "https://prtimes.jp/main/html/rd/p/000000257.000096124.html",
+        "https://zenless.hoyoverse.com/ja-jp/news/127096"
+      ]
+    },
+    {
+      "id": "history-hsr-2026-04-08-464",
+      "game": "hsr",
+      "name": "ブートヒル（復刻）",
+      "date": "2026-04-08",
+      "date_basis": "official_phase_boundary_plus_secondary_banner_schedule",
+      "review_note": "COGNOSPHERE公式でVer.4.1前半復刻ヒアンシーの4月8日終了を確認。3月13日の運営予告番組を報じた各媒体はブートヒル後半復刻を掲載するが、4月8日開始を明示する運営発表原文は未取得。",
+      "source_url": "https://gamewith.jp/houkaistarrail/article/show/561173",
+      "corroborating_sources": [
+        "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
+        "https://prtimes.jp/main/html/rd/p/000000396.000096124.html"
+      ]
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "name": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "date_basis": "secondary_future_schedule",
+      "review_note": "Game8は10月29日からの再現スカウト『祖泉の新流』#1でタンタン復刻と報告。GRYPHLINE公式の同開催日時明記は未取得。",
+      "source_url": "https://game8.jp/arknights-endfield/822407",
+      "corroborating_sources": []
+    }
+  ]
 }
