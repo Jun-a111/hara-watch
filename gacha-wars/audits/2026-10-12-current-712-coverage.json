@@ -1,0 +1,127 @@
+{
+  "schema": "gacha-wars-current-coverage-v5",
+  "audit_date": "2026-10-12",
+  "data_sha": "e58d6145aa890c32e18cef4376b3255f0dd5ad06",
+  "total_records": 712,
+  "counts_by_game": {
+    "zzz": {
+      "total": 71,
+      "debut": 40,
+      "rerun": 30,
+      "other_featured": 0,
+      "version": 1,
+      "official": 71,
+      "secondary": 0
+    },
+    "gi": {
+      "total": 370,
+      "debut": 96,
+      "rerun": 122,
+      "other_featured": 152,
+      "version": 0,
+      "official": 370,
+      "secondary": 0
+    },
+    "ww": {
+      "total": 101,
+      "debut": 39,
+      "rerun": 61,
+      "other_featured": 0,
+      "version": 1,
+      "official": 98,
+      "secondary": 3
+    },
+    "hsr": {
+      "total": 139,
+      "debut": 56,
+      "rerun": 83,
+      "other_featured": 0,
+      "version": 0,
+      "official": 139,
+      "secondary": 0
+    },
+    "end": {
+      "total": 19,
+      "debut": 13,
+      "rerun": 2,
+      "other_featured": 4,
+      "version": 0,
+      "official": 18,
+      "secondary": 1
+    },
+    "nte": {
+      "total": 12,
+      "debut": 9,
+      "rerun": 3,
+      "other_featured": 0,
+      "version": 0,
+      "official": 12,
+      "secondary": 0
+    }
+  },
+  "source_flags": {
+    "official": 708,
+    "secondary": 4
+  },
+  "banner_type_counts": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 141,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5
+  },
+  "new_this_update": {
+    "fourstar_roster_rows": 104,
+    "year_2020": 13,
+    "year_2021": 45,
+    "year_2022": 46,
+    "periods_added_or_completed": 41,
+    "complete_fourstar_periods_2020_2022": 41,
+    "total_fourstar_slots_2020_2022": 123,
+    "previously_present_in_these_periods": 19,
+    "roster_audit": "gacha-wars/audits/2026-10-12-genshin-2020-2022-fourstar-rotations.json"
+  },
+  "remaining_secondary": [
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "name": "鎖暝",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "date_basis": "official_phase_boundary_inference"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "name": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "date_basis": "official_phase_boundary_inference"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "name": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "date_basis": "official_phase_boundary_inference"
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "name": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "source_url": "https://game8.jp/arknights-endfield/822407",
+      "date_basis": "secondary_future_schedule"
+    }
+  ],
+  "limits": [
+    "41 2020–2022 period rosters have three featured four-star characters each; no claim of exhaustive roster coverage for 2023–2026.",
+    "Four-star roster entries are shared rate-up slots within limited character wishes, not new independently monetized banners; all are special type event_wish_four_star and excluded from five-star ranking comparisons.",
+    "Dates and rosters were cross-checked with community chronological summary and publisher-authored releases; each of 41 original primary notices has not yet been independently re-read in full.",
+    "The four future events awaiting publisher exact scheduling remain secondary; no future dates were promoted to official.",
+    "Full character, rerun, weapon, and special wish completeness across all six games remains unproven."
+  ]
+}
