@@ -1967,5 +1967,58 @@ assert.equal(failed,true);
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+class Wuthering2026FourStarCharacterPublisherUpgradeTests(unittest.TestCase):
+    def test_publisher_confirmed_character_upgrades(self):
+        d=json.loads((SITE/"ww-fourstar-character-source-overrides.json").read_text(encoding="utf-8"))
+        self.assertEqual(d["schema"],"gacha-wars-ww-fourstar-character-source-overrides-v1")
+        self.assertEqual(d["count"],15)
+        rows=d["upgrades"]
+        self.assertEqual(len(rows),15)
+        self.assertEqual(len({x["id"] for x in rows}),15)
+        self.assertEqual({x["date"] for x in rows},
+                         {"2026-07-10","2026-07-30","2026-08-20","2026-09-10","2026-09-30"})
+        self.assertTrue(all(x["verification"]=="official" for x in rows))
+        self.assertTrue(all(x["source_url"].startswith("https://wutheringwaves.kurogames.com/en/main/news/detail/")
+                            for x in rows))
+        sources={day:{x["source_url"] for x in rows if x["date"]==day} for day in
+                 {x["date"] for x in rows}}
+        expected={"2026-07-10":5039,"2026-07-30":5220,"2026-08-20":5331,
+                  "2026-09-10":5431,"2026-09-30":5546}
+        for day,n in expected.items():
+            self.assertEqual(sources[day],{"https://wutheringwaves.kurogames.com/en/main/news/detail/"+str(n)})
+
+    def test_publisher_source_upgrade_runtime_and_no_duplicated_events(self):
+        site=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./ww-fourstar-character-source-overrides.json"',site)
+        js=site[site.index("function applyWwFourStarCharacterSourceOverrides("):
+                site.index("async function loadEvents(){")]
+        script=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+js+r'''
+const events=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const upgrades=JSON.parse(fs.readFileSync("gacha-wars/ww-fourstar-character-source-overrides.json","utf8"));
+const updated=applyWwFourStarCharacterSourceOverrides(events,upgrades);
+assert.equal(updated.upgraded,15);
+assert.equal(events.length,updated.events.length);
+assert.equal(new Set(updated.events.map(x=>x.id)).size,events.length);
+for(const info of upgrades.upgrades){
+ const x=updated.events.find(x=>x.id===info.id);
+ assert.equal(x.verification,"official");
+ assert.equal(x.original_name,info.official_english_name);
+ assert.equal(x.date,info.date);
+}
+let rejected=false;
+try{
+ const broken=JSON.parse(JSON.stringify(upgrades));broken.upgrades[0].version="WRONG";
+ applyWwFourStarCharacterSourceOverrides(events,broken);
+}catch(e){rejected=true}
+assert.ok(rejected);
+'''
+        run=subprocess.run(["node","-e",script],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
