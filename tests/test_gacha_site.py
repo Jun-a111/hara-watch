@@ -1572,7 +1572,8 @@ class Wuthering2024To2026WeaponConveneTests(unittest.TestCase):
 
     def test_genshin_weapon_display_is_secondary_and_does_not_affect_character_rankings(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
-        self.assertIn('fetch("./gi-weapon-history.json"', html)
+        self.assertIn('"gi-weapon-history.json",parseGenshinWeaponArchive', html)
+        self.assertIn('fetch("./"+file,{cache:"no-store"})', html)
         self.assertIn('function parseGenshinWeaponArchive(data)', html)
         self.assertIn('data.verification!=="secondary"', html)
         self.assertIn('"gi_weapon_five","gi_weapon_four"', html)
