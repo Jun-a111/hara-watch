@@ -145,7 +145,12 @@
       "source_title": "鳴潮Ver.3.7運営発表（登場・復刻キャラ）",
       "schedule_status": "announced",
       "verification": "secondary",
-      "review_note": "登場・復刻キャラは運営発表と照合済み。開催開始日10月22日は攻略サイト記載で確認、開催前の予定。"
+      "review_note": "KURO GAMES公式が鎖暝をVer.3.7後半に告知し、公式第1期ガチャが10月22日10:59（JST）終了。第2期の正確な開始時刻と開催告知は未照合。",
+      "date_basis": "official_phase_boundary_inference",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+        "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+      ]
     },
     {
       "id": "ww-3.7-linne",
@@ -160,7 +165,12 @@
       "source_title": "鳴潮Ver.3.7運営発表（登場・復刻キャラ）",
       "schedule_status": "announced",
       "verification": "secondary",
-      "review_note": "登場・復刻キャラは運営発表と照合済み。開催開始日10月22日は攻略サイト記載で確認、開催前の予定。"
+      "review_note": "KURO GAMES公式はリンネーのVer.3.7後半復刻を発表。第1期10月22日10:59（JST）終了を確認したが、第2期の直接の開催告知は未確認。",
+      "date_basis": "official_phase_boundary_inference",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+        "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+      ]
     },
     {
       "id": "ww-3.7-lucilla",
@@ -175,7 +185,12 @@
       "source_title": "鳴潮Ver.3.7運営発表（登場・復刻キャラ）",
       "schedule_status": "announced",
       "verification": "secondary",
-      "review_note": "登場・復刻キャラは運営発表と照合済み。開催開始日10月22日は攻略サイト記載で確認、開催前の予定。"
+      "review_note": "KURO GAMES公式はルシラーのVer.3.7後半復刻を発表。第1期10月22日10:59（JST）終了を確認したが、第2期の直接の開催告知は未確認。",
+      "date_basis": "official_phase_boundary_inference",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
+        "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+      ]
     },
     {
       "id": "zzz-nangongyu-3.2",
@@ -455,7 +470,12 @@
       "version_group": "Ver.1.0",
       "event_kind": "debut",
       "verification": "secondary",
-      "review_note": "公式告知の転載にエレンの独占変調『Mellow Waveride』が配信開始時から2024年7月24日まで実施と明記。配信日は2024年7月4日。 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "review_note": "COGNOSPHERE公式が2024年7月4日のサービス開始を発表し、公式にエレンのキャラ紹介も掲載。ただし初回独占チャンネルの開始日を明記した運営告知は未取得。",
+      "date_basis": "secondary_banner_schedule",
+      "corroborating_sources": [
+        "https://zenless.hoyoverse.com/m/ja-jp/news/123829",
+        "https://zenless.hoyoverse.com/ja-jp/news/124517"
+      ]
     },
     {
       "id": "history-zzz-2024-07-24-19",
@@ -525,7 +545,12 @@
       "version_group": "Ver.1.2",
       "event_kind": "debut",
       "verification": "secondary",
-      "review_note": "HoYoverseのBorn to Burn集音告知転載にバーニス、10月16日12:00開始を明記。照合日2026-10-12。 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "review_note": "Ver.1.2公式更新資料にバーニス追加予定と10月16日の秘話開放を確認し、公式音動機チャンネルも10月16日開始。しかしキャラ独占チャンネルの正確な開始告知は未取得。",
+      "date_basis": "secondary_banner_schedule",
+      "corroborating_sources": [
+        "https://zenless.hoyoverse.com/id-id/news/126054",
+        "https://zenless.hoyoverse.com/ja-jp/news/126372"
+      ]
     },
     {
       "id": "history-zzz-2024-11-06-24",
@@ -553,7 +578,12 @@
       "version_group": "Ver.1.3",
       "event_kind": "debut",
       "verification": "secondary",
-      "review_note": "HoYoverseのChampion of Embers集音告知転載にライト、11月27日12:00開始と明記。照合日2026-10-12。 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "review_note": "COGNOSPHERE公式Ver.1.3予告にライトの登場を確認し、公式エージェント秘話が11月27日に開放。しかし独占チャンネルの正確な開始日を明記した一次告知は未取得。",
+      "date_basis": "secondary_banner_schedule",
+      "corroborating_sources": [
+        "https://prtimes.jp/main/html/rd/p/000000257.000096124.html",
+        "https://zenless.hoyoverse.com/ja-jp/news/127096"
+      ]
     },
     {
       "id": "history-zzz-2024-12-18-26",
@@ -6552,7 +6582,12 @@
       "version_group": "Ver.4.1",
       "event_kind": "rerun",
       "verification": "secondary",
-      "review_note": "Ver.4.1後期のブートヒル復刻（4月8日〜4月21日）はGameWithの3月13日公式予告番組内容まとめ、およびスタレWiki更新履歴で一致。COGNOSPHERE一次資料での開始日明記は未確認のためsecondaryを維持。"
+      "review_note": "COGNOSPHERE公式でVer.4.1前半復刻ヒアンシーの4月8日終了を確認。3月13日の運営予告番組を報じた各媒体はブートヒル後半復刻を掲載するが、4月8日開始を明示する運営発表原文は未取得。",
+      "date_basis": "official_phase_boundary_plus_secondary_banner_schedule",
+      "corroborating_sources": [
+        "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
+        "https://prtimes.jp/main/html/rd/p/000000396.000096124.html"
+      ]
     },
     {
       "id": "history-hsr-2026-04-22-465",
@@ -7532,7 +7567,9 @@
       "source_url": "https://game8.jp/arknights-endfield/822407",
       "source_title": "Game8 Ver.1.6予告番組まとめ（公式本文の直接確認は未完了）",
       "verification": "secondary",
-      "review_note": "10月29日12時から再現スカウト『祖泉の新流』#1でタンタン復刻と攻略媒体が報告。公式ゲーム内・告知本文の直接照合までsecondaryを維持。"
+      "review_note": "Game8は10月29日からの再現スカウト『祖泉の新流』#1でタンタン復刻と報告。GRYPHLINE公式の同開催日時明記は未取得。",
+      "date_basis": "secondary_future_schedule",
+      "corroborating_sources": []
     },
     {
       "id": "scheduled-end-1.6-argent-flow",
