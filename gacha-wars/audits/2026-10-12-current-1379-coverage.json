@@ -1,0 +1,894 @@
+{
+  "schema": "gacha-wars-current-coverage-v11",
+  "audit_date": "2026-10-12",
+  "source_data_blob_sha": "e49a7ed55c49e5755b5adf7e9ceec144dcf7dac7",
+  "total_events": 1379,
+  "by_game": {
+    "zzz": {
+      "total": 234,
+      "official": 133,
+      "secondary": 101,
+      "unreviewed": 0
+    },
+    "gi": {
+      "total": 547,
+      "official": 547,
+      "secondary": 0,
+      "unreviewed": 0
+    },
+    "ww": {
+      "total": 251,
+      "official": 140,
+      "secondary": 111,
+      "unreviewed": 0
+    },
+    "hsr": {
+      "total": 316,
+      "official": 139,
+      "secondary": 177,
+      "unreviewed": 0
+    },
+    "end": {
+      "total": 19,
+      "official": 18,
+      "secondary": 1,
+      "unreviewed": 0
+    },
+    "nte": {
+      "total": 12,
+      "official": 12,
+      "secondary": 0,
+      "unreviewed": 0
+    }
+  },
+  "by_banner_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 318,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5,
+    "event_warp_four_star": 177,
+    "exclusive_channel_a_rank": 84,
+    "featured_convene_four_star": 135,
+    "anniversary_convene_four_star": 6,
+    "collab_convene_four_star": 6,
+    "reverb_convene_four_star": 3,
+    "w_engine_s_rank": 23,
+    "w_engine_a_rank": 36,
+    "exclusive_channel_a_default": 10,
+    "w_engine_a_default": 10
+  },
+  "verification": {
+    "official": 989,
+    "secondary": 390
+  },
+  "batch": {
+    "old_total": 1272,
+    "added": 107,
+    "agent_A_slots": 38,
+    "w_engine_S_slots": 23,
+    "w_engine_A_slots": 46,
+    "official": 62,
+    "secondary": 45,
+    "customizable_default_A_slots": 20,
+    "periods": 12,
+    "banner_groups": 23,
+    "details": [
+      {
+        "date": "2025-08-06",
+        "parent": "アリス",
+        "version_group": "Ver.2.1",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/158277",
+        "verification": "official",
+        "agents": [],
+        "engines": [
+          {
+            "name": "Practiced Perfection",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Bashful Demon",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Peacekeeper - Specialized",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2025-08-06",
+        "parent": "柳（復刻）",
+        "version_group": "Ver.2.1",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/158277",
+        "verification": "official",
+        "agents": [],
+        "engines": [
+          {
+            "name": "Timeweaver",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Bashful Demon",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Peacekeeper - Specialized",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2025-11-26",
+        "parent": "ダイアリン",
+        "version_group": "Ver.2.4",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/161024",
+        "verification": "official",
+        "agents": [],
+        "engines": [
+          {
+            "name": "Yesterday Calls",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Starlight Engine Replica",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2025-11-26",
+        "parent": "ヒューゴ（復刻）",
+        "version_group": "Ver.2.4",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/161024",
+        "verification": "official",
+        "agents": [],
+        "engines": [
+          {
+            "name": "Myriad Eclipse",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Starlight Engine Replica",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-02-06",
+        "parent": "儀玄（復刻）",
+        "version_group": "Ver.2.6",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/162496",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "カリン",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ビリー",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Qingming Birdcage",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Starlight Engine Replica",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-02-06",
+        "parent": "千夏",
+        "version_group": "Ver.2.6",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/162496",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "カリン",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ビリー",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Thoughtbop",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Starlight Engine Replica",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-03-04",
+        "parent": "アリア",
+        "version_group": "Ver.2.6",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/162981",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "アンドー",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "セス",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Angel in the Shell",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Drill Rig - Red Axis",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Peacekeeper - Specialized",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-03-04",
+        "parent": "浮波柚葉（復刻）",
+        "version_group": "Ver.2.6",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/162981",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "アンドー",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "セス",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Metanukimorphosis",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Drill Rig - Red Axis",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Peacekeeper - Specialized",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-03-24",
+        "parent": "イドリー（復刻）",
+        "version_group": "Ver.2.7",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/163213",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "パイパー",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ニコ",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Kraken's Cradle",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Roaring Ride",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "The Vault",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-03-24",
+        "parent": "南宮羽",
+        "version_group": "Ver.2.7",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/163213",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "パイパー",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ニコ",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Neon Fantasies",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Roaring Ride",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "The Vault",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-04-15",
+        "parent": "シーシィア",
+        "version_group": "Ver.2.7",
+        "source_url": "https://www.animonlifeofficial.com/zenless-zone-zero-info/mnrqky7s3ongk3spl2mueioj3l0vwg",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "プルクラ",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ベン",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Serpentine Seeker",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Box Cutter",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Big Cylinder",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-04-15",
+        "parent": "シード（復刻）",
+        "version_group": "Ver.2.7",
+        "source_url": "https://www.animonlifeofficial.com/zenless-zone-zero-info/mnrqky7s3ongk3spl2mueioj3l0vwg",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "プルクラ",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ベン",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Cordis Germina",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Box Cutter",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Big Cylinder",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-05-06",
+        "parent": "プロメイア",
+        "version_group": "Ver.2.8",
+        "source_url": "https://www.lootbar.com/blog/en/zenless-zone-zero-2-8-banners.html",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "蒼角",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ルーシー",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Frostfall Sickle",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Kaboom the Cannon",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Bashful Demon",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-05-06",
+        "parent": "リュシア（復刻）",
+        "version_group": "Ver.2.8",
+        "source_url": "https://www.lootbar.com/blog/en/zenless-zone-zero-2-8-banners.html",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "蒼角",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "ルーシー",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Dreamlit Hearth",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Kaboom the Cannon",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Bashful Demon",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-05-27",
+        "parent": "オルペウス＆「鬼火」（復刻）",
+        "version_group": "Ver.2.8",
+        "source_url": "https://www.lootbar.com/blog/en/zenless-zone-zero-2-8-banners.html",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "潘引壺",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "狛野真斗",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Bellicose Blaze",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Tremor Trigram Vessel",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Grill O'Wisp",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-05-27",
+        "parent": "スターライト・ビリー",
+        "version_group": "Ver.2.8",
+        "source_url": "https://www.lootbar.com/blog/en/zenless-zone-zero-2-8-banners.html",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "潘引壺",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "狛野真斗",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Starlight Rider Faceplate",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Tremor Trigram Vessel",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Grill O'Wisp",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-07-08",
+        "parent": "ノルムー",
+        "version_group": "Ver.3.0",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/165144",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "カリン",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "プルクラ",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Chief Sidekick",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Box Cutter",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-07-08",
+        "parent": "千夏（復刻）",
+        "version_group": "Ver.3.0",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/165144",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "カリン",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "プルクラ",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "engines": [
+          {
+            "name": "Thoughtbop",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": false
+          },
+          {
+            "name": "Box Cutter",
+            "rarity": "A",
+            "default": false
+          }
+        ],
+        "customisable_default": false
+      },
+      {
+        "date": "2026-08-19",
+        "parent": "シグリッド",
+        "version_group": "Ver.3.1",
+        "source_url": "https://zenless.gg/v3-1-limited-time-channels-phase-ii/",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "蒼角",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "ルーシー",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "engines": [
+          {
+            "name": "Knight's Extolment",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Bashful Demon",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "Kaboom the Cannon",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "customisable_default": true
+      },
+      {
+        "date": "2026-09-09",
+        "parent": "クラレッタ",
+        "version_group": "Ver.3.2",
+        "source_url": "https://zenless.gg/v3-2-limited-time-channels-phase-i/",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "アンドー",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "ニコ",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "engines": [
+          {
+            "name": "Crimson Thirst",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Drill Rig - Red Axis",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "The Vault",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "customisable_default": true
+      },
+      {
+        "date": "2026-09-09",
+        "parent": "南宮羽（復刻）",
+        "version_group": "Ver.3.2",
+        "source_url": "https://zenless.gg/v3-2-limited-time-channels-phase-i/",
+        "verification": "secondary",
+        "agents": [
+          {
+            "name": "アンドー",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "ニコ",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "engines": [
+          {
+            "name": "Neon Fantasies",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Drill Rig - Red Axis",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "The Vault",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "customisable_default": true
+      },
+      {
+        "date": "2026-09-30",
+        "parent": "プロメイア（復刻）",
+        "version_group": "Ver.3.2",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/166475?catchSpider=1",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "カリン",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "ビリー",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "engines": [
+          {
+            "name": "Frostfall Sickle",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "Starlight Engine Replica",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "customisable_default": true
+      },
+      {
+        "date": "2026-09-30",
+        "parent": "ロクシー",
+        "version_group": "Ver.3.2",
+        "source_url": "https://zenless.hoyoverse.com/en-us/news/166475?catchSpider=1",
+        "verification": "official",
+        "agents": [
+          {
+            "name": "カリン",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "ビリー",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "engines": [
+          {
+            "name": "Crimson Moon Casket",
+            "rarity": "S",
+            "default": false
+          },
+          {
+            "name": "Housekeeper",
+            "rarity": "A",
+            "default": true
+          },
+          {
+            "name": "Starlight Engine Replica",
+            "rarity": "A",
+            "default": true
+          }
+        ],
+        "customisable_default": true
+      }
+    ]
+  },
+  "known_gaps": [
+    "All 6 games' historical weapon banners are not yet complete; this batch covers 2025-08-06, 2025-11-26 and select 2026 ZZZ phases.",
+    "Ver.3.1 onward A-rank choices are customizable; stored defaults are not a claim of the user's selections.",
+    "A third-party retrospective announcement is secondary until its original HoYoverse page was directly checked.",
+    "No individual item revenue is inferred from app rankings."
+  ]
+}
