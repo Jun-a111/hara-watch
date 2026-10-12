@@ -1,0 +1,39 @@
+{
+  "schema": "gacha-wars-current-coverage-v14",
+  "audit_date": "2026-10-12",
+  "base_event_file": "gacha-wars/release-events.json",
+  "base_event_blob_sha": "a0bc1ee1f42350ba7eab779fa51e909d73c865e4",
+  "additional_event_file": "gacha-wars/gi-weapon-history.json",
+  "additional_event_blob_sha": "170be3effc30797bac85b6c0a01bd20a6497c089",
+  "previous_total": 1607,
+  "added_banner_groups": 105,
+  "added_weapon_five": 210,
+  "added_weapon_four": 525,
+  "added_events": 735,
+  "combined_events": 2342,
+  "verification": {
+    "official": 1005,
+    "secondary": 1337
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 353,
+    "hsr": 316,
+    "end": 19,
+    "nte": 12
+  },
+  "new_source": {
+    "name": "Paimon.moe Genshin wish banner historical archive",
+    "url": "https://github.com/MadeBaruna/paimon-moe/blob/main/src/data/banners.js",
+    "sha": "f75f998597fc0e0d811ab5d65097baf1dfeaa92f",
+    "verification": "secondary",
+    "external_crosscheck": "https://genshin-impact.fandom.com/ja/wiki/祈願/履歴/武器"
+  },
+  "limitations": [
+    "Weapon banner item counts are weapon rate-up slots, not unique weapons, and must not be added to per-character sales.",
+    "The new 735 items are community-sourced. No assertion is made that the publisher's individual notices for all 105 banners were verified.",
+    "The original dataset is unchanged and the web client merges the supplemental archive. If the archive cannot be loaded, the original data still loads.",
+    "All-time completion for all six games, including all weapons, official provenance and every character banner, remains unverified."
+  ]
+}
