@@ -235,6 +235,47 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                          "duplicate character banner on the same date")
 
 
+    def test_genshin_four_star_debut_backfill_2020_through_2025(self):
+        """New four-stars are documented but excluded from five-star banner rankings."""
+        events = self.read("release-events.json")["events"]
+        four = [e for e in events if e["id"].startswith("gi-four-debut-")]
+        self.assertEqual(len(four), 33)
+        expected = {
+            "ディオナ": "2020-11-11", "辛炎": "2020-12-01",
+            "ロサリア": "2021-04-06", "煙緋": "2021-04-28",
+            "早柚": "2021-08-10", "九条裟羅": "2021-09-01",
+            "トーマ": "2021-11-02", "ゴロー": "2021-12-14",
+            "雲菫": "2022-01-05", "久岐忍": "2022-06-21",
+            "鹿野院平蔵": "2022-07-13", "コレイ": "2022-08-24",
+            "ドリー": "2022-09-09", "キャンディス": "2022-09-28",
+            "レイラ": "2022-11-18", "ファルザン": "2022-12-07",
+            "ヨォーヨ": "2023-01-18", "ミカ": "2023-03-21",
+            "カーヴェ": "2023-05-02", "綺良々": "2023-05-24",
+            "リネット": "2023-08-16", "フレミネ": "2023-09-05",
+            "シャルロット": "2023-11-08", "シュヴルーズ": "2024-01-09",
+            "嘉明": "2024-01-31", "セトス": "2024-06-05",
+            "カチーナ": "2024-08-28", "オロルン": "2024-11-20",
+            "藍硯": "2025-01-21", "イアンサ": "2025-03-26",
+            "イファ": "2025-05-07", "ダリア": "2025-06-18",
+            "ヤフォダ": "2025-12-03",
+        }
+        self.assertEqual({e["version"]: e["date"] for e in four}, expected)
+        for event in four:
+            with self.subTest(character=event["version"]):
+                self.assertEqual(event["game"], "gi")
+                self.assertEqual(event["rarity"], 4)
+                self.assertEqual(event["event_kind"], "debut")
+                self.assertEqual(event["banner_type"], "event_wish_four_star")
+                self.assertEqual(event["verification"], "official")
+                self.assertTrue(event["version_group"])
+                self.assertIn(event["phase"], {"first", "second"})
+                self.assertTrue(event["source_url"].startswith("https://"))
+        self.assertEqual(len({(e["game"], e["version"], e["date"])
+                              for e in four}), len(four))
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertGreaterEqual(html.count('"event_wish_four_star"'), 5)
+        self.assertIn('!specialTypes.includes(ev.banner_type)', html)
+
     def test_all_official_genshin_chronicled_wishes_and_reminiscence(self):
         """Keep seven curated selectable five-star roster pools distinct from reruns."""
         events = self.read("release-events.json")["events"]
