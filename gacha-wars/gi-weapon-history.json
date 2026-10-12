@@ -1,0 +1,1584 @@
+{
+  "schema": "gacha-wars-gi-weapons-v1",
+  "source": "https://github.com/MadeBaruna/paimon-moe/blob/main/src/data/banners.js",
+  "source_blob_sha": "f75f998597fc0e0d811ab5d65097baf1dfeaa92f",
+  "verification": "secondary",
+  "notice": "全105回735枠は二次資料による武器ピックアップ履歴。公式の個別ガチャ告知本文による全件照合は未完了。キャラの売上帰属対象外。",
+  "banners": [
+    {
+      "date": "2020-09-28",
+      "version": "1.0",
+      "five": [
+        "aquila_favonia",
+        "amos_bow"
+      ],
+      "four": [
+        "the_flute",
+        "the_bell",
+        "the_widsith",
+        "the_stringless",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2020-10-20",
+      "version": "1.0",
+      "five": [
+        "lost_prayer_to_the_sacred_winds",
+        "wolfs_gravestone"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "sacrificial_bow",
+        "sacrificial_greatsword",
+        "sacrificial_fragments",
+        "dragons_bane"
+      ]
+    },
+    {
+      "date": "2020-11-11",
+      "version": "1.1",
+      "five": [
+        "skyward_harp",
+        "memory_of_dust"
+      ],
+      "four": [
+        "the_flute",
+        "rainslasher",
+        "eye_of_perception",
+        "rust",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2020-12-01",
+      "version": "1.1",
+      "five": [
+        "vortex_vanquisher",
+        "the_unforged"
+      ],
+      "four": [
+        "lions_roar",
+        "the_bell",
+        "favonius_codex",
+        "favonius_warbow",
+        "dragons_bane"
+      ]
+    },
+    {
+      "date": "2020-12-23",
+      "version": "1.2",
+      "five": [
+        "summit_shaper",
+        "skyward_atlas"
+      ],
+      "four": [
+        "favonius_sword",
+        "favonius_greatsword",
+        "favonius_lance",
+        "sacrificial_fragments",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2021-01-12",
+      "version": "1.2",
+      "five": [
+        "amos_bow",
+        "skyward_pride"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "the_bell",
+        "dragons_bane",
+        "eye_of_perception",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2021-02-03",
+      "version": "1.3",
+      "five": [
+        "primordial_jade_winged-spear",
+        "primordial_jade_cutter"
+      ],
+      "four": [
+        "the_flute",
+        "sacrificial_greatsword",
+        "rust",
+        "eye_of_perception",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2021-02-23",
+      "version": "1.3",
+      "five": [
+        "wolfs_gravestone",
+        "staff_of_homa"
+      ],
+      "four": [
+        "lithic_blade",
+        "lithic_spear",
+        "lions_roar",
+        "sacrificial_bow",
+        "the_widsith"
+      ]
+    },
+    {
+      "date": "2021-03-17",
+      "version": "1.4",
+      "five": [
+        "elegy_for_the_end",
+        "skyward_blade"
+      ],
+      "four": [
+        "the_alley_flash",
+        "wine_and_song",
+        "favonius_greatsword",
+        "favonius_warbow",
+        "dragons_bane"
+      ]
+    },
+    {
+      "date": "2021-04-06",
+      "version": "1.4",
+      "five": [
+        "skyward_harp",
+        "lost_prayer_to_the_sacred_winds"
+      ],
+      "four": [
+        "alley_hunter",
+        "favonius_codex",
+        "favonius_lance",
+        "sacrificial_greatsword",
+        "favonius_sword"
+      ]
+    },
+    {
+      "date": "2021-04-28",
+      "version": "1.5",
+      "five": [
+        "summit_shaper",
+        "memory_of_dust"
+      ],
+      "four": [
+        "lithic_blade",
+        "lithic_spear",
+        "sacrificial_bow",
+        "eye_of_perception",
+        "the_flute"
+      ]
+    },
+    {
+      "date": "2021-05-18",
+      "version": "1.5",
+      "five": [
+        "song_of_broken_pines",
+        "aquila_favonia"
+      ],
+      "four": [
+        "rust",
+        "sacrificial_fragments",
+        "dragons_bane",
+        "rainslasher",
+        "sacrificial_sword"
+      ]
+    },
+    {
+      "date": "2021-06-09",
+      "version": "1.6",
+      "five": [
+        "lost_prayer_to_the_sacred_winds",
+        "skyward_pride"
+      ],
+      "four": [
+        "mitternachts_waltz",
+        "lions_roar",
+        "the_bell",
+        "favonius_lance",
+        "the_widsith"
+      ]
+    },
+    {
+      "date": "2021-06-29",
+      "version": "1.6",
+      "five": [
+        "freedom-sworn",
+        "skyward_atlas"
+      ],
+      "four": [
+        "the_alley_flash",
+        "wine_and_song",
+        "alley_hunter",
+        "favonius_greatsword",
+        "dragons_bane"
+      ]
+    },
+    {
+      "date": "2021-07-21",
+      "version": "2.0",
+      "five": [
+        "mistsplitter_reforged",
+        "skyward_spine"
+      ],
+      "four": [
+        "favonius_sword",
+        "sacrificial_greatsword",
+        "favonius_lance",
+        "favonius_codex",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2021-08-10",
+      "version": "2.0",
+      "five": [
+        "thundering_pulse",
+        "skyward_blade"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "rainslasher",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2021-09-01",
+      "version": "2.1",
+      "five": [
+        "engulfing_lightning",
+        "the_unforged"
+      ],
+      "four": [
+        "lions_roar",
+        "the_bell",
+        "favonius_lance",
+        "the_widsith",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2021-09-21",
+      "version": "2.1",
+      "five": [
+        "primordial_jade_cutter",
+        "everlasting_moonglow"
+      ],
+      "four": [
+        "the_flute",
+        "favonius_greatsword",
+        "dragons_bane",
+        "favonius_codex",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2021-10-13",
+      "version": "2.2",
+      "five": [
+        "polar_star",
+        "memory_of_dust"
+      ],
+      "four": [
+        "akuoumaru",
+        "favonius_sword",
+        "favonius_lance",
+        "eye_of_perception",
+        "rust"
+      ]
+    },
+    {
+      "date": "2021-11-02",
+      "version": "2.2",
+      "five": [
+        "staff_of_homa",
+        "elegy_for_the_end"
+      ],
+      "four": [
+        "wavebreakers_fin",
+        "mouuns_moon",
+        "sacrificial_sword",
+        "rainslasher",
+        "the_widsith"
+      ]
+    },
+    {
+      "date": "2021-11-24",
+      "version": "2.3",
+      "five": [
+        "freedom-sworn",
+        "song_of_broken_pines"
+      ],
+      "four": [
+        "wine_and_song",
+        "alley_hunter",
+        "lions_roar",
+        "sacrificial_greatsword",
+        "dragons_bane"
+      ]
+    },
+    {
+      "date": "2021-12-14",
+      "version": "2.3",
+      "five": [
+        "redhorn_stonethresher",
+        "skyward_harp"
+      ],
+      "four": [
+        "the_alley_flash",
+        "mitternachts_waltz",
+        "the_bell",
+        "favonius_lance",
+        "sacrificial_fragments"
+      ]
+    },
+    {
+      "date": "2022-01-05",
+      "version": "2.4",
+      "five": [
+        "calamity_queller",
+        "primordial_jade_winged-spear"
+      ],
+      "four": [
+        "lithic_spear",
+        "the_flute",
+        "favonius_greatsword",
+        "the_widsith",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2022-01-25",
+      "version": "2.4",
+      "five": [
+        "amos_bow",
+        "vortex_vanquisher"
+      ],
+      "four": [
+        "lithic_blade",
+        "favonius_sword",
+        "dragons_bane",
+        "favonius_codex",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2022-02-16",
+      "version": "2.5",
+      "five": [
+        "kaguras_verity",
+        "primordial_jade_cutter"
+      ],
+      "four": [
+        "wavebreakers_fin",
+        "sacrificial_sword",
+        "rainslasher",
+        "eye_of_perception",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2022-03-08",
+      "version": "2.5",
+      "five": [
+        "engulfing_lightning",
+        "everlasting_moonglow"
+      ],
+      "four": [
+        "akuoumaru",
+        "mouuns_moon",
+        "lions_roar",
+        "favonius_lance",
+        "sacrificial_fragments"
+      ]
+    },
+    {
+      "date": "2022-03-30",
+      "version": "2.6",
+      "five": [
+        "haran_geppaku_futsu",
+        "elegy_for_the_end"
+      ],
+      "four": [
+        "the_flute",
+        "sacrificial_greatsword",
+        "dragons_bane",
+        "the_widsith",
+        "rust"
+      ]
+    },
+    {
+      "date": "2022-04-19",
+      "version": "2.6",
+      "five": [
+        "mistsplitter_reforged",
+        "the_unforged"
+      ],
+      "four": [
+        "favonius_sword",
+        "the_bell",
+        "favonius_lance",
+        "favonius_codex",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2022-05-31",
+      "version": "2.7",
+      "five": [
+        "aqua_simulacra",
+        "primordial_jade_winged-spear"
+      ],
+      "four": [
+        "lithic_spear",
+        "sacrificial_sword",
+        "favonius_greatsword",
+        "eye_of_perception",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2022-06-21",
+      "version": "2.7",
+      "five": [
+        "redhorn_stonethresher",
+        "memory_of_dust"
+      ],
+      "four": [
+        "lithic_blade",
+        "lions_roar",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2022-07-13",
+      "version": "2.8",
+      "five": [
+        "freedom-sworn",
+        "lost_prayer_to_the_sacred_winds"
+      ],
+      "four": [
+        "the_alley_flash",
+        "mitternachts_waltz",
+        "rainslasher",
+        "favonius_lance",
+        "the_widsith"
+      ]
+    },
+    {
+      "date": "2022-08-02",
+      "version": "2.8",
+      "five": [
+        "thundering_pulse",
+        "summit_shaper"
+      ],
+      "four": [
+        "wine_and_song",
+        "alley_hunter",
+        "the_flute",
+        "sacrificial_greatsword",
+        "dragons_bane"
+      ]
+    },
+    {
+      "date": "2022-08-24",
+      "version": "3.0",
+      "five": [
+        "hunters_path",
+        "vortex_vanquisher"
+      ],
+      "four": [
+        "favonius_sword",
+        "the_bell",
+        "favonius_lance",
+        "favonius_codex",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2022-09-09",
+      "version": "3.0",
+      "five": [
+        "amos_bow",
+        "everlasting_moonglow"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "favonius_greatsword",
+        "dragons_bane",
+        "eye_of_perception",
+        "rust"
+      ]
+    },
+    {
+      "date": "2022-09-28",
+      "version": "3.1",
+      "five": [
+        "staff_of_the_scarlet_sands",
+        "elegy_for_the_end"
+      ],
+      "four": [
+        "makhaira_aquamarine",
+        "lions_roar",
+        "favonius_lance",
+        "sacrificial_fragments",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2022-10-14",
+      "version": "3.1",
+      "five": [
+        "key_of_khaj-nisut",
+        "primordial_jade_cutter"
+      ],
+      "four": [
+        "xiphos_moonlight",
+        "wandering_evenstar",
+        "rainslasher",
+        "dragons_bane",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2022-11-02",
+      "version": "3.2",
+      "five": [
+        "a_thousand_floating_dreams",
+        "thundering_pulse"
+      ],
+      "four": [
+        "the_flute",
+        "sacrificial_greatsword",
+        "favonius_lance",
+        "the_widsith",
+        "rust"
+      ]
+    },
+    {
+      "date": "2022-11-18",
+      "version": "3.2",
+      "five": [
+        "kaguras_verity",
+        "polar_star"
+      ],
+      "four": [
+        "favonius_sword",
+        "the_bell",
+        "dragons_bane",
+        "favonius_codex",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2022-12-07",
+      "version": "3.3",
+      "five": [
+        "tulaytullahs_remembrance",
+        "redhorn_stonethresher"
+      ],
+      "four": [
+        "wavebreakers_fin",
+        "sacrificial_sword",
+        "favonius_greatsword",
+        "eye_of_perception",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2022-12-27",
+      "version": "3.3",
+      "five": [
+        "engulfing_lightning",
+        "haran_geppaku_futsu"
+      ],
+      "four": [
+        "akuoumaru",
+        "mouuns_moon",
+        "lions_roar",
+        "favonius_lance",
+        "sacrificial_fragments"
+      ]
+    },
+    {
+      "date": "2023-01-18",
+      "version": "3.4",
+      "five": [
+        "light_of_foliar_incision",
+        "primordial_jade_winged-spear"
+      ],
+      "four": [
+        "lithic_spear",
+        "the_flute",
+        "rainslasher",
+        "the_widsith",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2023-02-07",
+      "version": "3.4",
+      "five": [
+        "staff_of_homa",
+        "aqua_simulacra"
+      ],
+      "four": [
+        "lithic_blade",
+        "favonius_sword",
+        "dragons_bane",
+        "favonius_codex",
+        "rust"
+      ]
+    },
+    {
+      "date": "2023-03-01",
+      "version": "3.5",
+      "five": [
+        "beacon_of_the_reed_sea",
+        "staff_of_the_scarlet_sands"
+      ],
+      "four": [
+        "the_alley_flash",
+        "alley_hunter",
+        "sacrificial_greatsword",
+        "dragons_bane",
+        "eye_of_perception"
+      ]
+    },
+    {
+      "date": "2023-03-21",
+      "version": "3.5",
+      "five": [
+        "calamity_queller",
+        "mistsplitter_reforged"
+      ],
+      "four": [
+        "wine_and_song",
+        "sacrificial_sword",
+        "the_bell",
+        "favonius_lance",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2023-04-12",
+      "version": "3.6",
+      "five": [
+        "key_of_khaj-nisut",
+        "a_thousand_floating_dreams"
+      ],
+      "four": [
+        "xiphos_moonlight",
+        "favonius_greatsword",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2023-05-02",
+      "version": "3.6",
+      "five": [
+        "jadefalls_splendor",
+        "amos_bow"
+      ],
+      "four": [
+        "makhaira_aquamarine",
+        "wandering_evenstar",
+        "lions_roar",
+        "favonius_lance",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2023-05-24",
+      "version": "3.7",
+      "five": [
+        "thundering_pulse",
+        "kaguras_verity"
+      ],
+      "four": [
+        "akuoumaru",
+        "the_flute",
+        "dragons_bane",
+        "the_widsith",
+        "rust"
+      ]
+    },
+    {
+      "date": "2023-06-13",
+      "version": "3.7",
+      "five": [
+        "freedom-sworn",
+        "light_of_foliar_incision"
+      ],
+      "four": [
+        "wavebreakers_fin",
+        "mouuns_moon",
+        "favonius_sword",
+        "sacrificial_greatsword",
+        "favonius_codex"
+      ]
+    },
+    {
+      "date": "2023-07-05",
+      "version": "3.8",
+      "five": [
+        "song_of_broken_pines",
+        "lost_prayer_to_the_sacred_winds"
+      ],
+      "four": [
+        "the_alley_flash",
+        "alley_hunter",
+        "rainslasher",
+        "favonius_lance",
+        "eye_of_perception"
+      ]
+    },
+    {
+      "date": "2023-07-25",
+      "version": "3.8",
+      "five": [
+        "everlasting_moonglow",
+        "tulaytullahs_remembrance"
+      ],
+      "four": [
+        "wine_and_song",
+        "lions_roar",
+        "the_bell",
+        "dragons_bane",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2023-08-16",
+      "version": "4.0",
+      "five": [
+        "the_first_great_magic",
+        "aqua_simulacra"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "favonius_greatsword",
+        "favonius_lance",
+        "sacrificial_fragments",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2023-09-05",
+      "version": "4.0",
+      "five": [
+        "polar_star",
+        "vortex_vanquisher"
+      ],
+      "four": [
+        "the_flute",
+        "sacrificial_greatsword",
+        "dragons_bane",
+        "the_widsith",
+        "rust"
+      ]
+    },
+    {
+      "date": "2023-09-27",
+      "version": "4.1",
+      "five": [
+        "tome_of_the_eternal_flow",
+        "staff_of_homa"
+      ],
+      "four": [
+        "the_dockhands_assistant",
+        "portable_power_saw",
+        "mitternachts_waltz",
+        "favonius_lance",
+        "favonius_codex"
+      ]
+    },
+    {
+      "date": "2023-10-17",
+      "version": "4.1",
+      "five": [
+        "cashflow_supervision",
+        "elegy_for_the_end"
+      ],
+      "four": [
+        "prospectors_drill",
+        "range_gauge",
+        "favonius_sword",
+        "rainslasher",
+        "eye_of_perception"
+      ]
+    },
+    {
+      "date": "2023-11-08",
+      "version": "4.2",
+      "five": [
+        "splendor_of_tranquil_waters",
+        "jadefalls_splendor"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "the_bell",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2023-11-28",
+      "version": "4.2",
+      "five": [
+        "staff_of_the_scarlet_sands",
+        "haran_geppaku_futsu"
+      ],
+      "four": [
+        "lions_roar",
+        "the_widsith",
+        "favonius_warbow",
+        "favonius_greatsword",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2023-12-20",
+      "version": "4.3",
+      "five": [
+        "verdict",
+        "mistsplitter_reforged"
+      ],
+      "four": [
+        "akuoumaru",
+        "mouuns_moon",
+        "the_flute",
+        "dragons_bane",
+        "favonius_codex"
+      ]
+    },
+    {
+      "date": "2024-01-09",
+      "version": "4.3",
+      "five": [
+        "engulfing_lightning",
+        "thundering_pulse"
+      ],
+      "four": [
+        "wavebreakers_fin",
+        "favonius_sword",
+        "rainslasher",
+        "eye_of_perception",
+        "rust"
+      ]
+    },
+    {
+      "date": "2024-01-31",
+      "version": "4.4",
+      "five": [
+        "cranes_echoing_call",
+        "a_thousand_floating_dreams"
+      ],
+      "four": [
+        "lithic_spear",
+        "sacrificial_sword",
+        "sacrificial_greatsword",
+        "sacrificial_fragments",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2024-02-20",
+      "version": "4.4",
+      "five": [
+        "primordial_jade_winged-spear",
+        "kaguras_verity"
+      ],
+      "four": [
+        "lithic_blade",
+        "lions_roar",
+        "favonius_lance",
+        "the_widsith",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2024-03-13",
+      "version": "4.5",
+      "five": [
+        "uraku_misugiri",
+        "redhorn_stonethresher"
+      ],
+      "four": [
+        "the_alley_flash",
+        "alley_hunter",
+        "the_bell",
+        "dragons_bane",
+        "favonius_codex"
+      ]
+    },
+    {
+      "date": "2024-04-02",
+      "version": "4.5",
+      "five": [
+        "tome_of_the_eternal_flow",
+        "freedom-sworn"
+      ],
+      "four": [
+        "wine_and_song",
+        "mitternachts_waltz",
+        "the_flute",
+        "favonius_greatsword",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2024-04-24",
+      "version": "4.6",
+      "five": [
+        "crimson_moons_semblance",
+        "the_first_great_magic"
+      ],
+      "four": [
+        "the_dockhands_assistant",
+        "portable_power_saw",
+        "dragons_bane",
+        "eye_of_perception",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2024-05-14",
+      "version": "4.6",
+      "five": [
+        "tulaytullahs_remembrance",
+        "jadefalls_splendor"
+      ],
+      "four": [
+        "prospectors_drill",
+        "range_gauge",
+        "favonius_sword",
+        "rainslasher",
+        "sacrificial_fragments"
+      ]
+    },
+    {
+      "date": "2024-06-05",
+      "version": "4.7",
+      "five": [
+        "absolution",
+        "light_of_foliar_incision"
+      ],
+      "four": [
+        "lithic_spear",
+        "sacrificial_sword",
+        "sacrificial_greatsword",
+        "the_widsith",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2024-06-25",
+      "version": "4.7",
+      "five": [
+        "silvershower_heartstrings",
+        "splendor_of_tranquil_waters"
+      ],
+      "four": [
+        "lithic_blade",
+        "lions_roar",
+        "favonius_lance",
+        "favonius_codex",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2024-07-17",
+      "version": "4.8",
+      "five": [
+        "verdict",
+        "key_of_khaj-nisut"
+      ],
+      "four": [
+        "xiphos_moonlight",
+        "the_bell",
+        "dragons_bane",
+        "eye_of_perception",
+        "rust"
+      ]
+    },
+    {
+      "date": "2024-08-06",
+      "version": "4.8",
+      "five": [
+        "lumidouce_elegy",
+        "aqua_simulacra"
+      ],
+      "four": [
+        "makhaira_aquamarine",
+        "wandering_evenstar",
+        "the_flute",
+        "favonius_lance",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2024-08-28",
+      "version": "5.0",
+      "five": [
+        "surfs_up",
+        "freedom-sworn"
+      ],
+      "four": [
+        "favonius_sword",
+        "favonius_greatsword",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2024-09-17",
+      "version": "5.0",
+      "five": [
+        "fang_of_the_mountain_king",
+        "engulfing_lightning"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "rainslasher",
+        "favonius_lance",
+        "the_widsith",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2024-10-09",
+      "version": "5.1",
+      "five": [
+        "peak_patrol_song",
+        "uraku_misugiri"
+      ],
+      "four": [
+        "sturdy_bone",
+        "mountain-bracing_bolt",
+        "sacrificial_greatsword",
+        "favonius_codex",
+        "rust"
+      ]
+    },
+    {
+      "date": "2024-10-29",
+      "version": "5.1",
+      "five": [
+        "a_thousand_floating_dreams",
+        "staff_of_homa"
+      ],
+      "four": [
+        "fruitful_hook",
+        "lions_roar",
+        "dragons_bane",
+        "eye_of_perception",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2024-11-20",
+      "version": "5.2",
+      "five": [
+        "astral_vultures_crimson_plumage",
+        "the_first_great_magic"
+      ],
+      "four": [
+        "waveriding_whirl",
+        "flower-wreathed_feathers",
+        "the_flute",
+        "the_bell",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2024-12-10",
+      "version": "5.2",
+      "five": [
+        "tome_of_the_eternal_flow",
+        "vortex_vanquisher"
+      ],
+      "four": [
+        "mitternachts_waltz",
+        "favonius_sword",
+        "favonius_greatsword",
+        "dragons_bane",
+        "sacrificial_fragments"
+      ]
+    },
+    {
+      "date": "2025-01-01",
+      "version": "5.3",
+      "five": [
+        "a_thousand_blazing_suns",
+        "starcallers_watch"
+      ],
+      "four": [
+        "lithic_blade",
+        "sacrificial_sword",
+        "favonius_lance",
+        "favonius_codex",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2025-01-21",
+      "version": "5.3",
+      "five": [
+        "crimson_moons_semblance",
+        "absolution"
+      ],
+      "four": [
+        "lithic_spear",
+        "lions_roar",
+        "rainslasher",
+        "the_widsith",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2025-02-12",
+      "version": "5.4",
+      "five": [
+        "sunny_morning_sleep-in",
+        "silvershower_heartstrings"
+      ],
+      "four": [
+        "akuoumaru",
+        "wavebreakers_fin",
+        "mouuns_moon",
+        "the_flute",
+        "eye_of_perception"
+      ]
+    },
+    {
+      "date": "2025-03-04",
+      "version": "5.4",
+      "five": [
+        "splendor_of_tranquil_waters",
+        "cashflow_supervision"
+      ],
+      "four": [
+        "favonius_sword",
+        "sacrificial_greatsword",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "rust"
+      ]
+    },
+    {
+      "date": "2025-03-26",
+      "version": "5.5",
+      "five": [
+        "vivid_notions",
+        "cranes_echoing_call"
+      ],
+      "four": [
+        "sturdy_bone",
+        "fruitful_hook",
+        "mountain-bracing_bolt",
+        "waveriding_whirl",
+        "flower-wreathed_feathers"
+      ]
+    },
+    {
+      "date": "2025-04-15",
+      "version": "5.5",
+      "five": [
+        "peak_patrol_song",
+        "elegy_for_the_end"
+      ],
+      "four": [
+        "sacrificial_sword",
+        "the_bell",
+        "favonius_lance",
+        "favonius_codex",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2025-05-07",
+      "version": "5.6",
+      "five": [
+        "symphonist_of_scents",
+        "verdict"
+      ],
+      "four": [
+        "the_dockhands_assistant",
+        "portable_power_saw",
+        "prospectors_drill",
+        "range_gauge",
+        "the_widsith"
+      ]
+    },
+    {
+      "date": "2025-05-27",
+      "version": "5.6",
+      "five": [
+        "fang_of_the_mountain_king",
+        "engulfing_lightning"
+      ],
+      "four": [
+        "lions_roar",
+        "favonius_greatsword",
+        "dragons_bane",
+        "eye_of_perception",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2025-06-18",
+      "version": "5.7",
+      "five": [
+        "azurelight",
+        "calamity_queller"
+      ],
+      "four": [
+        "xiphos_moonlight",
+        "makhaira_aquamarine",
+        "wandering_evenstar",
+        "favonius_lance",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2025-07-08",
+      "version": "5.7",
+      "five": [
+        "a_thousand_blazing_suns",
+        "calamity_queller"
+      ],
+      "four": [
+        "the_flute",
+        "rainslasher",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "rust"
+      ]
+    },
+    {
+      "date": "2025-07-30",
+      "version": "5.8",
+      "five": [
+        "fractured_halo",
+        "starcallers_watch"
+      ],
+      "four": [
+        "sturdy_bone",
+        "mountain-bracing_bolt",
+        "sacrificial_greatsword",
+        "favonius_codex",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2025-08-19",
+      "version": "5.8",
+      "five": [
+        "surfs_up",
+        "astral_vultures_crimson_plumage"
+      ],
+      "four": [
+        "fruitful_hook",
+        "waveriding_whirl",
+        "flower-wreathed_feathers",
+        "favonius_sword",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2025-09-10",
+      "version": "6.0",
+      "five": [
+        "nightweavers_looking_glass",
+        "a_thousand_floating_dreams"
+      ],
+      "four": [
+        "the_flute",
+        "sacrificial_greatsword",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2025-09-30",
+      "version": "6.0",
+      "five": [
+        "bloodsoaked_ruins",
+        "aqua_simulacra"
+      ],
+      "four": [
+        "lions_roar",
+        "favonius_greatsword",
+        "favonius_lance",
+        "favonius_codex",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2025-10-22",
+      "version": "6.1",
+      "five": [
+        "reliquary_of_truth",
+        "splendor_of_tranquil_waters"
+      ],
+      "four": [
+        "moonweavers_dawn",
+        "sacrificers_staff",
+        "dawning_frost",
+        "the_bell",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2025-11-11",
+      "version": "6.1",
+      "five": [
+        "crimson_moons_semblance",
+        "vortex_vanquisher"
+      ],
+      "four": [
+        "the_dockhands_assistant",
+        "portable_power_saw",
+        "range_gauge",
+        "dragons_bane",
+        "sacrificial_fragments"
+      ]
+    },
+    {
+      "date": "2025-12-03",
+      "version": "6.2",
+      "five": [
+        "athame_artis",
+        "the_daybreak_chronicles"
+      ],
+      "four": [
+        "the_alley_flash",
+        "prospectors_drill",
+        "wine_and_song",
+        "rainslasher",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2025-12-23",
+      "version": "6.2",
+      "five": [
+        "vivid_notions",
+        "peak_patrol_song"
+      ],
+      "four": [
+        "fruitful_hook",
+        "alley_hunter",
+        "favonius_sword",
+        "favonius_lance",
+        "the_widsith"
+      ]
+    },
+    {
+      "date": "2026-01-14",
+      "version": "6.3",
+      "five": [
+        "nocturnes_curtain_call",
+        "fractured_halo"
+      ],
+      "four": [
+        "mountain-bracing_bolt",
+        "waveriding_whirl",
+        "mitternachts_waltz",
+        "the_flute",
+        "sacrificial_greatsword"
+      ]
+    },
+    {
+      "date": "2026-02-03",
+      "version": "6.3",
+      "five": [
+        "lightbearing_moonshard",
+        "tome_of_the_eternal_flow"
+      ],
+      "four": [
+        "xiphos_moonlight",
+        "favonius_greatsword",
+        "dragons_bane",
+        "eye_of_perception",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2026-02-25",
+      "version": "6.4",
+      "five": [
+        "gest_of_the_mighty_wolf",
+        "bloodsoaked_ruins"
+      ],
+      "four": [
+        "sacrificers_staff",
+        "favonius_sword",
+        "favonius_greatsword",
+        "sacrificial_fragments",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2026-03-17",
+      "version": "6.4",
+      "five": [
+        "azurelight",
+        "symphonist_of_scents"
+      ],
+      "four": [
+        "the_flute",
+        "the_bell",
+        "favonius_lance",
+        "favonius_codex",
+        "rust"
+      ]
+    },
+    {
+      "date": "2026-04-08",
+      "version": "6.5",
+      "five": [
+        "golden_frostbound_oath",
+        "astral_vultures_crimson_plumage"
+      ],
+      "four": [
+        "flower-wreathed_feathers",
+        "lions_roar",
+        "sacrificial_greatsword",
+        "dragons_bane",
+        "eye_of_perception"
+      ]
+    },
+    {
+      "date": "2026-04-28",
+      "version": "6.5",
+      "five": [
+        "nightweavers_looking_glass",
+        "reliquary_of_truth"
+      ],
+      "four": [
+        "dawning_frost",
+        "sacrificial_sword",
+        "rainslasher",
+        "favonius_lance",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2026-05-20",
+      "version": "6.6",
+      "five": [
+        "angelos_heptades",
+        "athame_artis"
+      ],
+      "four": [
+        "moonweavers_dawn",
+        "mitternachts_waltz",
+        "the_bell",
+        "dragons_bane",
+        "the_widsith"
+      ]
+    },
+    {
+      "date": "2026-06-09",
+      "version": "6.6",
+      "five": [
+        "disaster_and_remorse",
+        "a_thousand_blazing_suns"
+      ],
+      "four": [
+        "the_alley_flash",
+        "wine_and_song",
+        "alley_hunter",
+        "rainslasher",
+        "favonius_lance"
+      ]
+    },
+    {
+      "date": "2026-07-01",
+      "version": "6.7",
+      "five": [
+        "a_teaspoon_of_transcendence",
+        "starcallers_watch"
+      ],
+      "four": [
+        "favonius_sword",
+        "rainslasher",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "sacrificial_bow"
+      ]
+    },
+    {
+      "date": "2026-07-21",
+      "version": "6.7",
+      "five": [
+        "nocturnes_curtain_call",
+        "engulfing_lightning"
+      ],
+      "four": [
+        "waveriding_whirl",
+        "sacrificial_sword",
+        "the_bell",
+        "favonius_lance",
+        "favonius_warbow"
+      ]
+    },
+    {
+      "date": "2026-08-12",
+      "version": "7.0",
+      "five": [
+        "whitelake_frostfeather",
+        "crimson_moons_semblance"
+      ],
+      "four": [
+        "favonius_sword",
+        "the_bell",
+        "dragons_bane",
+        "sacrificial_fragments",
+        "rust"
+      ]
+    },
+    {
+      "date": "2026-09-01",
+      "version": "7.0",
+      "five": [
+        "bloodsoaked_ruins",
+        "fractured_halo"
+      ],
+      "four": [
+        "the_flute",
+        "favonius_greatsword",
+        "favonius_lance",
+        "eye_of_perception",
+        "the_stringless"
+      ]
+    },
+    {
+      "date": "2026-09-23",
+      "version": "7.1",
+      "five": [
+        "beyond_the_chrysalis",
+        "hymn_of_the_maelstrom"
+      ],
+      "four": [
+        "new_bough",
+        "winters_heavy_heart",
+        "breezeborne_refrain",
+        "favonius_greatsword",
+        "dragons_bane"
+      ]
+    }
+  ]
+}
