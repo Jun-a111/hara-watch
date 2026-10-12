@@ -573,15 +573,15 @@
       "id": "history-zzz-2024-12-18-27",
       "game": "zzz",
       "type": "character",
-      "version": "悠真",
+      "version": "浅羽悠真",
       "date": "2024-12-18",
-      "source_url": "https://zenless.hoyoverse.com/en-us/news/127322",
-      "source_title": "HoYoverse公式サイト",
+      "source_url": "https://zenless.hoyoverse.com/ja-jp/news/127374",
+      "source_title": "ゼンゼロ公式Ver.1.4アップデート告知（2024年12月18日）",
       "phase": "first",
       "version_group": "Ver.1.4",
       "event_kind": "debut",
       "verification": "official",
-      "review_note": "HoYoverse公式Ver.1.4告知に12月18日更新、悠真が限定チャンネルに追加・無料配布と明記。照合日2026-10-12。"
+      "review_note": "公式日本語Ver.1.4告知で2024-12-18登場・配布を確認。正式名は『浅羽悠真』。同一キャラの2026年復刻履歴と名称を統一。"
     },
     {
       "id": "history-zzz-2025-01-22-28",
@@ -5503,7 +5503,7 @@
       "id": "history-ww-2026-05-21-393",
       "game": "ww",
       "type": "character",
-      "version": "デニア",
+      "version": "ダーニャ",
       "date": "2026-05-21",
       "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4691",
       "source_title": "鳴潮公式 Ver.3.3後半 共鳴者集音告知（2026年5月20日）",
@@ -5511,7 +5511,7 @@
       "version_group": "Ver.3.3",
       "event_kind": "debut",
       "verification": "official",
-      "review_note": "公式告知本文に5月21日10:00開始の星5対象としてDenia、Chisa、Phrolovaが明記。以前登録のフルールドリス復刻は誤りで、フローヴァ復刻へ修正。"
+      "review_note": "2026-05-21 10:00開始。KURO公式Ver.3.3後半集音告知では英語名Denia、日本語公式のキャラクター表記は『ダーニャ』。2026-08-20の復刻との時系列を確認し、誤記『デニア』を修正。"
     },
     {
       "id": "history-ww-2026-05-21-394",
@@ -7457,21 +7457,6 @@
       "source_title": "COGNOSPHERE公式プレスリリース・ゼンゼロVer.3.1",
       "verification": "official",
       "review_note": "COGNOSPHEREによるVer.3.1公式発表で当該キャラクターの登場・復刻を確認。個別の前後半開始日は攻略サイトの過去開催表（https://game8.jp/zenless/663769 または https://game8.jp/zenless/797100）と突合。公式リリース本文だけで各後半開始日まで確認したわけではない。"
-    },
-    {
-      "id": "scheduled-nte-1.4-akane-rin",
-      "game": "nte",
-      "type": "character",
-      "version": "明音凛",
-      "date": "2026-10-21",
-      "phase": "second",
-      "version_group": "Ver.1.4",
-      "event_kind": "debut",
-      "schedule_status": "announced",
-      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
-      "source_title": "NTE公式日本語：Ver.1.4アップデート告知（衣装配布日は記載・ガチャ開始は未確認）",
-      "verification": "secondary",
-      "review_note": "2026年10月11日時点の外部掲載予定。開催前、公式個別告知未確認。日付はUTC+8基準 日本語公式Ver.1.4告知に10月21日明音凛衣装配布予定が記載。ただし同日限定Sランクガチャ開始の直接告知は未確認のためsecondaryを維持。"
     },
     {
       "id": "scheduled-end-1.6-si",
