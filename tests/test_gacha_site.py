@@ -1376,5 +1376,61 @@ class WutheringSecondary108BatchTests(unittest.TestCase):
         self.assertIn("対象★5：",html)
         self.assertIn('!specialTypes.includes(ev.banner_type)',html)
 
+
+class WEngine2025AndAgent2026RegressionTests(unittest.TestCase):
+    """S-rank W-Engine and A-rank agent histories remain separate from sales."""
+
+    def test_107_new_records_and_official_source_labeled(self):
+        import json
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1]
+        events = json.loads(
+            (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
+        )["events"]
+        self.assertEqual(len(events), 1379)
+        added = [x for x in events
+                 if x["id"].startswith(("zzz-a-2026-backfill-", "zzz-wengine-"))]
+        self.assertEqual(len(added), 107)
+        agents = [x for x in added if x["type"] == "character"]
+        engines = [x for x in added if x["type"] == "weapon"]
+        self.assertEqual(len(agents), 38)
+        self.assertEqual(len(engines), 69)
+        self.assertEqual(sum(x["rarity"] == "S" for x in engines), 23)
+        self.assertEqual(sum(x["rarity"] == "A" for x in engines), 46)
+        self.assertEqual(len({(x["date"], x["featured_five_star"]) for x in engines}), 23)
+        self.assertEqual(sum(x["verification"] == "official" for x in added), 62)
+        self.assertEqual(sum(x["verification"] == "secondary" for x in added), 45)
+        self.assertEqual(sum(bool(x.get("default_rate_up")) for x in added), 20)
+        for row in added:
+            with self.subTest(id=row["id"]):
+                self.assertTrue(row["date_basis"])
+                self.assertTrue(row["source_url"].startswith("https://"))
+                self.assertTrue(row["review_note"])
+                self.assertTrue(row["corroborating_sources"])
+                self.assertEqual(row["event_kind"], "featured_banner")
+        self.assertEqual({x["version"] for x in agents if x["date"] == "2026-02-06"},
+                         {"カリン", "ビリー"})
+        self.assertEqual({x["version"] for x in agents if x["date"] == "2026-09-30"},
+                         {"カリン", "ビリー"})
+        self.assertEqual({x["version"] for x in engines
+                          if x["date"] == "2026-09-30" and x["rarity"] == "S"},
+                         {"Crimson Moon Casket", "Frostfall Sickle"})
+        self.assertEqual({x["version"] for x in agents if x["date"] == "2026-08-19"},
+                         {"蒼角", "ルーシー"})
+        for date, parent in {(x["date"], x["featured_five_star"]) for x in engines}:
+            self.assertEqual(sum(x["date"] == date and
+                                 x["featured_five_star"] == parent for x in engines), 3)
+
+    def test_weapons_visible_but_not_part_of_character_sales(self):
+        from pathlib import Path
+        root = Path(__file__).resolve().parents[1]
+        html = (root / "gacha-wars" / "index.html").read_text(encoding="utf-8")
+        self.assertIn("function weaponHistory()", html)
+        self.assertIn("武器・音動機ガチャ履歴（キャラ戦績と分離）", html)
+        self.assertIn('["version","character","weapon"].includes(x.type)', html)
+        self.assertIn('const weaponBannerKinds=["w_engine_s_rank","w_engine_a_rank","w_engine_a_default"]', html)
+        self.assertIn('初期設定・ユーザー変更可', html)
+        self.assertIn('+weaponHistory()', html)
+
 if __name__ == "__main__":
     unittest.main()
