@@ -1,0 +1,36 @@
+{
+  "schema": "gacha-wars-current-coverage-v20",
+  "audit_date": "2026-10-12",
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-2806-verified-1125.json",
+  "combined_events": 2806,
+  "verification": {
+    "official": 1125,
+    "secondary": 1681
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 476,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "correction": {
+    "date": "2026-03-19",
+    "publisher_date_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/4403",
+    "publisher_patch_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/4447",
+    "earlier_community_date": "2026-03-18",
+    "verified_dimension": "phase start day",
+    "unverified_dimension": "individual four-star weapon rate-up roster remains secondary-sourced",
+    "secondary_confirmation_urls": [
+      "https://wutheringwaves.fandom.com/wiki/Absolute%20Pulsation%3A%20Emerald%20Sentence/2026-03-19",
+      "https://game8.co/games/Wuthering-Waves/archives/453303"
+    ]
+  },
+  "limitations": [
+    "No count or verified-status change in this audit: publisher confirmed March 19 start, but a direct primary-source four-star weapon rate-up announcement was not located.",
+    "33 of the 34 additional four-star WW weapon phase lineups are directly verified to publisher texts; for 12 version-update phases the exact clock start still uses an archive-aligned date with clear UI disclosure.",
+    "All-time gacha record completeness remains open across the other games.",
+    "Counts are rate-up item appearances and release records, not unique items or individual sales figures."
+  ]
+}
