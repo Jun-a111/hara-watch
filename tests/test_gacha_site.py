@@ -583,6 +583,26 @@ assert.deepEqual(recs("ww","rank").map(x=>x.value),[7]);
         self.assertIn('作品別（確認済/総数）', section)
         self.assertIn('公式告知の転載が含まれます', section)
 
+    def test_source_tiers_runtime(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        code = html[html.index("function eventSourceTier("):
+                    html.index("function eventSource(", html.index("function eventSourceTier("))]
+        scenario = r"""
+const assert = require("node:assert/strict");
+const source = url => ({source_url:url});
+assert.equal(eventSourceTier(source("https://wutheringwaves.kurogames.com/jp/main/news")),"運営公式サイト");
+assert.equal(eventSourceTier(source("https://endfield.gryphline.com/en/news")),"運営公式サイト");
+assert.equal(eventSourceTier(source("https://nte.perfectworld.com/jp/")),"運営公式サイト");
+assert.equal(eventSourceTier(source("https://prtimes.jp/main/html/rd/p/00001.html")),"プレスリリース");
+assert.equal(eventSourceTier(source("https://wutheringwaves.gg/banner/")),"外部サイト・転載・SNS");
+assert.equal(eventSourceTier(source("https://fakekurogames.com/banner")),"外部サイト・転載・SNS");
+assert.equal(eventSourceTier(source("")),"出典URL不明");
+"""
+        with tempfile.TemporaryDirectory() as temp:
+            file=Path(temp)/"source-tiers.cjs"
+            file.write_text(code+"\n"+scenario,encoding="utf-8")
+            subprocess.run(["node",str(file)],check=True,capture_output=True,text=True)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
