@@ -1,0 +1,39 @@
+{
+  "schema": "gacha-wars-current-coverage-v15",
+  "audit_date": "2026-10-12",
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-2342-coverage.json",
+  "base_event_file": "gacha-wars/release-events.json",
+  "base_events": 1607,
+  "genshin_weapon_archive": "gacha-wars/gi-weapon-history.json",
+  "genshin_weapon_slots": 735,
+  "hsr_lightcone_archive": "gacha-wars/hsr-lightcone-history.json",
+  "hsr_lightcone_blob_sha": "290b3c8f3fb257e65f319daa0111ec66737b390c",
+  "hsr_lightcone_banner_groups": 68,
+  "hsr_regular_groups": 66,
+  "hsr_special_groups": 2,
+  "hsr_lightcone_5star_slots": 143,
+  "hsr_lightcone_4star_slots": 198,
+  "new_entries": 341,
+  "combined_events": 2683,
+  "verification": {
+    "official": 1005,
+    "secondary": 1678
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 353,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "source": "https://github.com/FuriaPaladins/Hoyoverse-Data/blob/main/banners/hsr_formatted.json",
+  "limitations": [
+    "All 341 light-cone slots are drawn from secondary-source data; first-party notice-by-notice verification remains incomplete.",
+    "When multiple 5-star light cones are co-listed for the same start date, the archive aggregation does not imply a player-selectable or single unified banner.",
+    "Archive first-record date differs from the Japanese game release day; the frontend uses a 2023-04-26 display override and preserves the raw source start for later review.",
+    "The 2 special/collaboration light-cone groups are kept outside standard light-cone warps.",
+    "No light-cone/weapon group is included as a standalone character sales metric.",
+    "Site totals are rate-up slots and version records, not unique character or weapon counts; total does not guarantee all-time completeness."
+  ]
+}
