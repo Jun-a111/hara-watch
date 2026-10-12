@@ -468,6 +468,7 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         special_types = {
             "anniversary_convene", "special_rerun", "event_wish_four_star",
             "event_warp_four_star", "exclusive_channel_a_rank",
+            "featured_convene_four_star", "anniversary_convene_four_star",
             "chronicled_wish", "reminiscence_wish", "standard_character_event"
         }
         specials = [e for e in events if e.get("banner_type")]
@@ -1187,7 +1188,7 @@ class Hsr2025Zenless2025AdditionalRegressionTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1122)
+        self.assertEqual(len(events), 1164)
         hsr_new = [x for x in events
                    if x.get("banner_type") == "event_warp_four_star"
                    and x["date"] >= "2025-01-01"]
@@ -1230,6 +1231,54 @@ class Hsr2025Zenless2025AdditionalRegressionTests(unittest.TestCase):
         self.assertEqual(
             len({(e["game"], e["date"], e["version"], e["featured_five_star"]) for e in hsr_new + zzz_new}),
             123)
+
+
+class WutheringOfficialFourStarConveneTests(unittest.TestCase):
+    """Verify 14 KURO GAMES first-party ★4 rosters, including anniversary distinction."""
+
+    def test_14_official_three_person_pools(self):
+        import json
+        import pathlib
+        root = pathlib.Path(__file__).resolve().parents[1]
+        events = json.loads(
+            (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
+        )["events"]
+        current = [e for e in events if e.get("game") == "ww" and
+                   e.get("banner_type") in (
+                       "featured_convene_four_star", "anniversary_convene_four_star")]
+        self.assertEqual(len(current), 42)
+        self.assertEqual(len({e["date"] for e in current}), 14)
+        self.assertEqual(sum(e["banner_type"] == "anniversary_convene_four_star"
+                             for e in current), 3)
+        self.assertEqual(sum(e["banner_type"] == "featured_convene_four_star"
+                             for e in current), 39)
+        self.assertTrue(all(e["verification"] == "official" and
+                            e["rarity"] == 4 and
+                            e["source_url"].startswith(
+                              "https://wutheringwaves.kurogames.com/en/main/news/detail/")
+                            for e in current))
+        for date in {e["date"] for e in current}:
+            self.assertEqual(len([e for e in current if e["date"] == date]), 3)
+        checks = {
+            "2024-06-28": {"散華", "丹瑾", "秧秧"},
+            "2024-12-12": {"灯灯", "白芷", "淵武"},
+            "2025-04-29": {"灯灯", "桃祈", "淵武"},
+            "2025-12-11": {"卜霊", "丹瑾", "熾霞"},
+            "2026-07-10": {"丹瑾", "熾霞", "アールト"},
+        }
+        for date, roster in checks.items():
+            self.assertEqual({e["version"] for e in current if e["date"] == date}, roster)
+        self.assertEqual({e["version"] for e in current
+                          if e.get("event_kind") == "debut"}, {"灯灯", "卜霊"})
+
+    def test_convene_types_are_excluded_from_normal_sales_comparisons(self):
+        import pathlib
+        root = pathlib.Path(__file__).resolve().parents[1]
+        html = (root / "gacha-wars" / "index.html").read_text(encoding="utf-8")
+        for kind in ("featured_convene_four_star", "anniversary_convene_four_star"):
+            self.assertGreaterEqual(html.count('"' + kind + '"'), 4)
+        self.assertIn('共鳴者集音・★4ピックアップ', html)
+        self.assertIn('周年選択集音・共有★4枠', html)
 
 if __name__ == "__main__":
     unittest.main()
