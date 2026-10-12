@@ -303,12 +303,31 @@ function parseWw2026SummerOfficialWeapons(data){
  if(used.size!==4||out.length!==18)throw Error("鳴潮公式武器履歴の収録数不正");
  return out;
 }
+function applyWwBaseWeaponSourceOverrides(primary,data){
+ if(data.schema!=="gacha-wars-ww-base-weapon-official-overrides-v1"||!Array.isArray(data.upgrades)||data.upgrades.length!==64||data.count!==64)throw Error("鳴潮の既存武器出典更新データに不整合");
+ const primaryById=new Map(primary.map(e=>[e.id,e])),seen=new Set(),updates=new Map();
+ for(const record of data.upgrades){
+  if(!record||typeof record.id!=="string"||seen.has(record.id)||record.verification!=="official"||!/^https:\/\/wutheringwaves\.kurogames\.com\/en\/main\/news\/detail\/\d+$/.test(record.source_url)||typeof record.review_note!=="string")throw Error("鳴潮の公式出典に不正な項目");
+  seen.add(record.id);
+  const original=primaryById.get(record.id);
+  if(!original||original.game!=="ww"||original.type!=="weapon"||!["ww_weapon_five","ww_weapon_four"].includes(original.banner_type)||original.date!==record.date||original.version!==record.version||original.verification!=="secondary")throw Error("鳴潮既存武器ID・日付・対象武器の照合不一致");
+  updates.set(record.id,{...original,verification:"official",source_url:record.source_url,source_title:record.source_title,corroborating_sources:record.corroborating_sources||[],date_basis:record.date_basis,review_note:record.review_note});
+ }
+ if(updates.size!==64)throw Error("公式照合の反映数に不一致");
+ return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
+}
 async function loadEvents(){
  try{
   const response=await fetch("./release-events.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");
   const data=await response.json();if(data.schema!=="gacha-wars-releases-v1"||!Array.isArray(data.events))throw Error("invalid schema");
-  const primary=data.events.filter(x=>G.some(g=>g.id===x.game)&&["version","character","weapon"].includes(x.type)&&typeof x.version==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&typeof x.source_url==="string"&&/^https:\/\//.test(x.source_url));
+  let primary=data.events.filter(x=>G.some(g=>g.id===x.game)&&["version","character","weapon"].includes(x.type)&&typeof x.version==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&typeof x.source_url==="string"&&/^https:\/\//.test(x.source_url));
   let extras=[],notes=[];
+  try{
+   const resp=await fetch("./ww-base-weapon-official-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const audited=applyWwBaseWeaponSourceOverrides(primary,await resp.json());
+   primary=audited.events;notes.push("既存鳴潮武器を公式照合 "+audited.upgraded+"件");
+  }catch(err){notes.push("既存武器の公式出典更新に失敗");console.info("鳴潮既存武器の公式照合結果を読み込めませんでした",err.message)}
+
   for(const [file,parse,label] of [["gi-weapon-history.json",parseGenshinWeaponArchive,"原神武器"],["hsr-lightcone-history.json",parseHsrLightconeArchive,"スタレ光円錐"],["ww-weapon-fourstar-supplement.json",parseWwWeaponFourstarSupplement,"鳴潮武器補完"],["ww-2026-summer-official-weapons.json",parseWw2026SummerOfficialWeapons,"鳴潮2026夏公式"]]){
    try{
     const resp=await fetch("./"+file,{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
