@@ -1,0 +1,414 @@
+{
+  "schema": "gacha-wars-current-coverage-v8",
+  "audit_date": "2026-10-12",
+  "source_dataset_blob_sha": "b00a3af7689198120a5c734efe26758f9ef27fba",
+  "total_events": 999,
+  "by_game": {
+    "zzz": {
+      "total": 91,
+      "official": 71,
+      "secondary": 20,
+      "unreviewed": 0
+    },
+    "gi": {
+      "total": 547,
+      "official": 547,
+      "secondary": 0,
+      "unreviewed": 0
+    },
+    "ww": {
+      "total": 101,
+      "official": 98,
+      "secondary": 3,
+      "unreviewed": 0
+    },
+    "hsr": {
+      "total": 229,
+      "official": 139,
+      "secondary": 90,
+      "unreviewed": 0
+    },
+    "end": {
+      "total": 19,
+      "official": 18,
+      "secondary": 1,
+      "unreviewed": 0
+    },
+    "nte": {
+      "total": 12,
+      "official": 12,
+      "secondary": 0,
+      "unreviewed": 0
+    }
+  },
+  "by_banner_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 318,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5,
+    "event_warp_four_star": 90,
+    "exclusive_channel_a_rank": 20
+  },
+  "verification": {
+    "official": 885,
+    "secondary": 114
+  },
+  "this_batch": {
+    "previous_total": 889,
+    "added": 110,
+    "hsr": {
+      "added": 90,
+      "periods": 30,
+      "period_range": "2023-04-26 to 2024-12-25",
+      "rarity": 4,
+      "source": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "rosters": [
+        {
+          "date": "2023-04-26",
+          "members": [
+            "フック",
+            "ナターシャ",
+            "ペラ"
+          ]
+        },
+        {
+          "date": "2023-05-17",
+          "members": [
+            "三月なのか",
+            "素裳",
+            "停雲"
+          ]
+        },
+        {
+          "date": "2023-06-07",
+          "members": [
+            "アスター",
+            "丹恒",
+            "セーバル"
+          ]
+        },
+        {
+          "date": "2023-06-28",
+          "members": [
+            "ペラ",
+            "青雀",
+            "御空"
+          ]
+        },
+        {
+          "date": "2023-07-19",
+          "members": [
+            "アーラン",
+            "ナターシャ",
+            "素裳"
+          ]
+        },
+        {
+          "date": "2023-08-09",
+          "members": [
+            "ルカ",
+            "サンポ",
+            "セーバル"
+          ]
+        },
+        {
+          "date": "2023-08-30",
+          "members": [
+            "アスター",
+            "三月なのか",
+            "御空"
+          ]
+        },
+        {
+          "date": "2023-09-20",
+          "members": [
+            "フック",
+            "リンクス",
+            "ペラ"
+          ]
+        },
+        {
+          "date": "2023-10-11",
+          "members": [
+            "サンポ",
+            "停雲",
+            "青雀"
+          ]
+        },
+        {
+          "date": "2023-10-27",
+          "members": [
+            "桂乃芬",
+            "ルカ",
+            "素裳"
+          ]
+        },
+        {
+          "date": "2023-11-15",
+          "members": [
+            "丹恒",
+            "アーラン",
+            "セーバル"
+          ]
+        },
+        {
+          "date": "2023-12-06",
+          "members": [
+            "寒鴉",
+            "リンクス",
+            "アスター"
+          ]
+        },
+        {
+          "date": "2023-12-27",
+          "members": [
+            "三月なのか",
+            "停雲",
+            "雪衣"
+          ]
+        },
+        {
+          "date": "2024-01-17",
+          "members": [
+            "素裳",
+            "ナターシャ",
+            "フック"
+          ]
+        },
+        {
+          "date": "2024-02-06",
+          "members": [
+            "桂乃芬",
+            "ミーシャ",
+            "停雲"
+          ]
+        },
+        {
+          "date": "2024-02-29",
+          "members": [
+            "青雀",
+            "サンポ",
+            "寒鴉"
+          ]
+        },
+        {
+          "date": "2024-03-27",
+          "members": [
+            "丹恒",
+            "ペラ",
+            "ギャラガー"
+          ]
+        },
+        {
+          "date": "2024-04-17",
+          "members": [
+            "セーバル",
+            "ルカ",
+            "リンクス"
+          ]
+        },
+        {
+          "date": "2024-05-08",
+          "members": [
+            "三月なのか",
+            "寒鴉",
+            "雪衣"
+          ]
+        },
+        {
+          "date": "2024-05-29",
+          "members": [
+            "ペラ",
+            "ルカ",
+            "フック"
+          ]
+        },
+        {
+          "date": "2024-06-19",
+          "members": [
+            "雪衣",
+            "ミーシャ",
+            "ギャラガー"
+          ]
+        },
+        {
+          "date": "2024-07-10",
+          "members": [
+            "セーバル",
+            "ナターシャ",
+            "アスター"
+          ]
+        },
+        {
+          "date": "2024-07-31",
+          "members": [
+            "寒鴉",
+            "御空",
+            "リンクス"
+          ]
+        },
+        {
+          "date": "2024-08-21",
+          "members": [
+            "フック",
+            "桂乃芬",
+            "アーラン"
+          ]
+        },
+        {
+          "date": "2024-09-10",
+          "members": [
+            "モゼ",
+            "アスター",
+            "ルカ"
+          ]
+        },
+        {
+          "date": "2024-10-02",
+          "members": [
+            "桂乃芬",
+            "ミーシャ",
+            "ナターシャ"
+          ]
+        },
+        {
+          "date": "2024-10-23",
+          "members": [
+            "リンクス",
+            "雪衣",
+            "御空"
+          ]
+        },
+        {
+          "date": "2024-11-13",
+          "members": [
+            "三月なのか",
+            "ペラ",
+            "サンポ"
+          ]
+        },
+        {
+          "date": "2024-12-04",
+          "members": [
+            "停雲",
+            "青雀",
+            "アーラン"
+          ]
+        },
+        {
+          "date": "2024-12-25",
+          "members": [
+            "ギャラガー",
+            "御空",
+            "ミーシャ"
+          ]
+        }
+      ]
+    },
+    "zzz": {
+      "added": 20,
+      "banners": 10,
+      "period_range": "2024-07-04 to 2024-12-18",
+      "rank": "A",
+      "sources": [
+        "https://gamesink.net/zenless/articles/235",
+        "https://thenerdstash.com/complete-zenless-zone-zero-banner-history/"
+      ],
+      "rosters": [
+        {
+          "date": "2024-07-04",
+          "featured_five_star": "エレン",
+          "members": [
+            "アンドー",
+            "蒼角"
+          ]
+        },
+        {
+          "date": "2024-07-24",
+          "featured_five_star": "朱鳶",
+          "members": [
+            "ベン",
+            "ニコ"
+          ]
+        },
+        {
+          "date": "2024-08-14",
+          "featured_five_star": "青衣",
+          "members": [
+            "ビリー",
+            "カリン"
+          ]
+        },
+        {
+          "date": "2024-09-04",
+          "featured_five_star": "ジェーン",
+          "members": [
+            "セス",
+            "アンビー"
+          ]
+        },
+        {
+          "date": "2024-09-25",
+          "featured_five_star": "シーザー",
+          "members": [
+            "アンドー",
+            "パイパー"
+          ]
+        },
+        {
+          "date": "2024-10-16",
+          "featured_five_star": "バーニス",
+          "members": [
+            "ルーシー",
+            "ニコ"
+          ]
+        },
+        {
+          "date": "2024-11-06",
+          "featured_five_star": "柳",
+          "members": [
+            "アンビー",
+            "ビリー"
+          ]
+        },
+        {
+          "date": "2024-11-27",
+          "featured_five_star": "ライト",
+          "members": [
+            "ベン",
+            "カリン"
+          ]
+        },
+        {
+          "date": "2024-12-18",
+          "featured_five_star": "浅羽悠真",
+          "members": [
+            "ルーシー",
+            "セス"
+          ]
+        },
+        {
+          "date": "2024-12-18",
+          "featured_five_star": "雅",
+          "members": [
+            "蒼角",
+            "パイパー"
+          ]
+        }
+      ]
+    },
+    "all_marked_secondary": true,
+    "distinct_pool_logic": "HSR shared ★4 pools grouped per date/phase; ZZZ 1.4 separate S-rank headers for concurrent A-rank pools; both excluded from sales-ranking comparisons."
+  },
+  "remaining_unverified_count": 114,
+  "remaining_legacy_nonofficial_count": 4,
+  "limits": [
+    "The 110 new character rosters are corroborated against secondary historical banner tables; exact individual rate-ups were not verified directly against first-party announcement text.",
+    "Official debut/rerun parent banner dates are reused; roster verification is intentionally separate from parent date verification.",
+    "Character and special-banner coverage for other games and later years remains incomplete.",
+    "Unverified publisher material can be updated on a later evidence-led recheck."
+  ]
+}
