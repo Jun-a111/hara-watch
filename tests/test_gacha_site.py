@@ -1771,5 +1771,72 @@ assert.deepEqual(events.filter(e=>e.date==="2026-09-30"&&e.rarity===5).map(e=>e.
         self.assertEqual(result.returncode,0,result.stderr)
 
 
+
+class Wuthering2026SummerPublisherWeaponsTests(unittest.TestCase):
+    def supplement(self):
+        return json.loads((SITE/"ww-2026-summer-official-weapons.json").read_text(encoding="utf-8"))
+
+    def test_four_publisher_phases_with_correct_dates_and_18_rate_up_slots(self):
+        data=self.supplement()
+        self.assertEqual(data["schema"],"gacha-wars-ww-weapons-2026-summer-official-v1")
+        self.assertEqual(data["verification"],"official")
+        self.assertEqual([(p["date"],p["phase"],p["version_group"]) for p in data["phases"]],
+                         [("2026-07-10","first","Ver.3.5"),
+                          ("2026-07-30","second","Ver.3.5"),
+                          ("2026-08-20","first","Ver.3.6"),
+                          ("2026-09-10","second","Ver.3.6")])
+        self.assertEqual(sum(len(p["five"]) for p in data["phases"]),6)
+        self.assertEqual(sum(len(p["four"]) for p in data["phases"]),12)
+        self.assertEqual([len(p["five"]) for p in data["phases"]],[2,1,1,2])
+        self.assertEqual([p["source_article_id"] for p in data["phases"]],[5039,5220,5318,5431])
+        self.assertEqual([p["community_archive_date"] for p in data["phases"] if
+                          p["community_archive_date"]!=p["date"]],["2026-07-31","2026-09-11"])
+        self.assertTrue(all(p["source_url"]=="https://wutheringwaves.kurogames.com/en/main/news/detail/"+str(p["source_article_id"])
+                            for p in data["phases"]))
+        self.assertEqual(data["phases"][1]["five"],["Everbright Polestar"])
+        self.assertEqual(data["phases"][3]["five"],["Frostburn","Starfield Calibrator"])
+
+    def test_publisher_summer_phases_do_not_overlap_older_weapon_additions(self):
+        dates={p["date"] for p in self.supplement()["phases"]}
+        primary=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        secondary=json.loads((SITE/"ww-weapon-fourstar-supplement.json").read_text(encoding="utf-8"))["phases"]
+        self.assertFalse([x["id"] for x in primary if x["game"]=="ww" and
+                          x["type"]=="weapon" and x["date"] in dates])
+        self.assertFalse([x["date"] for x in secondary if x["date"] in dates])
+
+    def test_official_summer_weapon_parser_runtime_and_grouper(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('["ww-2026-summer-official-weapons.json",parseWw2026SummerOfficialWeapons',html)
+        self.assertIn('function parseWw2026SummerOfficialWeapons(data)',html)
+        self.assertIn('const combinedWw=e.game==="ww"',html)
+        js=html[html.index("function parseWw2026SummerOfficialWeapons(data){"):
+                html.index("async function loadEvents(){")]
+        script=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+js+r'''
+const data=JSON.parse(fs.readFileSync("gacha-wars/ww-2026-summer-official-weapons.json","utf8"));
+const rows=parseWw2026SummerOfficialWeapons(data);
+assert.equal(rows.length,18);
+assert.equal(new Set(rows.map(x=>x.id)).size,18);
+assert.equal(rows.filter(x=>x.rarity===5).length,6);
+assert.equal(rows.filter(x=>x.rarity===4).length,12);
+assert.ok(rows.every(x=>x.verification==="official"&&x.game==="ww"&&x.type==="weapon"));
+const groups=new Map();
+for(const e of rows){
+ const combinedWw=e.game==="ww"&&["ww_weapon_five","ww_weapon_four","ww_weapon_collab_five","ww_weapon_collab_four"].includes(e.banner_type);
+ const key=[e.game,e.date,e.version_group||"",e.phase||"",combinedWw?"":e.featured_five_star||"",e.weapon_banner_group||""].join("|");
+ if(!groups.has(key))groups.set(key,[]);
+ groups.get(key).push(e);
+}
+assert.equal(groups.size,4);
+assert.deepEqual([...groups.values()].map(x=>x.length),[5,4,4,5]);
+for(const p of data.phases)assert.equal(rows.filter(e=>e.date===p.date&&e.rarity===4).length,3);
+assert.ok(rows.some(e=>e.version==="Daybreaker's Spine"));
+'''
+        run=subprocess.run(["node","-e",script],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
