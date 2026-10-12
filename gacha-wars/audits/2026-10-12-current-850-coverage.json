@@ -1,0 +1,154 @@
+{
+  "schema": "gacha-wars-current-coverage-v6",
+  "audit_date": "2026-10-12",
+  "data_blob_sha": "368716774dfa7100b0e1767682b60c1aecd1e791",
+  "total_records": 850,
+  "by_game": {
+    "zzz": {
+      "total": 71,
+      "debut": 40,
+      "rerun": 30,
+      "other": 0,
+      "version": 1,
+      "official": 71,
+      "secondary": 0
+    },
+    "gi": {
+      "total": 508,
+      "debut": 96,
+      "rerun": 122,
+      "other": 290,
+      "version": 0,
+      "official": 508,
+      "secondary": 0
+    },
+    "ww": {
+      "total": 101,
+      "debut": 39,
+      "rerun": 61,
+      "other": 0,
+      "version": 1,
+      "official": 98,
+      "secondary": 3
+    },
+    "hsr": {
+      "total": 139,
+      "debut": 56,
+      "rerun": 83,
+      "other": 0,
+      "version": 0,
+      "official": 139,
+      "secondary": 0
+    },
+    "end": {
+      "total": 19,
+      "debut": 13,
+      "rerun": 2,
+      "other": 4,
+      "version": 0,
+      "official": 18,
+      "secondary": 1
+    },
+    "nte": {
+      "total": 12,
+      "debut": 9,
+      "rerun": 3,
+      "other": 0,
+      "version": 0,
+      "official": 12,
+      "secondary": 0
+    }
+  },
+  "by_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 279,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5
+  },
+  "source_flags": {
+    "official": 846,
+    "secondary": 4
+  },
+  "fourstar_regular_rateup_2020_2025": {
+    "periods": 93,
+    "slots": 279,
+    "per_year": {
+      "2020": {
+        "periods": 5,
+        "slots": 15
+      },
+      "2021": {
+        "periods": 18,
+        "slots": 54
+      },
+      "2022": {
+        "periods": 18,
+        "slots": 54
+      },
+      "2023": {
+        "periods": 17,
+        "slots": 51
+      },
+      "2024": {
+        "periods": 17,
+        "slots": 51
+      },
+      "2025": {
+        "periods": 18,
+        "slots": 54
+      }
+    },
+    "all_periods_have_three": true,
+    "recent_2023_2025_audit": "gacha-wars/audits/2026-10-12-genshin-2023-2025-fourstar-rotations.json",
+    "original_2020_2022_audit": "gacha-wars/audits/2026-10-12-genshin-2020-2022-fourstar-rotations.json"
+  },
+  "this_batch": {
+    "new_records": 138,
+    "years": {
+      "2023": 44,
+      "2024": 46,
+      "2025": 48
+    },
+    "updated_special_event_display": "Shared 4-star rate-ups and pooled special wishes grouped into one visible row per banner phase; original event records remain individual for character search."
+  },
+  "remaining_secondary": [
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "name": "鎖暝",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "name": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "name": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "name": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "source_url": "https://game8.jp/arknights-endfield/822407"
+    }
+  ],
+  "limitations": [
+    "2026 four-star character banner rotation history is not yet fully backfilled.",
+    "Older shared-banner four-star records were linked to publisher news articles through their matching five-star parent banners, and checked against independent historical wish lists; the full text of each individual source announcement has not been individually verified.",
+    "Verification value 'official' should be read as a link-provenance classification, not a blanket guarantee all four-star participants were manually checked against all publisher articles.",
+    "GACHA WARS period rankings exclude all event_wish_four_star records, avoiding duplicating event revenue across each of the shared 4-star roster participants.",
+    "Full completeness for all six games, weapon banners, and special pulls is still not established."
+  ]
+}
