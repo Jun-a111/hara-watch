@@ -1,0 +1,52 @@
+{
+  "schema": "gacha-wars-ww-2026-reverb-official-v1",
+  "date": "2026-07-10",
+  "phase": "first",
+  "version_group": "Ver.3.5",
+  "verification": "official",
+  "character_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5065",
+  "weapon_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076",
+  "maintenance_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/4973",
+  "date_basis": "publisher_version_update_plus_maintenance_date",
+  "note": "Two separate selector pool events: Starpath Reverbs offers six selectable 5-star resonators, Tideforge Reverbs offers six selectable 5-star weapons. Players choose one rateup target; six choices are not six parallel banners. Existing three 4-star resonator appearances have source/label overrides only; weapon 6+3 appearances are new.",
+  "character_banner": "Starpath Reverbs",
+  "selectable_resonators": [
+    "Jiyan",
+    "Yinlin",
+    "Jinhsi",
+    "Changli",
+    "Zhezhi",
+    "Xiangli Yao"
+  ],
+  "character_four": [
+    {
+      "id": "ww-extra-four-2026-07-10-32-1",
+      "name": "卜霊",
+      "previous_featured_five_star": "忌炎（特別復刻）"
+    },
+    {
+      "id": "ww-extra-four-2026-07-10-32-2",
+      "name": "散華",
+      "previous_featured_five_star": "忌炎（特別復刻）"
+    },
+    {
+      "id": "ww-extra-four-2026-07-10-32-3",
+      "name": "秧秧",
+      "previous_featured_five_star": "忌炎（特別復刻）"
+    }
+  ],
+  "weapon_banner": "Tideforge Reverbs",
+  "selectable_weapons": [
+    "Verdant Summit",
+    "Stringmaster",
+    "Ages of Harvest",
+    "Blazing Brilliance",
+    "Rime-Draped Sprouts",
+    "Verity's Handle"
+  ],
+  "weapon_four": [
+    "Dauntless Evernight",
+    "Variation",
+    "Endless Collapse"
+  ]
+}
