@@ -399,6 +399,34 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                 )
                 self.assertTrue(event["source_url"].endswith(suffix))
 
+    def test_bulk_primary_source_backfill_is_consistent(self):
+        """Bulk provenance ledger must match the live event dataset exactly."""
+        ledger = self.read("audits/2026-10-12-batch-primary-source-backfill.json")
+        events = self.read("release-events.json")["events"]
+        lookup = {e["id"]: e for e in events}
+        summary = ledger["summary"]
+        self.assertEqual(summary["total_events"], len(events))
+        self.assertEqual(summary["upgraded_this_batch"], 35)
+        self.assertEqual(len(ledger["upgraded"]), 35)
+        self.assertEqual(len({e["id"] for e in ledger["upgraded"]}), 35)
+        for entry in ledger["upgraded"]:
+            with self.subTest(id=entry["id"]):
+                ev = lookup[entry["id"]]
+                self.assertEqual(ev["version"], entry["name"])
+                self.assertEqual(ev["date"], entry["date"])
+                self.assertEqual(ev["verification"], "official")
+                self.assertEqual(ev["source_url"], entry["official_notice"])
+                self.assertEqual(ev["source_url"].split("/")[2],
+                                 "wutheringwaves.kurogames.com")
+        secondary = {e["id"] for e in events if e["verification"] == "secondary"}
+        self.assertEqual(secondary,
+                         {e["id"] for e in ledger["remaining_secondary"]})
+        self.assertEqual(summary["secondary_labeled"], len(secondary))
+        self.assertEqual(summary["first_party_labeled"],
+                         len(events) - len(secondary))
+        self.assertEqual(secondary & {e["id"] for e in ledger["upgraded"]},
+                         set())
+
     def test_third_party_sources_are_not_marked_official(self):
         """A fan archive or aggregator link cannot by itself prove a publisher announcement."""
         events = self.read("release-events.json")["events"]
