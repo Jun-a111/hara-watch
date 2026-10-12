@@ -1,7 +1,7 @@
 {
   "schema": "gacha-wars-coverage-audit-v2",
   "audit_date": "2026-10-12",
-  "event_data_blob_sha": "87baa26797cf40587b4c9a0c3c799ad5f1aa1451",
+  "event_data_blob_sha": "754b2202a2bf40830f7a26464a364256efa6b3b0",
   "total_events": 538,
   "counts_by_game": {
     "zzz": {
@@ -30,8 +30,8 @@
       "rerun": 61,
       "other_character": 0,
       "version": 1,
-      "official": 63,
-      "secondary": 38,
+      "official": 98,
+      "secondary": 3,
       "announced": 3
     },
     "hsr": {
@@ -66,8 +66,8 @@
     }
   },
   "verification": {
-    "official": 495,
-    "secondary": 43
+    "official": 530,
+    "secondary": 8
   },
   "source_host_breakdown": {
     "prtimes.jp": {
@@ -81,14 +81,9 @@
       "secondary": 0
     },
     "wutheringwaves.kurogames.com": {
-      "count": 49,
-      "official": 49,
+      "count": 84,
+      "official": 84,
       "secondary": 0
-    },
-    "wutheringwaves.gg": {
-      "count": 33,
-      "official": 0,
-      "secondary": 33
     },
     "www.hoyolab.com": {
       "count": 10,
@@ -99,11 +94,6 @@
       "count": 3,
       "official": 0,
       "secondary": 3
-    },
-    "www.dearplayers.com": {
-      "count": 2,
-      "official": 0,
-      "secondary": 2
     },
     "www.hoyoverse.com": {
       "count": 19,
@@ -148,17 +138,16 @@
     "Verified six Wuthering Waves character debut records against Kuro Games pages dated 2024-06-28, 2024-08-15, 2025-06-12, 2025-07-23, 2025-08-28, and the 2025-10-02 maintenance notice; upgraded only these six records from secondary to official.",
     "Reverified four 2024 character debut entries on original publishers' pages: Qingyi/青衣, Yanagi/柳, Shorekeeper, and Camellya. Their original secondary links were replaced with COGNOSPHERE official news and KURO GAMES patch notes.",
     "Replaced third-party sources for launch Jiyan/忌炎, July 22 Changli/長離, and September 7 Xiangli Yao/相里要 with KURO GAMES's own PR TIMES press releases. This brings newly verified entries in this audit batch to seven.",
-    "Confirmed 2024-12-12 Yinlin rerun using KURO GAMES official Japanese convene notice /1762."
+    "Confirmed 2024-12-12 Yinlin rerun using KURO GAMES official Japanese convene notice /1762.",
+    "On 2026-10-12, 35 secondary-sourced Wuthering Waves events were upgraded together to specific KURO GAMES publisher notices, with event-specific evidence in audits/2026-10-12-batch-primary-source-backfill.json."
   ],
   "remaining_gaps": [
-    "Records classified 'official' via PR TIMES retain an independent publisher-account identity check backlog.",
-    "Official source status does not prove character banner archive completeness.",
-    "Some future dates are estimates; separate official announcement of exact start remains needed for the three WW Ver.3.7 second-phase entries and the Endfield Tangtang rerun.",
-    "43 external-sourced events still lack corresponding confirmed primary announcements.",
-    "495 'official' dataset labels do not mean all links have been independently checked in this audit pass."
+    "Eight events still rely on non-primary sources: three upcoming Wuthering Waves banners (2026-10-22), three Zenless Zone Zero debut banners (2024), a Honkai: Star Rail rerun (2026-04-08), and one future Endfield banner (2026-10-29).",
+    "The 530 records flagged official have not all been individually revalidated in this audit: original announcement provenance, press-release publisher identity, and historical roster completeness are outstanding.",
+    "Publisher event notices independently back the 35 records added this batch, but some were inspected via a third-party mirror of original publisher text."
   ],
   "notes": "This is a structured local-data audit, not an exhaustive review of every official announcement. Historic earlier audit snapshots must not be treated as current totals.",
-  "audit_updated_at": "2026-10-12T06:32:53.682Z",
+  "audit_updated_at": "2026-10-12T06:45:04.239Z",
   "further_source_checks": [
     {
       "id": "history-ww-2024-06-28-2",
@@ -244,5 +233,6 @@
       "now": "official",
       "new_source": "https://wutheringwaves.kurogames.com/jp/main/news/detail/1762"
     }
-  ]
+  ],
+  "latest_bulk_audit": "gacha-wars/audits/2026-10-12-batch-primary-source-backfill.json"
 }
