@@ -179,7 +179,7 @@ function renderSpecialEventsGrouped(events){
 function weaponHistory(){
  const weaponBannerKinds=["hsr_lightcone_five","hsr_lightcone_four","hsr_lightcone_special_five","gi_weapon_five","gi_weapon_four","w_engine_s_rank","w_engine_a_rank","w_engine_a_default","ww_weapon_five","ww_weapon_four","ww_weapon_anniversary_five","ww_weapon_anniversary_four","ww_weapon_collab_five"];
  const query=characterSearch.toLocaleLowerCase();
- const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.version_group,e.featured_five_star||"",e.event_banner_name||"",e.weapon_banner_group||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
+ const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.original_name||"",e.version_group,e.featured_five_star||"",e.event_banner_name||"",e.weapon_banner_group||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
  const pools=new Map();
  for(const e of weapons){
   const key=[e.game,e.date,e.version_group||"",e.phase||"",e.featured_five_star||"",e.weapon_banner_group||""].join("|");
@@ -191,15 +191,15 @@ function weaponHistory(){
  const visibleRows=rows.slice(weaponPage*perPage,(weaponPage+1)*perPage);
  const pager='<div class="row" style="margin:12px 0"><button class="btn" onclick="changeWeaponPage('+(weaponPage-1)+')" '+(weaponPage===0?'disabled':'')+'>前へ</button><span class="tiny">ページ '+(weaponPage+1)+' / '+totalPages+'</span><button class="btn" onclick="changeWeaponPage('+(weaponPage+1)+')" '+(weaponPage===totalPages-1?'disabled':'')+'>次へ</button></div>';
  return '<section class="panel"><h2>武器・音動機ガチャ履歴（キャラ戦績と分離）</h2><p class="hint">登録 '+weapons.length+'件／武器ガチャ '+rows.length+'枠。各枠のS級/★5とA級/★4をまとめて表示。武器の実装・復刻履歴はキャラ単独の売上・セルランへ加算しません。鳴潮の周年選択式は1つの集音として扱い、選択可能な★5武器5本と共有★4武器3本をまとめて表示。ゼンゼロVer.3.1以降の変更可能なA級は初期設定のみ掲載しています。原神の歴代武器祈願とスタレの光円錐履歴は二次資料であり、個々の公式告知を全件照合していません。スタレで複数の★5光円錐が表示される行は同時開催を資料上でまとめたもので、選択式ガチャではありません。</p>'+(rows.length?pager+'<div class="scroll"><table><thead><tr><th>開催日</th><th>作品・対応キャラ</th><th>S級音動機・★5武器</th><th>A級音動機・★4武器</th><th>出典・確認状況</th></tr></thead><tbody>'+visibleRows.map(g=>{
-   const primary=g.items.filter(e=>e.rarity==="S"||e.rarity===5).map(e=>esc(e.version)).join(' / ')||'未登録';
-   const minor=g.items.filter(e=>e.rarity==="A"||e.rarity===4).map(e=>esc(e.version)).join(' / ')||'未登録';
+   const primary=g.items.filter(e=>e.rarity==="S"||e.rarity===5).map(e=>esc(e.version)+(e.original_name&&e.original_name!==e.version?'<span class="tiny"> ('+esc(e.original_name)+')</span>':'')).join(' / ')||'未登録';
+   const minor=g.items.filter(e=>e.rarity==="A"||e.rarity===4).map(e=>esc(e.version)+(e.original_name&&e.original_name!==e.version?'<span class="tiny"> ('+esc(e.original_name)+')</span>':'')).join(' / ')||'未登録';
    const changed=g.items.some(e=>e.default_rate_up);
    const sources=[...new Map(g.items.filter(x=>x.source_url).map(x=>[x.source_url,x])).values()];
    return '<tr><td>'+esc(g.date)+'<div class="tiny">'+phaseLabel(g.items[0])+'</div></td><td><b>'+esc(name(g.game))+'</b><div class="tiny">'+esc(g.group||"")+'</div><div class="tiny">区分：'+esc(g.parent||g.items[0].event_banner_name||"未設定")+'</div></td><td>'+primary+'</td><td>'+minor+(changed?'<div class="tiny">初期設定・ユーザー変更可</div>':'')+(g.items[0].multiple_concurrent?'<div class="tiny">同時開催枠を資料上で合算（選択式ではない）</div>':'')+(g.items[0].special_banner?'<div class="tiny">特別跳躍・通常枠とは分離</div>':'')+'</td><td>'+sources.map(eventSource).join(' ')+'<div class="tiny">'+(g.items.every(x=>x.verification==="official")?"掲載元：公式":"外部資料・確認待ち")+'</div></td></tr>';
  }).join('')+'</tbody></table></div>'+pager:'<p class="hint">条件に該当する武器ガチャ登録はありません。</p>')+'</section>';
 }
 function weaponPageView(){
- return '<section class="panel"><h2>武器・音動機の歴代ピックアップ</h2><p class="hint">運営公式で確認できた情報と、非公式の歴代履歴を区別して表示。武器にキャラ別の売上やiOS順位を配分しません。</p><div class="chips"><button class="pill '+(characterFilter==="all"?"on":"")+'" onclick="changeCharacterFilter(&quot;all&quot;)">全作品</button>'+G.map(g=>'<button class="pill '+(characterFilter===g.id?"on":"")+'" onclick="changeCharacterFilter(&quot;'+g.id+'&quot;)">'+esc(g.name)+'</button>').join("")+'</div><div class="row" style="margin:12px 0"><label class="tiny" for="weaponSearch">武器・キャラ名・バージョン検索</label><input id="weaponSearch" type="search" maxlength="100" placeholder="例：護摩の杖、Ver.2.3" value="'+esc(characterSearch)+'" onchange="changeCharacterSearch(this.value)"><button class="btn" onclick="changeCharacterSearch(&quot;&quot;)">解除</button></div></section>'+weaponHistory();
+ return '<section class="panel"><h2>武器・音動機の歴代ピックアップ</h2><p class="hint">運営公式で確認できた情報と、非公式の歴代履歴を区別して表示。武器にキャラ別の売上やiOS順位を配分しません。</p><div class="chips"><button class="pill '+(characterFilter==="all"?"on":"")+'" onclick="changeCharacterFilter(&quot;all&quot;)">全作品</button>'+G.map(g=>'<button class="pill '+(characterFilter===g.id?"on":"")+'" onclick="changeCharacterFilter(&quot;'+g.id+'&quot;)">'+esc(g.name)+'</button>').join("")+'</div><div class="row" style="margin:12px 0"><label class="tiny" for="weaponSearch">武器・キャラ名・バージョン検索</label><input id="weaponSearch" type="search" maxlength="100" placeholder="例：護摩の杖、夜の帳の中で、In the Night" value="'+esc(characterSearch)+'" onchange="changeCharacterSearch(this.value)"><button class="btn" onclick="changeCharacterSearch(&quot;&quot;)">解除</button></div></section>'+weaponHistory();
 }
 function characterRanking(){
 const events=[...publishedEvents,...updateEvents].filter(e=>e.type==="character"&&(characterFilter==="all"||e.game===characterFilter)&&(!characterSearch||[e.version,e.version_group,name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(characterSearch.toLocaleLowerCase()))));
@@ -234,13 +234,14 @@ function labelGenshinWeapon(key){
 function parseGenshinWeaponArchive(data){
  if(data.schema!=="gacha-wars-gi-weapons-v1"||data.verification!=="secondary"||!Array.isArray(data.banners))throw Error("武器履歴の形式不一致");
  const seen=new Set(),versions=new Map(),events=[];
+ const names=data.ja_names&&typeof data.ja_names==="object"?data.ja_names:{};
  for(const b of data.banners){
   if(!b||typeof b.date!=="string"||!/^20\d{2}-\d{2}-\d{2}$/.test(b.date)||seen.has(b.date)||!Array.isArray(b.five)||b.five.length!==2||!Array.isArray(b.four)||b.four.length!==5||typeof b.version!=="string")throw Error("武器履歴の内容不正");
   seen.add(b.date);const ord=versions.get(b.version)||0;versions.set(b.version,ord+1);
   const base={game:"gi",type:"weapon",date:b.date,phase:ord===0?"first":ord===1?"second":"unknown",version_group:"Ver."+b.version,event_kind:"featured_banner",weapon_banner_group:"神鋳賦形 "+b.date,verification:"secondary",source_url:data.source,source_title:"Paimon.moe歴代武器祈願・外部資料",date_basis:"secondary_archive_banner_start",review_note:"武器祈願の歴代PU。運営告知を全件直接照合していないため外部資料扱い。キャラ単独売上に加算しない。"};
   [[5,b.five,"gi_weapon_five"],[4,b.four,"gi_weapon_four"]].forEach(([rarity,items,kind])=>items.forEach((key,i)=>{
    if(typeof key!=="string"||!/^[a-z0-9_-]+$/.test(key))throw Error("武器名ID不正");
-   events.push({...base,id:"gi-weapon-"+b.date+"-"+rarity+"-"+(i+1),version:labelGenshinWeapon(key),rarity,banner_type:kind});
+   events.push({...base,id:"gi-weapon-"+b.date+"-"+rarity+"-"+(i+1),version:typeof names[key]==="string"&&names[key]?names[key]:labelGenshinWeapon(key),original_name:labelGenshinWeapon(key),rarity,banner_type:kind});
   }));
  }
  return events;
@@ -248,6 +249,7 @@ function parseGenshinWeaponArchive(data){
 function parseHsrLightconeArchive(data){
  if(data.schema!=="gacha-wars-hsr-lightcone-history-v1"||data.verification!=="secondary"||!Array.isArray(data.banners))throw Error("光円錐履歴の形式不一致");
  const seen=new Set(),out=[];
+ const names=data.ja_names&&typeof data.ja_names==="object"?data.ja_names:{};
  for(const b of data.banners){
   if(!b||!/^20\d{2}-\d{2}-\d{2}$/.test(b.date)||!["standard","special"].includes(b.kind)||!Array.isArray(b.five)||!b.five.length||!Array.isArray(b.four)||b.four.length!==(b.kind==="special"?0:3)||!Number.isInteger(b.banner_index)||typeof b.banner_name!=="string")throw Error("光円錐履歴のレコード不正");
   const token=[b.date,b.kind,b.banner_index,b.banner_name].join("|");if(seen.has(token))throw Error("光円錐履歴の重複");seen.add(token);
@@ -255,7 +257,7 @@ function parseHsrLightconeArchive(data){
   const base={game:"hsr",type:"weapon",date:b.date,phase:"unknown",version_group:"光円錐跳躍",event_kind:"featured_banner",weapon_banner_group:group,event_banner_name:b.banner_name,verification:"secondary",source_url:data.source,source_title:"Hoyoverse-Data 非公式ガチャ履歴",date_basis:"community_api_archive",multiple_concurrent:b.five.length>1,special_banner:b.kind==="special",review_note:"非公式APIアーカイブの光円錐履歴。複数★5は選択式ではなく同時開催の資料上集約。各期の運営公式告知は未全件照合。"+(b.date_note||"")};
   [[5,b.five,b.kind==="special"?"hsr_lightcone_special_five":"hsr_lightcone_five"],[4,b.four,"hsr_lightcone_four"]].forEach(([rarity,items,kind])=>items.forEach((x,i)=>{
    if(!x||typeof x.name!=="string"||!x.name.trim()||!/^\d+$/.test(String(x.id)))throw Error("光円錐名の形式不正");
-   out.push({...base,id:"hsr-cone-"+b.kind+"-"+b.banner_index+"-"+rarity+"-"+(i+1),version:x.name.trim(),item_id:String(x.id),rarity,banner_type:kind});
+   out.push({...base,id:"hsr-cone-"+b.kind+"-"+b.banner_index+"-"+rarity+"-"+(i+1),version:typeof names[String(x.id)]==="string"&&names[String(x.id)]?names[String(x.id)]:x.name.trim(),original_name:x.name.trim(),item_id:String(x.id),rarity,banner_type:kind});
   }));
  }
  return out;
