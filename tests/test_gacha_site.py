@@ -1553,7 +1553,7 @@ class Wuthering2024To2026WeaponConveneTests(unittest.TestCase):
 
     def test_genshin_weapon_history_supplement_has_105_complete_banners(self):
         """The secondary-sourced weapon archive must stay separate from character banners."""
-        data = self.read("gi-weapon-history.json")
+        data = json.loads((SITE / "gi-weapon-history.json").read_text(encoding="utf-8"))
         self.assertEqual(data["schema"], "gacha-wars-gi-weapons-v1")
         self.assertEqual(data["verification"], "secondary")
         self.assertTrue(data["source"].startswith("https://github.com/MadeBaruna/paimon-moe/"))
