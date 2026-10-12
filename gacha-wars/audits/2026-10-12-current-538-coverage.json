@@ -1,7 +1,7 @@
 {
   "schema": "gacha-wars-coverage-audit-v2",
   "audit_date": "2026-10-12",
-  "event_data_blob_sha": "7a8746d5b12fcfb902f2f3f7698b04c79420a478",
+  "event_data_blob_sha": "919f2bc59357aa6235247e46d5841ed8b78ab0e3",
   "total_events": 538,
   "counts_by_game": {
     "zzz": {
@@ -10,8 +10,8 @@
       "rerun": 30,
       "other_character": 0,
       "version": 1,
-      "official": 68,
-      "secondary": 3,
+      "official": 71,
+      "secondary": 0,
       "announced": 0
     },
     "gi": {
@@ -40,8 +40,8 @@
       "rerun": 83,
       "other_character": 0,
       "version": 0,
-      "official": 138,
-      "secondary": 1,
+      "official": 139,
+      "secondary": 0,
       "announced": 0
     },
     "end": {
@@ -66,8 +66,8 @@
     }
   },
   "verification": {
-    "official": 530,
-    "secondary": 8
+    "official": 534,
+    "secondary": 4
   },
   "source_host_breakdown": {
     "prtimes.jp": {
@@ -76,8 +76,8 @@
       "secondary": 3
     },
     "zenless.hoyoverse.com": {
-      "count": 8,
-      "official": 8,
+      "count": 10,
+      "official": 10,
       "secondary": 0
     },
     "wutheringwaves.kurogames.com": {
@@ -90,10 +90,10 @@
       "official": 10,
       "secondary": 0
     },
-    "zenless.gg": {
-      "count": 3,
-      "official": 0,
-      "secondary": 3
+    "www.facebook.com": {
+      "count": 7,
+      "official": 7,
+      "secondary": 0
     },
     "www.hoyoverse.com": {
       "count": 19,
@@ -115,14 +115,9 @@
       "official": 11,
       "secondary": 0
     },
-    "gamewith.jp": {
+    "x.com": {
       "count": 1,
-      "official": 0,
-      "secondary": 1
-    },
-    "www.facebook.com": {
-      "count": 6,
-      "official": 6,
+      "official": 1,
       "secondary": 0
     },
     "game8.jp": {
@@ -140,16 +135,17 @@
     "Replaced third-party sources for launch Jiyan/忌炎, July 22 Changli/長離, and September 7 Xiangli Yao/相里要 with KURO GAMES's own PR TIMES press releases. This brings newly verified entries in this audit batch to seven.",
     "Confirmed 2024-12-12 Yinlin rerun using KURO GAMES official Japanese convene notice /1762.",
     "On 2026-10-12, 35 secondary-sourced Wuthering Waves events were upgraded together to specific KURO GAMES publisher notices, with event-specific evidence in audits/2026-10-12-batch-primary-source-backfill.json.",
-    "Added per-record date_basis, explicit limits of official corroboration, and secondary evidence links for all eight outstanding banners; site now publicly renders these in a dedicated provenance backlog."
+    "Added per-record date_basis, explicit limits of official corroboration, and secondary evidence links for all eight outstanding banners; site now publicly renders these in a dedicated provenance backlog.",
+    "2026-10-12: Reclassified four historical HoYoverse character banners after direct publisher-site or account evidence. Ellen Jul 4, Burnice Oct 16, Lighter Nov 27 (2024), and Boothill Apr 8, 2026. Remaining four entries are upcoming schedules."
   ],
   "remaining_gaps": [
-    "Eight records are still designated secondary because the exact banner event announcement or start time has not been directly verified from the publisher.",
-    "Future WW October 22 dates are inferred from the publisher-confirmed phase I end date, not directly announced phase II banner notices. Endfield Tangtang October 29 is from a secondary published schedule.",
-    "Thirty-five prior publisher-link upgrades included source content inspected in an independent archive; direct availability of every publisher page remains a separate check.",
-    "All 530 officially labeled events have not been individually revalidated in this audit; full history completeness is not certified."
+    "Four upcoming entries require direct exact banner-start publisher announcements: WW Ver.3.7 phase II (three records for 2026-10-22), Endfield Tangtang rerun (2026-10-29).",
+    "A scheduled future date based on ending of prior phase should not be presented as a confirmed banner time.",
+    "The 534 source classifications include records previously entered as official and have NOT all been independently revalidated or matched against the exhaustive original rosters.",
+    "The dated 2026-10-12-batch-primary-source-backfill ledger contains an eight-entry snapshot from before this update and must not be confused with current unresolved totals."
   ],
   "notes": "This is a structured local-data audit, not an exhaustive review of every official announcement. Historic earlier audit snapshots must not be treated as current totals.",
-  "audit_updated_at": "2026-10-12T15:24:00+09:00",
+  "audit_updated_at": "2026-10-12T16:32:00+09:00",
   "further_source_checks": [
     {
       "id": "history-ww-2024-06-28-2",
@@ -234,6 +230,30 @@
       "previously": "secondary",
       "now": "official",
       "new_source": "https://wutheringwaves.kurogames.com/jp/main/news/detail/1762"
+    },
+    {
+      "id": "history-zzz-2024-07-04-18",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://zenless.hoyoverse.com/ja-jp/news/124566"
+    },
+    {
+      "id": "history-zzz-2024-10-16-23",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://zenless.hoyoverse.com/ja-jp/news/126371"
+    },
+    {
+      "id": "history-zzz-2024-11-27-25",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://www.facebook.com/ZZZ.Official.JP/videos/1332661831445812/"
+    },
+    {
+      "id": "history-hsr-2026-04-08-464",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://x.com/houkaistarrail/status/2041380447087927707"
     }
   ],
   "latest_bulk_audit": "gacha-wars/audits/2026-10-12-batch-primary-source-backfill.json",
@@ -275,58 +295,6 @@
       "corroborating_sources": [
         "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
         "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
-      ]
-    },
-    {
-      "id": "history-zzz-2024-07-04-18",
-      "game": "zzz",
-      "name": "エレン",
-      "date": "2024-07-04",
-      "date_basis": "secondary_banner_schedule",
-      "review_note": "COGNOSPHERE公式が2024年7月4日のサービス開始を発表し、公式にエレンのキャラ紹介も掲載。ただし初回独占チャンネルの開始日を明記した運営告知は未取得。",
-      "source_url": "https://zenless.gg/mellow-waveride-channel-details/",
-      "corroborating_sources": [
-        "https://zenless.hoyoverse.com/m/ja-jp/news/123829",
-        "https://zenless.hoyoverse.com/ja-jp/news/124517"
-      ]
-    },
-    {
-      "id": "history-zzz-2024-10-16-23",
-      "game": "zzz",
-      "name": "バーニス",
-      "date": "2024-10-16",
-      "date_basis": "secondary_banner_schedule",
-      "review_note": "Ver.1.2公式更新資料にバーニス追加予定と10月16日の秘話開放を確認し、公式音動機チャンネルも10月16日開始。しかしキャラ独占チャンネルの正確な開始告知は未取得。",
-      "source_url": "https://zenless.gg/born-to-burn-channel-details/",
-      "corroborating_sources": [
-        "https://zenless.hoyoverse.com/id-id/news/126054",
-        "https://zenless.hoyoverse.com/ja-jp/news/126372"
-      ]
-    },
-    {
-      "id": "history-zzz-2024-11-27-25",
-      "game": "zzz",
-      "name": "ライト",
-      "date": "2024-11-27",
-      "date_basis": "secondary_banner_schedule",
-      "review_note": "COGNOSPHERE公式Ver.1.3予告にライトの登場を確認し、公式エージェント秘話が11月27日に開放。しかし独占チャンネルの正確な開始日を明記した一次告知は未取得。",
-      "source_url": "https://zenless.gg/champion-of-embers-signal-search-details/",
-      "corroborating_sources": [
-        "https://prtimes.jp/main/html/rd/p/000000257.000096124.html",
-        "https://zenless.hoyoverse.com/ja-jp/news/127096"
-      ]
-    },
-    {
-      "id": "history-hsr-2026-04-08-464",
-      "game": "hsr",
-      "name": "ブートヒル（復刻）",
-      "date": "2026-04-08",
-      "date_basis": "official_phase_boundary_plus_secondary_banner_schedule",
-      "review_note": "COGNOSPHERE公式でVer.4.1前半復刻ヒアンシーの4月8日終了を確認。3月13日の運営予告番組を報じた各媒体はブートヒル後半復刻を掲載するが、4月8日開始を明示する運営発表原文は未取得。",
-      "source_url": "https://gamewith.jp/houkaistarrail/article/show/561173",
-      "corroborating_sources": [
-        "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
-        "https://prtimes.jp/main/html/rd/p/000000396.000096124.html"
       ]
     },
     {
