@@ -182,7 +182,8 @@
         "source": "범모（@WANT_UWon）／2026年10月11日2:11／韓国語原文の日本語要約／ユーザー提供Xスクショ時点43万表示・2224いいね・923リポスト"
       }
     ],
-    "needs_research": true
+    "needs_research": true,
+    "story_id": "zzz-skin-debate-202610"
   },
   {
     "id": "manual-20261010-zzz-hsr-collab-fairness",
@@ -220,7 +221,8 @@
     "post_views": 440000,
     "post_url": "",
     "sources": [],
-    "needs_research": true
+    "needs_research": true,
+    "story_id": "zzz-hsr-collab-fairness-202610"
   },
   {
     "id": "china-industry-20261010-october-game-launch-lineup",
@@ -480,7 +482,8 @@
         "display_text": "鍾離女性説、神格のある存在は無性って言われた方がしっくりくるな。",
         "url": "https://search.yahoo.co.jp/realtime/search?p=%E9%8D%BE%E9%9B%A2"
       }
-    ]
+    ],
+    "story_id": "genshin-zhongli-gender-theory-202610"
   },
   {
     "id": "china-latest-20261008-naraka-devouring-season",
@@ -722,7 +725,8 @@
       }
     ],
     "research_checked_at": "2026-10-08",
-    "research_notes": "公式サイト掲載とRedditの公開検索結果を照合。Reddit本文の直接取得は失敗したため、検索結果に掲載された本文・コメント・投票スコアに限定。特定のX投稿を起点と断定していない。X元投稿URLと全文は未確認。媒体による論争の報道は未確認。 X原文・固定URLの追加確認を残すためneeds_researchを維持。"
+    "research_notes": "公式サイト掲載とRedditの公開検索結果を照合。Reddit本文の直接取得は失敗したため、検索結果に掲載された本文・コメント・投票スコアに限定。特定のX投稿を起点と断定していない。X元投稿URLと全文は未確認。媒体による論争の報道は未確認。 X原文・固定URLの追加確認を残すためneeds_researchを維持。",
+    "story_id": "zzz-evelyn-shipping-202610"
   },
   {
     "id": "china-latest-20261007-marvel-rivals-season-10-5",
