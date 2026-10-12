@@ -1711,7 +1711,7 @@ class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
         self.assertEqual(data["schema"],"gacha-wars-ww-fourstar-supplement-v1")
         self.assertEqual(len(data["phases"]),34)
         self.assertEqual(sum(len(x["featured_four"]) for x in data["phases"]),102)
-        self.assertEqual(sum(x["tier"]=="official" for x in data["phases"]),2)
+        self.assertEqual(sum(x["tier"]=="official" for x in data["phases"]),9)
         self.assertEqual(len({x["date"] for x in data["phases"]}),34)
         self.assertEqual(next(x for x in data["phases"] if x["date"]=="2026-09-30")["matching_five_star"],["Blooming Jadehaven","Kumokiri","Moongazer's Sigil"])
         for p in data["phases"]:
@@ -1742,6 +1742,27 @@ class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
         self.assertEqual(collab["kind"],"collab")
         self.assertEqual(collab["tier"],"official")
 
+
+    def test_seven_additional_publisher_verified_weapon_phases(self):
+        data=self.archive()
+        expected={
+            "2025-10-30":[3501,3516],
+            "2025-12-25":[3859,3861,3863],
+            "2026-01-15":[4017,4033,4049],
+            "2026-02-05":[4167,4204],
+            "2026-02-26":[4329,4345],
+            "2026-04-09":[4493],
+            "2026-04-30":[4591],
+        }
+        for day,ids in expected.items():
+            p=next(x for x in data["phases"] if x["date"]==day)
+            self.assertEqual(p["tier"],"official")
+            self.assertEqual(len(p["featured_four"]),3)
+            self.assertEqual(p["publisher_notices"],
+                             ["https://wutheringwaves.kurogames.com/en/main/news/detail/"+str(i) for i in ids])
+            self.assertEqual(p["official_notice"],p["publisher_notices"][0])
+            self.assertEqual(p["date_basis"],"publisher_pu_notices_5star_and_shared_4star_direct_match")
+
     def test_runtime_105_weapon_records_distinct_normal_and_collab(self):
         html=(SITE/"index.html").read_text(encoding="utf-8")
         self.assertIn('"ww_weapon_collab_four"',html)
@@ -1760,8 +1781,8 @@ assert.equal(events.length,105);
 assert.equal(new Set(events.map(e=>e.id)).size,105);
 assert.equal(events.filter(e=>e.rarity===4).length,102);
 assert.equal(events.filter(e=>e.rarity===5).length,3);
-assert.equal(events.filter(e=>e.verification==="official").length,9);
-assert.equal(events.filter(e=>e.verification==="secondary").length,96);
+assert.equal(events.filter(e=>e.verification==="official").length,30);
+assert.equal(events.filter(e=>e.verification==="secondary").length,75);
 assert.equal(events.filter(e=>e.banner_type==="ww_weapon_collab_four").length,3);
 assert.ok(events.every(e=>e.type==="weapon"&&e.game==="ww"&&e.version_group.startsWith("Ver.")));
 assert.deepEqual(events.filter(e=>e.date==="2026-09-30"&&e.rarity===5).map(e=>e.version),
