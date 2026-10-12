@@ -235,11 +235,69 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                          "duplicate character banner on the same date")
 
 
+    def test_all_official_genshin_chronicled_wishes_and_reminiscence(self):
+        """Keep seven curated selectable five-star roster pools distinct from reruns."""
+        events = self.read("release-events.json")["events"]
+        expected = {
+            ("2024-03-13", "暁風の詩"): {
+                "モナ", "クレー", "ディルック", "ジン", "アルベド", "エウルア"
+            },
+            ("2025-01-21", "玉岩の憶"): {
+                "白朮", "申鶴", "刻晴", "甘雨", "七七", "タルタリヤ", "魈"
+            },
+            ("2025-05-27", "天を裂く雷鳴"): {
+                "神里綾華", "神里綾人", "宵宮", "千織", "八重神子",
+                "荒瀧一斗", "珊瑚宮心海", "楓原万葉"
+            },
+            ("2025-09-10", "露と草の盃"): {
+                "ディシア", "アルハイゼン", "放浪者", "セノ", "ニィロウ", "ティナリ"
+            },
+            ("2026-02-25", "暁風の詩"): {
+                "エウルア", "モナ", "アルベド", "クレー", "ディルック", "ジン"
+            },
+            ("2026-04-28", "ルキナのせせらぎ"): {
+                "エミリエ", "クロリンデ", "シグウィン", "ナヴィア", "リネ"
+            },
+            ("2026-07-01", "空に輝く星のお告げ"): {
+                "夢見月瑞希", "リオセスリ", "セノ", "八重神子", "七七"
+            },
+        }
+        special = [e for e in events if e["game"] == "gi" and
+                   e.get("banner_type") in {"chronicled_wish", "reminiscence_wish"}]
+        grouped = {}
+        for e in special:
+            if e.get("wish_name"):
+                key = (e["date"], e["wish_name"])
+            else:
+                # The already-curated Luna I pool predates wish_name metadata.
+                key = (e["date"], "露と草の盃")
+            grouped.setdefault(key, []).append(e)
+        self.assertEqual(set(grouped), set(expected))
+        self.assertEqual(sum(map(len, grouped.values())), 43)
+        for key, pool in grouped.items():
+            with self.subTest(wish=key):
+                suffixes = {"（追憶祈願）", "（集録祈願）"}
+                self.assertEqual(
+                    {next(e["version"][:-len(t)] for t in suffixes
+                          if e["version"].endswith(t)) for e in pool},
+                    expected[key],
+                )
+                self.assertTrue(all(e["verification"] == "official" for e in pool))
+                self.assertTrue(all(e["event_kind"] == "featured_banner" for e in pool))
+                self.assertTrue(all(e["rarity"] == 5 for e in pool))
+                self.assertTrue(all(e.get("banner_type") ==
+                                    ("reminiscence_wish" if key[0] == "2026-07-01"
+                                     else "chronicled_wish") for e in pool))
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        for label in ("追憶祈願の選択候補", "集録祈願の選択候補", "追憶祈願・★"):
+            self.assertIn(label, html)
+        self.assertGreaterEqual(html.count('"reminiscence_wish"'), 5)
+
     def test_special_banner_types_are_explicit_and_separate(self):
         events = self.read("release-events.json")["events"]
         special_types = {
             "anniversary_convene", "special_rerun", "event_wish_four_star",
-            "chronicled_wish", "standard_character_event"
+            "chronicled_wish", "reminiscence_wish", "standard_character_event"
         }
         specials = [e for e in events if e.get("banner_type")]
         self.assertGreaterEqual(len(specials), 20)
@@ -560,7 +618,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         end = html.index("function ", start + len("function updates(){"))
         section = html[start:end]
         self.assertIn("!specialTypes.includes(ev.banner_type)", section)
-        for special_type in ("chronicled_wish", "event_wish_four_star",
+        for special_type in ("chronicled_wish", "reminiscence_wish", "event_wish_four_star",
                              "standard_character_event", "anniversary_convene",
                              "special_rerun"):
             self.assertIn('"' + special_type + '"', section)
