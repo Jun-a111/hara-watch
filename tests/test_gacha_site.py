@@ -1581,5 +1581,69 @@ class Wuthering2024To2026WeaponConveneTests(unittest.TestCase):
         self.assertIn('const events=[...publishedEvents,...updateEvents].filter(e=>e.type==="character"', html)
 
 
+
+class HsrLightconeSupplementTests(unittest.TestCase):
+    def test_68_lightcone_groups_341_slots_and_secondary_provenance(self):
+        info=json.loads((SITE/"hsr-lightcone-history.json").read_text(encoding="utf-8"))
+        self.assertEqual(info["schema"],"gacha-wars-hsr-lightcone-history-v1")
+        self.assertEqual(info["verification"],"secondary")
+        self.assertTrue(info["source"].startswith("https://github.com/FuriaPaladins/"))
+        groups=info["banners"]
+        self.assertEqual(len(groups),68)
+        self.assertEqual(sum(g["kind"]=="standard" for g in groups),66)
+        self.assertEqual(sum(g["kind"]=="special" for g in groups),2)
+        self.assertEqual(sum(len(g["five"]) for g in groups),143)
+        self.assertEqual(sum(len(g["four"]) for g in groups),198)
+        self.assertEqual(len({(g["date"],g["kind"],g["banner_index"]) for g in groups}),68)
+        for g in groups:
+            self.assertRegex(g["date"],r"^20\d{2}-\d{2}-\d{2}$")
+            self.assertLessEqual(g["date"],"2026-10-12")
+            self.assertEqual(len(g["four"]),3 if g["kind"]=="standard" else 0)
+            self.assertTrue(all(x.get("name") and str(x.get("id","")).isdigit() for x in g["five"]+g["four"]))
+        self.assertEqual(groups[0]["date"],"2023-04-26")
+        self.assertTrue(any(g["source_start"].startswith("2023-04-25") for g in groups))
+
+    def test_hsr_archive_merger_keeps_characters_and_special_banners_separate(self):
+        site=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./"+file,{cache:"no-store"})',site)
+        self.assertIn('"hsr-lightcone-history.json",parseHsrLightconeArchive',site)
+        self.assertIn('"hsr_lightcone_special_five"',site)
+        self.assertIn('verification:"secondary"',site)
+        self.assertIn("同時開催枠を資料上で合算（選択式ではない）",site)
+        self.assertIn('String(a.parent||a.items[0]?.event_banner_name||"")',site)
+        self.assertIn('const events=[...publishedEvents,...updateEvents].filter(e=>e.type==="character"',site)
+
+    def test_hsr_archive_parser_runtime_and_group_collisions(self):
+        source=(SITE/"index.html").read_text(encoding="utf-8")
+        parser=source[source.index("function parseHsrLightconeArchive(data){"):source.index("async function loadEvents(){")]
+        script=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+parser+r'''
+const d=JSON.parse(fs.readFileSync("gacha-wars/hsr-lightcone-history.json","utf8"));
+const events=parseHsrLightconeArchive(d);
+assert.equal(events.length,341);
+assert.equal(new Set(events.map(e=>e.id)).size,341);
+assert.equal(events.filter(e=>e.rarity===5).length,143);
+assert.equal(events.filter(e=>e.rarity===4).length,198);
+assert.ok(events.every(e=>e.verification==="secondary"));
+assert.ok(events.every(e=>e.type==="weapon"&&e.game==="hsr"));
+const map=new Map();
+for(const e of events){
+ const key=[e.game,e.date,e.version_group||"",e.phase||"",e.featured_five_star||"",e.weapon_banner_group||""].join("|");
+ if(!map.has(key))map.set(key,[]);
+ map.get(key).push(e);
+}
+assert.equal(map.size,68);
+const same= [...map.entries()].filter(([k])=>k.includes("2026-02-13"));
+assert.equal(same.length,2);
+assert.ok(same.every(([_,items])=>items[0].weapon_banner_group));
+assert.ok(events.some(e=>e.special_banner));
+assert.ok(events.some(e=>e.multiple_concurrent));
+'''
+        result=subprocess.run(["node","-e",script],cwd=ROOT,text=True,capture_output=True)
+        self.assertEqual(result.returncode,0,result.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
