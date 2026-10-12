@@ -219,7 +219,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         semantic_keys = []
         for event in data["events"]:
             self.assertIn(event["game"], {"gi", "hsr", "zzz", "ww", "nte", "end"})
-            self.assertIn(event["type"], {"character", "version"})
+            self.assertIn(event["type"], {"character", "version", "weapon"})
             self.assertRegex(event["date"], r"^\d{4}-\d{2}-\d{2}$")
             from datetime import date
             self.assertEqual(date.fromisoformat(event["date"]).isoformat(), event["date"])
@@ -237,11 +237,22 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                     if event.get("banner_type") in {
                         "featured_convene_four_star", "anniversary_convene_four_star",
                         "collab_convene_four_star", "reverb_convene_four_star",
-                        "exclusive_channel_a_rank"
+                        "exclusive_channel_a_rank", "exclusive_channel_a_default"
                     } else ""
                 ))
+            if event["type"] == "weapon":
+                self.assertEqual(event["game"], "zzz")
+                self.assertIn(event.get("rarity"), {"S","A"})
+                self.assertEqual(event["event_kind"], "featured_banner")
+                self.assertIn(event.get("phase"), {"first","second"})
+                self.assertTrue(event.get("featured_five_star"))
+                self.assertTrue(event.get("version_group"))
+                semantic_keys.append((
+                    event["game"], event["version"], event["date"],
+                    event["banner_type"], event["featured_five_star"]
+                ))
         self.assertEqual(len(semantic_keys), len(set(semantic_keys)),
-                         "duplicate character in the same dated banner, type and 5-star parent")
+                         "duplicate banner item of the same date and featured parent")
 
 
     def test_special_pools_share_one_visible_row(self):
@@ -477,19 +488,21 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         special_types = {
             "anniversary_convene", "special_rerun", "event_wish_four_star",
             "event_warp_four_star", "exclusive_channel_a_rank",
+            "exclusive_channel_a_default",
             "featured_convene_four_star", "anniversary_convene_four_star",
             "collab_convene_four_star", "reverb_convene_four_star",
-            "chronicled_wish", "reminiscence_wish", "standard_character_event"
+            "chronicled_wish", "reminiscence_wish", "standard_character_event",
+            "w_engine_s_rank", "w_engine_a_rank", "w_engine_a_default"
         }
         specials = [e for e in events if e.get("banner_type")]
         self.assertGreaterEqual(len(specials), 20)
         for event in specials:
             self.assertIn(event["banner_type"], special_types)
-            self.assertEqual(event["type"], "character")
+            self.assertEqual(event["type"], "weapon" if event["banner_type"].startswith("w_engine_") else "character")
         html = (SITE / "index.html").read_text(encoding="utf-8")
         # Both the actual group filter and the coverage counters must agree.
         for kind in special_types:
-            self.assertGreaterEqual(html.count('"' + kind + '"'), 2, kind)
+            self.assertGreaterEqual(html.count('"' + kind + '"'), 1 if kind.startswith("w_engine_") else 2, kind)
 
     def test_youtube_archive_over_3000_records(self):
         """A missing API key must not truncate or corrupt a large archive."""
@@ -668,9 +681,9 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         # reduce the outstanding set without rewriting historical evidence.
         new_secondary_ids = {
             e["id"] for e in events
-            if e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-", "ww-extra-four-"))
+            if e["verification"] == "secondary" and e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-", "ww-extra-four-", "zzz-a-2026-backfill-", "zzz-wengine-"))
         }
-        self.assertEqual(len(new_secondary_ids), 341)  # 233 HSR/ZZZ + 108 WW secondary backfill
+        self.assertEqual(len(new_secondary_ids), 386)  # 341 older secondary + 45 new secondary A/W slots
         self.assertTrue((secondary - new_secondary_ids) <= original_backlog)
         self.assertTrue(new_secondary_ids <= secondary)
         self.assertEqual(summary["secondary_labeled"], len(original_backlog))
@@ -1146,7 +1159,7 @@ class HsrAndZenlessLowRarityRosterTests(unittest.TestCase):
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
         hsr = [e for e in events if e.get("banner_type") == "event_warp_four_star"]
-        zzz = [e for e in events if e.get("banner_type") == "exclusive_channel_a_rank"]
+        zzz = [e for e in events if e.get("banner_type") == "exclusive_channel_a_rank" and e["date"] < "2026-01-01"]
         hsr_older = [e for e in hsr if e["date"] < "2025-01-01"]
         zzz_older = [e for e in zzz if e["date"] < "2025-01-01"]
         self.assertEqual(len(hsr), 177)
@@ -1183,7 +1196,7 @@ class HsrAndZenlessLowRarityRosterTests(unittest.TestCase):
         html = (root / "gacha-wars" / "index.html").read_text(encoding="utf-8")
         for banner_type in ("event_warp_four_star", "exclusive_channel_a_rank"):
             self.assertGreaterEqual(html.count('"' + banner_type + '"'), 4)
-        self.assertIn('["exclusive_channel_a_rank","featured_convene_four_star","collab_convene_four_star"].includes(e.banner_type)?e.featured_five_star||""',html)
+        self.assertIn('["exclusive_channel_a_rank","exclusive_channel_a_default","featured_convene_four_star","collab_convene_four_star"].includes(e.banner_type)?e.featured_five_star||""',html)
         self.assertIn('イベント跳躍・共有★4枠',html)
         self.assertIn('独占変調・A級PU',html)
 
@@ -1198,13 +1211,13 @@ class Hsr2025Zenless2025AdditionalRegressionTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1272)
+        self.assertEqual(len(events), 1379)
         hsr_new = [x for x in events
                    if x.get("banner_type") == "event_warp_four_star"
                    and x["date"] >= "2025-01-01"]
         zzz_new = [x for x in events
                    if x.get("banner_type") == "exclusive_channel_a_rank"
-                   and x["date"] >= "2025-01-01"]
+                   and "2025-01-01" <= x["date"] < "2026-01-01"]
         self.assertEqual(len(hsr_new), 87)
         self.assertEqual(len(zzz_new), 36)
         self.assertEqual(len({x["date"] for x in hsr_new}), 29)
@@ -1302,7 +1315,7 @@ class WutheringSecondary108BatchTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1272)
+        self.assertEqual(len(events), 1379)
         added = [e for e in events if e["id"].startswith("ww-extra-four-")]
         self.assertEqual(len(added), 108)
         self.assertEqual({(e["verification"],e["rarity"]) for e in added},
