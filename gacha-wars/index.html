@@ -287,13 +287,29 @@ function parseWwWeaponFourstarSupplement(data){
  }
  return events;
 }
+function parseWw2026SummerOfficialWeapons(data){
+ if(data.schema!=="gacha-wars-ww-weapons-2026-summer-official-v1"||data.verification!=="official"||!Array.isArray(data.phases)||data.phases.length!==4)throw Error("鳴潮2026年夏公式武器履歴の形式不正");
+ const expected={"2026-07-10":{id:5039,phase:"first",ver:"Ver.3.5",five:2},"2026-07-30":{id:5220,phase:"second",ver:"Ver.3.5",five:1},"2026-08-20":{id:5318,phase:"first",ver:"Ver.3.6",five:1},"2026-09-10":{id:5431,phase:"second",ver:"Ver.3.6",five:2}};
+ const used=new Set(),out=[];
+ for(const p of data.phases){
+  const e=expected[p?.date];
+  if(!e||used.has(p.date)||p.phase!==e.phase||p.version_group!==e.ver||p.source_article_id!==e.id||p.source_url!=="https://wutheringwaves.kurogames.com/en/main/news/detail/"+e.id||!Array.isArray(p.five)||p.five.length!==e.five||!Array.isArray(p.four)||p.four.length!==3||!p.five.every(n=>typeof n==="string"&&n.trim())||!p.four.every(n=>typeof n==="string"&&n.trim())||new Set(p.five).size!==p.five.length||new Set(p.four).size!==3)throw Error("鳴潮公式武器履歴のフェーズ不正");
+  used.add(p.date);
+  const base={game:"ww",type:"weapon",date:p.date,phase:p.phase,version_group:p.version_group,event_kind:"featured_banner",weapon_banner_group:"Absolute Pulsation",verification:"official",source_url:p.source_url,source_title:p.source_title,date_basis:p.basis,featured_five_star:p.version_group+(p.phase==="first"?"前半":"後半")+"武器PU",review_note:"KURO GAMESの共鳴者・武器集音告知内の★5と共通★4対象を直接確認。前半開始日には別途メンテナンス告知を使用。外部履歴の後半日付と食い違う場合は公式開始日時を優先。",corroborating_sources:p.maintenance_url?[p.maintenance_url]:[]};
+  for(const [kind,rarity,arr] of [["five",5,p.five],["four",4,p.four]]){
+   arr.forEach((name,i)=>out.push({...base,id:"ww-2026-summer-"+p.date+"-"+kind+"-"+(i+1),version:name,rarity,banner_type:rarity===5?"ww_weapon_five":"ww_weapon_four"}));
+  }
+ }
+ if(used.size!==4||out.length!==18)throw Error("鳴潮公式武器履歴の収録数不正");
+ return out;
+}
 async function loadEvents(){
  try{
   const response=await fetch("./release-events.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");
   const data=await response.json();if(data.schema!=="gacha-wars-releases-v1"||!Array.isArray(data.events))throw Error("invalid schema");
   const primary=data.events.filter(x=>G.some(g=>g.id===x.game)&&["version","character","weapon"].includes(x.type)&&typeof x.version==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&typeof x.source_url==="string"&&/^https:\/\//.test(x.source_url));
   let extras=[],notes=[];
-  for(const [file,parse,label] of [["gi-weapon-history.json",parseGenshinWeaponArchive,"原神武器"],["hsr-lightcone-history.json",parseHsrLightconeArchive,"スタレ光円錐"],["ww-weapon-fourstar-supplement.json",parseWwWeaponFourstarSupplement,"鳴潮武器補完"]]){
+  for(const [file,parse,label] of [["gi-weapon-history.json",parseGenshinWeaponArchive,"原神武器"],["hsr-lightcone-history.json",parseHsrLightconeArchive,"スタレ光円錐"],["ww-weapon-fourstar-supplement.json",parseWwWeaponFourstarSupplement,"鳴潮武器補完"],["ww-2026-summer-official-weapons.json",parseWw2026SummerOfficialWeapons,"鳴潮2026夏公式"]]){
    try{
     const resp=await fetch("./"+file,{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
     const part=parse(await resp.json());
