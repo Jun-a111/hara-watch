@@ -177,25 +177,28 @@ function renderSpecialEventsGrouped(events){
  }).join("");
 }
 function weaponHistory(){
- const weaponBannerKinds=["hsr_lightcone_five","hsr_lightcone_four","hsr_lightcone_special_five","gi_weapon_five","gi_weapon_four","w_engine_s_rank","w_engine_a_rank","w_engine_a_default","ww_weapon_five","ww_weapon_four","ww_weapon_anniversary_five","ww_weapon_anniversary_four","ww_weapon_collab_five"];
+ const weaponBannerKinds=["hsr_lightcone_five","hsr_lightcone_four","hsr_lightcone_special_five","gi_weapon_five","gi_weapon_four","w_engine_s_rank","w_engine_a_rank","w_engine_a_default","ww_weapon_five","ww_weapon_four","ww_weapon_anniversary_five","ww_weapon_anniversary_four","ww_weapon_collab_five","ww_weapon_collab_four"];
  const query=characterSearch.toLocaleLowerCase();
- const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.original_name||"",e.version_group,e.featured_five_star||"",e.event_banner_name||"",e.weapon_banner_group||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
+ const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter));
  const pools=new Map();
  for(const e of weapons){
-  const key=[e.game,e.date,e.version_group||"",e.phase||"",e.featured_five_star||"",e.weapon_banner_group||""].join("|");
+  const combinedWw=e.game==="ww"&&["ww_weapon_five","ww_weapon_four","ww_weapon_collab_five","ww_weapon_collab_four"].includes(e.banner_type);
+  const key=[e.game,e.date,e.version_group||"",e.phase||"",combinedWw?"":e.featured_five_star||"",e.weapon_banner_group||""].join("|");
   if(!pools.has(key))pools.set(key,{game:e.game,date:e.date,group:e.version_group,phase:e.phase,parent:e.featured_five_star,items:[]});
   pools.get(key).items.push(e);
  }
- const rows=[...pools.values()].sort((a,b)=>b.date.localeCompare(a.date)||String(a.parent||a.items[0]?.event_banner_name||"").localeCompare(String(b.parent||b.items[0]?.event_banner_name||"")));
+ const rows=[...pools.values()].filter(g=>!query||g.items.some(e=>[e.version,e.original_name||"",e.version_group,e.featured_five_star||"",e.event_banner_name||"",e.weapon_banner_group||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query)))).sort((a,b)=>b.date.localeCompare(a.date)||String(a.parent||a.items[0]?.event_banner_name||"").localeCompare(String(b.parent||b.items[0]?.event_banner_name||"")));
  const perPage=40,totalPages=Math.max(1,Math.ceil(rows.length/perPage));weaponPage=Math.min(weaponPage,totalPages-1);
  const visibleRows=rows.slice(weaponPage*perPage,(weaponPage+1)*perPage);
  const pager='<div class="row" style="margin:12px 0"><button class="btn" onclick="changeWeaponPage('+(weaponPage-1)+')" '+(weaponPage===0?'disabled':'')+'>前へ</button><span class="tiny">ページ '+(weaponPage+1)+' / '+totalPages+'</span><button class="btn" onclick="changeWeaponPage('+(weaponPage+1)+')" '+(weaponPage===totalPages-1?'disabled':'')+'>次へ</button></div>';
- return '<section class="panel"><h2>武器・音動機ガチャ履歴（キャラ戦績と分離）</h2><p class="hint">登録 '+weapons.length+'件／武器ガチャ '+rows.length+'枠。各枠のS級/★5とA級/★4をまとめて表示。武器の実装・復刻履歴はキャラ単独の売上・セルランへ加算しません。鳴潮の周年選択式は1つの集音として扱い、選択可能な★5武器5本と共有★4武器3本をまとめて表示。ゼンゼロVer.3.1以降の変更可能なA級は初期設定のみ掲載しています。原神の歴代武器祈願とスタレの光円錐履歴は二次資料であり、個々の公式告知を全件照合していません。スタレで複数の★5光円錐が表示される行は同時開催を資料上でまとめたもので、選択式ガチャではありません。</p>'+(rows.length?pager+'<div class="scroll"><table><thead><tr><th>開催日</th><th>作品・対応キャラ</th><th>S級音動機・★5武器</th><th>A級音動機・★4武器</th><th>出典・確認状況</th></tr></thead><tbody>'+visibleRows.map(g=>{
+ return '<section class="panel"><h2>武器・音動機ガチャ履歴（キャラ戦績と分離）</h2><p class="hint">登録 '+weapons.length+'件／武器ガチャ '+rows.length+'枠。各枠のS級/★5とA級/★4をまとめて表示。武器の実装・復刻履歴はキャラ単独の売上・セルランへ加算しません。鳴潮の周年選択式は1つの集音として扱い、選択可能な★5武器5本と共有★4武器3本をまとめて表示。ゼンゼロVer.3.1以降の変更可能なA級は初期設定のみ掲載しています。鳴潮の通常★4武器履歴は未検証の外部資料が含まれ、複数の★5武器を同日にまとめた表示は個別PUの併催を示すもので選択式ではありません。原神の歴代武器祈願とスタレの光円錐履歴は二次資料であり、個々の公式告知を全件照合していません。スタレで複数の★5光円錐が表示される行は同時開催を資料上でまとめたもので、選択式ガチャではありません。</p>'+(rows.length?pager+'<div class="scroll"><table><thead><tr><th>開催日</th><th>作品・対応キャラ</th><th>S級音動機・★5武器</th><th>A級音動機・★4武器</th><th>出典・確認状況</th></tr></thead><tbody>'+visibleRows.map(g=>{
    const primary=g.items.filter(e=>e.rarity==="S"||e.rarity===5).map(e=>esc(e.version)+(e.original_name&&e.original_name!==e.version?'<span class="tiny"> ('+esc(e.original_name)+')</span>':'')).join(' / ')||'未登録';
    const minor=g.items.filter(e=>e.rarity==="A"||e.rarity===4).map(e=>esc(e.version)+(e.original_name&&e.original_name!==e.version?'<span class="tiny"> ('+esc(e.original_name)+')</span>':'')).join(' / ')||'未登録';
    const changed=g.items.some(e=>e.default_rate_up);
+   const combinedWw=g.game==="ww"&&g.items.filter(x=>x.rarity===5).length>1&&g.items.some(x=>["ww_weapon_five","ww_weapon_collab_five"].includes(x.banner_type));
+   const groupLabel=combinedWw?"同日併催の個別武器PU":g.parent||g.items[0].event_banner_name||"未設定";
    const sources=[...new Map(g.items.filter(x=>x.source_url).map(x=>[x.source_url,x])).values()];
-   return '<tr><td>'+esc(g.date)+'<div class="tiny">'+phaseLabel(g.items[0])+'</div></td><td><b>'+esc(name(g.game))+'</b><div class="tiny">'+esc(g.group||"")+'</div><div class="tiny">区分：'+esc(g.parent||g.items[0].event_banner_name||"未設定")+'</div></td><td>'+primary+'</td><td>'+minor+(changed?'<div class="tiny">初期設定・ユーザー変更可</div>':'')+(g.items[0].multiple_concurrent?'<div class="tiny">同時開催枠を資料上で合算（選択式ではない）</div>':'')+(g.items[0].special_banner?'<div class="tiny">特別跳躍・通常枠とは分離</div>':'')+'</td><td>'+sources.map(eventSource).join(' ')+'<div class="tiny">'+(g.items.every(x=>x.verification==="official")?"掲載元：公式":"外部資料・確認待ち")+'</div></td></tr>';
+   return '<tr><td>'+esc(g.date)+'<div class="tiny">'+phaseLabel(g.items[0])+'</div></td><td><b>'+esc(name(g.game))+'</b><div class="tiny">'+esc(g.group||"")+'</div><div class="tiny">区分：'+esc(groupLabel)+'</div></td><td>'+primary+'</td><td>'+minor+(changed?'<div class="tiny">初期設定・ユーザー変更可</div>':'')+((g.items[0].multiple_concurrent||combinedWw)?'<div class="tiny">同時開催枠を資料上で合算（選択式ではない）</div>':'')+(g.items[0].special_banner?'<div class="tiny">特別跳躍・通常枠とは分離</div>':'')+'</td><td>'+sources.map(eventSource).join(' ')+'<div class="tiny">'+(g.items.every(x=>x.verification==="official")?"掲載元：公式":"外部資料・確認待ち")+'</div></td></tr>';
  }).join('')+'</tbody></table></div>'+pager:'<p class="hint">条件に該当する武器ガチャ登録はありません。</p>')+'</section>';
 }
 function weaponPageView(){
@@ -262,13 +265,35 @@ function parseHsrLightconeArchive(data){
  }
  return out;
 }
+function parseWwWeaponFourstarSupplement(data){
+ if(data.schema!=="gacha-wars-ww-fourstar-supplement-v1"||!Array.isArray(data.phases))throw Error("鳴潮の武器補完データ形式が不正");
+ const seen=new Set(),events=[];
+ for(const p of data.phases){
+  if(!p||typeof p.date!=="string"||!/^20\d{2}-\d{2}-\d{2}$/.test(p.date)||p.date>"2026-10-12"||!["first","second"].includes(p.phase)||!["regular","collab"].includes(p.kind)||!["official","secondary"].includes(p.tier)||!Array.isArray(p.featured_four)||p.featured_four.length!==3||new Set(p.featured_four).size!==3||seen.has(p.date))throw Error("鳴潮の武器補完レコードに不整合");
+  seen.add(p.date);
+  const official=p.tier==="official",group=p.kind==="collab"?"Cyberpunk: Edgerunners collab weapons":"Absolute Pulsation";
+  const basis={game:"ww",type:"weapon",date:p.date,phase:p.phase,version_group:p.date==="2026-09-30"?"Ver.3.7":p.date==="2026-06-08"?"Ver.3.4":"",event_kind:"featured_banner",weapon_banner_group:group,verification:official?"official":"secondary",source_url:official&&p.official_notice?p.official_notice:data.primary_roster_source,source_title:official?"KURO GAMES武器集音告知":"ガチャ計算機・過去★4武器ピックアップ履歴（外部）",date_basis:p.date_basis,review_note:official?"運営公式の集音告知本文に武器名・★4対象を明記。":"非公式歴代ガチャ記録のフェーズ別★4対象。対応★5は同日の既存履歴と照合。個別公式記事との照合は未完了。"+(p.source_date!==p.date?" 元資料の日付 "+p.source_date+" と既存★5日付との差異あり。":"")};
+  for(const [i,name] of p.featured_four.entries()){
+   if(typeof name!=="string"||!name.trim())throw Error("★4武器名不正");
+   events.push({...basis,id:"ww-weapon-4backfill-"+p.date+"-"+(i+1),version:name,rarity:4,banner_type:p.kind==="collab"?"ww_weapon_collab_four":"ww_weapon_four",featured_five_star:(p.matching_five_star||[]).join(" / ")});
+  }
+  if(p.date==="2026-09-30"){
+   if(!Array.isArray(p.matching_five_star)||p.matching_five_star.length!==3||p.matching_five_star.join("|")!=="Blooming Jadehaven|Kumokiri|Moongazer's Sigil")throw Error("3.7公式★5の登録候補が不正");
+   const mainNotice="https://wutheringwaves.kurogames.com/en/main/news/detail/5571";
+   for(const [i,name] of p.matching_five_star.entries()){
+    events.push({...basis,id:"ww-weapon-3-7-five-"+(i+1),version:name,rarity:5,banner_type:"ww_weapon_five",featured_five_star:"Ver.3.7第I期",source_url:i===0?mainNotice:p.official_notice,source_title:"KURO GAMES公式・Ver.3.7武器告知",review_note:"2026-09-30から登場するVer.3.7第I期の★5武器。公式アップデート情報および共鳴者・武器集音告知を参照。"});
+   }
+  }
+ }
+ return events;
+}
 async function loadEvents(){
  try{
   const response=await fetch("./release-events.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");
   const data=await response.json();if(data.schema!=="gacha-wars-releases-v1"||!Array.isArray(data.events))throw Error("invalid schema");
   const primary=data.events.filter(x=>G.some(g=>g.id===x.game)&&["version","character","weapon"].includes(x.type)&&typeof x.version==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&typeof x.source_url==="string"&&/^https:\/\//.test(x.source_url));
   let extras=[],notes=[];
-  for(const [file,parse,label] of [["gi-weapon-history.json",parseGenshinWeaponArchive,"原神武器"],["hsr-lightcone-history.json",parseHsrLightconeArchive,"スタレ光円錐"]]){
+  for(const [file,parse,label] of [["gi-weapon-history.json",parseGenshinWeaponArchive,"原神武器"],["hsr-lightcone-history.json",parseHsrLightconeArchive,"スタレ光円錐"],["ww-weapon-fourstar-supplement.json",parseWwWeaponFourstarSupplement,"鳴潮武器補完"]]){
    try{
     const resp=await fetch("./"+file,{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
     const part=parse(await resp.json());
