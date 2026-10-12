@@ -176,8 +176,9 @@ function renderSpecialEventsGrouped(events){
  }).join("");
 }
 function weaponHistory(){
+ const weaponBannerKinds=["w_engine_s_rank","w_engine_a_rank","w_engine_a_default"];
  const query=characterSearch.toLocaleLowerCase();
- const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.version_group,e.featured_five_star||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
+ const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.version_group,e.featured_five_star||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
  const pools=new Map();
  for(const e of weapons){
   const key=[e.game,e.date,e.version_group||"",e.phase||"",e.featured_five_star||"",e.weapon_banner_group||""].join("|");
@@ -186,7 +187,7 @@ function weaponHistory(){
  }
  const rows=[...pools.values()].sort((a,b)=>b.date.localeCompare(a.date)||a.parent.localeCompare(b.parent));
  return '<section class="panel"><h2>武器・音動機ガチャ履歴（キャラ戦績と分離）</h2><p class="hint">登録 '+weapons.length+'件／武器ガチャ '+rows.length+'枠。各枠のS級・A級をまとめて表示。武器の実装・復刻履歴はキャラ単独の売上・セルランへ加算しません。Ver.3.1以降の変更可能なA級は初期設定のみ掲載しています。</p>'+(rows.length?'<div class="scroll"><table><thead><tr><th>開催日</th><th>作品・対応キャラ</th><th>S級音動機・武器</th><th>A級・★4</th><th>出典・確認状況</th></tr></thead><tbody>'+rows.map(g=>{
-   const primary=g.items.filter(e=>e.rarity==="S"||e.rarity===5).map(e=>esc(e.version)).join(' / ')||'未登録';
+   const primary=g.items.filter(e=>e.banner_type==="w_engine_s_rank").map(e=>esc(e.version)).join(' / ')||'未登録';
    const minor=g.items.filter(e=>e.rarity==="A"||e.rarity===4).map(e=>esc(e.version)).join(' / ')||'未登録';
    const changed=g.items.some(e=>e.default_rate_up);
    const sources=[...new Map(g.items.filter(x=>x.source_url).map(x=>[x.source_url,x])).values()];
