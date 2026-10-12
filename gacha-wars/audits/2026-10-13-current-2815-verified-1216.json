@@ -1,0 +1,36 @@
+{
+  "schema": "gacha-wars-current-coverage-v23",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-13-current-2806-verified-1204.json",
+  "combined_events": 2815,
+  "verification": {
+    "official": 1216,
+    "secondary": 1599
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 485,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "ver35_reverb": {
+    "source_file": "gacha-wars/ww-reverb-2026-official.json",
+    "source_sha": "3fbe673803787ce864608fc99434059cdd36db6b",
+    "character_official_doc": "https://wutheringwaves.kurogames.com/en/main/news/detail/5065",
+    "weapon_official_doc": "https://wutheringwaves.kurogames.com/en/main/news/detail/5076",
+    "date": "2026-07-10",
+    "selectable_five_star_weapons": 6,
+    "shared_four_star_weapons": 3,
+    "new_weapon_slots": 9,
+    "existing_four_star_character_source_upgrades": 3,
+    "selectable_resonators": 6
+  },
+  "notes": [
+    "Tideforge Reverbs is one selectable weapon convene with 6 five-star options and one set of 3 four-star rate-up weapons. Count nine appearance slots, not nine independent banner runs.",
+    "Three existing Buling/Sanhua/Yangyang four-star character rows for Starpath Reverbs were previously tied only to Jiyan and marked secondary. They have been reclassified with official publisher source and the six-choice resonator selector label.",
+    "All 12 records derived from the two first-party announcements. Existing original JSON stays immutable; front-end applies strict-ID record patches.",
+    "All-game historical completeness remains unverified."
+  ]
+}
