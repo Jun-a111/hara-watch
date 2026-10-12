@@ -327,14 +327,16 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('!specialTypes.includes(e.banner_type)', phases)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
 
-    def test_primary_notices_for_four_wuthering_waves_debuts(self):
-        """Keep independently checked patch notes as primary links, not fan archives."""
+    def test_primary_notices_for_six_wuthering_waves_debuts(self):
+        """Guard six publisher-backed debut notices against accidental downgrades."""
         events = {e["id"]: e for e in self.read("release-events.json")["events"]}
         verified = {
             "history-ww-2024-06-28-2": ("/996", "2024-06-28"),
             "historical-ww-2024-08-15-44": ("/1189", "2024-08-15"),
             "history-ww-2025-06-12-92": ("/2801", "2025-06-12"),
             "history-ww-2025-07-24-94": ("/2936", "2025-07-24"),
+            "history-ww-2025-08-28-98": ("/3194", "2025-08-28"),
+            "history-ww-2025-10-09-117": ("/3340", "2025-10-09"),
         }
         for event_id, (suffix, expected_date) in verified.items():
             with self.subTest(event_id=event_id):
