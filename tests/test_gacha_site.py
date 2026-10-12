@@ -1550,5 +1550,36 @@ class Wuthering2024To2026WeaponConveneTests(unittest.TestCase):
         self.assertEqual({e["date"] for e in early},{"2024-05-23","2024-06-06","2024-06-28"})
         self.assertTrue(all(e["verification"]=="secondary" for e in early))
 
+
+    def test_genshin_weapon_history_supplement_has_105_complete_banners(self):
+        """The secondary-sourced weapon archive must stay separate from character banners."""
+        data = self.read("gi-weapon-history.json")
+        self.assertEqual(data["schema"], "gacha-wars-gi-weapons-v1")
+        self.assertEqual(data["verification"], "secondary")
+        self.assertTrue(data["source"].startswith("https://github.com/MadeBaruna/paimon-moe/"))
+        banners = data["banners"]
+        self.assertEqual(len(banners), 105)
+        self.assertEqual(len(set(b["date"] for b in banners)), 105)
+        self.assertEqual(sum(len(b["five"]) for b in banners), 210)
+        self.assertEqual(sum(len(b["four"]) for b in banners), 525)
+        for b in banners:
+            self.assertRegex(b["date"], r"^20\d{2}-\d{2}-\d{2}$")
+            self.assertLessEqual(b["date"], "2026-10-12")
+            self.assertEqual(len(b["five"]), 2)
+            self.assertEqual(len(b["four"]), 5)
+            self.assertEqual(len(set(b["five"] + b["four"])), 7)
+            self.assertTrue(all(x and isinstance(x, str) for x in b["five"] + b["four"]))
+
+    def test_genshin_weapon_display_is_secondary_and_does_not_affect_character_rankings(self):
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./gi-weapon-history.json"', html)
+        self.assertIn('function parseGenshinWeaponArchive(data)', html)
+        self.assertIn('data.verification!=="secondary"', html)
+        self.assertIn('"gi_weapon_five","gi_weapon_four"', html)
+        self.assertIn('verification:"secondary"', html)
+        self.assertIn('weaponPage*perPage', html)
+        self.assertIn('const events=[...publishedEvents,...updateEvents].filter(e=>e.type==="character"', html)
+
+
 if __name__ == "__main__":
     unittest.main()
