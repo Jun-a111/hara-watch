@@ -1,0 +1,23 @@
+[
+  {
+    "date": "2026-10-13",
+    "outcome": "調査実績未記録",
+    "candidates": null,
+    "added": null,
+    "updated": null,
+    "rejected": null,
+    "checked_categories": [],
+    "unchecked_categories": [
+      "ハラ",
+      "スタレ",
+      "ゼンゼロ",
+      "ホヨバ",
+      "鳴潮",
+      "鳴潮リーク",
+      "クロゲ新作",
+      "中国ゲーム・最新",
+      "中国ゲーム業界"
+    ],
+    "notes": "調査ログ機能を導入した日。過去の調査件数は確認できないため未記録。今後の21時更新から実測値を記録する。"
+  }
+]
