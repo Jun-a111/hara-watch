@@ -1,0 +1,44 @@
+{
+  "schema": "gacha-wars-current-coverage-v18",
+  "audit_date": "2026-10-12",
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-2806-coverage.json",
+  "combined_events": 2806,
+  "verification": {
+    "official": 1053,
+    "secondary": 1753
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 476,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "verification_upgrade": {
+    "source": "KURO GAMES publisher individual Featured Weapon Convene notices",
+    "seven_dates": [
+      "2025-10-30",
+      "2025-12-25",
+      "2026-01-15",
+      "2026-02-05",
+      "2026-02-26",
+      "2026-04-09",
+      "2026-04-30"
+    ],
+    "reclassified_4star_slots": 21,
+    "official_supplement_fourstar_phases": 9,
+    "official_supplement_events": 30,
+    "remaining_supplement_secondary_fourstar_slots": 75
+  },
+  "provenance": {
+    "ww_source_file": "gacha-wars/ww-weapon-fourstar-supplement.json",
+    "ww_source_blob_sha": "e02aafdc3db9c6132b2f7122341af580616e2d69"
+  },
+  "limitations": [
+    "No new events were added in this audit; existing secondary-source records were checked against the publisher's 5-star/4-star banner lists and reclassified.",
+    "Full historical completeness remains unverified, including all possible 4-star lineups for every older banner.",
+    "Date corrections in the preceding audit remain unchanged, including 2026-07-30 and 2026-09-10 publisher phase-II starts.",
+    "Counts represent entries for banner rate-up slots and related events, not unique characters or independent revenues."
+  ]
+}
