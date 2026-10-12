@@ -603,6 +603,38 @@ assert.equal(eventSourceTier(source("")),"出典URL不明");
             file.write_text(code+"\n"+scenario,encoding="utf-8")
             subprocess.run(["node",str(file)],check=True,capture_output=True,text=True)
 
+    def test_all_reruns_have_earlier_matching_debuts(self):
+        events = self.read("release-events.json")["events"]
+
+        def canonical_name(name):
+            return re.sub(r"（[^）]*(?:復刻|ピックアップ|集録祈願|周年)[^）]*）", "", name).strip()
+
+        debuts = {}
+        for event in events:
+            if event.get("type") != "character" or event.get("event_kind") != "debut":
+                continue
+            key = (event["game"], canonical_name(event["version"]))
+            debuts[key] = min(debuts.get(key, event["date"]), event["date"])
+
+        reruns = [
+            event for event in events
+            if event.get("type") == "character" and event.get("event_kind") == "rerun"
+        ]
+        self.assertGreaterEqual(len(reruns), 300, "Historical rerun coverage unexpectedly shrank")
+        unmatched = [
+            f"{event['id']} ({event['version']})"
+            for event in reruns
+            if debuts.get((event["game"], canonical_name(event["version"])), "9999-12-31")
+            >= event["date"]
+        ]
+        self.assertEqual(unmatched, [], "Rerun has no earlier debut in the dataset")
+
+    def test_corrected_character_names_and_false_schedule(self):
+        events = {event["id"]: event for event in self.read("release-events.json")["events"]}
+        self.assertEqual(events["history-ww-2026-05-21-393"]["version"], "ダーニャ")
+        self.assertEqual(events["history-zzz-2024-12-18-27"]["version"], "浅羽悠真")
+        self.assertNotIn("scheduled-nte-1.4-akane-rin", events)
+
     def test_other_feeds(self):
         for filename in ("steam-data.json", "youtube-data.json", "release-candidates.json"):
             data = self.read(filename)
