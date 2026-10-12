@@ -241,8 +241,9 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                     } else ""
                 ))
             if event["type"] == "weapon":
-                self.assertEqual(event["game"], "zzz")
-                self.assertIn(event.get("rarity"), {"S","A"})
+                self.assertIn(event["game"], {"zzz", "ww"})
+                self.assertIn(event.get("rarity"), {"S","A",5,4})
+                self.assertIn(event.get("banner_type"), {"w_engine_s_rank", "w_engine_a_rank", "w_engine_a_default", "ww_weapon_five", "ww_weapon_four", "ww_weapon_anniversary_five", "ww_weapon_anniversary_four", "ww_weapon_collab_five"})
                 self.assertEqual(event["event_kind"], "featured_banner")
                 self.assertIn(event.get("phase"), {"first","second"})
                 self.assertTrue(event.get("featured_five_star"))
@@ -492,17 +493,19 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
             "featured_convene_four_star", "anniversary_convene_four_star",
             "collab_convene_four_star", "reverb_convene_four_star",
             "chronicled_wish", "reminiscence_wish", "standard_character_event",
-            "w_engine_s_rank", "w_engine_a_rank", "w_engine_a_default"
+            "w_engine_s_rank", "w_engine_a_rank", "w_engine_a_default",
+            "ww_weapon_five", "ww_weapon_four", "ww_weapon_anniversary_five",
+            "ww_weapon_anniversary_four", "ww_weapon_collab_five"
         }
         specials = [e for e in events if e.get("banner_type")]
         self.assertGreaterEqual(len(specials), 20)
         for event in specials:
             self.assertIn(event["banner_type"], special_types)
-            self.assertEqual(event["type"], "weapon" if event["banner_type"].startswith("w_engine_") else "character")
+            self.assertEqual(event["type"], "weapon" if event["banner_type"].startswith(("w_engine_", "ww_weapon_")) else "character")
         html = (SITE / "index.html").read_text(encoding="utf-8")
         # Both the actual group filter and the coverage counters must agree.
         for kind in special_types:
-            self.assertGreaterEqual(html.count('"' + kind + '"'), 1 if kind.startswith("w_engine_") else 2, kind)
+            self.assertGreaterEqual(html.count('"' + kind + '"'), 1 if kind.startswith(("w_engine_", "ww_weapon_")) else 2, kind)
 
     def test_youtube_archive_over_3000_records(self):
         """A missing API key must not truncate or corrupt a large archive."""
@@ -681,9 +684,9 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         # reduce the outstanding set without rewriting historical evidence.
         new_secondary_ids = {
             e["id"] for e in events
-            if e["verification"] == "secondary" and e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-", "ww-extra-four-", "zzz-a-2026-backfill-", "zzz-wengine-"))
+            if e["verification"] == "secondary" and e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-", "ww-extra-four-", "zzz-a-2026-backfill-", "zzz-wengine-", "ww-weapon-"))
         }
-        self.assertEqual(len(new_secondary_ids), 512)  # 386 prior additions + 126 archived W-Engine slots
+        self.assertEqual(len(new_secondary_ids), 598)  # previous 512 + 86 secondary WW weapons
         self.assertTrue((secondary - new_secondary_ids) <= original_backlog)
         self.assertTrue(new_secondary_ids <= secondary)
         self.assertEqual(summary["secondary_labeled"], len(original_backlog))
@@ -1211,7 +1214,7 @@ class Hsr2025Zenless2025AdditionalRegressionTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1505)
+        self.assertEqual(len(events), 1607)
         hsr_new = [x for x in events
                    if x.get("banner_type") == "event_warp_four_star"
                    and x["date"] >= "2025-01-01"]
@@ -1315,7 +1318,7 @@ class WutheringSecondary108BatchTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1505)
+        self.assertEqual(len(events), 1607)
         added = [e for e in events if e["id"].startswith("ww-extra-four-")]
         self.assertEqual(len(added), 108)
         self.assertEqual({(e["verification"],e["rarity"]) for e in added},
@@ -1387,7 +1390,7 @@ class WEngine2025AndAgent2026RegressionTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1505)
+        self.assertEqual(len(events), 1607)
         added = [x for x in events
                  if x["id"].startswith(("zzz-a-2026-backfill-", "zzz-wengine-20"))]
         self.assertEqual(len(added), 107)
@@ -1428,7 +1431,7 @@ class WEngine2025AndAgent2026RegressionTests(unittest.TestCase):
         self.assertIn("function weaponHistory()", html)
         self.assertIn("武器・音動機ガチャ履歴（キャラ戦績と分離）", html)
         self.assertIn('["version","character","weapon"].includes(x.type)', html)
-        self.assertIn('const weaponBannerKinds=["w_engine_s_rank","w_engine_a_rank","w_engine_a_default"]', html)
+        self.assertIn('"ww_weapon_anniversary_five","ww_weapon_anniversary_four","ww_weapon_collab_five"', html)
         self.assertIn('初期設定・ユーザー変更可', html)
         self.assertIn('+weaponHistory()', html)
 
@@ -1443,7 +1446,7 @@ class ArchivedWEngine42BannersTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1505)
+        self.assertEqual(len(events), 1607)
         rows = [x for x in events if x["id"].startswith("zzz-wengine-archive-")]
         self.assertEqual(len(rows), 126)
         self.assertEqual(sum(x["rarity"] == "S" for x in rows), 42)
@@ -1479,6 +1482,73 @@ class ArchivedWEngine42BannersTests(unittest.TestCase):
                           x["featured_five_star"] == "葉瞬光"},
                          {"Cloudcleave Radiance", "The Vault", "Kaboom the Cannon"})
         self.assertFalse(any(x["date"] == "2026-07-08" for x in rows))
+
+
+class Wuthering2024To2026WeaponConveneTests(unittest.TestCase):
+    """102 WW weapon rows cover 66 regular, 10 anniversary, 2 collab, 24 four-star."""
+
+    def test_wuthering_102_weapon_records_and_references(self):
+        import pathlib
+        import json
+        root=pathlib.Path(__file__).resolve().parents[1]
+        events=json.loads((root/"gacha-wars"/"release-events.json").read_text(encoding="utf-8"))["events"]
+        self.assertEqual(len(events),1607)
+        rows=[e for e in events if e["id"].startswith("ww-weapon-")]
+        self.assertEqual(len(rows),102)
+        counts={"ww_weapon_five":66,"ww_weapon_anniversary_five":10,
+                "ww_weapon_collab_five":2,"ww_weapon_four":18,
+                "ww_weapon_anniversary_four":6}
+        self.assertEqual({k:sum(e["banner_type"]==k for e in rows) for k in counts},counts)
+        self.assertEqual(sum(e["verification"]=="official" for e in rows),16)
+        self.assertEqual(sum(e["verification"]=="secondary" for e in rows),86)
+        self.assertEqual(sum(e["rarity"]==5 for e in rows),78)
+        self.assertEqual(sum(e["rarity"]==4 for e in rows),24)
+        self.assertTrue(all(e["type"]=="weapon" for e in rows))
+        self.assertTrue(all(e["source_url"].startswith("https://") for e in rows))
+        self.assertTrue(all(e["featured_five_star"] for e in rows))
+        self.assertTrue(all(e["date_basis"] for e in rows))
+        self.assertEqual(len({e["id"] for e in rows}),102)
+        for date,weapon in [
+                ("2024-05-23","Verdant Summit"),
+                ("2025-02-13","Luminous Hymn"),
+                ("2025-07-24","Lethean Elegy"),
+                ("2025-11-20","Kumokiri"),
+                ("2026-06-13","Freeze Frame")]:
+            self.assertEqual(sum(e["date"]==date and e["version"]==weapon and
+                                 e["banner_type"]=="ww_weapon_five" for e in rows),1)
+
+    def test_anniversary_is_one_selectable_pool_not_five_independent_banners(self):
+        import pathlib
+        import json
+        root=pathlib.Path(__file__).resolve().parents[1]
+        events=json.loads((root/"gacha-wars"/"release-events.json").read_text(encoding="utf-8"))["events"]
+        rows=[e for e in events if e["id"].startswith("ww-weapon-anniv-") or
+              e.get("banner_type")=="ww_weapon_anniversary_four"]
+        for date,phase in [("2025-04-29","I"),("2025-05-22","II")]:
+            group=[e for e in rows if e["date"]==date]
+            self.assertEqual(len(group),8)
+            self.assertEqual(sum(e["rarity"]==5 for e in group),5)
+            self.assertEqual(sum(e["rarity"]==4 for e in group),3)
+            self.assertEqual({e["featured_five_star"] for e in group},
+                             {"周年限定選択武器・第"+phase+"期"})
+            self.assertEqual({e["weapon_banner_group"] for e in group},
+                             {"Anniversary Weapon Convene Phase "+phase})
+            self.assertEqual({e["verification"] for e in group},{"official"})
+        html=(root/"gacha-wars"/"index.html").read_text(encoding="utf-8")
+        self.assertIn("武器・音動機ガチャ履歴（キャラ戦績と分離）",html)
+        self.assertIn('"ww_weapon_anniversary_five"',html)
+        self.assertIn("選択可能な★5武器5本",html)
+        self.assertIn('e.rarity==="S"||e.rarity===5',html)
+
+    def test_low_four_star_early_first_party_boundary(self):
+        import json
+        from pathlib import Path
+        root=Path(__file__).resolve().parents[1]
+        events=json.loads((root/"gacha-wars"/"release-events.json").read_text(encoding="utf-8"))["events"]
+        early=[e for e in events if e.get("banner_type")=="ww_weapon_four" and e["date"]<"2024-07-01"]
+        self.assertEqual(len(early),9)
+        self.assertEqual({e["date"] for e in early},{"2024-05-23","2024-06-06","2024-06-28"})
+        self.assertTrue(all(e["verification"]=="secondary" for e in early))
 
 if __name__ == "__main__":
     unittest.main()
