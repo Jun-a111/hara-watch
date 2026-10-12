@@ -1711,7 +1711,7 @@ class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
         self.assertEqual(data["schema"],"gacha-wars-ww-fourstar-supplement-v1")
         self.assertEqual(len(data["phases"]),34)
         self.assertEqual(sum(len(x["featured_four"]) for x in data["phases"]),102)
-        self.assertEqual(sum(x["tier"]=="official" for x in data["phases"]),9)
+        self.assertEqual(sum(x["tier"]=="official" for x in data["phases"]),33)
         self.assertEqual(len({x["date"] for x in data["phases"]}),34)
         self.assertEqual(next(x for x in data["phases"] if x["date"]=="2026-09-30")["matching_five_star"],["Blooming Jadehaven","Kumokiri","Moongazer's Sigil"])
         for p in data["phases"]:
@@ -1763,6 +1763,38 @@ class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
             self.assertEqual(p["official_notice"],p["publisher_notices"][0])
             self.assertEqual(p["date_basis"],"publisher_pu_notices_5star_and_shared_4star_direct_match")
 
+
+    def test_all_other_24_publisher_rosters_and_corrected_errors(self):
+        data=self.archive()
+        expected={
+            "2024-07-22":1066,"2024-08-15":1171,"2024-09-07":1280,
+            "2024-09-29":1421,"2024-10-24":1542,"2024-11-14":1645,
+            "2024-12-12":1769,"2025-01-02":1898,"2025-01-23":2045,
+            "2025-02-13":2142,"2025-03-06":2227,"2025-03-27":2342,
+            "2025-04-17":2459,"2025-04-29":2534,"2025-05-22":2647,
+            "2025-06-12":2773,"2025-07-03":2874,"2025-07-24":2943,
+            "2025-08-14":3025,"2025-08-28":3155,"2025-09-17":3274,
+            "2025-10-09":3387,"2025-11-20":3623,"2025-12-11":3730,
+        }
+        self.assertEqual(len(expected),24)
+        for day,article in expected.items():
+            p=next(x for x in data["phases"] if x["date"]==day)
+            self.assertEqual(p["tier"],"official")
+            self.assertEqual(p["official_notice"],
+                "https://wutheringwaves.kurogames.com/en/main/news/detail/"+str(article))
+            self.assertEqual(len(p["featured_four"]),3)
+            self.assertIn(p["official_notice"],p["publisher_notices"])
+            self.assertIn(p["date_basis"],("publisher_exact_banner_start_and_rateup_lineup",
+                                           "publisher_rateup_lineup_community_phase_start"))
+        self.assertEqual(next(x for x in data["phases"] if x["date"]=="2025-11-20")["featured_four"],
+                         ["Commando of Conviction","Fusion Accretion","Helios Cleaver"])
+        self.assertEqual(next(x for x in data["phases"] if x["date"]=="2025-12-11")["featured_four"],
+                         ["Jinzhou Keeper","Celestial Spiral","Lunar Cutter"])
+        self.assertEqual([p["date"] for p in data["phases"] if p["tier"]=="secondary"],
+                         ["2026-03-19"])
+        site=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn("武器対象は公式照合済／開催日は外部履歴と照合",site)
+
     def test_runtime_105_weapon_records_distinct_normal_and_collab(self):
         html=(SITE/"index.html").read_text(encoding="utf-8")
         self.assertIn('"ww_weapon_collab_four"',html)
@@ -1781,8 +1813,8 @@ assert.equal(events.length,105);
 assert.equal(new Set(events.map(e=>e.id)).size,105);
 assert.equal(events.filter(e=>e.rarity===4).length,102);
 assert.equal(events.filter(e=>e.rarity===5).length,3);
-assert.equal(events.filter(e=>e.verification==="official").length,30);
-assert.equal(events.filter(e=>e.verification==="secondary").length,75);
+assert.equal(events.filter(e=>e.verification==="official").length,102);
+assert.equal(events.filter(e=>e.verification==="secondary").length,3);
 assert.equal(events.filter(e=>e.banner_type==="ww_weapon_collab_four").length,3);
 assert.ok(events.every(e=>e.type==="weapon"&&e.game==="ww"&&e.version_group.startsWith("Ver.")));
 assert.deepEqual(events.filter(e=>e.date==="2026-09-30"&&e.rarity===5).map(e=>e.version),
