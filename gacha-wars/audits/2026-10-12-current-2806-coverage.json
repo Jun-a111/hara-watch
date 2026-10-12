@@ -1,0 +1,70 @@
+{
+  "schema": "gacha-wars-current-coverage-v17",
+  "audit_date": "2026-10-12",
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-2788-coverage.json",
+  "previous_total": 2788,
+  "supplement": "gacha-wars/ww-2026-summer-official-weapons.json",
+  "supplement_blob_sha": "0eac3bb59b38ab8545cb1881ba0a2ec25f693321",
+  "publisher_verified_weapons_added": 18,
+  "summer_phase_groups": 4,
+  "summer_five_star_slots": 6,
+  "summer_four_star_slots": 12,
+  "combined_events": 2806,
+  "verification": {
+    "official": 1032,
+    "secondary": 1774
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 476,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "publisher_sources": [
+    {
+      "date": "2026-07-10",
+      "phase": "first",
+      "source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5039",
+      "maintenance": "https://wutheringwaves.kurogames.com/en/main/news/detail/4973"
+    },
+    {
+      "date": "2026-07-30",
+      "phase": "second",
+      "source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220",
+      "maintenance": null
+    },
+    {
+      "date": "2026-08-20",
+      "phase": "first",
+      "source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5318",
+      "maintenance": "https://wutheringwaves.kurogames.com/en/main/news/detail/5281"
+    },
+    {
+      "date": "2026-09-10",
+      "phase": "second",
+      "source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5431",
+      "maintenance": null
+    }
+  ],
+  "date_corrections": [
+    {
+      "archive_date": "2026-07-31",
+      "publisher_date": "2026-07-30",
+      "publisher_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5220"
+    },
+    {
+      "archive_date": "2026-09-11",
+      "publisher_date": "2026-09-10",
+      "publisher_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/5431"
+    }
+  ],
+  "limitations": [
+    "Four documented summer phases are publisher-sourced; other older and recent periods still require individual publisher-level verification.",
+    "Records are rate-up slots, not 18 new unique weapons.",
+    "Each phase's ★4 weapons form one common shared pool for concurrent individual ★5 weapon banners.",
+    "Two 2026 summer phase-II start dates differ from a community calculator and use the publisher's start time.",
+    "The full 2024-2026 character and weapon banner history is not yet verified as complete."
+  ]
+}
