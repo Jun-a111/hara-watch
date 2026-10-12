@@ -1,0 +1,170 @@
+{
+  "schema": "gacha-wars-current-coverage-v13",
+  "audit_date": "2026-10-12",
+  "dataset_blob_sha": "a0bc1ee1f42350ba7eab779fa51e909d73c865e4",
+  "total_events": 1607,
+  "by_game": {
+    "zzz": {
+      "total": 360,
+      "official": 133,
+      "secondary": 227,
+      "unreviewed": 0
+    },
+    "gi": {
+      "total": 547,
+      "official": 547,
+      "secondary": 0,
+      "unreviewed": 0
+    },
+    "ww": {
+      "total": 353,
+      "official": 156,
+      "secondary": 197,
+      "unreviewed": 0
+    },
+    "hsr": {
+      "total": 316,
+      "official": 139,
+      "secondary": 177,
+      "unreviewed": 0
+    },
+    "end": {
+      "total": 19,
+      "official": 18,
+      "secondary": 1,
+      "unreviewed": 0
+    },
+    "nte": {
+      "total": 12,
+      "official": 12,
+      "secondary": 0,
+      "unreviewed": 0
+    }
+  },
+  "by_banner_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 318,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5,
+    "event_warp_four_star": 177,
+    "exclusive_channel_a_rank": 84,
+    "featured_convene_four_star": 135,
+    "anniversary_convene_four_star": 6,
+    "collab_convene_four_star": 6,
+    "reverb_convene_four_star": 3,
+    "w_engine_s_rank": 65,
+    "w_engine_a_rank": 120,
+    "exclusive_channel_a_default": 10,
+    "w_engine_a_default": 10,
+    "ww_weapon_five": 66,
+    "ww_weapon_anniversary_five": 10,
+    "ww_weapon_collab_five": 2,
+    "ww_weapon_four": 18,
+    "ww_weapon_anniversary_four": 6
+  },
+  "verification": {
+    "official": 1005,
+    "secondary": 602
+  },
+  "batch": {
+    "previous_total": 1505,
+    "added": 102,
+    "game": "ww",
+    "weapon_five": 66,
+    "weapon_anniversary_five": 10,
+    "weapon_collab_five": 2,
+    "weapon_four": 18,
+    "weapon_anniversary_four": 6,
+    "official": 16,
+    "secondary": 86,
+    "source_archive": "https://wutheringwaves.fandom.com/wiki/Featured_Weapon_Convene",
+    "official_anniversary": [
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/2535",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/2662"
+    ],
+    "regular_five_star": [
+      "2024-05-23",
+      "2024-06-06",
+      "2024-06-28",
+      "2024-07-22",
+      "2024-08-15",
+      "2024-09-07",
+      "2024-09-29",
+      "2024-10-24",
+      "2024-11-14",
+      "2024-12-12",
+      "2025-01-02",
+      "2025-01-23",
+      "2025-02-13",
+      "2025-03-06",
+      "2025-03-27",
+      "2025-04-17",
+      "2025-04-29",
+      "2025-05-22",
+      "2025-06-12",
+      "2025-07-03",
+      "2025-07-24",
+      "2025-08-14",
+      "2025-08-28",
+      "2025-09-17",
+      "2025-10-09",
+      "2025-10-30",
+      "2025-11-20",
+      "2025-12-11",
+      "2025-12-25",
+      "2026-01-15",
+      "2026-02-05",
+      "2026-02-26",
+      "2026-03-19",
+      "2026-04-09",
+      "2026-04-30",
+      "2026-05-21",
+      "2026-06-13",
+      "2026-06-18"
+    ],
+    "selectable_anniversary_pools": [
+      {
+        "date": "2025-04-29",
+        "label": "Phase I",
+        "selectable_five": [
+          "Verdant Summit",
+          "Stringmaster",
+          "Rime-Draped Sprouts",
+          "Verity's Handle",
+          "Luminous Hymn"
+        ],
+        "shared_four": [
+          "Dauntless Evernight",
+          "Overture",
+          "Hollow Mirage"
+        ]
+      },
+      {
+        "date": "2025-05-22",
+        "label": "Phase II",
+        "selectable_five": [
+          "Ages of Harvest",
+          "Blazing Brilliance",
+          "The Last Dance",
+          "Tragicomedy",
+          "Unflickering Valor"
+        ],
+        "shared_four": [
+          "Undying Flame",
+          "Variation",
+          "Relativistic Jet"
+        ]
+      }
+    ]
+  },
+  "limitations": [
+    "Normal featured 5-star weapons are sourced to a community archive, then crosschecked against matching same-day 5-star resonator records; this does not replace first-party individual weapon rate-up verification.",
+    "Anniversary weapon pools are user-selectable (one 5-star out of five) and not five separate concurrent 5-star weapon banners. Six associated four-star slots are sourced directly from KURO GAMES official notices.",
+    "Collab weapon convenes have separate banner types and are not counted toward normal character banner revenue attribution.",
+    "Some weapon banners from Ver.3.4 onward, notably late 2026 and other games, are still incomplete; do not claim all-time completeness.",
+    "Verification flag indicates editorial provenance classification in this site, not a blanket cryptographic proof of all publisher claims."
+  ]
+}
