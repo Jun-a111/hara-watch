@@ -327,6 +327,17 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('!specialTypes.includes(e.banner_type)', phases)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
 
+    def test_yinlin_december_2024_rerun_source(self):
+        events = {e["id"]: e for e in self.read("release-events.json")["events"]}
+        event = events["historical-ww-2024-12-12-49"]
+        self.assertEqual(event["version"], "吟霖（復刻）")
+        self.assertEqual(event["date"], "2024-12-12")
+        self.assertEqual(event["verification"], "official")
+        self.assertEqual(
+            event["source_url"],
+            "https://wutheringwaves.kurogames.com/jp/main/news/detail/1762"
+        )
+
     def test_kuro_press_releases_for_early_2024_banners(self):
         """Check primary publisher release references for launch/early banners."""
         events = {e["id"]: e for e in self.read("release-events.json")["events"]}
