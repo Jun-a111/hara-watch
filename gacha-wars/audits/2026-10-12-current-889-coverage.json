@@ -1,0 +1,368 @@
+{
+  "schema": "gacha-wars-current-coverage-v7",
+  "audit_date": "2026-10-12",
+  "data_blob_sha": "45645d234a2e3e7da83bfbebbf1848d9e8c04191",
+  "total_records": 889,
+  "by_game": {
+    "zzz": {
+      "total": 71,
+      "debut": 40,
+      "rerun": 30,
+      "other": 0,
+      "version": 1,
+      "official": 71,
+      "secondary": 0
+    },
+    "gi": {
+      "total": 547,
+      "debut": 99,
+      "rerun": 122,
+      "other": 326,
+      "version": 0,
+      "official": 547,
+      "secondary": 0
+    },
+    "ww": {
+      "total": 101,
+      "debut": 39,
+      "rerun": 61,
+      "other": 0,
+      "version": 1,
+      "official": 98,
+      "secondary": 3
+    },
+    "hsr": {
+      "total": 139,
+      "debut": 56,
+      "rerun": 83,
+      "other": 0,
+      "version": 0,
+      "official": 139,
+      "secondary": 0
+    },
+    "end": {
+      "total": 19,
+      "debut": 13,
+      "rerun": 2,
+      "other": 4,
+      "version": 0,
+      "official": 18,
+      "secondary": 1
+    },
+    "nte": {
+      "total": 12,
+      "debut": 9,
+      "rerun": 3,
+      "other": 0,
+      "version": 0,
+      "official": 12,
+      "secondary": 0
+    }
+  },
+  "by_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 318,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5
+  },
+  "source_flags": {
+    "official": 885,
+    "secondary": 4,
+    "unreviewed": 0
+  },
+  "fourstar_regular_rateup_2020_2026": {
+    "periods": 106,
+    "slots": 318,
+    "periods_2020_2025": 93,
+    "slots_2020_2025": 279,
+    "periods_2026": 13,
+    "slots_2026": 39,
+    "all_periods_have_three": true
+  },
+  "this_batch": {
+    "new_records": 39,
+    "periods": 13,
+    "first_party_source_text_confirmed": true,
+    "new_four_star_debuts": [
+      "イルーガ",
+      "プルーネ",
+      "アリョーシャ"
+    ],
+    "event_wish_four_star_2026": [
+      {
+        "date": "2026-01-14",
+        "version_group": "Luna IV",
+        "phase": "first",
+        "members": [
+          "セトス",
+          "フィッシュル",
+          "イファ"
+        ],
+        "ids": [
+          "gi-four-pu-2026-01-14-1",
+          "gi-four-pu-2026-01-14-2",
+          "gi-four-pu-2026-01-14-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-02-03",
+        "version_group": "Luna IV",
+        "phase": "second",
+        "members": [
+          "イルーガ",
+          "アイノ",
+          "ゴロー"
+        ],
+        "ids": [
+          "gi-four-debut-2026-02-03-1",
+          "gi-four-pu-2026-02-03-2",
+          "gi-four-pu-2026-02-03-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000382.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-02-25",
+        "version_group": "Luna V",
+        "phase": "first",
+        "members": [
+          "ベネット",
+          "香菱",
+          "スクロース"
+        ],
+        "ids": [
+          "gi-four-pu-2026-02-25-1",
+          "gi-four-pu-2026-02-25-2",
+          "gi-four-pu-2026-02-25-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-03-17",
+        "version_group": "Luna V",
+        "phase": "second",
+        "members": [
+          "ダリア",
+          "キャンディス",
+          "シャルロット"
+        ],
+        "ids": [
+          "gi-four-pu-2026-03-17-1",
+          "gi-four-pu-2026-03-17-2",
+          "gi-four-pu-2026-03-17-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000395.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-04-08",
+        "version_group": "Luna VI",
+        "phase": "first",
+        "members": [
+          "イルーガ",
+          "アイノ",
+          "ノエル"
+        ],
+        "ids": [
+          "gi-four-pu-2026-04-08-1",
+          "gi-four-pu-2026-04-08-2",
+          "gi-four-pu-2026-04-08-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-04-28",
+        "version_group": "Luna VI",
+        "phase": "second",
+        "members": [
+          "行秋",
+          "綺良々",
+          "ヤフォダ"
+        ],
+        "ids": [
+          "gi-four-pu-2026-04-28-1",
+          "gi-four-pu-2026-04-28-2",
+          "gi-four-pu-2026-04-28-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000405.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-05-20",
+        "version_group": "Luna VII",
+        "phase": "first",
+        "members": [
+          "プルーネ",
+          "レザー",
+          "フィッシュル"
+        ],
+        "ids": [
+          "gi-four-debut-2026-05-20-1",
+          "gi-four-pu-2026-05-20-2",
+          "gi-four-pu-2026-05-20-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000408.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-06-09",
+        "version_group": "Luna VII",
+        "phase": "second",
+        "members": [
+          "ミカ",
+          "香菱",
+          "ベネット"
+        ],
+        "ids": [
+          "gi-four-pu-2026-06-09-1",
+          "gi-four-pu-2026-06-09-2",
+          "gi-four-pu-2026-06-09-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000415.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-07-01",
+        "version_group": "Luna VIII",
+        "phase": "first",
+        "members": [
+          "北斗",
+          "ディオナ",
+          "フレミネ"
+        ],
+        "ids": [
+          "gi-four-pu-2026-07-01-1",
+          "gi-four-pu-2026-07-01-2",
+          "gi-four-pu-2026-07-01-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-07-21",
+        "version_group": "Luna VIII",
+        "phase": "second",
+        "members": [
+          "ヤフォダ",
+          "オロルン",
+          "セトス"
+        ],
+        "ids": [
+          "gi-four-pu-2026-07-21-1",
+          "gi-four-pu-2026-07-21-2",
+          "gi-four-pu-2026-07-21-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000426.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-08-12",
+        "version_group": "Ver.7.0",
+        "phase": "first",
+        "members": [
+          "アリョーシャ",
+          "ディオナ",
+          "フレミネ"
+        ],
+        "ids": [
+          "gi-four-debut-2026-08-12-1",
+          "gi-four-pu-2026-08-12-2",
+          "gi-four-pu-2026-08-12-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000436.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-09-01",
+        "version_group": "Ver.7.0",
+        "phase": "second",
+        "members": [
+          "アイノ",
+          "イアンサ",
+          "藍硯"
+        ],
+        "ids": [
+          "gi-four-pu-2026-09-01-1",
+          "gi-four-pu-2026-09-01-2",
+          "gi-four-pu-2026-09-01-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000096124.html",
+        "official_article_4star_list_checked": true
+      },
+      {
+        "date": "2026-09-23",
+        "version_group": "Ver.7.1",
+        "phase": "first",
+        "members": [
+          "ディオナ",
+          "ファルザン",
+          "重雲"
+        ],
+        "ids": [
+          "gi-four-pu-2026-09-23-1",
+          "gi-four-pu-2026-09-23-2",
+          "gi-four-pu-2026-09-23-3"
+        ],
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000449.000096124.html",
+        "official_article_4star_list_checked": true
+      }
+    ],
+    "official_overrides_secondary_on_2026_08_12": {
+      "official": [
+        "アリョーシャ",
+        "ディオナ",
+        "フレミネ"
+      ],
+      "conflicting_secondary": [
+        "スクロース",
+        "リネット",
+        "アリョーシャ"
+      ],
+      "note": "COGNOSPHERE 2026-08-12 press announcement explicitly lists the former three. Third-party Game8 historical table differs.",
+      "secondary_reference_url": "https://game8.jp/genshin/631517"
+    }
+  },
+  "remaining_secondary": [
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "name": "鎖暝",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "name": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "name": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "name": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "source_url": "https://game8.jp/arknights-endfield/822407"
+    }
+  ],
+  "limitations": [
+    "This audit counts registered data and explicitly verified 2026 GI ★4 banners, not complete game-specific gacha archives.",
+    "All 2026 GI regular 4-star members are directly listed in their publisher announcements; older 2020-25 ★4 slots relied on mixed first-party links and historical tables; see prior audit.",
+    "Weapon banners and low-rarity gachas for other games remain incomplete.",
+    "Character four-star banner slots are excluded from earnings comparisons to avoid duplicating five-star banner revenue."
+  ]
+}
