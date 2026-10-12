@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-12T06:00:00.000Z",
+  "updated_at": "2026-10-12T14:18:00+09:00",
   "events": [
     {
       "id": "zzz-3.2",
@@ -225,13 +225,13 @@
       "type": "character",
       "version": "今汐",
       "date": "2024-06-28",
-      "source_url": "https://wutheringwaves.gg/version-1-1-thaw-of-eons-patch-notes/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/996",
+      "source_title": "鳴潮公式・Ver.1.1 Thaw of Eons Patch Notes",
       "phase": "first",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.1.1公式パッチノートの転載で6/28更新・Jinhsi新実装を確認 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "公式Ver.1.1パッチノート（2024-06-28）で今汐の新実装と『Thawborn Renewal』期間限定ガチャを確認。"
     },
     {
       "id": "history-ww-2024-07-22-3",
@@ -617,13 +617,13 @@
       "type": "character",
       "version": "折枝",
       "date": "2024-08-15",
-      "source_url": "https://wutheringwaves.gg/version-1-2-in-the-turquoise-moonglow-patch-notes-4/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://wutheringwaves.kurogames.com/es/main/news/detail/1189",
+      "source_title": "鳴潮公式・Ver.1.2アップデート告知（スペイン語）",
       "phase": "first",
       "version_group": "Ver.1.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.1.2公式パッチノート転載に8/15更新・Zhezhi初登場を明記 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "公式Ver.1.2更新告知（2024-08-15）に折枝（Zhezhi）の新登場と『Chromatic Prose』ピックアップ掲載。"
     },
     {
       "id": "historical-ww-2024-09-07-45",
@@ -1291,13 +1291,13 @@
       "type": "character",
       "version": "カルテジア",
       "date": "2025-06-12",
-      "source_url": "https://wutheringwaves.gg/patch-notes-for-version-2-4-lightly-we-toss-the-crown/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2801",
+      "source_title": "鳴潮公式・Ver.2.4 Lightly We Toss the Crown Patch Notes",
       "phase": "first",
       "version_group": "Ver.2.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.2.4公式パッチノート転載に6/12更新・Cartethyia実装を記載 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "公式Ver.2.4パッチノート（2025-06-12）でカルテジア（Cartethyia）の新実装と『Dance in the Storm's Wake』PUを確認。"
     },
     {
       "id": "history-ww-2025-07-03-93",
@@ -1319,13 +1319,13 @@
       "type": "character",
       "version": "フローヴァ",
       "date": "2025-07-24",
-      "source_url": "https://wutheringwaves.gg/patch-notes-for-version-2-5-unfading-melody-of-life/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2936",
+      "source_title": "鳴潮公式・フローヴァ（Phrolova）ガチャ開催告知",
       "phase": "first",
       "version_group": "Ver.2.5",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.2.5公式パッチノート転載に7/24更新・Phrolova実装を記載。誤記フルールドリスは別キャラクターの別名のためフローヴァに修正 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "公式『Requiem Without End』ガチャ告知（2025-07-23）にフローヴァのPUとVer.2.5更新～2025-08-14の開催期間を明記。"
     },
     {
       "id": "history-ww-2025-07-24-95",
