@@ -1,5 +1,98 @@
 [
   {
+    "id": "wuwa-official-20261007-lily-reveal",
+    "date": "2026-10-07",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮、新共鳴者「リリー」を正式公開！回折・拳銃のキャラクター",
+    "summary": "10月7日にリリーのキャラクター情報が公開。10月8日には公式の共鳴者アーカイブプレビューも公開され、回折属性・拳銃武器が紹介された。実装時期は公式確定情報と予想を区別する。",
+    "url": "https://www.youtube.com/@WutheringWavesJP",
+    "source": "鳴潮公式YouTube・公式X、GameWith",
+    "tags": [
+      "鳴潮",
+      "リリー",
+      "新キャラ",
+      "公式情報"
+    ],
+    "spoiler": false,
+    "body": "■ 10月7日：リリーのキャラクター紹介\n公式YouTubeで『後悲鳴人類記事：交錯する星群れ』——リリーが公開。リリーは鋭い嗅覚を持ち、調香で他者の精神を癒やす短い夢を作るという設定が紹介された。\n\n■ 10月8日：アーカイブプレビュー\n公式の『共鳴者アーカイブプレビュー｜リリー』が公開。共鳴属性は回折、武器は拳銃。\n\n■ 実装時期\nVer.3.8実装の可能性は攻略サイトで予想されているが、正式な実装日と混同しない。",
+    "sources": [
+      {
+        "name": "鳴潮公式動画掲載履歴",
+        "url": "https://yutura.net/channel/97834/latest/",
+        "type": "公式動画の掲載情報"
+      },
+      {
+        "name": "GameWith最新情報",
+        "url": "https://gamewith.jp/wutheringwaves/",
+        "type": "補足"
+      }
+    ]
+  },
+  {
+    "id": "wuwa-official-20261011-solaris-starry-stage-2",
+    "date": "2026-10-11",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮の同人スペシャル番組「ソラリス・スターリーステージ Season 2」公開！",
+    "summary": "10月11日12時に鳴潮公式の二次創作特別番組が配信。ファン作品・音楽を中心とした企画で、ゲーム本編の公式設定とは区別する。",
+    "url": "https://youtu.be/xkcgxKmBZM4",
+    "source": "鳴潮公式X・公式YouTube",
+    "tags": [
+      "鳴潮",
+      "公式番組",
+      "同人",
+      "ソラリス・スターリーステージ"
+    ],
+    "spoiler": false,
+    "body": "■ 10月11日12時（JST）開演\n『鳴潮』二次創作特別番組『ソラリス・スターリーステージ Season 2』が公式YouTubeで公開された。10月4日には開催が告知され、応援特集も掲載された。\n\n■ 注意\n番組内容は二次創作であり、ゲーム内の実際のストーリーや設定を示すものではないと公式が明記している。",
+    "sources": [
+      {
+        "name": "公式番組",
+        "url": "https://youtu.be/xkcgxKmBZM4",
+        "type": "公式YouTube"
+      },
+      {
+        "name": "公式X告知の掲載情報",
+        "url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8",
+        "type": "公式投稿検索"
+      }
+    ]
+  },
+  {
+    "id": "wuwa-official-20261011-starry-stage-redeem-codes",
+    "date": "2026-10-11",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮の同人番組記念コード2種公開！10月14日0:59までに交換",
+    "summary": "STARRYSTAGE2とKEEPONSHININGが公開。それぞれ星声80個、合計160個。交換期限は2026年10月14日0:59（日本時間）と案内されている。",
+    "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
+    "source": "鳴潮同人番組・鳴潮Wiki・GameWith",
+    "tags": [
+      "鳴潮",
+      "交換コード",
+      "星声",
+      "期限あり"
+    ],
+    "spoiler": false,
+    "body": "■ 記念引換コード\nSTARRYSTAGE2：星声80個\nKEEPONSHINING：星声80個\n合計：星声160個\n\n■ 期限\n2026年10月14日（水）0:59（JST）まで。期限切れ前の入力を推奨。実際の利用可否はゲーム内で確認してほしい。",
+    "sources": [
+      {
+        "name": "鳴潮Wiki・引換コード",
+        "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
+        "type": "コード一覧"
+      },
+      {
+        "name": "GameWith",
+        "url": "https://gamewith.jp/wutheringwaves/",
+        "type": "期限と報酬"
+      }
+    ]
+  },
+  {
     "id": "manual-20261012-zzz-skin-male-character-fanservice-debate",
     "date": "2026-10-12",
     "category": "ゼンゼロ",
