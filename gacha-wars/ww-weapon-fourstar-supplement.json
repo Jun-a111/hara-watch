@@ -32,7 +32,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Blazing Brilliance"
-      ]
+      ],
+      "version_group": "Ver.1.1"
     },
     {
       "date": "2024-08-15",
@@ -49,7 +50,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Rime-Draped Sprouts"
-      ]
+      ],
+      "version_group": "Ver.1.2"
     },
     {
       "date": "2024-09-07",
@@ -66,7 +68,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Verity's Handle"
-      ]
+      ],
+      "version_group": "Ver.1.2"
     },
     {
       "date": "2024-09-29",
@@ -83,7 +86,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Stellar Symphony"
-      ]
+      ],
+      "version_group": "Ver.1.3"
     },
     {
       "date": "2024-10-24",
@@ -100,7 +104,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Verdant Summit"
-      ]
+      ],
+      "version_group": "Ver.1.3"
     },
     {
       "date": "2024-11-14",
@@ -117,7 +122,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Red Spring"
-      ]
+      ],
+      "version_group": "Ver.1.4"
     },
     {
       "date": "2024-12-12",
@@ -135,7 +141,8 @@
       "matching_five_star": [
         "Stringmaster",
         "Verity's Handle"
-      ]
+      ],
+      "version_group": "Ver.1.4"
     },
     {
       "date": "2025-01-02",
@@ -153,7 +160,8 @@
       "matching_five_star": [
         "Rime-Draped Sprouts",
         "The Last Dance"
-      ]
+      ],
+      "version_group": "Ver.2.0"
     },
     {
       "date": "2025-01-23",
@@ -171,7 +179,8 @@
       "matching_five_star": [
         "Ages of Harvest",
         "Tragicomedy"
-      ]
+      ],
+      "version_group": "Ver.2.0"
     },
     {
       "date": "2025-02-13",
@@ -188,7 +197,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Luminous Hymn"
-      ]
+      ],
+      "version_group": "Ver.2.1"
     },
     {
       "date": "2025-03-06",
@@ -206,7 +216,8 @@
       "matching_five_star": [
         "Blazing Brilliance",
         "Unflickering Valor"
-      ]
+      ],
+      "version_group": "Ver.2.1"
     },
     {
       "date": "2025-03-27",
@@ -224,7 +235,8 @@
       "matching_five_star": [
         "Red Spring",
         "Whispers of Sirens"
-      ]
+      ],
+      "version_group": "Ver.2.2"
     },
     {
       "date": "2025-04-17",
@@ -241,7 +253,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Stellar Symphony"
-      ]
+      ],
+      "version_group": "Ver.2.2"
     },
     {
       "date": "2025-04-29",
@@ -258,7 +271,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Blazing Justice"
-      ]
+      ],
+      "version_group": "Ver.2.3"
     },
     {
       "date": "2025-05-22",
@@ -275,7 +289,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Woodland Aria"
-      ]
+      ],
+      "version_group": "Ver.2.3"
     },
     {
       "date": "2025-06-12",
@@ -292,7 +307,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Defier's Thorn"
-      ]
+      ],
+      "version_group": "Ver.2.4"
     },
     {
       "date": "2025-07-03",
@@ -309,7 +325,8 @@
       "official_notice": null,
       "matching_five_star": [
         "Wildfire Mark"
-      ]
+      ],
+      "version_group": "Ver.2.4"
     },
     {
       "date": "2025-07-24",
@@ -327,7 +344,8 @@
       "matching_five_star": [
         "Lethean Elegy",
         "Tragicomedy"
-      ]
+      ],
+      "version_group": "Ver.2.5"
     },
     {
       "date": "2025-08-14",
@@ -345,7 +363,8 @@
       "matching_five_star": [
         "Unflickering Valor",
         "Whispers of Sirens"
-      ]
+      ],
+      "version_group": "Ver.2.5"
     },
     {
       "date": "2025-08-28",
@@ -364,7 +383,8 @@
         "Stellar Symphony",
         "The Last Dance",
         "Thunderflare Dominion"
-      ]
+      ],
+      "version_group": "Ver.2.6"
     },
     {
       "date": "2025-09-17",
@@ -382,7 +402,8 @@
       "matching_five_star": [
         "Moongazer's Sigil",
         "Woodland Aria"
-      ]
+      ],
+      "version_group": "Ver.2.6"
     },
     {
       "date": "2025-10-09",
@@ -400,7 +421,8 @@
       "matching_five_star": [
         "Lux & Umbra",
         "Wildfire Mark"
-      ]
+      ],
+      "version_group": "Ver.2.7"
     },
     {
       "date": "2025-10-30",
@@ -418,7 +440,8 @@
       "matching_five_star": [
         "Blazing Justice",
         "Emerald Sentence"
-      ]
+      ],
+      "version_group": "Ver.2.7"
     },
     {
       "date": "2025-11-20",
@@ -436,7 +459,8 @@
       "matching_five_star": [
         "Kumokiri",
         "Luminous Hymn"
-      ]
+      ],
+      "version_group": "Ver.2.8"
     },
     {
       "date": "2025-12-11",
@@ -454,7 +478,8 @@
       "matching_five_star": [
         "Lethean Elegy",
         "Whispers of Sirens"
-      ]
+      ],
+      "version_group": "Ver.2.8"
     },
     {
       "date": "2025-12-25",
@@ -473,7 +498,8 @@
         "Defier's Thorn",
         "Spectrum Blaster",
         "Woodland Aria"
-      ]
+      ],
+      "version_group": "Ver.3.0"
     },
     {
       "date": "2026-01-15",
@@ -492,7 +518,8 @@
         "Moongazer's Sigil",
         "Starfield Calibrator",
         "Thunderflare Dominion"
-      ]
+      ],
+      "version_group": "Ver.3.0"
     },
     {
       "date": "2026-02-05",
@@ -511,7 +538,8 @@
         "Everbright Polestar",
         "Kumokiri",
         "Wildfire Mark"
-      ]
+      ],
+      "version_group": "Ver.3.1"
     },
     {
       "date": "2026-02-26",
@@ -529,7 +557,8 @@
       "matching_five_star": [
         "Daybreaker's Spine",
         "Lux & Umbra"
-      ]
+      ],
+      "version_group": "Ver.3.1"
     },
     {
       "date": "2026-03-19",
@@ -547,7 +576,8 @@
       "matching_five_star": [
         "Emerald Sentence",
         "Solsworn Ciphers"
-      ]
+      ],
+      "version_group": "Ver.3.2"
     },
     {
       "date": "2026-04-09",
@@ -566,7 +596,8 @@
         "Blazing Justice",
         "Luminous Hymn",
         "Spectrum Blaster"
-      ]
+      ],
+      "version_group": "Ver.3.2"
     },
     {
       "date": "2026-04-30",
@@ -585,7 +616,8 @@
         "Frostburn",
         "Moongazer's Sigil",
         "Starfield Calibrator"
-      ]
+      ],
+      "version_group": "Ver.3.3"
     },
     {
       "date": "2026-06-08",
@@ -603,7 +635,8 @@
       "matching_five_star": [
         "Spectral Trigger",
         "Skull Thrasher"
-      ]
+      ],
+      "version_group": "Ver.3.4"
     },
     {
       "date": "2026-09-30",
@@ -622,7 +655,8 @@
         "Blooming Jadehaven",
         "Kumokiri",
         "Moongazer's Sigil"
-      ]
+      ],
+      "version_group": "Ver.3.7"
     }
   ]
 }
