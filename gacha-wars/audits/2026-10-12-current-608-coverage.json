@@ -1,0 +1,353 @@
+{
+  "schema": "gacha-wars-current-coverage-v4",
+  "date": "2026-10-12",
+  "data_blob_sha": "d9e7b2de6edab8a13e28bf0a7cc4c926c54827c5",
+  "event_count": 608,
+  "game_counts": {
+    "zzz": {
+      "total": 71,
+      "debut": 40,
+      "rerun": 30,
+      "featured_other": 0,
+      "version": 1,
+      "official": 71,
+      "secondary": 0
+    },
+    "gi": {
+      "total": 266,
+      "debut": 96,
+      "rerun": 122,
+      "featured_other": 48,
+      "version": 0,
+      "official": 266,
+      "secondary": 0
+    },
+    "ww": {
+      "total": 101,
+      "debut": 39,
+      "rerun": 61,
+      "featured_other": 0,
+      "version": 1,
+      "official": 98,
+      "secondary": 3
+    },
+    "hsr": {
+      "total": 139,
+      "debut": 56,
+      "rerun": 83,
+      "featured_other": 0,
+      "version": 0,
+      "official": 139,
+      "secondary": 0
+    },
+    "end": {
+      "total": 19,
+      "debut": 13,
+      "rerun": 2,
+      "featured_other": 4,
+      "version": 0,
+      "official": 18,
+      "secondary": 1
+    },
+    "nte": {
+      "total": 12,
+      "debut": 9,
+      "rerun": 3,
+      "featured_other": 0,
+      "version": 0,
+      "official": 12,
+      "secondary": 0
+    }
+  },
+  "source_hosts": {
+    "prtimes.jp": 434,
+    "zenless.hoyoverse.com": 10,
+    "wutheringwaves.kurogames.com": 84,
+    "www.hoyolab.com": 10,
+    "www.facebook.com": 7,
+    "www.hoyoverse.com": 23,
+    "genshin.hoyoverse.com": 11,
+    "endfield.gryphline.com": 15,
+    "nte.perfectworld.com": 11,
+    "x.com": 1,
+    "game8.jp": 1,
+    "blog.playstation.com": 1
+  },
+  "added_in_batch": {
+    "type": "Genshin Impact first appearance of four-star characters",
+    "count": 33,
+    "records": [
+      {
+        "id": "gi-four-debut-2020-11-11-0",
+        "date": "2020-11-11",
+        "name": "ディオナ",
+        "version_group": "Ver.1.1",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000041.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2020-12-01-1",
+        "date": "2020-12-01",
+        "name": "辛炎",
+        "version_group": "Ver.1.1",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2021-04-06-2",
+        "date": "2021-04-06",
+        "name": "ロサリア",
+        "version_group": "Ver.1.4",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000062.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2021-04-28-3",
+        "date": "2021-04-28",
+        "name": "煙緋",
+        "version_group": "Ver.1.5",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2021-08-10-4",
+        "date": "2021-08-10",
+        "name": "早柚",
+        "version_group": "Ver.2.0",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000095.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2021-09-01-5",
+        "date": "2021-09-01",
+        "name": "九条裟羅",
+        "version_group": "Ver.2.1",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000100.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2021-11-02-6",
+        "date": "2021-11-02",
+        "name": "トーマ",
+        "version_group": "Ver.2.2",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000116.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2021-12-14-7",
+        "date": "2021-12-14",
+        "name": "ゴロー",
+        "version_group": "Ver.2.3",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000125.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2022-01-05-8",
+        "date": "2022-01-05",
+        "name": "雲菫",
+        "version_group": "Ver.2.4",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000129.000048345.html"
+      },
+      {
+        "id": "gi-four-debut-2022-06-21-9",
+        "date": "2022-06-21",
+        "name": "久岐忍",
+        "version_group": "Ver.2.7",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000017.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2022-07-13-10",
+        "date": "2022-07-13",
+        "name": "鹿野院平蔵",
+        "version_group": "Ver.2.8",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2022-08-24-11",
+        "date": "2022-08-24",
+        "name": "コレイ",
+        "version_group": "Ver.3.0",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2022-09-09-12",
+        "date": "2022-09-09",
+        "name": "ドリー",
+        "version_group": "Ver.3.0",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000027.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2022-09-28-13",
+        "date": "2022-09-28",
+        "name": "キャンディス",
+        "version_group": "Ver.3.1",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2022-11-18-14",
+        "date": "2022-11-18",
+        "name": "レイラ",
+        "version_group": "Ver.3.2",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000039.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2022-12-07-15",
+        "date": "2022-12-07",
+        "name": "ファルザン",
+        "version_group": "Ver.3.3",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2023-01-18-16",
+        "date": "2023-01-18",
+        "name": "ヨォーヨ",
+        "version_group": "Ver.3.4",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2023-03-21-17",
+        "date": "2023-03-21",
+        "name": "ミカ",
+        "version_group": "Ver.3.5",
+        "source_url": "https://genshin.hoyoverse.com/ja/news/detail/105560"
+      },
+      {
+        "id": "gi-four-debut-2023-05-02-18",
+        "date": "2023-05-02",
+        "name": "カーヴェ",
+        "version_group": "Ver.3.6",
+        "source_url": "https://genshin.hoyoverse.com/fr/news/detail/111269"
+      },
+      {
+        "id": "gi-four-debut-2023-05-24-19",
+        "date": "2023-05-24",
+        "name": "綺良々",
+        "version_group": "Ver.3.7",
+        "source_url": "https://www.hoyoverse.com/en-us/news/111610"
+      },
+      {
+        "id": "gi-four-debut-2023-08-16-20",
+        "date": "2023-08-16",
+        "name": "リネット",
+        "version_group": "Ver.4.0",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000114.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2023-09-05-21",
+        "date": "2023-09-05",
+        "name": "フレミネ",
+        "version_group": "Ver.4.0",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000123.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2023-11-08-22",
+        "date": "2023-11-08",
+        "name": "シャルロット",
+        "version_group": "Ver.4.2",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000143.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2024-01-09-23",
+        "date": "2024-01-09",
+        "name": "シュヴルーズ",
+        "version_group": "Ver.4.3",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000169.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2024-01-31-24",
+        "date": "2024-01-31",
+        "name": "嘉明",
+        "version_group": "Ver.4.4",
+        "source_url": "https://www.hoyoverse.com/en-us/news/122237"
+      },
+      {
+        "id": "gi-four-debut-2024-06-05-25",
+        "date": "2024-06-05",
+        "name": "セトス",
+        "version_group": "Ver.4.7",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000211.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2024-08-28-26",
+        "date": "2024-08-28",
+        "name": "カチーナ",
+        "version_group": "Ver.5.0",
+        "source_url": "https://blog.playstation.com/2024/08/16/genshin-impact-welcomes-the-sixth-major-nation-of-teyvat-with-version-5-0-going-live-august-28/"
+      },
+      {
+        "id": "gi-four-debut-2024-11-20-27",
+        "date": "2024-11-20",
+        "name": "オロルン",
+        "version_group": "Ver.5.2",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000264.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2025-01-21-28",
+        "date": "2025-01-21",
+        "name": "藍硯",
+        "version_group": "Ver.5.3",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2025-03-26-29",
+        "date": "2025-03-26",
+        "name": "イアンサ",
+        "version_group": "Ver.5.5",
+        "source_url": "https://www.hoyoverse.com/en-us/news/155170"
+      },
+      {
+        "id": "gi-four-debut-2025-05-07-30",
+        "date": "2025-05-07",
+        "name": "イファ",
+        "version_group": "Ver.5.6",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000310.000096124.html"
+      },
+      {
+        "id": "gi-four-debut-2025-06-18-31",
+        "date": "2025-06-18",
+        "name": "ダリア",
+        "version_group": "Ver.5.7",
+        "source_url": "https://www.hoyoverse.com/en-us/news/157079"
+      },
+      {
+        "id": "gi-four-debut-2025-12-03-32",
+        "date": "2025-12-03",
+        "name": "ヤフォダ",
+        "version_group": "Luna III",
+        "source_url": "https://prtimes.jp/main/html/rd/p/000000366.000096124.html"
+      }
+    ]
+  },
+  "special_five_star_pool_count": 7,
+  "special_five_star_pool_character_slots": 43,
+  "pending_primary_confirmation": [
+    {
+      "id": "ww-3.7-samei",
+      "name": "鎖暝",
+      "date": "2026-10-22",
+      "reason": "KURO GAMES公式が鎖暝をVer.3.7後半に告知し、公式第1期ガチャが10月22日10:59（JST）終了。第2期の正確な開始時刻と開催告知は未照合。",
+      "source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "name": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "reason": "KURO GAMES公式はリンネーのVer.3.7後半復刻を発表。第1期10月22日10:59（JST）終了を確認したが、第2期の直接の開催告知は未確認。",
+      "source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "name": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "reason": "KURO GAMES公式はルシラーのVer.3.7後半復刻を発表。第1期10月22日10:59（JST）終了を確認したが、第2期の直接の開催告知は未確認。",
+      "source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "name": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "reason": "Game8は10月29日からの再現スカウト『祖泉の新流』#1でタンタン復刻と報告。GRYPHLINE公式の同開催日時明記は未取得。",
+      "source": "https://game8.jp/arknights-endfield/822407"
+    }
+  ],
+  "limitations": [
+    "33 newly registered four-star entries cover initial release banners from 2020 to 2025, not every later four-star rerun or featured rotation.",
+    "HoYoverse first-party website and issuer-authored press-release URLs have been collected; this audit does not prove independent textual verification of every recorded entry.",
+    "A four-star debuted on a shared event banner, not a separate 4-star-only banner. Event_wish_four_star entries must never be ranked as stand-alone revenue events.",
+    "The archive has not established a complete set of three-star/four-star rotations, all weapons, or every separately selectable rerun.",
+    "All games' registration counts and official flags are data annotations, not certified complete factual coverage.",
+    "Four upcoming 2026-10-22/29 scheduled entries remain secondary, without publisher-confirmed exact starts."
+  ]
+}
