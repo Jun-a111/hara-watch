@@ -235,6 +235,37 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                          "duplicate character banner on the same date")
 
 
+    def test_special_pools_share_one_visible_row(self):
+        """Each 3-person four-star rotation should render once, without losing names."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        helper = html[html.index("function renderSpecialEventsGrouped("):
+                      html.index("function characterRanking()")]
+        scenario = r'''
+const assert = require("node:assert/strict");
+const esc = String;
+const name = value => value === "gi" ? "原神" : value;
+const phaseLabel = x => x.phase === "first" ? "前半" : "後半";
+const eventSource = e => '<a>' + e.source_url + '</a>';
+const sample = ["ヨォーヨ", "雲菫", "辛炎"].map((version,i)=>({
+  id:"test"+i,game:"gi",type:"character",version,date:"2023-01-18",
+  phase:"first",version_group:"Ver.3.4",
+  banner_type:"event_wish_four_star",
+  rarity:4,source_url:"https://example.com/source"
+}));
+const result=renderSpecialEventsGrouped(sample);
+assert.equal((result.match(/<tr>/g)||[]).length,1);
+for (const e of sample) assert.ok(result.includes(e.version));
+assert.ok(result.includes("3枠を同時開催"));
+assert.equal((result.match(/https:\/\/example.com\/source/g)||[]).length,1);
+const another={...sample[0],id:"other",date:"2023-02-07"};
+assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]).length,2);
+'''
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp) / "grouped-special.cjs"
+            path.write_text(helper + "\n" + scenario, encoding="utf-8")
+            subprocess.run(["node", str(path)], check=True,
+                           capture_output=True, text=True)
+
     def test_genshin_2023_2025_four_star_phase_coverage(self):
         """Every 2023-25 limited wish phase has one shared three-character pool."""
         audit = self.read("audits/2026-10-12-genshin-2023-2025-fourstar-rotations.json")
@@ -521,7 +552,10 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('"special_rerun"', ranking)
         self.assertIn('!specialTypes.includes(ev.banner_type)', updates)
         self.assertIn('!specialTypes.includes(e.banner_type)', phases)
-        self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
+        grouped = html[html.index("function renderSpecialEventsGrouped("):
+                       html.index("function characterRanking()")]
+        self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', grouped)
+        self.assertIn("renderSpecialEventsGrouped(specialEvents)", ranking)
 
     def test_yinlin_december_2024_rerun_source(self):
         events = {e["id"]: e for e in self.read("release-events.json")["events"]}
