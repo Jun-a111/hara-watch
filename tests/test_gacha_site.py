@@ -1792,8 +1792,15 @@ class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
                          ["Jinzhou Keeper","Celestial Spiral","Lunar Cutter"])
         self.assertEqual([p["date"] for p in data["phases"] if p["tier"]=="secondary"],
                          ["2026-03-19"])
+        remaining=next(p for p in data["phases"] if p["date"]=="2026-03-19")
+        self.assertEqual(remaining["date_basis"],"publisher_maintenance_day_2026_03_19_secondary_weapon_rateup")
+        self.assertEqual(remaining["publisher_date_source"],
+            "https://wutheringwaves.kurogames.com/en/main/news/detail/4403")
+        self.assertEqual(remaining["tier"],"secondary")
+
         site=(SITE/"index.html").read_text(encoding="utf-8")
         self.assertIn("武器対象は公式照合済／開催日は外部履歴と照合",site)
+        self.assertIn("開催日は公式確認済／★4対象は外部資料",site)
 
     def test_runtime_105_weapon_records_distinct_normal_and_collab(self):
         html=(SITE/"index.html").read_text(encoding="utf-8")
