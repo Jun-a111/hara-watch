@@ -1,0 +1,160 @@
+{
+  "schema": "gacha-wars-coverage-audit-v2",
+  "audit_date": "2026-10-12",
+  "event_data_blob_sha": "c436979e22efdc05e35843309918c09b635b5018",
+  "total_events": 538,
+  "counts_by_game": {
+    "zzz": {
+      "total": 71,
+      "debut": 40,
+      "rerun": 30,
+      "other_character": 0,
+      "version": 1,
+      "official": 66,
+      "secondary": 5,
+      "announced": 0
+    },
+    "gi": {
+      "total": 196,
+      "debut": 63,
+      "rerun": 122,
+      "other_character": 11,
+      "version": 0,
+      "official": 196,
+      "secondary": 0,
+      "announced": 0
+    },
+    "ww": {
+      "total": 101,
+      "debut": 39,
+      "rerun": 61,
+      "other_character": 0,
+      "version": 1,
+      "official": 51,
+      "secondary": 50,
+      "announced": 3
+    },
+    "hsr": {
+      "total": 139,
+      "debut": 56,
+      "rerun": 83,
+      "other_character": 0,
+      "version": 0,
+      "official": 138,
+      "secondary": 1,
+      "announced": 0
+    },
+    "end": {
+      "total": 19,
+      "debut": 13,
+      "rerun": 2,
+      "other_character": 4,
+      "version": 0,
+      "official": 18,
+      "secondary": 1,
+      "announced": 3
+    },
+    "nte": {
+      "total": 12,
+      "debut": 9,
+      "rerun": 3,
+      "other_character": 0,
+      "version": 0,
+      "official": 12,
+      "secondary": 0,
+      "announced": 0
+    }
+  },
+  "verification": {
+    "official": 481,
+    "secondary": 57
+  },
+  "source_host_breakdown": {
+    "prtimes.jp": {
+      "count": 371,
+      "official": 368,
+      "secondary": 3
+    },
+    "zenless.hoyoverse.com": {
+      "count": 8,
+      "official": 8,
+      "secondary": 0
+    },
+    "wutheringwaves.kurogames.com": {
+      "count": 40,
+      "official": 40,
+      "secondary": 0
+    },
+    "wutheringwaves.fandom.com": {
+      "count": 1,
+      "official": 0,
+      "secondary": 1
+    },
+    "wutheringwaves.gg": {
+      "count": 44,
+      "official": 0,
+      "secondary": 44
+    },
+    "www.hoyolab.com": {
+      "count": 10,
+      "official": 10,
+      "secondary": 0
+    },
+    "zenless.gg": {
+      "count": 5,
+      "official": 0,
+      "secondary": 5
+    },
+    "www.dearplayers.com": {
+      "count": 2,
+      "official": 0,
+      "secondary": 2
+    },
+    "www.hoyoverse.com": {
+      "count": 19,
+      "official": 19,
+      "secondary": 0
+    },
+    "genshin.hoyoverse.com": {
+      "count": 4,
+      "official": 4,
+      "secondary": 0
+    },
+    "endfield.gryphline.com": {
+      "count": 15,
+      "official": 15,
+      "secondary": 0
+    },
+    "nte.perfectworld.com": {
+      "count": 11,
+      "official": 11,
+      "secondary": 0
+    },
+    "gamewith.jp": {
+      "count": 1,
+      "official": 0,
+      "secondary": 1
+    },
+    "www.facebook.com": {
+      "count": 6,
+      "official": 6,
+      "secondary": 0
+    },
+    "game8.jp": {
+      "count": 1,
+      "official": 0,
+      "secondary": 1
+    }
+  },
+  "changes_from_535_snapshot": [
+    "Added three missing eligible six-star operators in Endfield May 14 2026 four-operator special scout. All four labeled featured_banner (special_rerun), not individual rate-up reruns.",
+    "Reclassified 52 character records sourced only to WutheringWaves.gg, Zenless.gg, WutheringWaves Fandom and DearPlayers as secondary rather than official. No event dates or existence changed by reclassification.",
+    "Automated test added to guard against regressions on special-scout coverage and third-party provenance."
+  ],
+  "remaining_gaps": [
+    "Records classified 'official' via PR TIMES retain an independent publisher-account identity check backlog.",
+    "Official source status does not prove character banner archive completeness.",
+    "Some future dates are estimates; separate official announcement of exact start remains needed for the three WW Ver.3.7 second-phase entries and the Endfield Tangtang rerun."
+  ],
+  "notes": "This is a structured local-data audit, not an exhaustive review of every official announcement. Historic earlier audit snapshots must not be treated as current totals."
+}
