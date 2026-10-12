@@ -230,9 +230,18 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                 self.assertIn(event["event_kind"], {"debut", "rerun", "featured_banner"})
                 self.assertIn(event["phase"], {"first", "second", "unknown"})
                 self.assertTrue(event["version_group"].strip())
-                semantic_keys.append((event["game"], event["version"], event["date"]))
+                semantic_keys.append((
+                    event["game"], event["version"], event["date"],
+                    event.get("banner_type") or "",
+                    (event.get("featured_five_star") or "")
+                    if event.get("banner_type") in {
+                        "featured_convene_four_star", "anniversary_convene_four_star",
+                        "collab_convene_four_star", "reverb_convene_four_star",
+                        "exclusive_channel_a_rank"
+                    } else ""
+                ))
         self.assertEqual(len(semantic_keys), len(set(semantic_keys)),
-                         "duplicate character banner on the same date")
+                         "duplicate character in the same dated banner, type and 5-star parent")
 
 
     def test_special_pools_share_one_visible_row(self):
