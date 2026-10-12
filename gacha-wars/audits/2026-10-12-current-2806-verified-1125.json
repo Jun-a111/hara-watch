@@ -1,0 +1,55 @@
+{
+  "schema": "gacha-wars-current-coverage-v19",
+  "audit_date": "2026-10-12",
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-2806-verified-1053.json",
+  "combined_events": 2806,
+  "verification": {
+    "official": 1125,
+    "secondary": 1681
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 476,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "publisher_review": {
+    "supplement": "gacha-wars/ww-weapon-fourstar-supplement.json",
+    "source_blob_sha": "7f9b9044f126e38eb6f1f2984af0d10731e8032f",
+    "verified_fourstar_phases": 33,
+    "remaining_secondary_fourstar_phases": [
+      "2026-03-19"
+    ],
+    "reclassified_rateup_slots_in_this_audit": 72,
+    "all_phases_in_supplement": 34,
+    "corrected_rosters": [
+      {
+        "date": "2025-11-20",
+        "four_star": [
+          "Commando of Conviction",
+          "Fusion Accretion",
+          "Helios Cleaver"
+        ],
+        "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3623"
+      },
+      {
+        "date": "2025-12-11",
+        "four_star": [
+          "Jinzhou Keeper",
+          "Celestial Spiral",
+          "Lunar Cutter"
+        ],
+        "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/3730"
+      }
+    ]
+  },
+  "limitations": [
+    "72 previously secondary-source rate-up slots were promoted to official lineup confirmation without adding new records.",
+    "For 12 earlier phases the publisher notice describes 'Version update' rather than an exact start timestamp; their ★5/★4 rate-up roster is official, while the date is aligned to a secondary history. This nuance is displayed in the site.",
+    "Two 2025 four-star lineups were corrected to official publisher names, replacing inaccurate secondary-source names.",
+    "2026-03-19 remains secondary, with a known community March 18 versus existing March 19 mismatch that is not yet closed by an original publisher announcement.",
+    "Completion is not claimed. Counts are event/appearance records, not unique weapons."
+  ]
+}
