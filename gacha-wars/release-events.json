@@ -464,17 +464,16 @@
       "type": "character",
       "version": "エレン",
       "date": "2024-07-04",
-      "source_url": "https://zenless.gg/mellow-waveride-channel-details/",
-      "source_title": "ゼンゼロ・エレン独占変調公式告知の転載（Mellow Waveride）",
+      "source_url": "https://zenless.hoyoverse.com/ja-jp/news/124566",
+      "source_title": "『ゼンレスゾーンゼロ』公式サイト：「気だるげな波」変調詳細",
       "phase": "first",
       "version_group": "Ver.1.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "COGNOSPHERE公式が2024年7月4日のサービス開始を発表し、公式にエレンのキャラ紹介も掲載。ただし初回独占チャンネルの開始日を明記した運営告知は未取得。",
-      "date_basis": "secondary_banner_schedule",
+      "verification": "official",
+      "review_note": "公式サイト2024年7月3日公開の『気だるげな波』変調詳細にエレンをPUと明記。開催はゲームリリース後から2024年7月24日まで。ゲーム公式サービス開始は2024年7月4日。",
+      "date_basis": "first_party_exact_banner_start",
       "corroborating_sources": [
-        "https://zenless.hoyoverse.com/m/ja-jp/news/123829",
-        "https://zenless.hoyoverse.com/ja-jp/news/124517"
+        "https://zenless.hoyoverse.com/m/ja-jp/news/123829"
       ]
     },
     {
@@ -569,16 +568,15 @@
       "type": "character",
       "version": "ライト",
       "date": "2024-11-27",
-      "source_url": "https://zenless.gg/champion-of-embers-signal-search-details/",
-      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
+      "source_url": "https://www.facebook.com/ZZZ.Official.JP/videos/1332661831445812/",
+      "source_title": "『ゼンレスゾーンゼロ』公式Facebook：独占チャンネル「栄光の残り火」開催告知",
       "phase": "second",
       "version_group": "Ver.1.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "COGNOSPHERE公式Ver.1.3予告にライトの登場を確認し、公式エージェント秘話が11月27日に開放。しかし独占チャンネルの正確な開始日を明記した一次告知は未取得。",
-      "date_basis": "secondary_banner_schedule",
+      "verification": "official",
+      "review_note": "公式Facebook原投稿がライト独占チャンネル『栄光の残り火』の開催期間を2024年11月27日13時〜12月17日15時59分（JST）と明記。",
+      "date_basis": "first_party_exact_banner_start",
       "corroborating_sources": [
-        "https://prtimes.jp/main/html/rd/p/000000257.000096124.html",
         "https://zenless.hoyoverse.com/ja-jp/news/127096"
       ]
     },
