@@ -235,6 +235,53 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
                          "duplicate character banner on the same date")
 
 
+    def test_genshin_2020_2022_five_star_banner_four_star_pool_coverage(self):
+        """Every historic 2020-2022 banner phase has exactly three shared 4-star PU slots."""
+        ledger = self.read("audits/2026-10-12-genshin-2020-2022-fourstar-rotations.json")
+        events = self.read("release-events.json")["events"]
+        self.assertEqual(ledger["summary"]["periods"], 41)
+        self.assertEqual(ledger["summary"]["four_star_slots"], 123)
+        self.assertEqual(ledger["summary"]["newly_added"], 104)
+        self.assertGreaterEqual(len(events), ledger["summary"]["total_live_events"])
+        id_index = {e["id"]: e for e in events}
+        periods = ledger["banner_periods"]
+        self.assertEqual(len(periods), 41)
+        self.assertEqual(len({p["date"] for p in periods}), 41)
+        current = [e for e in events if e["game"] == "gi"
+                   and "2020-09-28" <= e["date"] < "2023-01-01"
+                   and e.get("banner_type") == "event_wish_four_star"]
+        self.assertEqual(len(current), 123)
+        self.assertEqual(len({(e["date"], e["version"]) for e in current}), 123)
+        new_ids = set()
+        for pool in periods:
+            with self.subTest(date=pool["date"]):
+                self.assertEqual(len(pool["members"]), 3)
+                self.assertEqual(len(set(pool["members"])), 3)
+                actual = [e for e in current if e["date"] == pool["date"]]
+                self.assertEqual({e["version"] for e in actual}, set(pool["members"]))
+                self.assertEqual({e["id"] for e in actual}, set(pool["ids"]))
+                self.assertEqual({e["source_url"] for e in actual}, set(pool["sources"]))
+                self.assertTrue(all(e["rarity"] == 4 and
+                                    e["verification"] == "official" and
+                                    e["banner_type"] == "event_wish_four_star"
+                                    for e in actual))
+                self.assertTrue(all(e["version_group"] == pool["version_group"]
+                                    and e["phase"] == pool["phase"]
+                                    for e in actual))
+                self.assertTrue(any(e["game"] == "gi" and
+                                    e["date"] == pool["date"] and
+                                    e["rarity"] != 4 and
+                                    e["event_kind"] in {"debut", "rerun", "featured_banner"}
+                                    for e in events))
+                for eid in pool["four_star_added_this_turn"]:
+                    self.assertTrue(eid.startswith("gi-four-pu-"))
+                    self.assertIn(eid, id_index)
+                    new_ids.add(eid)
+        self.assertEqual(len(new_ids), 104)
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        for label in ("event_wish_four_star", "!specialTypes.includes(ev.banner_type)"):
+            self.assertIn(label, html)
+
     def test_genshin_four_star_debut_backfill_2020_through_2025(self):
         """New four-stars are documented but excluded from five-star banner rankings."""
         events = self.read("release-events.json")["events"]
