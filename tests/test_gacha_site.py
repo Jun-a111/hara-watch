@@ -469,6 +469,7 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
             "anniversary_convene", "special_rerun", "event_wish_four_star",
             "event_warp_four_star", "exclusive_channel_a_rank",
             "featured_convene_four_star", "anniversary_convene_four_star",
+            "collab_convene_four_star", "reverb_convene_four_star",
             "chronicled_wish", "reminiscence_wish", "standard_character_event"
         }
         specials = [e for e in events if e.get("banner_type")]
@@ -658,9 +659,9 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         # reduce the outstanding set without rewriting historical evidence.
         new_secondary_ids = {
             e["id"] for e in events
-            if e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-"))
+            if e["id"].startswith(("hsr-four-pu-", "zzz-a-pu-", "ww-extra-four-"))
         }
-        self.assertEqual(len(new_secondary_ids), 233)  # 110 earlier + 123 in the next 2025–26 backfill
+        self.assertEqual(len(new_secondary_ids), 341)  # 233 HSR/ZZZ + 108 WW secondary backfill
         self.assertTrue((secondary - new_secondary_ids) <= original_backlog)
         self.assertTrue(new_secondary_ids <= secondary)
         self.assertEqual(summary["secondary_labeled"], len(original_backlog))
@@ -1188,7 +1189,7 @@ class Hsr2025Zenless2025AdditionalRegressionTests(unittest.TestCase):
         events = json.loads(
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
-        self.assertEqual(len(events), 1164)
+        self.assertEqual(len(events), 1272)
         hsr_new = [x for x in events
                    if x.get("banner_type") == "event_warp_four_star"
                    and x["date"] >= "2025-01-01"]
@@ -1244,6 +1245,7 @@ class WutheringOfficialFourStarConveneTests(unittest.TestCase):
             (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
         )["events"]
         current = [e for e in events if e.get("game") == "ww" and
+                   e["id"].startswith("ww-four-pu-") and
                    e.get("banner_type") in (
                        "featured_convene_four_star", "anniversary_convene_four_star")]
         self.assertEqual(len(current), 42)
@@ -1279,6 +1281,78 @@ class WutheringOfficialFourStarConveneTests(unittest.TestCase):
             self.assertGreaterEqual(html.count('"' + kind + '"'), 4)
         self.assertIn('共鳴者集音・★4ピックアップ', html)
         self.assertIn('周年選択集音・共有★4枠', html)
+
+
+class WutheringSecondary108BatchTests(unittest.TestCase):
+    """108 nonofficial-labeled roster slots: no false source upgrades or sales duplication."""
+
+    def test_36_banner_groups_108_slots_and_provenance(self):
+        import pathlib
+        import json
+        root = pathlib.Path(__file__).resolve().parents[1]
+        events = json.loads(
+            (root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
+        )["events"]
+        self.assertEqual(len(events), 1272)
+        added = [e for e in events if e["id"].startswith("ww-extra-four-")]
+        self.assertEqual(len(added), 108)
+        self.assertEqual({(e["verification"],e["rarity"]) for e in added},
+                         {("secondary", 4)})
+        types = {
+            "featured_convene_four_star": 96,
+            "anniversary_convene_four_star": 3,
+            "collab_convene_four_star": 6,
+            "reverb_convene_four_star": 3,
+        }
+        self.assertEqual({kind: sum(e["banner_type"] == kind for e in added)
+                          for kind in types}, types)
+        self.assertEqual({year: sum(e["date"].startswith(year) for e in added)
+                          for year in ("2024","2025","2026")},
+                         {"2024":21,"2025":45,"2026":42})
+        self.assertEqual(len({e["date"] for e in added}), 32)
+        groups = {}
+        for e in added:
+            k=(e["date"],e["banner_type"],e["featured_five_star"])
+            groups.setdefault(k, []).append(e)
+            self.assertEqual(e["event_kind"], "featured_banner")
+            self.assertTrue(e["source_url"].startswith("https://"))
+            self.assertNotIn("wutheringwaves.kurogames.com", e["source_url"])
+            self.assertTrue(e.get("date_basis"))
+            self.assertTrue(e.get("review_note"))
+            self.assertIsInstance(e.get("corroborating_sources"), list)
+            self.assertTrue(e["corroborating_sources"])
+        self.assertEqual(len(groups),36)
+        for key,group in groups.items():
+            with self.subTest(key=key):
+                self.assertEqual(len(group),3)
+                self.assertEqual(len({e["version"] for e in group}),3)
+                self.assertEqual(len({e["source_url"] for e in group}),1)
+        self.assertEqual({e["version"] for e in added
+                          if e["date"] == "2026-06-08"
+                          and e["featured_five_star"] == "レベッカ"},
+                         {"灯灯","釉瑚","桃祈"})
+        self.assertEqual({e["version"] for e in added
+                          if e["date"] == "2026-07-10"
+                          and e["banner_type"] == "reverb_convene_four_star"},
+                         {"卜霊","散華","秧秧"})
+        self.assertEqual({e["version"] for e in added
+                          if e["date"] == "2025-05-22"
+                          and e["banner_type"] == "anniversary_convene_four_star"},
+                         {"丹瑾","秧秧","モルトフィー"})
+        self.assertEqual({e["version"] for e in added
+                          if e["date"] == "2026-09-30"},
+                         {"卜霊","桃祈","釉瑚"})
+
+    def test_ui_does_not_credit_special_convenes_as_single_character_revenue(self):
+        import pathlib
+        root=pathlib.Path(__file__).resolve().parents[1]
+        html=(root / "gacha-wars" / "index.html").read_text(encoding="utf-8")
+        for kind in ("collab_convene_four_star","reverb_convene_four_star"):
+            self.assertGreaterEqual(html.count('"' + kind + '"'),4)
+        self.assertIn("コラボ専用集音・★4枠",html)
+        self.assertIn("特別選択集音・★4枠",html)
+        self.assertIn("対象★5：",html)
+        self.assertIn('!specialTypes.includes(ev.banner_type)',html)
 
 if __name__ == "__main__":
     unittest.main()
