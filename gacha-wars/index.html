@@ -241,7 +241,7 @@ function parseGenshinWeaponArchive(data){
   const base={game:"gi",type:"weapon",date:b.date,phase:ord===0?"first":ord===1?"second":"unknown",version_group:"Ver."+b.version,event_kind:"featured_banner",weapon_banner_group:"神鋳賦形 "+b.date,verification:"secondary",source_url:data.source,source_title:"Paimon.moe歴代武器祈願・外部資料",date_basis:"secondary_archive_banner_start",review_note:"武器祈願の歴代PU。運営告知を全件直接照合していないため外部資料扱い。キャラ単独売上に加算しない。"};
   [[5,b.five,"gi_weapon_five"],[4,b.four,"gi_weapon_four"]].forEach(([rarity,items,kind])=>items.forEach((key,i)=>{
    if(typeof key!=="string"||!/^[a-z0-9_-]+$/.test(key))throw Error("武器名ID不正");
-   events.push({...base,id:"gi-weapon-"+b.date+"-"+rarity+"-"+(i+1),version:typeof names[key]==="string"&&names[key]?names[key]:labelGenshinWeapon(key),original_name:data.en_names&&typeof data.en_names[key]==="string"&&data.en_names[key]?data.en_names[key]:labelGenshinWeapon(key),rarity,banner_type:kind});
+   events.push({...base,id:"gi-weapon-"+b.date+"-"+rarity+"-"+(i+1),item_key:key,version:typeof names[key]==="string"&&names[key]?names[key]:labelGenshinWeapon(key),original_name:data.en_names&&typeof data.en_names[key]==="string"&&data.en_names[key]?data.en_names[key]:labelGenshinWeapon(key),rarity,banner_type:kind});
   }));
  }
  return events;
