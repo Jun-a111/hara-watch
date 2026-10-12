@@ -1,0 +1,113 @@
+{
+  "audit_date": "2026-10-12",
+  "dataset_sha": "d0692ce436414d194b017bd72c15ef19216369a3",
+  "scope": "Stored event records only. Counts are not proof that every character or rerun in each title is covered.",
+  "event_count": 535,
+  "per_game": {
+    "zzz": {
+      "total": 71,
+      "debut": 40,
+      "rerun": 30,
+      "featured": 0,
+      "version": 1,
+      "unconfirmed": 0
+    },
+    "gi": {
+      "total": 196,
+      "debut": 63,
+      "rerun": 122,
+      "featured": 11,
+      "version": 0,
+      "unconfirmed": 0
+    },
+    "ww": {
+      "total": 101,
+      "debut": 39,
+      "rerun": 61,
+      "featured": 0,
+      "version": 1,
+      "unconfirmed": 3
+    },
+    "hsr": {
+      "total": 139,
+      "debut": 56,
+      "rerun": 83,
+      "featured": 0,
+      "version": 0,
+      "unconfirmed": 1
+    },
+    "end": {
+      "total": 16,
+      "debut": 13,
+      "rerun": 2,
+      "featured": 1,
+      "version": 0,
+      "unconfirmed": 1
+    },
+    "nte": {
+      "total": 12,
+      "debut": 9,
+      "rerun": 3,
+      "featured": 0,
+      "version": 0,
+      "unconfirmed": 0
+    }
+  },
+  "verification_counts": {
+    "official": 530,
+    "secondary": 5
+  },
+  "source_types": {
+    "publisher_site": 0,
+    "press_release": 0,
+    "external": 535
+  },
+  "outstanding_review": [
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "name": "鎖暝",
+      "date": "2026-10-22",
+      "verification": "secondary",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "name": "リンネー（復刻）",
+      "date": "2026-10-22",
+      "verification": "secondary",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "name": "ルシラー（復刻）",
+      "date": "2026-10-22",
+      "verification": "secondary",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
+    },
+    {
+      "id": "history-hsr-2026-04-08-464",
+      "game": "hsr",
+      "name": "ブートヒル（復刻）",
+      "date": "2026-04-08",
+      "verification": "secondary",
+      "source_url": "https://gamewith.jp/houkaistarrail/article/show/561173"
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "name": "タンタン（復刻）",
+      "date": "2026-10-29",
+      "verification": "secondary",
+      "source_url": "https://game8.jp/arknights-endfield/822407"
+    }
+  ],
+  "limitations": [
+    "Previous 536-event audit is a historical snapshot, not the current dataset count.",
+    "Official verification labels are inherited from stored data; they have not all been independently revalidated.",
+    "Officially attributed PR TIMES posts need publisher-identity checks.",
+    "Historical character-banner exhaustiveness against complete per-game schedules is not proven."
+  ]
+}
