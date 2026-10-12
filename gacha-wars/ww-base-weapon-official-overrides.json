@@ -1,0 +1,807 @@
+{
+  "schema": "gacha-wars-ww-base-weapon-official-overrides-v1",
+  "audit_date": "2026-10-13",
+  "base_file": "gacha-wars/release-events.json",
+  "base_sha": "a0bc1ee1f42350ba7eab779fa51e909d73c865e4",
+  "summary": "64 existing weapon appearance entries are relabeled as publisher-verified: 56 featured 5-star weapons across 31 phases and 8 2024-06 early five/four rateups. These are overrides and not additive events.",
+  "count": 64,
+  "upgrades": [
+    {
+      "id": "ww-weapon-featured-2024-07-22-4",
+      "date": "2024-07-22",
+      "version": "Blazing Brilliance",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1066",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-08-15-5",
+      "date": "2024-08-15",
+      "version": "Rime-Draped Sprouts",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1171",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-09-07-6",
+      "date": "2024-09-07",
+      "version": "Verity's Handle",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1280",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-09-29-7",
+      "date": "2024-09-29",
+      "version": "Stellar Symphony",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1421",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-10-24-8",
+      "date": "2024-10-24",
+      "version": "Verdant Summit",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1542",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-11-14-9",
+      "date": "2024-11-14",
+      "version": "Red Spring",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1645",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-12-12-10",
+      "date": "2024-12-12",
+      "version": "Stringmaster",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1769",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/1771"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-12-12-11",
+      "date": "2024-12-12",
+      "version": "Verity's Handle",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1771",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/1769"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-01-02-12",
+      "date": "2025-01-02",
+      "version": "Rime-Draped Sprouts",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1901",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/1898"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-01-02-13",
+      "date": "2025-01-02",
+      "version": "The Last Dance",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1898",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/1901"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-01-23-14",
+      "date": "2025-01-23",
+      "version": "Ages of Harvest",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2047",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2045"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-01-23-15",
+      "date": "2025-01-23",
+      "version": "Tragicomedy",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2045",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2047"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-02-13-16",
+      "date": "2025-02-13",
+      "version": "Luminous Hymn",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2142",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-03-06-17",
+      "date": "2025-03-06",
+      "version": "Blazing Brilliance",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2229",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2227"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-03-06-18",
+      "date": "2025-03-06",
+      "version": "Unflickering Valor",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2227",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2229"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-03-27-19",
+      "date": "2025-03-27",
+      "version": "Red Spring",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2343",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2342"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-03-27-20",
+      "date": "2025-03-27",
+      "version": "Whispers of Sirens",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2342",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2343"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-04-17-21",
+      "date": "2025-04-17",
+      "version": "Stellar Symphony",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2459",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-04-29-22",
+      "date": "2025-04-29",
+      "version": "Blazing Justice",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2534",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-05-22-23",
+      "date": "2025-05-22",
+      "version": "Woodland Aria",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2647",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-06-12-24",
+      "date": "2025-06-12",
+      "version": "Defier's Thorn",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2773",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-07-03-25",
+      "date": "2025-07-03",
+      "version": "Wildfire Mark",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2874",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-07-24-26",
+      "date": "2025-07-24",
+      "version": "Lethean Elegy",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2943",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2957"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-07-24-27",
+      "date": "2025-07-24",
+      "version": "Tragicomedy",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2957",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/2943"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-08-14-28",
+      "date": "2025-08-14",
+      "version": "Unflickering Valor",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3042",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3025"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-08-14-29",
+      "date": "2025-08-14",
+      "version": "Whispers of Sirens",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3025",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3042"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-08-28-30",
+      "date": "2025-08-28",
+      "version": "Stellar Symphony",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3178",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3155",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3164"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-08-28-31",
+      "date": "2025-08-28",
+      "version": "The Last Dance",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3164",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3155",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3178"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-08-28-32",
+      "date": "2025-08-28",
+      "version": "Thunderflare Dominion",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3155",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3164",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3178"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-09-17-33",
+      "date": "2025-09-17",
+      "version": "Moongazer's Sigil",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3274",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3281"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-09-17-34",
+      "date": "2025-09-17",
+      "version": "Woodland Aria",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3281",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3274"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-10-09-35",
+      "date": "2025-10-09",
+      "version": "Lux & Umbra",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3387",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3401"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-10-09-36",
+      "date": "2025-10-09",
+      "version": "Wildfire Mark",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3401",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3387"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-10-30-37",
+      "date": "2025-10-30",
+      "version": "Blazing Justice",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3516",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3501"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-10-30-38",
+      "date": "2025-10-30",
+      "version": "Emerald Sentence",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3501",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3516"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-11-20-39",
+      "date": "2025-11-20",
+      "version": "Kumokiri",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3623",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3639"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-11-20-40",
+      "date": "2025-11-20",
+      "version": "Luminous Hymn",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3639",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3623"
+      ],
+      "date_basis": "publisher_rateup_lineup_community_phase_start",
+      "review_note": "★5武器のピックアップ対象は公式告知と照合済み。開催日は外部資料の日付と突合しており、公式の開始日時は別途要確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-12-11-41",
+      "date": "2025-12-11",
+      "version": "Lethean Elegy",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3730",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3744"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-12-11-42",
+      "date": "2025-12-11",
+      "version": "Whispers of Sirens",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3744",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3730"
+      ],
+      "date_basis": "publisher_exact_banner_start_and_rateup_lineup",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-12-25-43",
+      "date": "2025-12-25",
+      "version": "Defier's Thorn",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3861",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3859",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3863"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-12-25-44",
+      "date": "2025-12-25",
+      "version": "Spectrum Blaster",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3859",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3861",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3863"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2025-12-25-45",
+      "date": "2025-12-25",
+      "version": "Woodland Aria",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3863",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3859",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/3861"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-01-15-46",
+      "date": "2026-01-15",
+      "version": "Moongazer's Sigil",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4049",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4017",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4033"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-01-15-47",
+      "date": "2026-01-15",
+      "version": "Starfield Calibrator",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4017",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4033",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4049"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-01-15-48",
+      "date": "2026-01-15",
+      "version": "Thunderflare Dominion",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4033",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4017",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4049"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-02-05-49",
+      "date": "2026-02-05",
+      "version": "Everbright Polestar",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4204",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4167"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-02-05-50",
+      "date": "2026-02-05",
+      "version": "Kumokiri",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4204"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-02-05-51",
+      "date": "2026-02-05",
+      "version": "Wildfire Mark",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4167",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4204"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-02-26-52",
+      "date": "2026-02-26",
+      "version": "Daybreaker's Spine",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4329",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4345"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-02-26-53",
+      "date": "2026-02-26",
+      "version": "Lux & Umbra",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4345",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4329"
+      ],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-04-09-56",
+      "date": "2026-04-09",
+      "version": "Blazing Justice",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-04-09-57",
+      "date": "2026-04-09",
+      "version": "Luminous Hymn",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-04-09-58",
+      "date": "2026-04-09",
+      "version": "Spectrum Blaster",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4493",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-04-30-59",
+      "date": "2026-04-30",
+      "version": "Frostburn",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-04-30-60",
+      "date": "2026-04-30",
+      "version": "Moongazer's Sigil",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2026-04-30-61",
+      "date": "2026-04-30",
+      "version": "Starfield Calibrator",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4591",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "publisher_pu_notices_5star_and_shared_4star_direct_match",
+      "review_note": "★5武器のピックアップ対象と開始日を運営公式告知で確認。複数の★5武器が同じ日に登場した場合もそれぞれ独立した集音で、選択式ではない。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-06-06-2",
+      "date": "2024-06-06",
+      "version": "Stringmaster",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/847",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "first_party_exact_banner_start",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日は個別の公式告知の日時で確認。"
+    },
+    {
+      "id": "ww-weapon-four-2024-06-06-2-1",
+      "date": "2024-06-06",
+      "version": "Jinzhou Keeper",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/847",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "first_party_exact_banner_start",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日は個別の公式告知の日時で確認。"
+    },
+    {
+      "id": "ww-weapon-four-2024-06-06-2-2",
+      "date": "2024-06-06",
+      "version": "Lunar Cutter",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/847",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "first_party_exact_banner_start",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日は個別の公式告知の日時で確認。"
+    },
+    {
+      "id": "ww-weapon-four-2024-06-06-2-3",
+      "date": "2024-06-06",
+      "version": "Cadenza",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/847",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [],
+      "date_basis": "first_party_exact_banner_start",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日は個別の公式告知の日時で確認。"
+    },
+    {
+      "id": "ww-weapon-featured-2024-06-28-3",
+      "date": "2024-06-28",
+      "version": "Ages of Harvest",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/974",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/945"
+      ],
+      "date_basis": "first_party_version_update_and_maintenance_day",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日はVer.1.1のメンテナンス告知で照合。"
+    },
+    {
+      "id": "ww-weapon-four-2024-06-28-3-1",
+      "date": "2024-06-28",
+      "version": "Discord",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/974",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/945"
+      ],
+      "date_basis": "first_party_version_update_and_maintenance_day",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日はVer.1.1のメンテナンス告知で照合。"
+    },
+    {
+      "id": "ww-weapon-four-2024-06-28-3-2",
+      "date": "2024-06-28",
+      "version": "Commando of Conviction",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/974",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/945"
+      ],
+      "date_basis": "first_party_version_update_and_maintenance_day",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日はVer.1.1のメンテナンス告知で照合。"
+    },
+    {
+      "id": "ww-weapon-four-2024-06-28-3-3",
+      "date": "2024-06-28",
+      "version": "Amity Accord",
+      "verification": "official",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/974",
+      "source_title": "KURO GAMES公式・限定武器PU告知",
+      "corroborating_sources": [
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/945"
+      ],
+      "date_basis": "first_party_version_update_and_maintenance_day",
+      "review_note": "★5武器と共通★4武器のピックアップ対象を公式で確認。開催日はVer.1.1のメンテナンス告知で照合。"
+    }
+  ]
+}
