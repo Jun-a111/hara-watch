@@ -1,7 +1,7 @@
 {
   "schema": "gacha-wars-coverage-audit-v2",
   "audit_date": "2026-10-12",
-  "event_data_blob_sha": "0d9fd5c4195f0cfd355905d8db78b152835e344e",
+  "event_data_blob_sha": "436eb136fda2b7b180d73fe982b61455fa9f819f",
   "total_events": 538,
   "counts_by_game": {
     "zzz": {
@@ -10,8 +10,8 @@
       "rerun": 30,
       "other_character": 0,
       "version": 1,
-      "official": 66,
-      "secondary": 5,
+      "official": 68,
+      "secondary": 3,
       "announced": 0
     },
     "gi": {
@@ -30,8 +30,8 @@
       "rerun": 61,
       "other_character": 0,
       "version": 1,
-      "official": 57,
-      "secondary": 44,
+      "official": 59,
+      "secondary": 42,
       "announced": 3
     },
     "hsr": {
@@ -66,13 +66,13 @@
     }
   },
   "verification": {
-    "official": 487,
-    "secondary": 51
+    "official": 491,
+    "secondary": 47
   },
   "source_host_breakdown": {
     "prtimes.jp": {
-      "count": 371,
-      "official": 368,
+      "count": 373,
+      "official": 370,
       "secondary": 3
     },
     "zenless.hoyoverse.com": {
@@ -81,8 +81,8 @@
       "secondary": 0
     },
     "wutheringwaves.kurogames.com": {
-      "count": 46,
-      "official": 46,
+      "count": 48,
+      "official": 48,
       "secondary": 0
     },
     "wutheringwaves.fandom.com": {
@@ -91,9 +91,9 @@
       "secondary": 1
     },
     "wutheringwaves.gg": {
-      "count": 38,
+      "count": 36,
       "official": 0,
-      "secondary": 38
+      "secondary": 36
     },
     "www.hoyolab.com": {
       "count": 10,
@@ -101,9 +101,9 @@
       "secondary": 0
     },
     "zenless.gg": {
-      "count": 5,
+      "count": 3,
       "official": 0,
-      "secondary": 5
+      "secondary": 3
     },
     "www.dearplayers.com": {
       "count": 2,
@@ -150,15 +150,18 @@
     "Added three missing eligible six-star operators in Endfield May 14 2026 four-operator special scout. All four labeled featured_banner (special_rerun), not individual rate-up reruns.",
     "Reclassified 52 character records sourced only to WutheringWaves.gg, Zenless.gg, WutheringWaves Fandom and DearPlayers as secondary rather than official. No event dates or existence changed by reclassification.",
     "Automated test added to guard against regressions on special-scout coverage and third-party provenance.",
-    "Verified six Wuthering Waves character debut records against Kuro Games pages dated 2024-06-28, 2024-08-15, 2025-06-12, 2025-07-23, 2025-08-28, and the 2025-10-02 maintenance notice; upgraded only these six records from secondary to official."
+    "Verified six Wuthering Waves character debut records against Kuro Games pages dated 2024-06-28, 2024-08-15, 2025-06-12, 2025-07-23, 2025-08-28, and the 2025-10-02 maintenance notice; upgraded only these six records from secondary to official.",
+    "Reverified four 2024 character debut entries on original publishers' pages: Qingyi/青衣, Yanagi/柳, Shorekeeper, and Camellya. Their original secondary links were replaced with COGNOSPHERE official news and KURO GAMES patch notes."
   ],
   "remaining_gaps": [
     "Records classified 'official' via PR TIMES retain an independent publisher-account identity check backlog.",
     "Official source status does not prove character banner archive completeness.",
-    "Some future dates are estimates; separate official announcement of exact start remains needed for the three WW Ver.3.7 second-phase entries and the Endfield Tangtang rerun."
+    "Some future dates are estimates; separate official announcement of exact start remains needed for the three WW Ver.3.7 second-phase entries and the Endfield Tangtang rerun.",
+    "47 event records still use secondary source links; do not represent them as original publisher confirmations.",
+    "The 491 officially labeled records are dataset classifications, not a completed manual revalidation of every original announcement."
   ],
   "notes": "This is a structured local-data audit, not an exhaustive review of every official announcement. Historic earlier audit snapshots must not be treated as current totals.",
-  "audit_updated_at": "2026-10-12T05:53:12.056Z",
+  "audit_updated_at": "2026-10-12T06:29:05.791Z",
   "further_source_checks": [
     {
       "id": "history-ww-2024-06-28-2",
@@ -195,6 +198,30 @@
       "previously": "secondary",
       "now": "official",
       "new_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/3340"
+    },
+    {
+      "id": "history-zzz-2024-08-14-20",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://prtimes.jp/main/html/rd/p/000000235.000096124.html"
+    },
+    {
+      "id": "history-zzz-2024-11-06-24",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://prtimes.jp/main/html/rd/p/000000257.000096124.html"
+    },
+    {
+      "id": "historical-ww-2024-09-29-46",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/1454"
+    },
+    {
+      "id": "historical-ww-2024-11-14-48",
+      "previously": "secondary",
+      "now": "official",
+      "new_source": "https://wutheringwaves.kurogames.com/en/main/news/detail/1647"
     }
   ]
 }
