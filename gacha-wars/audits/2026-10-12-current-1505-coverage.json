@@ -1,0 +1,91 @@
+{
+  "schema": "gacha-wars-current-coverage-v12",
+  "audit_date": "2026-10-12",
+  "total_events": 1505,
+  "previous_audit": "gacha-wars/audits/2026-10-12-current-1379-coverage.json",
+  "by_game": {
+    "zzz": {
+      "total": 360,
+      "official": 133,
+      "secondary": 227,
+      "unreviewed": 0
+    },
+    "gi": {
+      "total": 547,
+      "official": 547,
+      "secondary": 0,
+      "unreviewed": 0
+    },
+    "ww": {
+      "total": 251,
+      "official": 140,
+      "secondary": 111,
+      "unreviewed": 0
+    },
+    "hsr": {
+      "total": 316,
+      "official": 139,
+      "secondary": 177,
+      "unreviewed": 0
+    },
+    "end": {
+      "total": 19,
+      "official": 18,
+      "secondary": 1,
+      "unreviewed": 0
+    },
+    "nte": {
+      "total": 12,
+      "official": 12,
+      "secondary": 0,
+      "unreviewed": 0
+    }
+  },
+  "by_banner_type": {
+    "normal": 502,
+    "standard_character_event": 1,
+    "special_rerun": 15,
+    "event_wish_four_star": 318,
+    "chronicled_wish": 38,
+    "anniversary_convene": 10,
+    "reminiscence_wish": 5,
+    "event_warp_four_star": 177,
+    "exclusive_channel_a_rank": 84,
+    "featured_convene_four_star": 135,
+    "anniversary_convene_four_star": 6,
+    "collab_convene_four_star": 6,
+    "reverb_convene_four_star": 3,
+    "w_engine_s_rank": 65,
+    "w_engine_a_rank": 120,
+    "exclusive_channel_a_default": 10,
+    "w_engine_a_default": 10
+  },
+  "verification": {
+    "official": 989,
+    "secondary": 516
+  },
+  "latest_batch": {
+    "previous_count": 1379,
+    "added": 126,
+    "period_groups": 42,
+    "game": "zzz",
+    "type": "weapon",
+    "rarity_S_count": 42,
+    "rarity_A_count": 84,
+    "source_tier": "secondary",
+    "archival_roster_url": "https://zenless-zone-zero.fandom.com/wiki/W-Engine_Channel/History",
+    "yearly": {
+      "2024": 30,
+      "2025": 90,
+      "2026": 6
+    },
+    "ids_prefix": "zzz-wengine-archive-",
+    "duplicate_prevention": "2026-07-08 previously recorded S/A item groups omitted"
+  },
+  "limitations": [
+    "Historical W-Engine names and two A-rank rate ups are transcribed from the Fandom W-Engine Channel/History indexed archive and have not yet been verified individually against HoYoverse original article bodies.",
+    "The matching agent event's source URL was attached as supporting evidence for start date, not as proof of its W-Engine rate-up names.",
+    "Some more recent limited weapons, as well as weapons for other games, remain untracked.",
+    "W-Engine records are excluded from the regular character banner revenue rankings and grouped by their featured S-rank agent and start date."
+  ]
+}
