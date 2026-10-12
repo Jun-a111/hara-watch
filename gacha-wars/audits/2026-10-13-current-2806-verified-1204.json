@@ -1,0 +1,45 @@
+{
+  "schema": "gacha-wars-current-coverage-v22",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-13-current-2806-verified-1189.json",
+  "combined_events": 2806,
+  "verification": {
+    "official": 1204,
+    "secondary": 1602
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 476,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "source_promotion": {
+    "source_file": "gacha-wars/ww-fourstar-character-source-overrides.json",
+    "source_sha": "e87d9f6886b615963c63157fdb494bfac10671a6",
+    "verified_existing_ww_fourstar_character_rows": 15,
+    "phase_count": 5,
+    "official_notice_dates": [
+      "2026-07-10",
+      "2026-07-30",
+      "2026-08-20",
+      "2026-09-10",
+      "2026-09-30"
+    ],
+    "publisher_notice_ids": [
+      5039,
+      5220,
+      5331,
+      5431,
+      5546
+    ]
+  },
+  "notes": [
+    "No new appearances were added. Existing 15 four-star character rate-up records are reclassified from secondary to official using first-party KURO GAMES notices and exact base record ID, date, Japanese-name and five-star association checks.",
+    "Original Japanese names remain in place; an English original_name is added for multilingual verification and search.",
+    "2026-07-10 Jiyan Reverb 4-star rows remain secondary pending separate first-party event verification.",
+    "Prior WW 2026-03-19 four-star weapon lineup remains secondary though phase day is publisher-confirmed.",
+    "Totals are entries including banner appearances and versions, not unique weapons or players."
+  ]
+}
