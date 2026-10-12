@@ -1,0 +1,628 @@
+{
+  "schema": "gacha-wars-ww-fourstar-supplement-v1",
+  "audit_date": "2026-10-12",
+  "verification_policy": "publisher_for_selected_notices_else_secondary",
+  "primary_roster_source": "https://github.com/gacha-calculator/gacha-calculator.github.io/blob/main/src/js/games/wuwa/config.js",
+  "primary_roster_blob_sha": "abaa1ab92076baf5e1d58f341acf5486cef9b9cf",
+  "publisher_notices": [
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4844",
+    "https://wutheringwaves.kurogames.com/en/main/news/detail/4860"
+  ],
+  "notes": [
+    "The gacha-calculator community timeline is secondary. Shared four-star phase rosters do not imply player-selectable multiple 5-star weapons.",
+    "Ver.3.7 Phase 1 three 5-star and three 4-star items are directly present in the KURO GAMES 5546 notice, but it states version update instead of explicit clock start.",
+    "The Cyberpunk: Edgerunners June 8 4-star roster is also in official KURO GAMES 4844 and 4860 notices.",
+    "The community date for March 18 2026 is one day different from site's existing March 19 banner date; phase roster is aligned to March 19 while retaining source_date.",
+    "Potential updates after October 12 2026 are excluded. Other dates without a corresponding archived 5-star banner are not admitted automatically."
+  ],
+  "phases": [
+    {
+      "date": "2024-07-22",
+      "source_date": "2024-07-22",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Comet Flare",
+        "Overture",
+        "Undying Flame"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Blazing Brilliance"
+      ]
+    },
+    {
+      "date": "2024-08-15",
+      "source_date": "2024-08-15",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Jinzhou Keeper",
+        "Hollow Mirage",
+        "Dauntless Evernight"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Rime-Draped Sprouts"
+      ]
+    },
+    {
+      "date": "2024-09-07",
+      "source_date": "2024-09-07",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Novaburst",
+        "Helios Cleaver",
+        "Marcato"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Verity's Handle"
+      ]
+    },
+    {
+      "date": "2024-09-29",
+      "source_date": "2024-09-29",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Endless Collapse",
+        "Comet Flare",
+        "Discord"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Stellar Symphony"
+      ]
+    },
+    {
+      "date": "2024-10-24",
+      "source_date": "2024-10-24",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Variation",
+        "Helios Cleaver",
+        "Celestial Spiral"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Verdant Summit"
+      ]
+    },
+    {
+      "date": "2024-11-14",
+      "source_date": "2024-11-14",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Fusion Accretion",
+        "Novaburst",
+        "Commando of Conviction"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Red Spring"
+      ]
+    },
+    {
+      "date": "2024-12-12",
+      "source_date": "2024-12-12",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Waning Redshift",
+        "Jinzhou Keeper",
+        "Hollow Mirage"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Stringmaster",
+        "Verity's Handle"
+      ]
+    },
+    {
+      "date": "2025-01-02",
+      "source_date": "2025-01-02",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Relativistic Jet",
+        "Fusion Accretion",
+        "Amity Accord"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Rime-Draped Sprouts",
+        "The Last Dance"
+      ]
+    },
+    {
+      "date": "2025-01-23",
+      "source_date": "2025-01-23",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Celestial Spiral",
+        "Variation",
+        "Dauntless Evernight"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Ages of Harvest",
+        "Tragicomedy"
+      ]
+    },
+    {
+      "date": "2025-02-13",
+      "source_date": "2025-02-13",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Novaburst",
+        "Discord",
+        "Jinzhou Keeper"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Luminous Hymn"
+      ]
+    },
+    {
+      "date": "2025-03-06",
+      "source_date": "2025-03-06",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Waning Redshift",
+        "Marcato",
+        "Comet Flare"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Blazing Brilliance",
+        "Unflickering Valor"
+      ]
+    },
+    {
+      "date": "2025-03-27",
+      "source_date": "2025-03-27",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Fusion Accretion",
+        "Cadenza",
+        "Lunar Cutter"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Red Spring",
+        "Whispers of Sirens"
+      ]
+    },
+    {
+      "date": "2025-04-17",
+      "source_date": "2025-04-17",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Endless Collapse",
+        "Undying Flame",
+        "Comet Flare"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Stellar Symphony"
+      ]
+    },
+    {
+      "date": "2025-04-29",
+      "source_date": "2025-04-29",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Overture",
+        "Hollow Mirage",
+        "Dauntless Evernight"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Blazing Justice"
+      ]
+    },
+    {
+      "date": "2025-05-22",
+      "source_date": "2025-05-22",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Relativistic Jet",
+        "Undying Flame",
+        "Variation"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Woodland Aria"
+      ]
+    },
+    {
+      "date": "2025-06-12",
+      "source_date": "2025-06-12",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Endless Collapse",
+        "Marcato",
+        "Amity Accord"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Defier's Thorn"
+      ]
+    },
+    {
+      "date": "2025-07-03",
+      "source_date": "2025-07-03",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Helios Cleaver",
+        "Commando of Conviction",
+        "Jinzhou Keeper"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Wildfire Mark"
+      ]
+    },
+    {
+      "date": "2025-07-24",
+      "source_date": "2025-07-24",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Celestial Spiral",
+        "Lunar Cutter",
+        "Jinzhou Keeper"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Lethean Elegy",
+        "Tragicomedy"
+      ]
+    },
+    {
+      "date": "2025-08-14",
+      "source_date": "2025-08-14",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Novaburst",
+        "Overture",
+        "Variation"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Unflickering Valor",
+        "Whispers of Sirens"
+      ]
+    },
+    {
+      "date": "2025-08-28",
+      "source_date": "2025-08-28",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Waning Redshift",
+        "Undying Flame",
+        "Comet Flare"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Stellar Symphony",
+        "The Last Dance",
+        "Thunderflare Dominion"
+      ]
+    },
+    {
+      "date": "2025-09-17",
+      "source_date": "2025-09-17",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Relativistic Jet",
+        "Fusion Accretion",
+        "Celestial Spiral"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Moongazer's Sigil",
+        "Woodland Aria"
+      ]
+    },
+    {
+      "date": "2025-10-09",
+      "source_date": "2025-10-09",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Fusion Accretion",
+        "Novaburst",
+        "Helios Cleaver"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Lux & Umbra",
+        "Wildfire Mark"
+      ]
+    },
+    {
+      "date": "2025-10-30",
+      "source_date": "2025-10-30",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Endless Collapse",
+        "Hollow Mirage",
+        "Dauntless Evernight"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Blazing Justice",
+        "Emerald Sentence"
+      ]
+    },
+    {
+      "date": "2025-11-20",
+      "source_date": "2025-11-20",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Fusion Accretion",
+        "Novaburst",
+        "Helios Cleaver"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Kumokiri",
+        "Luminous Hymn"
+      ]
+    },
+    {
+      "date": "2025-12-11",
+      "source_date": "2025-12-11",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Commando of Conviction",
+        "Fusion Accretion",
+        "Helios Cleaver"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Lethean Elegy",
+        "Whispers of Sirens"
+      ]
+    },
+    {
+      "date": "2025-12-25",
+      "source_date": "2025-12-25",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Relativistic Jet",
+        "Endless Collapse",
+        "Undying Flame"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Defier's Thorn",
+        "Spectrum Blaster",
+        "Woodland Aria"
+      ]
+    },
+    {
+      "date": "2026-01-15",
+      "source_date": "2026-01-15",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Waning Redshift",
+        "Celestial Spiral",
+        "Discord"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Moongazer's Sigil",
+        "Starfield Calibrator",
+        "Thunderflare Dominion"
+      ]
+    },
+    {
+      "date": "2026-02-05",
+      "source_date": "2026-02-05",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Waning Redshift",
+        "Commando of Conviction",
+        "Cadenza"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Everbright Polestar",
+        "Kumokiri",
+        "Wildfire Mark"
+      ]
+    },
+    {
+      "date": "2026-02-26",
+      "source_date": "2026-02-26",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Overture",
+        "Jinzhou Keeper",
+        "Hollow Mirage"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Daybreaker's Spine",
+        "Lux & Umbra"
+      ]
+    },
+    {
+      "date": "2026-03-19",
+      "source_date": "2026-03-18",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "corrected_one_day_date_mismatch_to_existing_record",
+      "featured_four": [
+        "Celestial Spiral",
+        "Endless Collapse",
+        "Lunar Cutter"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Emerald Sentence",
+        "Solsworn Ciphers"
+      ]
+    },
+    {
+      "date": "2026-04-09",
+      "source_date": "2026-04-09",
+      "phase": "second",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Relativistic Jet",
+        "Marcato",
+        "Variation"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Blazing Justice",
+        "Luminous Hymn",
+        "Spectrum Blaster"
+      ]
+    },
+    {
+      "date": "2026-04-30",
+      "source_date": "2026-04-30",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "secondary",
+      "date_basis": "archive_crosschecked_with_existing_five_star",
+      "featured_four": [
+        "Undying Flame",
+        "Commando of Conviction",
+        "Discord"
+      ],
+      "official_notice": null,
+      "matching_five_star": [
+        "Frostburn",
+        "Moongazer's Sigil",
+        "Starfield Calibrator"
+      ]
+    },
+    {
+      "date": "2026-06-08",
+      "source_date": "2026-06-08",
+      "phase": "first",
+      "kind": "collab",
+      "tier": "official",
+      "date_basis": "first_party_collab_source_and_secondary_roster",
+      "featured_four": [
+        "Relativistic Jet",
+        "Fusion Accretion",
+        "Cadenza"
+      ],
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/4844",
+      "matching_five_star": [
+        "Spectral Trigger",
+        "Skull Thrasher"
+      ]
+    },
+    {
+      "date": "2026-09-30",
+      "source_date": "2026-09-30",
+      "phase": "first",
+      "kind": "regular",
+      "tier": "official",
+      "date_basis": "first_party_official_convene_notice",
+      "featured_four": [
+        "Fusion Accretion",
+        "Commando of Conviction",
+        "Dauntless Evernight"
+      ],
+      "official_notice": "https://wutheringwaves.kurogames.com/en/main/news/detail/5546",
+      "matching_five_star": [
+        "Blooming Jadehaven",
+        "Kumokiri",
+        "Moongazer's Sigil"
+      ]
+    }
+  ]
+}
