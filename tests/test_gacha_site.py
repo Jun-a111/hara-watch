@@ -327,6 +327,28 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('!specialTypes.includes(e.banner_type)', phases)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
 
+    def test_publisher_sources_for_2024_zenless_and_wuthering_debuts(self):
+        """Guard publisher notices and exact launch dates for reverified records."""
+        events = {e["id"]: e for e in self.read("release-events.json")["events"]}
+        expected = {
+            "history-zzz-2024-08-14-20":
+                ("2024-08-14", "青衣", "prtimes.jp", "/000000235.000096124.html"),
+            "history-zzz-2024-11-06-24":
+                ("2024-11-06", "柳", "prtimes.jp", "/000000257.000096124.html"),
+            "historical-ww-2024-09-29-46":
+                ("2024-09-29", "ショアキーパー", "wutheringwaves.kurogames.com", "/1454"),
+            "historical-ww-2024-11-14-48":
+                ("2024-11-14", "ツバキ", "wutheringwaves.kurogames.com", "/1647"),
+        }
+        for key, (date, name, host, suffix) in expected.items():
+            with self.subTest(event_id=key):
+                event = events[key]
+                self.assertEqual(event["date"], date)
+                self.assertEqual(event["version"], name)
+                self.assertEqual(event["verification"], "official")
+                self.assertEqual(event["source_url"].split("/")[2], host)
+                self.assertTrue(event["source_url"].endswith(suffix))
+
     def test_primary_notices_for_six_wuthering_waves_debuts(self):
         """Guard six publisher-backed debut notices against accidental downgrades."""
         events = {e["id"]: e for e in self.read("release-events.json")["events"]}
