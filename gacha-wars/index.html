@@ -7,10 +7,11 @@ const R=[["jp","日本","jp"],["cn","中国本土","cn"],["tw","台湾","tw"],["
 const T=[["home","総司令部"],["rank","世界セルラン"],["steam","Steam戦場"],["duel","直接対決"],["update","アプデ決戦"],["record","ゲーム別戦績"],["power","勢力図ランキング"],["characters","キャラ別戦績"]];
 const $=id=>document.getElementById(id);const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));let records=[];try{records=JSON.parse(localStorage.getItem("gw-records-v1")||"[]");if(!Array.isArray(records))records=[]}catch{records=[]}
 let youtubeStatus="未確認";let autoRecords=[];let feedStatus={steam:"読み込み中",ios:"読み込み中"};let iosMarketStatus={};let iosIntegrity={};let steamGameStatus={};
-let characterFilter="all",characterSearch="",characterPage=0;let tab="home",region="jp",store="ios",game="ww",d1="ww",d2="nte",metric="rank",timewindow="30";
-function changeCharacterFilter(id){characterFilter=id;characterPage=0;render()}
+let characterFilter="all",characterSearch="",characterPage=0,weaponPage=0;let tab="home",region="jp",store="ios",game="ww",d1="ww",d2="nte",metric="rank",timewindow="30";
+function changeCharacterFilter(id){characterFilter=id;characterPage=0;weaponPage=0;render()}
 function changeCharacterPage(n){characterPage=Math.max(0,Math.floor(Number(n)||0));render()}
-function changeCharacterSearch(value){characterSearch=String(value||"").trim().slice(0,100);characterPage=0;render()}
+function changeCharacterSearch(value){characterSearch=String(value||"").trim().slice(0,100);characterPage=0;weaponPage=0;render()}
+function changeWeaponPage(n){weaponPage=Math.max(0,Math.floor(Number(n)||0));render()}
 function name(id){return G.find(g=>g.id===id)?.name||id}function date(){return new Date().toLocaleDateString("sv-SE")}function save(){localStorage.setItem("gw-records-v1",JSON.stringify(records))}function msg(t){$("notify").textContent=t;$("notify").style.display="block";setTimeout(()=>$("notify").style.display="none",2200)}
 function validRankValue(value){if(typeof value!=="number"&&!(typeof value==="string"&&/^[0-9]+$/.test(value.trim())))return false;const n=Number(value);return Number.isInteger(n)&&n>0}
 function validMetricValue(kind,value){if(kind==="rank")return validRankValue(value);if(typeof value!=="number"&&!(typeof value==="string"&&/^[0-9]+$/.test(value.trim())))return false;const v=Number(value);return Number.isInteger(v)&&v>=0}
@@ -176,7 +177,7 @@ function renderSpecialEventsGrouped(events){
  }).join("");
 }
 function weaponHistory(){
- const weaponBannerKinds=["w_engine_s_rank","w_engine_a_rank","w_engine_a_default","ww_weapon_five","ww_weapon_four","ww_weapon_anniversary_five","ww_weapon_anniversary_four","ww_weapon_collab_five"];
+ const weaponBannerKinds=["gi_weapon_five","gi_weapon_four","w_engine_s_rank","w_engine_a_rank","w_engine_a_default","ww_weapon_five","ww_weapon_four","ww_weapon_anniversary_five","ww_weapon_anniversary_four","ww_weapon_collab_five"];
  const query=characterSearch.toLocaleLowerCase();
  const weapons=[...publishedEvents,...updateEvents].filter(e=>e.type==="weapon"&&weaponBannerKinds.includes(e.banner_type)&&(characterFilter==="all"||e.game===characterFilter)&&(!query||[e.version,e.version_group,e.featured_five_star||"",name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(query))));
  const pools=new Map();
@@ -186,13 +187,16 @@ function weaponHistory(){
   pools.get(key).items.push(e);
  }
  const rows=[...pools.values()].sort((a,b)=>b.date.localeCompare(a.date)||a.parent.localeCompare(b.parent));
- return '<section class="panel"><h2>武器・音動機ガチャ履歴（キャラ戦績と分離）</h2><p class="hint">登録 '+weapons.length+'件／武器ガチャ '+rows.length+'枠。各枠のS級/★5とA級/★4をまとめて表示。武器の実装・復刻履歴はキャラ単独の売上・セルランへ加算しません。鳴潮の周年選択式は1つの集音として扱い、選択可能な★5武器5本と共有★4武器3本をまとめて表示。ゼンゼロVer.3.1以降の変更可能なA級は初期設定のみ掲載しています。</p>'+(rows.length?'<div class="scroll"><table><thead><tr><th>開催日</th><th>作品・対応キャラ</th><th>S級音動機・★5武器</th><th>A級音動機・★4武器</th><th>出典・確認状況</th></tr></thead><tbody>'+rows.map(g=>{
+ const perPage=40,totalPages=Math.max(1,Math.ceil(rows.length/perPage));weaponPage=Math.min(weaponPage,totalPages-1);
+ const visibleRows=rows.slice(weaponPage*perPage,(weaponPage+1)*perPage);
+ const pager='<div class="row" style="margin:12px 0"><button class="btn" onclick="changeWeaponPage('+(weaponPage-1)+')" '+(weaponPage===0?'disabled':'')+'>前へ</button><span class="tiny">ページ '+(weaponPage+1)+' / '+totalPages+'</span><button class="btn" onclick="changeWeaponPage('+(weaponPage+1)+')" '+(weaponPage===totalPages-1?'disabled':'')+'>次へ</button></div>';
+ return '<section class="panel"><h2>武器・音動機ガチャ履歴（キャラ戦績と分離）</h2><p class="hint">登録 '+weapons.length+'件／武器ガチャ '+rows.length+'枠。各枠のS級/★5とA級/★4をまとめて表示。武器の実装・復刻履歴はキャラ単独の売上・セルランへ加算しません。鳴潮の周年選択式は1つの集音として扱い、選択可能な★5武器5本と共有★4武器3本をまとめて表示。ゼンゼロVer.3.1以降の変更可能なA級は初期設定のみ掲載しています。原神の歴代武器祈願は二次資料であり、各期の公式直接照合は未完了。</p>'+(rows.length?pager+'<div class="scroll"><table><thead><tr><th>開催日</th><th>作品・対応キャラ</th><th>S級音動機・★5武器</th><th>A級音動機・★4武器</th><th>出典・確認状況</th></tr></thead><tbody>'+visibleRows.map(g=>{
    const primary=g.items.filter(e=>e.rarity==="S"||e.rarity===5).map(e=>esc(e.version)).join(' / ')||'未登録';
    const minor=g.items.filter(e=>e.rarity==="A"||e.rarity===4).map(e=>esc(e.version)).join(' / ')||'未登録';
    const changed=g.items.some(e=>e.default_rate_up);
    const sources=[...new Map(g.items.filter(x=>x.source_url).map(x=>[x.source_url,x])).values()];
    return '<tr><td>'+esc(g.date)+'<div class="tiny">'+phaseLabel(g.items[0])+'</div></td><td><b>'+esc(name(g.game))+'</b><div class="tiny">'+esc(g.group||"")+'</div><div class="tiny">対応：'+esc(g.parent||"未設定")+'</div></td><td>'+primary+'</td><td>'+minor+(changed?'<div class="tiny">初期設定・ユーザー変更可</div>':'')+'</td><td>'+sources.map(eventSource).join(' ')+'<div class="tiny">'+(g.items.every(x=>x.verification==="official")?"掲載元：公式":"外部資料・確認待ち")+'</div></td></tr>';
- }).join('')+'</tbody></table></div>':'<p class="hint">条件に該当する武器ガチャ登録はありません。</p>')+'</section>';
+ }).join('')+'</tbody></table></div>'+pager:'<p class="hint">条件に該当する武器ガチャ登録はありません。</p>')+'</section>';
 }
 function characterRanking(){
 const events=[...publishedEvents,...updateEvents].filter(e=>e.type==="character"&&(characterFilter==="all"||e.game===characterFilter)&&(!characterSearch||[e.version,e.version_group,name(e.game)].some(v=>String(v||"").toLocaleLowerCase().includes(characterSearch.toLocaleLowerCase()))));
@@ -219,7 +223,42 @@ const missing=G.filter(g=>!valid.some(x=>x.g.id===g.id)).map(g=>'<tr><td>—</td
 return '<section class="panel"><h2>勢力図ランキング</h2><p class="hint">第一弾はSteam同接だけで順位を作成。最新観測から1時間以内、かつ直近12時間以内のデータのみ比較。Steam以外の利用者・売上・人気の総合順位ではありません。</p><div class="scroll"><table><thead><tr><th>順位</th><th>作品</th><th>Steam同接</th><th>観測日時・出典</th></tr></thead><tbody>'+(items||'<tr><td colspan="4" class="empty">比較可能な観測値がありません</td></tr>')+missing+'</tbody></table></div></section><section class="panel"><h2>データ取得状況</h2><p class="hint">取得成功とデータ件数は別。古い観測値は最新の戦況ではありません。</p><div class="two"><div class="card"><b>Steam</b><p>'+esc(feedStatus.steam)+'</p></div><div class="card"><b>iOS セルラン</b><p>'+esc(feedStatus.ios)+'</p></div></div><div class="scroll" style="margin-top:14px"><table><thead><tr><th>市場</th><th>最終取得状態</th><th>照合済タイトル</th></tr></thead><tbody>'+R.map(x=>{let st=iosMarketStatus[x[0]];return '<tr><td>'+x[1]+'</td><td>'+(!st?"未実行":st.ok?"取得成功（上位"+esc(st.chart_depth)+"件）":"取得失敗: "+esc(st.error||"原因不明"))+'</td><td>'+(st?.matched?.map(name).join("、")||"—")+(st?.app_store_lookup?.ok?'<div class="tiny">ストア掲載: '+(st.app_store_lookup.available?.map(name).join("、")||"なし")+' / ID未照合: '+(st.app_store_lookup.not_listed?.map(name).join("、")||"なし")+' / 地域別ID要確認: '+(st.app_store_lookup.alternate_region_id?.map(name).join("、")||"なし")+'</div>':st?.app_store_lookup?'<div class="tiny">ストア照合失敗: '+esc(st.app_store_lookup.error||"取得不可")+'</div>':'')+'</td></tr>'}).join("")+'</tbody></table></div></section>';
 }
 async function loadYoutube(){try{const response=await fetch("./youtube-data.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");const data=await response.json();if(data.schema!=="gacha-wars-youtube-v1"||!Array.isArray(data.records))throw Error("invalid data");youtubeStatus=data.status==="missing_api_key"?"APIキー未設定（既存記録は過去の数値）":data.status==="not_run"?"未実行":data.status==="ok"?(data.records.length?"取得処理完了":"取得完了・観測値なし"):data.status==="fetch_failed"?"API取得失敗（既存記録は過去の数値）":data.status==="no_targets"?"対象動画なし":data.status||"未確認";const items=data.records.filter(r=>G.some(g=>g.id===r.game)&&r.kind==="sns"&&r.store==="youtube"&&r.region==="global"&&Number.isSafeInteger(r.value)&&r.value>=0&&typeof r.date==="string"&&typeof r.source==="string");autoRecords=[...autoRecords.filter(r=>!(r.kind==="sns"&&r.store==="youtube")),...items];render()}catch(err){youtubeStatus="データ読込失敗";render()}}
-async function loadEvents(){try{const response=await fetch("./release-events.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");const data=await response.json();if(data.schema!=="gacha-wars-releases-v1"||!Array.isArray(data.events))throw Error("invalid schema");publishedEvents=data.events.filter(x=>G.some(g=>g.id===x.game)&&["version","character","weapon"].includes(x.type)&&typeof x.version==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&typeof x.source_url==="string"&&/^https:\/\//.test(x.source_url)).map(x=>({...x,published:true}));releaseFeedStatus="読込成功（"+publishedEvents.length+"/"+data.events.length+"件）";render()}catch(err){releaseFeedStatus="取得失敗: "+err.message;render();console.info("リリース日データ未取得",err.message)}}
+
+function labelGenshinWeapon(key){
+ const ja={"aquila_favonia":"風鷹剣","amos_bow":"アモスの弓","the_flute":"笛の剣","the_bell":"鐘の剣","the_widsith":"流浪楽章","the_stringless":"絶弦","favonius_lance":"西風長槍","lost_prayer_to_the_sacred_winds":"四風原典","wolfs_gravestone":"狼の末路","sacrificial_sword":"祭礼の剣","sacrificial_bow":"祭礼の弓","sacrificial_greatsword":"祭礼の大剣","sacrificial_fragments":"祭礼の断片","dragons_bane":"匣中滅龍","skyward_harp":"天空の翼","memory_of_dust":"浮世の錠","rainslasher":"雨裁","eye_of_perception":"昭心","rust":"弓蔵","vortex_vanquisher":"破天の槍","the_unforged":"無工の剣","lions_roar":"匣中龍吟","favonius_codex":"西風秘典","favonius_warbow":"西風猟弓","summit_shaper":"斬山の刃","skyward_atlas":"天空の巻","favonius_sword":"西風剣","favonius_greatsword":"西風大剣","skyward_pride":"天空の傲","primordial_jade_winged-spear":"和璞鳶","primordial_jade_cutter":"磐岩結緑","staff_of_homa":"護摩の杖","lithic_blade":"千岩古剣","lithic_spear":"千岩長槍","skyward_blade":"天空の刃","the_alley_flash":"ダークアレイの閃光","wine_and_song":"ダークアレイの酒と詩","alley_hunter":"ダークアレイの狩人","song_of_broken_pines":"松韻の響く頃","mitternachts_waltz":"幽夜のワルツ","skyward_spine":"天空の脊","mistsplitter_reforged":"霧切の廻光","thundering_pulse":"飛雷の鳴弦","engulfing_lightning":"草薙の稲光","everlasting_moonglow":"不滅の月華","polar_star":"冬極の白星","elegy_for_the_end":"終焉を嘆く詩","freedom-sworn":"蒼古なる自由への誓い","redhorn_stonethresher":"赤角石塵滅砕","akuoumaru":"惡王丸","mouuns_moon":"曚雲の月"};
+ return ja[key]||String(key).split("_").map((v,i)=>i&&["of","the","to","for","and","in","upon","from","on","with"].includes(v)?v:v.charAt(0).toUpperCase()+v.slice(1)).join(" ");
+}
+function parseGenshinWeaponArchive(data){
+ if(data.schema!=="gacha-wars-gi-weapons-v1"||data.verification!=="secondary"||!Array.isArray(data.banners))throw Error("武器履歴の形式不一致");
+ const seen=new Set(),versions=new Map(),events=[];
+ for(const b of data.banners){
+  if(!b||typeof b.date!=="string"||!/^20\d{2}-\d{2}-\d{2}$/.test(b.date)||seen.has(b.date)||!Array.isArray(b.five)||b.five.length!==2||!Array.isArray(b.four)||b.four.length!==5||typeof b.version!=="string")throw Error("武器履歴の内容不正");
+  seen.add(b.date);const ord=versions.get(b.version)||0;versions.set(b.version,ord+1);
+  const base={game:"gi",type:"weapon",date:b.date,phase:ord===0?"first":ord===1?"second":"unknown",version_group:"Ver."+b.version,event_kind:"featured_banner",weapon_banner_group:"神鋳賦形 "+b.date,verification:"secondary",source_url:data.source,source_title:"Paimon.moe歴代武器祈願・外部資料",date_basis:"secondary_archive_banner_start",review_note:"武器祈願の歴代PU。運営告知を全件直接照合していないため外部資料扱い。キャラ単独売上に加算しない。"};
+  [[5,b.five,"gi_weapon_five"],[4,b.four,"gi_weapon_four"]].forEach(([rarity,items,kind])=>items.forEach((key,i)=>{
+   if(typeof key!=="string"||!/^[a-z0-9_-]+$/.test(key))throw Error("武器名ID不正");
+   events.push({...base,id:"gi-weapon-"+b.date+"-"+rarity+"-"+(i+1),version:labelGenshinWeapon(key),rarity,banner_type:kind});
+  }));
+ }
+ return events;
+}
+async function loadEvents(){
+ try{
+  const response=await fetch("./release-events.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");
+  const data=await response.json();if(data.schema!=="gacha-wars-releases-v1"||!Array.isArray(data.events))throw Error("invalid schema");
+  const primary=data.events.filter(x=>G.some(g=>g.id===x.game)&&["version","character","weapon"].includes(x.type)&&typeof x.version==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&typeof x.source_url==="string"&&/^https:\/\//.test(x.source_url));
+  let extra=[],extraStatus="";
+  try{
+   const resp=await fetch("./gi-weapon-history.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   extra=parseGenshinWeaponArchive(await resp.json());
+   const ids=new Set(primary.map(e=>e.id));extra=extra.filter(e=>!ids.has(e.id));
+   extraStatus="、原神武器 "+extra.length+"件";
+  }catch(err){extraStatus="、原神武器の読込失敗";console.info("原神歴代武器祈願データ未取得",err.message)}
+  publishedEvents=[...primary,...extra].map(x=>({...x,published:true}));
+  releaseFeedStatus="読込成功（計"+publishedEvents.length+"件：基本"+primary.length+"件"+extraStatus+"）";
+  render()
+ }catch(err){releaseFeedStatus="取得失敗: "+err.message;render();console.info("リリース日データ未取得",err.message)}
+}
 async function loadSteam(){try{const response=await fetch("./steam-data.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");const data=await response.json();if(data.schema!=="gacha-wars-steam-v1"||!Array.isArray(data.records))throw Error("invalid schema");steamGameStatus=data.game_status||{};feedStatus.steam="読込成功 / "+data.records.length+"件 / 最終更新 "+(data.updated_at||"未実行");autoRecords=[...autoRecords.filter(r=>r.kind!=="steam"),...data.records.filter(r=>G.some(g=>g.id===r.game&&g.steam)&&r.kind==="steam"&&r.region==="global"&&r.store==="steam"&&Number.isSafeInteger(r.value)&&r.value>=0&&typeof r.date==="string"&&typeof r.source==="string")];render()}catch(err){feedStatus.steam="取得不可: "+err.message;render();console.info("Steam自動記録は未取得",err.message)}}
 async function loadIos(){try{const response=await fetch("./ios-rank-data.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");const data=await response.json();if(data.schema!=="gacha-wars-ios-v1"||!Array.isArray(data.records))throw Error("invalid schema");iosMarketStatus=data.market_status||{};iosIntegrity=data.integrity||{};feedStatus.ios="読込成功 / "+data.records.length+"件 / 最終更新 "+(data.updated_at||"未実行");const current=data.records.filter(r=>G.some(g=>g.id===r.game)&&R.some(x=>x[0]===r.region)&&r.kind==="rank"&&r.store==="ios"&&Number.isSafeInteger(r.value)&&r.value>0&&typeof r.date==="string"&&Number.isFinite(Date.parse(r.date))&&typeof r.source==="string");const unique=[...new Map(current.map(r=>[[r.game,r.region,r.store,r.date].join("|"),r])).values()];autoRecords=[...autoRecords.filter(r=>r.kind!=="rank"),...unique];render()}catch(err){feedStatus.ios="取得不可: "+err.message;render();console.info("iOS自動記録は未取得",err.message)}}
 function render(){$("nav").innerHTML=T.map(x=>'<button class="'+(tab===x[0]?'on':'')+'" onclick="go(\''+x[0]+'\')">'+x[1]+'</button>').join("");$("screen").innerHTML=({home,rank,steam,sns,duel,update:updates,record,power,characters:characterRanking}[tab])();$("stamp").textContent="手動 "+records.length+"件・自動 "+autoRecords.length+"件 / "+date()}
