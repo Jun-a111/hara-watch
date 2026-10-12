@@ -427,6 +427,27 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertEqual(secondary & {e["id"] for e in ledger["upgraded"]},
                          set())
 
+    def test_unresolved_provenance_panel_and_annotations(self):
+        """All nonofficial banner records must remain discoverable with evidence."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        self.assertIn("function unresolvedSourceBoard()", html)
+        self.assertIn('publishedEvents.filter(e=>e.verification!=="official")', html)
+        self.assertIn("+unresolvedSourceBoard()+'", html)
+        self.assertIn("補助公式資料", html)
+        self.assertIn("開始日まで直接確認できたことを意味しません", html)
+        events = self.read("release-events.json")["events"]
+        unresolved = [e for e in events if e["verification"] != "official"]
+        self.assertTrue(unresolved)
+        for event in unresolved:
+            with self.subTest(event_id=event["id"]):
+                self.assertTrue(event.get("date_basis"))
+                self.assertTrue(event.get("review_note"))
+                self.assertIsInstance(event.get("corroborating_sources"), list)
+                for url in event["corroborating_sources"]:
+                    self.assertTrue(url.startswith("https://"))
+                if event.get("schedule_status") == "announced":
+                    self.assertNotEqual(event["verification"], "official")
+
     def test_third_party_sources_are_not_marked_official(self):
         """A fan archive or aggregator link cannot by itself prove a publisher announcement."""
         events = self.read("release-events.json")["events"]
