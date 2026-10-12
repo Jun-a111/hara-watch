@@ -197,13 +197,13 @@
       "type": "character",
       "version": "忌炎",
       "date": "2024-05-23",
-      "source_url": "https://wutheringwaves.fandom.com/wiki/Prevail_the_Lasting_Night/2024-05-23",
-      "source_title": "ゲームリリース・集音履歴照合（外部wiki）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000001.000143406.html",
+      "source_title": "广州库洛科技有限公司公式発表：『鳴潮』2024年5月23日サービス開始・忌炎実装",
       "phase": "first",
       "version_group": "Ver.1.0",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.1.0初回Jiyan集音は2024-05-23 10:00のゲーム開幕から、公式リリース発表とガチャ記録を照合 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "2024年5月24日付KURO GAMESの公式プレスリリースが、サービス開始日の5月23日とVer.1.0での忌炎実装を明記。"
     },
     {
       "id": "history-ww-2024-06-06-1",
@@ -239,13 +239,13 @@
       "type": "character",
       "version": "長離",
       "date": "2024-07-22",
-      "source_url": "https://wutheringwaves.gg/vermillions-ploy-featured-resonator-convene-boosted-drop-rate-for-changli/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000004.000143406.html",
+      "source_title": "广州库洛科技有限公司公式発表：長離ピックアップ開始",
       "phase": "second",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公式集音告知転載にChangli、7/22 10:00開始と明記 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "2024年7月22日付KURO GAMES公式プレスリリースが長離PUの7月22日11時（JST）開始を明記。"
     },
     {
       "id": "history-gi-2020-09-28-4",
@@ -631,13 +631,13 @@
       "type": "character",
       "version": "相里要",
       "date": "2024-09-07",
-      "source_url": "https://wutheringwaves.gg/celestial-revelation-featured-resonator-convene-boosted-drop-rate-for-xiangli-yao/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000008.000143406.html",
+      "source_title": "广州库洛科技有限公司公式発表：相里要ピックアップ",
       "phase": "second",
       "version_group": "Ver.1.2",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "公式集音告知転載にXiangli Yao、9/7 10:00開始と明記 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "2024年9月のKURO GAMES公式プレスリリースで相里要PU『星々の野を駆ける千機』9月7日10時〜9月28日11時59分の開催を確認。"
     },
     {
       "id": "historical-ww-2024-09-29-46",
