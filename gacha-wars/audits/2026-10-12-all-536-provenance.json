@@ -1,0 +1,4839 @@
+{
+  "audit_date": "2026-10-12",
+  "method": "All stored 536 event source URLs classified by publisher domain / press host / other host. Classification is automated metadata inspection, NOT verification of linked text, publisher identity within PR TIMES, or link availability.",
+  "summary": {
+    "total": 536,
+    "official": 530,
+    "secondary": 6,
+    "publisher_site": 94,
+    "press_release": 368,
+    "third_party_reprint_or_social": 68,
+    "invalid_url": 0
+  },
+  "records": [
+    {
+      "id": "zzz-3.2",
+      "game": "zzz",
+      "date": "2026-09-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000442.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "zzz-clarette",
+      "game": "zzz",
+      "date": "2026-09-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000442.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "zzz-roxy",
+      "game": "zzz",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/166475?catchSpider=1",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "zzz-promeia",
+      "game": "zzz",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/166475?catchSpider=1",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "gi-luna-vii-lohen",
+      "game": "gi",
+      "date": "2026-06-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000415.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "gi-luna-vii-mavuika-rerun",
+      "game": "gi",
+      "date": "2026-06-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000415.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-3.7",
+      "game": "ww",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-3.7-kokoro",
+      "game": "ww",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-3.7-chisaki",
+      "game": "ww",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-3.7-iuno",
+      "game": "ww",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/zh-tw/main/news/detail/5528",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-3.7-samei",
+      "game": "ww",
+      "date": "2026-10-22",
+      "verification": "secondary",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-3.7-linne",
+      "game": "ww",
+      "date": "2026-10-22",
+      "verification": "secondary",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-3.7-lucilla",
+      "game": "ww",
+      "date": "2026-10-22",
+      "verification": "secondary",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "zzz-nangongyu-3.2",
+      "game": "zzz",
+      "date": "2026-09-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000442.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2024-05-23-0",
+      "game": "ww",
+      "date": "2024-05-23",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.fandom.com/wiki/Prevail_the_Lasting_Night/2024-05-23",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2024-06-06-1",
+      "game": "ww",
+      "date": "2024-06-06",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/when-thunder-pours-featured-resonator-convene-boosted-drop-rate-for-yinlin/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2024-06-28-2",
+      "game": "ww",
+      "date": "2024-06-28",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-1-1-thaw-of-eons-patch-notes/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2024-07-22-3",
+      "game": "ww",
+      "date": "2024-07-22",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/vermillions-ploy-featured-resonator-convene-boosted-drop-rate-for-changli/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-gi-2020-09-28-4",
+      "game": "gi",
+      "date": "2020-09-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2020-10-20-5",
+      "game": "gi",
+      "date": "2020-10-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000039.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2020-11-11-6",
+      "game": "gi",
+      "date": "2020-11-11",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000041.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2020-12-01-7",
+      "game": "gi",
+      "date": "2020-12-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-04-26-8",
+      "game": "hsr",
+      "date": "2023-04-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000082.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-05-17-9",
+      "game": "hsr",
+      "date": "2023-05-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000085.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-06-07-10",
+      "game": "hsr",
+      "date": "2023-06-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000095.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-06-28-11",
+      "game": "hsr",
+      "date": "2023-06-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000100.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-07-19-12",
+      "game": "hsr",
+      "date": "2023-07-19",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/20114086",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-hsr-2023-08-09-13",
+      "game": "hsr",
+      "date": "2023-08-09",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/20713096",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-hsr-2023-08-30-14",
+      "game": "hsr",
+      "date": "2023-08-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000121.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-09-20-15",
+      "game": "hsr",
+      "date": "2023-09-20",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/21723945",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-hsr-2023-10-11-16",
+      "game": "hsr",
+      "date": "2023-10-11",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/22226154",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-hsr-2023-10-27-17",
+      "game": "hsr",
+      "date": "2023-10-27",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article_pre/12553",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-zzz-2024-07-04-18",
+      "game": "zzz",
+      "date": "2024-07-04",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://zenless.gg/mellow-waveride-channel-details/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-zzz-2024-07-24-19",
+      "game": "zzz",
+      "date": "2024-07-24",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/31405925",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-zzz-2024-08-14-20",
+      "game": "zzz",
+      "date": "2024-08-14",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://zenless.gg/version-1-1-undercover-rb-update-details/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-zzz-2024-09-04-21",
+      "game": "zzz",
+      "date": "2024-09-04",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/125645",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2024-09-25-22",
+      "game": "zzz",
+      "date": "2024-09-25",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/id-id/news/126054",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2024-10-16-23",
+      "game": "zzz",
+      "date": "2024-10-16",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://zenless.gg/born-to-burn-channel-details/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-zzz-2024-11-06-24",
+      "game": "zzz",
+      "date": "2024-11-06",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://zenless.gg/moonlit-serenity-signal-search-details/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-zzz-2024-11-27-25",
+      "game": "zzz",
+      "date": "2024-11-27",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://zenless.gg/champion-of-embers-signal-search-details/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-zzz-2024-12-18-26",
+      "game": "zzz",
+      "date": "2024-12-18",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/127322",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2024-12-18-27",
+      "game": "zzz",
+      "date": "2024-12-18",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/127322",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-01-22-28",
+      "game": "zzz",
+      "date": "2025-01-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000282.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-02-12-29",
+      "game": "zzz",
+      "date": "2025-02-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000282.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-ww-2024-08-15-44",
+      "game": "ww",
+      "date": "2024-08-15",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-1-2-in-the-turquoise-moonglow-patch-notes-4/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2024-09-07-45",
+      "game": "ww",
+      "date": "2024-09-07",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/celestial-revelation-featured-resonator-convene-boosted-drop-rate-for-xiangli-yao/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2024-09-29-46",
+      "game": "ww",
+      "date": "2024-09-29",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/wuthering-waves-version-1-3-update-maintenance-notice-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2024-10-24-47",
+      "game": "ww",
+      "date": "2024-10-24",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/prevail-the-lasting-night-featured-resonator-convene-boosted-drop-rate-for-jiyan-3/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2024-11-14-48",
+      "game": "ww",
+      "date": "2024-11-14",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-1-4-when-the-night-knocks-patch-notes-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2024-12-12-49",
+      "game": "ww",
+      "date": "2024-12-12",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/when-thunder-pours-featured-resonator-convene-boosted-drop-rate-for-yinlin-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2024-12-12-50",
+      "game": "ww",
+      "date": "2024-12-12",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/39/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2025-01-02-51",
+      "game": "ww",
+      "date": "2025-01-02",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1897",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-ww-2025-01-02-52",
+      "game": "ww",
+      "date": "2025-01-02",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-2-0-all-silent-souls-can-sing-patch-notes/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2025-01-23-53",
+      "game": "ww",
+      "date": "2025-01-23",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/39/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2025-01-23-54",
+      "game": "ww",
+      "date": "2025-01-23",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/39/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-ww-2025-02-13-55",
+      "game": "ww",
+      "date": "2025-02-13",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2154",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-ww-2025-03-06-56",
+      "game": "ww",
+      "date": "2025-03-06",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2154",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-ww-2025-03-06-57",
+      "game": "ww",
+      "date": "2025-03-06",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/vermillions-ploy-featured-resonator-convene-boosted-drop-rate-for-changli-3/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-gi-2020-12-23-58",
+      "game": "gi",
+      "date": "2020-12-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000045.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2021-01-12-59",
+      "game": "gi",
+      "date": "2021-01-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000047.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2021-02-03-60",
+      "game": "gi",
+      "date": "2021-02-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2021-02-17-61",
+      "game": "gi",
+      "date": "2021-02-17",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "historical-gi-2021-03-02-62",
+      "game": "gi",
+      "date": "2021-03-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000056.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2021-03-17-63",
+      "game": "gi",
+      "date": "2021-03-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000058.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2021-04-06-64",
+      "game": "gi",
+      "date": "2021-04-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000062.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2021-04-28-65",
+      "game": "gi",
+      "date": "2021-04-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2021-05-18-66",
+      "game": "gi",
+      "date": "2021-05-18",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000071.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-03-12-67",
+      "game": "zzz",
+      "date": "2025-03-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000296.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-03-12-68",
+      "game": "zzz",
+      "date": "2025-03-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000296.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-04-02-69",
+      "game": "zzz",
+      "date": "2025-04-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000296.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-04-02-70",
+      "game": "zzz",
+      "date": "2025-04-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000296.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-04-23-71",
+      "game": "zzz",
+      "date": "2025-04-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000306.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-04-23-72",
+      "game": "zzz",
+      "date": "2025-04-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000306.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-05-14-73",
+      "game": "zzz",
+      "date": "2025-05-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000306.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-05-14-74",
+      "game": "zzz",
+      "date": "2025-05-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000306.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-06-06-75",
+      "game": "zzz",
+      "date": "2025-06-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000315.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-06-06-76",
+      "game": "zzz",
+      "date": "2025-06-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000315.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-06-25-77",
+      "game": "zzz",
+      "date": "2025-06-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000315.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-06-25-78",
+      "game": "zzz",
+      "date": "2025-06-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000315.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-07-16-79",
+      "game": "zzz",
+      "date": "2025-07-16",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000328.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-07-16-80",
+      "game": "zzz",
+      "date": "2025-07-16",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000328.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-08-06-81",
+      "game": "zzz",
+      "date": "2025-08-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000328.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-08-06-82",
+      "game": "zzz",
+      "date": "2025-08-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000328.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-09-04-83",
+      "game": "zzz",
+      "date": "2025-09-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000340.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-09-04-84",
+      "game": "zzz",
+      "date": "2025-09-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000340.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-09-24-85",
+      "game": "zzz",
+      "date": "2025-09-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000340.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-zzz-2025-09-24-86",
+      "game": "zzz",
+      "date": "2025-09-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000340.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-03-27-87",
+      "game": "ww",
+      "date": "2025-03-27",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/2381",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-03-27-88",
+      "game": "ww",
+      "date": "2025-03-27",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/author/wutheringwavesgg/page/21/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-04-17-89",
+      "game": "ww",
+      "date": "2025-04-17",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/till-the-sea-turns-clear-featured-resonator-convene-boosted-drop-rate-for-shorekeeper-3/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-04-29-90",
+      "game": "ww",
+      "date": "2025-04-29",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-2-3-fiery-arpeggio-of-summer-reunion-patch-notes/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-05-22-91",
+      "game": "ww",
+      "date": "2025-05-22",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/through-verses-and-rhythms-featured-resonator-convene-boosted-drop-rate-for-ciaccona/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-06-12-92",
+      "game": "ww",
+      "date": "2025-06-12",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/patch-notes-for-version-2-4-lightly-we-toss-the-crown/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-07-03-93",
+      "game": "ww",
+      "date": "2025-07-03",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/roar-of-triumph-featured-resonator-convene-boosted-drop-rate-for-lupa/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-07-24-94",
+      "game": "ww",
+      "date": "2025-07-24",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/patch-notes-for-version-2-5-unfading-melody-of-life/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-07-24-95",
+      "game": "ww",
+      "date": "2025-07-24",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-08-14-96",
+      "game": "ww",
+      "date": "2025-08-14",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/neptunes-lullaby-featured-resonator-convene-boosted-drop-rate-for-cantarella-5/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-08-14-97",
+      "game": "ww",
+      "date": "2025-08-14",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/blaze-across-the-deep-featured-resonator-convene-boosted-drop-rate-for-brant-5/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-08-28-98",
+      "game": "ww",
+      "date": "2025-08-28",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/eternal-radiance-on-the-crown-featured-resonator-convene-boosted-drop-rate-for-augusta/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-08-28-99",
+      "game": "ww",
+      "date": "2025-08-28",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-09-17-100",
+      "game": "ww",
+      "date": "2025-09-17",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/across-times-waxes-and-wanes-featured-resonator-convene-boosted-drop-rate-for-iuno/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-09-17-101",
+      "game": "ww",
+      "date": "2025-09-17",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-11-15-102",
+      "game": "hsr",
+      "date": "2023-11-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000144.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-12-06-103",
+      "game": "hsr",
+      "date": "2023-12-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000148.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-12-06-104",
+      "game": "hsr",
+      "date": "2023-12-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000148.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-12-27-105",
+      "game": "hsr",
+      "date": "2023-12-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000162.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2023-12-27-106",
+      "game": "hsr",
+      "date": "2023-12-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000162.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-01-17-107",
+      "game": "hsr",
+      "date": "2024-01-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000171.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-01-17-108",
+      "game": "hsr",
+      "date": "2024-01-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000171.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-02-06-109",
+      "game": "hsr",
+      "date": "2024-02-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000181.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-02-06-110",
+      "game": "hsr",
+      "date": "2024-02-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000181.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-02-29-111",
+      "game": "hsr",
+      "date": "2024-02-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000184.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-02-29-112",
+      "game": "hsr",
+      "date": "2024-02-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000184.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-03-27-113",
+      "game": "hsr",
+      "date": "2024-03-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000190.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-03-27-114",
+      "game": "hsr",
+      "date": "2024-03-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000190.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-04-17-115",
+      "game": "hsr",
+      "date": "2024-04-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000200.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-04-17-116",
+      "game": "hsr",
+      "date": "2024-04-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000200.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-10-09-117",
+      "game": "ww",
+      "date": "2025-10-09",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/from-ashes-featured-resonator-convene-boosted-drop-rate-for-galbrena/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-10-09-118",
+      "game": "ww",
+      "date": "2025-10-09",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/roar-of-triumph-featured-resonator-convene-boosted-drop-rate-for-lupa-3/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-10-30-119",
+      "game": "ww",
+      "date": "2025-10-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3494",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-10-30-120",
+      "game": "ww",
+      "date": "2025-10-30",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.dearplayers.com/en-US/updates/wuthering-waves/1983370706315596096",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-11-20-121",
+      "game": "ww",
+      "date": "2025-11-20",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/horizon-of-dawnbreak-featured-resonator-convene-boosted-drop-rate-for-chisa/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-11-20-122",
+      "game": "ww",
+      "date": "2025-11-20",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/with-hushed-whispers-featured-resonator-convene-boosted-drop-rate-for-phoebe-4/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-12-11-123",
+      "game": "ww",
+      "date": "2025-12-11",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3723",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-12-11-124",
+      "game": "ww",
+      "date": "2025-12-11",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/neptunes-lullaby-featured-resonator-convene-boosted-drop-rate-for-cantarella-6/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2025-12-25-125",
+      "game": "ww",
+      "date": "2025-12-25",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/3858",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2025-12-25-126",
+      "game": "ww",
+      "date": "2025-12-25",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/dance-in-the-storms-wake-featured-resonator-convene-cartethyia/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-01-15-127",
+      "game": "ww",
+      "date": "2026-01-15",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/distant-may-the-starlights-be-featured-resonator-convene-mornye/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-01-15-128",
+      "game": "ww",
+      "date": "2026-01-15",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4025",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-01-15-129",
+      "game": "ww",
+      "date": "2026-01-15",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/across-times-waxes-and-wanes-featured-resonator-convene-iuno/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-gi-2021-06-09-130",
+      "game": "gi",
+      "date": "2021-06-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000073.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-06-29-131",
+      "game": "gi",
+      "date": "2021-06-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000083.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-07-21-132",
+      "game": "gi",
+      "date": "2021-07-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000088.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-08-10-133",
+      "game": "gi",
+      "date": "2021-08-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000095.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-09-01-134",
+      "game": "gi",
+      "date": "2021-09-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000100.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-09-21-135",
+      "game": "gi",
+      "date": "2021-09-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000104.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-10-13-136",
+      "game": "gi",
+      "date": "2021-10-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000111.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-11-02-137",
+      "game": "gi",
+      "date": "2021-11-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000116.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-11-24-138",
+      "game": "gi",
+      "date": "2021-11-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000120.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-11-24-139",
+      "game": "gi",
+      "date": "2021-11-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000120.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2021-12-14-140",
+      "game": "gi",
+      "date": "2021-12-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000125.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-01-05-141",
+      "game": "gi",
+      "date": "2022-01-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000129.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-01-05-142",
+      "game": "gi",
+      "date": "2022-01-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000129.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-05-08-143",
+      "game": "hsr",
+      "date": "2024-05-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000204.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-05-08-144",
+      "game": "hsr",
+      "date": "2024-05-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000204.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-05-29-145",
+      "game": "hsr",
+      "date": "2024-05-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000210.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-05-29-146",
+      "game": "hsr",
+      "date": "2024-05-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000210.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-06-19-147",
+      "game": "hsr",
+      "date": "2024-06-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000215.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-06-19-148",
+      "game": "hsr",
+      "date": "2024-06-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000215.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-07-10-149",
+      "game": "hsr",
+      "date": "2024-07-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-07-10-150",
+      "game": "hsr",
+      "date": "2024-07-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000227.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-07-31-151",
+      "game": "hsr",
+      "date": "2024-07-31",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000233.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-07-31-152",
+      "game": "hsr",
+      "date": "2024-07-31",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000233.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-08-21-153",
+      "game": "hsr",
+      "date": "2024-08-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000238.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-08-21-154",
+      "game": "hsr",
+      "date": "2024-08-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000238.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-09-10-155",
+      "game": "hsr",
+      "date": "2024-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-09-10-156",
+      "game": "hsr",
+      "date": "2024-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-09-10-157",
+      "game": "hsr",
+      "date": "2024-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-09-10-158",
+      "game": "hsr",
+      "date": "2024-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000242.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-10-02-159",
+      "game": "hsr",
+      "date": "2024-10-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000251.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-10-02-160",
+      "game": "hsr",
+      "date": "2024-10-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000251.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-10-23-161",
+      "game": "hsr",
+      "date": "2024-10-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000256.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-10-23-162",
+      "game": "hsr",
+      "date": "2024-10-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000256.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-11-13-163",
+      "game": "hsr",
+      "date": "2024-11-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000262.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-11-13-164",
+      "game": "hsr",
+      "date": "2024-11-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000262.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-12-04-165",
+      "game": "hsr",
+      "date": "2024-12-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000267.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-12-04-166",
+      "game": "hsr",
+      "date": "2024-12-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000267.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-12-25-167",
+      "game": "hsr",
+      "date": "2024-12-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000274.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2024-12-25-168",
+      "game": "hsr",
+      "date": "2024-12-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000274.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-01-15-169",
+      "game": "hsr",
+      "date": "2025-01-15",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-01-15-170",
+      "game": "hsr",
+      "date": "2025-01-15",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-01-15-171",
+      "game": "hsr",
+      "date": "2025-01-15",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-01-15-172",
+      "game": "hsr",
+      "date": "2025-01-15",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-02-05-173",
+      "game": "hsr",
+      "date": "2025-02-05",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-02-05-174",
+      "game": "hsr",
+      "date": "2025-02-05",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-02-05-175",
+      "game": "hsr",
+      "date": "2025-02-05",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-02-05-176",
+      "game": "hsr",
+      "date": "2025-02-05",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/127975",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-02-26-177",
+      "game": "hsr",
+      "date": "2025-02-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000294.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-02-26-178",
+      "game": "hsr",
+      "date": "2025-02-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000294.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-03-19-179",
+      "game": "hsr",
+      "date": "2025-03-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000299.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-03-19-180",
+      "game": "hsr",
+      "date": "2025-03-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000299.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-04-09-181",
+      "game": "hsr",
+      "date": "2025-04-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000303.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-04-09-182",
+      "game": "hsr",
+      "date": "2025-04-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000303.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-04-09-183",
+      "game": "hsr",
+      "date": "2025-04-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000303.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-04-09-184",
+      "game": "hsr",
+      "date": "2025-04-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000303.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-04-30-185",
+      "game": "hsr",
+      "date": "2025-04-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000308.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-04-30-186",
+      "game": "hsr",
+      "date": "2025-04-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000308.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-05-21-187",
+      "game": "hsr",
+      "date": "2025-05-21",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/155941",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-05-21-188",
+      "game": "hsr",
+      "date": "2025-05-21",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/155941",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-06-11-189",
+      "game": "hsr",
+      "date": "2025-06-11",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/155941",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-06-11-190",
+      "game": "hsr",
+      "date": "2025-06-11",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/155941",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-02-191",
+      "game": "hsr",
+      "date": "2025-07-02",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/157426",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-02-192",
+      "game": "hsr",
+      "date": "2025-07-02",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/157426",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-02-193",
+      "game": "hsr",
+      "date": "2025-07-02",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/157426",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-02-194",
+      "game": "hsr",
+      "date": "2025-07-02",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/157426",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-23-195",
+      "game": "hsr",
+      "date": "2025-07-23",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/157426",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-23-196",
+      "game": "hsr",
+      "date": "2025-07-23",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/157426",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-23-197",
+      "game": "hsr",
+      "date": "2025-07-23",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://www.hoyoverse.com/en-us/news/157426",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-11-198",
+      "game": "hsr",
+      "date": "2025-07-11",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000330.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-07-11-199",
+      "game": "hsr",
+      "date": "2025-07-11",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000330.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-08-13-200",
+      "game": "hsr",
+      "date": "2025-08-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000336.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-08-13-201",
+      "game": "hsr",
+      "date": "2025-08-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000336.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-09-02-202",
+      "game": "hsr",
+      "date": "2025-09-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000344.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-09-02-203",
+      "game": "hsr",
+      "date": "2025-09-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000344.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-09-24-204",
+      "game": "hsr",
+      "date": "2025-09-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000350.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-09-24-205",
+      "game": "hsr",
+      "date": "2025-09-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000350.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-10-15-206",
+      "game": "hsr",
+      "date": "2025-10-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000355.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-10-15-207",
+      "game": "hsr",
+      "date": "2025-10-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000355.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-01-25-208",
+      "game": "gi",
+      "date": "2022-01-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000133.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-01-25-209",
+      "game": "gi",
+      "date": "2022-01-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000133.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-02-16-210",
+      "game": "gi",
+      "date": "2022-02-16",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000135.000048345.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-03-08-211",
+      "game": "gi",
+      "date": "2022-03-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-03-08-212",
+      "game": "gi",
+      "date": "2022-03-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000002.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-03-30-213",
+      "game": "gi",
+      "date": "2022-03-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-03-30-214",
+      "game": "gi",
+      "date": "2022-03-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000006.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-04-19-215",
+      "game": "gi",
+      "date": "2022-04-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000007.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-05-31-216",
+      "game": "gi",
+      "date": "2022-05-31",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-05-31-217",
+      "game": "gi",
+      "date": "2022-05-31",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000014.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-06-21-218",
+      "game": "gi",
+      "date": "2022-06-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000017.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-07-13-219",
+      "game": "gi",
+      "date": "2022-07-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-07-13-220",
+      "game": "gi",
+      "date": "2022-07-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000020.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-08-02-221",
+      "game": "gi",
+      "date": "2022-08-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000021.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-10-15-222",
+      "game": "zzz",
+      "date": "2025-10-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000353.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-10-15-223",
+      "game": "zzz",
+      "date": "2025-10-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000353.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-11-05-224",
+      "game": "zzz",
+      "date": "2025-11-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000353.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-11-05-225",
+      "game": "zzz",
+      "date": "2025-11-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000353.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-11-26-226",
+      "game": "zzz",
+      "date": "2025-11-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000362.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-11-26-227",
+      "game": "zzz",
+      "date": "2025-11-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000362.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-12-17-228",
+      "game": "zzz",
+      "date": "2025-12-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000362.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-12-17-229",
+      "game": "zzz",
+      "date": "2025-12-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000362.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-12-30-230",
+      "game": "zzz",
+      "date": "2025-12-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000372.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2025-12-30-231",
+      "game": "zzz",
+      "date": "2025-12-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000372.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-02-06-232",
+      "game": "zzz",
+      "date": "2026-02-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000381.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-02-06-233",
+      "game": "zzz",
+      "date": "2026-02-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000381.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-03-04-234",
+      "game": "zzz",
+      "date": "2026-03-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000381.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-03-04-235",
+      "game": "zzz",
+      "date": "2026-03-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000381.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-08-24-236",
+      "game": "gi",
+      "date": "2022-08-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-08-24-237",
+      "game": "gi",
+      "date": "2022-08-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000025.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-09-09-238",
+      "game": "gi",
+      "date": "2022-09-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000027.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-09-09-239",
+      "game": "gi",
+      "date": "2022-09-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000027.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-09-28-240",
+      "game": "gi",
+      "date": "2022-09-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-09-28-241",
+      "game": "gi",
+      "date": "2022-09-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000031.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-10-14-242",
+      "game": "gi",
+      "date": "2022-10-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-10-14-243",
+      "game": "gi",
+      "date": "2022-10-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-11-02-244",
+      "game": "gi",
+      "date": "2022-11-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-11-02-245",
+      "game": "gi",
+      "date": "2022-11-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000038.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-11-18-246",
+      "game": "gi",
+      "date": "2022-11-18",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104457",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-11-18-247",
+      "game": "gi",
+      "date": "2022-11-18",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104457",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-12-07-248",
+      "game": "gi",
+      "date": "2022-12-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-12-07-249",
+      "game": "gi",
+      "date": "2022-12-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000042.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-12-27-250",
+      "game": "gi",
+      "date": "2022-12-27",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104497",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2022-12-27-251",
+      "game": "gi",
+      "date": "2022-12-27",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://genshin.hoyoverse.com/en/news/detail/104497",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-01-18-252",
+      "game": "gi",
+      "date": "2023-01-18",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-01-18-253",
+      "game": "gi",
+      "date": "2023-01-18",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-02-07-254",
+      "game": "gi",
+      "date": "2023-02-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-02-07-255",
+      "game": "gi",
+      "date": "2023-02-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-03-01-256",
+      "game": "gi",
+      "date": "2023-03-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000064.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-03-01-257",
+      "game": "gi",
+      "date": "2023-03-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000064.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-03-21-258",
+      "game": "gi",
+      "date": "2023-03-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-03-21-259",
+      "game": "gi",
+      "date": "2023-03-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-04-12-260",
+      "game": "gi",
+      "date": "2023-04-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000074.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-04-12-261",
+      "game": "gi",
+      "date": "2023-04-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000074.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-05-02-262",
+      "game": "gi",
+      "date": "2023-05-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000079.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-05-02-263",
+      "game": "gi",
+      "date": "2023-05-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000079.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-05-24-264",
+      "game": "gi",
+      "date": "2023-05-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000088.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-05-24-265",
+      "game": "gi",
+      "date": "2023-05-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000088.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-06-13-266",
+      "game": "gi",
+      "date": "2023-06-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000098.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-06-13-267",
+      "game": "gi",
+      "date": "2023-06-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000098.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-07-05-268",
+      "game": "gi",
+      "date": "2023-07-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000102.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-07-05-269",
+      "game": "gi",
+      "date": "2023-07-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000102.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-07-25-270",
+      "game": "gi",
+      "date": "2023-07-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000109.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2023-07-25-271",
+      "game": "gi",
+      "date": "2023-07-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000109.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-08-16-272",
+      "game": "gi",
+      "date": "2023-08-16",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000114.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-08-16-273",
+      "game": "gi",
+      "date": "2023-08-16",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000114.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-09-05-274",
+      "game": "gi",
+      "date": "2023-09-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000123.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-09-05-275",
+      "game": "gi",
+      "date": "2023-09-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000123.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-09-27-276",
+      "game": "gi",
+      "date": "2023-09-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000130.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-09-27-277",
+      "game": "gi",
+      "date": "2023-09-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000130.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-10-17-278",
+      "game": "gi",
+      "date": "2023-10-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000137.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-10-17-279",
+      "game": "gi",
+      "date": "2023-10-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000137.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-11-08-280",
+      "game": "gi",
+      "date": "2023-11-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000143.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-11-08-281",
+      "game": "gi",
+      "date": "2023-11-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000143.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-11-28-282",
+      "game": "gi",
+      "date": "2023-11-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000146.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-11-28-283",
+      "game": "gi",
+      "date": "2023-11-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000146.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-12-20-284",
+      "game": "gi",
+      "date": "2023-12-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000157.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2023-12-20-285",
+      "game": "gi",
+      "date": "2023-12-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000157.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2024-01-09-286",
+      "game": "gi",
+      "date": "2024-01-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000169.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2024-01-09-287",
+      "game": "gi",
+      "date": "2024-01-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000169.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2024-01-31-288",
+      "game": "gi",
+      "date": "2024-01-31",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000176.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2024-01-31-289",
+      "game": "gi",
+      "date": "2024-01-31",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000176.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2024-02-20-290",
+      "game": "gi",
+      "date": "2024-02-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000182.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2024-02-20-291",
+      "game": "gi",
+      "date": "2024-02-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000182.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-03-13-292",
+      "game": "gi",
+      "date": "2024-03-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000186.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-03-13-293",
+      "game": "gi",
+      "date": "2024-03-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000186.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-04-02-294",
+      "game": "gi",
+      "date": "2024-04-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000192.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-04-02-295",
+      "game": "gi",
+      "date": "2024-04-02",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000192.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-04-24-296",
+      "game": "gi",
+      "date": "2024-04-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000201.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-04-24-297",
+      "game": "gi",
+      "date": "2024-04-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000201.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-05-14-298",
+      "game": "gi",
+      "date": "2024-05-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000206.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-05-14-299",
+      "game": "gi",
+      "date": "2024-05-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000206.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-06-05-300",
+      "game": "gi",
+      "date": "2024-06-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000211.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-06-05-301",
+      "game": "gi",
+      "date": "2024-06-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000211.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-06-25-302",
+      "game": "gi",
+      "date": "2024-06-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000217.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-06-25-303",
+      "game": "gi",
+      "date": "2024-06-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000217.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-07-17-304",
+      "game": "gi",
+      "date": "2024-07-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-07-17-305",
+      "game": "gi",
+      "date": "2024-07-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-08-06-306",
+      "game": "gi",
+      "date": "2024-08-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-08-06-307",
+      "game": "gi",
+      "date": "2024-08-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-08-28-308",
+      "game": "gi",
+      "date": "2024-08-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000240.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-08-28-309",
+      "game": "gi",
+      "date": "2024-08-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000240.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-09-17-310",
+      "game": "gi",
+      "date": "2024-09-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000245.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-09-17-311",
+      "game": "gi",
+      "date": "2024-09-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000245.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-10-09-312",
+      "game": "gi",
+      "date": "2024-10-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-10-09-313",
+      "game": "gi",
+      "date": "2024-10-09",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-10-29-314",
+      "game": "gi",
+      "date": "2024-10-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-10-29-315",
+      "game": "gi",
+      "date": "2024-10-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-11-20-316",
+      "game": "gi",
+      "date": "2024-11-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000264.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-11-20-317",
+      "game": "gi",
+      "date": "2024-11-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000264.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-12-10-318",
+      "game": "gi",
+      "date": "2024-12-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000270.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2024-12-10-319",
+      "game": "gi",
+      "date": "2024-12-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000270.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-01-01-320",
+      "game": "gi",
+      "date": "2025-01-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000275.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-01-01-321",
+      "game": "gi",
+      "date": "2025-01-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000275.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-01-21-322",
+      "game": "gi",
+      "date": "2025-01-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-01-21-323",
+      "game": "gi",
+      "date": "2025-01-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000285.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-02-12-324",
+      "game": "gi",
+      "date": "2025-02-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000290.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-02-12-325",
+      "game": "gi",
+      "date": "2025-02-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000290.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-03-04-326",
+      "game": "gi",
+      "date": "2025-03-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000295.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-03-04-327",
+      "game": "gi",
+      "date": "2025-03-04",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000295.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-03-26-328",
+      "game": "gi",
+      "date": "2025-03-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000301.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-03-26-329",
+      "game": "gi",
+      "date": "2025-03-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000301.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-04-15-330",
+      "game": "gi",
+      "date": "2025-04-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000304.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-04-15-331",
+      "game": "gi",
+      "date": "2025-04-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000304.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-05-07-332",
+      "game": "gi",
+      "date": "2025-05-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000310.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-05-07-333",
+      "game": "gi",
+      "date": "2025-05-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000310.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-05-27-334",
+      "game": "gi",
+      "date": "2025-05-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-05-27-335",
+      "game": "gi",
+      "date": "2025-05-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000314.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-06-18-336",
+      "game": "gi",
+      "date": "2025-06-18",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000323.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-06-18-337",
+      "game": "gi",
+      "date": "2025-06-18",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000323.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-07-08-338",
+      "game": "gi",
+      "date": "2025-07-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000327.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-07-08-339",
+      "game": "gi",
+      "date": "2025-07-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000327.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-07-30-340",
+      "game": "gi",
+      "date": "2025-07-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000334.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-07-30-341",
+      "game": "gi",
+      "date": "2025-07-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000334.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-08-19-342",
+      "game": "gi",
+      "date": "2025-08-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000337.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-2025-08-19-343",
+      "game": "gi",
+      "date": "2025-08-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000337.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-09-10-344",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-09-10-345",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-09-30-346",
+      "game": "gi",
+      "date": "2025-09-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-09-30-347",
+      "game": "gi",
+      "date": "2025-09-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-10-22-348",
+      "game": "gi",
+      "date": "2025-10-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000356.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-10-22-349",
+      "game": "gi",
+      "date": "2025-10-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000356.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-11-11-350",
+      "game": "gi",
+      "date": "2025-11-11",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000361.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-11-11-351",
+      "game": "gi",
+      "date": "2025-11-11",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000361.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-12-03-352",
+      "game": "gi",
+      "date": "2025-12-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000366.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-12-03-353",
+      "game": "gi",
+      "date": "2025-12-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000366.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-12-23-354",
+      "game": "gi",
+      "date": "2025-12-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000371.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2025-12-23-355",
+      "game": "gi",
+      "date": "2025-12-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000371.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-01-14-356",
+      "game": "gi",
+      "date": "2026-01-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-01-14-357",
+      "game": "gi",
+      "date": "2026-01-14",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000378.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-02-03-358",
+      "game": "gi",
+      "date": "2026-02-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000382.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-02-03-359",
+      "game": "gi",
+      "date": "2026-02-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000382.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-02-25-360",
+      "game": "gi",
+      "date": "2026-02-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-02-25-361",
+      "game": "gi",
+      "date": "2026-02-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000393.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-03-17-362",
+      "game": "gi",
+      "date": "2026-03-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000395.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-03-17-363",
+      "game": "gi",
+      "date": "2026-03-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000395.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-04-08-364",
+      "game": "gi",
+      "date": "2026-04-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-04-08-365",
+      "game": "gi",
+      "date": "2026-04-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000401.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-04-28-366",
+      "game": "gi",
+      "date": "2026-04-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000405.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-04-28-367",
+      "game": "gi",
+      "date": "2026-04-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000405.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-05-20-368",
+      "game": "gi",
+      "date": "2026-05-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000408.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-05-20-369",
+      "game": "gi",
+      "date": "2026-05-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000408.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-07-01-370",
+      "game": "gi",
+      "date": "2026-07-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-07-01-371",
+      "game": "gi",
+      "date": "2026-07-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000420.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-07-21-372",
+      "game": "gi",
+      "date": "2026-07-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000426.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-07-21-373",
+      "game": "gi",
+      "date": "2026-07-21",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000426.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-08-12-374",
+      "game": "gi",
+      "date": "2026-08-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000436.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-08-12-375",
+      "game": "gi",
+      "date": "2026-08-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000436.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-09-01-376",
+      "game": "gi",
+      "date": "2026-09-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-09-01-377",
+      "game": "gi",
+      "date": "2026-09-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000443.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-09-23-378",
+      "game": "gi",
+      "date": "2026-09-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000449.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "historical-gi-2026-09-23-379",
+      "game": "gi",
+      "date": "2026-09-23",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000449.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-02-05-380",
+      "game": "ww",
+      "date": "2026-02-05",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-02-05-381",
+      "game": "ww",
+      "date": "2026-02-05",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-3-1-featured-resonator-weapon-convene-phase-i/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-02-05-382",
+      "game": "ww",
+      "date": "2026-02-05",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-3-1-featured-resonator-weapon-convene-phase-i/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-02-26-383",
+      "game": "ww",
+      "date": "2026-02-26",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.dearplayers.com/en-US/updates/wuthering-waves/2026492363023982673",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-02-26-384",
+      "game": "ww",
+      "date": "2026-02-26",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-03-19-385",
+      "game": "ww",
+      "date": "2026-03-19",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4447",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-03-19-386",
+      "game": "ww",
+      "date": "2026-03-19",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-04-09-387",
+      "game": "ww",
+      "date": "2026-04-09",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-3-2-featured-resonator-weapon-convene-phase-ii/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-04-09-388",
+      "game": "ww",
+      "date": "2026-04-09",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-3-2-featured-resonator-weapon-convene-phase-ii/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-04-09-389",
+      "game": "ww",
+      "date": "2026-04-09",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/version-3-2-featured-resonator-weapon-convene-phase-ii/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "history-ww-2026-04-30-390",
+      "game": "ww",
+      "date": "2026-04-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-04-30-391",
+      "game": "ww",
+      "date": "2026-04-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/es/main/news/detail/4597",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-04-30-392",
+      "game": "ww",
+      "date": "2026-04-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/es/main/news/detail/4597",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-05-21-393",
+      "game": "ww",
+      "date": "2026-05-21",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4691",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-05-21-394",
+      "game": "ww",
+      "date": "2026-05-21",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4691",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-05-21-395",
+      "game": "ww",
+      "date": "2026-05-21",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4691",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-03-24-396",
+      "game": "zzz",
+      "date": "2026-03-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000397.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-03-24-397",
+      "game": "zzz",
+      "date": "2026-03-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000397.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-04-15-398",
+      "game": "zzz",
+      "date": "2026-04-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000397.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-04-15-399",
+      "game": "zzz",
+      "date": "2026-04-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000397.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-05-06-400",
+      "game": "zzz",
+      "date": "2026-05-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000404.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-05-06-401",
+      "game": "zzz",
+      "date": "2026-05-06",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000404.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-05-27-402",
+      "game": "zzz",
+      "date": "2026-05-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000404.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-05-27-403",
+      "game": "zzz",
+      "date": "2026-05-27",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000404.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-06-17-404",
+      "game": "zzz",
+      "date": "2026-06-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000416.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-07-08-405",
+      "game": "zzz",
+      "date": "2026-07-08",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000416.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-07-29-406",
+      "game": "zzz",
+      "date": "2026-07-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000424.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-zzz-2026-08-19-407",
+      "game": "zzz",
+      "date": "2026-08-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000424.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-01-22-408",
+      "game": "end",
+      "date": "2026-01-22",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/en-us/news/3847",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-02-07-409",
+      "game": "end",
+      "date": "2026-02-07",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/en-us/news/7028",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-02-24-410",
+      "game": "end",
+      "date": "2026-02-24",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/en-us/news/9572",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-03-12-411",
+      "game": "end",
+      "date": "2026-03-12",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/en-us/news/8907",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-03-29-412",
+      "game": "end",
+      "date": "2026-03-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/en-us/news/3843",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-04-17-413",
+      "game": "end",
+      "date": "2026-04-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000034.000126152.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-05-14-414",
+      "game": "end",
+      "date": "2026-05-14",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/ja-jp/news/0751",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-06-05-415",
+      "game": "end",
+      "date": "2026-06-05",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/ja-jp/news/0758",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-07-16-416",
+      "game": "end",
+      "date": "2026-07-16",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/ja-jp/news/5200",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-08-09-417",
+      "game": "end",
+      "date": "2026-08-09",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/ja-jp/news/5200",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-09-02-418",
+      "game": "end",
+      "date": "2026-09-02",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/ja-jp/news/5208",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-end-2026-09-24-419",
+      "game": "end",
+      "date": "2026-09-24",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/ja-jp/news/5208",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-04-29-420",
+      "game": "nte",
+      "date": "2026-04-29",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000028.000146166.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-05-13-421",
+      "game": "nte",
+      "date": "2026-05-13",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamebroad/20260512/262141.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-06-03-422",
+      "game": "nte",
+      "date": "2026-06-03",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamebroad/20260602/262474.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-06-24-423",
+      "game": "nte",
+      "date": "2026-06-24",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamebroad/20260623/262807.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-07-08-424",
+      "game": "nte",
+      "date": "2026-07-08",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260706/263026.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-07-29-425",
+      "game": "nte",
+      "date": "2026-07-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260728/263293.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-08-19-426",
+      "game": "nte",
+      "date": "2026-08-19",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260817/263606.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-08-19-427",
+      "game": "nte",
+      "date": "2026-08-19",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260817/263606.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-09-09-428",
+      "game": "nte",
+      "date": "2026-09-09",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260908/263946.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-09-09-429",
+      "game": "nte",
+      "date": "2026-09-09",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260908/263946.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-09-30-430",
+      "game": "nte",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-nte-2026-09-30-431",
+      "game": "nte",
+      "date": "2026-09-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-11-05-432",
+      "game": "hsr",
+      "date": "2025-11-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000359.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-11-05-433",
+      "game": "hsr",
+      "date": "2025-11-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000359.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-11-05-434",
+      "game": "hsr",
+      "date": "2025-11-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000359.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-11-05-435",
+      "game": "hsr",
+      "date": "2025-11-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000359.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-11-26-436",
+      "game": "hsr",
+      "date": "2025-11-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000365.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-11-26-437",
+      "game": "hsr",
+      "date": "2025-11-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000365.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-11-26-438",
+      "game": "hsr",
+      "date": "2025-11-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000365.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-12-17-439",
+      "game": "hsr",
+      "date": "2025-12-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000370.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2025-12-17-440",
+      "game": "hsr",
+      "date": "2025-12-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000370.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-01-07-441",
+      "game": "hsr",
+      "date": "2026-01-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000377.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-01-07-442",
+      "game": "hsr",
+      "date": "2026-01-07",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000377.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-01-28-443",
+      "game": "hsr",
+      "date": "2026-01-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000380.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-01-28-444",
+      "game": "hsr",
+      "date": "2026-01-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000380.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-06-08-445",
+      "game": "ww",
+      "date": "2026-06-08",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4765",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-06-08-446",
+      "game": "ww",
+      "date": "2026-06-08",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/4765",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-06-13-447",
+      "game": "ww",
+      "date": "2026-06-13",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-06-18-448",
+      "game": "ww",
+      "date": "2026-06-18",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news/detail/4916",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-07-10-449",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-07-10-450",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-07-10-451",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-07-31-452",
+      "game": "ww",
+      "date": "2026-07-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5223",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-07-31-453",
+      "game": "ww",
+      "date": "2026-07-30",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5223",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-02-13-454",
+      "game": "hsr",
+      "date": "2026-02-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-02-13-455",
+      "game": "hsr",
+      "date": "2026-02-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-02-13-456",
+      "game": "hsr",
+      "date": "2026-02-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-02-13-457",
+      "game": "hsr",
+      "date": "2026-02-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000390.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-03-03-458",
+      "game": "hsr",
+      "date": "2026-03-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-03-03-459",
+      "game": "hsr",
+      "date": "2026-03-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-03-03-460",
+      "game": "hsr",
+      "date": "2026-03-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-03-03-461",
+      "game": "hsr",
+      "date": "2026-03-03",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000394.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-03-25-462",
+      "game": "hsr",
+      "date": "2026-03-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-03-25-463",
+      "game": "hsr",
+      "date": "2026-03-25",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000398.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-04-08-464",
+      "game": "hsr",
+      "date": "2026-04-08",
+      "verification": "secondary",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://gamewith.jp/houkaistarrail/article/show/561173",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-04-22-465",
+      "game": "hsr",
+      "date": "2026-04-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000403.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-04-22-466",
+      "game": "hsr",
+      "date": "2026-04-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000403.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-04-22-467",
+      "game": "hsr",
+      "date": "2026-04-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000403.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-04-22-468",
+      "game": "hsr",
+      "date": "2026-04-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000403.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-05-13-469",
+      "game": "hsr",
+      "date": "2026-05-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000407.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-05-13-470",
+      "game": "hsr",
+      "date": "2026-05-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000407.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-05-13-471",
+      "game": "hsr",
+      "date": "2026-05-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000407.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-05-13-472",
+      "game": "hsr",
+      "date": "2026-05-13",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000407.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-06-01-473",
+      "game": "hsr",
+      "date": "2026-06-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000413.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-06-01-474",
+      "game": "hsr",
+      "date": "2026-06-01",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000413.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-06-24-475",
+      "game": "hsr",
+      "date": "2026-06-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000410.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-06-24-476",
+      "game": "hsr",
+      "date": "2026-06-24",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000410.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-07-15-477",
+      "game": "hsr",
+      "date": "2026-07-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-07-15-478",
+      "game": "hsr",
+      "date": "2026-07-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-07-15-479",
+      "game": "hsr",
+      "date": "2026-07-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-07-15-480",
+      "game": "hsr",
+      "date": "2026-07-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000423.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-08-05-481",
+      "game": "hsr",
+      "date": "2026-08-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000433.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-08-05-482",
+      "game": "hsr",
+      "date": "2026-08-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000433.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-08-05-483",
+      "game": "hsr",
+      "date": "2026-08-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000433.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-08-26-484",
+      "game": "hsr",
+      "date": "2026-08-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000441.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-08-26-485",
+      "game": "hsr",
+      "date": "2026-08-26",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000441.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-09-12-486",
+      "game": "hsr",
+      "date": "2026-09-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000444.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-09-12-487",
+      "game": "hsr",
+      "date": "2026-09-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000444.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-09-28-488",
+      "game": "hsr",
+      "date": "2026-09-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000451.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-hsr-2026-09-28-489",
+      "game": "hsr",
+      "date": "2026-09-28",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000451.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-08-20-490",
+      "game": "ww",
+      "date": "2026-08-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-08-20-491",
+      "game": "ww",
+      "date": "2026-08-20",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-09-10-492",
+      "game": "ww",
+      "date": "2026-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-09-10-493",
+      "game": "ww",
+      "date": "2026-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-ww-2026-09-10-494",
+      "game": "ww",
+      "date": "2026-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000035.000144940.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-lunai-new_four_star-0",
+      "game": "gi",
+      "date": "2025-09-30",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000352.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-1",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-2",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-3",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-4",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-5",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "history-gi-lunai-chronicled_wish-6",
+      "game": "gi",
+      "date": "2025-09-10",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000347.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "gi-2021-02-17-four-ningguang",
+      "game": "gi",
+      "date": "2021-02-17",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "gi-2021-02-17-four-bennett",
+      "game": "gi",
+      "date": "2021-02-17",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "gi-2021-02-17-four-barbara",
+      "game": "gi",
+      "date": "2021-02-17",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.hoyolab.com/article/188371",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "ww-23-anniv-first-1",
+      "game": "ww",
+      "date": "2025-04-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2537",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-23-anniv-first-2",
+      "game": "ww",
+      "date": "2025-04-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2537",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-23-anniv-first-3",
+      "game": "ww",
+      "date": "2025-04-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2537",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-23-anniv-first-4",
+      "game": "ww",
+      "date": "2025-04-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2537",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-23-anniv-first-5",
+      "game": "ww",
+      "date": "2025-04-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/2537",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "ww-23-anniv-second-1",
+      "game": "ww",
+      "date": "2025-05-22",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "ww-23-anniv-second-2",
+      "game": "ww",
+      "date": "2025-05-22",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "ww-23-anniv-second-3",
+      "game": "ww",
+      "date": "2025-05-22",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "ww-23-anniv-second-4",
+      "game": "ww",
+      "date": "2025-05-22",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "ww-23-anniv-second-5",
+      "game": "ww",
+      "date": "2025-05-22",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/anniversary-resonator-convene-phase-ii-2/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "zzz-1.5-ellen-rerun",
+      "game": "zzz",
+      "date": "2025-01-22",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000282.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "zzz-1.5-qingyi-rerun",
+      "game": "zzz",
+      "date": "2025-02-12",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000282.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "audit-ww-2025-08-28-0",
+      "game": "ww",
+      "date": "2025-08-28",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://wutheringwaves.kurogames.com/m/en/main/news",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "audit-ww-2026-07-10-1",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "audit-ww-2026-07-10-2",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "audit-ww-2026-07-10-3",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "audit-ww-2026-07-10-4",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "audit-ww-2026-07-10-5",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "audit-ww-2026-07-10-6",
+      "game": "ww",
+      "date": "2026-07-10",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/posts/starpath-reverbs-reverb-resonator-conveneduring-the-event-selectable-5-star-reso/1040295335223359/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "audit-zzz-3.0-ye-rerun",
+      "game": "zzz",
+      "date": "2026-06-17",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000416.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "audit-zzz-3.0-sunna-rerun",
+      "game": "zzz",
+      "date": "2026-07-08",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/165144",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "backfill-zzz-3.1-0",
+      "game": "zzz",
+      "date": "2026-07-29",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://zenless.hoyoverse.com/en-us/news/165363",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "backfill-zzz-3.1-1",
+      "game": "zzz",
+      "date": "2026-08-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000424.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "backfill-zzz-3.1-2",
+      "game": "zzz",
+      "date": "2026-08-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000424.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "backfill-zzz-3.1-3",
+      "game": "zzz",
+      "date": "2026-08-19",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000424.000096124.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "scheduled-nte-1.4-akane-rin",
+      "game": "nte",
+      "date": "2026-10-21",
+      "verification": "secondary",
+      "source_class": "publisher_site",
+      "source_url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "scheduled-end-1.6-si",
+      "game": "end",
+      "date": "2026-10-15",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000044.000126152.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "scheduled-end-1.6-tangtang",
+      "game": "end",
+      "date": "2026-10-29",
+      "verification": "secondary",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://game8.jp/arknights-endfield/822407",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "scheduled-end-1.6-argent-flow",
+      "game": "end",
+      "date": "2026-11-05",
+      "verification": "official",
+      "source_class": "press_release",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000044.000126152.html",
+      "requires_direct_publisher_link": false
+    },
+    {
+      "id": "verified-ww-2025-12-25-ciaccona-rerun",
+      "game": "ww",
+      "date": "2025-12-25",
+      "verification": "official",
+      "source_class": "third_party_reprint_or_social",
+      "source_url": "https://wutheringwaves.gg/through-verses-and-rhythms-featured-resonator-convene-ciaccona/",
+      "requires_direct_publisher_link": true
+    },
+    {
+      "id": "official-end-2026-06-26-camille",
+      "game": "end",
+      "date": "2026-06-26",
+      "verification": "official",
+      "source_class": "publisher_site",
+      "source_url": "https://endfield.gryphline.com/ja-jp/news/0758",
+      "requires_direct_publisher_link": false
+    }
+  ]
+}
