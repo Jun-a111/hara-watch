@@ -327,6 +327,22 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('!specialTypes.includes(e.banner_type)', phases)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
 
+    def test_endfield_celebration_scout_has_all_four_candidates(self):
+        """The May 2026 special scout was a shared pool, not four rate-up reruns."""
+        events = self.read("release-events.json")["events"]
+        candidates = [e for e in events
+                      if e["game"] == "end" and e["date"] == "2026-05-14"
+                      and e.get("banner_type") == "special_rerun"]
+        self.assertEqual({e["version"] for e in candidates}, {
+            "レーヴァテイン（特殊スカウト対象）",
+            "ギルベルタ（特殊スカウト対象）",
+            "アルデリア（特殊スカウト対象）",
+            "ポグラニチニク（特殊スカウト対象）"
+        })
+        self.assertTrue(all(e["event_kind"] == "featured_banner" for e in candidates))
+        self.assertTrue(all(e["verification"] == "official" for e in candidates))
+        self.assertTrue(all(e["source_url"].endswith("/4494") for e in candidates))
+
     def test_unconfirmed_schedule_is_labeled_as_unconfirmed(self):
         html = (SITE / "index.html").read_text(encoding="utf-8")
         self.assertIn("外部資料の予定・未確定", html)
