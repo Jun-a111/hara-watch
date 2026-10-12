@@ -1174,7 +1174,7 @@ class HsrAndZenlessLowRarityRosterTests(unittest.TestCase):
         html = (root / "gacha-wars" / "index.html").read_text(encoding="utf-8")
         for banner_type in ("event_warp_four_star", "exclusive_channel_a_rank"):
             self.assertGreaterEqual(html.count('"' + banner_type + '"'), 4)
-        self.assertIn('e.banner_type==="exclusive_channel_a_rank"?e.featured_five_star||""',html)
+        self.assertIn('["exclusive_channel_a_rank","featured_convene_four_star","collab_convene_four_star"].includes(e.banner_type)?e.featured_five_star||""',html)
         self.assertIn('イベント跳躍・共有★4枠',html)
         self.assertIn('独占変調・A級PU',html)
 
