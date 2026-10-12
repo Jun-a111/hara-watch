@@ -1058,5 +1058,62 @@ assert.equal(eventSourceTier(source("")),"出典URL不明");
         self.assertIsInstance(self.read("youtube-data.json")["records"], list)
         self.assertIsInstance(self.read("release-candidates.json")["candidates"], list)
 
+
+class Genshin2026FourStarOfficialTests(unittest.TestCase):
+    """2026 rate-up roster checked against COGNOSPHERE's dated notices."""
+
+    def test_13_phases_39_official_fourstar_slots(self):
+        import json
+        import pathlib
+        repo_root = pathlib.Path(__file__).resolve().parents[1]
+        all_events = json.loads(
+            (repo_root / "gacha-wars" / "release-events.json").read_text(encoding="utf-8")
+        )["events"]
+        expected = {
+            "2026-01-14": ("セトス", "フィッシュル", "イファ"),
+            "2026-02-03": ("イルーガ", "アイノ", "ゴロー"),
+            "2026-02-25": ("ベネット", "香菱", "スクロース"),
+            "2026-03-17": ("ダリア", "キャンディス", "シャルロット"),
+            "2026-04-08": ("イルーガ", "アイノ", "ノエル"),
+            "2026-04-28": ("行秋", "綺良々", "ヤフォダ"),
+            "2026-05-20": ("プルーネ", "レザー", "フィッシュル"),
+            "2026-06-09": ("ミカ", "香菱", "ベネット"),
+            "2026-07-01": ("北斗", "ディオナ", "フレミネ"),
+            "2026-07-21": ("ヤフォダ", "オロルン", "セトス"),
+            "2026-08-12": ("アリョーシャ", "ディオナ", "フレミネ"),
+            "2026-09-01": ("アイノ", "イアンサ", "藍硯"),
+            "2026-09-23": ("ディオナ", "ファルザン", "重雲"),
+        }
+        pools = [
+            e for e in all_events
+            if e.get("game") == "gi"
+            and e.get("date", "").startswith("2026-")
+            and e.get("banner_type") == "event_wish_four_star"
+        ]
+        self.assertEqual(len(pools), 39)
+        self.assertEqual(len({e["id"] for e in pools}), 39)
+        self.assertEqual(len({(e["date"], e["version"]) for e in pools}), 39)
+        self.assertEqual({e["date"] for e in pools}, set(expected))
+        for date, roster in expected.items():
+            pool = [e for e in pools if e["date"] == date]
+            with self.subTest(date=date):
+                self.assertEqual({e["version"] for e in pool}, set(roster))
+                self.assertEqual({e["phase"] for e in pool},
+                                 {"first" if date in
+                                  ("2026-01-14", "2026-02-25", "2026-04-08",
+                                   "2026-05-20", "2026-07-01", "2026-08-12",
+                                   "2026-09-23") else "second"})
+                self.assertTrue(all(e["rarity"] == 4 and e["type"] == "character"
+                                    and e["verification"] == "official" and
+                                    "prtimes.jp/main/html/rd/p/" in e["source_url"]
+                                    for e in pool))
+        debuts = {e["version"] for e in pools if e.get("event_kind") == "debut"}
+        self.assertEqual(debuts, {"イルーガ", "プルーネ", "アリョーシャ"})
+        self.assertEqual(
+            {e["version"] for e in pools if e["date"] == "2026-08-12"},
+            {"アリョーシャ", "ディオナ", "フレミネ"},
+            "The COGNOSPHERE announcement must take precedence over a conflicting third-party table.",
+        )
+
 if __name__ == "__main__":
     unittest.main()
