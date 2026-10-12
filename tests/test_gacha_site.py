@@ -327,6 +327,23 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertIn('!specialTypes.includes(e.banner_type)', phases)
         self.assertIn('e.banner_type==="special_rerun"?"特別復刻枠"', ranking)
 
+    def test_kuro_press_releases_for_early_2024_banners(self):
+        """Check primary publisher release references for launch/early banners."""
+        events = {e["id"]: e for e in self.read("release-events.json")["events"]}
+        expected = {
+            "history-ww-2024-05-23-0": ("忌炎", "2024-05-23", "/000000001.000143406.html"),
+            "history-ww-2024-07-22-3": ("長離", "2024-07-22", "/000000004.000143406.html"),
+            "historical-ww-2024-09-07-45": ("相里要", "2024-09-07", "/000000008.000143406.html"),
+        }
+        for key, (name, date, suffix) in expected.items():
+            with self.subTest(key=key):
+                event = events[key]
+                self.assertEqual(event["version"], name)
+                self.assertEqual(event["date"], date)
+                self.assertEqual(event["verification"], "official")
+                self.assertTrue(event["source_url"].startswith("https://prtimes.jp/main/html/rd/p/"))
+                self.assertTrue(event["source_url"].endswith(suffix))
+
     def test_publisher_sources_for_2024_zenless_and_wuthering_debuts(self):
         """Guard publisher notices and exact launch dates for reverified records."""
         events = {e["id"]: e for e in self.read("release-events.json")["events"]}
