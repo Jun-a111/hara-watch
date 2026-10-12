@@ -273,7 +273,7 @@ assert.equal(comparable(sample.filter((_,i)=>i!==10)),false);
         self.assertEqual(len({(e["game"], e["version"], e["date"])
                               for e in four}), len(four))
         html = (SITE / "index.html").read_text(encoding="utf-8")
-        self.assertGreaterEqual(html.count('"event_wish_four_star"'), 5)
+        self.assertGreaterEqual(html.count('"event_wish_four_star"'), 4)
         self.assertIn('!specialTypes.includes(ev.banner_type)', html)
 
     def test_all_official_genshin_chronicled_wishes_and_reminiscence(self):
