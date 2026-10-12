@@ -2020,5 +2020,70 @@ assert.ok(rejected);
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+class Wuthering2026ReverbSelectablePoolsTests(unittest.TestCase):
+    def test_official_reverb_pool_sizes_and_existing_character_ids(self):
+        d=json.loads((SITE/"ww-reverb-2026-official.json").read_text(encoding="utf-8"))
+        self.assertEqual(d["schema"],"gacha-wars-ww-2026-reverb-official-v1")
+        self.assertEqual(d["date"],"2026-07-10")
+        self.assertEqual(d["verification"],"official")
+        self.assertEqual(len(d["selectable_resonators"]),6)
+        self.assertEqual(len(d["selectable_weapons"]),6)
+        self.assertEqual(len(d["weapon_four"]),3)
+        self.assertEqual(len(d["character_four"]),3)
+        self.assertEqual(d["character_source"],
+            "https://wutheringwaves.kurogames.com/en/main/news/detail/5065")
+        self.assertEqual(d["weapon_source"],
+            "https://wutheringwaves.kurogames.com/en/main/news/detail/5076")
+        self.assertEqual(set(d["selectable_weapons"]),{"Verdant Summit","Stringmaster","Ages of Harvest",
+            "Blazing Brilliance","Rime-Draped Sprouts","Verity's Handle"})
+        self.assertEqual(set(d["weapon_four"]),{"Dauntless Evernight","Variation","Endless Collapse"})
+        primary=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        by_id={x["id"]:x for x in primary}
+        for record in d["character_four"]:
+            old=by_id[record["id"]]
+            self.assertEqual(old["date"],"2026-07-10")
+            self.assertEqual(old["version"],record["name"])
+            self.assertEqual(old["featured_five_star"],record["previous_featured_five_star"])
+            self.assertEqual(old["verification"],"secondary")
+
+    def test_javascript_reverb_group_and_no_character_duplicates(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('<script src="./ww-reverb-loader.js"></script>',html)
+        self.assertIn('fetch("./ww-reverb-2026-official.json"',html)
+        self.assertIn('"ww_weapon_reverb_five","ww_weapon_reverb_four"',html)
+        self.assertIn("★5武器6種は1つの選択式集音",html)
+        js=(SITE/"ww-reverb-loader.js").read_text(encoding="utf-8")
+        script=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+js+r'''
+const records=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const d=JSON.parse(fs.readFileSync("gacha-wars/ww-reverb-2026-official.json","utf8"));
+const out=applyWw2026ReverbOfficial(records,d);
+assert.equal(out.primary.length,records.length);
+assert.equal(out.extras.length,9);
+assert.equal(out.upgraded,3);
+assert.equal(new Set(out.extras.map(x=>x.id)).size,9);
+assert.equal(out.extras.filter(x=>x.rarity===5).length,6);
+assert.equal(out.extras.filter(x=>x.rarity===4).length,3);
+assert.ok(out.extras.every(x=>x.verification==="official"&&x.reverb_selectable));
+assert.equal(new Set(out.extras.map(x=>x.weapon_banner_group)).size,1);
+assert.equal(out.extras[0].weapon_banner_group,"Tideforge Reverbs");
+for(const e of d.character_four){
+ const row=out.primary.find(x=>x.id===e.id);
+ assert.equal(row.verification,"official");
+ assert.equal(row.event_banner_name,"Starpath Reverbs");
+ assert.equal(row.selectable_five_star.length,6);
+ assert.equal(records.find(x=>x.id===e.id).verification,"secondary");
+}
+let failed=false;
+try{const copy=JSON.parse(JSON.stringify(d));copy.weapon_four[1]=copy.weapon_four[0];applyWw2026ReverbOfficial(records,copy)}catch(e){failed=true}
+assert.equal(failed,true);
+'''
+        run=subprocess.run(["node","-e",script],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
