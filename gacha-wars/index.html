@@ -316,6 +316,16 @@ function applyWwBaseWeaponSourceOverrides(primary,data){
  if(updates.size!==64)throw Error("公式照合の反映数に不一致");
  return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
+function applyWwFourStarCharacterSourceOverrides(rows,d){
+ if(d.schema!=="gacha-wars-ww-fourstar-character-source-overrides-v1"||d.verification!=="official"||d.count!==15||!Array.isArray(d.upgrades)||d.upgrades.length!==15)throw Error("★4公式出典の件数不一致");
+ const map=new Map(rows.map(x=>[x.id,x])),done=new Set(),patch=new Map();
+ for(const o of d.upgrades){
+  const x=map.get(o.id);
+  if(!x||done.has(o.id)||x.game!=="ww"||x.type!=="character"||x.rarity!==4||x.banner_type!=="featured_convene_four_star"||x.verification!=="secondary"||x.date!==o.date||x.version!==o.version||x.featured_five_star!==o.featured_five_star||o.verification!=="official"||!/^https:\/\/wutheringwaves\.kurogames\.com\/en\/main\/news\/detail\/\d+$/.test(o.source_url))throw Error("★4公式出典のID・内容不一致");
+  done.add(o.id);patch.set(o.id,{...x,verification:"official",source_url:o.source_url,source_title:o.source_title,date_basis:o.date_basis,review_note:o.review_note,original_name:o.official_english_name});
+ }
+ return {events:rows.map(x=>patch.get(x.id)||x),upgraded:done.size};
+}
 async function loadEvents(){
  try{
   const response=await fetch("./release-events.json",{cache:"no-store"});if(!response.ok)throw Error("unavailable");
@@ -327,6 +337,12 @@ async function loadEvents(){
    const audited=applyWwBaseWeaponSourceOverrides(primary,await resp.json());
    primary=audited.events;notes.push("既存鳴潮武器を公式照合 "+audited.upgraded+"件");
   }catch(err){notes.push("既存武器の公式出典更新に失敗");console.info("鳴潮既存武器の公式照合結果を読み込めませんでした",err.message)}
+  try{
+   const resp=await fetch("./ww-fourstar-character-source-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const audited=applyWwFourStarCharacterSourceOverrides(primary,await resp.json());
+   primary=audited.events;notes.push("鳴潮★4キャラ公式照合 "+audited.upgraded+"件");
+  }catch(err){notes.push("鳴潮★4キャラの公式照合取得失敗");console.info("★4共鳴者出典の読込に失敗",err.message)}
+
 
   for(const [file,parse,label] of [["gi-weapon-history.json",parseGenshinWeaponArchive,"原神武器"],["hsr-lightcone-history.json",parseHsrLightconeArchive,"スタレ光円錐"],["ww-weapon-fourstar-supplement.json",parseWwWeaponFourstarSupplement,"鳴潮武器補完"],["ww-2026-summer-official-weapons.json",parseWw2026SummerOfficialWeapons,"鳴潮2026夏公式"]]){
    try{
