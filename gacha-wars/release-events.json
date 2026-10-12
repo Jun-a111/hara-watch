@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-releases-v1",
-  "updated_at": "2026-10-12T05:52:17.540Z",
+  "updated_at": "2026-10-12T15:24:00+09:00",
   "events": [
     {
       "id": "zzz-3.2",
@@ -477,13 +477,13 @@
       "type": "character",
       "version": "青衣",
       "date": "2024-08-14",
-      "source_url": "https://zenless.gg/version-1-1-undercover-rb-update-details/",
-      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000235.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース：Ver.1.1 青衣",
       "phase": "first",
       "version_group": "Ver.1.1",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "HoYoverse Ver.1.1更新内容の転載で青衣を新S級エージェントとして確認、8月14日の更新日を照合。照合日2026-10-12。 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "2024年8月3日付のCOGNOSPHERE発表で8月14日のVer.1.1開始と青衣の新規プレイアブル実装を確認。前半PUの開始日として掲載。"
     },
     {
       "id": "history-zzz-2024-09-04-21",
@@ -533,13 +533,13 @@
       "type": "character",
       "version": "柳",
       "date": "2024-11-06",
-      "source_url": "https://zenless.gg/moonlit-serenity-signal-search-details/",
-      "source_title": "HoYoverse運営告知の転載（Zenless.gg）",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000257.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース：Ver.1.3 月城柳",
       "phase": "first",
       "version_group": "Ver.1.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "HoYoverseのMoonlit Serenity集音告知転載で柳がVer.1.3更新時から登場、11月6日更新は公式Ver.1.3特番告知と照合。照合日2026-10-12。 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "2024年10月25日付のCOGNOSPHERE発表で11月6日のVer.1.3開始と月城柳の新実装を確認。前半PUの開始日として掲載。"
     },
     {
       "id": "history-zzz-2024-11-27-25",
@@ -645,13 +645,13 @@
       "type": "character",
       "version": "ショアキーパー",
       "date": "2024-09-29",
-      "source_url": "https://wutheringwaves.gg/wuthering-waves-version-1-3-update-maintenance-notice-2/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1454",
+      "source_title": "KURO GAMES公式：Version 1.3 To the Shore's End Patch Notes",
       "phase": "first",
       "version_group": "Ver.1.3",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.1.3公式メンテナンス告知転載に9/29更新・Shorekeeper集音開始を記載 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "2024年9月29日更新の公式Ver.1.3パッチノートにショアキーパー（Shorekeeper）が新規★5として登場し、専用ガチャ『Till the Sea Turns Clear』で入手可能と記載。"
     },
     {
       "id": "historical-ww-2024-10-24-47",
@@ -673,13 +673,13 @@
       "type": "character",
       "version": "ツバキ",
       "date": "2024-11-14",
-      "source_url": "https://wutheringwaves.gg/version-1-4-when-the-night-knocks-patch-notes-2/",
-      "source_title": "KURO GAMES公式告知の転載（WutheringWaves.gg）",
+      "source_url": "https://wutheringwaves.kurogames.com/en/main/news/detail/1647",
+      "source_title": "KURO GAMES公式：Version 1.4 When the Night Knocks Patch Notes",
       "phase": "first",
       "version_group": "Ver.1.4",
       "event_kind": "debut",
-      "verification": "secondary",
-      "review_note": "Ver.1.4公式パッチノート転載に11/14更新・Camellya新実装を記載 出典は第三者による掲載・転載。運営の一次告知URLとの直接照合は未完了。"
+      "verification": "official",
+      "review_note": "2024年11月14日付の公式Ver.1.4パッチノートでツバキ（Camellya）の新規★5実装と同日バージョン開始を確認。"
     },
     {
       "id": "historical-ww-2024-12-12-49",
