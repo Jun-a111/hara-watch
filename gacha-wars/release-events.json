@@ -10548,6 +10548,1806 @@
       "verification": "official",
       "featured_five_star": "雷電将軍／神里綾人",
       "review_note": "2022年の運営公式キャラ祈願案内における★4出現率上昇対象。★4個別バナー・★5復刻ではない。複数★5の同時開催では共通★4対象を一度だけ記録。"
+    },
+    {
+      "id": "gi-four-pu-2023-01-18-2",
+      "game": "gi",
+      "type": "character",
+      "version": "雲菫",
+      "date": "2023-01-18",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルハイゼン／魈（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-01-18-3",
+      "game": "gi",
+      "type": "character",
+      "version": "辛炎",
+      "date": "2023-01-18",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000050.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルハイゼン／魈（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-02-07-1",
+      "game": "gi",
+      "type": "character",
+      "version": "行秋",
+      "date": "2023-02-07",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "胡桃（復刻）／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-02-07-2",
+      "game": "gi",
+      "type": "character",
+      "version": "凝光",
+      "date": "2023-02-07",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "胡桃（復刻）／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-02-07-3",
+      "game": "gi",
+      "type": "character",
+      "version": "北斗",
+      "date": "2023-02-07",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000054.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "胡桃（復刻）／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-03-01-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2023-03-01",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000064.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ディシア／セノ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-03-01-2",
+      "game": "gi",
+      "type": "character",
+      "version": "バーバラ",
+      "date": "2023-03-01",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000064.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ディシア／セノ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-03-01-3",
+      "game": "gi",
+      "type": "character",
+      "version": "コレイ",
+      "date": "2023-03-01",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000064.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ディシア／セノ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-03-21-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ディオナ",
+      "date": "2023-03-21",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "申鶴（復刻）／神里綾華（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-03-21-2",
+      "game": "gi",
+      "type": "character",
+      "version": "スクロース",
+      "date": "2023-03-21",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000069.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "申鶴（復刻）／神里綾華（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-04-12-1",
+      "game": "gi",
+      "type": "character",
+      "version": "久岐忍",
+      "date": "2023-04-12",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000074.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヒーダ（復刻）／ニィロウ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-04-12-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ドリー",
+      "date": "2023-04-12",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000074.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヒーダ（復刻）／ニィロウ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-04-12-3",
+      "game": "gi",
+      "type": "character",
+      "version": "レイラ",
+      "date": "2023-04-12",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000074.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヒーダ（復刻）／ニィロウ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-05-02-2",
+      "game": "gi",
+      "type": "character",
+      "version": "キャンディス",
+      "date": "2023-05-02",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000079.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "白朮／甘雨（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-05-02-3",
+      "game": "gi",
+      "type": "character",
+      "version": "フィッシュル",
+      "date": "2023-05-02",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000079.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "白朮／甘雨（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-05-24-2",
+      "game": "gi",
+      "type": "character",
+      "version": "雲菫",
+      "date": "2023-05-24",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000088.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "宵宮（復刻）／八重神子（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-05-24-3",
+      "game": "gi",
+      "type": "character",
+      "version": "重雲",
+      "date": "2023-05-24",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000088.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "宵宮（復刻）／八重神子（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-06-13-1",
+      "game": "gi",
+      "type": "character",
+      "version": "鹿野院平蔵",
+      "date": "2023-06-13",
+      "source_url": "https://www.hoyolab.com/article_pre/11000",
+      "source_title": "原神公式・Ver.3.7後半イベント祈願告知（HoYoLAB）",
+      "phase": "second",
+      "version_group": "Ver.3.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルハイゼン（復刻）／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "原神公式HoYoLAB 2023/06/08付の祈願詳細に、2023年6月13日開始の★4PU「ヨォーヨ」「鹿野院平蔵」「香菱」を直接明記。★5の単独売上イベントとして扱わない。"
+    },
+    {
+      "id": "gi-four-pu-2023-06-13-2",
+      "game": "gi",
+      "type": "character",
+      "version": "香菱",
+      "date": "2023-06-13",
+      "source_url": "https://www.hoyolab.com/article_pre/11000",
+      "source_title": "原神公式・Ver.3.7後半イベント祈願告知（HoYoLAB）",
+      "phase": "second",
+      "version_group": "Ver.3.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルハイゼン（復刻）／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "原神公式HoYoLAB 2023/06/08付の祈願詳細に、2023年6月13日開始の★4PU「ヨォーヨ」「鹿野院平蔵」「香菱」を直接明記。★5の単独売上イベントとして扱わない。"
+    },
+    {
+      "id": "gi-four-pu-2023-06-13-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ヨォーヨ",
+      "date": "2023-06-13",
+      "source_url": "https://www.hoyolab.com/article_pre/11000",
+      "source_title": "原神公式・Ver.3.7後半イベント祈願告知（HoYoLAB）",
+      "phase": "second",
+      "version_group": "Ver.3.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルハイゼン（復刻）／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "原神公式HoYoLAB 2023/06/08付の祈願詳細に、2023年6月13日開始の★4PU「ヨォーヨ」「鹿野院平蔵」「香菱」を直接明記。★5の単独売上イベントとして扱わない。"
+    },
+    {
+      "id": "gi-four-pu-2023-07-05-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ミカ",
+      "date": "2023-07-05",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000102.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エウルア（復刻）／クレー（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-07-05-2",
+      "game": "gi",
+      "type": "character",
+      "version": "レザー",
+      "date": "2023-07-05",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000102.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エウルア（復刻）／クレー（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-07-05-3",
+      "game": "gi",
+      "type": "character",
+      "version": "トーマ",
+      "date": "2023-07-05",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000102.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.3.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エウルア（復刻）／クレー（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-07-25-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ファルザン",
+      "date": "2023-07-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000109.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "放浪者（復刻）／珊瑚宮心海（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-07-25-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ロサリア",
+      "date": "2023-07-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000109.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "放浪者（復刻）／珊瑚宮心海（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-07-25-3",
+      "game": "gi",
+      "type": "character",
+      "version": "煙緋",
+      "date": "2023-07-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000109.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.3.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "放浪者（復刻）／珊瑚宮心海（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-08-16-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2023-08-16",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000114.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "リネ／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-08-16-3",
+      "game": "gi",
+      "type": "character",
+      "version": "バーバラ",
+      "date": "2023-08-16",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000114.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "リネ／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-09-05-2",
+      "game": "gi",
+      "type": "character",
+      "version": "早柚",
+      "date": "2023-09-05",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000123.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "鍾離（復刻）／タルタリヤ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-09-05-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ノエル",
+      "date": "2023-09-05",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000123.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "鍾離（復刻）／タルタリヤ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-09-27-1",
+      "game": "gi",
+      "type": "character",
+      "version": "フィッシュル",
+      "date": "2023-09-27",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000130.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヌヴィレット／胡桃（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-09-27-2",
+      "game": "gi",
+      "type": "character",
+      "version": "行秋",
+      "date": "2023-09-27",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000130.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヌヴィレット／胡桃（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-09-27-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ディオナ",
+      "date": "2023-09-27",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000130.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヌヴィレット／胡桃（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-10-17-1",
+      "game": "gi",
+      "type": "character",
+      "version": "重雲",
+      "date": "2023-10-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000137.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "リオセスリ／ウェンティ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-10-17-2",
+      "game": "gi",
+      "type": "character",
+      "version": "トーマ",
+      "date": "2023-10-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000137.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "リオセスリ／ウェンティ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-10-17-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ドリー",
+      "date": "2023-10-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000137.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "リオセスリ／ウェンティ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-11-08-2",
+      "game": "gi",
+      "type": "character",
+      "version": "コレイ",
+      "date": "2023-11-08",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000143.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "フリーナ／白朮（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-11-08-3",
+      "game": "gi",
+      "type": "character",
+      "version": "北斗",
+      "date": "2023-11-08",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000143.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "フリーナ／白朮（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-11-28-1",
+      "game": "gi",
+      "type": "character",
+      "version": "綺良々",
+      "date": "2023-11-28",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000146.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "セノ（復刻）／神里綾人（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-11-28-2",
+      "game": "gi",
+      "type": "character",
+      "version": "久岐忍",
+      "date": "2023-11-28",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000146.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "セノ（復刻）／神里綾人（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-11-28-3",
+      "game": "gi",
+      "type": "character",
+      "version": "香菱",
+      "date": "2023-11-28",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000146.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "セノ（復刻）／神里綾人（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-12-20-1",
+      "game": "gi",
+      "type": "character",
+      "version": "スクロース",
+      "date": "2023-12-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000157.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヴィア／神里綾華（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-12-20-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ロサリア",
+      "date": "2023-12-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000157.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヴィア／神里綾華（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2023-12-20-3",
+      "game": "gi",
+      "type": "character",
+      "version": "キャンディス",
+      "date": "2023-12-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000157.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヴィア／神里綾華（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-01-09-2",
+      "game": "gi",
+      "type": "character",
+      "version": "九条裟羅",
+      "date": "2024-01-09",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000169.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "雷電将軍（復刻）／宵宮（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-01-09-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2024-01-09",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000169.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.3",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "雷電将軍（復刻）／宵宮（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-01-31-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ファルザン",
+      "date": "2024-01-31",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000176.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "閑雲／ナヒーダ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-01-31-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ノエル",
+      "date": "2024-01-31",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000176.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "閑雲／ナヒーダ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-02-20-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ヨォーヨ",
+      "date": "2024-02-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000182.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "魈（復刻）／八重神子（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-02-20-2",
+      "game": "gi",
+      "type": "character",
+      "version": "辛炎",
+      "date": "2024-02-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000182.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "魈（復刻）／八重神子（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-02-20-3",
+      "game": "gi",
+      "type": "character",
+      "version": "凝光",
+      "date": "2024-02-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000182.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.4",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "魈（復刻）／八重神子（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-03-13-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ゴロー",
+      "date": "2024-03-13",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000186.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "千織／荒瀧一斗（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-03-13-2",
+      "game": "gi",
+      "type": "character",
+      "version": "雲菫",
+      "date": "2024-03-13",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000186.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "千織／荒瀧一斗（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-03-13-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ドリー",
+      "date": "2024-03-13",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000186.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "千織／荒瀧一斗（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-04-02-1",
+      "game": "gi",
+      "type": "character",
+      "version": "バーバラ",
+      "date": "2024-04-02",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000192.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヌヴィレット（復刻）／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-04-02-2",
+      "game": "gi",
+      "type": "character",
+      "version": "行秋",
+      "date": "2024-04-02",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000192.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヌヴィレット（復刻）／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-04-02-3",
+      "game": "gi",
+      "type": "character",
+      "version": "煙緋",
+      "date": "2024-04-02",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000192.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.5",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ヌヴィレット（復刻）／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-04-24-1",
+      "game": "gi",
+      "type": "character",
+      "version": "フレミネ",
+      "date": "2024-04-24",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000201.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ／リネ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-04-24-2",
+      "game": "gi",
+      "type": "character",
+      "version": "リネット",
+      "date": "2024-04-24",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000201.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ／リネ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-04-24-3",
+      "game": "gi",
+      "type": "character",
+      "version": "香菱",
+      "date": "2024-04-24",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000201.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "アルレッキーノ／リネ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-05-14-1",
+      "game": "gi",
+      "type": "character",
+      "version": "北斗",
+      "date": "2024-05-14",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000206.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "放浪者（復刻）／白朮（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-05-14-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ファルザン",
+      "date": "2024-05-14",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000206.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "放浪者（復刻）／白朮（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-05-14-3",
+      "game": "gi",
+      "type": "character",
+      "version": "レイラ",
+      "date": "2024-05-14",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000206.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.6",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "放浪者（復刻）／白朮（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-06-05-2",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2024-06-05",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000211.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "クロリンデ／アルハイゼン（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-06-05-3",
+      "game": "gi",
+      "type": "character",
+      "version": "トーマ",
+      "date": "2024-06-05",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000211.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "クロリンデ／アルハイゼン（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-06-25-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ノエル",
+      "date": "2024-06-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000217.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シグウィン／フリーナ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-06-25-2",
+      "game": "gi",
+      "type": "character",
+      "version": "嘉明",
+      "date": "2024-06-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000217.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シグウィン／フリーナ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-06-25-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ロサリア",
+      "date": "2024-06-25",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000217.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.7",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シグウィン／フリーナ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-07-17-1",
+      "game": "gi",
+      "type": "character",
+      "version": "綺良々",
+      "date": "2024-07-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヴィア（復刻）／ニィロウ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-07-17-2",
+      "game": "gi",
+      "type": "character",
+      "version": "カーヴェ",
+      "date": "2024-07-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヴィア（復刻）／ニィロウ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-07-17-3",
+      "game": "gi",
+      "type": "character",
+      "version": "凝光",
+      "date": "2024-07-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000229.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.4.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヴィア（復刻）／ニィロウ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-08-06-1",
+      "game": "gi",
+      "type": "character",
+      "version": "煙緋",
+      "date": "2024-08-06",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エミリエ／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-08-06-2",
+      "game": "gi",
+      "type": "character",
+      "version": "香菱",
+      "date": "2024-08-06",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エミリエ／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-08-06-3",
+      "game": "gi",
+      "type": "character",
+      "version": "レザー",
+      "date": "2024-08-06",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000234.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.4.8",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "エミリエ／夜蘭（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-08-28-2",
+      "game": "gi",
+      "type": "character",
+      "version": "辛炎",
+      "date": "2024-08-28",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000240.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.5.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ムアラニ／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-08-28-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ベネット",
+      "date": "2024-08-28",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000240.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.5.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ムアラニ／楓原万葉（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-09-17-1",
+      "game": "gi",
+      "type": "character",
+      "version": "トーマ",
+      "date": "2024-09-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000245.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "キィニチ／雷電将軍（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-09-17-2",
+      "game": "gi",
+      "type": "character",
+      "version": "九条裟羅",
+      "date": "2024-09-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000245.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "キィニチ／雷電将軍（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-09-17-3",
+      "game": "gi",
+      "type": "character",
+      "version": "シュヴルーズ",
+      "date": "2024-09-17",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000245.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.0",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "キィニチ／雷電将軍（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-10-09-1",
+      "game": "gi",
+      "type": "character",
+      "version": "ドリー",
+      "date": "2024-10-09",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.5.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シロネン／千織（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-10-09-2",
+      "game": "gi",
+      "type": "character",
+      "version": "キャンディス",
+      "date": "2024-10-09",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.5.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シロネン／千織（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-10-09-3",
+      "game": "gi",
+      "type": "character",
+      "version": "コレイ",
+      "date": "2024-10-09",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000252.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.5.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "シロネン／千織（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-10-29-1",
+      "game": "gi",
+      "type": "character",
+      "version": "セトス",
+      "date": "2024-10-29",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヒーダ（復刻）／胡桃（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-10-29-2",
+      "game": "gi",
+      "type": "character",
+      "version": "行秋",
+      "date": "2024-10-29",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヒーダ（復刻）／胡桃（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-10-29-3",
+      "game": "gi",
+      "type": "character",
+      "version": "久岐忍",
+      "date": "2024-10-29",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000258.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.1",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "ナヒーダ（復刻）／胡桃（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-11-20-2",
+      "game": "gi",
+      "type": "character",
+      "version": "スクロース",
+      "date": "2024-11-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000264.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.5.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "チャスカ／リネ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-11-20-3",
+      "game": "gi",
+      "type": "character",
+      "version": "バーバラ",
+      "date": "2024-11-20",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000264.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "first",
+      "version_group": "Ver.5.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "チャスカ／リネ（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-12-10-1",
+      "game": "gi",
+      "type": "character",
+      "version": "鹿野院平蔵",
+      "date": "2024-12-10",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000270.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "鍾離（復刻）／ヌヴィレット（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-12-10-2",
+      "game": "gi",
+      "type": "character",
+      "version": "フィッシュル",
+      "date": "2024-12-10",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000270.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "鍾離（復刻）／ヌヴィレット（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
+    },
+    {
+      "id": "gi-four-pu-2024-12-10-3",
+      "game": "gi",
+      "type": "character",
+      "version": "ヨォーヨ",
+      "date": "2024-12-10",
+      "source_url": "https://prtimes.jp/main/html/rd/p/000000270.000096124.html",
+      "source_title": "COGNOSPHERE公式プレスリリース・キャラクター祈願★4PU枠",
+      "phase": "second",
+      "version_group": "Ver.5.2",
+      "event_kind": "featured_banner",
+      "banner_type": "event_wish_four_star",
+      "rarity": 4,
+      "verification": "official",
+      "featured_five_star": "鍾離（復刻）／ヌヴィレット（復刻）",
+      "corroborating_sources": [
+        "https://www.pcgamer.com/games/rpg/genshin-impact-banner-next-current/"
+      ],
+      "review_note": "同じ日付のCOGNOSPHERE／HoYoverse発行ガチャ告知を出典とし、3人の★4PU編成を歴代ガチャ一覧と突合。★5通常バナーとは別の共有★4枠。34開催すべての告知本文の独立精査は未完了。"
     }
   ]
 }
