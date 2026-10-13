@@ -407,6 +407,27 @@ function applyHsrPublisherNoticeCandidates(primary,d){
  if(dates.size!==12||updates.size!==36)throw Error("スタレ一次告知候補の反映件数不一致");
  return {events:primary.map(e=>updates.get(e.id)||e),pending:updates.size};
 }
+function applyHsrPublisherBilibili2023to2024Official(primary,doc){
+ if(!doc||doc.schema!=="gacha-wars-hsr-publisher-bilibili-2023-2024-official-v1"||doc.verification!=="official"||doc.group_count!==3||doc.count!==9||!Array.isArray(doc.groups)||doc.groups.length!==3)throw Error("スタレBilibili一次資料の形式・件数不一致");
+ const expected={
+ "2023-12-06":{parent:"アルジェンティ／銀狼",names:["寒鴉","リンクス","アスター"],cn:["寒鸦","玲可","艾丝妲"],five:["银枝","银狼"],banners:["荆冠芳勋","零号协议"],start:"2023/12/06 12:00",end:"2023/12/26 14:59",url:"https://www.bilibili.com/opus/871493549220167785"},
+ "2024-07-31":{parent:"雲璃／フォフォ",names:["寒鴉","御空","リンクス"],cn:["寒鸦","驭空","玲可"],five:["云璃","藿藿"],banners:["掷山破云","令奉贞凶"],start:"2024/07/31 2.4版本更新后",end:"2024/08/21 11:59",url:"https://www.bilibili.com/opus/959819534499315736"},
+ "2024-08-21":{parent:"椒丘／花火",names:["フック","桂乃芬","アーラン"],cn:["虎克","桂乃芬","阿兰"],five:["椒丘","花火"],banners:["鼎中捭阖","焰锦游鱼"],start:"2024/8/21 12:00",end:"2024/09/09 15:00",url:"https://www.bilibili.com/opus/967604592193830949"}
+ };
+ const byId=new Map(primary.map(x=>[x.id,x])),updates=new Map(),dates=new Set();
+ for(const g of doc.groups){
+  const e=expected[g?.date];
+  if(!e||dates.has(g.date)||g.featured_five_star!==e.parent||g.names?.join("|")!==e.names.join("|")||g.names_cn?.join("|")!==e.cn.join("|")||g.featured_five_star_cn?.join("|")!==e.five.join("|")||g.banner_cn?.join("|")!==e.banners.join("|")||g.start_text!==e.start||g.end_text!==e.end||g.source_url!==e.url||g.verification!=="official"||g.date_basis!=="publisher_bilibili_exact_event_warp_start_and_all_three_fourstars"||g.ids?.length!==3)throw Error("スタレBilibili原文・記録内容不一致");
+  dates.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),row=byId.get(id);
+   if(g.ids[i]!==id||!row||row.game!=="hsr"||row.type!=="character"||row.rarity!==4||row.banner_type!=="event_warp_four_star"||row.date!==g.date||row.featured_five_star!==g.featured_five_star||row.version!==g.names[i]||row.verification!=="secondary"||updates.has(id))throw Error("スタレBilibili原文の元レコードID・対象に不一致");
+   updates.set(id,{...row,verification:"official",source_url:g.source_url,source_title:"崩坏星穹铁道公式Bilibili・角色活动跃迁："+g.banner_cn.join("／"),original_name:g.names_cn[i],date_basis:g.date_basis,review_note:"運営公式Bilibili投稿の原文でガチャ開始日と共有★4全3人を直接確認。"});
+  }
+ }
+ if(dates.size!==3||updates.size!==9)throw Error("スタレBilibili一次資料の照合件数が不一致");
+ return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
+}
 function applyHsrMihoyoPrimaryBannerOverrides(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-mihoyo-primary-banner-overrides-v1"||d.verification!=="official"||d.group_count!==1||d.count!==3||!Array.isArray(d.groups)||d.groups.length!==1)throw Error("公式サイト★4原文照合データ形式不正");
  const expected={date:"2024-12-04",parent:"サンデー／景元",names:["停雲","青雀","アーラン"],cn:["停云","青雀","阿兰"],url:"https://sr.mihoyo.com/news/127222"};
@@ -658,6 +679,11 @@ async function loadEvents(){
    const candidates=applyHsrPublisherNoticeCandidates(primary,await res.json());
    primary=candidates.events;notes.push("スタレ公式告知URLを追加 "+candidates.pending+"件（原文未確認）");
   }catch(err){notes.push("スタレ公式告知URL参照情報の取得失敗");console.info("スタレ公式告知URL候補の読込失敗",err.message)}
+  try{
+   const res=await fetch("./hsr-publisher-bilibili-2023-2024-official.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+   const verified=applyHsrPublisherBilibili2023to2024Official(primary,await res.json());
+   primary=verified.events;notes.push("スタレ公式Bilibili 2023〜24年★4原文照合 "+verified.upgraded+"件");
+  }catch(err){notes.push("スタレ公式Bilibili旧ガチャの照合失敗");console.info("スタレBilibili一次資料の照合が失敗",err.message)}
   try{
    const resp=await fetch("./hsr-mihoyo-primary-banner-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const proof=applyHsrMihoyoPrimaryBannerOverrides(primary,await resp.json());
