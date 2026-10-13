@@ -371,6 +371,25 @@ function applyHsrPublisherNoticeCandidates(primary,d){
  if(dates.size!==12||updates.size!==36)throw Error("スタレ一次告知候補の反映件数不一致");
  return {events:primary.map(e=>updates.get(e.id)||e),pending:updates.size};
 }
+function applyHsrOutstandingMirrorEvidence(primary,d){
+ if(!d||d.schema!=="gacha-wars-hsr-outstanding-mirror-evidence-v1"||d.verification!=="secondary"||d.group_count!==12||d.count!==36||!Array.isArray(d.groups)||d.groups.length!==12)throw Error("スタレ未照合の補助資料形式・件数不正");
+ const byId=new Map(primary.map(e=>[e.id,e])),updates=new Map(),dates=new Set();
+ for(const g of d.groups){
+  if(!g||dates.has(g.date)||g.verification!=="secondary"||g.notice_body_verification!=="publisher_original_not_read"||!Array.isArray(g.names_ja)||g.names_ja.length!==3||!Array.isArray(g.ids)||g.ids.length!==3||!Array.isArray(g.sources)||!g.sources.length)throw Error("スタレ外部照合データ形式不正");
+  dates.add(g.date);
+  const urls=g.sources.map(source=>{
+   if(typeof source.url!=="string"||!source.url.startsWith("https://")||typeof source.description!=="string"||!source.description||!["third_party_notice_reprint","contemporaneous_player_guide","secondary_game_guide","community_reference_timeline","secondary_user_reprint","unofficial_rebroadcast"].includes(source.source_type))throw Error("スタレ外部出典の分類不正");
+   return source.url;
+  });
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),original=byId.get(id);
+   if(g.ids[i]!==id||!original||original.game!=="hsr"||original.type!=="character"||original.rarity!==4||original.banner_type!=="event_warp_four_star"||original.verification!=="secondary"||original.date!==g.date||original.version!==g.names_ja[i]||original.featured_five_star!==g.featured_five_star||updates.has(id))throw Error("スタレ外部照合と元データの不一致");
+   updates.set(id,{...original,corroborating_sources:[...new Set([...(original.corroborating_sources||[]),...urls])],secondary_crosscheck:"外部資料で開催日・対象を再照合（公式原文未確認）",review_note:(original.review_note||"原文未照合")+"／外部資料に開催日・★4構成の記録あり。原文は未確認、公式照合済みには含めない。"});
+  }
+ }
+ if(dates.size!==12||updates.size!==36)throw Error("スタレ外部補強数に不一致");
+ return {events:primary.map(e=>updates.get(e.id)||e),corroborated:updates.size};
+}
 function applyHsrSecondaryCorroboration(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-secondary-corroboration-v1"||d.verification!=="secondary"||d.group_count!==2||d.count!==6||d.groups?.length!==2)throw Error("スタレ2025年外部転載補助資料の形式不一致");
  const expected={
@@ -553,6 +572,11 @@ async function loadEvents(){
    const verified=applyHsrOfficialWeiboFourStarOverrides(primary,await res.json());
    primary=verified.events;notes.push("スタレ公式微博★4照合 "+verified.upgraded+"件");
   }catch(err){notes.push("スタレ公式微博★4照合の取得失敗");console.info("スタレ公式微博★4出典の読込失敗",err.message)}
+  try{
+   const res=await fetch("./hsr-outstanding-mirror-evidence.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+   const checked=applyHsrOutstandingMirrorEvidence(primary,await res.json());
+   primary=checked.events;notes.push("スタレ未照合★4の外部追加照合 "+checked.corroborated+"件（公式昇格なし）");
+  }catch(err){notes.push("スタレ外部追加資料の取得失敗");console.info("スタレ外部資料の読込失敗",err.message)}
   try{
    const res=await fetch("./hsr-secondary-corroboration-2025.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
    const checked=applyHsrSecondaryCorroboration(primary,await res.json());
