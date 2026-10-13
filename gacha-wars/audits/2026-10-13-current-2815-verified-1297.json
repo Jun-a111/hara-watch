@@ -1,0 +1,39 @@
+{
+  "schema": "gacha-wars-current-coverage-v25",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-13-current-2815-verified-1291.json",
+  "combined_events": 2815,
+  "verification": {
+    "official": 1297,
+    "secondary": 1518
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 485,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "first_party_collab_fourstar_upgrade": {
+    "file": "gacha-wars/ww-collab-fourstar-publisher-overrides.json",
+    "file_blob_sha": "ff211718e0677805c722d1702cdd5ad99df10230",
+    "existing_records": 6,
+    "official_source_links": [
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4836",
+      "https://wutheringwaves.kurogames.com/en/main/news/detail/4852"
+    ],
+    "characters": [
+      "Lumi",
+      "Youhu",
+      "Taoqi"
+    ],
+    "applies_to": "Lucy and Rebecca collab banners, not ordinary featured resonator convene"
+  },
+  "limitations": [
+    "No new events added. 75 original history records plus six separate Cyberpunk collaboration 4-star character rateup records were reclassified to publisher-confirmed content in this day's audits.",
+    "Collaboration banners have distinct guarantee rules and are not ordinary featured banners.",
+    "31 remaining secondary 4-star records are not necessarily all inaccurate; publisher notice/precise date coverage for other game periods is incomplete.",
+    "Entries track appearances and version milestones, not individual revenues or unique characters."
+  ]
+}
