@@ -1,7 +1,7 @@
 {
   "schema": "gacha-wars-hsr-late-2026-fourstar-v1",
   "audit_date": "2026-10-13",
-  "note": "Update missing Star Rail four-star character rate-up lineups for v4.5 (two phases) and live v4.6 phase I without adding future October 21 rerun records. Social mirrors and third-party summaries remain secondary; Ver4.6 follows original publisher account announcement.",
+  "note": "Ver.4.5第I期・第II期、およびVer.4.6第I期の★4キャラPU計9件を、崩壊：スターレイル公式TapTap掲示板の3件の跳躍告知で直接照合。該当★5母集音と同日照合し、未開始の2026-10-21の復刻ガチャは追加しない。",
   "count": 9,
   "phases": [
     {
@@ -23,10 +23,13 @@
         "Qingque",
         "Gallagher"
       ],
-      "verification": "secondary",
-      "source_url": "https://allthings.how/honkai-star-rail-4-5-banners-and-events-full-schedule/",
-      "source_title": "4.5前半イベント跳躍の4★枠（第三者の告知再掲資料）",
-      "date_basis": "published_warp_summary_crosschecked_with_release_history"
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/840997512444642592",
+      "source_title": "崩壊：スターレイル公式TapTap・Ver.4.5第I期跳躍告知",
+      "date_basis": "publisher_official_taptap_event_warp_notice",
+      "corroborating_sources": [
+        "https://sina.cn/news/detail/5335801187011425.html"
+      ]
     },
     {
       "date": "2026-09-12",
@@ -47,13 +50,13 @@
         "Hook",
         "Guinaifen"
       ],
-      "verification": "secondary",
-      "source_url": "https://imginn.com/p/DdF2VP7FVJo/",
-      "source_title": "公式Instagram掲載告知を保存した公開ミラー（第三者再掲）",
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/846770765180174809",
+      "source_title": "崩壊：スターレイル公式TapTap・Ver.4.5第II期跳躍告知",
       "corroborating_sources": [
-        "https://allthings.how/honkai-star-rail-4-5-banners-and-events-full-schedule/"
+        "https://imginn.com/p/DdF2VP7FVJo/"
       ],
-      "date_basis": "publisher_social_mirror_and_third_party_crosscheck"
+      "date_basis": "publisher_official_taptap_event_warp_notice"
     },
     {
       "date": "2026-09-28",
@@ -75,13 +78,12 @@
         "Misha"
       ],
       "verification": "official",
-      "source_url": "https://www.bilibili.com/opus/1252628932049502233",
-      "source_title": "崩壊：スターレイル公式Bilibili・Ver.4.6第I期跳躍告知",
+      "source_url": "https://www.taptap.cn/moment/852211155802787824",
+      "source_title": "崩壊：スターレイル公式TapTap・Ver.4.6第I期跳躍告知",
       "corroborating_sources": [
-        "https://www.hoyolab.com/accountcenter/postList?id=172534910",
-        "https://gamewith.jp/houkaistarrail/article/show/402987"
+        "https://www.bilibili.com/opus/1252628932049502233"
       ],
-      "date_basis": "publisher_phase_i_announced_september_28"
+      "date_basis": "publisher_official_taptap_event_warp_notice"
     }
   ]
 }
