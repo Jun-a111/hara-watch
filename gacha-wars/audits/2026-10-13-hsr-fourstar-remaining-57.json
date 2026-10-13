@@ -1,0 +1,355 @@
+{
+  "schema": "gacha-wars-hsr-fourstar-remaining-audit-v1",
+  "audit_date": "2026-10-13",
+  "base_events_sha": "a0bc1ee1f42350ba7eab779fa51e909d73c865e4",
+  "base_fourstar_count": 177,
+  "publisher_verified_base_count": 120,
+  "remaining_base_count": 57,
+  "remaining_group_count": 19,
+  "extra_2026_autumn_fourstars_excluded": 9,
+  "policy": "Never promote secondary-sourced entries to official without verifying the exact first-party featured four-star roster and banner dates; current audit is a dated snapshot, not an authoritative current site feed.",
+  "groups": [
+    {
+      "date": "2023-05-17",
+      "featured_five_star": "景元",
+      "names_ja": [
+        "三月なのか",
+        "素裳",
+        "停雲"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-05-17-1",
+        "hsr-four-pu-2023-05-17-2",
+        "hsr-four-pu-2023-05-17-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2023-05-17 崩坏：星穹铁道 官方 角色活动跃迁 四星 景元"
+    },
+    {
+      "date": "2023-06-28",
+      "featured_five_star": "羅刹",
+      "names_ja": [
+        "ペラ",
+        "青雀",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-06-28-1",
+        "hsr-four-pu-2023-06-28-2",
+        "hsr-four-pu-2023-06-28-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2023-06-28 崩坏：星穹铁道 官方 角色活动跃迁 四星 羅刹"
+    },
+    {
+      "date": "2023-11-15",
+      "featured_five_star": "フォフォ",
+      "names_ja": [
+        "丹恒",
+        "アーラン",
+        "セーバル"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-11-15-1",
+        "hsr-four-pu-2023-11-15-2",
+        "hsr-four-pu-2023-11-15-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2023-11-15 崩坏：星穹铁道 官方 角色活动跃迁 四星 フォフォ"
+    },
+    {
+      "date": "2023-12-06",
+      "featured_five_star": "アルジェンティ／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "リンクス",
+        "アスター"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-06-1",
+        "hsr-four-pu-2023-12-06-2",
+        "hsr-four-pu-2023-12-06-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2023-12-06 崩坏：星穹铁道 官方 角色活动跃迁 四星 アルジェンティ／銀狼"
+    },
+    {
+      "date": "2023-12-27",
+      "featured_five_star": "ルアン・メェイ／刃",
+      "names_ja": [
+        "三月なのか",
+        "停雲",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-27-1",
+        "hsr-four-pu-2023-12-27-2",
+        "hsr-four-pu-2023-12-27-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2023-12-27 崩坏：星穹铁道 官方 角色活动跃迁 四星 ルアン・メェイ／刃"
+    },
+    {
+      "date": "2024-02-29",
+      "featured_five_star": "花火／景元",
+      "names_ja": [
+        "青雀",
+        "サンポ",
+        "寒鴉"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-02-29-1",
+        "hsr-four-pu-2024-02-29-2",
+        "hsr-four-pu-2024-02-29-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-02-29 崩坏：星穹铁道 官方 角色活动跃迁 四星 花火／景元"
+    },
+    {
+      "date": "2024-05-08",
+      "featured_five_star": "ロビン／トパーズ＆カブ",
+      "names_ja": [
+        "三月なのか",
+        "寒鴉",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-05-08-1",
+        "hsr-four-pu-2024-05-08-2",
+        "hsr-four-pu-2024-05-08-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-05-08 崩坏：星穹铁道 官方 角色活动跃迁 四星 ロビン／トパーズ＆カブ"
+    },
+    {
+      "date": "2024-06-19",
+      "featured_five_star": "ホタル／ルアン・メェイ",
+      "names_ja": [
+        "雪衣",
+        "ミーシャ",
+        "ギャラガー"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-06-19-1",
+        "hsr-four-pu-2024-06-19-2",
+        "hsr-four-pu-2024-06-19-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-06-19 崩坏：星穹铁道 官方 角色活动跃迁 四星 ホタル／ルアン・メェイ"
+    },
+    {
+      "date": "2024-07-10",
+      "featured_five_star": "ジェイド／アルジェンティ",
+      "names_ja": [
+        "セーバル",
+        "ナターシャ",
+        "アスター"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-07-10-1",
+        "hsr-four-pu-2024-07-10-2",
+        "hsr-four-pu-2024-07-10-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-07-10 崩坏：星穹铁道 官方 角色活动跃迁 四星 ジェイド／アルジェンティ"
+    },
+    {
+      "date": "2024-07-31",
+      "featured_five_star": "雲璃／フォフォ",
+      "names_ja": [
+        "寒鴉",
+        "御空",
+        "リンクス"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-07-31-1",
+        "hsr-four-pu-2024-07-31-2",
+        "hsr-four-pu-2024-07-31-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-07-31 崩坏：星穹铁道 官方 角色活动跃迁 四星 雲璃／フォフォ"
+    },
+    {
+      "date": "2024-08-21",
+      "featured_five_star": "椒丘／花火",
+      "names_ja": [
+        "フック",
+        "桂乃芬",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-08-21-1",
+        "hsr-four-pu-2024-08-21-2",
+        "hsr-four-pu-2024-08-21-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-08-21 崩坏：星穹铁道 官方 角色活动跃迁 四星 椒丘／花火"
+    },
+    {
+      "date": "2024-10-23",
+      "featured_five_star": "乱破／丹恒・飲月",
+      "names_ja": [
+        "リンクス",
+        "雪衣",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-10-23-1",
+        "hsr-four-pu-2024-10-23-2",
+        "hsr-four-pu-2024-10-23-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-10-23 崩坏：星穹铁道 官方 角色活动跃迁 四星 乱破／丹恒・飲月"
+    },
+    {
+      "date": "2024-12-04",
+      "featured_five_star": "サンデー／景元",
+      "names_ja": [
+        "停雲",
+        "青雀",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-12-04-1",
+        "hsr-four-pu-2024-12-04-2",
+        "hsr-four-pu-2024-12-04-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2024-12-04 崩坏：星穹铁道 官方 角色活动跃迁 四星 サンデー／景元"
+    },
+    {
+      "date": "2025-02-05",
+      "featured_five_star": "アグライア／ブートヒル／ロビン／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "停雲",
+        "素裳"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-02-05-1",
+        "hsr-four-pu-2025-02-05-2",
+        "hsr-four-pu-2025-02-05-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2025-02-05 崩坏：星穹铁道 官方 角色活动跃迁 四星 アグライア／ブートヒル／ロビン／銀狼"
+    },
+    {
+      "date": "2025-04-09",
+      "featured_five_star": "キャストリス／帰忘の流離人／椒丘／黄泉",
+      "names_ja": [
+        "ギャラガー",
+        "リンクス",
+        "ペラ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-04-09-1",
+        "hsr-four-pu-2025-04-09-2",
+        "hsr-four-pu-2025-04-09-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2025-04-09 崩坏：星穹铁道 官方 角色活动跃迁 四星 キャストリス／帰忘の流離人／椒丘／黄泉"
+    },
+    {
+      "date": "2025-07-23",
+      "featured_five_star": "ホタル／鏡流／刃",
+      "names_ja": [
+        "寒鴉",
+        "リンクス",
+        "ルカ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-07-23-1",
+        "hsr-four-pu-2025-07-23-2",
+        "hsr-four-pu-2025-07-23-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2025-07-23 崩坏：星穹铁道 官方 角色活动跃迁 四星 ホタル／鏡流／刃"
+    },
+    {
+      "date": "2025-09-24",
+      "featured_five_star": "長夜月／マダム・ヘルタ",
+      "names_ja": [
+        "ミーシャ",
+        "桂乃芬",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-09-24-1",
+        "hsr-four-pu-2025-09-24-2",
+        "hsr-four-pu-2025-09-24-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2025-09-24 崩坏：星穹铁道 官方 角色活动跃迁 四星 長夜月／マダム・ヘルタ"
+    },
+    {
+      "date": "2025-10-15",
+      "featured_five_star": "丹恒・騰荒／アナイクス",
+      "names_ja": [
+        "素裳",
+        "寒鴉",
+        "セーバル"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-10-15-1",
+        "hsr-four-pu-2025-10-15-2",
+        "hsr-four-pu-2025-10-15-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2025-10-15 崩坏：星穹铁道 官方 角色活动跃迁 四星 丹恒・騰荒／アナイクス"
+    },
+    {
+      "date": "2026-06-24",
+      "featured_five_star": "ファイノン／キュレネ",
+      "names_ja": [
+        "三月なのか",
+        "アーラン",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2026-06-24-1",
+        "hsr-four-pu-2026-06-24-2",
+        "hsr-four-pu-2026-06-24-3"
+      ],
+      "verification": "secondary",
+      "existing_source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_lineup_notice_not_yet_found",
+      "research_hint": "2026-06-24 崩坏：星穹铁道 官方 角色活动跃迁 四星 ファイノン／キュレネ"
+    }
+  ]
+}
