@@ -1711,7 +1711,7 @@ class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
         self.assertEqual(data["schema"],"gacha-wars-ww-fourstar-supplement-v1")
         self.assertEqual(len(data["phases"]),34)
         self.assertEqual(sum(len(x["featured_four"]) for x in data["phases"]),102)
-        self.assertEqual(sum(x["tier"]=="official" for x in data["phases"]),33)
+        self.assertEqual(sum(x["tier"]=="official" for x in data["phases"]),34)
         self.assertEqual(len({x["date"] for x in data["phases"]}),34)
         self.assertEqual(next(x for x in data["phases"] if x["date"]=="2026-09-30")["matching_five_star"],["Blooming Jadehaven","Kumokiri","Moongazer's Sigil"])
         for p in data["phases"]:
@@ -1790,13 +1790,15 @@ class Wuthering2024To2026FourStarWeaponSupplementTests(unittest.TestCase):
                          ["Commando of Conviction","Fusion Accretion","Helios Cleaver"])
         self.assertEqual(next(x for x in data["phases"] if x["date"]=="2025-12-11")["featured_four"],
                          ["Jinzhou Keeper","Celestial Spiral","Lunar Cutter"])
-        self.assertEqual([p["date"] for p in data["phases"] if p["tier"]=="secondary"],
-                         ["2026-03-19"])
+        self.assertEqual([p["date"] for p in data["phases"] if p["tier"]=="secondary"],[])
         remaining=next(p for p in data["phases"] if p["date"]=="2026-03-19")
-        self.assertEqual(remaining["date_basis"],"publisher_maintenance_day_2026_03_19_secondary_weapon_rateup")
+        self.assertEqual(remaining["date_basis"],"publisher_official_moderator_fourstar_roster_and_official_maintenance_start")
         self.assertEqual(remaining["publisher_date_source"],
             "https://wutheringwaves.kurogames.com/en/main/news/detail/4403")
-        self.assertEqual(remaining["tier"],"secondary")
+        self.assertEqual(remaining["tier"],"official")
+        self.assertEqual(remaining["official_notice"],"https://www.taptap.cn/moment/783274357425177721")
+        self.assertEqual(remaining["publisher_notices"][:2],["https://www.taptap.cn/moment/783274357425177721","https://www.taptap.cn/moment/783275750106073721"])
+        self.assertEqual(remaining["featured_four"],["Celestial Spiral","Endless Collapse","Lunar Cutter"])
 
         site=(SITE/"index.html").read_text(encoding="utf-8")
         self.assertIn("武器対象は公式照合済／開催日は外部履歴と照合",site)
@@ -1820,8 +1822,8 @@ assert.equal(events.length,105);
 assert.equal(new Set(events.map(e=>e.id)).size,105);
 assert.equal(events.filter(e=>e.rarity===4).length,102);
 assert.equal(events.filter(e=>e.rarity===5).length,3);
-assert.equal(events.filter(e=>e.verification==="official").length,102);
-assert.equal(events.filter(e=>e.verification==="secondary").length,3);
+assert.equal(events.filter(e=>e.verification==="official").length,105);
+assert.equal(events.filter(e=>e.verification==="secondary").length,0);
 assert.equal(events.filter(e=>e.banner_type==="ww_weapon_collab_four").length,3);
 assert.ok(events.every(e=>e.type==="weapon"&&e.game==="ww"&&e.version_group.startsWith("Ver.")));
 assert.deepEqual(events.filter(e=>e.date==="2026-09-30"&&e.rarity===5).map(e=>e.version),
