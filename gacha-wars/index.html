@@ -350,6 +350,11 @@ async function loadEvents(){
    primary=audited.events;notes.push("過去鳴潮★4キャラ公式照合 "+audited.upgraded+"件");
   }catch(err){notes.push("過去★4キャラの公式照合取得失敗");console.info("★4共鳴者の過去公式告知出典読込に失敗",err.message)}
   try{
+   const resp=await fetch("./ww-collab-fourstar-publisher-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const audited=applyWwCollabFourStarPublisherOverrides(primary,await resp.json());
+   primary=audited.events;notes.push("鳴潮コラボ★4キャラ公式照合 "+audited.upgraded+"件");
+  }catch(err){notes.push("鳴潮コラボ★4公式照合取得失敗");console.info("鳴潮コラボ★4共鳴者の公式告知読込に失敗",err.message)}
+  try{
    const resp=await fetch("./ww-reverb-2026-official.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const reverb=applyWw2026ReverbOfficial(primary,await resp.json());
    primary=reverb.primary;extras.push(...reverb.extras);
