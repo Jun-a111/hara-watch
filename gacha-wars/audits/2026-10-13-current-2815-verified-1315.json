@@ -1,0 +1,33 @@
+{
+  "schema": "gacha-wars-current-coverage-v29",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-13-current-2815-verified-1312.json",
+  "total_events_expected": 2815,
+  "official_events_expected": 1315,
+  "secondary_events_expected": 1500,
+  "hsr_fourstar": {
+    "base_total": 177,
+    "official_expected": 138,
+    "secondary_expected": 39,
+    "groups_pending": 13,
+    "official_facebook_new": 3,
+    "facebook_partial_still_secondary": 6
+  },
+  "verified_primary_event_provenance": "gacha-wars/hsr-facebook-official-account-evidence.json",
+  "old_data_verified_using": "gacha-wars/release-events.json",
+  "test": {
+    "original_base_event_count": 1607,
+    "base_after_hsr_official_overrides": 1143,
+    "all_hsr_overlay_transforms_passed": 12,
+    "duplicates_found": 0,
+    "new_facebook_2023_11_promoted": 3,
+    "partial_facebook_2024_remaining_secondary": 6,
+    "javascript_inline_syntax": "passes",
+    "regression_test_file": "tests/test_hsr_fourstar_evidence.py"
+  },
+  "limitations": [
+    "The 2815 sitewide total and 1315 official are expected only when all game supplement JSON files load in the client. Full browser runtime was not executed.",
+    "Actual page visitor experience or CI completion was not confirmed.",
+    "The indexed official 2023 Facebook post is source evidence but direct opening was rate-limited."
+  ]
+}
