@@ -2409,5 +2409,54 @@ assert.ok(broken);
         run=subprocess.run(["node","-e",js],cwd=ROOT,text=True,capture_output=True)
         self.assertEqual(run.returncode,0,run.stderr)
 
+
+class Hsr2025Autumn2026SpringFourStarOfficialTests(unittest.TestCase):
+    def test_nine_groups_match_existing_rows(self):
+        d=json.loads((SITE/"hsr-2025-2026-fourstar-official-overrides.json").read_text(encoding="utf-8"))
+        self.assertEqual(d["schema"],"gacha-wars-hsr-2025-2026-fourstar-official-overrides-v1")
+        self.assertEqual((d["group_count"],d["count"]),(9,27))
+        base=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        by_id={x["id"]:x for x in base}
+        self.assertEqual(len({g["date"] for g in d["groups"]}),9)
+        gathered=set()
+        for group in d["groups"]:
+            self.assertTrue(group["source_url"].startswith("https://www.taptap.cn/moment/"))
+            self.assertEqual(len(group["names"]),3)
+            for i,key in enumerate(group["ids"]):
+                self.assertNotIn(key,gathered)
+                gathered.add(key)
+                old=by_id[key]
+                self.assertEqual(old["date"],group["date"])
+                self.assertEqual(old["version"],group["names"][i])
+                self.assertEqual(old["featured_five_star"],group["featured_five_star"])
+                self.assertEqual(old["verification"],"secondary")
+        self.assertEqual(len(gathered),27)
+        self.assertEqual({g["source_url"] for g in d["groups"] if g["date"] in {"2026-02-13","2026-03-03"}},
+            {"https://www.taptap.cn/moment/770676379539736327"})
+
+    def test_node_applies_without_duplicate_events(self):
+        page=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-2025-2026-fourstar-official-overrides.json"',page)
+        code=page[page.index("function applyHsr2025to2026FourStarOfficialOverrides(primary,data){"):page.index("function applyHsr2025FourStarOfficialOverrides(rows,data){")]
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const old=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const doc=JSON.parse(fs.readFileSync("gacha-wars/hsr-2025-2026-fourstar-official-overrides.json","utf8"));
+const result=applyHsr2025to2026FourStarOfficialOverrides(old,doc);
+assert.equal(result.upgraded,27);
+assert.equal(result.events.length,old.length);
+assert.equal(new Set(result.events.map(x=>x.id)).size,old.length);
+const ids=new Set(doc.groups.flatMap(x=>x.ids));
+assert.equal(result.events.filter(x=>ids.has(x.id)&&x.verification==="official").length,27);
+assert.equal(result.events.filter(x=>x.game==="hsr"&&x.rarity===4).length,old.filter(x=>x.game==="hsr"&&x.rarity===4).length);
+let rejected=false;
+try{let bad=JSON.parse(JSON.stringify(doc));bad.groups[3].date="2026-06-01";applyHsr2025to2026FourStarOfficialOverrides(old,bad)}catch(e){rejected=true}
+assert.ok(rejected);
+'''
+        p=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(p.returncode,0,p.stderr)
+
 if __name__ == "__main__":
     unittest.main()
