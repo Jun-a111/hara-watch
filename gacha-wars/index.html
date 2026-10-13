@@ -116,7 +116,7 @@ function hsrFourStarProvenanceBoard(){
   const notice=g.items.find(e=>e.publisher_notice_url)?.publisher_notice_url;
   const fb=g.items.find(e=>e.publisher_facebook_url)?.publisher_facebook_url;
   const href=notice||fb||"";
-  const link=href.startsWith("https://")?'<a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">運営投稿を確認 ↗</a>':'運営投稿リンク未特定';
+  const link=href.startsWith("https://")?'<a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">運営投稿へのリンク ↗</a>':'運営投稿リンク未特定';
   return '<tr><td>'+esc(g.date)+'</td><td>'+esc(g.parent)+'<div class="tiny">'+esc(names)+'</div></td><td>未照合 '+g.items.length+'件<div class="tiny">'+(href?'運営投稿の原文確認待ち':'運営の原文・リンク探索中')+'</div></td><td>'+link+'</td></tr>';
  }).join("");
  return '<details class="panel"><summary style="cursor:pointer;font-weight:750">スタレ★4公式照合の進捗　'+verified+'/'+rows.length+'件・保留 '+outstanding.length+'件（'+items.length+'開催分）</summary><p class="hint" style="margin-top:12px">★4は同一開催の3人をまとめて表示。公式投稿へのリンクがあっても、日付と3人の原文照合が済んでいない場合は未照合のままです。2026年8月5日までの既存履歴を集計し、その後の追加開催分は含めません。</p><div class="scroll"><table><thead><tr><th>開催日</th><th>対象★5・★4</th><th>照合状況</th><th>運営告知</th></tr></thead><tbody>'+tr+'</tbody></table></div></details>';
