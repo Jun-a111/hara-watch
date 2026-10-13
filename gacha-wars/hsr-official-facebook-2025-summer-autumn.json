@@ -1,0 +1,73 @@
+{
+  "schema": "gacha-wars-hsr-official-facebook-summer-autumn-2025-v1",
+  "audit_date": "2026-10-14",
+  "verification": "official",
+  "publisher_accounts": [
+    "https://www.facebook.com/HonkaiStarRail.CHS/",
+    "https://www.facebook.com/HonkaiStarRail.CHT/"
+  ],
+  "publisher_account_policy": "Original Chinese Simplified and Traditional official Honkai: Star Rail accounts, with search-indexed post text giving exact date and complete shared rate-up 4-star trio. Logged-out Facebook may block direct open; the search index independently exposes the full announcement fields.",
+  "group_count": 2,
+  "count": 6,
+  "groups": [
+    {
+      "date": "2025-07-23",
+      "featured_five_star": "ホタル／鏡流／刃",
+      "names_ja": [
+        "寒鴉",
+        "リンクス",
+        "ルカ"
+      ],
+      "names_cn": [
+        "寒鸦",
+        "玲可",
+        "卢卡"
+      ],
+      "featured_five_star_cn": [
+        "流萤",
+        "镜流",
+        "刃"
+      ],
+      "time_cn": "2025/07/23 12:00 - 2025/08/12 15:00",
+      "source_url": "https://www.facebook.com/HonkaiStarRail.CHS/posts/746110384465921/",
+      "corroborating_official_url": "https://www.facebook.com/HonkaiStarRail.CHT/posts/759955636546629/",
+      "publisher_post_title": "3.4版本活动跃迁（其二）",
+      "ids": [
+        "hsr-four-pu-2025-07-23-1",
+        "hsr-four-pu-2025-07-23-2",
+        "hsr-four-pu-2025-07-23-3"
+      ],
+      "verification": "official",
+      "date_basis": "publisher_verified_official_facebook_chs_cht_search_index_contains_exact_start_and_3_fourstars"
+    },
+    {
+      "date": "2025-09-24",
+      "featured_five_star": "長夜月／マダム・ヘルタ",
+      "names_ja": [
+        "ミーシャ",
+        "桂乃芬",
+        "雪衣"
+      ],
+      "names_cn": [
+        "米沙",
+        "桂乃芬",
+        "雪衣"
+      ],
+      "featured_five_star_cn": [
+        "长夜月",
+        "大黑塔"
+      ],
+      "time_cn": "2025/09/24 3.6版本更新后 - 2025/10/15 11:59",
+      "source_url": "https://www.facebook.com/HonkaiStarRail.CHS/posts/794492746294351/",
+      "corroborating_official_url": "https://www.facebook.com/HonkaiStarRail.CHT/posts/809497008259158/",
+      "publisher_post_title": "3.6版本活动跃迁（其一）",
+      "ids": [
+        "hsr-four-pu-2025-09-24-1",
+        "hsr-four-pu-2025-09-24-2",
+        "hsr-four-pu-2025-09-24-3"
+      ],
+      "verification": "official",
+      "date_basis": "publisher_verified_official_facebook_chs_cht_search_index_contains_exact_start_and_3_fourstars"
+    }
+  ]
+}
