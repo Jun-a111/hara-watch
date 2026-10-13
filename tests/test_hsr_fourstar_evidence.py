@@ -315,6 +315,57 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
         self.assertLess(site.index('fetch("./hsr-publisher-bilibili-2023-2024-official.json"'),
                         site.index('fetch("./hsr-official-facebook-2025-summer-autumn.json"'))
 
+    def test_new_five_historical_official_2023_2025_groups(self):
+        doc = read("hsr-five-historical-official-notices.json")
+        self.assertEqual(doc["schema"], "gacha-wars-hsr-five-historical-official-notices-v1")
+        self.assertEqual(doc["verification"], "official")
+        self.assertEqual((doc["group_count"], doc["count"]), (5, 15))
+        expected = {
+            "2023-05-17": ("景元", ["三月なのか", "素裳", "停雲"], "18568299"),
+            "2024-05-08": ("ロビン／トパーズ＆カブ", ["三月なのか", "寒鴉", "雪衣"], "28251947"),
+            "2024-06-19": ("ホタル／ルアン・メェイ", ["雪衣", "ミーシャ", "ギャラガー"], "551806632766472744"),
+            "2024-10-23": ("乱破／丹恒・飲月", ["リンクス", "雪衣", "御空"], "34424519"),
+            "2025-02-05": ("アグライア／ブートヒル／ロビン／銀狼", ["寒鴉", "停雲", "素裳"], "36843932"),
+        }
+        original = {e["id"]: e for e in self.original}
+        prev = {
+            eid for filename in OFFICIAL_FILES
+            for group in read(filename)["groups"] for eid in group["ids"]
+        }
+        for filename in [
+            "hsr-facebook-official-account-evidence.json",
+            "hsr-mihoyo-primary-banner-overrides.json",
+            "hsr-publisher-bilibili-2023-2024-official.json",
+            "hsr-official-facebook-2025-summer-autumn.json",
+        ]:
+            prev.update(eid for group in read(filename)["groups"]
+                        if group["verification"] == "official" for eid in group["ids"])
+        self.assertEqual(len(prev), 156)
+        newly = set()
+        for group in doc["groups"]:
+            date = group["date"]
+            self.assertIn(date, expected)
+            parent, names, source_id = expected[date]
+            self.assertEqual(group["featured_five_star"], parent)
+            self.assertEqual(group["names_ja"], names)
+            self.assertIn(source_id, group["source_url"])
+            self.assertEqual(group["verification"], "official")
+            self.assertTrue(group["date_basis"].startswith("publisher_"))
+            self.assertEqual(len(group["ids"]), 3)
+            for i, eid in enumerate(group["ids"]):
+                self.assertEqual(eid, f"hsr-four-pu-{date}-{i+1}")
+                self.assertNotIn(eid, prev | newly)
+                self.assertEqual(original[eid]["date"], date)
+                self.assertEqual(original[eid]["featured_five_star"], parent)
+                self.assertEqual(original[eid]["version"], names[i])
+                self.assertEqual(original[eid]["verification"], "secondary")
+                newly.add(eid)
+        self.assertEqual(len(newly), 15)
+        self.assertEqual(len(prev | newly), 171)
+        html = (DATA / "index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-five-historical-official-notices.json"', html)
+        self.assertIn("function applyHsrFiveHistoricalOfficialNotices(", html)
+
     def test_hsr_evidence_progress_groups_original_177_records(self):
         import subprocess
         import tempfile
@@ -339,8 +390,10 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
             official.update(g["ids"])
         for g in read("hsr-official-facebook-2025-summer-autumn.json")["groups"]:
             official.update(g["ids"])
+        for g in read("hsr-five-historical-official-notices.json")["groups"]:
+            official.update(g["ids"])
         self.assertEqual(len(historical), 177)
-        self.assertEqual(len(official), 156)
+        self.assertEqual(len(official), 171)
         for row in historical:
             if row["id"] in official:
                 row["verification"] = "official"
@@ -358,16 +411,16 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 ''' + function + '''
 const rendered=hsrFourStarProvenanceBoard();
 console.log(JSON.stringify({
-  progress:rendered.includes("156/177件・保留 21件（7開催分）"),
+  progress:rendered.includes("171/177件・保留 6件（2開催分）"),
   rows:(rendered.match(/<tr><td>/g)||[]).length,
-  chronology:rendered.indexOf("2023-05-17")<rendered.indexOf("2025-04-09"),
+  chronology:rendered.indexOf("2023-12-27")<rendered.indexOf("2025-04-09"),
   unverifiedExplanation:rendered.includes("原文照合が済んでいない場合は未照合")
 }));
 '''
             result = subprocess.run(["node", "-e", js, str(file)], capture_output=True, text=True, check=True)
             outcome = json.loads(result.stdout)
             self.assertTrue(outcome["progress"])
-            self.assertEqual(outcome["rows"], 7)
+            self.assertEqual(outcome["rows"], 2)
             self.assertTrue(outcome["chronology"])
             self.assertTrue(outcome["unverifiedExplanation"])
 
