@@ -1,0 +1,83 @@
+{
+  "schema": "gacha-wars-hsr-facebook-official-account-evidence-v1",
+  "audit_date": "2026-10-13",
+  "publisher_account": "https://www.facebook.com/HonkaiStarRail.CHS",
+  "publisher_account_confirmation": "https://play.google.com/store/apps/details?hl=zh&id=com.HoYoverse.hkrpgoversea",
+  "group_count": 3,
+  "full_notice_count": 1,
+  "partial_notice_count": 2,
+  "records_upgraded": 3,
+  "policy": "Only full publisher-indexed first-party date-and-roster announcement becomes official. Two posts with truncated indexed body remain secondary; never promote via secondary corroboration alone.",
+  "groups": [
+    {
+      "date": "2023-11-15",
+      "featured_five_star": "フォフォ",
+      "names": [
+        "丹恒",
+        "アーラン",
+        "セーバル"
+      ],
+      "names_cn": [
+        "丹恒",
+        "阿兰",
+        "希露瓦"
+      ],
+      "source_url": "https://www.facebook.com/HonkaiStarRail.CHS/photos/356255276784769/",
+      "status": "publisher_indexed_full_start_and_roster",
+      "date_basis": "publisher_facebook_search_indexed_post_exact_start_and_roster",
+      "primary_evidence": "Google Play developer app listing identifies HonkaiStarRail.CHS as official Facebook; the indexed first-party announcement names 1.5 launch 2023/11/15 and 4-star 丹恒 阿兰 希露瓦",
+      "verification": "official",
+      "ids": [
+        "hsr-four-pu-2023-11-15-1",
+        "hsr-four-pu-2023-11-15-2",
+        "hsr-four-pu-2023-11-15-3"
+      ]
+    },
+    {
+      "date": "2024-06-19",
+      "featured_five_star": "ホタル／ルアン・メェイ",
+      "names": [
+        "雪衣",
+        "ミーシャ",
+        "ギャラガー"
+      ],
+      "names_cn": [
+        "雪衣",
+        "米沙",
+        "加拉赫"
+      ],
+      "source_url": "https://www.facebook.com/HonkaiStarRail.CHS/posts/476509114759384/",
+      "status": "publisher_indexed_partial_not_full_body",
+      "primary_evidence": "Official account post located, 2.3 start and first four-star candidate indexed, but full roster not independently readable from original in the present environment",
+      "verification": "secondary",
+      "ids": [
+        "hsr-four-pu-2024-06-19-1",
+        "hsr-four-pu-2024-06-19-2",
+        "hsr-four-pu-2024-06-19-3"
+      ]
+    },
+    {
+      "date": "2024-07-31",
+      "featured_five_star": "雲璃／フォフォ",
+      "names": [
+        "寒鴉",
+        "御空",
+        "リンクス"
+      ],
+      "names_cn": [
+        "寒鸦",
+        "驭空",
+        "玲可"
+      ],
+      "source_url": "https://www.facebook.com/HonkaiStarRail.CHS/photos/500648079012154/",
+      "status": "publisher_indexed_partial_not_full_body",
+      "primary_evidence": "Official account post located, 2.4 start and partial first-party snippet indexed; exact three four-star lineup cross-checked through non-publisher reference, not the full original post",
+      "verification": "secondary",
+      "ids": [
+        "hsr-four-pu-2024-07-31-1",
+        "hsr-four-pu-2024-07-31-2",
+        "hsr-four-pu-2024-07-31-3"
+      ]
+    }
+  ]
+}
