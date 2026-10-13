@@ -2155,5 +2155,64 @@ assert.throws(()=>applyWwFourStarHistoricalSourceOverrides(result.events,data));
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+class WuWaCyberpunkCollaborationPublisherTests(unittest.TestCase):
+    def test_six_official_collab_four_star_entries_are_existing_rows(self):
+        doc=json.loads((SITE/"ww-collab-fourstar-publisher-overrides.json").read_text(encoding="utf-8"))
+        self.assertEqual(doc["schema"],"gacha-wars-ww-collab-fourstar-source-overrides-v1")
+        self.assertEqual(doc["verification"],"official")
+        self.assertEqual(doc["count"],6)
+        rows=doc["upgrades"]
+        self.assertEqual(len(rows),6)
+        self.assertEqual(len({r["id"] for r in rows}),6)
+        self.assertEqual({r["featured_five_star"] for r in rows},{"ルーシー","レベッカ"})
+        self.assertEqual({r["version"] for r in rows},{"灯灯","釉瑚","桃祈"})
+        expected={"ルーシー":4836,"レベッカ":4852}
+        primary=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        byid={x["id"]:x for x in primary}
+        for r in rows:
+            self.assertEqual(r["source_url"],
+                 "https://wutheringwaves.kurogames.com/en/main/news/detail/"+str(expected[r["featured_five_star"]]))
+            self.assertEqual(r["date"],"2026-06-08")
+            self.assertEqual(r["banner_type"],"collab_convene_four_star")
+            old=byid[r["id"]]
+            self.assertEqual(old["verification"],"secondary")
+            self.assertEqual(old["date"],r["date"])
+            self.assertEqual(old["version"],r["version"])
+            self.assertEqual(old["featured_five_star"],r["featured_five_star"])
+            self.assertEqual(old["banner_type"],r["banner_type"])
+
+    def test_collab_source_loader_keeps_original_counts_and_special_banner_type(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./ww-collab-fourstar-publisher-overrides.json"',html)
+        loader=(SITE/"ww-fourstar-publisher-loader.js").read_text(encoding="utf-8")
+        self.assertIn("function applyWwCollabFourStarPublisherOverrides(rows,data)",loader)
+        node=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+loader+r'''
+const originals=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const data=JSON.parse(fs.readFileSync("gacha-wars/ww-collab-fourstar-publisher-overrides.json","utf8"));
+const result=applyWwCollabFourStarPublisherOverrides(originals,data);
+assert.equal(result.upgraded,6);
+assert.equal(result.events.length,originals.length);
+assert.equal(new Set(result.events.map(x=>x.id)).size,result.events.length);
+const ids=new Set(data.upgrades.map(x=>x.id));
+assert.equal(result.events.filter(x=>ids.has(x.id)&&x.verification==="official"&&x.banner_type==="collab_convene_four_star").length,6);
+assert.equal(result.events.filter(x=>x.banner_type==="featured_convene_four_star").length,
+ originals.filter(x=>x.banner_type==="featured_convene_four_star").length);
+let failed=false;
+try{
+ const damaged=JSON.parse(JSON.stringify(data));
+ damaged.upgrades[0].banner_type="featured_convene_four_star";
+ damaged.upgrades[0].featured_five_star="wrong";
+ applyWwCollabFourStarPublisherOverrides(originals,damaged);
+}catch(err){failed=true}
+assert.ok(failed);
+'''
+        run=subprocess.run(["node","-e",node],cwd=ROOT,text=True,capture_output=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
