@@ -33,4 +33,4 @@ jobs:
         with:
           node-version: '22'
       - name: Run GACHA WARS regression tests
-        run: python -m unittest discover -s tests -p 'test_gacha_site.py' -v
+        run: python -m unittest discover -s tests -p 'test_*site.py' -v && python -m unittest discover -s tests -p 'test_hsr_fourstar_evidence.py' -v
