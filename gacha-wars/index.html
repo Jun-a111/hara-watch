@@ -492,6 +492,8 @@ async function loadEvents(){
    const audited=applyHsr2023FourStarOfficialOverrides(primary,await resp.json());
    primary=audited.events;notes.push("スタレ過去★4公式照合 "+audited.upgraded+"件");
   }catch(err){notes.push("スタレ過去★4公式照合の取得失敗");console.info("スタレ過去★4公式出典の読込失敗",err.message)}
+  const hsrBaseFour=primary.filter(x=>x.game==="hsr"&&x.type==="character"&&x.rarity===4);
+  notes.push("スタレ既存★4 公式照合 "+hsrBaseFour.filter(x=>x.verification==="official").length+"/"+hsrBaseFour.length+"件・出典再調査 "+hsrBaseFour.filter(x=>x.verification!=="official").length+"件");
   try{
    const resp=await fetch("./ww-fourstar-character-source-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audited=applyWwFourStarCharacterSourceOverrides(primary,await resp.json());
