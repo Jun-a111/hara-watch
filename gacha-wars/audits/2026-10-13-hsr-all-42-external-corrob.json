@@ -1,0 +1,47 @@
+{
+  "schema": "gacha-wars-hsr-fourstar-pending-external-evidence-v1",
+  "date": "2026-10-13",
+  "base_events_sha": "a0bc1ee1f42350ba7eab779fa51e909d73c865e4",
+  "total_base_events": 1607,
+  "base_hsr_fourstar": 177,
+  "publisher_verified_fourstar": 135,
+  "pending_fourstar": 42,
+  "pending_groups": 14,
+  "new_external_corroboration": {
+    "groups": 12,
+    "records": 36,
+    "file": "gacha-wars/hsr-outstanding-mirror-evidence.json",
+    "original_publisher_not_confirmed": true
+  },
+  "existing_external_corroboration": {
+    "groups": 2,
+    "records": 6,
+    "file": "gacha-wars/hsr-secondary-corroboration-2025.json"
+  },
+  "existing_miyoushe_notice_links": {
+    "groups": 12,
+    "records": 36,
+    "file": "gacha-wars/hsr-publisher-notice-candidates.json",
+    "body_review_status": "unread"
+  },
+  "site_expected_coverage": {
+    "all_events": 2815,
+    "official": 1312,
+    "secondary": 1503
+  },
+  "checks": {
+    "json_groups_and_ids_match_pending_audit": true,
+    "javascript_parse": true,
+    "local_overlay_simulation": {
+      "base_loaded": 1607,
+      "checked": 36,
+      "updated": 36,
+      "official_promotions": 0,
+      "duplicate_ids": 0
+    },
+    "github_actions_regression_file": "tests/test_hsr_fourstar_evidence.py",
+    "github_actions_workflow": ".github/workflows/gacha-wars-checks.yml",
+    "actual_github_pages_browser_unverified": true
+  },
+  "policy": "Publisher original and exact banner start announcement must be independently accessible before verification becomes 'official'. A third-party post with identical copy does not itself count as a publisher-authored source. Some external articles only corroborate four-star roster and rough banner period, not the exact start date."
+}
