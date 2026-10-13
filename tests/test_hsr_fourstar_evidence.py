@@ -265,6 +265,56 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
                         html.index('fetch("./hsr-publisher-bilibili-2023-2024-official.json"'))
 
 
+
+    def test_facebook_original_source_promotion_2025_summer_autumn(self):
+        doc = read("hsr-official-facebook-2025-summer-autumn.json")
+        self.assertEqual(doc["schema"], "gacha-wars-hsr-official-facebook-summer-autumn-2025-v1")
+        self.assertEqual(doc["verification"], "official")
+        self.assertEqual(doc["group_count"], 2)
+        self.assertEqual(doc["count"], 6)
+        expected = {
+            "2025-07-23": ("ホタル／鏡流／刃", ["寒鴉", "リンクス", "ルカ"], "746110384465921", "759955636546629"),
+            "2025-09-24": ("長夜月／マダム・ヘルタ", ["ミーシャ", "桂乃芬", "雪衣"], "794492746294351", "809497008259158"),
+        }
+        older = {eid for filename in OFFICIAL_FILES
+                 for g in read(filename)["groups"] for eid in g["ids"]}
+        for file in ["hsr-facebook-official-account-evidence.json",
+                     "hsr-mihoyo-primary-banner-overrides.json",
+                     "hsr-publisher-bilibili-2023-2024-official.json"]:
+            for group in read(file)["groups"]:
+                if group.get("verification") == "official":
+                    older.update(group["ids"])
+        self.assertEqual(len(older), 150)
+        upgraded = set()
+        for group in doc["groups"]:
+            self.assertIn(group["date"], expected)
+            parent, names, chs, cht = expected[group["date"]]
+            self.assertEqual(group["featured_five_star"], parent)
+            self.assertEqual(group["names_ja"], names)
+            self.assertEqual(group["source_url"], "https://www.facebook.com/HonkaiStarRail.CHS/posts/" + chs + "/")
+            self.assertEqual(group["corroborating_official_url"], "https://www.facebook.com/HonkaiStarRail.CHT/posts/" + cht + "/")
+            self.assertEqual(group["verification"], "official")
+            self.assertEqual(len(group["ids"]), 3)
+            self.assertEqual(len(group["names_cn"]), 3)
+            self.assertEqual(len(group["featured_five_star_cn"]), 3 if group["date"] == "2025-07-23" else 2)
+            self.assertIn(group["date"], group["time_cn"])
+            for i, eid in enumerate(group["ids"]):
+                self.assertNotIn(eid, older | upgraded)
+                upgraded.add(eid)
+                base = self.original[eid]
+                self.assertEqual(base["date"], group["date"])
+                self.assertEqual(base["version"], group["names_ja"][i])
+                self.assertEqual(base["featured_five_star"], group["featured_five_star"])
+                self.assertEqual(base["verification"], "secondary")
+        self.assertEqual(len(upgraded), 6)
+        self.assertEqual(len(older | upgraded), 156)
+        self.assertEqual(len(self.original) - len(older | upgraded), 21)
+        site = (DATA / "index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-official-facebook-2025-summer-autumn.json"', site)
+        self.assertIn('function applyHsrOfficialFacebook2025SummerAutumn(', site)
+        self.assertLess(site.index('fetch("./hsr-publisher-bilibili-2023-2024-official.json"'),
+                        site.index('fetch("./hsr-official-facebook-2025-summer-autumn.json"'))
+
     def test_hsr_evidence_progress_groups_original_177_records(self):
         import subprocess
         import tempfile
@@ -287,8 +337,10 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
             official.update(g["ids"])
         for g in read("hsr-publisher-bilibili-2023-2024-official.json")["groups"]:
             official.update(g["ids"])
+        for g in read("hsr-official-facebook-2025-summer-autumn.json")["groups"]:
+            official.update(g["ids"])
         self.assertEqual(len(historical), 177)
-        self.assertEqual(len(official), 150)
+        self.assertEqual(len(official), 156)
         for row in historical:
             if row["id"] in official:
                 row["verification"] = "official"
@@ -306,16 +358,16 @@ const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&
 ''' + function + '''
 const rendered=hsrFourStarProvenanceBoard();
 console.log(JSON.stringify({
-  progress:rendered.includes("150/177件・保留 27件（9開催分）"),
+  progress:rendered.includes("156/177件・保留 21件（7開催分）"),
   rows:(rendered.match(/<tr><td>/g)||[]).length,
-  chronology:rendered.indexOf("2023-05-17")<rendered.indexOf("2025-09-24"),
+  chronology:rendered.indexOf("2023-05-17")<rendered.indexOf("2025-04-09"),
   unverifiedExplanation:rendered.includes("原文照合が済んでいない場合は未照合")
 }));
 '''
             result = subprocess.run(["node", "-e", js, str(file)], capture_output=True, text=True, check=True)
             outcome = json.loads(result.stdout)
             self.assertTrue(outcome["progress"])
-            self.assertEqual(outcome["rows"], 9)
+            self.assertEqual(outcome["rows"], 7)
             self.assertTrue(outcome["chronology"])
             self.assertTrue(outcome["unverifiedExplanation"])
 
