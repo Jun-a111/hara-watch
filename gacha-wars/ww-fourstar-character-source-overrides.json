@@ -2,9 +2,9 @@
   "schema": "gacha-wars-ww-fourstar-character-source-overrides-v1",
   "audit_date": "2026-10-13",
   "base_events_sha": "a0bc1ee1f42350ba7eab779fa51e909d73c865e4",
-  "count": 21,
+  "count": 24,
   "verification": "official",
-  "source_method": "KURO GAMES original 2026 3.5–3.7 Resonator Convene news articles; Japanese character names reconciled to the original Japanese source names in the site dataset.。2024年初回PUと2025年周年復刻（計6件）を公式告知で追加照合。",
+  "source_method": "KURO GAMES original 2026 3.5–3.7 Resonator Convene news articles; Japanese character names reconciled to the original Japanese source names in the site dataset.。2024年初回PUと2025年周年復刻（計6件）を公式告知で追加照合。 2026-03-19のシグリカ★4PU3名は運営公式Facebook投稿で直接確認。",
   "upgrades": [
     {
       "id": "ww-extra-four-2026-07-10-31-1",
@@ -257,6 +257,42 @@
       "verification": "official",
       "date_basis": "publisher_explicit_anniversary_convene_start",
       "review_note": "KURO GAMES公式「Anniversary Resonator Convene: Phase II」で★4のDanjin・Yangyang・Mortefiと2025-05-22 10:00開始を確認。周年復刻は選択式★5集音として記録。"
+    },
+    {
+      "id": "ww-extra-four-2026-03-19-26-1",
+      "date": "2026-03-19",
+      "version": "秧秧",
+      "featured_five_star": "シグリカ",
+      "official_english_name": "Yangyang",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/photos/when-the-runes-glitter-featured-resonator-conveneduring-the-event-5-star-resonat/945553434697550/",
+      "source_title": "Wuthering Waves公式Facebook・When the Runes Glitter集音告知",
+      "verification": "official",
+      "date_basis": "publisher_social_fourstar_roster_official_version_3_2_start",
+      "review_note": "運営が公式アプリ配信ページで案内する公式Facebook投稿で★4のSanhua・Buling・Yangyangを確認。開催日はKURO GAMESのVer.3.2更新告知（2026-03-19）と外部開催記録で照合。"
+    },
+    {
+      "id": "ww-extra-four-2026-03-19-26-2",
+      "date": "2026-03-19",
+      "version": "散華",
+      "featured_five_star": "シグリカ",
+      "official_english_name": "Sanhua",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/photos/when-the-runes-glitter-featured-resonator-conveneduring-the-event-5-star-resonat/945553434697550/",
+      "source_title": "Wuthering Waves公式Facebook・When the Runes Glitter集音告知",
+      "verification": "official",
+      "date_basis": "publisher_social_fourstar_roster_official_version_3_2_start",
+      "review_note": "運営が公式アプリ配信ページで案内する公式Facebook投稿で★4のSanhua・Buling・Yangyangを確認。開催日はKURO GAMESのVer.3.2更新告知（2026-03-19）と外部開催記録で照合。"
+    },
+    {
+      "id": "ww-extra-four-2026-03-19-26-3",
+      "date": "2026-03-19",
+      "version": "卜霊",
+      "featured_five_star": "シグリカ",
+      "official_english_name": "Buling",
+      "source_url": "https://www.facebook.com/WutheringWaves.Official/photos/when-the-runes-glitter-featured-resonator-conveneduring-the-event-5-star-resonat/945553434697550/",
+      "source_title": "Wuthering Waves公式Facebook・When the Runes Glitter集音告知",
+      "verification": "official",
+      "date_basis": "publisher_social_fourstar_roster_official_version_3_2_start",
+      "review_note": "運営が公式アプリ配信ページで案内する公式Facebook投稿で★4のSanhua・Buling・Yangyangを確認。開催日はKURO GAMESのVer.3.2更新告知（2026-03-19）と外部開催記録で照合。"
     }
   ]
 }
