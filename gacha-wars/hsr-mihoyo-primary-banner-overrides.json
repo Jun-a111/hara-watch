@@ -1,0 +1,47 @@
+{
+  "schema": "gacha-wars-hsr-mihoyo-primary-banner-overrides-v1",
+  "audit_date": "2026-10-13",
+  "publisher": "HoYoverse / miHoYo Chinese official game website",
+  "verification": "official",
+  "source_policy": "Publisher-hosted character event warp notice must explicitly identify both event start and all three four-stars. Entries remain tied to one shared four-star rate-up group, not three independent revenue estimates.",
+  "group_count": 1,
+  "count": 3,
+  "groups": [
+    {
+      "date": "2024-12-04",
+      "featured_five_star": "サンデー／景元",
+      "names": [
+        "停雲",
+        "青雀",
+        "アーラン"
+      ],
+      "names_cn": [
+        "停云",
+        "青雀",
+        "阿兰"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-12-04-1",
+        "hsr-four-pu-2024-12-04-2",
+        "hsr-four-pu-2024-12-04-3"
+      ],
+      "source_url": "https://sr.mihoyo.com/news/127222",
+      "source_title": "角色活动跃迁：「向星举目」「天戈麾斥」",
+      "notice_published": "2024-12-03",
+      "date_basis": "publisher_own_game_website_exact_2024_12_04_start_and_all_3_fourstars",
+      "verification": "official",
+      "source_quote_fields": {
+        "starts": "2024/12/04 2.7版本更新后",
+        "featured_five_stars": [
+          "星期日",
+          "景元"
+        ],
+        "shared_4star": [
+          "青雀",
+          "阿兰",
+          "停云"
+        ]
+      }
+    }
+  ]
+}
