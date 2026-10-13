@@ -371,6 +371,28 @@ function applyHsrPublisherNoticeCandidates(primary,d){
  if(dates.size!==12||updates.size!==36)throw Error("スタレ一次告知候補の反映件数不一致");
  return {events:primary.map(e=>updates.get(e.id)||e),pending:updates.size};
 }
+function applyHsrFacebookEvidence(primary,d){
+ if(!d||d.schema!=="gacha-wars-hsr-facebook-official-account-evidence-v1"||d.group_count!==3||d.full_notice_count!==1||d.partial_notice_count!==2||d.records_upgraded!==3||!Array.isArray(d.groups)||d.groups.length!==3)throw Error("Facebook調査データ形式・件数不正");
+ const expected={
+ "2023-11-15":{parent:"フォフォ",names:["丹恒","アーラン","セーバル"],url:"https://www.facebook.com/HonkaiStarRail.CHS/photos/356255276784769/",full:true},
+ "2024-06-19":{parent:"ホタル／ルアン・メェイ",names:["雪衣","ミーシャ","ギャラガー"],url:"https://www.facebook.com/HonkaiStarRail.CHS/posts/476509114759384/",full:false},
+ "2024-07-31":{parent:"雲璃／フォフォ",names:["寒鴉","御空","リンクス"],url:"https://www.facebook.com/HonkaiStarRail.CHS/photos/500648079012154/",full:false}
+ };
+ if(d.publisher_account!=="https://www.facebook.com/HonkaiStarRail.CHS"||d.publisher_account_confirmation!=="https://play.google.com/store/apps/details?hl=zh&id=com.HoYoverse.hkrpgoversea")throw Error("Facebook公式アカウント照合不一致");
+ const byId=new Map(primary.map(e=>[e.id,e])),updates=new Map(),dates=new Set();
+ for(const g of d.groups){
+  const spec=expected[g?.date];
+  if(!spec||dates.has(g.date)||g.featured_five_star!==spec.parent||g.names?.join("|")!==spec.names.join("|")||g.source_url!==spec.url||g.status!==(spec.full?"publisher_indexed_full_start_and_roster":"publisher_indexed_partial_not_full_body")||g.verification!==(spec.full?"official":"secondary")||g.ids?.length!==3||g.names_cn?.length!==3)throw Error("Facebook告知グループ照合不一致");
+  dates.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),row=byId.get(id);
+   if(g.ids[i]!==id||!row||row.game!=="hsr"||row.type!=="character"||row.rarity!==4||row.banner_type!=="event_warp_four_star"||row.verification!=="secondary"||row.date!==g.date||row.version!==g.names[i]||row.featured_five_star!==g.featured_five_star||updates.has(id))throw Error("Facebook告知の元レコード不一致");
+   updates.set(id,spec.full?{...row,verification:"official",source_url:g.source_url,source_title:"崩坏：星穹铁道公式Facebook・イベント跳躍告知",original_name:g.names_cn[i],date_basis:g.date_basis,review_note:"公式アカウント投稿の検索索引に日付と★4全員を確認。元投稿の直接表示はログイン制限あり。"}:{...row,publisher_facebook_url:g.source_url,publisher_facebook_review_status:"公式アカウント投稿・全文未確認",review_note:(row.review_note||"")+"／運営公式Facebook投稿を特定。検索索引が一部のみのため★4全員の原文確認待ち。"});
+  }
+ }
+ if(dates.size!==3||updates.size!==9)throw Error("Facebook処理の件数不一致");
+ return {events:primary.map(e=>updates.get(e.id)||e),upgraded:3,pending:6};
+}
 function applyHsrOutstandingMirrorEvidence(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-outstanding-mirror-evidence-v1"||d.verification!=="secondary"||d.group_count!==12||d.count!==36||!Array.isArray(d.groups)||d.groups.length!==12)throw Error("スタレ未照合の補助資料形式・件数不正");
  const byId=new Map(primary.map(e=>[e.id,e])),updates=new Map(),dates=new Set();
@@ -587,6 +609,11 @@ async function loadEvents(){
    const candidates=applyHsrPublisherNoticeCandidates(primary,await res.json());
    primary=candidates.events;notes.push("スタレ公式告知URLを追加 "+candidates.pending+"件（原文未確認）");
   }catch(err){notes.push("スタレ公式告知URL参照情報の取得失敗");console.info("スタレ公式告知URL候補の読込失敗",err.message)}
+  try{
+   const res=await fetch("./hsr-facebook-official-account-evidence.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+   const checked=applyHsrFacebookEvidence(primary,await res.json());
+   primary=checked.events;notes.push("スタレ公式Facebook★4照合 "+checked.upgraded+"件・原文保留 "+checked.pending+"件");
+  }catch(err){notes.push("スタレFacebook出典の取得失敗");console.info("スタレ公式Facebook告知の読込失敗",err.message)}
   try{
    const resp=await fetch("./hsr-2026-spring-summer-fourstar-official.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audit=applyHsr2026SpringSummerFourStarOfficialOverrides(primary,await resp.json());
