@@ -1,0 +1,58 @@
+{
+  "schema": "gacha-wars-hsr-official-weibo-fourstar-overrides-v1",
+  "audit_date": "2026-10-13",
+  "verification": "official",
+  "count": 6,
+  "group_count": 2,
+  "source_policy": "Only posts authored by the verified 《崩坏：星穹铁道》 official account and including exact start date, featured five-stars and three four-stars. URL is a Sina syndicated view of the official Weibo original post, not an independent journalistic assertion.",
+  "groups": [
+    {
+      "date": "2025-10-15",
+      "featured_five_star": "丹恒・騰荒／アナイクス",
+      "names": [
+        "素裳",
+        "寒鴉",
+        "セーバル"
+      ],
+      "names_cn": [
+        "素裳",
+        "寒鸦",
+        "希露瓦"
+      ],
+      "source_url": "https://www.sina.cn/news/detail/5221633909851522.html",
+      "source_title": "崩坏星穹铁道公式微博（新浪新闻上の認証済み公式アカウント投稿）",
+      "source_detail": "2025-10-14 13:00; 3.6版本活动跃迁第二期; 2025/10/15 12:00開始",
+      "ids": [
+        "hsr-four-pu-2025-10-15-1",
+        "hsr-four-pu-2025-10-15-2",
+        "hsr-four-pu-2025-10-15-3"
+      ],
+      "date_basis": "publisher_official_verified_weibo_announcement_with_exact_start_and_fourstar_lineup",
+      "verification": "official"
+    },
+    {
+      "date": "2026-06-24",
+      "featured_five_star": "ファイノン／キュレネ",
+      "names": [
+        "三月なのか",
+        "アーラン",
+        "御空"
+      ],
+      "names_cn": [
+        "三月七",
+        "阿兰",
+        "驭空"
+      ],
+      "source_url": "https://www.sina.cn/news/detail/5312970751738107.html",
+      "source_title": "崩坏星穹铁道公式微博（新浪新闻上の認証済み公式アカウント投稿）",
+      "source_detail": "2026-06-23 14:00; 4.3版本活动跃迁第二期; 2026/06/24 12:00開始",
+      "ids": [
+        "hsr-four-pu-2026-06-24-1",
+        "hsr-four-pu-2026-06-24-2",
+        "hsr-four-pu-2026-06-24-3"
+      ],
+      "date_basis": "publisher_official_verified_weibo_announcement_with_exact_start_and_fourstar_lineup",
+      "verification": "official"
+    }
+  ]
+}
