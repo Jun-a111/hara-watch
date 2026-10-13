@@ -1,0 +1,32 @@
+{
+  "schema": "gacha-wars-hsr-fourstar-full-base-verification-v1",
+  "audit_date": "2026-10-13",
+  "source_blob_sha": "a0bc1ee1f42350ba7eab779fa51e909d73c865e4",
+  "original_events": 1607,
+  "original_hsr_fourstar_events": 177,
+  "official_hsr_fourstar_after_overrides": 135,
+  "unverified_hsr_fourstar_after_overrides": 42,
+  "corroborated_existing_secondary_without_promotion": 6,
+  "publisher_notice_url_candidates_unconfirmed": 36,
+  "source_files_applied": 10,
+  "source_parsing_errors": 0,
+  "source_match_errors": 0,
+  "duplicate_event_ids": 0,
+  "primary_base_official_after_hsr_overrides": 1140,
+  "site_coverage_total_expected_when_all_game_overlays_loads": 2815,
+  "site_coverage_official_expected_when_all_game_overlays_loads": 1312,
+  "checks": [
+    "Read actual 1.15MB Git blob release-events.json and parsed all 1607 base records.",
+    "Executed and validated all 10 HSR client-side overlay functions against actual base records; all succeeded, including 135 official upgrades.",
+    "Added two independent reproduction links for 2025-07-23 and 2025-09-24 (six entries); they remain secondary and original publisher posts are not claimed verified.",
+    "Existing 36 unresolved records retain publisher notice URL candidates with unknown body status.",
+    "Verified 135 official rateups have unique original IDs, exact release date, parent banner, four-star roster, source URL; zero duplicate promotions.",
+    "Registered tests/test_hsr_fourstar_evidence.py in the GACHA WARS GitHub Actions regression workflow."
+  ],
+  "limitations": [
+    "Live GitHub Pages runtime was not exercised using a graphical browser.",
+    "No additional official promotions in this batch; the 42 unresolved need original publisher body evidence.",
+    "Site-wide 2815/1312 counts are expected numbers from existing audit; full client runtime overlays for other games were not rerun in this batch.",
+    "GitHub Actions job completion was not verified at this point."
+  ]
+}
