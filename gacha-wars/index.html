@@ -339,6 +339,23 @@ function applyWwBaseWeaponSourceOverrides(primary,data){
  if(updates.size!==64)throw Error("公式照合の反映数に不一致");
  return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
+function applyHsr2023FourStarOfficialOverrides(rows,data){
+ if(!data||data.schema!=="gacha-wars-hsr-2023-fourstar-official-overrides-v1"||data.verification!=="official"||data.group_count!==6||data.count!==18||!Array.isArray(data.groups)||data.groups.length!==6)throw Error("スタレ2023年★4公式出典データ形式不正");
+ const expected={"2023-06-07":{"featured_five_star":"銀狼","names":["アスター","丹恒","セーバル"],"source_url":"https://www.hoyolab.com/article/19120091"},"2023-07-19":{"featured_five_star":"刃","names":["アーラン","ナターシャ","素裳"],"source_url":"https://www.hoyolab.com/article/20114086"},"2023-08-09":{"featured_five_star":"カフカ","names":["ルカ","サンポ","セーバル"],"source_url":"https://www.hoyolab.com/article/20713096"},"2023-09-20":{"featured_five_star":"符玄","names":["フック","リンクス","ペラ"],"source_url":"https://www.hoyolab.com/article/21723945"},"2023-10-11":{"featured_five_star":"鏡流","names":["サンポ","停雲","青雀"],"source_url":"https://www.hoyolab.com/article/22226154"},"2023-10-27":{"featured_five_star":"トパーズ＆カブ","names":["桂乃芬","ルカ","素裳"],"source_url":"https://www.hoyolab.com/article_pre/12553"}};
+ const byId=new Map(rows.map(x=>[x.id,x])),seen=new Set(),patches=new Map();
+ for(const p of data.groups){
+  const e=expected[p?.date];
+  if(!e||seen.has(p.date)||p.featured_five_star!==e.featured_five_star||p.verification!=="official"||p.source_url!==e.source_url||p.date_basis!=="publisher_official_event_warp_notice_and_start_date"||!Array.isArray(p.names)||p.names.join("|")!==e.names.join("|")||!Array.isArray(p.ids)||p.ids.length!==3||!Array.isArray(p.english_names)||p.english_names.length!==3||p.english_names.some(n=>typeof n!=="string"||!n.trim()))throw Error("スタレ2023年★4公式告知のグループ不一致");
+  seen.add(p.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+p.date+"-"+(i+1),record=byId.get(id);
+   if(p.ids[i]!==id||!record||record.game!=="hsr"||record.type!=="character"||record.rarity!==4||record.banner_type!=="event_warp_four_star"||record.verification!=="secondary"||record.date!==p.date||record.featured_five_star!==p.featured_five_star||record.version!==p.names[i]||patches.has(id))throw Error("スタレ2023年★4原本ID・開始日・キャラ照合不一致");
+   patches.set(id,{...record,verification:"official",source_url:p.source_url,source_title:p.source_title,original_name:p.english_names[i],date_basis:p.date_basis,review_note:"HoYoLABの崩壊：スターレイル公式アカウントによるイベント跳躍★4対象を確認。既存の日時・対象★5・キャラ名は原本と突合し維持。★4に★5売上を個別配賦しない。"});
+  }
+ }
+ if(seen.size!==6||patches.size!==18)throw Error("スタレ2023年★4出典更新数不一致");
+ return {events:rows.map(x=>patches.get(x.id)||x),upgraded:patches.size};
+}
 function applyWwFourStarCharacterSourceOverrides(rows,d){
  if(d.schema!=="gacha-wars-ww-fourstar-character-source-overrides-v1"||d.verification!=="official"||d.count!==24||!Array.isArray(d.upgrades)||d.upgrades.length!==24)throw Error("★4公式出典の件数不一致");
  const map=new Map(rows.map(x=>[x.id,x])),done=new Set(),patch=new Map();
@@ -360,6 +377,11 @@ async function loadEvents(){
    const audited=applyWwBaseWeaponSourceOverrides(primary,await resp.json());
    primary=audited.events;notes.push("既存鳴潮武器を公式照合 "+audited.upgraded+"件");
   }catch(err){notes.push("既存武器の公式出典更新に失敗");console.info("鳴潮既存武器の公式照合結果を読み込めませんでした",err.message)}
+  try{
+   const resp=await fetch("./hsr-2023-fourstar-official-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const audited=applyHsr2023FourStarOfficialOverrides(primary,await resp.json());
+   primary=audited.events;notes.push("スタレ過去★4公式照合 "+audited.upgraded+"件");
+  }catch(err){notes.push("スタレ過去★4公式照合の取得失敗");console.info("スタレ過去★4公式出典の読込失敗",err.message)}
   try{
    const resp=await fetch("./ww-fourstar-character-source-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audited=applyWwFourStarCharacterSourceOverrides(primary,await resp.json());
