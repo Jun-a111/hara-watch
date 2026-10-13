@@ -93,5 +93,40 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
                 self.assertEqual(self.original[eid]["version"], group["names"][i])
 
 
+    def test_outstanding_mirrors_are_secondary_only(self):
+        doc = read("hsr-outstanding-mirror-evidence.json")
+        self.assertEqual(doc["schema"], "gacha-wars-hsr-outstanding-mirror-evidence-v1")
+        self.assertEqual(doc["verification"], "secondary")
+        self.assertEqual(doc["group_count"], 12)
+        self.assertEqual(doc["count"], 36)
+        expected = read("hsr-publisher-notice-candidates.json")
+        by_date = {g["date"]: g for g in expected["groups"]}
+        seen = set()
+        for group in doc["groups"]:
+            self.assertEqual(group["verification"], "secondary")
+            self.assertEqual(group["notice_body_verification"], "publisher_original_not_read")
+            self.assertIn(group["date"], by_date)
+            self.assertEqual(group["ids"], by_date[group["date"]]["ids"])
+            self.assertEqual(group["names_ja"], by_date[group["date"]]["names"])
+            self.assertTrue(group["sources"])
+            for item in group["sources"]:
+                self.assertTrue(item["url"].startswith("https://"))
+                self.assertNotEqual(item["source_type"], "publisher_original")
+            for i, eid in enumerate(group["ids"]):
+                self.assertNotIn(eid, seen)
+                seen.add(eid)
+                row = self.original[eid]
+                self.assertEqual(row["verification"], "secondary")
+                self.assertEqual(row["version"], group["names_ja"][i])
+                self.assertEqual(row["date"], group["date"])
+                self.assertEqual(row["featured_five_star"], group["featured_five_star"])
+        self.assertEqual(len(seen), 36)
+        html = (DATA / "index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-outstanding-mirror-evidence.json"', html)
+        self.assertIn('function applyHsrOutstandingMirrorEvidence(', html)
+        self.assertIn('g.verification!=="secondary"', html)
+        self.assertIn('original.verification!=="secondary"', html)
+
+
 if __name__ == "__main__":
     unittest.main()
