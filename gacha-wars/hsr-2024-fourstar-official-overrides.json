@@ -1,0 +1,154 @@
+{
+  "schema": "gacha-wars-hsr-2024-fourstar-official-overrides-v1",
+  "audit_date": "2026-10-13",
+  "verification": "official",
+  "group_count": 8,
+  "count": 24,
+  "notes": "2024年の公式TapTap『崩坏：星穹铁道』アカウントによるイベント跳躍告知から8期間24人の★4 PUを照合。公式中国語名と既存日本語名、開催日、5★母集音を一致検証。元のイベント行を置換し、イベント数と売上配賦を変えない。",
+  "groups": [
+    {
+      "date": "2024-02-06",
+      "featured_five_star": "ブラックスワン／丹恒・飲月",
+      "names": [
+        "桂乃芬",
+        "ミーシャ",
+        "停雲"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-02-06-1",
+        "hsr-four-pu-2024-02-06-2",
+        "hsr-four-pu-2024-02-06-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/503507271813169928",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    },
+    {
+      "date": "2024-03-27",
+      "featured_five_star": "黄泉／羅刹",
+      "names": [
+        "丹恒",
+        "ペラ",
+        "ギャラガー"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-03-27-1",
+        "hsr-four-pu-2024-03-27-2",
+        "hsr-four-pu-2024-03-27-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/521631185122625224",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    },
+    {
+      "date": "2024-04-17",
+      "featured_five_star": "アベンチュリン／鏡流",
+      "names": [
+        "セーバル",
+        "ルカ",
+        "リンクス"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-04-17-1",
+        "hsr-four-pu-2024-04-17-2",
+        "hsr-four-pu-2024-04-17-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/529238030318305564",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    },
+    {
+      "date": "2024-05-29",
+      "featured_five_star": "ブートヒル／符玄",
+      "names": [
+        "ペラ",
+        "ルカ",
+        "フック"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-05-29-1",
+        "hsr-four-pu-2024-05-29-2",
+        "hsr-four-pu-2024-05-29-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/544098058187574125",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    },
+    {
+      "date": "2024-09-10",
+      "featured_five_star": "飛霄／ロビン／ブラックスワン／カフカ",
+      "names": [
+        "モゼ",
+        "アスター",
+        "ルカ"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-09-10-1",
+        "hsr-four-pu-2024-09-10-2",
+        "hsr-four-pu-2024-09-10-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/578526770085496230",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    },
+    {
+      "date": "2024-10-02",
+      "featured_five_star": "霊砂／トパーズ＆カブ",
+      "names": [
+        "桂乃芬",
+        "ミーシャ",
+        "ナターシャ"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-10-02-1",
+        "hsr-four-pu-2024-10-02-2",
+        "hsr-four-pu-2024-10-02-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/589411804535328397",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    },
+    {
+      "date": "2024-11-13",
+      "featured_five_star": "黄泉／アベンチュリン",
+      "names": [
+        "三月なのか",
+        "ペラ",
+        "サンポ"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-11-13-1",
+        "hsr-four-pu-2024-11-13-2",
+        "hsr-four-pu-2024-11-13-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/605343549562555043",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    },
+    {
+      "date": "2024-12-25",
+      "featured_five_star": "帰忘の流離人／ホタル",
+      "names": [
+        "ギャラガー",
+        "御空",
+        "ミーシャ"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-12-25-1",
+        "hsr-four-pu-2024-12-25-2",
+        "hsr-four-pu-2024-12-25-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/620563493581488148",
+      "date_basis": "publisher_2024_character_warp_notice",
+      "source_title": "崩壊：スターレイル公式TapTap・2024年イベント跳躍告知"
+    }
+  ]
+}
