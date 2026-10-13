@@ -1,0 +1,16 @@
+{
+  "schema": "gacha-wars-hsr-publisher-notice-link-audit-v1",
+  "audit_date": "2026-10-13",
+  "previous_verified_event_count": 1306,
+  "new_official_upgrades": 0,
+  "verified_event_count_after": 1306,
+  "outstanding_fourstar_records": 48,
+  "outstanding_fourstar_groups": 16,
+  "publisher_notice_links_new": 12,
+  "fourstar_records_linked": 36,
+  "source_data": "gacha-wars/hsr-publisher-notice-candidates.json",
+  "site_behavior": "Add separate publisher_notice_url to existing secondary records and expose link in unresolved-source board. Preserve verification, source_url, dates, four-star names and counts.",
+  "test_result": "New inline JavaScript syntax parsed successfully; simulated 36 source records matched data and remained secondary. Public web-browser execution and full live release-events file could not be verified.",
+  "limitations": "Original miyoushe notices are single-line Loading pages via available crawler. Third-party history index lists matching rosters and links but cannot by itself be used for promotion to publisher confirmed.",
+  "outcome": "Traceable first-party notice links added without exaggerating verification status."
+}
