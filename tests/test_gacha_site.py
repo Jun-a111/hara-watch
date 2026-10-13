@@ -2230,9 +2230,9 @@ class Honkai2026AutumnFourStarBackfillTests(unittest.TestCase):
         self.assertEqual(d["schema"],"gacha-wars-hsr-late-2026-fourstar-v1")
         self.assertEqual(d["count"],9)
         self.assertEqual([p["date"] for p in d["phases"]],["2026-08-26","2026-09-12","2026-09-28"])
-        self.assertEqual([p["verification"] for p in d["phases"]],["secondary","secondary","official"])
+        self.assertEqual([p["verification"] for p in d["phases"]],["official","official","official"])
         self.assertEqual(d["phases"][2]["four"],["青雀","雪衣","ミーシャ"])
-        self.assertTrue(d["phases"][2]["source_url"].startswith("https://www.bilibili.com/opus/"))
+        self.assertTrue(all(p["source_url"].startswith("https://www.taptap.cn/moment/") for p in d["phases"]))
         self.assertEqual(sum(len(p["four"]) for p in d["phases"]),9)
 
     def test_runtime_never_inflates_five_stars_or_dupes(self):
@@ -2248,8 +2248,8 @@ const doc=JSON.parse(fs.readFileSync("gacha-wars/hsr-late-2026-fourstar.json","u
 const appended=parseHsrLate2026FourStarBackfill(doc,originals);
 assert.equal(appended.length,9);
 assert.equal(new Set(appended.map(x=>x.id)).size,9);
-assert.equal(appended.filter(x=>x.verification==="official").length,3);
-assert.equal(appended.filter(x=>x.verification==="secondary").length,6);
+assert.equal(appended.filter(x=>x.verification==="official").length,9);
+assert.equal(appended.filter(x=>x.verification==="secondary").length,0);
 assert.ok(appended.every(x=>x.rarity===4&&x.banner_type==="event_warp_four_star"));
 assert.ok(appended.every(x=>!originals.some(y=>y.id===x.id)));
 assert.equal(originals.filter(x=>x.game==="hsr"&&x.rarity!==4).length,
