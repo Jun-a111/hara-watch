@@ -360,7 +360,7 @@ function applyHsrPublisherNoticeCandidates(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-publisher-notice-candidates-v1"||d.verification!=="not_yet_verified"||d.group_count!==12||d.count!==36||!Array.isArray(d.groups)||d.groups.length!==12)throw Error("スタレ一次告知候補のデータ形式・件数不一致");
  const byId=new Map(primary.map(e=>[e.id,e])),updates=new Map(),dates=new Set();
  for(const g of d.groups){
-  if(!g||dates.has(g.date)||!/^(2023|2024|2025)-\\d{2}-\\d{2}$/.test(g.date)||!/^https:\\/\\/www\\.miyoushe\\.com\\/sr\\/article\\/\\d+$/.test(g.publisher_notice_url)||g.status!=="publisher_notice_link_found_body_not_directly_accessible"||g.names?.length!==3||g.ids?.length!==3)throw Error("スタレ一次告知候補の出典形式が不正");
+  if(!g||dates.has(g.date)||!/^(2023|2024|2025)-[0-9]{2}-[0-9]{2}$/.test(g.date)||typeof g.publisher_notice_url!=="string"||!g.publisher_notice_url.startsWith("https://www.miyoushe.com/sr/article/")||!/^[0-9]+$/.test(g.publisher_notice_url.split("/").pop())||g.status!=="publisher_notice_link_found_body_not_directly_accessible"||g.names?.length!==3||g.ids?.length!==3)throw Error("スタレ一次告知候補の出典形式が不正");
   dates.add(g.date);
   for(let i=0;i<3;i++){
    const id="hsr-four-pu-"+g.date+"-"+(i+1),e=byId.get(id);
