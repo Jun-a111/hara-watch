@@ -339,6 +339,23 @@ function applyWwBaseWeaponSourceOverrides(primary,data){
  if(updates.size!==64)throw Error("公式照合の反映数に不一致");
  return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
+function applyHsrRemaining2023to2024OfficialOverrides(original,doc){
+ if(!doc||doc.schema!=="gacha-wars-hsr-remaining-official-2023-2024-v1"||doc.verification!=="official"||doc.group_count!==3||doc.count!==9||!Array.isArray(doc.groups)||doc.groups.length!==3)throw Error("スタレ旧★4追加公式照合データ不正");
+ const expected={"2023-04-26":{"parent":"ゼーレ","ja":["フック","ナターシャ","ペラ"],"cn":["虎克","娜塔莎","佩拉"],"url":"https://www.taptap.cn/moment/399860074958291506"},"2023-08-30":{"parent":"丹恒・飲月","ja":["アスター","三月なのか","御空"],"cn":["艾丝妲","三月七","驭空"],"url":"https://www.taptap.cn/moment/445299879657341458"},"2024-01-17":{"parent":"Dr.レイシオ／カフカ","ja":["素裳","ナターシャ","フック"],"cn":["素裳","娜塔莎","虎克"],"url":"https://www.taptap.cn/moment/496035350846637070"}};
+ const index=new Map(original.map(x=>[x.id,x])),done=new Set(),overrides=new Map();
+ for(const g of doc.groups){
+  const info=expected[g?.date];
+  if(!info||done.has(g.date)||g.featured_five_star!==info.parent||g.verification!=="official"||g.source_url!==info.url||g.date_basis!=="publisher_exact_banner_start_and_fourstar_roster"||!Array.isArray(g.names_ja)||g.names_ja.join("|")!==info.ja.join("|")||!Array.isArray(g.names_cn)||g.names_cn.join("|")!==info.cn.join("|")||!Array.isArray(g.ids)||g.ids.length!==3)throw Error("スタレ旧★4公式一次資料と照合不一致");
+  done.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),row=index.get(id);
+   if(g.ids[i]!==id||!row||row.game!=="hsr"||row.type!=="character"||row.rarity!==4||row.banner_type!=="event_warp_four_star"||row.verification!=="secondary"||row.date!==g.date||row.version!==g.names_ja[i]||row.featured_five_star!==g.featured_five_star||overrides.has(id))throw Error("スタレ旧★4のレコードIDか対象不一致");
+   overrides.set(id,{...row,verification:"official",source_url:g.source_url,source_title:g.source_title,original_name:g.names_cn[i],date_basis:g.date_basis,review_note:g.review_note});
+  }
+ }
+ if(done.size!==3||overrides.size!==9)throw Error("スタレ旧★4公式出典反映件数不一致");
+ return {events:original.map(e=>overrides.get(e.id)||e),upgraded:overrides.size};
+}
 function applyHsr2026SpringSummerFourStarOfficialOverrides(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-2026-spring-summer-fourstar-official-v1"||d.verification!=="official"||d.group_count!==5||d.count!==15||!Array.isArray(d.groups)||d.groups.length!==5)throw Error("スタレ2026春夏★4公式出典形式・件数不正");
  const required={"2026-04-22":{"parent":"銀狼LV.999／ダリア／キャストリス／ホタル","names":["ギャラガー","雪衣","フック"],"url":"https://www.taptap.cn/moment/795347297616530045","basis":"official_first_phase"},"2026-05-13":{"parent":"緋英／トリビー／サンデー／飛霄","names":["桂乃芬","リンクス","素裳"],"url":"https://www.taptap.cn/moment/802858365339306685","basis":"official_second_phase"},"2026-06-01":{"parent":"千冶・刃／爻光","names":["サンポ","ルカ","停雲"],"url":"https://www.taptap.cn/moment/809458837164655725","basis":"official_first_phase"},"2026-07-15":{"parent":"姫子・旅立ち／火花／丹恒・騰荒／長夜月","names":["モゼ","寒鴉","セーバル"],"url":"https://www.taptap.cn/moment/833364232236959323","basis":"official_phase_two_notice_reconfirms_phase_one_rateups"},"2026-08-05":{"parent":"ケリュドラ／アナイクス／アベンチュリン","names":["モゼ","寒鴉","セーバル"],"url":"https://www.taptap.cn/moment/833364232236959323","basis":"official_second_phase_unchanged_fourstar_roster"}};
@@ -445,6 +462,11 @@ async function loadEvents(){
    const audited=applyWwBaseWeaponSourceOverrides(primary,await resp.json());
    primary=audited.events;notes.push("既存鳴潮武器を公式照合 "+audited.upgraded+"件");
   }catch(err){notes.push("既存武器の公式出典更新に失敗");console.info("鳴潮既存武器の公式照合結果を読み込めませんでした",err.message)}
+  try{
+   const res=await fetch("./hsr-remaining-2023-2024-official.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+   const parsed=applyHsrRemaining2023to2024OfficialOverrides(primary,await res.json());
+   primary=parsed.events;notes.push("スタレ旧★4公式原文照合 "+parsed.upgraded+"件");
+  }catch(err){notes.push("スタレ旧★4公式出典の取得失敗");console.info("スタレ旧★4公式ソースの読込に失敗",err.message)}
   try{
    const resp=await fetch("./hsr-2026-spring-summer-fourstar-official.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audit=applyHsr2026SpringSummerFourStarOfficialOverrides(primary,await resp.json());
