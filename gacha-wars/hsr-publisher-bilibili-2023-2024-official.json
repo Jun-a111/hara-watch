@@ -1,0 +1,109 @@
+{
+  "schema": "gacha-wars-hsr-publisher-bilibili-2023-2024-official-v1",
+  "audit_date": "2026-10-14",
+  "verification": "official",
+  "group_count": 3,
+  "count": 9,
+  "source_policy": "Publisher-authored 崩坏星穹铁道 official Bilibili opus account; start time, both five-star banners and the complete shared three four-star rate-ups appear in each original post. No duplicate historical entries.",
+  "groups": [
+    {
+      "date": "2023-12-06",
+      "featured_five_star": "アルジェンティ／銀狼",
+      "names": [
+        "寒鴉",
+        "リンクス",
+        "アスター"
+      ],
+      "names_cn": [
+        "寒鸦",
+        "玲可",
+        "艾丝妲"
+      ],
+      "featured_five_star_cn": [
+        "银枝",
+        "银狼"
+      ],
+      "banner_cn": [
+        "荆冠芳勋",
+        "零号协议"
+      ],
+      "start_text": "2023/12/06 12:00",
+      "end_text": "2023/12/26 14:59",
+      "source_url": "https://www.bilibili.com/opus/871493549220167785",
+      "notice_published": "2023-12-05",
+      "ids": [
+        "hsr-four-pu-2023-12-06-1",
+        "hsr-four-pu-2023-12-06-2",
+        "hsr-four-pu-2023-12-06-3"
+      ],
+      "verification": "official",
+      "date_basis": "publisher_bilibili_exact_event_warp_start_and_all_three_fourstars"
+    },
+    {
+      "date": "2024-07-31",
+      "featured_five_star": "雲璃／フォフォ",
+      "names": [
+        "寒鴉",
+        "御空",
+        "リンクス"
+      ],
+      "names_cn": [
+        "寒鸦",
+        "驭空",
+        "玲可"
+      ],
+      "featured_five_star_cn": [
+        "云璃",
+        "藿藿"
+      ],
+      "banner_cn": [
+        "掷山破云",
+        "令奉贞凶"
+      ],
+      "start_text": "2024/07/31 2.4版本更新后",
+      "end_text": "2024/08/21 11:59",
+      "source_url": "https://www.bilibili.com/opus/959819534499315736",
+      "notice_published": "2024-07-30",
+      "ids": [
+        "hsr-four-pu-2024-07-31-1",
+        "hsr-four-pu-2024-07-31-2",
+        "hsr-four-pu-2024-07-31-3"
+      ],
+      "verification": "official",
+      "date_basis": "publisher_bilibili_exact_event_warp_start_and_all_three_fourstars"
+    },
+    {
+      "date": "2024-08-21",
+      "featured_five_star": "椒丘／花火",
+      "names": [
+        "フック",
+        "桂乃芬",
+        "アーラン"
+      ],
+      "names_cn": [
+        "虎克",
+        "桂乃芬",
+        "阿兰"
+      ],
+      "featured_five_star_cn": [
+        "椒丘",
+        "花火"
+      ],
+      "banner_cn": [
+        "鼎中捭阖",
+        "焰锦游鱼"
+      ],
+      "start_text": "2024/8/21 12:00",
+      "end_text": "2024/09/09 15:00",
+      "source_url": "https://www.bilibili.com/opus/967604592193830949",
+      "notice_published": "2024-08-20",
+      "ids": [
+        "hsr-four-pu-2024-08-21-1",
+        "hsr-four-pu-2024-08-21-2",
+        "hsr-four-pu-2024-08-21-3"
+      ],
+      "verification": "official",
+      "date_basis": "publisher_bilibili_exact_event_warp_start_and_all_three_fourstars"
+    }
+  ]
+}
