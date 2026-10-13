@@ -1,0 +1,77 @@
+{
+  "schema": "gacha-wars-hsr-official-source-research-and-provenance-ui-v1",
+  "audit_date": "2026-10-13",
+  "previous_official_audit": "gacha-wars/audits/2026-10-13-current-2815-verified-1318.json",
+  "historical_fourstar": {
+    "total": 177,
+    "official_expected": 141,
+    "remaining_secondary": 36,
+    "remaining_groups": 12,
+    "new_official_in_this_audit": 0
+  },
+  "source_checks": [
+    {
+      "period": "2023-05-17",
+      "primary": "https://www.miyoushe.com/sr/article/39392377",
+      "primary_read_status": "dynamic_loading_only",
+      "secondary": "https://honkai-star-rail.fandom.com/zh/wiki/天戈麾斥/2023-05-17"
+    },
+    {
+      "period": "2023-12-27",
+      "primary": "https://www.miyoushe.com/sr/article/46955779",
+      "primary_read_status": "dynamic_loading_only",
+      "secondary": "https://www.gamersky.com/handbook/202312/1690015.shtml"
+    },
+    {
+      "period": "2024-05-08",
+      "primary_read_status": "first_party_original_not_found",
+      "secondary": "https://news.17173.com/content/05072024/141503212.shtml"
+    },
+    {
+      "period": "2024-06-19",
+      "primary_read_status": "first_party_original_not_found",
+      "secondary": "https://honkai-star-rail.fandom.com/zh/wiki/盈茧炽盛/2024-06-19"
+    },
+    {
+      "period": "2024-07-31",
+      "primary_read_status": "first_party_original_not_found",
+      "secondary": "https://honkai-star-rail.fandom.com/zh/wiki/掷山破云/2024-07-31"
+    },
+    {
+      "period": "2024-10-23",
+      "primary_read_status": "first_party_original_not_found",
+      "secondary": "https://m.ghzs666.com/bbs/thread-326316"
+    },
+    {
+      "period": "2025-02-05",
+      "primary_read_status": "first_party_original_not_found",
+      "secondary": "https://bbs.4399.cn/thread-view-tid-47981643"
+    },
+    {
+      "period": "2025-04-09",
+      "primary_read_status": "first_party_original_not_found",
+      "secondary": "https://t.me/s/HSRCN/6781",
+      "caution": "Telegram channel labels itself UNOFFICIAL"
+    }
+  ],
+  "site_improvements": [
+    "Limit unresolved provenance board to 50 records per page (formerly rendered all pending records simultaneously).",
+    "Add per-game filter and previous/next controls at top and bottom.",
+    "Include source-link locator counts for filtered list without upgrading verification.",
+    "Fix obsolete CI assertion referring to '補助公式資料' after wording was changed to neutral '補助参考資料'.",
+    "Add Node runtime pagination test for 123 mock records (50/50/23) and filtered 67 (50/17)."
+  ],
+  "tests": {
+    "inline_javascript_parse": "pass",
+    "simulated_unresolved_rows": {
+      "all_first": 50,
+      "all_last": 23,
+      "hsr_first": 50,
+      "hsr_last": 17
+    },
+    "source_labels_static_match": true,
+    "github_actions_execution_status": "not_confirmed",
+    "hosted_browser_runtime": "not_confirmed"
+  },
+  "coverage_note": "Sitewide expected 2815 total/1318 official contingent on other overlays. HSR base 177, 141 official, 36 pending unchanged. No unverified repost or wiki was promoted in this batch."
+}
