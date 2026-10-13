@@ -2263,5 +2263,58 @@ assert.ok(rejected);
         result=subprocess.run(["node","-e",js],cwd=ROOT,text=True,capture_output=True)
         self.assertEqual(result.returncode,0,result.stderr)
 
+
+class Hsr2023FourStarOfficialSourceOverrideTests(unittest.TestCase):
+    def test_six_publisher_announced_groups_and_unmodified_originals(self):
+        data=json.loads((SITE/"hsr-2023-fourstar-official-overrides.json").read_text(encoding="utf-8"))
+        self.assertEqual(data["schema"],"gacha-wars-hsr-2023-fourstar-official-overrides-v1")
+        self.assertEqual(data["verification"],"official")
+        self.assertEqual((data["group_count"],data["count"]),(6,18))
+        self.assertEqual(len(data["groups"]),6)
+        self.assertEqual({p["date"] for p in data["groups"]},{"2023-06-07","2023-07-19","2023-08-09","2023-09-20","2023-10-11","2023-10-27"})
+        original=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        lookup={x["id"]:x for x in original}
+        ids=[]
+        for group in data["groups"]:
+            self.assertEqual(len(group["names"]),3)
+            self.assertEqual(len(group["ids"]),3)
+            self.assertTrue(group["source_url"].startswith("https://www.hoyolab.com/"))
+            for id,name in zip(group["ids"],group["names"]):
+                record=lookup[id]
+                self.assertEqual(record["game"],"hsr")
+                self.assertEqual(record["verification"],"secondary")
+                self.assertEqual(record["version"],name)
+                self.assertEqual(record["featured_five_star"],group["featured_five_star"])
+                self.assertEqual(record["date"],group["date"])
+                ids.append(id)
+        self.assertEqual(len(set(ids)),18)
+
+    def test_javascript_patch_retains_count_and_rejects_bad_data(self):
+        site=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-2023-fourstar-official-overrides.json"',site)
+        code=site[site.index("function applyHsr2023FourStarOfficialOverrides(rows,data){"):site.index("function applyWwFourStarCharacterSourceOverrides(rows,d){")]
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const original=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const doc=JSON.parse(fs.readFileSync("gacha-wars/hsr-2023-fourstar-official-overrides.json","utf8"));
+const result=applyHsr2023FourStarOfficialOverrides(original,doc);
+assert.equal(result.upgraded,18);
+assert.equal(result.events.length,original.length);
+assert.equal(new Set(result.events.map(x=>x.id)).size,original.length);
+const affected=new Set(doc.groups.flatMap(x=>x.ids));
+assert.equal(result.events.filter(x=>affected.has(x.id)&&x.verification==="official").length,18);
+assert.equal(result.events.filter(x=>x.game==="hsr"&&x.rarity===4).length,original.filter(x=>x.game==="hsr"&&x.rarity===4).length);
+let rejected=false;
+try{
+ const damaged=JSON.parse(JSON.stringify(doc));damaged.groups[0].names[0]="wrong";
+ applyHsr2023FourStarOfficialOverrides(original,damaged);
+}catch(e){rejected=true}
+assert.ok(rejected);
+'''
+        run=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
 if __name__ == "__main__":
     unittest.main()
