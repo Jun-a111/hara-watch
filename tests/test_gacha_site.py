@@ -2549,5 +2549,47 @@ assert.ok(rejected);
         run=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
         self.assertEqual(run.returncode,0,run.stderr)
 
+
+class Hsr2026RemainingPrimarySourceBacklogTests(unittest.TestCase):
+    def test_full_remaining_list_is_exact_secondary_set(self):
+        audit=json.loads((SITE/"audits/2026-10-13-hsr-fourstar-remaining-57.json").read_text(encoding="utf-8"))
+        self.assertEqual(audit["schema"],"gacha-wars-hsr-fourstar-remaining-audit-v1")
+        self.assertEqual(audit["base_fourstar_count"],177)
+        self.assertEqual(audit["publisher_verified_base_count"],120)
+        self.assertEqual((audit["remaining_base_count"],audit["remaining_group_count"]),(57,19))
+        self.assertEqual(audit["extra_2026_autumn_fourstars_excluded"],9)
+        base=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))
+        self.assertEqual(audit["base_events_sha"],"a0bc1ee1f42350ba7eab779fa51e909d73c865e4")
+        basefour=[x for x in base["events"] if x["game"]=="hsr" and x["type"]=="character" and x.get("rarity")==4]
+        self.assertEqual(len(basefour),177)
+        byId={x["id"]:x for x in basefour}
+        publisher=set()
+        for name in ["hsr-2023-fourstar-official-overrides.json","hsr-2024-fourstar-official-overrides.json","hsr-2025-fourstar-official-overrides.json","hsr-2025-2026-fourstar-official-overrides.json","hsr-2026-spring-summer-fourstar-official.json","hsr-remaining-2023-2024-official.json"]:
+            source=json.loads((SITE/name).read_text(encoding="utf-8"))
+            for group in source["groups"]:
+                for record_id in group["ids"]:
+                    self.assertNotIn(record_id,publisher)
+                    publisher.add(record_id)
+        self.assertEqual(len(publisher),120)
+        pending=set()
+        for group in audit["groups"]:
+            self.assertEqual(group["verification"],"secondary")
+            self.assertEqual(len(group["ids"]),3)
+            self.assertEqual(group["review_status"],"publisher_lineup_notice_not_yet_found")
+            for i,key in enumerate(group["ids"]):
+                self.assertNotIn(key,pending)
+                pending.add(key)
+                self.assertEqual(byId[key]["date"],group["date"])
+                self.assertEqual(byId[key]["version"],group["names_ja"][i])
+                self.assertEqual(byId[key]["featured_five_star"],group["featured_five_star"])
+                self.assertEqual(byId[key]["verification"],"secondary")
+        self.assertEqual(pending,set(byId)-publisher)
+
+    def test_site_reports_runtime_coverage_instead_of_stale_counter(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('notes.push("スタレ既存★4 公式照合 "',html)
+        self.assertIn('hsrBaseFour.filter(x=>x.verification==="official").length',html)
+        self.assertIn('hsrBaseFour.filter(x=>x.verification!=="official").length',html)
+
 if __name__ == "__main__":
     unittest.main()
