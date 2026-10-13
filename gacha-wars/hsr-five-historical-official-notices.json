@@ -1,0 +1,114 @@
+{
+  "schema": "gacha-wars-hsr-five-historical-official-notices-v1",
+  "audit_date": "2026-10-14",
+  "verification": "official",
+  "group_count": 5,
+  "count": 15,
+  "provenance_policy": "公式運営アカウントの原投稿に★4対象と開催開始日の記述を確認。HoYoLABの一部は直接表示がLoadingのため検索インデックスの原文抜粋と開催日を照合しており、全文直接取得と区別する。原データの名前・ID・母★5を変更せず、売上推計を追加しない。",
+  "groups": [
+    {
+      "date": "2023-05-17",
+      "featured_five_star": "景元",
+      "names_ja": [
+        "三月なのか",
+        "素裳",
+        "停雲"
+      ],
+      "source_url": "https://www.hoyolab.com/article/18568299",
+      "source_title": "Event Warp “Swirl of Heavenly Spear” Begins Now!",
+      "date_basis": "publisher_hoyolab_indexed_fourstar_boost_and_exact_start",
+      "corroborating_sources": [
+        "https://www.taptap.cn/moment/407264701693561223"
+      ],
+      "review_note": "公式HoYoLAB投稿の★4確率UP3人と2023/05/17開始を検索インデックスで確認。公式TapTap原文でも同日の試用対象3人と開始時刻を確認。",
+      "ids": [
+        "hsr-four-pu-2023-05-17-1",
+        "hsr-four-pu-2023-05-17-2",
+        "hsr-four-pu-2023-05-17-3"
+      ],
+      "verification": "official"
+    },
+    {
+      "date": "2024-05-08",
+      "featured_five_star": "ロビン／トパーズ＆カブ",
+      "names_ja": [
+        "三月なのか",
+        "寒鴉",
+        "雪衣"
+      ],
+      "source_url": "https://www.hoyolab.com/article/28251947",
+      "source_title": "Character Event Warp “Just Intonation” “Sunset Clause”",
+      "date_basis": "publisher_hoyolab_indexed_fourstar_boost_and_version_update_start",
+      "corroborating_sources": [],
+      "review_note": "公式HoYoLAB投稿の★4確率UP3人・2.2更新後の開始を検索インデックスで確認。2024/05/08開始の記録と照合。",
+      "ids": [
+        "hsr-four-pu-2024-05-08-1",
+        "hsr-four-pu-2024-05-08-2",
+        "hsr-four-pu-2024-05-08-3"
+      ],
+      "verification": "official"
+    },
+    {
+      "date": "2024-06-19",
+      "featured_five_star": "ホタル／ルアン・メェイ",
+      "names_ja": [
+        "雪衣",
+        "ミーシャ",
+        "ギャラガー"
+      ],
+      "source_url": "https://www.taptap.cn/moment/551806632766472744",
+      "source_title": "角色活动跃迁：「盈茧炽盛」、「疏影三迭」",
+      "date_basis": "publisher_taptap_original_exact_start_and_fourstar_boost",
+      "corroborating_sources": [
+        "https://www.hoyolab.com/article/29992036"
+      ],
+      "review_note": "公式TapTap原文に2024/06/19開始、ホタル／ルアン・メェイ両ガチャの★4確率UP（加拉赫、米沙、雪衣）を明記。元の日本語名順を維持。",
+      "ids": [
+        "hsr-four-pu-2024-06-19-1",
+        "hsr-four-pu-2024-06-19-2",
+        "hsr-four-pu-2024-06-19-3"
+      ],
+      "verification": "official"
+    },
+    {
+      "date": "2024-10-23",
+      "featured_five_star": "乱破／丹恒・飲月",
+      "names_ja": [
+        "リンクス",
+        "雪衣",
+        "御空"
+      ],
+      "source_url": "https://www.hoyolab.com/article/34424519",
+      "source_title": "Character Event Warp “Eyes of a Ninja” & “Epochal Spectrum”",
+      "date_basis": "publisher_hoyolab_indexed_fourstar_boost_and_version_update_start",
+      "corroborating_sources": [],
+      "review_note": "公式HoYoLAB投稿の★4確率UP3人・2.6更新後の開催期間を検索インデックスで確認。2024/10/23開始と照合。",
+      "ids": [
+        "hsr-four-pu-2024-10-23-1",
+        "hsr-four-pu-2024-10-23-2",
+        "hsr-four-pu-2024-10-23-3"
+      ],
+      "verification": "official"
+    },
+    {
+      "date": "2025-02-05",
+      "featured_five_star": "アグライア／ブートヒル／ロビン／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "停雲",
+        "素裳"
+      ],
+      "source_url": "https://www.hoyolab.com/article/36843932",
+      "source_title": "Character Event Warp: Tailored Fate & Indelible Coterie",
+      "date_basis": "publisher_hoyolab_indexed_fourstar_boost_and_exact_start",
+      "corroborating_sources": [],
+      "review_note": "公式HoYoLABの2025/02/03告知に★4確率UP3人・2025/02/05 12:00開始を確認。元の日本語名と対象開催を照合。",
+      "ids": [
+        "hsr-four-pu-2025-02-05-1",
+        "hsr-four-pu-2025-02-05-2",
+        "hsr-four-pu-2025-02-05-3"
+      ],
+      "verification": "official"
+    }
+  ]
+}
