@@ -1,7 +1,7 @@
 {
   "schema": "gacha-wars-ww-fourstar-supplement-v1",
   "audit_date": "2026-10-12",
-  "verification_policy": "publisher_weapon_pu_rateup_roster_confirmed_for_33_of_34_phases;_one_date_requires_publisher_notice",
+  "verification_policy": "publisher_weapon_pu_rateup_roster_confirmed_for_34_of_34_phases;_2026_03_19_verified_from_TapTap_official_moderator",
   "primary_roster_source": "https://github.com/gacha-calculator/gacha-calculator.github.io/blob/main/src/js/games/wuwa/config.js",
   "primary_roster_blob_sha": "abaa1ab92076baf5e1d58f341acf5486cef9b9cf",
   "publisher_notices": [
@@ -756,14 +756,14 @@
       "source_date": "2026-03-18",
       "phase": "first",
       "kind": "regular",
-      "tier": "secondary",
-      "date_basis": "publisher_maintenance_day_2026_03_19_secondary_weapon_rateup",
+      "tier": "official",
+      "date_basis": "publisher_official_moderator_fourstar_roster_and_official_maintenance_start",
       "featured_four": [
         "Celestial Spiral",
         "Endless Collapse",
         "Lunar Cutter"
       ],
-      "official_notice": null,
+      "official_notice": "https://www.taptap.cn/moment/783274357425177721",
       "matching_five_star": [
         "Emerald Sentence",
         "Solsworn Ciphers"
@@ -775,7 +775,13 @@
         "https://wutheringwaves.fandom.com/wiki/Absolute%20Pulsation%3A%20Emerald%20Sentence/2026-03-19",
         "https://game8.co/games/Wuthering-Waves/archives/453303"
       ],
-      "date_justification": "KURO GAMES Ver.3.2 maintenance announcement confirms March 19; the community phase calendar lists March 18. The three ★4 weapons are corroborated externally but not upgraded to first-party verification."
+      "date_justification": "★4対象はTapTap上の鳴潮公式版主が掲載した2026-03-18付の武器集音告知2件で一致。開始日は公式Ver.3.2メンテナンス情報による2026-03-19（原ガチャ外部資料の03-18は告知投稿日）。",
+      "publisher_notices": [
+        "https://www.taptap.cn/moment/783274357425177721",
+        "https://www.taptap.cn/moment/783275750106073721",
+        "https://wutheringwaves.kurogames.com/en/main/news/detail/4403"
+      ],
+      "official_confirmation": "2026-03-18 TapTap posts by account '鸣潮官方版主' explicitly list 4-star weapons 尘云旋臂 (Celestial Spiral), 永续坍缩 (Endless Collapse), 西升 (Lunar Cutter) for both featured 5-star weapons 昭日译注 (Solsworn Ciphers) and 裁竹 (Emerald Sentence). Start date is 2026-03-19 version maintenance day from KURO GAMES official notice; external original phase date 2026-03-18 is retained as source_date."
     },
     {
       "date": "2026-04-09",
