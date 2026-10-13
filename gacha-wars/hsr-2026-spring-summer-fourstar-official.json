@@ -1,0 +1,100 @@
+{
+  "schema": "gacha-wars-hsr-2026-spring-summer-fourstar-official-v1",
+  "audit_date": "2026-10-13",
+  "verification": "official",
+  "group_count": 5,
+  "count": 15,
+  "groups": [
+    {
+      "date": "2026-04-22",
+      "featured_five_star": "銀狼LV.999／ダリア／キャストリス／ホタル",
+      "names": [
+        "ギャラガー",
+        "雪衣",
+        "フック"
+      ],
+      "source_url": "https://www.taptap.cn/moment/795347297616530045",
+      "date_basis": "official_first_phase",
+      "ids": [
+        "hsr-four-pu-2026-04-22-1",
+        "hsr-four-pu-2026-04-22-2",
+        "hsr-four-pu-2026-04-22-3"
+      ],
+      "source_title": "崩壊：スターレイル運営公式TapTap・イベント跳躍告知",
+      "verification": "official"
+    },
+    {
+      "date": "2026-05-13",
+      "featured_five_star": "緋英／トリビー／サンデー／飛霄",
+      "names": [
+        "桂乃芬",
+        "リンクス",
+        "素裳"
+      ],
+      "source_url": "https://www.taptap.cn/moment/802858365339306685",
+      "date_basis": "official_second_phase",
+      "ids": [
+        "hsr-four-pu-2026-05-13-1",
+        "hsr-four-pu-2026-05-13-2",
+        "hsr-four-pu-2026-05-13-3"
+      ],
+      "source_title": "崩壊：スターレイル運営公式TapTap・イベント跳躍告知",
+      "verification": "official"
+    },
+    {
+      "date": "2026-06-01",
+      "featured_five_star": "千冶・刃／爻光",
+      "names": [
+        "サンポ",
+        "ルカ",
+        "停雲"
+      ],
+      "source_url": "https://www.taptap.cn/moment/809458837164655725",
+      "date_basis": "official_first_phase",
+      "ids": [
+        "hsr-four-pu-2026-06-01-1",
+        "hsr-four-pu-2026-06-01-2",
+        "hsr-four-pu-2026-06-01-3"
+      ],
+      "source_title": "崩壊：スターレイル運営公式TapTap・イベント跳躍告知",
+      "verification": "official"
+    },
+    {
+      "date": "2026-07-15",
+      "featured_five_star": "姫子・旅立ち／火花／丹恒・騰荒／長夜月",
+      "names": [
+        "モゼ",
+        "寒鴉",
+        "セーバル"
+      ],
+      "source_url": "https://www.taptap.cn/moment/833364232236959323",
+      "date_basis": "official_phase_two_notice_reconfirms_phase_one_rateups",
+      "ids": [
+        "hsr-four-pu-2026-07-15-1",
+        "hsr-four-pu-2026-07-15-2",
+        "hsr-four-pu-2026-07-15-3"
+      ],
+      "source_title": "崩壊：スターレイル運営公式TapTap・イベント跳躍告知",
+      "verification": "official"
+    },
+    {
+      "date": "2026-08-05",
+      "featured_five_star": "ケリュドラ／アナイクス／アベンチュリン",
+      "names": [
+        "モゼ",
+        "寒鴉",
+        "セーバル"
+      ],
+      "source_url": "https://www.taptap.cn/moment/833364232236959323",
+      "date_basis": "official_second_phase_unchanged_fourstar_roster",
+      "ids": [
+        "hsr-four-pu-2026-08-05-1",
+        "hsr-four-pu-2026-08-05-2",
+        "hsr-four-pu-2026-08-05-3"
+      ],
+      "source_title": "崩壊：スターレイル運営公式TapTap・イベント跳躍告知",
+      "verification": "official"
+    }
+  ],
+  "note": "2026年春〜夏の5期間★4対象を崩壊：スターレイルの公式TapTap投稿で照合。Ver4.4後半告知はVer4.4前半と後半の共通★4対象を公式に明記。元の母集音や名称、日付、IDはそのまま出典のみを更新。"
+}
