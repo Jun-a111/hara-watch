@@ -1,0 +1,70 @@
+{
+  "schema": "gacha-wars-hsr-historical-five-notices-audit-v1",
+  "audit_date": "2026-10-14",
+  "previous_audit": "gacha-wars/audits/2026-10-14-hsr-fourstar-remaining-21.json",
+  "source": "gacha-wars/hsr-five-historical-official-notices.json",
+  "verified_source_types": [
+    "Honkai: Star Rail publisher-authored HoYoLAB notice, text as indexed by search engine",
+    "Honkai: Star Rail publisher-authored original TapTap notice, full body readable"
+  ],
+  "new_verified_groups": 5,
+  "new_verified_fourstar_records": 15,
+  "before": {
+    "historical_total": 177,
+    "official": 156,
+    "secondary": 21,
+    "pending_group_count": 7
+  },
+  "after": {
+    "historical_total": 177,
+    "official": 171,
+    "secondary": 6,
+    "pending_group_count": 2
+  },
+  "new_verified_dates": [
+    "2023-05-17",
+    "2024-05-08",
+    "2024-06-19",
+    "2024-10-23",
+    "2025-02-05"
+  ],
+  "pending": [
+    {
+      "date": "2023-12-27",
+      "featured_five_star": "ルアン・メェイ／刃",
+      "names_ja": [
+        "三月なのか",
+        "停雲",
+        "雪衣"
+      ],
+      "source_status": "official_publisher_notice_candidate_identified_original_fourstar_boost_not_directly_verified"
+    },
+    {
+      "date": "2025-04-09",
+      "featured_five_star": "キャストリス／帰忘の流離人／椒丘／黄泉",
+      "names_ja": [
+        "ギャラガー",
+        "リンクス",
+        "ペラ"
+      ],
+      "source_status": "publisher_official_version_event_page_trial_roster_indexed_full_character_warp_boost_unconfirmed"
+    }
+  ],
+  "sitewide_expected_if_no_other_changes": {
+    "all": 2815,
+    "official": 1348,
+    "secondary": 1467
+  },
+  "data_quality": [
+    "No new banner rows added; 15 pre-existing HSR records updated by ID, date, 5-star parent, and 4-star Japanese names.",
+    "Two remaining groups kept secondary; no secondary fan guide was promoted.",
+    "Original HoYoLAB dynamic pages display Loading when directly opened; official original-post search index snippets used for corresponding boost/date checks.",
+    "Official TapTap 2024-06-19 post readable in full and gives exact banner start and all 3 four-star character names.",
+    "No revenue was invented or attributed to individual 4-star characters."
+  ],
+  "verification_limits": [
+    "Sitewide expected aggregate extrapolated from prior 2815/1333 audit plus 15 upgrades; complete browser end-to-end count not directly observed.",
+    "CI and GitHub Pages success tracked separately."
+  ],
+  "policy": "Do not promote the last two groups without first-party character event warp boost text and matching start date."
+}
