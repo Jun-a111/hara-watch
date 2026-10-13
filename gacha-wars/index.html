@@ -371,6 +371,26 @@ function applyHsrPublisherNoticeCandidates(primary,d){
  if(dates.size!==12||updates.size!==36)throw Error("スタレ一次告知候補の反映件数不一致");
  return {events:primary.map(e=>updates.get(e.id)||e),pending:updates.size};
 }
+function applyHsrOfficialWeiboFourStarOverrides(primary,d){
+ if(!d||d.schema!=="gacha-wars-hsr-official-weibo-fourstar-overrides-v1"||d.verification!=="official"||d.group_count!==2||d.count!==6||!Array.isArray(d.groups)||d.groups.length!==2)throw Error("スタレ公式微博★4形式・件数不一致");
+ const expected={
+  "2025-10-15":{parent:"丹恒・騰荒／アナイクス",names:["素裳","寒鴉","セーバル"],cn:["素裳","寒鸦","希露瓦"],url:"https://www.sina.cn/news/detail/5221633909851522.html"},
+  "2026-06-24":{parent:"ファイノン／キュレネ",names:["三月なのか","アーラン","御空"],cn:["三月七","阿兰","驭空"],url:"https://www.sina.cn/news/detail/5312970751738107.html"}
+ };
+ const byId=new Map(primary.map(x=>[x.id,x])),updates=new Map(),dates=new Set();
+ for(const g of d.groups){
+  const spec=expected[g?.date];
+  if(!spec||dates.has(g.date)||g.verification!=="official"||g.featured_five_star!==spec.parent||g.names?.join("|")!==spec.names.join("|")||g.names_cn?.join("|")!==spec.cn.join("|")||g.source_url!==spec.url||g.date_basis!=="publisher_official_verified_weibo_announcement_with_exact_start_and_fourstar_lineup"||g.ids?.length!==3)throw Error("スタレ公式微博★4の告知照合不一致");
+  dates.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),e=byId.get(id);
+   if(g.ids[i]!==id||!e||e.game!=="hsr"||e.type!=="character"||e.rarity!==4||e.banner_type!=="event_warp_four_star"||e.date!==g.date||e.featured_five_star!==g.featured_five_star||e.version!==g.names[i]||e.verification!=="secondary"||updates.has(id))throw Error("スタレ公式微博★4の元レコードと不一致");
+   updates.set(id,{...e,verification:"official",source_url:g.source_url,source_title:g.source_title,original_name:g.names_cn[i],date_basis:g.date_basis,review_note:"スタレ公式微博認証済みアカウントの投稿でピックアップ対象と開始日を確認。個別★4売上を意味しない。"});
+  }
+ }
+ if(dates.size!==2||updates.size!==6)throw Error("スタレ公式微博★4昇格数に不一致");
+ return {events:primary.map(e=>updates.get(e.id)||e),upgraded:updates.size};
+}
 function applyHsrBilibiliFourStarOfficialOverrides(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-bilibili-fourstar-official-overrides-v1"||d.verification!=="official"||d.group_count!==3||d.count!==9||!Array.isArray(d.groups)||d.groups.length!==3)throw Error("スタレBilibili公式★4出典の形式・件数不一致");
  const expected={
@@ -508,6 +528,11 @@ async function loadEvents(){
    const audited=applyHsrBilibiliFourStarOfficialOverrides(primary,await res.json());
    primary=audited.events;notes.push("スタレ公式Bilibili★4照合 "+audited.upgraded+"件");
   }catch(err){notes.push("スタレ公式Bilibili★4照合の取得失敗");console.info("スタレBilibili出典の読込失敗",err.message)}
+  try{
+   const res=await fetch("./hsr-official-weibo-fourstar-overrides.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+   const verified=applyHsrOfficialWeiboFourStarOverrides(primary,await res.json());
+   primary=verified.events;notes.push("スタレ公式微博★4照合 "+verified.upgraded+"件");
+  }catch(err){notes.push("スタレ公式微博★4照合の取得失敗");console.info("スタレ公式微博★4出典の読込失敗",err.message)}
   try{
    const res=await fetch("./hsr-publisher-notice-candidates.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
    const candidates=applyHsrPublisherNoticeCandidates(primary,await res.json());
