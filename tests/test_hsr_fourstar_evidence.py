@@ -297,7 +297,7 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
             self.assertEqual(len(group["ids"]), 3)
             self.assertEqual(len(group["names_cn"]), 3)
             self.assertEqual(len(group["featured_five_star_cn"]), 3 if group["date"] == "2025-07-23" else 2)
-            self.assertIn(group["date"], group["time_cn"])
+            self.assertIn(group["date"].replace("-", "/"), group["time_cn"])
             for i, eid in enumerate(group["ids"]):
                 self.assertNotIn(eid, older | upgraded)
                 upgraded.add(eid)
@@ -327,7 +327,7 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
             "2024-10-23": ("乱破／丹恒・飲月", ["リンクス", "雪衣", "御空"], "34424519"),
             "2025-02-05": ("アグライア／ブートヒル／ロビン／銀狼", ["寒鴉", "停雲", "素裳"], "36843932"),
         }
-        original = {e["id"]: e for e in self.original}
+        original = self.original
         prev = {
             eid for filename in OFFICIAL_FILES
             for group in read(filename)["groups"] for eid in group["ids"]
