@@ -317,7 +317,7 @@ function applyWwBaseWeaponSourceOverrides(primary,data){
  return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
 function applyWwFourStarCharacterSourceOverrides(rows,d){
- if(d.schema!=="gacha-wars-ww-fourstar-character-source-overrides-v1"||d.verification!=="official"||d.count!==15||!Array.isArray(d.upgrades)||d.upgrades.length!==15)throw Error("★4公式出典の件数不一致");
+ if(d.schema!=="gacha-wars-ww-fourstar-character-source-overrides-v1"||d.verification!=="official"||d.count!==21||!Array.isArray(d.upgrades)||d.upgrades.length!==21)throw Error("★4公式出典の件数不一致");
  const map=new Map(rows.map(x=>[x.id,x])),done=new Set(),patch=new Map();
  for(const o of d.upgrades){
   const x=map.get(o.id);
