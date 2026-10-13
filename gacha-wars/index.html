@@ -356,6 +356,27 @@ function applyHsrRemaining2023to2024OfficialOverrides(original,doc){
  if(done.size!==3||overrides.size!==9)throw Error("スタレ旧★4公式出典反映件数不一致");
  return {events:original.map(e=>overrides.get(e.id)||e),upgraded:overrides.size};
 }
+function applyHsrBilibiliFourStarOfficialOverrides(primary,d){
+ if(!d||d.schema!=="gacha-wars-hsr-bilibili-fourstar-official-overrides-v1"||d.verification!=="official"||d.group_count!==3||d.count!==9||!Array.isArray(d.groups)||d.groups.length!==3)throw Error("スタレBilibili公式★4出典の形式・件数不一致");
+ const expected={
+  "2023-06-28":{parent:"羅刹",names:["ペラ","青雀","御空"],url:"https://www.bilibili.com/opus/811733378549153813"},
+  "2024-02-29":{parent:"花火／景元",names:["青雀","サンポ","寒鴉"],url:"https://www.bilibili.com/opus/903043498490462246"},
+  "2024-07-10":{parent:"ジェイド／アルジェンティ",names:["セーバル","ナターシャ","アスター"],url:"https://www.bilibili.com/opus/952026745831161859"}
+ };
+ const byId=new Map(primary.map(e=>[e.id,e])),updates=new Map(),done=new Set();
+ for(const g of d.groups){
+  const exp=expected[g?.date];
+  if(!exp||done.has(g.date)||g.featured_five_star!==exp.parent||g.names?.join("|")!==exp.names.join("|")||g.source_url!==exp.url||g.verification!=="official"||g.date_basis!=="publisher_exact_banner_start_and_fourstar_roster"||g.ids?.length!==3)throw Error("スタレBilibili公式★4データ不一致");
+  done.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),e=byId.get(id);
+   if(g.ids[i]!==id||!e||e.game!=="hsr"||e.type!=="character"||e.rarity!==4||e.banner_type!=="event_warp_four_star"||e.date!==g.date||e.version!==g.names[i]||e.featured_five_star!==g.featured_five_star||e.verification!=="secondary"||updates.has(id))throw Error("スタレBilibili照合: 元レコードIDまたは構成に不一致");
+   updates.set(id,{...e,verification:"official",source_url:g.source_url,source_title:g.source_title,date_basis:g.date_basis,review_note:"崩坏星穹铁道公式Bilibiliのイベント跳躍告知で開始日と★4構成を照合"});
+  }
+ }
+ if(done.size!==3||updates.size!==9)throw Error("スタレBilibili公式★4出典の反映数に不一致");
+ return {events:primary.map(e=>updates.get(e.id)||e),upgraded:updates.size};
+}
 function applyHsr2026SpringSummerFourStarOfficialOverrides(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-2026-spring-summer-fourstar-official-v1"||d.verification!=="official"||d.group_count!==5||d.count!==15||!Array.isArray(d.groups)||d.groups.length!==5)throw Error("スタレ2026春夏★4公式出典形式・件数不正");
  const required={"2026-04-22":{"parent":"銀狼LV.999／ダリア／キャストリス／ホタル","names":["ギャラガー","雪衣","フック"],"url":"https://www.taptap.cn/moment/795347297616530045","basis":"official_first_phase"},"2026-05-13":{"parent":"緋英／トリビー／サンデー／飛霄","names":["桂乃芬","リンクス","素裳"],"url":"https://www.taptap.cn/moment/802858365339306685","basis":"official_second_phase"},"2026-06-01":{"parent":"千冶・刃／爻光","names":["サンポ","ルカ","停雲"],"url":"https://www.taptap.cn/moment/809458837164655725","basis":"official_first_phase"},"2026-07-15":{"parent":"姫子・旅立ち／火花／丹恒・騰荒／長夜月","names":["モゼ","寒鴉","セーバル"],"url":"https://www.taptap.cn/moment/833364232236959323","basis":"official_phase_two_notice_reconfirms_phase_one_rateups"},"2026-08-05":{"parent":"ケリュドラ／アナイクス／アベンチュリン","names":["モゼ","寒鴉","セーバル"],"url":"https://www.taptap.cn/moment/833364232236959323","basis":"official_second_phase_unchanged_fourstar_roster"}};
@@ -467,6 +488,11 @@ async function loadEvents(){
    const parsed=applyHsrRemaining2023to2024OfficialOverrides(primary,await res.json());
    primary=parsed.events;notes.push("スタレ旧★4公式原文照合 "+parsed.upgraded+"件");
   }catch(err){notes.push("スタレ旧★4公式出典の取得失敗");console.info("スタレ旧★4公式ソースの読込に失敗",err.message)}
+  try{
+   const res=await fetch("./hsr-bilibili-fourstar-official-overrides.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+   const audited=applyHsrBilibiliFourStarOfficialOverrides(primary,await res.json());
+   primary=audited.events;notes.push("スタレ公式Bilibili★4照合 "+audited.upgraded+"件");
+  }catch(err){notes.push("スタレ公式Bilibili★4照合の取得失敗");console.info("スタレBilibili出典の読込失敗",err.message)}
   try{
    const resp=await fetch("./hsr-2026-spring-summer-fourstar-official.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audit=applyHsr2026SpringSummerFourStarOfficialOverrides(primary,await resp.json());
