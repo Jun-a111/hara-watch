@@ -2222,5 +2222,46 @@ assert.ok(failed);
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+
+class Honkai2026AutumnFourStarBackfillTests(unittest.TestCase):
+    def test_three_missing_phases_and_source_provenance(self):
+        d=json.loads((SITE/"hsr-late-2026-fourstar.json").read_text(encoding="utf-8"))
+        self.assertEqual(d["schema"],"gacha-wars-hsr-late-2026-fourstar-v1")
+        self.assertEqual(d["count"],9)
+        self.assertEqual([p["date"] for p in d["phases"]],["2026-08-26","2026-09-12","2026-09-28"])
+        self.assertEqual([p["verification"] for p in d["phases"]],["secondary","secondary","official"])
+        self.assertEqual(d["phases"][2]["four"],["青雀","雪衣","ミーシャ"])
+        self.assertTrue(d["phases"][2]["source_url"].startswith("https://www.bilibili.com/opus/"))
+        self.assertEqual(sum(len(p["four"]) for p in d["phases"]),9)
+
+    def test_runtime_never_inflates_five_stars_or_dupes(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-late-2026-fourstar.json"',html)
+        code=html[html.index("function parseHsrLate2026FourStarBackfill(data,primary){"):html.index("function parseWwWeaponFourstarSupplement(data){")]
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const originals=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const doc=JSON.parse(fs.readFileSync("gacha-wars/hsr-late-2026-fourstar.json","utf8"));
+const appended=parseHsrLate2026FourStarBackfill(doc,originals);
+assert.equal(appended.length,9);
+assert.equal(new Set(appended.map(x=>x.id)).size,9);
+assert.equal(appended.filter(x=>x.verification==="official").length,3);
+assert.equal(appended.filter(x=>x.verification==="secondary").length,6);
+assert.ok(appended.every(x=>x.rarity===4&&x.banner_type==="event_warp_four_star"));
+assert.ok(appended.every(x=>!originals.some(y=>y.id===x.id)));
+assert.equal(originals.filter(x=>x.game==="hsr"&&x.rarity!==4).length,
+ [...originals,...appended].filter(x=>x.game==="hsr"&&x.rarity!==4).length);
+let rejected=false;try{
+ const wrong=JSON.parse(JSON.stringify(doc));wrong.phases[0].four[0]="不正";
+ parseHsrLate2026FourStarBackfill(wrong,originals);
+}catch(e){rejected=true}
+assert.ok(rejected);
+'''
+        result=subprocess.run(["node","-e",js],cwd=ROOT,text=True,capture_output=True)
+        self.assertEqual(result.returncode,0,result.stderr)
+
 if __name__ == "__main__":
     unittest.main()
