@@ -2085,5 +2085,75 @@ assert.equal(failed,true);
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+class WuWaHistoricalFourStarPublisherSourceTests(unittest.TestCase):
+    def test_75_legacy_four_star_resonators_from_24_publisher_periods(self):
+        data=json.loads((SITE/"ww-fourstar-character-publisher-backfill.json").read_text(encoding="utf-8"))
+        self.assertEqual(data["schema"],"gacha-wars-ww-fourstar-character-publisher-backfill-v1")
+        self.assertEqual(data["verification"],"official")
+        self.assertEqual(data["count"],75)
+        self.assertEqual(data["group_count"],24)
+        groups=data["groups"]
+        rows=data["upgrades"]
+        self.assertEqual(len(groups),24)
+        self.assertEqual(len(rows),75)
+        self.assertEqual(len({x["id"] for x in rows}),75)
+        self.assertEqual(sum(g["upgraded"] for g in groups),75)
+        self.assertEqual(sum(g["upgraded"]==6 for g in groups),1)
+        self.assertEqual({x["date"] for x in rows},{x["date"] for x in groups})
+        self.assertTrue(all(x["verification"]=="official" for x in rows))
+        self.assertTrue(all(x["source_url"].startswith("https://wutheringwaves.kurogames.com/en/main/news/detail/") for x in rows))
+        self.assertEqual({x["version"] for x in rows if x["date"]=="2025-03-06"},
+                         {"釉瑚","桃祈","モルトフィー"})
+        self.assertEqual({x["version"] for x in rows if x["date"]=="2026-02-05"},
+                         {"モルトフィー","桃祈","アールト"})
+        self.assertTrue(any(x["date_basis"]=="publisher_roster_version_update_archive_aligned_date" for x in rows))
+        self.assertTrue(any(x["date_basis"]=="publisher_explicit_fourstar_banner_start" for x in rows))
+
+    def test_every_historical_publisher_upgrade_matches_an_original_secondary_record(self):
+        originals=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        index={x["id"]:x for x in originals}
+        upgrades=json.loads((SITE/"ww-fourstar-character-publisher-backfill.json").read_text(encoding="utf-8"))["upgrades"]
+        modern=json.loads((SITE/"ww-fourstar-character-source-overrides.json").read_text(encoding="utf-8"))["upgrades"]
+        reverb=json.loads((SITE/"ww-reverb-2026-official.json").read_text(encoding="utf-8"))["character_four"]
+        known={x["id"] for x in modern}|{x["id"] for x in reverb}
+        self.assertFalse({x["id"] for x in upgrades}&known)
+        for x in upgrades:
+            old=index[x["id"]]
+            self.assertEqual(old["verification"],"secondary")
+            self.assertEqual(old["game"],"ww")
+            self.assertEqual(old["rarity"],4)
+            self.assertEqual(old["banner_type"],"featured_convene_four_star")
+            self.assertEqual(old["version"],x["version"])
+            self.assertEqual(old["featured_five_star"],x["featured_five_star"])
+            self.assertEqual(old["date"],x["date"])
+
+    def test_client_patch_preserves_count_checks_bad_data_and_loads_on_site(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('<script src="./ww-fourstar-publisher-loader.js"></script>',html)
+        self.assertIn('fetch("./ww-fourstar-character-publisher-backfill.json"',html)
+        loader=(SITE/"ww-fourstar-publisher-loader.js").read_text(encoding="utf-8")
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+loader+r'''
+const events=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const data=JSON.parse(fs.readFileSync("gacha-wars/ww-fourstar-character-publisher-backfill.json","utf8"));
+const result=applyWwFourStarHistoricalSourceOverrides(events,data);
+assert.equal(result.upgraded,75);
+assert.equal(result.events.length,events.length);
+assert.equal(new Set(result.events.map(e=>e.id)).size,events.length);
+const expected=new Set(data.upgrades.map(e=>e.id));
+assert.equal(result.events.filter(e=>expected.has(e.id)&&e.verification==="official").length,75);
+assert.equal(result.events.find(e=>e.id==="ww-extra-four-2024-05-23-1-1").verification,"secondary");
+const broken=JSON.parse(JSON.stringify(data));
+broken.upgrades[0].featured_five_star="different banner";
+assert.throws(()=>applyWwFourStarHistoricalSourceOverrides(events,broken));
+assert.throws(()=>applyWwFourStarHistoricalSourceOverrides(result.events,data));
+'''
+        run=subprocess.run(["node","-e",js],cwd=ROOT,text=True,capture_output=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
