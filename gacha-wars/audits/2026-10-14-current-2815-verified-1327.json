@@ -1,0 +1,36 @@
+{
+  "schema": "gacha-wars-current-coverage-v31",
+  "audit_date": "2026-10-14",
+  "previous_coverage": "gacha-wars/audits/2026-10-13-current-2815-verified-1318.json",
+  "source": "gacha-wars/hsr-publisher-bilibili-2023-2024-official.json",
+  "site_total_expected": 2815,
+  "site_official_expected": 1327,
+  "site_secondary_expected": 1488,
+  "new_publisher_verified": 9,
+  "new_first_party_banner_groups": 3,
+  "hsr_base": {
+    "fourstar_records": 177,
+    "publisher_verified_expected": 150,
+    "remaining_secondary_expected": 27,
+    "pending_groups": 9
+  },
+  "verified_date_groups": [
+    "2023-12-06",
+    "2024-07-31",
+    "2024-08-21"
+  ],
+  "check_status": {
+    "original_base_events": 1607,
+    "base_official_after_hsr_overlays": 1155,
+    "hsr_transform_count": 14,
+    "all_transforms_success": true,
+    "original_id_conflicts": 0,
+    "js_syntax": "parsed",
+    "loader_order_collision": "resolved by running prior Facebook annotations before newer complete Bilibili verification"
+  },
+  "limitations": [
+    "Total sitewide and all-game official counts are expected based on earlier 2815-site audit; no full browser runtime was executed.",
+    "GitHub Actions pass/fail status was not available in the current GitHub API tools.",
+    "Only three new publisher posts were fully confirmed; nine remaining HSR banner groups need primary first-party notice."
+  ]
+}
