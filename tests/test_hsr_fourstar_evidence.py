@@ -171,5 +171,47 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
         self.assertIn('運営公式Facebook（全文確認待ち）', html)
 
 
+    def test_mihoyo_original_2024_december_announcement(self):
+        doc = read("hsr-mihoyo-primary-banner-overrides.json")
+        self.assertEqual(doc["schema"], "gacha-wars-hsr-mihoyo-primary-banner-overrides-v1")
+        self.assertEqual(doc["verification"], "official")
+        self.assertEqual(doc["group_count"], 1)
+        self.assertEqual(doc["count"], 3)
+        group = doc["groups"][0]
+        self.assertEqual(group["date"], "2024-12-04")
+        self.assertEqual(group["featured_five_star"], "サンデー／景元")
+        self.assertEqual(group["names"], ["停雲", "青雀", "アーラン"])
+        self.assertEqual(group["names_cn"], ["停云", "青雀", "阿兰"])
+        self.assertEqual(group["source_url"], "https://sr.mihoyo.com/news/127222")
+        self.assertEqual(group["source_quote_fields"]["starts"], "2024/12/04 2.7版本更新后")
+        self.assertEqual(group["source_quote_fields"]["shared_4star"], ["青雀", "阿兰", "停云"])
+        seen = set()
+        for i, eid in enumerate(group["ids"]):
+            row = self.original[eid]
+            self.assertNotIn(eid, seen)
+            seen.add(eid)
+            self.assertEqual(row["verification"], "secondary")
+            self.assertEqual(row["date"], group["date"])
+            self.assertEqual(row["version"], group["names"][i])
+            self.assertEqual(row["featured_five_star"], group["featured_five_star"])
+        self.assertEqual(len(seen), 3)
+        original_official = {eid for filename in OFFICIAL_FILES
+                            for g in read(filename)["groups"] for eid in g["ids"]}
+        fb = read("hsr-facebook-official-account-evidence.json")
+        fb_official = {eid for g in fb["groups"] if g["verification"] == "official"
+                       for eid in g["ids"]}
+        self.assertEqual(len(original_official), 135)
+        self.assertEqual(len(fb_official), 3)
+        self.assertFalse(original_official & fb_official)
+        self.assertFalse((original_official | fb_official) & seen)
+        all_official = original_official | fb_official | seen
+        self.assertEqual(len(all_official), 141)
+        self.assertEqual(len(self.original) - len(all_official), 36)
+        html = (DATA / "index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-mihoyo-primary-banner-overrides.json"', html)
+        self.assertIn('function applyHsrMihoyoPrimaryBannerOverrides(', html)
+        self.assertIn('row.verification!=="secondary"', html)
+
+
 if __name__ == "__main__":
     unittest.main()
