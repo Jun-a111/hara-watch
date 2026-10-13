@@ -2501,5 +2501,53 @@ assert.ok(rejected);
         result=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
         self.assertEqual(result.returncode,0,result.stderr)
 
+
+class HsrRemaining2023to2024OfficialRateupTests(unittest.TestCase):
+    def test_original_publisher_posts_and_exact_saved_rows(self):
+        d=json.loads((SITE/"hsr-remaining-2023-2024-official.json").read_text(encoding="utf-8"))
+        self.assertEqual((d["group_count"],d["count"]),(3,9))
+        self.assertEqual(d["verification"],"official")
+        self.assertEqual(set(g["date"] for g in d["groups"]),{"2023-04-26","2023-08-30","2024-01-17"})
+        rows=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        by_id={r["id"]:r for r in rows}
+        covered=set()
+        for group in d["groups"]:
+            self.assertTrue(group["source_url"].startswith("https://www.taptap.cn/moment/"))
+            self.assertEqual(len(group["names_cn"]),3)
+            self.assertEqual(len(group["names_ja"]),3)
+            for i,record_id in enumerate(group["ids"]):
+                self.assertNotIn(record_id,covered)
+                covered.add(record_id)
+                old=by_id[record_id]
+                self.assertEqual(old["date"],group["date"])
+                self.assertEqual(old["version"],group["names_ja"][i])
+                self.assertEqual(old["featured_five_star"],group["featured_five_star"])
+                self.assertEqual(old["verification"],"secondary")
+        self.assertEqual(len(covered),9)
+
+    def test_update_does_not_duplicate_events_and_rejects_bad_rosters(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-remaining-2023-2024-official.json"',html)
+        code=html[html.index("function applyHsrRemaining2023to2024OfficialOverrides(original,doc){"):html.index("function applyHsr2026SpringSummerFourStarOfficialOverrides(primary,d){")]
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const rows=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const document=JSON.parse(fs.readFileSync("gacha-wars/hsr-remaining-2023-2024-official.json","utf8"));
+const data=applyHsrRemaining2023to2024OfficialOverrides(rows,document);
+assert.equal(data.upgraded,9);
+assert.equal(data.events.length,rows.length);
+assert.equal(new Set(data.events.map(x=>x.id)).size,rows.length);
+const target=new Set(document.groups.flatMap(g=>g.ids));
+assert.equal(data.events.filter(x=>target.has(x.id)&&x.verification==="official").length,9);
+assert.equal(data.events.filter(x=>x.game==="hsr"&&x.rarity===4).length,rows.filter(x=>x.game==="hsr"&&x.rarity===4).length);
+let rejected=false;
+try{const corrupt=JSON.parse(JSON.stringify(document));corrupt.groups[0].names_cn[2]="WRONG";applyHsrRemaining2023to2024OfficialOverrides(rows,corrupt)}catch(e){rejected=true}
+assert.ok(rejected);
+'''
+        run=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
 if __name__ == "__main__":
     unittest.main()
