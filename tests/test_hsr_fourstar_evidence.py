@@ -128,5 +128,48 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
         self.assertIn('original.verification!=="secondary"', html)
 
 
+    def test_facebook_first_party_evidence_selective_upgrade(self):
+        doc = read("hsr-facebook-official-account-evidence.json")
+        self.assertEqual(doc["schema"], "gacha-wars-hsr-facebook-official-account-evidence-v1")
+        self.assertEqual(doc["group_count"], 3)
+        self.assertEqual(doc["full_notice_count"], 1)
+        self.assertEqual(doc["partial_notice_count"], 2)
+        self.assertEqual(doc["records_upgraded"], 3)
+        self.assertEqual(doc["publisher_account"], "https://www.facebook.com/HonkaiStarRail.CHS")
+        old_full = set()
+        for filename in OFFICIAL_FILES:
+            for group in read(filename)["groups"]:
+                old_full.update(group["ids"])
+        self.assertEqual(len(old_full), 135)
+        full = set()
+        partial = set()
+        for group in doc["groups"]:
+            self.assertEqual(len(group["ids"]), 3)
+            self.assertEqual(group["source_url"].split("/")[2], "www.facebook.com")
+            for i, eid in enumerate(group["ids"]):
+                self.assertNotIn(eid, old_full)
+                row = self.original[eid]
+                self.assertEqual(row["date"], group["date"])
+                self.assertEqual(row["version"], group["names"][i])
+                self.assertEqual(row["featured_five_star"], group["featured_five_star"])
+                self.assertEqual(row["verification"], "secondary")
+                if group["status"] == "publisher_indexed_full_start_and_roster":
+                    self.assertEqual(group["verification"], "official")
+                    full.add(eid)
+                else:
+                    self.assertEqual(group["status"], "publisher_indexed_partial_not_full_body")
+                    self.assertEqual(group["verification"], "secondary")
+                    partial.add(eid)
+        self.assertEqual(len(full), 3)
+        self.assertEqual(len(partial), 6)
+        self.assertEqual(len(old_full | full), 138)
+        self.assertEqual(len(self.original) - len(old_full | full), 39)
+        html = (DATA / "index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-facebook-official-account-evidence.json"', html)
+        self.assertIn('function applyHsrFacebookEvidence(', html)
+        self.assertIn('publisher_indexed_partial_not_full_body', html)
+        self.assertIn('運営公式Facebook（全文確認待ち）', html)
+
+
 if __name__ == "__main__":
     unittest.main()
