@@ -2596,5 +2596,38 @@ class Hsr2026RemainingPrimarySourceBacklogTests(unittest.TestCase):
         self.assertIn('hsrBaseFour.filter(x=>x.verification==="official").length',html)
         self.assertIn('hsrBaseFour.filter(x=>x.verification!=="official").length',html)
 
+
+    def test_provenance_pagination_runtime(self):
+        """A large unresolved source archive must render at most 50 rows per page."""
+        html = (SITE / "index.html").read_text(encoding="utf-8")
+        start = html.index("function setProvenanceFilter(id)")
+        end = html.index("function releaseCalendar(){", start)
+        snippet = html[start:end]
+        harness = """
+const G=[{id:'hsr',name:'スタレ'},{id:'ww',name:'鳴潮'}];
+let provenanceFilter='all',provenancePage=0;
+const esc=value=>String(value??'');
+const name=id=>id;
+const eventSource=()=>'<span>source</span>';
+const publishedEvents=Array.from({length:123},(_,i)=>({
+ id:'sample'+i,game:i<67?'hsr':'ww',
+ date:'2025-01-'+String(1+i%28).padStart(2,'0'),
+ version:'V'+i,verification:'secondary',review_note:'原文未確認'
+}));
+const render=()=>{};
+""" + snippet + """
+const count=()=> (unresolvedSourceBoard().match(/<tr><td>/g)||[]).length;
+const allPage1=count();
+setProvenancePage(2);const allPage3=count();
+setProvenanceFilter('hsr');const hsrPage1=count();
+setProvenancePage(1);const hsrPage2=count();
+console.log(JSON.stringify({allPage1,allPage3,hsrPage1,hsrPage2}));
+"""
+        result = subprocess.run(["node", "-e", harness], check=True,
+                                capture_output=True, text=True)
+        self.assertEqual(json.loads(result.stdout),
+                         {"allPage1": 50, "allPage3": 23,
+                          "hsrPage1": 50, "hsrPage2": 17})
+
 if __name__ == "__main__":
     unittest.main()
