@@ -1,0 +1,18 @@
+{
+  "schema": "gacha-wars-hsr-fourstar-coverage-v1",
+  "date": "2026-10-13",
+  "prior_audit": "gacha-wars/audits/2026-10-13-hsr-fourstar-remaining-57.json",
+  "new_evidence": "gacha-wars/hsr-bilibili-fourstar-official-overrides.json",
+  "base_fourstar": 177,
+  "base_official_expected": 129,
+  "base_secondary_expected": 48,
+  "unverified_groups_expected": 16,
+  "official_events_expected": 1306,
+  "total_events": 2815,
+  "method": "Nine additional publisher Bilibili event rate-up records verified by exact source, start date and featured roster. Static IDs matched against previous remaining-57 audit. Counts assume successful client-side source loading.",
+  "groups_upgraded": [
+    "2023-06-28",
+    "2024-02-29",
+    "2024-07-10"
+  ]
+}
