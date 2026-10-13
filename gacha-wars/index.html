@@ -339,6 +339,23 @@ function applyWwBaseWeaponSourceOverrides(primary,data){
  if(updates.size!==64)throw Error("公式照合の反映数に不一致");
  return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
+function applyHsr2025to2026FourStarOfficialOverrides(primary,data){
+ if(!data||data.schema!=="gacha-wars-hsr-2025-2026-fourstar-official-overrides-v1"||data.verification!=="official"||data.group_count!==9||data.count!==27||!Array.isArray(data.groups)||data.groups.length!==9)throw Error("スタレ2025-26★4公式出典の形式・件数不正");
+ const expected={"2025-11-05":{"parent":"キュレネ／キャストリス／ヒアンシー／トリビー","names":["モゼ","リンクス","ペラ"],"source":"https://www.taptap.cn/moment/730790278209733401","basis":"publisher_rateups_constant_both_phases"},"2025-11-26":{"parent":"サフェル／モーディス／ファイノン","names":["モゼ","リンクス","ペラ"],"source":"https://www.taptap.cn/moment/742054444014767519","basis":"publisher_explicit_phase_two"},"2025-12-17":{"parent":"ダリア／ホタル","names":["ギャラガー","ルカ","三月なのか"],"source":"https://www.taptap.cn/moment/749688543848170067","basis":"publisher_explicit_phase_one"},"2026-01-07":{"parent":"帰忘の流離人／霊砂","names":["サンポ","ナターシャ","アーラン"],"source":"https://www.taptap.cn/moment/757297055033985024","basis":"publisher_explicit_phase_two"},"2026-01-28":{"parent":"アグライア／サンデー","names":["停雲","御空","丹恒"],"source":"https://www.taptap.cn/moment/764879091806504157","basis":"publisher_explicit_phase_three"},"2026-02-13":{"parent":"爻光／長夜月／セイレンス／ブラックスワン","names":["ペラ","寒鴉","青雀"],"source":"https://www.taptap.cn/moment/770676379539736327","basis":"publisher_rateups_constant_both_phases"},"2026-03-03":{"parent":"火花／ケリュドラ／乱破／花火","names":["ペラ","寒鴉","青雀"],"source":"https://www.taptap.cn/moment/770676379539736327","basis":"publisher_rateups_constant_both_phases"},"2026-03-25":{"parent":"不死途／ヒアンシー","names":["アスター","モゼ","ミーシャ"],"source":"https://www.taptap.cn/moment/785172117502036918","basis":"publisher_rateups_constant_both_phases"},"2026-04-08":{"parent":"ブートヒル","names":["アスター","モゼ","ミーシャ"],"source":"https://www.taptap.cn/moment/788819065916361946","basis":"publisher_explicit_phase_two"}};
+ const byId=new Map(primary.map(x=>[x.id,x])),seen=new Set(),updates=new Map();
+ for(const g of data.groups){
+  const e=expected[g?.date];
+  if(!e||seen.has(g.date)||g.featured_five_star!==e.parent||g.source_url!==e.source||g.date_basis!==e.basis||g.verification!=="official"||!Array.isArray(g.names)||g.names.join("|")!==e.names.join("|")||!Array.isArray(g.ids)||g.ids.length!==3)throw Error("スタレ2025-26★4公式公告と原記録不一致");
+  seen.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),old=byId.get(id);
+   if(g.ids[i]!==id||!old||old.game!=="hsr"||old.type!=="character"||old.rarity!==4||old.banner_type!=="event_warp_four_star"||old.verification!=="secondary"||old.date!==g.date||old.version!==g.names[i]||old.featured_five_star!==g.featured_five_star||updates.has(id))throw Error("スタレ★4のID・開始日・ピックアップ対象不一致");
+   updates.set(id,{...old,verification:"official",source_url:g.source_url,source_title:g.source_title,date_basis:g.date_basis,review_note:"崩壊：スターレイル運営公式のTapTap告知で★4対象を確認。後半は公式の前後半同一対象注記または後半の個別告知も確認。元のキャラ名・日付・★5母集音を保持し、売上を★4に配賦しない。"});
+  }
+ }
+ if(seen.size!==9||updates.size!==27)throw Error("スタレ2025-26★4公式化数不正");
+ return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
+}
 function applyHsr2025FourStarOfficialOverrides(rows,data){
  if(!data||data.schema!=="gacha-wars-hsr-2025-fourstar-official-overrides-v1"||data.verification!=="official"||data.group_count!==9||data.count!==27||!Array.isArray(data.groups)||data.groups.length!==9)throw Error("スタレ2025★4公式出典の形式・件数不一致");
  const expected={"2025-01-15":{"parent":"マダム・ヘルタ／霊砂／飛霄／ジェイド","names":["モゼ","ナターシャ","アスター"],"url":"https://sr.mihoyo.com/news/127972"},"2025-02-26":{"parent":"トリビー／雲璃","names":["桂乃芬","リンクス","フック"],"url":"https://www.taptap.cn/moment/643418455470509615"},"2025-03-19":{"parent":"モーディス／フォフォ","names":["雪衣","ナターシャ","アーラン"],"url":"https://www.taptap.cn/moment/650710084363487223"},"2025-04-30":{"parent":"アナイクス／Dr.レイシオ","names":["モゼ","セーバル","丹恒"],"url":"https://www.taptap.cn/moment/665940635445888298"},"2025-05-21":{"parent":"ヒアンシー／マダム・ヘルタ","names":["ミーシャ","セーバル","ナターシャ"],"url":"https://www.taptap.cn/moment/673586782599646256"},"2025-06-11":{"parent":"サフェル／アグライア","names":["雪衣","素裳","青雀"],"url":"https://www.taptap.cn/moment/681158308102409809"},"2025-07-02":{"parent":"ファイノン／トリビー／サンデー／花火","names":["御空","停雲","三月なのか"],"url":"https://www.taptap.cn/moment/688712921181586666"},"2025-08-13":{"parent":"セイレンス／カフカ","names":["アスター","アーラン","フック"],"url":"https://www.taptap.cn/moment/704023677657678320"},"2025-09-02":{"parent":"ケリュドラ／銀狼","names":["サンポ","青雀","丹恒"],"url":"https://www.taptap.cn/moment/711549674191849485"}};
@@ -411,6 +428,11 @@ async function loadEvents(){
    const audited=applyWwBaseWeaponSourceOverrides(primary,await resp.json());
    primary=audited.events;notes.push("既存鳴潮武器を公式照合 "+audited.upgraded+"件");
   }catch(err){notes.push("既存武器の公式出典更新に失敗");console.info("鳴潮既存武器の公式照合結果を読み込めませんでした",err.message)}
+  try{
+   const resp=await fetch("./hsr-2025-2026-fourstar-official-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const audited=applyHsr2025to2026FourStarOfficialOverrides(primary,await resp.json());
+   primary=audited.events;notes.push("スタレ2025秋〜2026春★4公式照合 "+audited.upgraded+"件");
+  }catch(err){notes.push("スタレ2025秋〜2026春★4公式照合の取得失敗");console.info("スタレ2025秋〜2026春公式出典読込に失敗",err.message)}
   try{
    const resp=await fetch("./hsr-2025-fourstar-official-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audited=applyHsr2025FourStarOfficialOverrides(primary,await resp.json());
