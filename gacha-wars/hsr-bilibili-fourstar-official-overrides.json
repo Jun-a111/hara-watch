@@ -1,0 +1,64 @@
+{
+  "schema": "gacha-wars-hsr-bilibili-fourstar-official-overrides-v1",
+  "audit_date": "2026-10-13",
+  "verification": "official",
+  "group_count": 3,
+  "count": 9,
+  "policy": "Publisher-operated Bilibili account 崩坏星穹铁道 authored dated announcement listing each event warp's three featured 4-star characters. Keep original event identities and display names. No duplicate rows or fabricated revenues.",
+  "groups": [
+    {
+      "date": "2023-06-28",
+      "featured_five_star": "羅刹",
+      "names": [
+        "ペラ",
+        "青雀",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-06-28-1",
+        "hsr-four-pu-2023-06-28-2",
+        "hsr-four-pu-2023-06-28-3"
+      ],
+      "source_url": "https://www.bilibili.com/opus/811733378549153813",
+      "source_title": "崩坏星穹铁道公式Bilibili：「活动跃迁 | 寻索世间」",
+      "verification": "official",
+      "date_basis": "publisher_exact_banner_start_and_fourstar_roster"
+    },
+    {
+      "date": "2024-02-29",
+      "featured_five_star": "花火／景元",
+      "names": [
+        "青雀",
+        "サンポ",
+        "寒鴉"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-02-29-1",
+        "hsr-four-pu-2024-02-29-2",
+        "hsr-four-pu-2024-02-29-3"
+      ],
+      "source_url": "https://www.bilibili.com/opus/903043498490462246",
+      "source_title": "崩坏星穹铁道公式Bilibili：「焰锦游鱼」「天戈麾斥」",
+      "verification": "official",
+      "date_basis": "publisher_exact_banner_start_and_fourstar_roster"
+    },
+    {
+      "date": "2024-07-10",
+      "featured_five_star": "ジェイド／アルジェンティ",
+      "names": [
+        "セーバル",
+        "ナターシャ",
+        "アスター"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-07-10-1",
+        "hsr-four-pu-2024-07-10-2",
+        "hsr-four-pu-2024-07-10-3"
+      ],
+      "source_url": "https://www.bilibili.com/opus/952026745831161859",
+      "source_title": "崩坏星穹铁道公式Bilibili：「质生契运」「荆冠芳勋」",
+      "verification": "official",
+      "date_basis": "publisher_exact_banner_start_and_fourstar_roster"
+    }
+  ]
+}
