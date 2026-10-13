@@ -1,0 +1,54 @@
+{
+  "schema": "gacha-wars-hsr-fourstar-publisher-roster-partial-audit-v1",
+  "audit_date": "2026-10-13",
+  "scope": "Previously secondary-sourced three-star? No: existing four-star character rate-up groups. Do not add duplicate records.",
+  "source_snapshot": "gacha-wars/audits/2026-10-13-hsr-fourstar-remaining-57.json",
+  "roster_first_party_confirmed_records": 6,
+  "publisher_full_verified_new_records": 0,
+  "remaining_full_verification_records": 57,
+  "notes": "HoYoWiki is a publisher-maintained primary-party roster reference. It confirms which three four-star characters were associated with each named limited banner, but its crawlable roster pages do not independently establish the exact calendar start day. Preserve the existing 'secondary' classification pending publisher-issued dated warp/event notice. This is partial evidence only.",
+  "groups": [
+    {
+      "date_in_existing_history": "2023-05-17",
+      "featured_five_star": "景元",
+      "fourstars": [
+        "三月なのか",
+        "素裳",
+        "停雲"
+      ],
+      "official_roster_sources": [
+        "https://wiki.hoyolab.com/pc/hsr/entry/25?lang=zh-cn",
+        "https://wiki.hoyolab.com/pc/hsr/entry/7?lang=zh-cn",
+        "https://wiki.hoyolab.com/pc/hsr/entry/27?lang=zh-cn"
+      ],
+      "publisher_banner_name_zh": "天戈麾斥",
+      "lineup_status": "publisher_roster_confirmed",
+      "calendar_date_status": "publisher_start_date_notice_pending",
+      "ids": [
+        "hsr-four-pu-2023-05-17-1",
+        "hsr-four-pu-2023-05-17-2",
+        "hsr-four-pu-2023-05-17-3"
+      ]
+    },
+    {
+      "date_in_existing_history": "2023-06-28",
+      "featured_five_star": "羅刹",
+      "fourstars": [
+        "ペラ",
+        "青雀",
+        "御空"
+      ],
+      "official_roster_sources": [
+        "https://wiki.hoyolab.com/pc/hsr/entry/24?lang=zh-cn"
+      ],
+      "publisher_banner_name_zh": "寻索世间",
+      "lineup_status": "publisher_roster_confirmed",
+      "calendar_date_status": "publisher_start_date_notice_pending",
+      "ids": [
+        "hsr-four-pu-2023-06-28-1",
+        "hsr-four-pu-2023-06-28-2",
+        "hsr-four-pu-2023-06-28-3"
+      ]
+    }
+  ]
+}
