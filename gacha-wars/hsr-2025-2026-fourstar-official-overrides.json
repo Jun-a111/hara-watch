@@ -1,0 +1,172 @@
+{
+  "schema": "gacha-wars-hsr-2025-2026-fourstar-official-overrides-v1",
+  "audit_date": "2026-10-13",
+  "verification": "official",
+  "group_count": 9,
+  "count": 27,
+  "groups": [
+    {
+      "date": "2025-11-05",
+      "featured_five_star": "キュレネ／キャストリス／ヒアンシー／トリビー",
+      "names": [
+        "モゼ",
+        "リンクス",
+        "ペラ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-11-05-1",
+        "hsr-four-pu-2025-11-05-2",
+        "hsr-four-pu-2025-11-05-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/730790278209733401",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_rateups_constant_both_phases"
+    },
+    {
+      "date": "2025-11-26",
+      "featured_five_star": "サフェル／モーディス／ファイノン",
+      "names": [
+        "モゼ",
+        "リンクス",
+        "ペラ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-11-26-1",
+        "hsr-four-pu-2025-11-26-2",
+        "hsr-four-pu-2025-11-26-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/742054444014767519",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_explicit_phase_two"
+    },
+    {
+      "date": "2025-12-17",
+      "featured_five_star": "ダリア／ホタル",
+      "names": [
+        "ギャラガー",
+        "ルカ",
+        "三月なのか"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-12-17-1",
+        "hsr-four-pu-2025-12-17-2",
+        "hsr-four-pu-2025-12-17-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/749688543848170067",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_explicit_phase_one"
+    },
+    {
+      "date": "2026-01-07",
+      "featured_five_star": "帰忘の流離人／霊砂",
+      "names": [
+        "サンポ",
+        "ナターシャ",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2026-01-07-1",
+        "hsr-four-pu-2026-01-07-2",
+        "hsr-four-pu-2026-01-07-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/757297055033985024",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_explicit_phase_two"
+    },
+    {
+      "date": "2026-01-28",
+      "featured_five_star": "アグライア／サンデー",
+      "names": [
+        "停雲",
+        "御空",
+        "丹恒"
+      ],
+      "ids": [
+        "hsr-four-pu-2026-01-28-1",
+        "hsr-four-pu-2026-01-28-2",
+        "hsr-four-pu-2026-01-28-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/764879091806504157",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_explicit_phase_three"
+    },
+    {
+      "date": "2026-02-13",
+      "featured_five_star": "爻光／長夜月／セイレンス／ブラックスワン",
+      "names": [
+        "ペラ",
+        "寒鴉",
+        "青雀"
+      ],
+      "ids": [
+        "hsr-four-pu-2026-02-13-1",
+        "hsr-four-pu-2026-02-13-2",
+        "hsr-four-pu-2026-02-13-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/770676379539736327",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_rateups_constant_both_phases"
+    },
+    {
+      "date": "2026-03-03",
+      "featured_five_star": "火花／ケリュドラ／乱破／花火",
+      "names": [
+        "ペラ",
+        "寒鴉",
+        "青雀"
+      ],
+      "ids": [
+        "hsr-four-pu-2026-03-03-1",
+        "hsr-four-pu-2026-03-03-2",
+        "hsr-four-pu-2026-03-03-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/770676379539736327",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_rateups_constant_both_phases"
+    },
+    {
+      "date": "2026-03-25",
+      "featured_five_star": "不死途／ヒアンシー",
+      "names": [
+        "アスター",
+        "モゼ",
+        "ミーシャ"
+      ],
+      "ids": [
+        "hsr-four-pu-2026-03-25-1",
+        "hsr-four-pu-2026-03-25-2",
+        "hsr-four-pu-2026-03-25-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/785172117502036918",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_rateups_constant_both_phases"
+    },
+    {
+      "date": "2026-04-08",
+      "featured_five_star": "ブートヒル",
+      "names": [
+        "アスター",
+        "モゼ",
+        "ミーシャ"
+      ],
+      "ids": [
+        "hsr-four-pu-2026-04-08-1",
+        "hsr-four-pu-2026-04-08-2",
+        "hsr-four-pu-2026-04-08-3"
+      ],
+      "source_url": "https://www.taptap.cn/moment/788819065916361946",
+      "source_title": "崩壊：スターレイル公式TapTap・イベント跳躍公告",
+      "verification": "official",
+      "date_basis": "publisher_explicit_phase_two"
+    }
+  ],
+  "notes": "2025-11-05〜2026-04-08の9集音期27件を公式TapTap「崩坏：星穹铁道」の開催日・★4対象・前後半同一対象注記から照合。2025-11/26、2026-03/03、2026-04/08は後半における前半と同じ★4出現対象。二重登録は行わず原レコードの出典のみ公式化。"
+}
