@@ -1,0 +1,44 @@
+{
+  "schema": "gacha-wars-current-coverage-v32",
+  "audit_date": "2026-10-14",
+  "previous": "gacha-wars/audits/2026-10-14-current-2815-verified-1327.json",
+  "new_verified_source": "gacha-wars/hsr-official-facebook-2025-summer-autumn.json",
+  "sitewide_expected": {
+    "all": 2815,
+    "official": 1333,
+    "secondary": 1482
+  },
+  "hsr_fourstar_base": {
+    "total": 177,
+    "official": 156,
+    "secondary": 21,
+    "pending_groups": 7
+  },
+  "publisher_proofs_added": {
+    "groups": 2,
+    "records": 6,
+    "dates": [
+      "2025-07-23",
+      "2025-09-24"
+    ],
+    "source_types": [
+      "Original HonkaiStarRail.CHS publisher Facebook posts",
+      "Matching original HonkaiStarRail.CHT publisher Facebook posts"
+    ],
+    "start_and_roster_both_in_search_index": true
+  },
+  "verification": {
+    "actual_base_events": 1607,
+    "official_base_after_hsr_overlays": 1161,
+    "overlay_functions_executed": 15,
+    "overlay_exceptions": 0,
+    "duplicate_ids": 0,
+    "grouped_board": "156/177件・保留 21件（7開催分）",
+    "inline_script_syntax": "passes"
+  },
+  "limitations": [
+    "Full 2815/1333 sitewide count derives from earlier full-site audit plus these six newly official original base rows, not an end-to-end browser run.",
+    "Remote CI/test environment could not be cloned locally due to network restrictions; separate actual GitHub Actions run was not observed.",
+    "Historical 2023-2025 remaining seven banners await full first-party original date and roster."
+  ]
+}
