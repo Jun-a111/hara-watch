@@ -1,7 +1,7 @@
 {
   "schema": "gacha-wars-hsr-fourstar-publisher-roster-partial-audit-v1",
   "audit_date": "2026-10-13",
-  "scope": "Previously secondary-sourced three-star? No: existing four-star character rate-up groups. Do not add duplicate records.",
+  "scope": "Previously secondary-sourced four-star character rate-up groups; no duplicate records are added.",
   "source_snapshot": "gacha-wars/audits/2026-10-13-hsr-fourstar-remaining-57.json",
   "roster_first_party_confirmed_records": 6,
   "publisher_full_verified_new_records": 0,
