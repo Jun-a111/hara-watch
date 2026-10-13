@@ -1,0 +1,214 @@
+{
+  "schema": "gacha-wars-hsr-publisher-notice-candidates-v1",
+  "audit_date": "2026-10-13",
+  "verification": "not_yet_verified",
+  "group_count": 12,
+  "count": 36,
+  "description": "Publisher-site notice links located through linked community historical catalog. Original dynamic miyoushe pages show Loading; publisher roster and dates not directly readable in this environment. Add as traceable candidates only; do not elevate publisher verification status or replace secondary citation.",
+  "groups": [
+    {
+      "date": "2023-05-17",
+      "featured_five_star": "景元",
+      "names": [
+        "三月なのか",
+        "素裳",
+        "停雲"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-05-17-1",
+        "hsr-four-pu-2023-05-17-2",
+        "hsr-four-pu-2023-05-17-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/39392377",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2023-11-15",
+      "featured_five_star": "フォフォ",
+      "names": [
+        "丹恒",
+        "アーラン",
+        "セーバル"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-11-15-1",
+        "hsr-four-pu-2023-11-15-2",
+        "hsr-four-pu-2023-11-15-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/45483023",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2023-12-06",
+      "featured_five_star": "アルジェンティ／銀狼",
+      "names": [
+        "寒鴉",
+        "リンクス",
+        "アスター"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-06-1",
+        "hsr-four-pu-2023-12-06-2",
+        "hsr-four-pu-2023-12-06-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/46219124",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2023-12-27",
+      "featured_five_star": "ルアン・メェイ／刃",
+      "names": [
+        "三月なのか",
+        "停雲",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-27-1",
+        "hsr-four-pu-2023-12-27-2",
+        "hsr-four-pu-2023-12-27-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/46955779",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2024-05-08",
+      "featured_five_star": "ロビン／トパーズ＆カブ",
+      "names": [
+        "三月なのか",
+        "寒鴉",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-05-08-1",
+        "hsr-four-pu-2024-05-08-2",
+        "hsr-four-pu-2024-05-08-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/52494520",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2024-06-19",
+      "featured_five_star": "ホタル／ルアン・メェイ",
+      "names": [
+        "雪衣",
+        "ミーシャ",
+        "ギャラガー"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-06-19-1",
+        "hsr-four-pu-2024-06-19-2",
+        "hsr-four-pu-2024-06-19-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/53923120",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2024-07-31",
+      "featured_five_star": "雲璃／フォフォ",
+      "names": [
+        "寒鴉",
+        "御空",
+        "リンクス"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-07-31-1",
+        "hsr-four-pu-2024-07-31-2",
+        "hsr-four-pu-2024-07-31-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/55960746",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2024-08-21",
+      "featured_five_star": "椒丘／花火",
+      "names": [
+        "フック",
+        "桂乃芬",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-08-21-1",
+        "hsr-four-pu-2024-08-21-2",
+        "hsr-four-pu-2024-08-21-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/56798666",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2024-10-23",
+      "featured_five_star": "乱破／丹恒・飲月",
+      "names": [
+        "リンクス",
+        "雪衣",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-10-23-1",
+        "hsr-four-pu-2024-10-23-2",
+        "hsr-four-pu-2024-10-23-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/58761078",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2024-12-04",
+      "featured_five_star": "サンデー／景元",
+      "names": [
+        "停雲",
+        "青雀",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-12-04-1",
+        "hsr-four-pu-2024-12-04-2",
+        "hsr-four-pu-2024-12-04-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/59863510",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2025-02-05",
+      "featured_five_star": "アグライア／ブートヒル／ロビン／銀狼",
+      "names": [
+        "寒鴉",
+        "停雲",
+        "素裳"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-02-05-1",
+        "hsr-four-pu-2025-02-05-2",
+        "hsr-four-pu-2025-02-05-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/61729516",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    },
+    {
+      "date": "2025-04-09",
+      "featured_five_star": "キャストリス／帰忘の流離人／椒丘／黄泉",
+      "names": [
+        "ギャラガー",
+        "リンクス",
+        "ペラ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-04-09-1",
+        "hsr-four-pu-2025-04-09-2",
+        "hsr-four-pu-2025-04-09-3"
+      ],
+      "publisher_notice_url": "https://www.miyoushe.com/sr/article/63312739",
+      "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
+      "status": "publisher_notice_link_found_body_not_directly_accessible"
+    }
+  ]
+}
