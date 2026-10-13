@@ -371,6 +371,19 @@ function applyHsrPublisherNoticeCandidates(primary,d){
  if(dates.size!==12||updates.size!==36)throw Error("スタレ一次告知候補の反映件数不一致");
  return {events:primary.map(e=>updates.get(e.id)||e),pending:updates.size};
 }
+function applyHsrMihoyoPrimaryBannerOverrides(primary,d){
+ if(!d||d.schema!=="gacha-wars-hsr-mihoyo-primary-banner-overrides-v1"||d.verification!=="official"||d.group_count!==1||d.count!==3||!Array.isArray(d.groups)||d.groups.length!==1)throw Error("公式サイト★4原文照合データ形式不正");
+ const expected={date:"2024-12-04",parent:"サンデー／景元",names:["停雲","青雀","アーラン"],cn:["停云","青雀","阿兰"],url:"https://sr.mihoyo.com/news/127222"};
+ const group=d.groups[0],byId=new Map(primary.map(x=>[x.id,x])),overrides=new Map();
+ if(group.date!==expected.date||group.featured_five_star!==expected.parent||group.names?.join("|")!==expected.names.join("|")||group.names_cn?.join("|")!==expected.cn.join("|")||group.source_url!==expected.url||group.notice_published!=="2024-12-03"||group.verification!=="official"||group.date_basis!=="publisher_own_game_website_exact_2024_12_04_start_and_all_3_fourstars"||group.ids?.length!==3||group.source_quote_fields?.shared_4star?.join("|")!=="青雀|阿兰|停云"||group.source_quote_fields?.starts!=="2024/12/04 2.7版本更新后")throw Error("公式サイト★4ガチャ日程・キャラ原文との不一致");
+ for(let i=0;i<3;i++){
+  const id="hsr-four-pu-"+group.date+"-"+(i+1),row=byId.get(id);
+  if(group.ids[i]!==id||!row||row.game!=="hsr"||row.type!=="character"||row.rarity!==4||row.banner_type!=="event_warp_four_star"||row.verification!=="secondary"||row.date!==group.date||row.featured_five_star!==group.featured_five_star||row.version!==group.names[i]||overrides.has(id))throw Error("公式サイト★4と既存ID・キャラ構成に不一致");
+  overrides.set(id,{...row,verification:"official",source_url:group.source_url,source_title:group.source_title,original_name:group.names_cn[i],date_basis:group.date_basis,review_note:"中国公式ゲームサイトのイベント跳躍原文で開始日と★4全3名を確認。★4個別の収益を表さない。"});
+ }
+ if(overrides.size!==3)throw Error("公式サイト★4反映件数に不一致");
+ return {events:primary.map(x=>overrides.get(x.id)||x),upgraded:3};
+}
 function applyHsrFacebookEvidence(primary,d){
  if(!d||d.schema!=="gacha-wars-hsr-facebook-official-account-evidence-v1"||d.group_count!==3||d.full_notice_count!==1||d.partial_notice_count!==2||d.records_upgraded!==3||!Array.isArray(d.groups)||d.groups.length!==3)throw Error("Facebook調査データ形式・件数不正");
  const expected={
@@ -609,6 +622,11 @@ async function loadEvents(){
    const candidates=applyHsrPublisherNoticeCandidates(primary,await res.json());
    primary=candidates.events;notes.push("スタレ公式告知URLを追加 "+candidates.pending+"件（原文未確認）");
   }catch(err){notes.push("スタレ公式告知URL参照情報の取得失敗");console.info("スタレ公式告知URL候補の読込失敗",err.message)}
+  try{
+   const resp=await fetch("./hsr-mihoyo-primary-banner-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const proof=applyHsrMihoyoPrimaryBannerOverrides(primary,await resp.json());
+   primary=proof.events;notes.push("スタレ公式サイト原文★4照合 "+proof.upgraded+"件");
+  }catch(err){notes.push("スタレ公式サイト★4告知の取得失敗");console.info("スタレmiHoYo原文の読み込み失敗",err.message)}
   try{
    const res=await fetch("./hsr-facebook-official-account-evidence.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
    const checked=applyHsrFacebookEvidence(primary,await res.json());
