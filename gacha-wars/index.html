@@ -680,11 +680,6 @@ async function loadEvents(){
    primary=candidates.events;notes.push("スタレ公式告知URLを追加 "+candidates.pending+"件（原文未確認）");
   }catch(err){notes.push("スタレ公式告知URL参照情報の取得失敗");console.info("スタレ公式告知URL候補の読込失敗",err.message)}
   try{
-   const res=await fetch("./hsr-publisher-bilibili-2023-2024-official.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
-   const verified=applyHsrPublisherBilibili2023to2024Official(primary,await res.json());
-   primary=verified.events;notes.push("スタレ公式Bilibili 2023〜24年★4原文照合 "+verified.upgraded+"件");
-  }catch(err){notes.push("スタレ公式Bilibili旧ガチャの照合失敗");console.info("スタレBilibili一次資料の照合が失敗",err.message)}
-  try{
    const resp=await fetch("./hsr-mihoyo-primary-banner-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const proof=applyHsrMihoyoPrimaryBannerOverrides(primary,await resp.json());
    primary=proof.events;notes.push("スタレ公式サイト原文★4照合 "+proof.upgraded+"件");
@@ -694,6 +689,11 @@ async function loadEvents(){
    const checked=applyHsrFacebookEvidence(primary,await res.json());
    primary=checked.events;notes.push("スタレ公式Facebook★4照合 "+checked.upgraded+"件・原文保留 "+checked.pending+"件");
   }catch(err){notes.push("スタレFacebook出典の取得失敗");console.info("スタレ公式Facebook告知の読込失敗",err.message)}
+  try{
+   const res=await fetch("./hsr-publisher-bilibili-2023-2024-official.json",{cache:"no-store"});if(!res.ok)throw Error("HTTP "+res.status);
+   const verified=applyHsrPublisherBilibili2023to2024Official(primary,await res.json());
+   primary=verified.events;notes.push("スタレ公式Bilibili 2023〜24年★4原文照合 "+verified.upgraded+"件");
+  }catch(err){notes.push("スタレ公式Bilibili旧ガチャの照合失敗");console.info("スタレBilibili一次資料の照合が失敗",err.message)}
   try{
    const resp=await fetch("./hsr-2026-spring-summer-fourstar-official.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audit=applyHsr2026SpringSummerFourStarOfficialOverrides(primary,await resp.json());
