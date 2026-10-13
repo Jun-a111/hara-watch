@@ -1,0 +1,43 @@
+{
+  "schema": "gacha-wars-current-coverage-v30",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-13-current-2815-verified-1315.json",
+  "expected_coverage_after_loading_all_site_overlays": {
+    "total": 2815,
+    "official": 1318,
+    "secondary": 1497
+  },
+  "hsr_fourstar": {
+    "base_count": 177,
+    "official_after_overrides": 141,
+    "pending": 36,
+    "pending_groups": 12
+  },
+  "new_first_party": {
+    "event_date": "2024-12-04",
+    "five_star_parent": "サンデー／景元",
+    "fourstars": [
+      "停雲",
+      "青雀",
+      "アーラン"
+    ],
+    "source_url": "https://sr.mihoyo.com/news/127222",
+    "source_title": "角色活动跃迁：「向星举目」「天戈麾斥」",
+    "upgraded_records": 3
+  },
+  "regression": {
+    "source_release_event_count": 1607,
+    "hsr_overlay_transform_count": 13,
+    "all_overlay_transforms_succeeded": true,
+    "js_syntax_passed": true,
+    "duplicate_ids": 0,
+    "base_official_after_hsr_overlays": 1146,
+    "additional_test_file": "tests/test_hsr_fourstar_evidence.py"
+  },
+  "limitations": [
+    "2815 is the previously audited combination of base and other-game supplemental events; this run executed all HSR transformations over actual 1607-row base file, not the full client-side browser.",
+    "Only one new exact-date-and-roster original publisher notice found; the 36 remaining base HSR four-star rows retain secondary verification.",
+    "Web engine search indexed official article, but direct publisher URL open can render 'Loading...' due JavaScript.",
+    "GitHub Actions check completion and hosted page render not independently verified."
+  ]
+}
