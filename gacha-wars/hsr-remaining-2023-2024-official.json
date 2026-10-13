@@ -1,0 +1,82 @@
+{
+  "schema": "gacha-wars-hsr-remaining-official-2023-2024-v1",
+  "audit_date": "2026-10-13",
+  "verification": "official",
+  "group_count": 3,
+  "count": 9,
+  "method": "2023 Seele launch and Imbibitor Lunae launch, plus 2024 Dr. Ratio/Kafka rerun: read original official publisher TapTap event notices, cross-check names/date and original stored Japanese record. No new banner rows.",
+  "groups": [
+    {
+      "date": "2023-04-26",
+      "featured_five_star": "ゼーレ",
+      "names_ja": [
+        "フック",
+        "ナターシャ",
+        "ペラ"
+      ],
+      "names_cn": [
+        "虎克",
+        "娜塔莎",
+        "佩拉"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-04-26-1",
+        "hsr-four-pu-2023-04-26-2",
+        "hsr-four-pu-2023-04-26-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/399860074958291506",
+      "source_title": "「蝶立锋锷」活动跃迁开启！",
+      "date_basis": "publisher_exact_banner_start_and_fourstar_roster",
+      "review_note": "崩壊：スターレイル公式TapTap投稿に開催日と対象★4共鳴者を明記。元データのID・日本語名・母★5集音は維持。★4に★5売上を配分しない。"
+    },
+    {
+      "date": "2023-08-30",
+      "featured_five_star": "丹恒・飲月",
+      "names_ja": [
+        "アスター",
+        "三月なのか",
+        "御空"
+      ],
+      "names_cn": [
+        "艾丝妲",
+        "三月七",
+        "驭空"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-08-30-1",
+        "hsr-four-pu-2023-08-30-2",
+        "hsr-four-pu-2023-08-30-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/445299879657341458",
+      "source_title": "「濯世垂虹」：限定5星角色「丹恒•饮月（毁灭•虚数）」概率UP",
+      "date_basis": "publisher_exact_banner_start_and_fourstar_roster",
+      "review_note": "崩壊：スターレイル公式TapTap投稿に開催日と対象★4共鳴者を明記。元データのID・日本語名・母★5集音は維持。★4に★5売上を配分しない。"
+    },
+    {
+      "date": "2024-01-17",
+      "featured_five_star": "Dr.レイシオ／カフカ",
+      "names_ja": [
+        "素裳",
+        "ナターシャ",
+        "フック"
+      ],
+      "names_cn": [
+        "素裳",
+        "娜塔莎",
+        "虎克"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-01-17-1",
+        "hsr-four-pu-2024-01-17-2",
+        "hsr-four-pu-2024-01-17-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/496035350846637070",
+      "source_title": "角色活动跃迁：「万物皆流」、「夜将不眠」",
+      "date_basis": "publisher_exact_banner_start_and_fourstar_roster",
+      "review_note": "崩壊：スターレイル公式TapTap投稿に開催日と対象★4共鳴者を明記。元データのID・日本語名・母★5集音は維持。★4に★5売上を配分しない。"
+    }
+  ]
+}
