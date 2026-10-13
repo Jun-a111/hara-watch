@@ -268,9 +268,9 @@ function parseHsrLightconeArchive(data){
 function parseHsrLate2026FourStarBackfill(data,primary){
  if(!data||data.schema!=="gacha-wars-hsr-late-2026-fourstar-v1"||data.count!==9||!Array.isArray(data.phases)||data.phases.length!==3)throw Error("スタレ2026年秋★4履歴の形式・件数不正");
  const expected={
-  "2026-08-26":{v:"Ver.4.5",phase:"first",four:["丹恒","青雀","ギャラガー"],parents:["ロビン・夏空の歌","ヒアンシー（復刻）"],tier:"secondary",source:"https://allthings.how/honkai-star-rail-4-5-banners-and-events-full-schedule/"},
-  "2026-09-12":{v:"Ver.4.5",phase:"second",four:["サンポ","フック","桂乃芬"],parents:["アベンチュリン・波と戯れる夏","不死途（復刻）"],tier:"secondary",source:"https://imginn.com/p/DdF2VP7FVJo/"},
-  "2026-09-28":{v:"Ver.4.6",phase:"first",four:["青雀","雪衣","ミーシャ"],parents:["パール","緋英（復刻）"],tier:"official",source:"https://www.bilibili.com/opus/1252628932049502233"}
+  "2026-08-26":{v:"Ver.4.5",phase:"first",four:["丹恒","青雀","ギャラガー"],parents:["ロビン・夏空の歌","ヒアンシー（復刻）"],tier:"official",source:"https://www.taptap.cn/moment/840997512444642592"},
+  "2026-09-12":{v:"Ver.4.5",phase:"second",four:["サンポ","フック","桂乃芬"],parents:["アベンチュリン・波と戯れる夏","不死途（復刻）"],tier:"official",source:"https://www.taptap.cn/moment/846770765180174809"},
+  "2026-09-28":{v:"Ver.4.6",phase:"first",four:["青雀","雪衣","ミーシャ"],parents:["パール","緋英（復刻）"],tier:"official",source:"https://www.taptap.cn/moment/852211155802787824"}
  };
  const used=new Set(),ids=new Set(primary.map(x=>x.id)),out=[];
  for(const p of data.phases){
