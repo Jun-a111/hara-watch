@@ -5,12 +5,14 @@ on:
     paths:
       - 'gacha-wars/**'
       - 'tests/test_gacha_site.py'
+      - 'tests/test_hsr_fourstar_evidence.py'
       - 'scripts/update_gacha_youtube.py'
       - '.github/workflows/gacha-wars-checks.yml'
   pull_request:
     paths:
       - 'gacha-wars/**'
       - 'tests/test_gacha_site.py'
+      - 'tests/test_hsr_fourstar_evidence.py'
       - 'scripts/update_gacha_youtube.py'
       - '.github/workflows/gacha-wars-checks.yml'
   workflow_dispatch:
