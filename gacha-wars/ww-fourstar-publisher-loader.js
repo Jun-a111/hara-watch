@@ -19,3 +19,22 @@ function applyWwFourStarHistoricalSourceOverrides(rows,data){
  if(updates.size!==75)throw Error("鳴潮★4共鳴者の公式照合件数が一致しません");
  return {events:rows.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
+
+
+/* Cyberpunk Edgerunners collab ★4 characters: preserve dedicated collab category. */
+function applyWwCollabFourStarPublisherOverrides(rows,data){
+ if(!data||data.schema!=="gacha-wars-ww-collab-fourstar-source-overrides-v1"||data.verification!=="official"||data.count!==6||!Array.isArray(data.upgrades)||data.upgrades.length!==6)throw Error("鳴潮サイバーパンクコラボ共鳴者PUのデータ形式不正");
+ const map=new Map(rows.map(x=>[x.id,x])),seen=new Set(),updated=new Map();
+ for(const item of data.upgrades){
+  const e=map.get(item.id);
+  if(!e||seen.has(item.id)||e.game!=="ww"||e.type!=="character"||e.date!=="2026-06-08"||e.rarity!==4||
+     e.banner_type!=="collab_convene_four_star"||e.verification!=="secondary"||e.version!==item.version||e.featured_five_star!==item.featured_five_star||
+     item.verification!=="official"||!["https://wutheringwaves.kurogames.com/en/main/news/detail/4836","https://wutheringwaves.kurogames.com/en/main/news/detail/4852"].includes(item.source_url))
+    throw Error("コラボ共鳴者PUと公式告知の一致検証に失敗");
+  seen.add(item.id);
+  updated.set(item.id,{...e,verification:"official",source_url:item.source_url,source_title:item.source_title,
+    original_name:item.english_name,date_basis:item.date_basis,review_note:item.review_note});
+ }
+ if(updated.size!==6)throw Error("コラボPU確認件数が不正");
+ return {events:rows.map(x=>updated.get(x.id)||x),upgraded:updated.size};
+}
