@@ -213,5 +213,58 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
         self.assertIn('row.verification!=="secondary"', html)
 
 
+    def test_hsr_evidence_progress_groups_original_177_records(self):
+        import subprocess
+        import tempfile
+        base = read("release-events.json")["events"]
+        historical = [
+            dict(e) for e in base
+            if e.get("game") == "hsr"
+            and e.get("type") == "character"
+            and e.get("rarity") == 4
+            and e.get("banner_type") == "event_warp_four_star"
+        ]
+        official = {
+            eid for filename in OFFICIAL_FILES
+            for g in read(filename)["groups"] for eid in g["ids"]
+        }
+        for g in read("hsr-facebook-official-account-evidence.json")["groups"]:
+            if g["verification"] == "official":
+                official.update(g["ids"])
+        for g in read("hsr-mihoyo-primary-banner-overrides.json")["groups"]:
+            official.update(g["ids"])
+        self.assertEqual(len(historical), 177)
+        self.assertEqual(len(official), 141)
+        for row in historical:
+            if row["id"] in official:
+                row["verification"] = "official"
+        html = (DATA / "index.html").read_text(encoding="utf-8")
+        start = html.index("function hsrFourStarProvenanceBoard(){")
+        end = html.index("function unresolvedSourceBoard(){", start)
+        function = html[start:end]
+        with tempfile.TemporaryDirectory() as tmp:
+            file = pathlib.Path(tmp) / "historical.json"
+            file.write_text(json.dumps(historical, ensure_ascii=False), encoding="utf-8")
+            js = '''
+const fs=require("fs");
+const publishedEvents=JSON.parse(fs.readFileSync(process.argv[1],"utf8"));
+const esc=s=>String(s??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+''' + function + '''
+const rendered=hsrFourStarProvenanceBoard();
+console.log(JSON.stringify({
+  progress:rendered.includes("141/177件・保留 36件（12開催分）"),
+  rows:(rendered.match(/<tr><td>/g)||[]).length,
+  chronology:rendered.indexOf("2023-05-17")<rendered.indexOf("2025-09-24"),
+  unverifiedExplanation:rendered.includes("原文照合が済んでいない場合は未照合")
+}));
+'''
+            result = subprocess.run(["node", "-e", js, str(file)], capture_output=True, text=True, check=True)
+            outcome = json.loads(result.stdout)
+            self.assertTrue(outcome["progress"])
+            self.assertEqual(outcome["rows"], 12)
+            self.assertTrue(outcome["chronology"])
+            self.assertTrue(outcome["unverifiedExplanation"])
+
+
 if __name__ == "__main__":
     unittest.main()
