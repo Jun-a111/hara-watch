@@ -407,6 +407,26 @@ function applyHsrPublisherNoticeCandidates(primary,d){
  if(dates.size!==12||updates.size!==36)throw Error("スタレ一次告知候補の反映件数不一致");
  return {events:primary.map(e=>updates.get(e.id)||e),pending:updates.size};
 }
+function applyHsrOfficialFacebook2025SummerAutumn(primary,doc){
+ if(!doc||doc.schema!=="gacha-wars-hsr-official-facebook-summer-autumn-2025-v1"||doc.verification!=="official"||doc.group_count!==2||doc.count!==6||!Array.isArray(doc.groups)||doc.groups.length!==2)throw Error("スタレ2025年公式Facebook出典の形式不正");
+ const expected={
+ "2025-07-23":{parent:"ホタル／鏡流／刃",names:["寒鴉","リンクス","ルカ"],cn:["寒鸦","玲可","卢卡"],five:["流萤","镜流","刃"],start:"2025/07/23 12:00 - 2025/08/12 15:00",chs:"https://www.facebook.com/HonkaiStarRail.CHS/posts/746110384465921/",cht:"https://www.facebook.com/HonkaiStarRail.CHT/posts/759955636546629/"},
+ "2025-09-24":{parent:"長夜月／マダム・ヘルタ",names:["ミーシャ","桂乃芬","雪衣"],cn:["米沙","桂乃芬","雪衣"],five:["长夜月","大黑塔"],start:"2025/09/24 3.6版本更新后 - 2025/10/15 11:59",chs:"https://www.facebook.com/HonkaiStarRail.CHS/posts/794492746294351/",cht:"https://www.facebook.com/HonkaiStarRail.CHT/posts/809497008259158/"}
+ };
+ const byId=new Map(primary.map(x=>[x.id,x])),updates=new Map(),done=new Set();
+ for(const g of doc.groups){
+  const e=expected[g?.date];
+  if(!e||done.has(g.date)||g.featured_five_star!==e.parent||g.names_ja?.join("|")!==e.names.join("|")||g.names_cn?.join("|")!==e.cn.join("|")||g.featured_five_star_cn?.join("|")!==e.five.join("|")||g.time_cn!==e.start||g.source_url!==e.chs||g.corroborating_official_url!==e.cht||g.verification!=="official"||g.date_basis!=="publisher_verified_official_facebook_chs_cht_search_index_contains_exact_start_and_3_fourstars"||g.ids?.length!==3)throw Error("スタレ公式Facebookの開始日・構成照合に不一致");
+  done.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),row=byId.get(id);
+   if(g.ids[i]!==id||!row||row.game!=="hsr"||row.type!=="character"||row.rarity!==4||row.banner_type!=="event_warp_four_star"||row.verification!=="secondary"||row.date!==g.date||row.version!==g.names_ja[i]||row.featured_five_star!==g.featured_five_star||updates.has(id))throw Error("スタレ公式Facebook原レコードに不一致");
+   updates.set(id,{...row,verification:"official",source_url:g.source_url,source_title:"崩坏：星穹铁道公式Facebook・"+g.publisher_post_title,original_name:g.names_cn[i],date_basis:g.date_basis,corroborating_sources:[...new Set([...(row.corroborating_sources||[]),g.corroborating_official_url])],review_note:"簡体字・繁体字の運営公式Facebook告知で開催開始日・共有★4の3人を確認。"});
+  }
+ }
+ if(done.size!==2||updates.size!==6)throw Error("スタレ公式Facebook昇格数の不一致");
+ return {events:primary.map(x=>updates.get(x.id)||x),upgraded:6};
+}
 function applyHsrPublisherBilibili2023to2024Official(primary,doc){
  if(!doc||doc.schema!=="gacha-wars-hsr-publisher-bilibili-2023-2024-official-v1"||doc.verification!=="official"||doc.group_count!==3||doc.count!==9||!Array.isArray(doc.groups)||doc.groups.length!==3)throw Error("スタレBilibili一次資料の形式・件数不一致");
  const expected={
@@ -694,6 +714,11 @@ async function loadEvents(){
    const verified=applyHsrPublisherBilibili2023to2024Official(primary,await res.json());
    primary=verified.events;notes.push("スタレ公式Bilibili 2023〜24年★4原文照合 "+verified.upgraded+"件");
   }catch(err){notes.push("スタレ公式Bilibili旧ガチャの照合失敗");console.info("スタレBilibili一次資料の照合が失敗",err.message)}
+  try{
+   const resp=await fetch("./hsr-official-facebook-2025-summer-autumn.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const verified=applyHsrOfficialFacebook2025SummerAutumn(primary,await resp.json());
+   primary=verified.events;notes.push("スタレ2025夏秋公式Facebook★4照合 "+verified.upgraded+"件");
+  }catch(err){notes.push("スタレ2025夏秋公式Facebook出典の取得失敗");console.info("スタレ公式Facebook出典照合失敗",err.message)}
   try{
    const resp=await fetch("./hsr-2026-spring-summer-fourstar-official.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audit=applyHsr2026SpringSummerFourStarOfficialOverrides(primary,await resp.json());
