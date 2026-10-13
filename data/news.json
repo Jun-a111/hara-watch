@@ -1,86 +1,5 @@
 [
   {
-    "id": "china-industry-20261012-division2-cn-shutdown",
-    "date": "2026-10-12",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "CN",
-    "title": "テンセント運営版『ディビジョン2』、中国本土サービスを12月14日に終了へ",
-    "summary": "中国本土版の運営チームが事業戦略の変更を理由に終了日程を告知。10月12日に課金と新規登録を停止し、12月14日にサーバーと公式サイト、12月22日にフォーラムと専用サポートを閉じる。",
-    "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
-    "source": "IT之家（鳳凰網掲載）・快科技（鳳凰網掲載）",
-    "tags": [
-      "テンセント",
-      "Ubisoft",
-      "ディビジョン2",
-      "中国本土版",
-      "サービス終了"
-    ],
-    "spoiler": false,
-    "body": "■ 中国本土版の終了日程\n2026年10月12日、中国本土版『ディビジョン2』運営チームの終了告知を中国メディアが報道した。10月12日11時に課金と新規登録を停止し、12月14日11時にサーバーと公式サイト、12月22日11時にフォーラムと専用サポートを閉鎖する予定。\n\n■ 運営期間と補償\n中国本土版はテンセント運営で2023年11月に正式サービスを開始した。未使用の有償通貨などを対象に、テンセントの他タイトル向けアイテムを受け取れる補償措置も案内されている。終了理由は『事業発展戦略の変更』とされ、詳細な業績要因は公表されていない。",
-    "timeline": [
-      {
-        "date": "2026年10月12日11:00",
-        "text": "課金と新規ユーザー登録を停止。"
-      },
-      {
-        "date": "2026年12月14日11:00",
-        "text": "中国本土版のサーバーと公式サイトを閉鎖予定。"
-      },
-      {
-        "date": "2026年12月22日11:00",
-        "text": "公式フォーラムと専用サポートを閉鎖予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "IT之家（鳳凰網掲載）",
-        "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
-        "type": "報道"
-      },
-      {
-        "name": "快科技（鳳凰網掲載）",
-        "url": "https://gs.ifeng.com/c/8xAI5StSofJ",
-        "type": "報道"
-      }
-    ],
-    "story_id": "division2-cn-shutdown-20261012"
-  },
-  {
-    "id": "china-industry-20261012-tencent-bond-plan",
-    "date": "2026-10-12",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "EN",
-    "title": "テンセント、少なくとも45億ドル規模の米ドル・オフショア人民元債を計画",
-    "summary": "Reutersによると、テンセントは少なくとも45億ドル相当の社債発行を計画。最終額は未確定で、同社の2026年上半期設備投資はIT基盤・ソフトウェア・データセンターを中心に前年同期比で倍増した。",
-    "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
-    "source": "Reuters",
-    "tags": [
-      "テンセント",
-      "社債",
-      "資金調達",
-      "AI投資",
-      "中国ゲーム企業"
-    ],
-    "spoiler": false,
-    "body": "■ 少なくとも45億ドル規模を想定\nReutersは2026年10月12日、事情を知る関係者の話として、テンセントが米ドル建てとオフショア人民元建てを組み合わせ、少なくとも45億ドル相当の社債発行を計画していると報じた。市場環境と投資家需要次第で最終額は変わる可能性がある。\n\n■ 会社全体の資金調達で、ゲーム専用予算ではない\n候補は米ドル建て10年・20年債、人民元建て10年・30年債。テンセントはグローバル中期債プログラムでの発行を提案したが、完了は市場環境などに左右され、拘束力のある契約はまだないとしている。Reutersによると、2026年上半期の設備投資は963億元で前年同期の459億元から倍増し、計算機器、ソフトウェア、データセンターなどIT基盤が中心。本件はテンセント全社の資金調達であり、ゲーム事業だけに使われると確認されたものではない。",
-    "timeline": [
-      {
-        "date": "2026年10月12日",
-        "text": "テンセントが中期債プログラムに基づく社債発行案を公表。Reutersが想定規模と条件を報道。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Reuters",
-        "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
-        "type": "報道"
-      }
-    ],
-    "story_id": "tencent-bond-plan-20261012"
-  },
-  {
     "id": "wuwa-leak-20261012-v38-v0-test",
     "date": "2026-10-12",
     "category": "リーク",
@@ -119,101 +38,6 @@
       }
     ],
     "story_id": "wuwa-v38-v0-test-20261012"
-  },
-  {
-    "id": "wuwa-official-20261007-lily-reveal",
-    "date": "2026-10-07",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "鳴潮、新共鳴者「リリー」を正式公開！回折・拳銃のキャラクター",
-    "summary": "10月7日にリリーのキャラクター情報が公開。10月8日には公式の共鳴者アーカイブプレビューも公開され、回折属性・拳銃武器が紹介された。実装時期は公式確定情報と予想を区別する。",
-    "url": "https://www.youtube.com/@WutheringWavesJP",
-    "source": "鳴潮公式YouTube・公式X、GameWith",
-    "tags": [
-      "鳴潮",
-      "リリー",
-      "新キャラ",
-      "公式情報"
-    ],
-    "spoiler": false,
-    "body": "■ 10月7日：リリーのキャラクター紹介\n公式YouTubeで『後悲鳴人類記事：交錯する星群れ』——リリーが公開。リリーは鋭い嗅覚を持ち、調香で他者の精神を癒やす短い夢を作るという設定が紹介された。\n\n■ 10月8日：アーカイブプレビュー\n公式の『共鳴者アーカイブプレビュー｜リリー』が公開。共鳴属性は回折、武器は拳銃。\n\n■ 実装時期\nVer.3.8実装の可能性は攻略サイトで予想されているが、正式な実装日と混同しない。",
-    "sources": [
-      {
-        "name": "鳴潮公式動画掲載履歴",
-        "url": "https://yutura.net/channel/97834/latest/",
-        "type": "公式動画の掲載情報"
-      },
-      {
-        "name": "GameWith最新情報",
-        "url": "https://gamewith.jp/wutheringwaves/",
-        "type": "補足"
-      }
-    ]
-  },
-  {
-    "id": "wuwa-official-20261011-solaris-starry-stage-2",
-    "date": "2026-10-11",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "鳴潮の同人スペシャル番組「ソラリス・スターリーステージ Season 2」公開！",
-    "summary": "10月11日12時に鳴潮公式の二次創作特別番組が配信。ファン作品・音楽を中心とした企画で、ゲーム本編の公式設定とは区別する。",
-    "url": "https://youtu.be/xkcgxKmBZM4",
-    "source": "鳴潮公式X・公式YouTube",
-    "tags": [
-      "鳴潮",
-      "公式番組",
-      "同人",
-      "ソラリス・スターリーステージ"
-    ],
-    "spoiler": false,
-    "body": "■ 10月11日12時（JST）開演\n『鳴潮』二次創作特別番組『ソラリス・スターリーステージ Season 2』が公式YouTubeで公開された。10月4日には開催が告知され、応援特集も掲載された。\n\n■ 注意\n番組内容は二次創作であり、ゲーム内の実際のストーリーや設定を示すものではないと公式が明記している。",
-    "sources": [
-      {
-        "name": "公式番組",
-        "url": "https://youtu.be/xkcgxKmBZM4",
-        "type": "公式YouTube"
-      },
-      {
-        "name": "公式X告知の掲載情報",
-        "url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8",
-        "type": "公式投稿検索"
-      }
-    ],
-    "story_id": "wuwa-solaris-starry-stage-season2"
-  },
-  {
-    "id": "wuwa-official-20261011-starry-stage-redeem-codes",
-    "date": "2026-10-11",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "鳴潮の同人番組記念コード2種公開！10月14日0:59までに交換",
-    "summary": "STARRYSTAGE2とKEEPONSHININGが公開。それぞれ星声80個、合計160個。交換期限は2026年10月14日0:59（日本時間）と案内されている。",
-    "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
-    "source": "鳴潮同人番組・鳴潮Wiki・GameWith",
-    "tags": [
-      "鳴潮",
-      "交換コード",
-      "星声",
-      "期限あり"
-    ],
-    "spoiler": false,
-    "body": "■ 記念引換コード\nSTARRYSTAGE2：星声80個\nKEEPONSHINING：星声80個\n合計：星声160個\n\n■ 期限\n2026年10月14日（水）0:59（JST）まで。期限切れ前の入力を推奨。実際の利用可否はゲーム内で確認してほしい。",
-    "sources": [
-      {
-        "name": "鳴潮Wiki・引換コード",
-        "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
-        "type": "コード一覧"
-      },
-      {
-        "name": "GameWith",
-        "url": "https://gamewith.jp/wutheringwaves/",
-        "type": "期限と報酬"
-      }
-    ],
-    "story_id": "wuwa-solaris-starry-stage-season2"
   },
   {
     "id": "manual-20261012-zzz-skin-male-character-fanservice-debate",
@@ -305,6 +129,151 @@
     ],
     "needs_research": true,
     "story_id": "zzz-skin-debate-202610"
+  },
+  {
+    "id": "china-industry-20261012-tencent-bond-plan",
+    "date": "2026-10-12",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "EN",
+    "title": "テンセント、少なくとも45億ドル規模の米ドル・オフショア人民元債を計画",
+    "summary": "Reutersによると、テンセントは少なくとも45億ドル相当の社債発行を計画。最終額は未確定で、同社の2026年上半期設備投資はIT基盤・ソフトウェア・データセンターを中心に前年同期比で倍増した。",
+    "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+    "source": "Reuters",
+    "tags": [
+      "テンセント",
+      "社債",
+      "資金調達",
+      "AI投資",
+      "中国ゲーム企業"
+    ],
+    "spoiler": false,
+    "body": "■ 少なくとも45億ドル規模を想定\nReutersは2026年10月12日、事情を知る関係者の話として、テンセントが米ドル建てとオフショア人民元建てを組み合わせ、少なくとも45億ドル相当の社債発行を計画していると報じた。市場環境と投資家需要次第で最終額は変わる可能性がある。\n\n■ 会社全体の資金調達で、ゲーム専用予算ではない\n候補は米ドル建て10年・20年債、人民元建て10年・30年債。テンセントはグローバル中期債プログラムでの発行を提案したが、完了は市場環境などに左右され、拘束力のある契約はまだないとしている。Reutersによると、2026年上半期の設備投資は963億元で前年同期の459億元から倍増し、計算機器、ソフトウェア、データセンターなどIT基盤が中心。本件はテンセント全社の資金調達であり、ゲーム事業だけに使われると確認されたものではない。",
+    "timeline": [
+      {
+        "date": "2026年10月12日",
+        "text": "テンセントが中期債プログラムに基づく社債発行案を公表。Reutersが想定規模と条件を報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters",
+        "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+        "type": "報道"
+      }
+    ],
+    "story_id": "tencent-bond-plan-20261012"
+  },
+  {
+    "id": "china-industry-20261012-division2-cn-shutdown",
+    "date": "2026-10-12",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "テンセント運営版『ディビジョン2』、中国本土サービスを12月14日に終了へ",
+    "summary": "中国本土版の運営チームが事業戦略の変更を理由に終了日程を告知。10月12日に課金と新規登録を停止し、12月14日にサーバーと公式サイト、12月22日にフォーラムと専用サポートを閉じる。",
+    "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
+    "source": "IT之家（鳳凰網掲載）・快科技（鳳凰網掲載）",
+    "tags": [
+      "テンセント",
+      "Ubisoft",
+      "ディビジョン2",
+      "中国本土版",
+      "サービス終了"
+    ],
+    "spoiler": false,
+    "body": "■ 中国本土版の終了日程\n2026年10月12日、中国本土版『ディビジョン2』運営チームの終了告知を中国メディアが報道した。10月12日11時に課金と新規登録を停止し、12月14日11時にサーバーと公式サイト、12月22日11時にフォーラムと専用サポートを閉鎖する予定。\n\n■ 運営期間と補償\n中国本土版はテンセント運営で2023年11月に正式サービスを開始した。未使用の有償通貨などを対象に、テンセントの他タイトル向けアイテムを受け取れる補償措置も案内されている。終了理由は『事業発展戦略の変更』とされ、詳細な業績要因は公表されていない。",
+    "timeline": [
+      {
+        "date": "2026年10月12日11:00",
+        "text": "課金と新規ユーザー登録を停止。"
+      },
+      {
+        "date": "2026年12月14日11:00",
+        "text": "中国本土版のサーバーと公式サイトを閉鎖予定。"
+      },
+      {
+        "date": "2026年12月22日11:00",
+        "text": "公式フォーラムと専用サポートを閉鎖予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "IT之家（鳳凰網掲載）",
+        "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
+        "type": "報道"
+      },
+      {
+        "name": "快科技（鳳凰網掲載）",
+        "url": "https://gs.ifeng.com/c/8xAI5StSofJ",
+        "type": "報道"
+      }
+    ],
+    "story_id": "division2-cn-shutdown-20261012"
+  },
+  {
+    "id": "wuwa-official-20261011-starry-stage-redeem-codes",
+    "date": "2026-10-11",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮の同人番組記念コード2種公開！10月14日0:59までに交換",
+    "summary": "STARRYSTAGE2とKEEPONSHININGが公開。それぞれ星声80個、合計160個。交換期限は2026年10月14日0:59（日本時間）と案内されている。",
+    "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
+    "source": "鳴潮同人番組・鳴潮Wiki・GameWith",
+    "tags": [
+      "鳴潮",
+      "交換コード",
+      "星声",
+      "期限あり"
+    ],
+    "spoiler": false,
+    "body": "■ 記念引換コード\nSTARRYSTAGE2：星声80個\nKEEPONSHINING：星声80個\n合計：星声160個\n\n■ 期限\n2026年10月14日（水）0:59（JST）まで。期限切れ前の入力を推奨。実際の利用可否はゲーム内で確認してほしい。",
+    "sources": [
+      {
+        "name": "鳴潮Wiki・引換コード",
+        "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
+        "type": "コード一覧"
+      },
+      {
+        "name": "GameWith",
+        "url": "https://gamewith.jp/wutheringwaves/",
+        "type": "期限と報酬"
+      }
+    ],
+    "story_id": "wuwa-solaris-starry-stage-season2"
+  },
+  {
+    "id": "wuwa-official-20261011-solaris-starry-stage-2",
+    "date": "2026-10-11",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮の同人スペシャル番組「ソラリス・スターリーステージ Season 2」公開！",
+    "summary": "10月11日12時に鳴潮公式の二次創作特別番組が配信。ファン作品・音楽を中心とした企画で、ゲーム本編の公式設定とは区別する。",
+    "url": "https://youtu.be/xkcgxKmBZM4",
+    "source": "鳴潮公式X・公式YouTube",
+    "tags": [
+      "鳴潮",
+      "公式番組",
+      "同人",
+      "ソラリス・スターリーステージ"
+    ],
+    "spoiler": false,
+    "body": "■ 10月11日12時（JST）開演\n『鳴潮』二次創作特別番組『ソラリス・スターリーステージ Season 2』が公式YouTubeで公開された。10月4日には開催が告知され、応援特集も掲載された。\n\n■ 注意\n番組内容は二次創作であり、ゲーム内の実際のストーリーや設定を示すものではないと公式が明記している。",
+    "sources": [
+      {
+        "name": "公式番組",
+        "url": "https://youtu.be/xkcgxKmBZM4",
+        "type": "公式YouTube"
+      },
+      {
+        "name": "公式X告知の掲載情報",
+        "url": "https://search.yahoo.co.jp/realtime/search?p=%E3%82%BD%E3%83%A9%E3%83%AA%E3%82%B9%E3%83%BB%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%AA%E3%83%BC%E3%82%B9%E3%83%86%E3%83%BC%E3%82%B8",
+        "type": "公式投稿検索"
+      }
+    ],
+    "story_id": "wuwa-solaris-starry-stage-season2"
   },
   {
     "id": "manual-20261010-zzz-hsr-collab-fairness",
@@ -848,6 +817,37 @@
     "research_checked_at": "2026-10-08",
     "research_notes": "公式サイト掲載とRedditの公開検索結果を照合。Reddit本文の直接取得は失敗したため、検索結果に掲載された本文・コメント・投票スコアに限定。特定のX投稿を起点と断定していない。X元投稿URLと全文は未確認。媒体による論争の報道は未確認。 X原文・固定URLの追加確認を残すためneeds_researchを維持。",
     "story_id": "zzz-evelyn-shipping-202610"
+  },
+  {
+    "id": "wuwa-official-20261007-lily-reveal",
+    "date": "2026-10-07",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮、新共鳴者「リリー」を正式公開！回折・拳銃のキャラクター",
+    "summary": "10月7日にリリーのキャラクター情報が公開。10月8日には公式の共鳴者アーカイブプレビューも公開され、回折属性・拳銃武器が紹介された。実装時期は公式確定情報と予想を区別する。",
+    "url": "https://www.youtube.com/@WutheringWavesJP",
+    "source": "鳴潮公式YouTube・公式X、GameWith",
+    "tags": [
+      "鳴潮",
+      "リリー",
+      "新キャラ",
+      "公式情報"
+    ],
+    "spoiler": false,
+    "body": "■ 10月7日：リリーのキャラクター紹介\n公式YouTubeで『後悲鳴人類記事：交錯する星群れ』——リリーが公開。リリーは鋭い嗅覚を持ち、調香で他者の精神を癒やす短い夢を作るという設定が紹介された。\n\n■ 10月8日：アーカイブプレビュー\n公式の『共鳴者アーカイブプレビュー｜リリー』が公開。共鳴属性は回折、武器は拳銃。\n\n■ 実装時期\nVer.3.8実装の可能性は攻略サイトで予想されているが、正式な実装日と混同しない。",
+    "sources": [
+      {
+        "name": "鳴潮公式動画掲載履歴",
+        "url": "https://yutura.net/channel/97834/latest/",
+        "type": "公式動画の掲載情報"
+      },
+      {
+        "name": "GameWith最新情報",
+        "url": "https://gamewith.jp/wutheringwaves/",
+        "type": "補足"
+      }
+    ]
   },
   {
     "id": "china-latest-20261007-marvel-rivals-season-10-5",
