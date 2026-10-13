@@ -2316,5 +2316,53 @@ assert.ok(rejected);
         run=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
         self.assertEqual(run.returncode,0,run.stderr)
 
+
+class Hsr2024FourStarOfficialSourceTests(unittest.TestCase):
+    def test_official_taptap_eight_phases_match_base(self):
+        d=json.loads((SITE/"hsr-2024-fourstar-official-overrides.json").read_text(encoding="utf-8"))
+        self.assertEqual((d["group_count"],d["count"]),(8,24))
+        self.assertEqual(d["schema"],"gacha-wars-hsr-2024-fourstar-official-overrides-v1")
+        base=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        by_id={e["id"]:e for e in base}
+        seen=set()
+        for group in d["groups"]:
+            self.assertEqual(len(group["ids"]),3)
+            self.assertEqual(len(group["names"]),3)
+            self.assertTrue(group["source_url"].startswith("https://www.taptap.cn/moment/"))
+            for i,record_id in enumerate(group["ids"]):
+                self.assertNotIn(record_id,seen)
+                seen.add(record_id)
+                original=by_id[record_id]
+                self.assertEqual(original["date"],group["date"])
+                self.assertEqual(original["version"],group["names"][i])
+                self.assertEqual(original["featured_five_star"],group["featured_five_star"])
+                self.assertEqual(original["verification"],"secondary")
+        self.assertEqual(len(seen),24)
+
+    def test_runtime_applies_24_only_and_rejects_corruption(self):
+        page=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-2024-fourstar-official-overrides.json"',page)
+        code=page[page.index("function applyHsr2024FourStarOfficialOverrides(rows,data){"):page.index("function applyHsr2023FourStarOfficialOverrides(rows,data){")]
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const original=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const data=JSON.parse(fs.readFileSync("gacha-wars/hsr-2024-fourstar-official-overrides.json","utf8"));
+const result=applyHsr2024FourStarOfficialOverrides(original,data);
+assert.equal(result.upgraded,24);
+assert.equal(result.events.length,original.length);
+assert.equal(new Set(result.events.map(x=>x.id)).size,original.length);
+const ids=new Set(data.groups.flatMap(x=>x.ids));
+assert.equal(result.events.filter(x=>ids.has(x.id)&&x.verification==="official").length,24);
+assert.equal(result.events.filter(x=>x.game==="hsr"&&x.rarity===4).length,original.filter(x=>x.game==="hsr"&&x.rarity===4).length);
+let rejected=false;
+try{const damaged=JSON.parse(JSON.stringify(data));damaged.groups[2].names[0]="INVALID";applyHsr2024FourStarOfficialOverrides(original,damaged)}catch(e){rejected=true}
+assert.ok(rejected);
+'''
+        run=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
+
 if __name__ == "__main__":
     unittest.main()
