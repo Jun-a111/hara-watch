@@ -2458,5 +2458,48 @@ assert.ok(rejected);
         p=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
         self.assertEqual(p.returncode,0,p.stderr)
 
+
+class Hsr2026SpringSummerFourStarPrimarySourcesTests(unittest.TestCase):
+    def test_exact_publisher_five_phases_and_original_rows(self):
+        d=json.loads((SITE/"hsr-2026-spring-summer-fourstar-official.json").read_text(encoding="utf-8"))
+        self.assertEqual((d["group_count"],d["count"]),(5,15))
+        self.assertEqual(d["schema"],"gacha-wars-hsr-2026-spring-summer-fourstar-official-v1")
+        base=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        old={x["id"]:x for x in base}
+        matched=set()
+        for group in d["groups"]:
+            self.assertTrue(group["source_url"].startswith("https://www.taptap.cn/moment/"))
+            self.assertEqual(len(group["names"]),3)
+            for i,id in enumerate(group["ids"]):
+                self.assertNotIn(id,matched)
+                matched.add(id)
+                row=old[id]
+                self.assertEqual(row["version"],group["names"][i])
+                self.assertEqual(row["featured_five_star"],group["featured_five_star"])
+                self.assertEqual(row["date"],group["date"])
+                self.assertEqual(row["verification"],"secondary")
+        self.assertEqual(len(matched),15)
+
+    def test_runtime_retains_all_ids_and_rejects_wrong_rateups(self):
+        html=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-2026-spring-summer-fourstar-official.json"',html)
+        code=html[html.index("function applyHsr2026SpringSummerFourStarOfficialOverrides(primary,d){"):html.index("function applyHsr2025to2026FourStarOfficialOverrides(primary,data){")]
+        js=r'''
+const assert=require("node:assert/strict");
+const fs=require("node:fs");
+'''+code+r'''
+const before=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const d=JSON.parse(fs.readFileSync("gacha-wars/hsr-2026-spring-summer-fourstar-official.json","utf8"));
+const applied=applyHsr2026SpringSummerFourStarOfficialOverrides(before,d);
+assert.equal(applied.upgraded,15);
+assert.equal(applied.events.length,before.length);
+assert.equal(new Set(applied.events.map(x=>x.id)).size,before.length);
+assert.equal(applied.events.filter(x=>d.groups.some(g=>g.ids.includes(x.id))&&x.verification==="official").length,15);
+let rejected=false;try{const copy=JSON.parse(JSON.stringify(d));copy.groups[0].names[2]="WRONG";applyHsr2026SpringSummerFourStarOfficialOverrides(before,copy)}catch(e){rejected=true}
+assert.ok(rejected);
+'''
+        result=subprocess.run(["node","-e",js],cwd=ROOT,capture_output=True,text=True)
+        self.assertEqual(result.returncode,0,result.stderr)
+
 if __name__ == "__main__":
     unittest.main()
