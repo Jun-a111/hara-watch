@@ -1,0 +1,47 @@
+{
+  "schema": "gacha-wars-hsr-original-177-provenance-board-v1",
+  "audit_date": "2026-10-13",
+  "prior_audit": "gacha-wars/audits/2026-10-13-hsr-fourstar-remaining-36.json",
+  "rechecked": {
+    "original_base_4star": 177,
+    "publisher_verified": 141,
+    "publisher_unverified": 36,
+    "publisher_unverified_groups": 12,
+    "new_official_upgrades": 0
+  },
+  "first_party_search": [
+    {
+      "date": "2023-05-17",
+      "publisher_roster_source": "https://wiki.hoyolab.com/pc/hsr/entry/25?lang=zh-cn",
+      "findings": "Publisher-maintained roster confirms Tingyun, Sushang, March 7 on Jing Yuan banner; official banner start notice still not independently captured."
+    },
+    {
+      "date": "2023-12-06",
+      "corroboration": "https://honkai-star-rail.fandom.com/zh/wiki/零号协议/2023-12-06",
+      "findings": "Second-party roster and banner date match, but no directly readable official first-party notice found."
+    },
+    {
+      "date": "2024-08-21",
+      "corroboration": "https://news.4399.com/bhxqtd/zixun/m/995811.html",
+      "findings": "Publisher-style notice reproduced by third-party site with exact date and four-stars, not original publisher account; no promotion."
+    }
+  ],
+  "changes": [
+    "Added grouped HSR historical 4-star provenance board inside the site release calendar for 177 base records through 2026-08-05.",
+    "Board displays 141/177 official, 36 pending across 12 banner groups, dates, shared 4-star lineup and publisher reference link where available.",
+    "Changed link caption to publisher-post link instead of 'verified publisher post' so original-body pending records are not misrepresented.",
+    "Added Node runtime test using actual 177 source records and known 141 verified overlay IDs; group and chronology assertions."
+  ],
+  "validation": {
+    "exact_base_original_records": 177,
+    "exact_official_overlay_ids": 141,
+    "unverified_group_rows": 12,
+    "displayed_progress": "141/177件・保留 36件（12開催分）",
+    "duplicate_unverified_groups": false,
+    "javascript_syntax": "passed",
+    "node_display_logic": "passed via JavaScript isolated execution",
+    "ci_job_completion": "not_confirmed",
+    "hosted_browser_render": "not_confirmed"
+  },
+  "limitations": "No new publisher original notice confirmed in this cycle. Do not upgrade provenance from a secondary wiki or third-party reproduced original."
+}
