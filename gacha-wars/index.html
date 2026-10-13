@@ -339,6 +339,23 @@ function applyWwBaseWeaponSourceOverrides(primary,data){
  if(updates.size!==64)throw Error("公式照合の反映数に不一致");
  return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
+function applyHsr2024FourStarOfficialOverrides(rows,data){
+ if(!data||data.schema!=="gacha-wars-hsr-2024-fourstar-official-overrides-v1"||data.verification!=="official"||data.group_count!==8||data.count!==24||!Array.isArray(data.groups)||data.groups.length!==8)throw Error("スタレ2024★4公式出典形式不一致");
+ const expected={"2024-02-06":{"parent":"ブラックスワン／丹恒・飲月","names":["桂乃芬","ミーシャ","停雲"],"source_url":"https://www.taptap.cn/moment/503507271813169928"},"2024-03-27":{"parent":"黄泉／羅刹","names":["丹恒","ペラ","ギャラガー"],"source_url":"https://www.taptap.cn/moment/521631185122625224"},"2024-04-17":{"parent":"アベンチュリン／鏡流","names":["セーバル","ルカ","リンクス"],"source_url":"https://www.taptap.cn/moment/529238030318305564"},"2024-05-29":{"parent":"ブートヒル／符玄","names":["ペラ","ルカ","フック"],"source_url":"https://www.taptap.cn/moment/544098058187574125"},"2024-09-10":{"parent":"飛霄／ロビン／ブラックスワン／カフカ","names":["モゼ","アスター","ルカ"],"source_url":"https://www.taptap.cn/moment/578526770085496230"},"2024-10-02":{"parent":"霊砂／トパーズ＆カブ","names":["桂乃芬","ミーシャ","ナターシャ"],"source_url":"https://www.taptap.cn/moment/589411804535328397"},"2024-11-13":{"parent":"黄泉／アベンチュリン","names":["三月なのか","ペラ","サンポ"],"source_url":"https://www.taptap.cn/moment/605343549562555043"},"2024-12-25":{"parent":"帰忘の流離人／ホタル","names":["ギャラガー","御空","ミーシャ"],"source_url":"https://www.taptap.cn/moment/620563493581488148"}};
+ const base=new Map(rows.map(x=>[x.id,x])),seen=new Set(),updates=new Map();
+ for(const g of data.groups){
+  const e=expected[g?.date];
+  if(!e||seen.has(g.date)||g.featured_five_star!==e.parent||g.verification!=="official"||g.source_url!==e.source_url||g.date_basis!=="publisher_2024_character_warp_notice"||!Array.isArray(g.names)||g.names.join("|")!==e.names.join("|")||!Array.isArray(g.ids)||g.ids.length!==3)throw Error("スタレ2024★4母集音・開催日・出典不正");
+  seen.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),old=base.get(id);
+   if(g.ids[i]!==id||!old||old.game!=="hsr"||old.type!=="character"||old.rarity!==4||old.banner_type!=="event_warp_four_star"||old.verification!=="secondary"||old.date!==g.date||old.version!==g.names[i]||old.featured_five_star!==g.featured_five_star||updates.has(id))throw Error("スタレ2024★4のID・名・対象突合不一致");
+   updates.set(id,{...old,verification:"official",source_url:g.source_url,source_title:g.source_title,date_basis:g.date_basis,review_note:"崩壊：スターレイル公式TapTapアカウントの当該期間の開催日・★4対象を確認。既存★4レコードのみ更新し、★5売上を個別配賦しない。"});
+  }
+ }
+ if(seen.size!==8||updates.size!==24)throw Error("スタレ2024★4公式化件数が不正");
+ return {events:rows.map(x=>updates.get(x.id)||x),upgraded:updates.size};
+}
 function applyHsr2023FourStarOfficialOverrides(rows,data){
  if(!data||data.schema!=="gacha-wars-hsr-2023-fourstar-official-overrides-v1"||data.verification!=="official"||data.group_count!==6||data.count!==18||!Array.isArray(data.groups)||data.groups.length!==6)throw Error("スタレ2023年★4公式出典データ形式不正");
  const expected={"2023-06-07":{"featured_five_star":"銀狼","names":["アスター","丹恒","セーバル"],"source_url":"https://www.hoyolab.com/article/19120091"},"2023-07-19":{"featured_five_star":"刃","names":["アーラン","ナターシャ","素裳"],"source_url":"https://www.hoyolab.com/article/20114086"},"2023-08-09":{"featured_five_star":"カフカ","names":["ルカ","サンポ","セーバル"],"source_url":"https://www.hoyolab.com/article/20713096"},"2023-09-20":{"featured_five_star":"符玄","names":["フック","リンクス","ペラ"],"source_url":"https://www.hoyolab.com/article/21723945"},"2023-10-11":{"featured_five_star":"鏡流","names":["サンポ","停雲","青雀"],"source_url":"https://www.hoyolab.com/article/22226154"},"2023-10-27":{"featured_five_star":"トパーズ＆カブ","names":["桂乃芬","ルカ","素裳"],"source_url":"https://www.hoyolab.com/article_pre/12553"}};
@@ -377,6 +394,11 @@ async function loadEvents(){
    const audited=applyWwBaseWeaponSourceOverrides(primary,await resp.json());
    primary=audited.events;notes.push("既存鳴潮武器を公式照合 "+audited.upgraded+"件");
   }catch(err){notes.push("既存武器の公式出典更新に失敗");console.info("鳴潮既存武器の公式照合結果を読み込めませんでした",err.message)}
+  try{
+   const resp=await fetch("./hsr-2024-fourstar-official-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const checked=applyHsr2024FourStarOfficialOverrides(primary,await resp.json());
+   primary=checked.events;notes.push("スタレ2024★4公式照合 "+checked.upgraded+"件");
+  }catch(err){notes.push("スタレ2024★4公式照合の取得失敗");console.info("スタレ2024の公式★4出典の読込に失敗",err.message)}
   try{
    const resp=await fetch("./hsr-2023-fourstar-official-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audited=applyHsr2023FourStarOfficialOverrides(primary,await resp.json());
