@@ -375,6 +375,29 @@ function applyWwBaseWeaponSourceOverrides(primary,data){
  if(updates.size!==64)throw Error("公式照合の反映数に不一致");
  return {events:primary.map(x=>updates.get(x.id)||x),upgraded:updates.size};
 }
+function applyHsrFiveHistoricalOfficialNotices(rows,doc){
+ if(!doc||doc.schema!=="gacha-wars-hsr-five-historical-official-notices-v1"||doc.verification!=="official"||doc.group_count!==5||doc.count!==15||!Array.isArray(doc.groups)||doc.groups.length!==5)throw Error("スタレ5開催分の一次資料形式不一致");
+ const expected={
+ "2023-05-17":{parent:"景元",names:["三月なのか","素裳","停雲"],url:"https://www.hoyolab.com/article/18568299"},
+ "2024-05-08":{parent:"ロビン／トパーズ＆カブ",names:["三月なのか","寒鴉","雪衣"],url:"https://www.hoyolab.com/article/28251947"},
+ "2024-06-19":{parent:"ホタル／ルアン・メェイ",names:["雪衣","ミーシャ","ギャラガー"],url:"https://www.taptap.cn/moment/551806632766472744"},
+ "2024-10-23":{parent:"乱破／丹恒・飲月",names:["リンクス","雪衣","御空"],url:"https://www.hoyolab.com/article/34424519"},
+ "2025-02-05":{parent:"アグライア／ブートヒル／ロビン／銀狼",names:["寒鴉","停雲","素裳"],url:"https://www.hoyolab.com/article/36843932"}
+ };
+ const byId=new Map(rows.map(x=>[x.id,x])),seen=new Set(),patches=new Map();
+ for(const g of doc.groups){
+  const e=expected[g?.date];
+  if(!e||seen.has(g.date)||g.featured_five_star!==e.parent||g.names_ja?.join("|")!==e.names.join("|")||g.source_url!==e.url||g.verification!=="official"||!g.date_basis?.startsWith("publisher_")||!g.source_title||!Array.isArray(g.ids)||g.ids.length!==3)throw Error("スタレ公式公告の開催日・登場人物照合失敗");
+  seen.add(g.date);
+  for(let i=0;i<3;i++){
+   const id="hsr-four-pu-"+g.date+"-"+(i+1),old=byId.get(id);
+   if(g.ids[i]!==id||!old||old.game!=="hsr"||old.type!=="character"||old.rarity!==4||old.banner_type!=="event_warp_four_star"||old.verification!=="secondary"||old.date!==g.date||old.featured_five_star!==g.featured_five_star||old.version!==g.names_ja[i]||patches.has(id))throw Error("スタレ旧★4レコードID・日本語名の一致確認に失敗");
+   patches.set(id,{...old,verification:"official",source_url:g.source_url,source_title:"Honkai: Star Rail公式・"+g.source_title,date_basis:g.date_basis,corroborating_sources:[...new Set([...(old.corroborating_sources||[]),...(g.corroborating_sources||[])])],review_note:g.review_note});
+  }
+ }
+ if(seen.size!==5||patches.size!==15)throw Error("スタレ★4公式昇格15件の件数不一致");
+ return {events:rows.map(row=>patches.get(row.id)||row),upgraded:patches.size};
+}
 function applyHsrRemaining2023to2024OfficialOverrides(original,doc){
  if(!doc||doc.schema!=="gacha-wars-hsr-remaining-official-2023-2024-v1"||doc.verification!=="official"||doc.group_count!==3||doc.count!==9||!Array.isArray(doc.groups)||doc.groups.length!==3)throw Error("スタレ旧★4追加公式照合データ不正");
  const expected={"2023-04-26":{"parent":"ゼーレ","ja":["フック","ナターシャ","ペラ"],"cn":["虎克","娜塔莎","佩拉"],"url":"https://www.taptap.cn/moment/399860074958291506"},"2023-08-30":{"parent":"丹恒・飲月","ja":["アスター","三月なのか","御空"],"cn":["艾丝妲","三月七","驭空"],"url":"https://www.taptap.cn/moment/445299879657341458"},"2024-01-17":{"parent":"Dr.レイシオ／カフカ","ja":["素裳","ナターシャ","フック"],"cn":["素裳","娜塔莎","虎克"],"url":"https://www.taptap.cn/moment/496035350846637070"}};
@@ -664,6 +687,12 @@ async function loadEvents(){
   const data=await response.json();if(data.schema!=="gacha-wars-releases-v1"||!Array.isArray(data.events))throw Error("invalid schema");
   let primary=data.events.filter(x=>G.some(g=>g.id===x.game)&&["version","character","weapon"].includes(x.type)&&typeof x.version==="string"&&/^\d{4}-\d{2}-\d{2}$/.test(x.date)&&typeof x.source_url==="string"&&/^https:\/\//.test(x.source_url));
   let extras=[],notes=[];
+  try{
+   const resp=await fetch("./hsr-five-historical-official-notices.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
+   const audit=applyHsrFiveHistoricalOfficialNotices(primary,await resp.json());
+   primary=audit.events;notes.push("スタレ旧★4運営公告5開催分 "+audit.upgraded+"件");
+  }catch(err){notes.push("スタレ旧★4運営公告5開催分の照合に失敗");console.info("スタレ旧★4公式出典を適用できません",err.message)}
+
   try{
    const resp=await fetch("./ww-base-weapon-official-overrides.json",{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
    const audited=applyWwBaseWeaponSourceOverrides(primary,await resp.json());
