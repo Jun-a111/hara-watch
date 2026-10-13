@@ -1,0 +1,87 @@
+{
+  "schema": "gacha-wars-hsr-late-2026-fourstar-v1",
+  "audit_date": "2026-10-13",
+  "note": "Update missing Star Rail four-star character rate-up lineups for v4.5 (two phases) and live v4.6 phase I without adding future October 21 rerun records. Social mirrors and third-party summaries remain secondary; Ver4.6 follows original publisher account announcement.",
+  "count": 9,
+  "phases": [
+    {
+      "date": "2026-08-26",
+      "version_group": "Ver.4.5",
+      "phase": "first",
+      "featured_five_star": "ロビン・夏空の歌／ヒアンシー（復刻）",
+      "parent_names": [
+        "ロビン・夏空の歌",
+        "ヒアンシー（復刻）"
+      ],
+      "four": [
+        "丹恒",
+        "青雀",
+        "ギャラガー"
+      ],
+      "four_en": [
+        "Dan Heng",
+        "Qingque",
+        "Gallagher"
+      ],
+      "verification": "secondary",
+      "source_url": "https://allthings.how/honkai-star-rail-4-5-banners-and-events-full-schedule/",
+      "source_title": "4.5前半イベント跳躍の4★枠（第三者の告知再掲資料）",
+      "date_basis": "published_warp_summary_crosschecked_with_release_history"
+    },
+    {
+      "date": "2026-09-12",
+      "version_group": "Ver.4.5",
+      "phase": "second",
+      "featured_five_star": "アベンチュリン・波と戯れる夏／不死途（復刻）",
+      "parent_names": [
+        "アベンチュリン・波と戯れる夏",
+        "不死途（復刻）"
+      ],
+      "four": [
+        "サンポ",
+        "フック",
+        "桂乃芬"
+      ],
+      "four_en": [
+        "Sampo",
+        "Hook",
+        "Guinaifen"
+      ],
+      "verification": "secondary",
+      "source_url": "https://imginn.com/p/DdF2VP7FVJo/",
+      "source_title": "公式Instagram掲載告知を保存した公開ミラー（第三者再掲）",
+      "corroborating_sources": [
+        "https://allthings.how/honkai-star-rail-4-5-banners-and-events-full-schedule/"
+      ],
+      "date_basis": "publisher_social_mirror_and_third_party_crosscheck"
+    },
+    {
+      "date": "2026-09-28",
+      "version_group": "Ver.4.6",
+      "phase": "first",
+      "featured_five_star": "パール／緋英（復刻）",
+      "parent_names": [
+        "パール",
+        "緋英（復刻）"
+      ],
+      "four": [
+        "青雀",
+        "雪衣",
+        "ミーシャ"
+      ],
+      "four_en": [
+        "Qingque",
+        "Xueyi",
+        "Misha"
+      ],
+      "verification": "official",
+      "source_url": "https://www.bilibili.com/opus/1252628932049502233",
+      "source_title": "崩壊：スターレイル公式Bilibili・Ver.4.6第I期跳躍告知",
+      "corroborating_sources": [
+        "https://www.hoyolab.com/accountcenter/postList?id=172534910",
+        "https://gamewith.jp/houkaistarrail/article/show/402987"
+      ],
+      "date_basis": "publisher_phase_i_announced_september_28"
+    }
+  ]
+}
