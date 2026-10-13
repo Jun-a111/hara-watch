@@ -1,0 +1,261 @@
+{
+  "schema": "gacha-wars-hsr-fourstar-remaining-audit-v3",
+  "audit_date": "2026-10-13",
+  "previous_source": "gacha-wars/audits/2026-10-13-hsr-fourstar-remaining-57.json",
+  "official_proof_files": [
+    "gacha-wars/hsr-bilibili-fourstar-official-overrides.json",
+    "gacha-wars/hsr-official-weibo-fourstar-overrides.json"
+  ],
+  "publisher_notice_candidate_file": "gacha-wars/hsr-publisher-notice-candidates.json",
+  "base_fourstar_count": 177,
+  "official_base_count_expected": 135,
+  "remaining_base_count": 42,
+  "remaining_group_count": 14,
+  "unverified_with_publisher_url": 36,
+  "unverified_without_publisher_url": 6,
+  "groups": [
+    {
+      "date": "2023-05-17",
+      "featured_five_star": "景元",
+      "names_ja": [
+        "三月なのか",
+        "素裳",
+        "停雲"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-05-17-1",
+        "hsr-four-pu-2023-05-17-2",
+        "hsr-four-pu-2023-05-17-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2023-11-15",
+      "featured_five_star": "フォフォ",
+      "names_ja": [
+        "丹恒",
+        "アーラン",
+        "セーバル"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-11-15-1",
+        "hsr-four-pu-2023-11-15-2",
+        "hsr-four-pu-2023-11-15-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2023-12-06",
+      "featured_five_star": "アルジェンティ／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "リンクス",
+        "アスター"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-06-1",
+        "hsr-four-pu-2023-12-06-2",
+        "hsr-four-pu-2023-12-06-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2023-12-27",
+      "featured_five_star": "ルアン・メェイ／刃",
+      "names_ja": [
+        "三月なのか",
+        "停雲",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-27-1",
+        "hsr-four-pu-2023-12-27-2",
+        "hsr-four-pu-2023-12-27-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-05-08",
+      "featured_five_star": "ロビン／トパーズ＆カブ",
+      "names_ja": [
+        "三月なのか",
+        "寒鴉",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-05-08-1",
+        "hsr-four-pu-2024-05-08-2",
+        "hsr-four-pu-2024-05-08-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-06-19",
+      "featured_five_star": "ホタル／ルアン・メェイ",
+      "names_ja": [
+        "雪衣",
+        "ミーシャ",
+        "ギャラガー"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-06-19-1",
+        "hsr-four-pu-2024-06-19-2",
+        "hsr-four-pu-2024-06-19-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-07-31",
+      "featured_five_star": "雲璃／フォフォ",
+      "names_ja": [
+        "寒鴉",
+        "御空",
+        "リンクス"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-07-31-1",
+        "hsr-four-pu-2024-07-31-2",
+        "hsr-four-pu-2024-07-31-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-08-21",
+      "featured_five_star": "椒丘／花火",
+      "names_ja": [
+        "フック",
+        "桂乃芬",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-08-21-1",
+        "hsr-four-pu-2024-08-21-2",
+        "hsr-four-pu-2024-08-21-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-10-23",
+      "featured_five_star": "乱破／丹恒・飲月",
+      "names_ja": [
+        "リンクス",
+        "雪衣",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-10-23-1",
+        "hsr-four-pu-2024-10-23-2",
+        "hsr-four-pu-2024-10-23-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-12-04",
+      "featured_five_star": "サンデー／景元",
+      "names_ja": [
+        "停雲",
+        "青雀",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-12-04-1",
+        "hsr-four-pu-2024-12-04-2",
+        "hsr-four-pu-2024-12-04-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2025-02-05",
+      "featured_five_star": "アグライア／ブートヒル／ロビン／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "停雲",
+        "素裳"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-02-05-1",
+        "hsr-four-pu-2025-02-05-2",
+        "hsr-four-pu-2025-02-05-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2025-04-09",
+      "featured_five_star": "キャストリス／帰忘の流離人／椒丘／黄泉",
+      "names_ja": [
+        "ギャラガー",
+        "リンクス",
+        "ペラ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-04-09-1",
+        "hsr-four-pu-2025-04-09-2",
+        "hsr-four-pu-2025-04-09-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2025-07-23",
+      "featured_five_star": "ホタル／鏡流／刃",
+      "names_ja": [
+        "寒鴉",
+        "リンクス",
+        "ルカ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-07-23-1",
+        "hsr-four-pu-2025-07-23-2",
+        "hsr-four-pu-2025-07-23-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_full_notice_missing"
+    },
+    {
+      "date": "2025-09-24",
+      "featured_five_star": "長夜月／マダム・ヘルタ",
+      "names_ja": [
+        "ミーシャ",
+        "桂乃芬",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-09-24-1",
+        "hsr-four-pu-2025-09-24-2",
+        "hsr-four-pu-2025-09-24-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_full_notice_missing"
+    }
+  ],
+  "notes": [
+    "Static source match and JavaScript parser simulations succeeded, but live browser network rendering and full 1.4MB base event file were not tested.",
+    "Do not mark third-party banner rosters as publisher verified until the exact first-party start dates and three featured four-stars are both read.",
+    "Nine official Bilibili upgrades plus six official verified-Weibo upgrades against the original 57 remaining records."
+  ]
+}
