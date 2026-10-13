@@ -1,0 +1,172 @@
+{
+  "schema": "gacha-wars-hsr-2025-fourstar-official-overrides-v1",
+  "audit_date": "2026-10-13",
+  "verification": "official",
+  "group_count": 9,
+  "count": 27,
+  "notes": "2025年の公式告知から9期間27キャラ★4ピックアップを直接照合。8件の公式TapTap記事と1件のmiHoYo公式サイト記事を対象とする。★5母集音・開始日・日本語名・元IDを変更せず既存情報の出典だけ上書きする。",
+  "groups": [
+    {
+      "date": "2025-01-15",
+      "featured_five_star": "マダム・ヘルタ／霊砂／飛霄／ジェイド",
+      "names": [
+        "モゼ",
+        "ナターシャ",
+        "アスター"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-01-15-1",
+        "hsr-four-pu-2025-01-15-2",
+        "hsr-four-pu-2025-01-15-3"
+      ],
+      "verification": "official",
+      "source_url": "https://sr.mihoyo.com/news/127972",
+      "source_title": "崩壊：スターレイル運営公式サイト・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-02-26",
+      "featured_five_star": "トリビー／雲璃",
+      "names": [
+        "桂乃芬",
+        "リンクス",
+        "フック"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-02-26-1",
+        "hsr-four-pu-2025-02-26-2",
+        "hsr-four-pu-2025-02-26-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/643418455470509615",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-03-19",
+      "featured_five_star": "モーディス／フォフォ",
+      "names": [
+        "雪衣",
+        "ナターシャ",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-03-19-1",
+        "hsr-four-pu-2025-03-19-2",
+        "hsr-four-pu-2025-03-19-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/650710084363487223",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-04-30",
+      "featured_five_star": "アナイクス／Dr.レイシオ",
+      "names": [
+        "モゼ",
+        "セーバル",
+        "丹恒"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-04-30-1",
+        "hsr-four-pu-2025-04-30-2",
+        "hsr-four-pu-2025-04-30-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/665940635445888298",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-05-21",
+      "featured_five_star": "ヒアンシー／マダム・ヘルタ",
+      "names": [
+        "ミーシャ",
+        "セーバル",
+        "ナターシャ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-05-21-1",
+        "hsr-four-pu-2025-05-21-2",
+        "hsr-four-pu-2025-05-21-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/673586782599646256",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-06-11",
+      "featured_five_star": "サフェル／アグライア",
+      "names": [
+        "雪衣",
+        "素裳",
+        "青雀"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-06-11-1",
+        "hsr-four-pu-2025-06-11-2",
+        "hsr-four-pu-2025-06-11-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/681158308102409809",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-07-02",
+      "featured_five_star": "ファイノン／トリビー／サンデー／花火",
+      "names": [
+        "御空",
+        "停雲",
+        "三月なのか"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-07-02-1",
+        "hsr-four-pu-2025-07-02-2",
+        "hsr-four-pu-2025-07-02-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/688712921181586666",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-08-13",
+      "featured_five_star": "セイレンス／カフカ",
+      "names": [
+        "アスター",
+        "アーラン",
+        "フック"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-08-13-1",
+        "hsr-four-pu-2025-08-13-2",
+        "hsr-four-pu-2025-08-13-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/704023677657678320",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    },
+    {
+      "date": "2025-09-02",
+      "featured_five_star": "ケリュドラ／銀狼",
+      "names": [
+        "サンポ",
+        "青雀",
+        "丹恒"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-09-02-1",
+        "hsr-four-pu-2025-09-02-2",
+        "hsr-four-pu-2025-09-02-3"
+      ],
+      "verification": "official",
+      "source_url": "https://www.taptap.cn/moment/711549674191849485",
+      "source_title": "崩壊：スターレイル公式TapTap・2025年イベント跳躍告知",
+      "date_basis": "publisher_2025_character_warp_notice"
+    }
+  ]
+}
