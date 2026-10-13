@@ -1,0 +1,57 @@
+{
+  "schema": "gacha-wars-hsr-secondary-corroboration-v1",
+  "audit_date": "2026-10-13",
+  "verification": "secondary",
+  "groups": [
+    {
+      "date": "2025-07-23",
+      "featured_five_star": "ホタル／鏡流／刃",
+      "names": [
+        "寒鴉",
+        "リンクス",
+        "ルカ"
+      ],
+      "sources": [
+        {
+          "url": "https://bbs.4399.cn/thread-view-tid-49845583",
+          "label": "4399・官方公告カテゴリ（サイト管理者による告知転載）",
+          "source_type": "platform_administrator_reprint"
+        }
+      ],
+      "ids": [
+        "hsr-four-pu-2025-07-23-1",
+        "hsr-four-pu-2025-07-23-2",
+        "hsr-four-pu-2025-07-23-3"
+      ]
+    },
+    {
+      "date": "2025-09-24",
+      "featured_five_star": "長夜月／マダム・ヘルタ",
+      "names": [
+        "ミーシャ",
+        "桂乃芬",
+        "雪衣"
+      ],
+      "sources": [
+        {
+          "url": "https://news.17173.com/z/xqtd/content/09262025/133540051.shtml",
+          "label": "17173・官网出典表示の告知転載（自動AI要約の注意書きあり）",
+          "source_type": "third_party_official_notice_reprint"
+        },
+        {
+          "url": "https://www.taptap.cn/moment/719857049655052288",
+          "label": "TapTapファン投稿による同日・同一構成の記録",
+          "source_type": "secondary_fan_post"
+        }
+      ],
+      "ids": [
+        "hsr-four-pu-2025-09-24-1",
+        "hsr-four-pu-2025-09-24-2",
+        "hsr-four-pu-2025-09-24-3"
+      ]
+    }
+  ],
+  "group_count": 2,
+  "count": 6,
+  "review_policy": "These are platform/admin reproductions or user-generated notes, not confirmed original publisher posts. Corroborate date and roster but NEVER increase verified/official counts."
+}
