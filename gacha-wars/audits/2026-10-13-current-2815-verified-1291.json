@@ -1,0 +1,32 @@
+{
+  "schema": "gacha-wars-current-coverage-v24",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-13-current-2815-verified-1216.json",
+  "combined_events": 2815,
+  "verification": {
+    "official": 1291,
+    "secondary": 1524
+  },
+  "by_game": {
+    "zzz": 360,
+    "gi": 1282,
+    "ww": 485,
+    "hsr": 657,
+    "end": 19,
+    "nte": 12
+  },
+  "publisher_review": {
+    "source_file": "gacha-wars/ww-fourstar-character-publisher-backfill.json",
+    "file_blob_sha": "d0ba6ee2e7ae1e1af1796caca8aa1611412f7a35",
+    "existing_secondary_fourstar_character_appearances_reclassified": 75,
+    "covered_regular_banner_start_days": 24,
+    "exact_official_clock_starts": 13,
+    "version_update_day_archive_aligned": 11
+  },
+  "limitations": [
+    "All 75 reclassified entries were already in the baseline 1607 release records; no total-count change.",
+    "Publisher notice text is the primary source for four-star characters. Some notices only specify 'Version update' timing, which is flagged separately from exact publisher start dates.",
+    "2024-05-23 and 2026-03-19 character four-star records, anniversary and collaboration special variants are excluded pending independent primary-source review.",
+    "All-game character and weapon archives remain incomplete; total rows include event appearances, not unique items or individually attributable sales."
+  ]
+}
