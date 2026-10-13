@@ -1,0 +1,38 @@
+{
+  "schema": "gacha-wars-current-coverage-v27",
+  "audit_date": "2026-10-13",
+  "previous_audit": "gacha-wars/audits/2026-10-13-current-2815-verified-1306.json",
+  "events": 2815,
+  "verification_expected_if_sources_load": {
+    "official": 1312,
+    "secondary": 1503
+  },
+  "publisher_original_verified_new": {
+    "records": 6,
+    "groups": 2,
+    "source_file": "gacha-wars/hsr-official-weibo-fourstar-overrides.json",
+    "dates": [
+      "2025-10-15",
+      "2026-06-24"
+    ],
+    "source_account": "崩坏星穹铁道・微博公式認証済み",
+    "review_basis": "Original verified publisher post carried intact by Sina; exact start and all three four-star names"
+  },
+  "hsr_base_fourstar": {
+    "total": 177,
+    "official_expected": 135,
+    "remaining": 42,
+    "groups": 14
+  },
+  "tests": [
+    "All six new four-star records match existing audit ID/date/parent banner/featured name",
+    "New official override transform simulated successfully (six records promoted, zero duplicates)",
+    "Updated inline JavaScript passes syntax check",
+    "All three HSR supplemental data loader references present"
+  ],
+  "limitations": [
+    "Expected counts depend on all client-side JSON files loading successfully; public site browser network was not executed",
+    "Large primary release-events.json cannot be inspected via the GitHub fetch-file text endpoint in this environment",
+    "Publisher notice candidates whose original body could not be opened remain secondary"
+  ]
+}
