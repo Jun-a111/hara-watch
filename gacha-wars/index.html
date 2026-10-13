@@ -265,6 +265,29 @@ function parseHsrLightconeArchive(data){
  }
  return out;
 }
+function parseHsrLate2026FourStarBackfill(data,primary){
+ if(!data||data.schema!=="gacha-wars-hsr-late-2026-fourstar-v1"||data.count!==9||!Array.isArray(data.phases)||data.phases.length!==3)throw Error("スタレ2026年秋★4履歴の形式・件数不正");
+ const expected={
+  "2026-08-26":{v:"Ver.4.5",phase:"first",four:["丹恒","青雀","ギャラガー"],parents:["ロビン・夏空の歌","ヒアンシー（復刻）"],tier:"secondary",source:"https://allthings.how/honkai-star-rail-4-5-banners-and-events-full-schedule/"},
+  "2026-09-12":{v:"Ver.4.5",phase:"second",four:["サンポ","フック","桂乃芬"],parents:["アベンチュリン・波と戯れる夏","不死途（復刻）"],tier:"secondary",source:"https://imginn.com/p/DdF2VP7FVJo/"},
+  "2026-09-28":{v:"Ver.4.6",phase:"first",four:["青雀","雪衣","ミーシャ"],parents:["パール","緋英（復刻）"],tier:"official",source:"https://www.bilibili.com/opus/1252628932049502233"}
+ };
+ const used=new Set(),ids=new Set(primary.map(x=>x.id)),out=[];
+ for(const p of data.phases){
+  const e=expected[p?.date];
+  if(!e||used.has(p.date)||p.version_group!==e.v||p.phase!==e.phase||p.verification!==e.tier||p.source_url!==e.source||!Array.isArray(p.four)||p.four.join("|")!==e.four.join("|")||!Array.isArray(p.parent_names)||p.parent_names.join("|")!==e.parents.join("|")||p.featured_five_star!==e.parents.join("／")||!Array.isArray(p.four_en)||p.four_en.length!==3)throw Error("スタレ秋の★4対象・出典・日付に不整合");
+  used.add(p.date);
+  const parents=primary.filter(x=>x.game==="hsr"&&x.type==="character"&&x.date===p.date&&x.rarity!==4).map(x=>x.version).sort();
+  if(parents.join("|")!==e.parents.slice().sort().join("|")||primary.some(x=>x.game==="hsr"&&x.rarity===4&&x.date===p.date))throw Error("スタレ秋の★5母集音や★4既存行との照合不一致");
+  p.four.forEach((name,i)=>{
+   const id="hsr-four-pu-"+p.date+"-"+(i+1);
+   if(ids.has(id)||out.some(x=>x.id===id))throw Error("スタレ秋の★4 ID重複");
+   out.push({id,game:"hsr",type:"character",date:p.date,phase:p.phase,version_group:p.version_group,version:name,rarity:4,banner_type:"event_warp_four_star",featured_five_star:p.featured_five_star,event_kind:"featured_banner",verification:p.verification,source_url:p.source_url,source_title:p.source_title,original_name:p.four_en[i],date_basis:p.date_basis,corroborating_sources:p.corroborating_sources||[],review_note:"同時期の★5母集音を確認。★4を個別の★5売上に配賦しない。"+(p.verification==="secondary"?"公式原文への直リンクでないため二次資料扱い。":"公式跳躍告知の★4対象を直接記録。")});
+  });
+ }
+ if(used.size!==3||out.length!==9)throw Error("スタレ秋の★4追加数不正");
+ return out;
+}
 function parseWwWeaponFourstarSupplement(data){
  if(data.schema!=="gacha-wars-ww-fourstar-supplement-v1"||!Array.isArray(data.phases))throw Error("鳴潮の武器補完データ形式が不正");
  const seen=new Set(),events=[];
@@ -360,6 +383,11 @@ async function loadEvents(){
    primary=reverb.primary;extras.push(...reverb.extras);
    notes.push("リバーブ武器 "+reverb.extras.length+"件・共鳴者出典更新 "+reverb.upgraded+"件");
   }catch(err){notes.push("リバーブ公式集音の読込失敗");console.info("鳴潮リバーブ公式データ読込失敗",err.message)}
+  try{
+   const response=await fetch("./hsr-late-2026-fourstar.json",{cache:"no-store"});if(!response.ok)throw Error("HTTP "+response.status);
+   const added=parseHsrLate2026FourStarBackfill(await response.json(),primary);
+   extras.push(...added);notes.push("スタレ2026年秋★4 "+added.length+"件");
+  }catch(err){notes.push("スタレ2026年秋★4の読込失敗");console.info("スタレ2026年秋の未収録★4履歴を取得できませんでした",err.message)}
   for(const [file,parse,label] of [["gi-weapon-history.json",parseGenshinWeaponArchive,"原神武器"],["hsr-lightcone-history.json",parseHsrLightconeArchive,"スタレ光円錐"],["ww-weapon-fourstar-supplement.json",parseWwWeaponFourstarSupplement,"鳴潮武器補完"],["ww-2026-summer-official-weapons.json",parseWw2026SummerOfficialWeapons,"鳴潮2026夏公式"]]){
    try{
     const resp=await fetch("./"+file,{cache:"no-store"});if(!resp.ok)throw Error("HTTP "+resp.status);
