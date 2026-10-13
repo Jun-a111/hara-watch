@@ -1,0 +1,291 @@
+{
+  "schema": "gacha-wars-hsr-outstanding-mirror-evidence-v1",
+  "audit_date": "2026-10-13",
+  "verification": "secondary",
+  "group_count": 12,
+  "count": 36,
+  "policy": "These links are third-party articles, user posts, community tables, or faithful-looking reproductions of an official notice. None is a verified original post authored by the publisher. Never promote them to official, even if date and featured characters match.",
+  "groups": [
+    {
+      "date": "2023-05-17",
+      "featured_five_star": "景元",
+      "names_ja": [
+        "三月なのか",
+        "素裳",
+        "停雲"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-05-17-1",
+        "hsr-four-pu-2023-05-17-2",
+        "hsr-four-pu-2023-05-17-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://www.taptap.cn/moment/407571883479796065",
+          "description": "2023年5月16日・当時のピックアップ3人を記載",
+          "source_type": "contemporaneous_player_guide"
+        }
+      ]
+    },
+    {
+      "date": "2023-11-15",
+      "featured_five_star": "フォフォ",
+      "names_ja": [
+        "丹恒",
+        "アーラン",
+        "セーバル"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-11-15-1",
+        "hsr-four-pu-2023-11-15-2",
+        "hsr-four-pu-2023-11-15-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://m.ali213.net/news/gl2311/1221397.html",
+          "description": "2023年11月15日・開催日と3人を記載",
+          "source_type": "secondary_game_guide"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-06",
+      "featured_five_star": "アルジェンティ／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "リンクス",
+        "アスター"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-06-1",
+        "hsr-four-pu-2023-12-06-2",
+        "hsr-four-pu-2023-12-06-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://www.18183.com/gonglue/202312/iaeh1md8.html",
+          "description": "2023年12月5日・公式告知文を引用した攻略媒体",
+          "source_type": "third_party_notice_reprint"
+        }
+      ]
+    },
+    {
+      "date": "2023-12-27",
+      "featured_five_star": "ルアン・メェイ／刃",
+      "names_ja": [
+        "三月なのか",
+        "停雲",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-27-1",
+        "hsr-four-pu-2023-12-27-2",
+        "hsr-four-pu-2023-12-27-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://www.taptap.cn/moment/488110545019340529",
+          "description": "2023年12月24日・前半対象3人の紹介",
+          "source_type": "contemporaneous_player_guide"
+        }
+      ]
+    },
+    {
+      "date": "2024-05-08",
+      "featured_five_star": "ロビン／トパーズ＆カブ",
+      "names_ja": [
+        "三月なのか",
+        "寒鴉",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-05-08-1",
+        "hsr-four-pu-2024-05-08-2",
+        "hsr-four-pu-2024-05-08-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://news.17173.com/content/05072024/141503212.shtml",
+          "description": "2024年5月7日・開催日と3人を載せた告知転載",
+          "source_type": "third_party_notice_reprint"
+        }
+      ]
+    },
+    {
+      "date": "2024-06-19",
+      "featured_five_star": "ホタル／ルアン・メェイ",
+      "names_ja": [
+        "雪衣",
+        "ミーシャ",
+        "ギャラガー"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-06-19-1",
+        "hsr-four-pu-2024-06-19-2",
+        "hsr-four-pu-2024-06-19-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://m.ali213.net/news/gl2406/1430455.html",
+          "description": "2024年6月21日・公式告知文の開催期間と対象3人を記載",
+          "source_type": "third_party_notice_reprint"
+        }
+      ]
+    },
+    {
+      "date": "2024-07-31",
+      "featured_five_star": "雲璃／フォフォ",
+      "names_ja": [
+        "寒鴉",
+        "御空",
+        "リンクス"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-07-31-1",
+        "hsr-four-pu-2024-07-31-2",
+        "hsr-four-pu-2024-07-31-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://honkai-star-rail.fandom.com/wiki/Aptitude_Showcase",
+          "description": "時系列一覧の雲璃・フォフォ試用イベントと対象3人",
+          "source_type": "community_reference_timeline"
+        }
+      ]
+    },
+    {
+      "date": "2024-08-21",
+      "featured_five_star": "椒丘／花火",
+      "names_ja": [
+        "フック",
+        "桂乃芬",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-08-21-1",
+        "hsr-four-pu-2024-08-21-2",
+        "hsr-four-pu-2024-08-21-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://www.ghzs.com/bhxqtd/90742",
+          "description": "2024年8月20日・公式告知文の転載",
+          "source_type": "third_party_notice_reprint"
+        }
+      ]
+    },
+    {
+      "date": "2024-10-23",
+      "featured_five_star": "乱破／丹恒・飲月",
+      "names_ja": [
+        "リンクス",
+        "雪衣",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-10-23-1",
+        "hsr-four-pu-2024-10-23-2",
+        "hsr-four-pu-2024-10-23-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://m.ghzs666.com/bbs/thread-326316",
+          "description": "2024年10月22日・公式告知文の転載",
+          "source_type": "third_party_notice_reprint"
+        }
+      ]
+    },
+    {
+      "date": "2024-12-04",
+      "featured_five_star": "サンデー／景元",
+      "names_ja": [
+        "停雲",
+        "青雀",
+        "アーラン"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-12-04-1",
+        "hsr-four-pu-2024-12-04-2",
+        "hsr-four-pu-2024-12-04-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://www.taptap.cn/moment/613266135835479582",
+          "description": "2024年12月3日・公式告知文を引用した利用者投稿",
+          "source_type": "secondary_user_reprint"
+        }
+      ]
+    },
+    {
+      "date": "2025-02-05",
+      "featured_five_star": "アグライア／ブートヒル／ロビン／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "停雲",
+        "素裳"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-02-05-1",
+        "hsr-four-pu-2025-02-05-2",
+        "hsr-four-pu-2025-02-05-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://bbs.4399.cn/thread-view-tid-47981643",
+          "description": "2025年2月5日・平台公式公告カテゴリの告知転載",
+          "source_type": "third_party_notice_reprint"
+        }
+      ]
+    },
+    {
+      "date": "2025-04-09",
+      "featured_five_star": "キャストリス／帰忘の流離人／椒丘／黄泉",
+      "names_ja": [
+        "ギャラガー",
+        "リンクス",
+        "ペラ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-04-09-1",
+        "hsr-four-pu-2025-04-09-2",
+        "hsr-four-pu-2025-04-09-3"
+      ],
+      "verification": "secondary",
+      "notice_body_verification": "publisher_original_not_read",
+      "sources": [
+        {
+          "url": "https://m.hupu.com/bbs/631679516.html",
+          "description": "2025年4月9日・掲示板管理者による公式告知転載",
+          "source_type": "third_party_notice_reprint"
+        },
+        {
+          "url": "https://t.me/s/HSRCN/6781",
+          "description": "公式ニュース転載・非公式Telegramチャンネル",
+          "source_type": "unofficial_rebroadcast"
+        }
+      ]
+    }
+  ]
+}
