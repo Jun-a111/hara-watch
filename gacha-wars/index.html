@@ -384,7 +384,7 @@ function applyHsrOutstandingMirrorEvidence(primary,d){
   for(let i=0;i<3;i++){
    const id="hsr-four-pu-"+g.date+"-"+(i+1),original=byId.get(id);
    if(g.ids[i]!==id||!original||original.game!=="hsr"||original.type!=="character"||original.rarity!==4||original.banner_type!=="event_warp_four_star"||original.verification!=="secondary"||original.date!==g.date||original.version!==g.names_ja[i]||original.featured_five_star!==g.featured_five_star||updates.has(id))throw Error("スタレ外部照合と元データの不一致");
-   updates.set(id,{...original,corroborating_sources:[...new Set([...(original.corroborating_sources||[]),...urls])],secondary_crosscheck:"外部資料で開催日・対象を再照合（公式原文未確認）",review_note:(original.review_note||"原文未照合")+"／外部資料に開催日・★4構成の記録あり。原文は未確認、公式照合済みには含めない。"});
+   updates.set(id,{...original,corroborating_sources:[...new Set([...(original.corroborating_sources||[]),...urls])],secondary_crosscheck:"★4構成・開催時期を外部資料で補助確認（公式原文未確認）",review_note:(original.review_note||"原文未照合")+"／外部資料に★4構成や開催時期の参考記録あり。各資料が開始日まで明記しているとは限らない。運営告知原文は未確認。"});
   }
  }
  if(dates.size!==12||updates.size!==36)throw Error("スタレ外部補強数に不一致");
