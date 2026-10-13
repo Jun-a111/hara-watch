@@ -1,0 +1,153 @@
+{
+  "schema": "gacha-wars-hsr-fourstar-remaining-audit-v7",
+  "audit_date": "2026-10-14",
+  "previous_audit": "gacha-wars/audits/2026-10-14-hsr-fourstar-remaining-27.json",
+  "first_party_verified": "gacha-wars/hsr-official-facebook-2025-summer-autumn.json",
+  "new_groups": [
+    "2025-07-23",
+    "2025-09-24"
+  ],
+  "new_official_fourstars": 6,
+  "historical_fourstar_base_count": 177,
+  "official_historical_fourstars_expected": 156,
+  "remaining_historical_fourstars": 21,
+  "remaining_group_count": 7,
+  "groups": [
+    {
+      "date": "2023-05-17",
+      "featured_five_star": "景元",
+      "names_ja": [
+        "三月なのか",
+        "素裳",
+        "停雲"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-05-17-1",
+        "hsr-four-pu-2023-05-17-2",
+        "hsr-four-pu-2023-05-17-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2023-12-27",
+      "featured_five_star": "ルアン・メェイ／刃",
+      "names_ja": [
+        "三月なのか",
+        "停雲",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2023-12-27-1",
+        "hsr-four-pu-2023-12-27-2",
+        "hsr-four-pu-2023-12-27-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-05-08",
+      "featured_five_star": "ロビン／トパーズ＆カブ",
+      "names_ja": [
+        "三月なのか",
+        "寒鴉",
+        "雪衣"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-05-08-1",
+        "hsr-four-pu-2024-05-08-2",
+        "hsr-four-pu-2024-05-08-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-06-19",
+      "featured_five_star": "ホタル／ルアン・メェイ",
+      "names_ja": [
+        "雪衣",
+        "ミーシャ",
+        "ギャラガー"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-06-19-1",
+        "hsr-four-pu-2024-06-19-2",
+        "hsr-four-pu-2024-06-19-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2024-10-23",
+      "featured_five_star": "乱破／丹恒・飲月",
+      "names_ja": [
+        "リンクス",
+        "雪衣",
+        "御空"
+      ],
+      "ids": [
+        "hsr-four-pu-2024-10-23-1",
+        "hsr-four-pu-2024-10-23-2",
+        "hsr-four-pu-2024-10-23-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://progameguides.com/honkai-star-rail/honkai-star-rail-banner-history/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2025-02-05",
+      "featured_five_star": "アグライア／ブートヒル／ロビン／銀狼",
+      "names_ja": [
+        "寒鴉",
+        "停雲",
+        "素裳"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-02-05-1",
+        "hsr-four-pu-2025-02-05-2",
+        "hsr-four-pu-2025-02-05-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    },
+    {
+      "date": "2025-04-09",
+      "featured_five_star": "キャストリス／帰忘の流離人／椒丘／黄泉",
+      "names_ja": [
+        "ギャラガー",
+        "リンクス",
+        "ペラ"
+      ],
+      "ids": [
+        "hsr-four-pu-2025-04-09-1",
+        "hsr-four-pu-2025-04-09-2",
+        "hsr-four-pu-2025-04-09-3"
+      ],
+      "verification": "secondary",
+      "source_url": "https://www.pcgamer.com/games/rpg/honkai-star-rail-banner-next-current/",
+      "review_status": "publisher_notice_link_identified_original_text_unverified"
+    }
+  ],
+  "verification_policy": "Promote only publisher-authored original notices giving exact start and complete featured 4-star trio. Chinese simplified and Traditional official Facebook post indexes each corroborate the same event; unverified player sources and third-party reposts remain secondary.",
+  "validations": [
+    "Full source 1607 base rows, all 15 HSR overlays applied with zero exceptions.",
+    "Four-star base records 177, publisher verified 156, secondary 21, exactly seven pending banner groups.",
+    "No duplicate IDs, and the site grouped source board displays the same 156/177 and seven groups.",
+    "New source posts include simplified and traditional official Facebook URLs plus exact calendar windows.",
+    "Full hosted browser and GitHub Actions test completion not independently verified."
+  ],
+  "remaining_dates": [
+    "2023-05-17",
+    "2023-12-27",
+    "2024-05-08",
+    "2024-06-19",
+    "2024-10-23",
+    "2025-02-05",
+    "2025-04-09"
+  ]
+}
