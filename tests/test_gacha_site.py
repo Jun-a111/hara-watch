@@ -722,7 +722,12 @@ assert.equal((renderSpecialEventsGrouped([...sample,another]).match(/<tr>/g)||[]
         self.assertIn("function unresolvedSourceBoard()", html)
         self.assertIn('publishedEvents.filter(e=>e.verification!=="official")', html)
         self.assertIn("+unresolvedSourceBoard()+'", html)
-        self.assertIn("補助公式資料", html)
+        self.assertIn("補助参考資料", html)
+        self.assertIn("function setProvenanceFilter(id)", html)
+        self.assertIn("function setProvenancePage(index)", html)
+        self.assertIn("const pageSize=50", html)
+        self.assertIn("filtered.slice(start,start+pageSize)", html)
+        self.assertIn("本文未確認のものは公式照合に含めません", html)
         self.assertIn("開始日まで直接確認できたことを意味しません", html)
         events = self.read("release-events.json")["events"]
         unresolved = [e for e in events if e["verification"] != "official"]
