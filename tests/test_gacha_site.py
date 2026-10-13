@@ -2364,5 +2364,50 @@ assert.ok(rejected);
         self.assertEqual(run.returncode,0,run.stderr)
 
 
+
+class Hsr2025FourStarOfficialSourceTests(unittest.TestCase):
+    def test_nine_official_publisher_groups_match_original_ids(self):
+        d=json.loads((SITE/"hsr-2025-fourstar-official-overrides.json").read_text(encoding="utf-8"))
+        self.assertEqual((d["group_count"],d["count"]),(9,27))
+        self.assertEqual(d["schema"],"gacha-wars-hsr-2025-fourstar-official-overrides-v1")
+        base=json.loads((SITE/"release-events.json").read_text(encoding="utf-8"))["events"]
+        by_id={x["id"]:x for x in base}
+        covered=set()
+        for g in d["groups"]:
+            self.assertEqual(len(g["names"]),3)
+            self.assertEqual(len(g["ids"]),3)
+            self.assertTrue(g["source_url"].startswith(("https://www.taptap.cn/moment/","https://sr.mihoyo.com/news/")))
+            for i,key in enumerate(g["ids"]):
+                self.assertNotIn(key,covered)
+                covered.add(key)
+                item=by_id[key]
+                self.assertEqual(item["version"],g["names"][i])
+                self.assertEqual(item["date"],g["date"])
+                self.assertEqual(item["featured_five_star"],g["featured_five_star"])
+                self.assertEqual(item["verification"],"secondary")
+        self.assertEqual(len(covered),27)
+
+    def test_patch_preserves_rows_and_rejects_mutation(self):
+        site=(SITE/"index.html").read_text(encoding="utf-8")
+        self.assertIn('fetch("./hsr-2025-fourstar-official-overrides.json"',site)
+        code=site[site.index("function applyHsr2025FourStarOfficialOverrides(rows,data){"):site.index("function applyHsr2024FourStarOfficialOverrides(rows,data){")]
+        js=r'''
+const assert=require("node:assert/strict"),fs=require("node:fs");
+'''+code+r'''
+const old=JSON.parse(fs.readFileSync("gacha-wars/release-events.json","utf8")).events;
+const d=JSON.parse(fs.readFileSync("gacha-wars/hsr-2025-fourstar-official-overrides.json","utf8"));
+const result=applyHsr2025FourStarOfficialOverrides(old,d);
+assert.equal(result.upgraded,27);
+assert.equal(result.events.length,old.length);
+assert.equal(new Set(result.events.map(x=>x.id)).size,old.length);
+assert.equal(result.events.filter(x=>d.groups.some(g=>g.ids.includes(x.id))&&x.verification==="official").length,27);
+assert.equal(result.events.filter(x=>x.game==="hsr"&&x.rarity===4).length,old.filter(x=>x.game==="hsr"&&x.rarity===4).length);
+let broken=false;
+try{const mutated=JSON.parse(JSON.stringify(d));mutated.groups[0].source_url="https://invalid.example/";applyHsr2025FourStarOfficialOverrides(old,mutated)}catch(e){broken=true}
+assert.ok(broken);
+'''
+        run=subprocess.run(["node","-e",js],cwd=ROOT,text=True,capture_output=True)
+        self.assertEqual(run.returncode,0,run.stderr)
+
 if __name__ == "__main__":
     unittest.main()
