@@ -114,10 +114,11 @@ function hsrFourStarProvenanceBoard(){
  const tr=items.map(g=>{
   const names=g.items.map(e=>e.version).join("・");
   const notice=g.items.find(e=>e.publisher_notice_url)?.publisher_notice_url;
+  const hoyolab=g.items.find(e=>e.publisher_hoyolab_url)?.publisher_hoyolab_url;
   const fb=g.items.find(e=>e.publisher_facebook_url)?.publisher_facebook_url;
-  const href=notice||fb||"";
-  const link=href.startsWith("https://")?'<a href="'+esc(href)+'" target="_blank" rel="noopener noreferrer">運営投稿へのリンク ↗</a>':'運営投稿リンク未特定';
-  return '<tr><td>'+esc(g.date)+'</td><td>'+esc(g.parent)+'<div class="tiny">'+esc(names)+'</div></td><td>未照合 '+g.items.length+'件<div class="tiny">'+(href?'運営投稿の原文確認待ち':'運営の原文・リンク探索中')+'</div></td><td>'+link+'</td></tr>';
+  const links=[[hoyolab,"公式HoYoLAB"],[notice,"公式米游社"],[fb,"公式Facebook"]].filter(x=>typeof x[0]==="string"&&x[0].startsWith("https://"));
+  const link=links.length?links.map(x=>'<a style="display:inline-block;margin:2px 8px 2px 0" href="'+esc(x[0])+'" target="_blank" rel="noopener noreferrer">'+esc(x[1])+' ↗</a>').join(""):'運営投稿リンク未特定';
+  return '<tr><td>'+esc(g.date)+'</td><td>'+esc(g.parent)+'<div class="tiny">'+esc(names)+'</div></td><td>未照合 '+g.items.length+'件<div class="tiny">'+(links.length?'運営投稿URLは確認済み・★4全員の公式原文は未確認':'運営の原文・リンク探索中')+'</div></td><td>'+link+'</td></tr>';
  }).join("");
  return '<details class="panel"><summary style="cursor:pointer;font-weight:750">スタレ★4公式照合の進捗　'+verified+'/'+rows.length+'件・保留 '+outstanding.length+'件（'+items.length+'開催分）</summary><p class="hint" style="margin-top:12px">★4は同一開催の3人をまとめて表示。公式投稿へのリンクがあっても、日付と3人の原文照合が済んでいない場合は未照合のままです。2026年8月5日までの既存履歴を集計し、その後の追加開催分は含めません。</p><div class="scroll"><table><thead><tr><th>開催日</th><th>対象★5・★4</th><th>照合状況</th><th>運営告知</th></tr></thead><tbody>'+tr+'</tbody></table></div></details>';
 }
@@ -424,7 +425,10 @@ function applyHsrPublisherNoticeCandidates(primary,d){
   for(let i=0;i<3;i++){
    const id="hsr-four-pu-"+g.date+"-"+(i+1),e=byId.get(id);
    if(g.ids[i]!==id||!e||e.game!=="hsr"||e.type!=="character"||e.rarity!==4||e.banner_type!=="event_warp_four_star"||e.date!==g.date||e.featured_five_star!==g.featured_five_star||e.version!==g.names[i]||e.verification!=="secondary"||updates.has(id))throw Error("スタレ一次告知候補の元レコードとの不一致");
-   updates.set(id,{...e,publisher_notice_url:g.publisher_notice_url,publisher_notice_status:"公式投稿リンク発見・本文未確認",review_note:(e.review_note||"外部資料・要確認")+"／公式投稿リンクは特定済み。本文にある開催日と★4の直接確認待ち。"});
+   const validLink=url=>typeof url==="string"&&url.startsWith("https://");
+   const hoyolab=validLink(g.publisher_hoyolab_url)?g.publisher_hoyolab_url:"";
+   const facebook=validLink(g.publisher_facebook_url)?g.publisher_facebook_url:"";
+   updates.set(id,{...e,publisher_notice_url:g.publisher_notice_url,publisher_hoyolab_url:hoyolab,publisher_facebook_url:facebook,publisher_notice_status:"運営投稿へのリンク確認・★4原文未読",review_note:(e.review_note||"外部資料・要確認")+"／公式リンク"+(hoyolab?"（HoYoLAB含む）":"")+"特定済み。開催日と★4の全員を運営原文で直接照合するまで未照合。"});
   }
  }
  if(dates.size!==12||updates.size!==36)throw Error("スタレ一次告知候補の反映件数不一致");
