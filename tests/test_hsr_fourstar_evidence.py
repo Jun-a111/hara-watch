@@ -104,7 +104,7 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
         for date, url in source_links.items():
             g = groups[date]
             self.assertEqual(g["publisher_hoyolab_url"], url)
-            self.assertIn("not", g["research_status"].lower())
+            self.assertIn("original", g["research_status"].lower())
             self.assertEqual(g["status"], "publisher_notice_link_found_body_not_directly_accessible")
             self.assertEqual(len(g["ids"]), 3)
             for eid in g["ids"]:
