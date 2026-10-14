@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-hsr-publisher-notice-candidates-v1",
-  "audit_date": "2026-10-13",
+  "audit_date": "2026-10-14",
   "verification": "not_yet_verified",
   "group_count": 12,
   "count": 36,
@@ -72,7 +72,12 @@
       ],
       "publisher_notice_url": "https://www.miyoushe.com/sr/article/46955779",
       "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
-      "status": "publisher_notice_link_found_body_not_directly_accessible"
+      "status": "publisher_notice_link_found_body_not_directly_accessible",
+      "publisher_hoyolab_url": "https://www.hoyolab.com/article/23851896",
+      "publisher_hoyolab_title": "Floral Triptych / A Lost Soul Character Event Warp",
+      "external_roster_reference_url": "https://honkai-star-rail.fandom.com/wiki/Floral_Triptych/2023-12-27",
+      "research_status": "Official HoYoLAB event-warp source link confirmed by the event archive. Public renderer returns Loading; first-party original 4-star trio text remains unreadable.",
+      "observed_secondary_confirmation": "Contemporaneous guide (2023-12-27), the community event-warp archive and English fandom event page agree on 2023-12-27 and March 7th/Tingyun/Xueyi."
     },
     {
       "date": "2024-05-08",
@@ -208,7 +213,14 @@
       ],
       "publisher_notice_url": "https://www.miyoushe.com/sr/article/63312739",
       "reference_index_url": "https://moegirl.icu/崩坏：星穹铁道/跃迁",
-      "status": "publisher_notice_link_found_body_not_directly_accessible"
+      "status": "publisher_notice_link_found_body_not_directly_accessible",
+      "publisher_hoyolab_url": "https://www.hoyolab.com/article/38107267",
+      "publisher_hoyolab_title": "Version 3.2 Event Warp: Part I",
+      "publisher_facebook_url": "https://www.facebook.com/HonkaiStarRail/posts/version-32-event-warp-part-ievent-period-after-the-version-32-update-until-20250/720356157001233/",
+      "external_roster_reference_url": "https://honkai-star-rail.fandom.com/wiki/Blossom_to_the_Beyond/2025-04-09",
+      "research_status": "HoYoLAB original page and the publisher's English Facebook Event Warp: Part I post found; official start/end indexed. Direct first-party original character boost trio text not readable in full.",
+      "observed_secondary_confirmation": "2025-04-09/Apr 08 US release coverage, banner archives and reproduced Chinese announcement agree on Gallagher/Lynx/Pela. This does not satisfy the policy for publisher original full roster."
     }
-  ]
+  ],
+  "research_extension_note": "Publisher-authored HoYoLAB and Facebook source links added for two remaining historical unverified groups. Neither has original full 4-star boost roster directly accessible, thus no group is promoted to official. Existing primary Chinese miyoushe notice pointers remain unchanged."
 }
