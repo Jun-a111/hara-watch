@@ -77,7 +77,25 @@
       "publisher_hoyolab_title": "Floral Triptych / A Lost Soul Character Event Warp",
       "external_roster_reference_url": "https://honkai-star-rail.fandom.com/wiki/Floral_Triptych/2023-12-27",
       "research_status": "Official HoYoLAB event-warp source link confirmed by the event archive. Public renderer returns Loading; first-party original 4-star trio text remains unreadable.",
-      "observed_secondary_confirmation": "Contemporaneous guide (2023-12-27), the community event-warp archive and English fandom event page agree on 2023-12-27 and March 7th/Tingyun/Xueyi."
+      "observed_secondary_confirmation": "Contemporaneous guide (2023-12-27), the community event-warp archive and English fandom event page agree on 2023-12-27 and March 7th/Tingyun/Xueyi.",
+      "independent_contemporaneous_reprints": [
+        {
+          "url": "https://www.gamersky.com/handbook/202312/1690015.shtml",
+          "title": "游民星空・2023/12/27 米游社公式告知の転載",
+          "kind": "third_party_official_notice_reprint",
+          "source_date": "2023-12-27",
+          "evidence": "exact_start_and_full_roster"
+        },
+        {
+          "url": "https://game.xiaomi.com/viewpoint/1312334821_1703601764365_252",
+          "title": "小米游戏中心・2023/12/26 キャラガチャ告知転載",
+          "kind": "third_party_official_notice_reprint",
+          "source_date": "2023-12-26",
+          "evidence": "exact_start_and_full_roster"
+        }
+      ],
+      "secondary_evidence_status": "two_contemporaneous_reprints_match_start_and_all_3_fourstars",
+      "publisher_original_full_body_verified": false
     },
     {
       "date": "2024-05-08",
@@ -219,8 +237,26 @@
       "publisher_facebook_url": "https://www.facebook.com/HonkaiStarRail/posts/version-32-event-warp-part-ievent-period-after-the-version-32-update-until-20250/720356157001233/",
       "external_roster_reference_url": "https://honkai-star-rail.fandom.com/wiki/Blossom_to_the_Beyond/2025-04-09",
       "research_status": "HoYoLAB original page and the publisher's English Facebook Event Warp: Part I post found; official start/end indexed. Direct first-party original character boost trio text not readable in full.",
-      "observed_secondary_confirmation": "2025-04-09/Apr 08 US release coverage, banner archives and reproduced Chinese announcement agree on Gallagher/Lynx/Pela. This does not satisfy the policy for publisher original full roster."
+      "observed_secondary_confirmation": "2025-04-09/Apr 08 US release coverage, banner archives and reproduced Chinese announcement agree on Gallagher/Lynx/Pela. This does not satisfy the policy for publisher original full roster.",
+      "independent_contemporaneous_reprints": [
+        {
+          "url": "https://a.4399.cn/gl/48592824_217170.html",
+          "title": "4399・2025/04/08 3.2前半ガチャ告知転載",
+          "kind": "third_party_official_notice_reprint",
+          "source_date": "2025-04-08",
+          "evidence": "exact_start_and_full_roster"
+        },
+        {
+          "url": "https://www.233leyuan.com/post-detail/1909491844571226112",
+          "title": "233乐园・2025/04/08 3.2前半ガチャ告知転載",
+          "kind": "third_party_official_notice_reprint",
+          "source_date": "2025-04-08",
+          "evidence": "exact_start_and_full_roster"
+        }
+      ],
+      "secondary_evidence_status": "two_contemporaneous_reprints_match_start_and_all_3_fourstars",
+      "publisher_original_full_body_verified": false
     }
   ],
-  "research_extension_note": "Publisher-authored HoYoLAB and Facebook source links added for two remaining historical unverified groups. Neither has original full 4-star boost roster directly accessible, thus no group is promoted to official. Existing primary Chinese miyoushe notice pointers remain unchanged."
+  "research_extension_note": "Publisher-authored original links were identified, but full text remains inaccessible. For two outstanding groups, two contemporaneous third-party reprints independently present exact date and all four-star boost names. They do not establish publisher first-party verification."
 }
