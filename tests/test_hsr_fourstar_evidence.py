@@ -109,6 +109,25 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
             self.assertEqual(len(g["ids"]), 3)
             for eid in g["ids"]:
                 self.assertEqual(self.original[eid]["verification"], "secondary")
+        expected_reprint_hosts = {
+            "2023-12-27": {"www.gamersky.com", "game.xiaomi.com"},
+            "2025-04-09": {"a.4399.cn", "www.233leyuan.com"},
+        }
+        from urllib.parse import urlparse
+        for date, expected_hosts in expected_reprint_hosts.items():
+            g = groups[date]
+            self.assertIs(g["publisher_original_full_body_verified"], False)
+            self.assertEqual(g["secondary_evidence_status"],
+                             "two_contemporaneous_reprints_match_start_and_all_3_fourstars")
+            reprints = g["independent_contemporaneous_reprints"]
+            self.assertEqual(len(reprints), 2)
+            self.assertEqual({urlparse(x["url"]).netloc for x in reprints}, expected_hosts)
+            self.assertTrue(all(x["kind"] == "third_party_official_notice_reprint"
+                                and x["evidence"] == "exact_start_and_full_roster"
+                                and x["source_date"] <= date for x in reprints))
+        self.assertIn("hsr_secondary_reprints:reprints.map", html)
+        self.assertIn("当時の二次転載（公式原文とは別）", html)
+        self.assertIn("未照合 '+g.items.length+'件", html)
         self.assertIn("publisher_hoyolab_url:hoyolab", html)
         self.assertIn("公式HoYoLAB", html)
         self.assertIn("★4全員の公式原文は未確認", html)
