@@ -140,12 +140,11 @@
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "CN",
-    "title": "中国インディー『查無此地』、Steam早期アクセスを開始",
-    "summary": "ChillyRoomとCritTeamが開発する見下ろし型PvE脱出シューター『查無此地（No Such Place）』がSteam早期アクセスを開始。1人プレイとオンライン協力に対応し、拠点整備や装備収集を組み合わせる。",
+    "title": "中国インディー『No Such Place』、Steam早期アクセスを開始",
+    "summary": "ChillyRoomとCritTeamが開発する見下ろし型PvE脱出シューター『No Such Place』がSteam早期アクセスを開始。1人プレイとオンライン協力に対応し、拠点整備や装備収集を組み合わせる。",
     "url": "https://store.steampowered.com/app/3299050/No_Such_Place/?l=schinese",
-    "source": "『查無此地』Steam公式ページ",
+    "source": "『No Such Place』Steam公式ページ",
     "tags": [
-      "查無此地",
       "No Such Place",
       "ChillyRoom",
       "CritTeam",
@@ -155,7 +154,7 @@
       "協力プレイ"
     ],
     "spoiler": false,
-    "body": "■ Steamで早期アクセス開始\nChillyRoomとCritTeamが開発する『查無此地（No Such Place）』がSteam早期アクセスを開始した。中国向け告知では2026年10月14日開始と案内され、Steam上では地域・時差により10月13日と表示される場合がある。\n\n■ 見下ろし型のPvE脱出シューター\n本作は怪異調査を題材にした見下ろし型PvE脱出シューターで、単独プレイとオンライン協力に対応。探索で物資や手掛かりを回収し、脱出後に装備と拠点を整えて次の任務へ進む構成となっている。早期アクセス中のため、内容や仕様は今後変更される可能性がある。",
+    "body": "■ Steamで早期アクセス開始\nChillyRoomとCritTeamが開発する『No Such Place』がSteam早期アクセスを開始した。中国向け告知では2026年10月14日開始と案内され、Steam上では地域・時差により10月13日と表示される場合がある。\n\n■ 見下ろし型のPvE脱出シューター\n本作は怪異調査を題材にした見下ろし型PvE脱出シューターで、単独プレイとオンライン協力に対応。探索で物資や手掛かりを回収し、脱出後に装備と拠点を整えて次の任務へ進む構成となっている。早期アクセス中のため、内容や仕様は今後変更される可能性がある。",
     "timeline": [
       {
         "date": "2026年9月24日",
@@ -168,7 +167,7 @@
     ],
     "sources": [
       {
-        "name": "『查無此地』Steam公式ページ",
+        "name": "『No Such Place』Steam公式ページ",
         "url": "https://store.steampowered.com/app/3299050/No_Such_Place/?l=schinese",
         "type": "公式"
       }
