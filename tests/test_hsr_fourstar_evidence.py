@@ -93,6 +93,26 @@ class HsrFourStarEvidenceTests(unittest.TestCase):
                 self.assertEqual(self.original[eid]["version"], group["names"][i])
 
 
+    def test_last_two_historical_hoyolab_links_are_traceable_but_unverified(self):
+        doc = read("hsr-publisher-notice-candidates.json")
+        source_links = {
+            "2023-12-27": "https://www.hoyolab.com/article/23851896",
+            "2025-04-09": "https://www.hoyolab.com/article/38107267",
+        }
+        groups = {g["date"]: g for g in doc["groups"]}
+        html = (DATA / "index.html").read_text(encoding="utf-8")
+        for date, url in source_links.items():
+            g = groups[date]
+            self.assertEqual(g["publisher_hoyolab_url"], url)
+            self.assertIn("not", g["research_status"].lower())
+            self.assertEqual(g["status"], "publisher_notice_link_found_body_not_directly_accessible")
+            self.assertEqual(len(g["ids"]), 3)
+            for eid in g["ids"]:
+                self.assertEqual(self.original[eid]["verification"], "secondary")
+        self.assertIn("publisher_hoyolab_url:hoyolab", html)
+        self.assertIn("公式HoYoLAB", html)
+        self.assertIn("★4全員の公式原文は未確認", html)
+
     def test_outstanding_mirrors_are_secondary_only(self):
         doc = read("hsr-outstanding-mirror-evidence.json")
         self.assertEqual(doc["schema"], "gacha-wars-hsr-outstanding-mirror-evidence-v1")
