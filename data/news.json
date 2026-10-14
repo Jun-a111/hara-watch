@@ -1,5 +1,49 @@
 [
   {
+    "id": "china-industry-20261012-tencent-bond-plan",
+    "date": "2026-10-13",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "EN",
+    "title": "テンセント、米ドル・オフショア人民元債で約57億ドルを調達",
+    "summary": "Reutersによると、テンセントは米ドル建て18億ドルとオフショア人民元建て260億元の社債を発行し、合計約57億ドルを調達。注文額は合計230億ドルを超え、最終発行額の4倍超に達した。",
+    "url": "https://www.reuters.com/world/asia-pacific/tencent-markets-us-dollar-dim-sum-bonds-four-tranches-2026-10-13/",
+    "source": "Reuters",
+    "tags": [
+      "テンセント",
+      "社債",
+      "資金調達",
+      "AI投資",
+      "中国ゲーム企業",
+      "続報"
+    ],
+    "spoiler": false,
+    "body": "■ 約57億ドルの発行額が確定\nReutersは2026年10月13日、テンセントが米ドル建て18億ドルとオフショア人民元建て260億元の社債を発行し、合計約57億ドルを調達したと報じた。前日に伝えられた「少なくとも45億ドル規模」という計画から発行条件が確定した続報で、別案件ではない。\n\n■ 注文は発行額の4倍超\n内訳は米ドル建て10年債13億ドル・20年債5億ドル、人民元建て10年債200億元・30年債60億元。投資家からの注文は合計230億ドル超となり、最終発行額の4倍を上回った。\n\n■ ゲーム専用予算ではない\n調達資金の用途は一般的な企業目的とされる。テンセントはAI基盤や製品への投資を増やしているが、ゲーム事業だけに充当されると確認されたものではない。2026年上半期の設備投資は963億元で、前年同期の459億元から倍増した。",
+    "timeline": [
+      {
+        "date": "2026年10月12日",
+        "text": "テンセントが中期債プログラムに基づく発行案を公表。Reutersが少なくとも45億ドル規模との見通しを報道。"
+      },
+      {
+        "date": "2026年10月13日",
+        "text": "米ドル・オフショア人民元債で約57億ドルを調達。注文額は230億ドル超。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reuters・発行完了の続報",
+        "url": "https://www.reuters.com/world/asia-pacific/tencent-markets-us-dollar-dim-sum-bonds-four-tranches-2026-10-13/",
+        "type": "報道"
+      },
+      {
+        "name": "Reuters・発行計画",
+        "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
+        "type": "報道"
+      }
+    ],
+    "story_id": "tencent-bond-plan-20261012"
+  },
+  {
     "id": "wuwa-leak-20261012-v38-v0-test",
     "date": "2026-10-12",
     "category": "リーク",
@@ -129,50 +173,6 @@
     ],
     "needs_research": true,
     "story_id": "zzz-skin-debate-202610"
-  },
-  {
-    "id": "china-industry-20261012-tencent-bond-plan",
-    "date": "2026-10-13",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "EN",
-    "title": "テンセント、米ドル・オフショア人民元債で約57億ドルを調達",
-    "summary": "Reutersによると、テンセントは米ドル建て18億ドルとオフショア人民元建て260億元の社債を発行し、合計約57億ドルを調達。注文額は合計230億ドルを超え、最終発行額の4倍超に達した。",
-    "url": "https://www.reuters.com/world/asia-pacific/tencent-markets-us-dollar-dim-sum-bonds-four-tranches-2026-10-13/",
-    "source": "Reuters",
-    "tags": [
-      "テンセント",
-      "社債",
-      "資金調達",
-      "AI投資",
-      "中国ゲーム企業",
-      "続報"
-    ],
-    "spoiler": false,
-    "body": "■ 約57億ドルの発行額が確定\nReutersは2026年10月13日、テンセントが米ドル建て18億ドルとオフショア人民元建て260億元の社債を発行し、合計約57億ドルを調達したと報じた。前日に伝えられた「少なくとも45億ドル規模」という計画から発行条件が確定した続報で、別案件ではない。\n\n■ 注文は発行額の4倍超\n内訳は米ドル建て10年債13億ドル・20年債5億ドル、人民元建て10年債200億元・30年債60億元。投資家からの注文は合計230億ドル超となり、最終発行額の4倍を上回った。\n\n■ ゲーム専用予算ではない\n調達資金の用途は一般的な企業目的とされる。テンセントはAI基盤や製品への投資を増やしているが、ゲーム事業だけに充当されると確認されたものではない。2026年上半期の設備投資は963億元で、前年同期の459億元から倍増した。",
-    "timeline": [
-      {
-        "date": "2026年10月12日",
-        "text": "テンセントが中期債プログラムに基づく発行案を公表。Reutersが少なくとも45億ドル規模との見通しを報道。"
-      },
-      {
-        "date": "2026年10月13日",
-        "text": "米ドル・オフショア人民元債で約57億ドルを調達。注文額は230億ドル超。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Reuters・発行完了の続報",
-        "url": "https://www.reuters.com/world/asia-pacific/tencent-markets-us-dollar-dim-sum-bonds-four-tranches-2026-10-13/",
-        "type": "報道"
-      },
-      {
-        "name": "Reuters・発行計画",
-        "url": "https://www.reuters.com/world/asia-pacific/tencent-plans-dollar-offshore-yuan-bond-sale-under-note-programme-2026-10-12/",
-        "type": "報道"
-      }
-    ],
-    "story_id": "tencent-bond-plan-20261012"
   },
   {
     "id": "china-industry-20261012-division2-cn-shutdown",
