@@ -1,5 +1,198 @@
 [
   {
+    "id": "china-industry-20261014-kuro-yanzhiyu-ai-stake",
+    "date": "2026-10-14",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "KURO GAMES、AI新興企業の株式15％を取得。創業者が取締役に",
+    "summary": "中国メディアGame Tuoluoは、KURO GAMESが深圳のAI新興企業Yanzhiyu Technologyの株式15％を取得し、創業者の劉勝氏が取締役に就いたと報道。投資額は非公表で、約2億元という数字は同社の評価額とされる。",
+    "url": "https://www.youxituoluo.com/534962.html",
+    "source": "Game Tuoluo",
+    "tags": [
+      "KURO GAMES",
+      "AI",
+      "出資",
+      "Yanzhiyu Technology",
+      "マルチモーダル"
+    ],
+    "spoiler": false,
+    "body": "■ AI新興企業へ初の公開投資\nGame Tuoluoは2026年10月14日、KURO GAMESが深圳のAI新興企業Yanzhiyu Technologyの新規株主となり、株式15％を取得したと報じた。KURO GAMES創業者の劉勝氏も同社取締役に就任した。公開情報で確認できるKURO GAMESのAI企業投資としては初の事例とされる。\n\n■ 音声・映像・3Dキャラクター技術を展開\n出資先は、超写実的な音声生成、音楽・効果音生成、動画翻訳、リアルタイム対話、3Dキャラクター駆動などのマルチモーダル技術を手掛ける。Game Tuoluoはエンジェルラウンド時の評価額を約2億元と伝えているが、KURO GAMESの実際の出資額は公表されていない。",
+    "timeline": [
+      {
+        "date": "2026年10月14日",
+        "text": "Game TuoluoがKURO GAMESによる株式15％取得と取締役就任を報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Tuoluo・KURO GAMESのAI企業出資報道",
+        "url": "https://www.youxituoluo.com/534962.html",
+        "type": "報道"
+      }
+    ],
+    "story_id": "kuro-yanzhiyu-ai-stake-20261014"
+  },
+  {
+    "id": "china-industry-20261014-tencent-turkey-investments",
+    "date": "2026-10-14",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "テンセント、約15日でトルコのモバイルゲーム企業2社へ相次ぎ出資",
+    "summary": "Game Tuoluoは、テンセントがFlowGamesの4600万ドル調達に約3450万ドルを拠出したと報道。約15日前にはCircle Gamesの2500万ドル調達も主導しており、買収ではなく少数株出資を重ねている。",
+    "url": "https://www.youxituoluo.com/534963.html",
+    "source": "Game Tuoluo",
+    "tags": [
+      "テンセント",
+      "トルコ",
+      "FlowGames",
+      "Circle Games",
+      "モバイルゲーム",
+      "投資"
+    ],
+    "spoiler": false,
+    "body": "■ FlowGamesの調達に約3450万ドル\nGame Tuoluoは2026年10月14日、トルコのモバイルゲーム企業FlowGamesが4600万ドルを調達し、その約4分の3に当たる約3450万ドルをテンセントが拠出したと報じた。取引は買収ではなく少数株出資とされる。\n\n■ 約15日前にはCircle Gamesにも出資\nテンセントはその約15日前にも、トルコのCircle Gamesによる2500万ドルのシリーズAを主導したと報じられている。短期間の合計出資額は約6000万ドル規模で、広告収益とアプリ内課金を組み合わせるカジュアルゲーム企業への投資が続いている。",
+    "timeline": [
+      {
+        "date": "2026年9月末ごろ",
+        "text": "テンセントがCircle Gamesの2500万ドル規模のシリーズAを主導したと報道。"
+      },
+      {
+        "date": "2026年10月14日",
+        "text": "FlowGamesの4600万ドル調達にテンセントが約3450万ドルを拠出したと報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Tuoluo・テンセントのトルコ投資報道",
+        "url": "https://www.youxituoluo.com/534963.html",
+        "type": "報道"
+      }
+    ],
+    "story_id": "tencent-turkey-investments-20261014"
+  },
+  {
+    "id": "china-latest-20261015-sword-of-justice-nier-collab",
+    "date": "2026-10-15",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "CN",
+    "title": "NetEase『Sword of Justice』、『NieR:Automata』コラボを開始",
+    "summary": "NetEaseのMMORPG『Sword of Justice』が10月15日から11月15日まで『NieR:Automata』とのコラボを実施。テーマ衣装やペットなどを展開する。ストーリーの詳細には触れない。",
+    "url": "https://www.swordofjustice.com/zh-cht/news/official/20261014/40324_1316612.html",
+    "source": "『Sword of Justice』公式サイト",
+    "tags": [
+      "NetEase",
+      "Sword of Justice",
+      "NieR:Automata",
+      "コラボ",
+      "MMORPG"
+    ],
+    "spoiler": false,
+    "body": "■ 10月15日から1か月間のコラボ\nNetEaseのMMORPG『Sword of Justice』は、2026年10月15日から11月15日まで『NieR:Automata』との期間限定コラボを実施する。公式はコラボ衣装、ペット、各種テーマアイテムなどを案内している。\n\n■ 物語の内容は記載しない\n公式告知にはコラボの世界観や演出に関する説明も含まれるが、本記事ではストーリーや予告映像の核心に触れず、開催期間と実装内容の概要だけを整理する。",
+    "timeline": [
+      {
+        "date": "2026年10月14日",
+        "text": "公式サイトがコラボ内容と開催日程を発表。"
+      },
+      {
+        "date": "2026年10月15日",
+        "text": "『NieR:Automata』コラボを開始。"
+      },
+      {
+        "date": "2026年11月15日",
+        "text": "コラボ終了予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『Sword of Justice』公式サイト・コラボ告知",
+        "url": "https://www.swordofjustice.com/zh-cht/news/official/20261014/40324_1316612.html",
+        "type": "公式"
+      }
+    ],
+    "story_id": "sword-of-justice-nier-collab-20261015"
+  },
+  {
+    "id": "china-industry-20261014-mobile-market-q3",
+    "date": "2026-10-14",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "世界モバイルゲーム売上、2026年7～9月は前年比7％減。中国は最大市場を維持",
+    "summary": "Game TuoluoがAream & Coの市場資料を基に、2026年7～9月の世界モバイルゲーム課金売上は196億ドルで前年比7％減と報道。直近1年の国・地域別では中国が255億ドルで首位を維持した。",
+    "url": "https://www.youxituoluo.com/534960.html",
+    "source": "Game Tuoluo / Aream & Co",
+    "tags": [
+      "中国ゲーム市場",
+      "モバイルゲーム",
+      "市場動向",
+      "売上",
+      "Aream & Co"
+    ],
+    "spoiler": false,
+    "body": "■ 7～9月の世界売上は196億ドル\nGame TuoluoはAream & Coの市場資料を基に、2026年7～9月の世界モバイルゲーム課金売上が196億ドルとなり、前年同期比で7％減少したと報じた。直近1年のダウンロード数も約10％減少したという。\n\n■ 中国が最大市場を維持\n直近1年間の国・地域別モバイルゲーム売上では、中国が255億ドルで首位と報じられた。一方、世界の売上上位タイトルに2026年の新作はなく、長期運営タイトルへの集中が続いている。",
+    "timeline": [
+      {
+        "date": "2026年10月14日",
+        "text": "Game TuoluoがAream & Coの2026年7～9月市場資料を報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Tuoluo・世界モバイルゲーム市場報道",
+        "url": "https://www.youxituoluo.com/534960.html",
+        "type": "報道"
+      },
+      {
+        "name": "Aream & Co・Video Game Market Update Q3 2026",
+        "url": "https://www.aream.co/",
+        "type": "調査元"
+      }
+    ],
+    "story_id": "mobile-market-q3-20261014"
+  },
+  {
+    "id": "china-industry-20261013-glacier-network-q3-loss",
+    "date": "2026-10-13",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "Glacier Network、2026年1～9月は最大1.78億元の赤字見通し",
+    "summary": "中国ゲーム企業Glacier Networkは、2026年1～9月の純損失を1.25億～1.78億元と予想。Game Tuoluoは、新作『X-Clash』などの広告宣伝費増加と既存作の減収が響いたと報じた。",
+    "url": "https://www.youxituoluo.com/534965.html",
+    "source": "Game Tuoluo",
+    "tags": [
+      "Glacier Network",
+      "決算",
+      "業績予想",
+      "X-Clash",
+      "広告費",
+      "中国ゲーム企業"
+    ],
+    "spoiler": false,
+    "body": "■ 1～9月は赤字転落の見通し\nGame Tuoluoによると、中国ゲーム企業Glacier Networkは2026年10月13日、1～9月の株主帰属純損失が1.25億～1.78億元になるとの業績予想を公表した。前年同期は5.02億元の黒字だった。\n\n■ 新作の宣伝費と既存作の減収が重荷\n7～9月だけでも1.07億～1.52億元の純損失を見込む。報道は『X-Clash』など新作のユーザー獲得・広告宣伝費が増えた一方、既存タイトルの売上が減少したことを主因として挙げている。",
+    "timeline": [
+      {
+        "date": "2026年10月13日",
+        "text": "Glacier Networkが2026年1～9月の業績予想を公表。"
+      },
+      {
+        "date": "2026年10月15日",
+        "text": "Game Tuoluoが赤字見通しと費用構造を詳報。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Tuoluo・Glacier Network業績予想報道",
+        "url": "https://www.youxituoluo.com/534965.html",
+        "type": "報道"
+      }
+    ],
+    "story_id": "glacier-network-q3-loss-20261013"
+  },
+  {
     "id": "china-latest-20261015-jx-world4-launch",
     "date": "2026-10-15",
     "category": "中国ゲーム・最新",
