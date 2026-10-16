@@ -1,5 +1,140 @@
 [
   {
+    "id": "wuwa-official-20261016-aihuishou-collab",
+    "date": "2026-10-16",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "CN",
+    "title": "『鳴潮』、愛回収とのリサイクル連動企画を開始",
+    "summary": "『鳴潮』中国公式は、リユース事業者・愛回収との「返航新生」連動企画を10月16日に開始。リサイクル課題や招待企画で限定グッズを提供し、10月17日から広州の連動バスと4都市の屋外広告も展開する。",
+    "url": "https://www.taptap.cn/moment/859389442639531449",
+    "source": "『鳴潮』公式TapTap",
+    "tags": [
+      "鳴潮",
+      "KURO GAMES",
+      "愛回収",
+      "連動企画",
+      "リサイクル",
+      "中国"
+    ],
+    "spoiler": false,
+    "body": "■ 10月16日に中国で連動企画を開始\n『鳴潮』中国公式は、リユース事業者・愛回収との「返航新生」連動企画を2026年10月16日10時に開始した。参加者はリサイクルに関する「グリーンチャレンジ」や友人招待、抽選企画などを通じ、ステッカー、アクリルスタンド、記念コインなどの限定グッズを入手できる。\n\n■ 10月17日から4都市で屋外展開\n10月14日から複数都市で連動装飾車両を展開。10月17日からは広州でテーマバスが巡回し、広州・上海・深圳・成都の4都市に連動大型広告を掲出する。",
+    "timeline": [
+      {
+        "date": "2026年10月14日",
+        "text": "企画予約と一部の屋外展開を開始。"
+      },
+      {
+        "date": "2026年10月16日",
+        "text": "リサイクル連動企画を正式開始。"
+      },
+      {
+        "date": "2026年10月17日",
+        "text": "広州のテーマバス巡回と4都市の大型広告を開始予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『鳴潮』公式TapTap・愛回収連動企画",
+        "url": "https://www.taptap.cn/moment/859389442639531449",
+        "type": "公式"
+      }
+    ],
+    "story_id": "wuwa-aihuishou-collab-20261016"
+  },
+  {
+    "id": "china-latest-20261015-endfield-sanctuary-of-ink",
+    "date": "2026-10-15",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "EN",
+    "title": "『アークナイツ：エンドフィールド』大型更新「丹青渡」を配信、Steam版も開始",
+    "summary": "Hypergryph系の『アークナイツ：エンドフィールド』が大型更新「丹青渡」を配信。新地域・新オペレーター・複数イベントを追加し、同日にSteam版の配信も開始した。",
+    "url": "https://endfield.gryphline.com/news/9560",
+    "source": "『アークナイツ：エンドフィールド』公式サイト",
+    "tags": [
+      "アークナイツ：エンドフィールド",
+      "Hypergryph",
+      "丹青渡",
+      "大型アップデート",
+      "Steam"
+    ],
+    "spoiler": false,
+    "body": "■ 新地域を含む大型更新\n『アークナイツ：エンドフィールド』は2026年10月15日、大型更新「丹青渡」を配信した。新地域「祀の絵」、新オペレーター、新武器、敵、期間限定イベントなどを追加している。\n\n■ Steam版も同日開始\n大型更新に合わせ、Steam版の配信も開始。既存の公式ランチャー、Epic Games Store、PS5、iOS、AndroidにSteamが加わった。ストーリーの核心には触れず、追加要素と対応プラットフォームだけを整理する。",
+    "timeline": [
+      {
+        "date": "2026年10月6日",
+        "text": "大型更新とSteam版の10月15日配信を発表。"
+      },
+      {
+        "date": "2026年10月15日",
+        "text": "大型更新「丹青渡」とSteam版を配信開始。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『アークナイツ：エンドフィールド』公式・更新内容",
+        "url": "https://endfield.gryphline.com/news/9560",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・大型更新とSteam版",
+        "url": "https://www.gematsu.com/2026/10/arknights-endfield-version-update-sanctuary-of-ink-launches-october-15-alongside-steam-release",
+        "type": "報道"
+      }
+    ],
+    "story_id": "endfield-sanctuary-of-ink-20261015"
+  },
+  {
+    "id": "china-industry-20261016-ac-destiny-cancelled-report",
+    "date": "2026-10-16",
+    "category": "中国ゲーム業界",
+    "status": "未確認の噂",
+    "lang": "EN",
+    "title": "【未確認】テンセント傘下TiMi主導の『Assassin's Creed Destiny』が開発中止との報道",
+    "summary": "開発者の公開ポートフォリオを基に、TiMi Studio GroupとUbisoftが秦代中国を舞台にした据置機向け作品を開発していたものの、初期段階で中止したと複数媒体が報道。両社は正式発表していない。",
+    "url": "https://mp1st.com/news/report-cancelled-assassins-creed-destiny-unveiled-in-first-screenshots-gameplay-footage",
+    "source": "MP1st / VGC",
+    "tags": [
+      "テンセント",
+      "TiMi Studio Group",
+      "Ubisoft",
+      "Assassin's Creed Destiny",
+      "開発中止",
+      "未確認"
+    ],
+    "spoiler": false,
+    "body": "■ 開発者ポートフォリオから存在が判明したとの報道\nMP1stなどは2026年10月16日、TiMi Studio GroupとUbisoftがコードネーム『Assassin's Creed Destiny』を開発していたと報じた。複数の開発者が公開したポートフォリオに、2025年2月ごろの試作映像や素材が含まれていたという。\n\n■ 初期段階で中止とされるが公式確認なし\n報道では秦代中国を舞台にした据置機向けの主要作品で、開発初期に中止されたとされる。既発表のモバイル作品とは別案件だが、テンセント、TiMi、Ubisoftはいずれも本件を正式発表していないため、未確認情報として扱う。",
+    "timeline": [
+      {
+        "date": "2025年2月ごろ",
+        "text": "報道で確認された試作素材の制作時期。"
+      },
+      {
+        "date": "2026年10月16日",
+        "text": "MP1st、VGCなどが開発案件と中止情報を報道。公式確認はなし。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "MP1st・開発中止案件の調査報道",
+        "url": "https://mp1st.com/news/report-cancelled-assassins-creed-destiny-unveiled-in-first-screenshots-gameplay-footage",
+        "type": "未確認・報道"
+      },
+      {
+        "name": "VGC・開発中止案件の続報",
+        "url": "https://www.videogameschronicle.com/news/footage-from-a-reportedly-cancelled-assassins-creed-game-set-in-china-has-leaked/",
+        "type": "未確認・報道"
+      },
+      {
+        "name": "GamerSky・中国語圏での報道",
+        "url": "https://www.gamersky.com/news/202610/2229778.shtml",
+        "type": "未確認・報道"
+      }
+    ],
+    "story_id": "ac-destiny-cancelled-report-20261016"
+  },
+  {
     "id": "china-latest-20261015-sword-of-justice-nier-collab",
     "date": "2026-10-15",
     "category": "中国ゲーム・最新",
@@ -223,7 +358,7 @@
     "status": "報道",
     "lang": "CN",
     "title": "テンセント、約15日でトルコのモバイルゲーム企業2社へ相次ぎ出資",
-    "summary": "Game Tuoluoは、テンセントがFlowGamesの4600万ドル調達に約3450万ドルを拠出したと報道。約15日前にはCircle Gamesの2500万ドル調達も主導しており、買収ではなく少数株出資を重ねている。",
+    "summary": "Flow Gamesは10月16日、テンセントと3社のVCから累計4900万ドルを調達したと公式発表。先行報道の「今回4600万ドル」とは集計範囲が異なり、4900万ドルは複数ラウンドの累計額。『Smash Fest』は世界2300万ダウンロードを突破した。",
     "url": "https://www.youxituoluo.com/534963.html",
     "source": "Game Tuoluo",
     "tags": [
@@ -235,18 +370,32 @@
       "投資"
     ],
     "spoiler": false,
-    "body": "■ FlowGamesの調達に約3450万ドル\nGame Tuoluoは2026年10月14日、トルコのモバイルゲーム企業FlowGamesが4600万ドルを調達し、その約4分の3に当たる約3450万ドルをテンセントが拠出したと報じた。取引は買収ではなく少数株出資とされる。\n\n■ 約15日前にはCircle Gamesにも出資\nテンセントはその約15日前にも、トルコのCircle Gamesによる2500万ドルのシリーズAを主導したと報じられている。短期間の合計出資額は約6000万ドル規模で、広告収益とアプリ内課金を組み合わせるカジュアルゲーム企業への投資が続いている。",
+    "body": "■ 累計調達額は4900万ドル\nFlow Gamesは2026年10月16日、テンセント、Makers Fund、Arcadia Gaming Partners、Ludus Venturesからの累計調達額が4900万ドルに達したと発表した。PocketGamer.bizが先に伝えた4600万ドルは今回の資金パッケージ、4900万ドルは複数ラウンドを合算した累計額であり、同じ数字の訂正ではなく集計範囲が異なる。\n\n■ テンセントの拠出額は先行報道ベース\n先行報道では4600万ドルの約4分の3をテンセントが拠出したとされるが、Flow Gamesの公式発表は投資家別の金額を開示していない。『Smash Fest』は2026年5月の世界配信以降、2300万ダウンロードを突破。調達資金で人員拡大と世界展開を進めるとしている。\n\n■ トルコ投資が継続\nテンセントは約15日前にも、トルコのCircle Gamesによる2500万ドルのシリーズAを主導したと報じられている。買収ではなく少数株出資を重ねる形で、トルコのモバイルゲーム企業への投資が続いている。",
     "timeline": [
       {
         "date": "2026年9月末ごろ",
         "text": "テンセントがCircle Gamesの2500万ドル規模のシリーズAを主導したと報道。"
       },
       {
-        "date": "2026年10月14日",
-        "text": "FlowGamesの4600万ドル調達にテンセントが約3450万ドルを拠出したと報道。"
+        "date": "2026年10月13日",
+        "text": "PocketGamer.bizがFlow Gamesの4600万ドル資金パッケージを報道。約4分の3がテンセント出資とした。"
+      },
+      {
+        "date": "2026年10月16日",
+        "text": "Flow Gamesが複数ラウンドを合算した累計調達額4900万ドルと、『Smash Fest』2300万ダウンロードを発表。"
       }
     ],
     "sources": [
+      {
+        "name": "PocketGamer.biz・Flow Games公式発表の続報",
+        "url": "https://www.pocketgamer.biz/flow-games-confirms-49m-in-total-funding-from-tencent-and-vc-investors/",
+        "type": "報道"
+      },
+      {
+        "name": "PocketGamer.biz・4600万ドル資金パッケージの先行報道",
+        "url": "https://www.pocketgamer.biz/exclusive-turkish-developer-flow-games-secures-46m-in-funding-package-led-by-tencent/",
+        "type": "報道"
+      },
       {
         "name": "Game Tuoluo・テンセントのトルコ投資報道",
         "url": "https://www.youxituoluo.com/534963.html",
