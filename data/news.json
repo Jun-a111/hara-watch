@@ -43,49 +43,6 @@
     "story_id": "wuwa-aihuishou-collab-20261016"
   },
   {
-    "id": "china-latest-20261015-endfield-sanctuary-of-ink",
-    "date": "2026-10-15",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "EN",
-    "title": "『アークナイツ：エンドフィールド』大型更新「丹青渡」を配信、Steam版も開始",
-    "summary": "Hypergryph系の『アークナイツ：エンドフィールド』が大型更新「丹青渡」を配信。新地域・新オペレーター・複数イベントを追加し、同日にSteam版の配信も開始した。",
-    "url": "https://endfield.gryphline.com/news/9560",
-    "source": "『アークナイツ：エンドフィールド』公式サイト",
-    "tags": [
-      "アークナイツ：エンドフィールド",
-      "Hypergryph",
-      "丹青渡",
-      "大型アップデート",
-      "Steam"
-    ],
-    "spoiler": false,
-    "body": "■ 新地域を含む大型更新\n『アークナイツ：エンドフィールド』は2026年10月15日、大型更新「丹青渡」を配信した。新地域「祀の絵」、新オペレーター、新武器、敵、期間限定イベントなどを追加している。\n\n■ Steam版も同日開始\n大型更新に合わせ、Steam版の配信も開始。既存の公式ランチャー、Epic Games Store、PS5、iOS、AndroidにSteamが加わった。ストーリーの核心には触れず、追加要素と対応プラットフォームだけを整理する。",
-    "timeline": [
-      {
-        "date": "2026年10月6日",
-        "text": "大型更新とSteam版の10月15日配信を発表。"
-      },
-      {
-        "date": "2026年10月15日",
-        "text": "大型更新「丹青渡」とSteam版を配信開始。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『アークナイツ：エンドフィールド』公式・更新内容",
-        "url": "https://endfield.gryphline.com/news/9560",
-        "type": "公式"
-      },
-      {
-        "name": "Gematsu・大型更新とSteam版",
-        "url": "https://www.gematsu.com/2026/10/arknights-endfield-version-update-sanctuary-of-ink-launches-october-15-alongside-steam-release",
-        "type": "報道"
-      }
-    ],
-    "story_id": "endfield-sanctuary-of-ink-20261015"
-  },
-  {
     "id": "china-industry-20261016-ac-destiny-cancelled-report",
     "date": "2026-10-16",
     "category": "中国ゲーム業界",
@@ -223,6 +180,49 @@
       }
     ],
     "story_id": "jx-world4-launch-20261015"
+  },
+  {
+    "id": "china-latest-20261015-endfield-sanctuary-of-ink",
+    "date": "2026-10-15",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "EN",
+    "title": "『アークナイツ：エンドフィールド』大型更新「丹青渡」を配信、Steam版も開始",
+    "summary": "Hypergryph系の『アークナイツ：エンドフィールド』が大型更新「丹青渡」を配信。新地域・新オペレーター・複数イベントを追加し、同日にSteam版の配信も開始した。",
+    "url": "https://endfield.gryphline.com/news/9560",
+    "source": "『アークナイツ：エンドフィールド』公式サイト",
+    "tags": [
+      "アークナイツ：エンドフィールド",
+      "Hypergryph",
+      "丹青渡",
+      "大型アップデート",
+      "Steam"
+    ],
+    "spoiler": false,
+    "body": "■ 新地域を含む大型更新\n『アークナイツ：エンドフィールド』は2026年10月15日、大型更新「丹青渡」を配信した。新地域「祀の絵」、新オペレーター、新武器、敵、期間限定イベントなどを追加している。\n\n■ Steam版も同日開始\n大型更新に合わせ、Steam版の配信も開始。既存の公式ランチャー、Epic Games Store、PS5、iOS、AndroidにSteamが加わった。ストーリーの核心には触れず、追加要素と対応プラットフォームだけを整理する。",
+    "timeline": [
+      {
+        "date": "2026年10月6日",
+        "text": "大型更新とSteam版の10月15日配信を発表。"
+      },
+      {
+        "date": "2026年10月15日",
+        "text": "大型更新「丹青渡」とSteam版を配信開始。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『アークナイツ：エンドフィールド』公式・更新内容",
+        "url": "https://endfield.gryphline.com/news/9560",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・大型更新とSteam版",
+        "url": "https://www.gematsu.com/2026/10/arknights-endfield-version-update-sanctuary-of-ink-launches-october-15-alongside-steam-release",
+        "type": "報道"
+      }
+    ],
+    "story_id": "endfield-sanctuary-of-ink-20261015"
   },
   {
     "id": "china-latest-20261015-ecc-redline-first-test",
