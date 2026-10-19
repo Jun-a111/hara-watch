@@ -1,5 +1,61 @@
 [
   {
+    "id": "china-latest-20261018-monster-hunter-outlanders-13m",
+    "date": "2026-10-18",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "EN",
+    "title": "TiMi『Monster Hunter Outlanders』、世界事前登録1,300万件を突破",
+    "summary": "Tencent傘下TiMi Studio Group開発のモバイル向けオープンワールドアクションが、世界事前登録1,300万件を突破。1,000万件達成報酬として双剣の冒険者Rayaを正式サービス開始時に配布する。世界版は10月29日、中国本土版は2027年以降の予定。",
+    "url": "https://x.com/MHO_English/status/2111638399228707042",
+    "source": "『Monster Hunter Outlanders』公式X",
+    "tags": [
+      "Tencent",
+      "TiMi Studio Group",
+      "Monster Hunter Outlanders",
+      "事前登録",
+      "世界展開",
+      "10月29日"
+    ],
+    "spoiler": false,
+    "body": "■ 世界事前登録1,300万件を公式発表\n『Monster Hunter Outlanders』公式は2026年10月18日、世界の事前登録数が1,300万件を超えたと発表した。集計には中国本土版と、メール登録および各ストアでの事前登録が含まれる。ダウンロード数やアクティブ利用者数を示す数字ではない。\n\n■ 1,000万件達成報酬と配信日\n1,000万件達成報酬として、双剣を使う冒険者Rayaが正式サービス開始時に部隊へ加入する。Tencent傘下のTiMi Studio GroupがCapcomの協力を得て開発するモバイル向けオープンワールドアクションで、世界版は10月29日に正式配信予定。中国本土版は2027年以降の配信を予定している。",
+    "timeline": [
+      {
+        "date": "2026年10月18日",
+        "text": "世界事前登録1,300万件突破と1,000万件達成報酬を公式発表。"
+      },
+      {
+        "date": "2026年10月29日",
+        "text": "世界版を正式配信予定。"
+      },
+      {
+        "date": "2027年以降",
+        "text": "中国本土版を配信予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『Monster Hunter Outlanders』公式X",
+        "url": "https://x.com/MHO_English/status/2111638399228707042",
+        "date": "2026-10-18",
+        "type": "公式"
+      },
+      {
+        "name": "GamerSky・事前登録1,300万件突破の報道",
+        "url": "https://www.gamersky.com/news/202610/2230386.shtml",
+        "date": "2026-10-19",
+        "type": "報道"
+      },
+      {
+        "name": "17173・事前登録節目の報道",
+        "url": "https://news.17173.com/content/10192026/103130527.shtml",
+        "date": "2026-10-19",
+        "type": "報道"
+      }
+    ],
+    "story_id": "monster-hunter-outlanders-13m-20261018"
+  },
+  {
     "id": "wuwa-official-20261018-suoming-profile-combat-showcase",
     "date": "2026-10-18",
     "category": "鳴潮",
