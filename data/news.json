@@ -1,5 +1,49 @@
 [
   {
+    "id": "wuwa-official-20261018-suoming-profile-combat-showcase",
+    "date": "2026-10-18",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『鳴潮』、共鳴者「鎖暝」のプロフィールと戦闘映像を公開",
+    "summary": "『鳴潮』公式は10月18日、Ver.3.7後半の共鳴者「鎖暝」について、日本語プロフィールと中国向け戦闘映像を公開。人物設定と戦闘演出を正式に確認できる段階へ進んだ。",
+    "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5649",
+    "source": "『鳴潮』公式サイト / 公式TapTap",
+    "tags": [
+      "鳴潮",
+      "KURO GAMES",
+      "鎖暝",
+      "Ver.3.7",
+      "共鳴者",
+      "戦闘映像"
+    ],
+    "spoiler": false,
+    "body": "■ 10月18日に公式プロフィールを公開\n『鳴潮』日本公式は2026年10月18日、Ver.3.7で登場する共鳴者「鎖暝」のプロフィールを公開した。夢州・華亭出身で、故郷の災厄に対処するため「禁鎖の十契」を設立し、州監として活動する人物と紹介されている。\n\n■ 戦闘映像も同日公開\n中国公式は同日、鎖暝の戦闘映像を公開。実装前に戦闘時の動きと演出を公式映像で確認できるようになった。物語の核心や演出上のネタバレには触れない。",
+    "timeline": [
+      {
+        "date": "2026年9月",
+        "text": "Ver.3.7の新共鳴者として鎖暝を発表。"
+      },
+      {
+        "date": "2026年10月18日",
+        "text": "日本公式がプロフィールを、中国公式が戦闘映像を公開。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『鳴潮』日本公式・鎖暝プロフィール",
+        "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5649",
+        "type": "公式"
+      },
+      {
+        "name": "『鳴潮』公式TapTap・鎖暝戦闘映像",
+        "url": "https://www.taptap.cn/moment/860630334436281057?group_id=330015",
+        "type": "公式"
+      }
+    ],
+    "story_id": "wuwa-suoming-profile-combat-showcase-20261018"
+  },
+  {
     "id": "china-latest-20261018-monster-hunter-outlanders-13m",
     "date": "2026-10-18",
     "category": "中国ゲーム・最新",
@@ -54,50 +98,6 @@
       }
     ],
     "story_id": "monster-hunter-outlanders-13m-20261018"
-  },
-  {
-    "id": "wuwa-official-20261018-suoming-profile-combat-showcase",
-    "date": "2026-10-18",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『鳴潮』、共鳴者「鎖暝」のプロフィールと戦闘映像を公開",
-    "summary": "『鳴潮』公式は10月18日、Ver.3.7後半の共鳴者「鎖暝」について、日本語プロフィールと中国向け戦闘映像を公開。人物設定と戦闘演出を正式に確認できる段階へ進んだ。",
-    "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5649",
-    "source": "『鳴潮』公式サイト / 公式TapTap",
-    "tags": [
-      "鳴潮",
-      "KURO GAMES",
-      "鎖暝",
-      "Ver.3.7",
-      "共鳴者",
-      "戦闘映像"
-    ],
-    "spoiler": false,
-    "body": "■ 10月18日に公式プロフィールを公開\n『鳴潮』日本公式は2026年10月18日、Ver.3.7で登場する共鳴者「鎖暝」のプロフィールを公開した。夢州・華亭出身で、故郷の災厄に対処するため「禁鎖の十契」を設立し、州監として活動する人物と紹介されている。\n\n■ 戦闘映像も同日公開\n中国公式は同日、鎖暝の戦闘映像を公開。実装前に戦闘時の動きと演出を公式映像で確認できるようになった。物語の核心や演出上のネタバレには触れない。",
-    "timeline": [
-      {
-        "date": "2026年9月",
-        "text": "Ver.3.7の新共鳴者として鎖暝を発表。"
-      },
-      {
-        "date": "2026年10月18日",
-        "text": "日本公式がプロフィールを、中国公式が戦闘映像を公開。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『鳴潮』日本公式・鎖暝プロフィール",
-        "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5649",
-        "type": "公式"
-      },
-      {
-        "name": "『鳴潮』公式TapTap・鎖暝戦闘映像",
-        "url": "https://www.taptap.cn/moment/860630334436281057?group_id=330015",
-        "type": "公式"
-      }
-    ],
-    "story_id": "wuwa-suoming-profile-combat-showcase-20261018"
   },
   {
     "id": "china-latest-20261017-justice-new-world-miao-expansion-details",
