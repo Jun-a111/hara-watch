@@ -1,55 +1,5 @@
 [
   {
-    "id": "china-industry-20261020-qingci-gbits-cooperation",
-    "date": "2026-10-20",
-    "category": "中国ゲーム業界",
-    "status": "公式発表",
-    "lang": "CN",
-    "title": "Qingci GamesとG-bits、2027～2029年のゲーム協力枠組みを更新",
-    "summary": "Qingci Gamesは主要株主G-bitsと、ゲームのマーケティング・プロモーションを相互提供する枠組み契約を締結。2027年に複数の新作投入を計画し、2029年末までの協力継続を見込む。一部取引は独立株主の承認が必要。",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
-    "source": "Qingci Games・香港証券取引所公告",
-    "tags": [
-      "Qingci Games",
-      "G-bits",
-      "中国ゲーム業界",
-      "業務提携",
-      "マーケティング",
-      "新作計画"
-    ],
-    "spoiler": false,
-    "body": "■ 2029年末までのゲーム協力枠組みを締結\nQingci Gamesは2026年10月20日、主要株主のG-bitsと新たなゲーム協力枠組み契約を締結した。両社は2027年から2029年まで、ゲームのマーケティング、宣伝、広告などのサービスを相互に提供する。\n\n■ 2027年に複数の新作投入を計画\nQingci Gamesは、2027年に複数の新作を投入する計画を年間上限設定の根拠として示した。同社がG-bitsへ支払うマーケティング費用の年間上限は、2027年7,500万元、2028年9,000万元、2029年1億800万元。逆方向の年間上限はそれぞれ450万元、600万元、700万元としている。これは上限額であり、実際の支払額や確定投資額ではない。\n\n■ 一部取引は株主承認が必要\nQingci GamesがG-bitsへ支払う取引と年間上限は、独立株主の承認対象となる。会社は関連資料を11月27日までに送付する予定としている。",
-    "timeline": [
-      {
-        "date": "2026年10月20日",
-        "text": "2027～2029年を対象とするゲーム協力枠組み契約を締結。"
-      },
-      {
-        "date": "2026年11月27日まで",
-        "text": "独立株主向けの通函を送付予定。"
-      },
-      {
-        "date": "2027～2029年",
-        "text": "マーケティング・プロモーション協力の契約期間。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Qingci Games・香港証券取引所公告",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
-        "date": "2026-10-20",
-        "type": "公式"
-      },
-      {
-        "name": "鳳凰網・協力枠組み契約の報道",
-        "url": "https://news.ifeng.com/c/8xNirUVRc1j",
-        "date": "2026-10-20",
-        "type": "報道"
-      }
-    ],
-    "story_id": "qingci-gbits-cooperation-20261020"
-  },
-  {
     "id": "china-latest-20261020-reblade-demo",
     "date": "2026-10-20",
     "category": "中国ゲーム・最新",
@@ -98,6 +48,56 @@
       }
     ],
     "story_id": "reblade-demo-20261020"
+  },
+  {
+    "id": "china-industry-20261020-qingci-gbits-cooperation",
+    "date": "2026-10-20",
+    "category": "中国ゲーム業界",
+    "status": "公式発表",
+    "lang": "CN",
+    "title": "Qingci GamesとG-bits、2027～2029年のゲーム協力枠組みを更新",
+    "summary": "Qingci Gamesは主要株主G-bitsと、ゲームのマーケティング・プロモーションを相互提供する枠組み契約を締結。2027年に複数の新作投入を計画し、2029年末までの協力継続を見込む。一部取引は独立株主の承認が必要。",
+    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
+    "source": "Qingci Games・香港証券取引所公告",
+    "tags": [
+      "Qingci Games",
+      "G-bits",
+      "中国ゲーム業界",
+      "業務提携",
+      "マーケティング",
+      "新作計画"
+    ],
+    "spoiler": false,
+    "body": "■ 2029年末までのゲーム協力枠組みを締結\nQingci Gamesは2026年10月20日、主要株主のG-bitsと新たなゲーム協力枠組み契約を締結した。両社は2027年から2029年まで、ゲームのマーケティング、宣伝、広告などのサービスを相互に提供する。\n\n■ 2027年に複数の新作投入を計画\nQingci Gamesは、2027年に複数の新作を投入する計画を年間上限設定の根拠として示した。同社がG-bitsへ支払うマーケティング費用の年間上限は、2027年7,500万元、2028年9,000万元、2029年1億800万元。逆方向の年間上限はそれぞれ450万元、600万元、700万元としている。これは上限額であり、実際の支払額や確定投資額ではない。\n\n■ 一部取引は株主承認が必要\nQingci GamesがG-bitsへ支払う取引と年間上限は、独立株主の承認対象となる。会社は関連資料を11月27日までに送付する予定としている。",
+    "timeline": [
+      {
+        "date": "2026年10月20日",
+        "text": "2027～2029年を対象とするゲーム協力枠組み契約を締結。"
+      },
+      {
+        "date": "2026年11月27日まで",
+        "text": "独立株主向けの通函を送付予定。"
+      },
+      {
+        "date": "2027～2029年",
+        "text": "マーケティング・プロモーション協力の契約期間。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Qingci Games・香港証券取引所公告",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
+        "date": "2026-10-20",
+        "type": "公式"
+      },
+      {
+        "name": "鳳凰網・協力枠組み契約の報道",
+        "url": "https://news.ifeng.com/c/8xNirUVRc1j",
+        "date": "2026-10-20",
+        "type": "報道"
+      }
+    ],
+    "story_id": "qingci-gbits-cooperation-20261020"
   },
   {
     "id": "wuwa-official-20261018-suoming-profile-combat-showcase",
