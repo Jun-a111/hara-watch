@@ -1,5 +1,157 @@
 [
   {
+    "id": "china-latest-20261023-azur-promilia-release-date",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『アズールプロミリア』、11月26日に日本・中国など4地域で正式リリース",
+    "summary": "Manjuu Games開発、Yostar共同運営のファンタジーワールドRPGが、11月26日に日本・中国・韓国・台湾でPC・iOS・Android向けに正式リリースされる。日本公式も日程を発表し、事前登録を受付中。",
+    "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
+    "source": "『アズールプロミリア』日本公式X / Gematsu",
+    "tags": [
+      "アズールプロミリア",
+      "Manjuu Games",
+      "Yostar",
+      "正式リリース",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "spoiler": false,
+    "body": "■ 11月26日に4地域で正式リリース\nManjuu Gamesが開発し、日本ではYostarと共同展開する『アズールプロミリア』は、2026年11月26日に日本・中国・韓国・台湾で正式リリースされる。対応プラットフォームはPC、iOS、Androidで、基本プレイ無料。日本公式は10月23日に発売日を告知し、事前登録を受け付けている。\n\n■ 英語版は別日程\n海外報道によると、英語版は2027年夏のオープンベータを目標としており、今回発表された11月26日の対象地域には含まれない。物語や映像の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "日本公式が正式リリース日を発表。"
+      },
+      {
+        "date": "2026年11月26日",
+        "text": "日本・中国・韓国・台湾でPC・iOS・Android版を正式リリース予定。"
+      },
+      {
+        "date": "2027年夏",
+        "text": "英語版のオープンベータを目標。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『アズールプロミリア』日本公式X",
+        "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・地域別リリース日と英語版計画",
+        "url": "https://www.gematsu.com/2026/10/azur-promilia-launches-november-26-in-japan-south-korea-taiwan-and-china",
+        "date": "2026-10-23",
+        "type": "報道"
+      }
+    ],
+    "story_id": "azur-promilia-release-date-20261126"
+  },
+  {
+    "id": "china-latest-20261023-petit-planet-preview-program",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "HoYoverse新作『プチプラネット』、11月1日にリリース予告番組を配信",
+    "summary": "2026年冬の正式リリースを予定するスローライフゲーム。11月1日20:00（日本時間）から公式YouTubeとXで番組を配信し、ゲーム内容や今後のイベント・キャンペーンを紹介する。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
+    "source": "HoYoverse / COGNOSPHERE公式発表",
+    "tags": [
+      "HoYoverse",
+      "プチプラネット",
+      "新作",
+      "リリース予告番組",
+      "PC",
+      "iOS",
+      "Android",
+      "事前登録"
+    ],
+    "spoiler": false,
+    "body": "■ 11月1日20:00から公式番組\nHoYoverseは2026年10月23日、新作スローライフゲーム『プチプラネット』の「リリース予告番組」を11月1日20:00（日本時間）から公式YouTubeと公式Xで配信すると発表した。開発チームとゲストが、ゲーム内容や今後のイベント・キャンペーンを紹介する。\n\n■ 今冬リリース、全プラットフォームで事前登録中\n正式リリースは2026年冬を予定。PC、iOS、Android間のデータ連携に対応し、全プラットフォームで事前登録を受け付けている。番組や作品の物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "リリース予告番組の配信日を発表。"
+      },
+      {
+        "date": "2026年11月1日",
+        "text": "20:00（日本時間）から公式YouTube・公式Xで番組を配信予定。"
+      },
+      {
+        "date": "2026年冬",
+        "text": "PC・iOS・Android向けに正式リリース予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "HoYoverse / COGNOSPHERE公式発表",
+        "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "『プチプラネット』公式YouTube配信待機ページ",
+        "url": "https://youtube.com/live/APPc11eocMM?feature=share",
+        "date": "2026-10-23",
+        "type": "公式"
+      }
+    ],
+    "story_id": "petit-planet-preview-program-20261101"
+  },
+  {
+    "id": "china-latest-20261023-genshin-v72-release",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『原神』Ver.7.2、11月4日に配信決定",
+    "summary": "HoYoverseは10月23日の特別番組と公式PVでVer.7.2の情報を公開し、11月4日の配信を案内した。本記事では新キャラクターや物語・PVの核心には触れない。",
+    "url": "https://genshin.hoyoverse.com/m/ja/home",
+    "source": "『原神』公式サイト / Gematsu",
+    "tags": [
+      "原神",
+      "HoYoverse",
+      "Ver.7.2",
+      "大型アップデート",
+      "PC",
+      "PS5",
+      "Xbox",
+      "iOS",
+      "Android"
+    ],
+    "spoiler": false,
+    "body": "■ Ver.7.2は11月4日配信\nHoYoverseは2026年10月23日、『原神』Ver.7.2の特別番組と公式PVを公開し、11月4日の配信を発表した。対応中のPC、PS5、Xbox Series、iOS、Android向けアップデートとなる。\n\n■ ネタバレを避けて記録\n公式発表には新キャラクター、イベント、物語に関する情報が含まれるが、本記事ではストーリーの核心やPVの展開には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "Ver.7.2特別番組と公式PVを公開。"
+      },
+      {
+        "date": "2026年11月4日",
+        "text": "Ver.7.2を配信予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『原神』日本公式サイト",
+        "url": "https://genshin.hoyoverse.com/m/ja/home",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・Ver.7.2配信日の報道",
+        "url": "https://www.gematsu.com/2026/10/genshin-impact-version-version-7-2-update-hour-of-ruin-launches-november-4",
+        "date": "2026-10-23",
+        "type": "報道"
+      }
+    ],
+    "story_id": "genshin-v72-release-20261104"
+  },
+  {
     "id": "china-latest-20261023-basketball-girls-launch",
     "date": "2026-10-23",
     "category": "中国ゲーム・最新",
@@ -210,6 +362,60 @@
       }
     ],
     "story_id": "draw-and-stow-reveal-20261022"
+  },
+  {
+    "id": "china-latest-20261021-ordinary-oddness-reveal",
+    "date": "2026-10-21",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "Tencent傘下の新作『Ordinary Oddness』発表、22分のゲームプレイ映像を公開",
+    "summary": "COSMICPUP STUDIOが都市怪談を題材にしたオープンワールドRPGを発表。PS5、Xbox Series、PC向けに開発中で、Steam・Epic Games Store・WeGameのページと事前登録を公開した。発売日は未定。",
+    "url": "https://store.steampowered.com/app/3988530/Ordinary_Oddness/",
+    "source": "Steam公式ページ / AUTOMATON China",
+    "tags": [
+      "Tencent Games",
+      "COSMICPUP STUDIO",
+      "Ordinary Oddness",
+      "新作",
+      "オープンワールドRPG",
+      "PS5",
+      "Xbox Series",
+      "PC"
+    ],
+    "spoiler": false,
+    "body": "■ Tencent Games傘下スタジオの新作\nCOSMICPUP STUDIOは2026年10月21日、都市怪談を題材にしたオープンワールドRPG『Ordinary Oddness』を正式発表し、約22分のゲームプレイ映像を公開した。スタジオはTencent Games傘下で、作品は現在開発中。\n\n■ PC・PS5・Xbox Series向け\n対応プラットフォームはPS5、Xbox Series、PC。PC版はSteam、Epic Games Store、WeGameで展開予定で、事前登録も始まった。発売日とテスト日程は未発表。映像に含まれる物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月21日",
+        "text": "新作発表、約22分のゲームプレイ映像公開、事前登録開始。"
+      },
+      {
+        "date": "未定",
+        "text": "発売日とテスト日程は未発表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Steam公式ページ",
+        "url": "https://store.steampowered.com/app/3988530/Ordinary_Oddness/",
+        "date": "2026-10-20",
+        "type": "公式"
+      },
+      {
+        "name": "AUTOMATON China・発表内容の報道",
+        "url": "https://automaton-china.com/all/platform/pc/20261021-31297-kai-fang-shi-jie-rpg-ren-jian-yi-xiang-ji-hua/",
+        "date": "2026-10-21",
+        "type": "報道"
+      },
+      {
+        "name": "公式Bilibiliゲームプレイ映像",
+        "url": "https://www.bilibili.com/video/BV1Ranw6DEYW/",
+        "date": "2026-10-21",
+        "type": "公式"
+      }
+    ],
+    "story_id": "ordinary-oddness-reveal-20261021"
   },
   {
     "id": "china-latest-20261020-reblade-demo",
