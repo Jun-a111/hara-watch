@@ -1,18 +1,18 @@
 {
   "schema": "gacha-wars-release-candidates-v1",
-  "updated_at": "2026-10-22T23:36:56+00:00",
+  "updated_at": "2026-10-23T08:43:00+00:00",
   "status": {
     "ww": {
       "ok": true,
-      "body_cached": 3,
+      "body_cached": 4,
       "body_rendered": 4,
       "body_errors": 1,
       "body_parsed": 4,
       "body_refresh_failed": 1,
-      "links_found": 5,
+      "links_found": 6,
       "index_links_found": 0,
       "static_index_error": "",
-      "browser_links_found": 1,
+      "browser_links_found": 2,
       "browser_index_error": "",
       "browser_diagnostics": {
         "api_json": 0,
@@ -26,8 +26,8 @@
         "title_like_nodes": 1,
         "news_detail_dom_urls": 0,
         "page_url": "https://wutheringwaves.kurogames.com/jp/main/news",
-        "kuro_text_click_attempts": 1,
-        "kuro_text_click_verified": 1,
+        "kuro_text_click_attempts": 2,
+        "kuro_text_click_verified": 2,
         "kuro_visible_titles": [
           "『鳴潮』Ver.3.7 共鳴者・武器集音（イベント）第二期",
           "『鳴潮』Ver.3.7 共鳴者・武器集音（イベント）第一期",
@@ -103,11 +103,14 @@
         "kuro_click_destinations": [
           [
             "https://wutheringwaves.kurogames.com/jp/main/news/detail/5670"
+          ],
+          [
+            "https://wutheringwaves.kurogames.com/jp/main/news/detail/5458"
           ]
         ]
       },
       "seed_links": 4,
-      "checked_at": "2026-10-22T23:36:56+00:00"
+      "checked_at": "2026-10-23T08:43:00+00:00"
     },
     "end": {
       "ok": true,
@@ -126,7 +129,7 @@
         "api_pairs": 10,
         "dom_anchors": 23,
         "filtered": 5,
-        "json_responses_seen": 4,
+        "json_responses_seen": 5,
         "api_shapes": [
           [
             "code",
@@ -242,7 +245,7 @@
         "rejected": 28
       },
       "seed_links": 0,
-      "checked_at": "2026-10-22T23:36:56+00:00"
+      "checked_at": "2026-10-23T08:43:00+00:00"
     },
     "gi": {
       "ok": true,
@@ -266,7 +269,7 @@
         "rejected": 31
       },
       "seed_links": 3,
-      "checked_at": "2026-10-22T23:36:56+00:00"
+      "checked_at": "2026-10-23T08:43:00+00:00"
     },
     "hsr": {
       "ok": true,
@@ -290,31 +293,31 @@
         "rejected": 35
       },
       "seed_links": 1,
-      "checked_at": "2026-10-22T23:36:56+00:00"
+      "checked_at": "2026-10-23T08:43:00+00:00"
     },
     "zzz": {
       "ok": true,
-      "body_cached": 9,
-      "body_rendered": 9,
+      "body_cached": 8,
+      "body_rendered": 8,
       "body_errors": 0,
-      "body_parsed": 9,
+      "body_parsed": 8,
       "body_refresh_failed": 0,
-      "links_found": 9,
+      "links_found": 8,
       "index_links_found": 0,
       "static_index_error": "",
-      "browser_links_found": 5,
+      "browser_links_found": 4,
       "browser_index_error": "",
       "browser_diagnostics": {
         "api_json": 0,
         "api_pairs": 0,
         "dom_anchors": 53,
-        "filtered": 10,
+        "filtered": 8,
         "json_responses_seen": 0,
         "api_shapes": [],
-        "rejected": 43
+        "rejected": 45
       },
       "seed_links": 4,
-      "checked_at": "2026-10-22T23:36:56+00:00"
+      "checked_at": "2026-10-23T08:43:00+00:00"
     },
     "nte": {
       "ok": true,
@@ -338,7 +341,7 @@
         "rejected": 75
       },
       "seed_links": 1,
-      "checked_at": "2026-10-22T23:36:56+00:00"
+      "checked_at": "2026-10-23T08:43:00+00:00"
     }
   },
   "candidates": [
@@ -346,7 +349,7 @@
       "game": "ww",
       "title": "Ver.3.7 配信開始のお知らせ",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -356,7 +359,7 @@
       "body_status": "rendered",
       "extraction_version": 3,
       "refresh_error": "本文の先頭: お知らせ Ver.3.7「鏡に鎖す妄世、心で照らす紅塵」が、9月30日に配信開始！ 戻る Back 26.09.28 関連情報 復帰イベント【帰還の潮唄】のメンテナンスのお知らせ ニュース 音骸素材 期間限定2倍イベント「響き渡る音弦」 ニュース 音骸素材 期間限定2倍イベント「響き渡る音弦」 お知らせ 『鳴潮』 Ver2.8「琥珀の都へ」アップデート情報 お知らせ 『鳴潮』Ver2.8 メンテナンスのお知らせ お知らせ ザンニースペシ",
-      "refresh_checked_at": "2026-10-22T23:36:56+00:00",
+      "refresh_checked_at": "2026-10-23T08:43:00+00:00",
       "body_review_status": "image_based_official_notice",
       "review_note": "公式ページは画像中心の告知。テキスト本文抽出未確認。内容を推測して期間・キャラを登録しない。",
       "alternative_official_source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
@@ -365,7 +368,7 @@
       "game": "ww",
       "title": "Ver.3.7 共鳴者・武器集音 第一期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -382,7 +385,7 @@
       "game": "ww",
       "title": "Ver.3.2 共鳴者・武器集音 第二期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4497",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-04-09",
@@ -413,7 +416,7 @@
       "game": "ww",
       "title": "共鳴者集音 明日へ焼き付ける記憶",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4887",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-06-13",
@@ -439,7 +442,7 @@
       "game": "gi",
       "title": "Luna V 前半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/162721",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -453,7 +456,7 @@
       "game": "gi",
       "title": "Luna V 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163094",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-03-17",
@@ -478,7 +481,7 @@
       "game": "gi",
       "title": "Luna VI 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163629",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-04-28",
@@ -503,7 +506,7 @@
       "game": "hsr",
       "title": "Ver.3.0「再創紀の凱歌」アップデートについて",
       "url": "https://hsr.hoyoverse.com/ja-jp/news/127987",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -517,7 +520,7 @@
       "game": "zzz",
       "title": "Ver.3.2期間限定チャンネル（後半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166475",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "second",
@@ -531,7 +534,7 @@
       "game": "zzz",
       "title": "Ver.3.2 予告番組・情報まとめ",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/165917",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -545,7 +548,7 @@
       "game": "zzz",
       "title": "Ver.2.6期間限定チャンネル（前半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/162496",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -559,7 +562,7 @@
       "game": "zzz",
       "title": "Ver.3.3予告番組のお知らせ",
       "url": "https://zenless.hoyoverse.com/m/ja-jp/news/166552",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -573,7 +576,7 @@
       "game": "end",
       "title": "特別スカウト「臨淵望北」",
       "url": "https://endfield.gryphline.com/ja-jp/news/2656",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -598,7 +601,7 @@
       "game": "nte",
       "title": "Ver.1.4「名もなき祈歌」アップデートのお知らせ Ver.1.4「名もなき祈歌」アップデートのお知らせ 2026-09-29 ニュース",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -612,7 +615,7 @@
       "game": "nte",
       "title": "NTE 正式サービス開始",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -653,7 +656,7 @@
       "game": "hsr",
       "title": "Ver.4.6「月立つ前に獣と踊れ」アップデートについて 暗闇にうごめく獣が再びその口を開き、生贄に一柱の神を求める。月が再び昇る前にその飢えと渇きを鎮められるのは、智者の血だけだ…… 2026/9/28",
       "url": "https://hsr.hoyoverse.com/ja-jp/news/166468",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-10-05",
@@ -710,7 +713,7 @@
       "game": "end",
       "title": "「雪氷の幽夢」バージョンアップデートについて",
       "url": "https://endfield.gryphline.com/ja-jp/news/5208",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-09-02",
@@ -795,7 +798,7 @@
       "game": "end",
       "title": "「丹青渡」新バージョン注目情報特設ページ公開説明",
       "url": "https://endfield.gryphline.com/ja-jp/news/5207",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -809,7 +812,7 @@
       "game": "end",
       "title": "Discordゲーム統計ウィジェット更新",
       "url": "https://endfield.gryphline.com/ja-jp/news/8995",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1181,7 +1184,7 @@
       "game": "end",
       "title": "バージョン「丹青渡」の事前ダウンロードとアップデート予告",
       "url": "https://endfield.gryphline.com/ja-jp/news/0744",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-10-15",
@@ -1227,7 +1230,7 @@
       "game": "end",
       "title": "「玉書・申請」期間限定ピックアップについて",
       "url": "https://endfield.gryphline.com/ja-jp/news/2652",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1245,7 +1248,7 @@
       "game": "end",
       "title": "バージョンスケジュール",
       "url": "https://endfield.gryphline.com/ja-jp#calendar",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1259,7 +1262,7 @@
       "game": "end",
       "title": "「丹青渡」 バージョンアップデートについて",
       "url": "https://endfield.gryphline.com/ja-jp/news/9560",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-10-15",
@@ -1386,7 +1389,7 @@
       "game": "zzz",
       "title": "2026/10/21 お知らせ 『ゼンレスゾーンゼロ・クラウド版』Ver.3.3アップデート詳細 『ゼンレスゾーンゼロ・クラウド版』Ver.3.3アップデート詳細",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166958",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1400,7 +1403,7 @@
       "game": "zzz",
       "title": "2026/10/21 お知らせ Ver.3.3「もう一度、空へと飛び立って」アップデート詳細 Ver.3.3「もう一度、空へと飛び立って」アップデート詳細",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166963",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1455,7 +1458,7 @@
       "game": "zzz",
       "title": "2026/10/21 ニュース もう一度、空へと飛び立って丨Ver.3.3最新情報一覧（前半） プロキシの皆様、Ver.3.3が開放されました！S級エージェント「フィオニー（炎・異常）」、「ヴェリナ（風・異常）」とS級音動機「転生の炎翼（異常）」、「金襴の心（異常）」が期間限定チャンネルに登場します。",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166964",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -1469,7 +1472,7 @@
       "game": "zzz",
       "title": "2026/10/21 ニュース 【ZZZ × Discord】新たなアカウント紐付けおよびRich Presence機能実装のお知らせ 『ゼンレスゾーンゼロ』Ver.3.3にて、Discordアカウント紐付けと新たなRich Presenceゲームステータス表示機能に対応しました！",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166968",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1483,7 +1486,7 @@
       "game": "ww",
       "title": "『鳴潮』Ver.3.7 共鳴者・武器集音（イベント）第二期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5670",
-      "detected_at": "2026-10-22T23:36:56+00:00",
+      "detected_at": "2026-10-23T08:43:00+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-10-22",
@@ -1506,6 +1509,19 @@
         "スペクトル・ブラスター"
       ],
       "extraction_version": 4
+    },
+    {
+      "game": "ww",
+      "title": "『鳴潮』Ver.3.7「鏡に鎖す妄世、心で照らす紅塵」アップデート情報",
+      "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5458",
+      "detected_at": "2026-10-23T08:43:00+00:00",
+      "verification": "unreviewed",
+      "date_candidates": [],
+      "phase_hint": "unknown",
+      "date_context": "記事本文を確認できず（共通ページの可能性）",
+      "body_status": "unavailable",
+      "period_candidates": [],
+      "character_candidates": []
     }
   ]
 }
