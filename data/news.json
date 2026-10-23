@@ -47,53 +47,6 @@
     "story_id": "basketball-girls-launch-20261023"
   },
   {
-    "id": "china-latest-20261022-lost-castle-2-mobile-launch",
-    "date": "2026-10-22",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "ZH",
-    "title": "『Lost Castle 2』モバイル版が正式サービス開始、『Magicraft』コラボも同時実装",
-    "summary": "Hunter Studio開発、Leiting Games運営の横スクロール型アクションローグライトが、10月22日にiOS・Androidで正式サービスを開始。『Magicraft』とのコラボコンテンツも同時に実装された。",
-    "url": "https://game.leiting.com/list/slcb2/news/19205",
-    "source": "Leiting Games公式サイト",
-    "tags": [
-      "Lost Castle 2",
-      "Hunter Studio",
-      "Leiting Games",
-      "正式サービス",
-      "iOS",
-      "Android",
-      "Magicraft"
-    ],
-    "spoiler": false,
-    "body": "■ モバイル版が正式サービス開始\nHunter Studioが開発し、Leiting Gamesが運営する『Lost Castle 2』モバイル版は、2026年10月22日5:00（中国時間、日本時間6:00）に正式サービスを開始した。対応プラットフォームはiOSとAndroid。\n\n■ 『Magicraft』とのコラボを同時実装\n正式サービス開始と同時に『Magicraft』とのコラボも始まり、協力キャラクター、コラボ武器、外観などが追加された。本作は横スクロール型アクションとランダムな装備・強化構築を組み合わせ、複数人での協力プレイにも対応する。物語の核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月21日",
-        "text": "モバイル版の事前ダウンロードを開始。"
-      },
-      {
-        "date": "2026年10月22日",
-        "text": "中国時間5:00に正式サービス開始。『Magicraft』コラボも同時実装。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Leiting Games公式・配信時刻とコラボ内容",
-        "url": "https://game.leiting.com/list/slcb2/news/19205",
-        "date": "2026-10-20",
-        "type": "公式"
-      },
-      {
-        "name": "Leiting Games公式・配信前FAQ",
-        "url": "https://game.leiting.com/list/slcb2/news/19212",
-        "date": "2026-10-21",
-        "type": "公式"
-      }
-    ],
-    "story_id": "lost-castle-2-mobile-launch-20261022"
-  },
-  {
     "id": "china-latest-20261022-phantom-blade-zero-final-trailer",
     "date": "2026-10-22",
     "category": "中国ゲーム・最新",
@@ -153,6 +106,53 @@
       }
     ],
     "story_id": "phantom-blade-zero-final-trailer-20261022"
+  },
+  {
+    "id": "china-latest-20261022-lost-castle-2-mobile-launch",
+    "date": "2026-10-22",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "『Lost Castle 2』モバイル版が正式サービス開始、『Magicraft』コラボも同時実装",
+    "summary": "Hunter Studio開発、Leiting Games運営の横スクロール型アクションローグライトが、10月22日にiOS・Androidで正式サービスを開始。『Magicraft』とのコラボコンテンツも同時に実装された。",
+    "url": "https://game.leiting.com/list/slcb2/news/19205",
+    "source": "Leiting Games公式サイト",
+    "tags": [
+      "Lost Castle 2",
+      "Hunter Studio",
+      "Leiting Games",
+      "正式サービス",
+      "iOS",
+      "Android",
+      "Magicraft"
+    ],
+    "spoiler": false,
+    "body": "■ モバイル版が正式サービス開始\nHunter Studioが開発し、Leiting Gamesが運営する『Lost Castle 2』モバイル版は、2026年10月22日5:00（中国時間、日本時間6:00）に正式サービスを開始した。対応プラットフォームはiOSとAndroid。\n\n■ 『Magicraft』とのコラボを同時実装\n正式サービス開始と同時に『Magicraft』とのコラボも始まり、協力キャラクター、コラボ武器、外観などが追加された。本作は横スクロール型アクションとランダムな装備・強化構築を組み合わせ、複数人での協力プレイにも対応する。物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月21日",
+        "text": "モバイル版の事前ダウンロードを開始。"
+      },
+      {
+        "date": "2026年10月22日",
+        "text": "中国時間5:00に正式サービス開始。『Magicraft』コラボも同時実装。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Leiting Games公式・配信時刻とコラボ内容",
+        "url": "https://game.leiting.com/list/slcb2/news/19205",
+        "date": "2026-10-20",
+        "type": "公式"
+      },
+      {
+        "name": "Leiting Games公式・配信前FAQ",
+        "url": "https://game.leiting.com/list/slcb2/news/19212",
+        "date": "2026-10-21",
+        "type": "公式"
+      }
+    ],
+    "story_id": "lost-castle-2-mobile-launch-20261022"
   },
   {
     "id": "china-latest-20261022-draw-and-stow-reveal",
