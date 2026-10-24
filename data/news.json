@@ -1,5 +1,50 @@
 [
   {
+    "id": "wuwa-20261024-wuwa-tappo-teaser",
+    "date": "2026-10-24",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『鳴潮』デスクトップマスコット「Wuwa Tappo」、公式が10月26日公開を予告",
+    "summary": "『鳴潮』日本公式Xが10月24日に「Wuwa Tappo、2日後に会おう」と告知。Windows向けの無料デスクトップマスコットアプリとして紹介されており、配信先や細部は公式の続報を確認したい。",
+    "url": "https://x.com/WW_JP_Official",
+    "source": "鳴潮日本公式X / GameWith",
+    "tags": [
+      "鳴潮",
+      "Wuwa Tappo",
+      "デスクトップマスコット",
+      "Windows",
+      "公式予告"
+    ],
+    "spoiler": false,
+    "body": "■ 公式Xが公開日を予告\n『鳴潮』日本公式Xは2026年10月24日、テーマデスクトップマスコット「Wuwa Tappo」について「2日後に会おう」と投稿した。投稿時点の予告から、10月26日の公開を示すものと読める。\n\n■ Windows向け無料アプリとして紹介\nゲーム情報サイトGameWithは、Windows向け無料デスクトップマスコットアプリとして紹介している。『Bongo Cat』開発チームのライセンスを受けた企画とされる。公式投稿の個別URLおよび公開後の実際の配信状況は未確認であり、配信完了とは断定しない。",
+    "timeline": [
+      {
+        "date": "2026年10月24日",
+        "text": "鳴潮日本公式Xが「2日後に会おう」と予告。"
+      },
+      {
+        "date": "2026年10月26日",
+        "text": "公開を予告（配信完了は未確認）。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "鳴潮 日本公式X（公式アカウント、個別投稿URL未確認）",
+        "url": "https://x.com/WW_JP_Official",
+        "date": "2026-10-24",
+        "type": "公式"
+      },
+      {
+        "name": "GameWith・鳴潮Ver.3.7情報（Wuwa Tappo紹介）",
+        "url": "https://gamewith.jp/wutheringwaves/456100",
+        "date": "2026-10-22",
+        "type": "報道"
+      }
+    ],
+    "story_id": "wuwa-tappo-desktop-mascot-20261026"
+  },
+  {
     "id": "wuwa-20261024-login-bonus-compensation",
     "date": "2026-10-24",
     "category": "鳴潮",
@@ -96,102 +141,6 @@
       }
     ],
     "story_id": "hsr-yokohama-city-collab-202610"
-  },
-  {
-    "id": "wuwa-20261024-wuwa-tappo-teaser",
-    "date": "2026-10-24",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『鳴潮』デスクトップマスコット「Wuwa Tappo」、公式が10月26日公開を予告",
-    "summary": "『鳴潮』日本公式Xが10月24日に「Wuwa Tappo、2日後に会おう」と告知。Windows向けの無料デスクトップマスコットアプリとして紹介されており、配信先や細部は公式の続報を確認したい。",
-    "url": "https://x.com/WW_JP_Official",
-    "source": "鳴潮日本公式X / GameWith",
-    "tags": [
-      "鳴潮",
-      "Wuwa Tappo",
-      "デスクトップマスコット",
-      "Windows",
-      "公式予告"
-    ],
-    "spoiler": false,
-    "body": "■ 公式Xが公開日を予告\n『鳴潮』日本公式Xは2026年10月24日、テーマデスクトップマスコット「Wuwa Tappo」について「2日後に会おう」と投稿した。投稿時点の予告から、10月26日の公開を示すものと読める。\n\n■ Windows向け無料アプリとして紹介\nゲーム情報サイトGameWithは、Windows向け無料デスクトップマスコットアプリとして紹介している。『Bongo Cat』開発チームのライセンスを受けた企画とされる。公式投稿の個別URLおよび公開後の実際の配信状況は未確認であり、配信完了とは断定しない。",
-    "timeline": [
-      {
-        "date": "2026年10月24日",
-        "text": "鳴潮日本公式Xが「2日後に会おう」と予告。"
-      },
-      {
-        "date": "2026年10月26日",
-        "text": "公開を予告（配信完了は未確認）。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "鳴潮 日本公式X（公式アカウント、個別投稿URL未確認）",
-        "url": "https://x.com/WW_JP_Official",
-        "date": "2026-10-24",
-        "type": "公式"
-      },
-      {
-        "name": "GameWith・鳴潮Ver.3.7情報（Wuwa Tappo紹介）",
-        "url": "https://gamewith.jp/wutheringwaves/456100",
-        "date": "2026-10-22",
-        "type": "報道"
-      }
-    ],
-    "story_id": "wuwa-tappo-desktop-mascot-20261026"
-  },
-  {
-    "id": "china-latest-20261023-azur-promilia-release-date",
-    "date": "2026-10-23",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『アズールプロミリア』、11月26日に日本・中国など4地域で正式リリース",
-    "summary": "Manjuu Games開発、Yostar共同運営のファンタジーワールドRPGが、11月26日に日本・中国・韓国・台湾でPC・iOS・Android向けに正式リリースされる。日本公式も日程を発表し、事前登録を受付中。",
-    "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
-    "source": "『アズールプロミリア』日本公式X / Gematsu",
-    "tags": [
-      "アズールプロミリア",
-      "Manjuu Games",
-      "Yostar",
-      "正式リリース",
-      "PC",
-      "iOS",
-      "Android"
-    ],
-    "spoiler": false,
-    "body": "■ 11月26日に4地域で正式リリース\nManjuu Gamesが開発し、日本ではYostarと共同展開する『アズールプロミリア』は、2026年11月26日に日本・中国・韓国・台湾で正式リリースされる。対応プラットフォームはPC、iOS、Androidで、基本プレイ無料。日本公式は10月23日に発売日を告知し、事前登録を受け付けている。\n\n■ 英語版は別日程\n海外報道によると、英語版は2027年夏のオープンベータを目標としており、今回発表された11月26日の対象地域には含まれない。物語や映像の核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月23日",
-        "text": "日本公式が正式リリース日を発表。"
-      },
-      {
-        "date": "2026年11月26日",
-        "text": "日本・中国・韓国・台湾でPC・iOS・Android版を正式リリース予定。"
-      },
-      {
-        "date": "2027年夏",
-        "text": "英語版のオープンベータを目標。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『アズールプロミリア』日本公式X",
-        "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
-        "date": "2026-10-23",
-        "type": "公式"
-      },
-      {
-        "name": "Gematsu・地域別リリース日と英語版計画",
-        "url": "https://www.gematsu.com/2026/10/azur-promilia-launches-november-26-in-japan-south-korea-taiwan-and-china",
-        "date": "2026-10-23",
-        "type": "報道"
-      }
-    ],
-    "story_id": "azur-promilia-release-date-20261126"
   },
   {
     "id": "china-latest-20261023-petit-planet-preview-program",
@@ -340,6 +289,57 @@
       }
     ],
     "story_id": "basketball-girls-launch-20261023"
+  },
+  {
+    "id": "china-latest-20261023-azur-promilia-release-date",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『アズールプロミリア』、11月26日に日本・中国など4地域で正式リリース",
+    "summary": "Manjuu Games開発、Yostar共同運営のファンタジーワールドRPGが、11月26日に日本・中国・韓国・台湾でPC・iOS・Android向けに正式リリースされる。日本公式も日程を発表し、事前登録を受付中。",
+    "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
+    "source": "『アズールプロミリア』日本公式X / Gematsu",
+    "tags": [
+      "アズールプロミリア",
+      "Manjuu Games",
+      "Yostar",
+      "正式リリース",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "spoiler": false,
+    "body": "■ 11月26日に4地域で正式リリース\nManjuu Gamesが開発し、日本ではYostarと共同展開する『アズールプロミリア』は、2026年11月26日に日本・中国・韓国・台湾で正式リリースされる。対応プラットフォームはPC、iOS、Androidで、基本プレイ無料。日本公式は10月23日に発売日を告知し、事前登録を受け付けている。\n\n■ 英語版は別日程\n海外報道によると、英語版は2027年夏のオープンベータを目標としており、今回発表された11月26日の対象地域には含まれない。物語や映像の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "日本公式が正式リリース日を発表。"
+      },
+      {
+        "date": "2026年11月26日",
+        "text": "日本・中国・韓国・台湾でPC・iOS・Android版を正式リリース予定。"
+      },
+      {
+        "date": "2027年夏",
+        "text": "英語版のオープンベータを目標。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『アズールプロミリア』日本公式X",
+        "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・地域別リリース日と英語版計画",
+        "url": "https://www.gematsu.com/2026/10/azur-promilia-launches-november-26-in-japan-south-korea-taiwan-and-china",
+        "date": "2026-10-23",
+        "type": "報道"
+      }
+    ],
+    "story_id": "azur-promilia-release-date-20261126"
   },
   {
     "id": "china-latest-20261022-phantom-blade-zero-final-trailer",
