@@ -342,6 +342,111 @@
     "story_id": "azur-promilia-release-date-20261126"
   },
   {
+    "id": "wuwa-leak-20261023-v38-lily-beta-kit-gameplay",
+    "date": "2026-10-23",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "JP",
+    "title": "【未確認】『鳴潮』Ver.3.8β由来とされるリリーの性能・実機映像が公開",
+    "summary": "公開リークコミュニティで、Ver.3.8β由来とされるリリーの実機映像と暫定性能が共有された。回折・拳銃で、回復や味方支援を備えるとの内容だが、KURO GAMESによる確認はなく、正式実装まで変更される可能性が高い。",
+    "url": "https://www.reddit.com/r/WutheringWavesLeaks/comments/1xcqsjx/38_lily_gameplay_via_seele/",
+    "source": "WutheringWavesLeaks / ソラリス速報（未確認）",
+    "tags": [
+      "鳴潮",
+      "Ver.3.8",
+      "リリー",
+      "ベータ",
+      "性能リーク",
+      "実機映像",
+      "未確認"
+    ],
+    "spoiler": false,
+    "teaser_title": "Ver.3.8β由来とされるリリーの性能・実機映像",
+    "body": "■ β由来とされる実機映像と暫定データ\n2026年10月22～23日、公開リークコミュニティで『鳴潮』Ver.3.8β由来とされるリリーの実機映像、スキル、武器データが共有された。投稿では、リリーは回折属性・拳銃のキャラクターで、継続回復や味方支援に関わる能力を備えるとされている。\n\n■ 公式確認はなく変更可能性あり\nリリーの存在、回折属性、拳銃はすでに公式発表済みだが、今回共有された具体的な倍率、スキル効果、武器性能、実機挙動についてKURO GAMESは確認していない。βデータとされる内容は正式実装まで大きく変更される可能性があるため、未確認情報として扱う。ストーリーに関する内容は掲載しない。",
+    "timeline": [
+      {
+        "date": "2026年10月7～8日",
+        "text": "公式がリリーを公開し、回折属性・拳銃と案内。"
+      },
+      {
+        "date": "2026年10月22～23日",
+        "text": "Ver.3.8β由来とされる実機映像と暫定性能が公開リークコミュニティで共有。"
+      },
+      {
+        "date": "未定",
+        "text": "正式な性能と実装日は公式発表待ち。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "WutheringWavesLeaks・実機映像転載",
+        "url": "https://www.reddit.com/r/WutheringWavesLeaks/comments/1xcqsjx/38_lily_gameplay_via_seele/",
+        "date": "2026-10-22",
+        "type": "未確認・転載"
+      },
+      {
+        "name": "WutheringWavesLeaks・β内容一覧転載",
+        "url": "https://www.reddit.com/r/WutheringWavesLeaks/comments/1xckpo3/38_beta_content_list_via_seele/",
+        "date": "2026-10-23",
+        "type": "未確認・転載"
+      },
+      {
+        "name": "ソラリス速報・暫定性能まとめ",
+        "url": "https://meicho.marcsimz.com/lily/",
+        "date": "2026-10-23",
+        "type": "未確認・二次情報"
+      }
+    ],
+    "story_id": "wuwa-v38-lily-beta-kit-gameplay-20261023"
+  },
+  {
+    "id": "china-latest-20261023-dream-divers-reveal",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "中国製協力ADV『Dream Divers』発表、最大4人で他人の夢を探索",
+    "summary": "OMEGAMES STUDIOが、他人の夢に潜って埋もれた記憶を回収する協力型アドベンチャーを発表。最大4人プレイに対応し、Steamストアページとアナウンストレイラーを公開した。発売日は未定。",
+    "url": "https://store.steampowered.com/app/5410840/",
+    "source": "Steam公式ページ / 4Gamer",
+    "tags": [
+      "Dream Divers",
+      "OMEGAMES STUDIO",
+      "Pilot Games",
+      "新作",
+      "Steam",
+      "協力プレイ",
+      "アドベンチャー"
+    ],
+    "spoiler": false,
+    "body": "■ 最大4人で夢の世界へ\nOMEGAMES STUDIOは2026年10月23日、新作協力型アドベンチャー『Dream Divers』を発表し、Steamストアページとアナウンストレイラーを公開した。プレイヤーは夢のネットワーク運営会社の一員となり、最大4人で他人の夢へ入り、奥深くに埋もれた記憶を回収する。\n\n■ パズルと危険を越えて脱出\n夢の中では入り組んだ道や仕掛けを攻略し、潜む危険を避けながら生還を目指す。開発はOMEGAMES STUDIO、販売はPilot Games。対応機種はPC（Steam）で、発売日は未定。物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "新作発表、Steamページとアナウンストレイラーを公開。"
+      },
+      {
+        "date": "未定",
+        "text": "PC（Steam）版の発売日は未発表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Steam公式ページ",
+        "url": "https://store.steampowered.com/app/5410840/",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "4Gamer・新作発表の報道",
+        "url": "https://www.4gamer.net/tags/TA/TA006/",
+        "date": "2026-10-23",
+        "type": "報道"
+      }
+    ],
+    "story_id": "dream-divers-reveal-20261023"
+  },
+  {
     "id": "china-latest-20261022-phantom-blade-zero-final-trailer",
     "date": "2026-10-22",
     "category": "中国ゲーム・最新",
