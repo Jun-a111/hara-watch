@@ -49,6 +49,96 @@
     "story_id": "gfusion-2026-beijing-oct24-25"
   },
   {
+    "id": "wuwa-20261024-wuwa-tappo-teaser",
+    "date": "2026-10-24",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『鳴潮』デスクトップマスコット「Wuwa Tappo」、公式が10月26日公開を予告",
+    "summary": "『鳴潮』日本公式Xが10月24日に「Wuwa Tappo、2日後に会おう」と告知。Windows向けの無料デスクトップマスコットアプリとして紹介されており、配信先や細部は公式の続報を確認したい。",
+    "url": "https://x.com/WW_JP_Official",
+    "source": "鳴潮日本公式X / GameWith",
+    "tags": [
+      "鳴潮",
+      "Wuwa Tappo",
+      "デスクトップマスコット",
+      "Windows",
+      "公式予告"
+    ],
+    "spoiler": false,
+    "body": "■ 公式Xが公開日を予告\n『鳴潮』日本公式Xは2026年10月24日、テーマデスクトップマスコット「Wuwa Tappo」について「2日後に会おう」と投稿した。投稿時点の予告から、10月26日の公開を示すものと読める。\n\n■ Windows向け無料アプリとして紹介\nゲーム情報サイトGameWithは、Windows向け無料デスクトップマスコットアプリとして紹介している。『Bongo Cat』開発チームのライセンスを受けた企画とされる。公式投稿の個別URLおよび公開後の実際の配信状況は未確認であり、配信完了とは断定しない。",
+    "timeline": [
+      {
+        "date": "2026年10月24日",
+        "text": "鳴潮日本公式Xが「2日後に会おう」と予告。"
+      },
+      {
+        "date": "2026年10月26日",
+        "text": "公開を予告（配信完了は未確認）。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "鳴潮 日本公式X（公式アカウント、個別投稿URL未確認）",
+        "url": "https://x.com/WW_JP_Official",
+        "date": "2026-10-24",
+        "type": "公式"
+      },
+      {
+        "name": "GameWith・鳴潮Ver.3.7情報（Wuwa Tappo紹介）",
+        "url": "https://gamewith.jp/wutheringwaves/456100",
+        "date": "2026-10-22",
+        "type": "報道"
+      }
+    ],
+    "story_id": "wuwa-tappo-desktop-mascot-20261026"
+  },
+  {
+    "id": "wuwa-20261024-login-bonus-compensation",
+    "date": "2026-10-24",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『鳴潮』ログイン報酬の告知数量に不一致、10月24日に結晶波長溶剤×5を追加配布",
+    "summary": "期間限定ログインボーナス「傍らに響く雨音のプレゼント」の告知素材に報酬数量の不一致があったとして、公式が差分の「結晶波長溶剤×5」を10月24日11時（JST）にメール配布すると案内した。",
+    "url": "https://x.com/WW_JP_Official",
+    "source": "『鳴潮』日本公式X（告知本文、公式アカウント）",
+    "tags": [
+      "鳴潮",
+      "運営告知",
+      "補填",
+      "ログインボーナス",
+      "結晶波長溶剤"
+    ],
+    "spoiler": false,
+    "body": "■ 告知素材の報酬数量に不一致\n公式は、10月22日開始の期間限定ログインボーナス「傍らに響く雨音のプレゼント」について、以前公開した一部の告知素材で報酬数量が一致していなかったと説明した。\n\n■ 10月24日11時に差分を追加配布すると案内\n対応として、2026年10月24日11:00（日本標準時）に差分の「結晶波長溶剤×5」をゲーム内メールで追加配布すると発表。イベント本体の開催期間は10月22日11:00～11月11日04:59（日本標準時）。公式発表は確認できたが、全アカウントへの配布完了を個別検証したものではない。",
+    "timeline": [
+      {
+        "date": "2026年10月22日",
+        "text": "期間限定ログインボーナス「傍らに響く雨音のプレゼント」が開始。"
+      },
+      {
+        "date": "2026年10月24日 11:00 JST",
+        "text": "公式が報酬数量の差分「結晶波長溶剤×5」をメールで追加配布すると案内。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "鳴潮 日本公式X・期間限定ログインボーナス告知（公式アカウント、個別投稿URL未確認）",
+        "url": "https://x.com/WW_JP_Official",
+        "date": "2026-10-22",
+        "type": "公式"
+      },
+      {
+        "name": "公式投稿を転載表示するアカウントアーカイブ（本文の照合用）",
+        "url": "https://www.sotwe.com/WW_JP_Official",
+        "date": "2026-10-24",
+        "type": "第三者アーカイブ"
+      }
+    ],
+    "story_id": "wuwa-login-reward-quantity-correction-20261024"
+  },
+  {
     "id": "hsr-20261024-yokohama-collab-train",
     "date": "2026-10-24",
     "category": "スタレ",
@@ -100,381 +190,6 @@
       }
     ],
     "story_id": "hsr-yokohama-city-collab-202610"
-  },
-  {
-    "id": "wuwa-20261024-login-bonus-compensation",
-    "date": "2026-10-24",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『鳴潮』ログイン報酬の告知数量に不一致、10月24日に結晶波長溶剤×5を追加配布",
-    "summary": "期間限定ログインボーナス「傍らに響く雨音のプレゼント」の告知素材に報酬数量の不一致があったとして、公式が差分の「結晶波長溶剤×5」を10月24日11時（JST）にメール配布すると案内した。",
-    "url": "https://x.com/WW_JP_Official",
-    "source": "『鳴潮』日本公式X（告知本文、公式アカウント）",
-    "tags": [
-      "鳴潮",
-      "運営告知",
-      "補填",
-      "ログインボーナス",
-      "結晶波長溶剤"
-    ],
-    "spoiler": false,
-    "body": "■ 告知素材の報酬数量に不一致\n公式は、10月22日開始の期間限定ログインボーナス「傍らに響く雨音のプレゼント」について、以前公開した一部の告知素材で報酬数量が一致していなかったと説明した。\n\n■ 10月24日11時に差分を追加配布すると案内\n対応として、2026年10月24日11:00（日本標準時）に差分の「結晶波長溶剤×5」をゲーム内メールで追加配布すると発表。イベント本体の開催期間は10月22日11:00～11月11日04:59（日本標準時）。公式発表は確認できたが、全アカウントへの配布完了を個別検証したものではない。",
-    "timeline": [
-      {
-        "date": "2026年10月22日",
-        "text": "期間限定ログインボーナス「傍らに響く雨音のプレゼント」が開始。"
-      },
-      {
-        "date": "2026年10月24日 11:00 JST",
-        "text": "公式が報酬数量の差分「結晶波長溶剤×5」をメールで追加配布すると案内。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "鳴潮 日本公式X・期間限定ログインボーナス告知（公式アカウント、個別投稿URL未確認）",
-        "url": "https://x.com/WW_JP_Official",
-        "date": "2026-10-22",
-        "type": "公式"
-      },
-      {
-        "name": "公式投稿を転載表示するアカウントアーカイブ（本文の照合用）",
-        "url": "https://www.sotwe.com/WW_JP_Official",
-        "date": "2026-10-24",
-        "type": "第三者アーカイブ"
-      }
-    ],
-    "story_id": "wuwa-login-reward-quantity-correction-20261024"
-  },
-  {
-    "id": "wuwa-20261024-wuwa-tappo-teaser",
-    "date": "2026-10-24",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『鳴潮』デスクトップマスコット「Wuwa Tappo」、公式が10月26日公開を予告",
-    "summary": "『鳴潮』日本公式Xが10月24日に「Wuwa Tappo、2日後に会おう」と告知。Windows向けの無料デスクトップマスコットアプリとして紹介されており、配信先や細部は公式の続報を確認したい。",
-    "url": "https://x.com/WW_JP_Official",
-    "source": "鳴潮日本公式X / GameWith",
-    "tags": [
-      "鳴潮",
-      "Wuwa Tappo",
-      "デスクトップマスコット",
-      "Windows",
-      "公式予告"
-    ],
-    "spoiler": false,
-    "body": "■ 公式Xが公開日を予告\n『鳴潮』日本公式Xは2026年10月24日、テーマデスクトップマスコット「Wuwa Tappo」について「2日後に会おう」と投稿した。投稿時点の予告から、10月26日の公開を示すものと読める。\n\n■ Windows向け無料アプリとして紹介\nゲーム情報サイトGameWithは、Windows向け無料デスクトップマスコットアプリとして紹介している。『Bongo Cat』開発チームのライセンスを受けた企画とされる。公式投稿の個別URLおよび公開後の実際の配信状況は未確認であり、配信完了とは断定しない。",
-    "timeline": [
-      {
-        "date": "2026年10月24日",
-        "text": "鳴潮日本公式Xが「2日後に会おう」と予告。"
-      },
-      {
-        "date": "2026年10月26日",
-        "text": "公開を予告（配信完了は未確認）。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "鳴潮 日本公式X（公式アカウント、個別投稿URL未確認）",
-        "url": "https://x.com/WW_JP_Official",
-        "date": "2026-10-24",
-        "type": "公式"
-      },
-      {
-        "name": "GameWith・鳴潮Ver.3.7情報（Wuwa Tappo紹介）",
-        "url": "https://gamewith.jp/wutheringwaves/456100",
-        "date": "2026-10-22",
-        "type": "報道"
-      }
-    ],
-    "story_id": "wuwa-tappo-desktop-mascot-20261026"
-  },
-  {
-    "id": "china-latest-20261023-azur-promilia-release-date",
-    "date": "2026-10-23",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『アズールプロミリア』、11月26日に日本・中国など4地域で正式リリース",
-    "summary": "Manjuu Games開発、Yostar共同運営のファンタジーワールドRPGが、11月26日に日本・中国・韓国・台湾でPC・iOS・Android向けに正式リリースされる。日本公式も日程を発表し、事前登録を受付中。",
-    "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
-    "source": "『アズールプロミリア』日本公式X / Gematsu",
-    "tags": [
-      "アズールプロミリア",
-      "Manjuu Games",
-      "Yostar",
-      "正式リリース",
-      "PC",
-      "iOS",
-      "Android"
-    ],
-    "spoiler": false,
-    "body": "■ 11月26日に4地域で正式リリース\nManjuu Gamesが開発し、日本ではYostarと共同展開する『アズールプロミリア』は、2026年11月26日に日本・中国・韓国・台湾で正式リリースされる。対応プラットフォームはPC、iOS、Androidで、基本プレイ無料。日本公式は10月23日に発売日を告知し、事前登録を受け付けている。\n\n■ 英語版は別日程\n海外報道によると、英語版は2027年夏のオープンベータを目標としており、今回発表された11月26日の対象地域には含まれない。物語や映像の核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月23日",
-        "text": "日本公式が正式リリース日を発表。"
-      },
-      {
-        "date": "2026年11月26日",
-        "text": "日本・中国・韓国・台湾でPC・iOS・Android版を正式リリース予定。"
-      },
-      {
-        "date": "2027年夏",
-        "text": "英語版のオープンベータを目標。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『アズールプロミリア』日本公式X",
-        "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
-        "date": "2026-10-23",
-        "type": "公式"
-      },
-      {
-        "name": "Gematsu・地域別リリース日と英語版計画",
-        "url": "https://www.gematsu.com/2026/10/azur-promilia-launches-november-26-in-japan-south-korea-taiwan-and-china",
-        "date": "2026-10-23",
-        "type": "報道"
-      }
-    ],
-    "story_id": "azur-promilia-release-date-20261126"
-  },
-  {
-    "id": "china-latest-20261023-basketball-girls-launch",
-    "date": "2026-10-23",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "ZH",
-    "title": "育成ゲーム『バスケットボール少女：頂点へ』、PC・スマホで正式サービス開始",
-    "summary": "Lingxi Gamesのバスケットボール少女育成ゲームが、10月23日10:00（中国時間）にPC・iOS・Androidで正式サービスを開始。同一アカウントによる機種間のデータ連携に対応する。",
-    "url": "https://www.taptap.cn/moment/861692715182589427",
-    "source": "公式TapTap",
-    "tags": [
-      "Lingxi Games",
-      "バスケットボール少女",
-      "正式サービス",
-      "PC",
-      "iOS",
-      "Android",
-      "育成ゲーム"
-    ],
-    "spoiler": false,
-    "body": "■ 10月23日に正式サービス開始\nLingxi Gamesの育成ゲーム『バスケットボール少女：頂点へ』は、2026年10月23日10:00（中国時間、日本時間11:00）に正式サービスを開始する。対応プラットフォームはPC、iOS、Androidで、同一アカウントを使った機種間のデータ連携に対応する。\n\n■ チーム育成と試合運用を組み合わせる作品\nプレイヤーはバスケットボールチームの指導者となり、選手の育成計画や試合中の戦術を選択する。公式は公測前にクライアントの事前ダウンロードとゲームプレイ映像を公開した。物語の核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月21日",
-        "text": "PC・iOS・Android向けの事前ダウンロードを開始。"
-      },
-      {
-        "date": "2026年10月23日",
-        "text": "中国時間10:00に正式サービス開始。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "公式TapTap・事前ダウンロードと配信時刻",
-        "url": "https://www.taptap.cn/moment/861692715182589427",
-        "date": "2026-10-21",
-        "type": "公式"
-      },
-      {
-        "name": "公式TapTap・ゲームプレイ映像",
-        "url": "https://www.taptap.cn/moment/861705270424767857",
-        "date": "2026-10-21",
-        "type": "公式"
-      }
-    ],
-    "story_id": "basketball-girls-launch-20261023"
-  },
-  {
-    "id": "china-latest-20261023-dream-divers-reveal",
-    "date": "2026-10-23",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "中国製協力ADV『Dream Divers』発表、最大4人で他人の夢を探索",
-    "summary": "OMEGAMES STUDIOが、他人の夢に潜って埋もれた記憶を回収する協力型アドベンチャーを発表。最大4人プレイに対応し、Steamストアページとアナウンストレイラーを公開した。発売日は未定。",
-    "url": "https://store.steampowered.com/app/5410840/",
-    "source": "Steam公式ページ / 4Gamer",
-    "tags": [
-      "Dream Divers",
-      "OMEGAMES STUDIO",
-      "Pilot Games",
-      "新作",
-      "Steam",
-      "協力プレイ",
-      "アドベンチャー"
-    ],
-    "spoiler": false,
-    "body": "■ 最大4人で夢の世界へ\nOMEGAMES STUDIOは2026年10月23日、新作協力型アドベンチャー『Dream Divers』を発表し、Steamストアページとアナウンストレイラーを公開した。プレイヤーは夢のネットワーク運営会社の一員となり、最大4人で他人の夢へ入り、奥深くに埋もれた記憶を回収する。\n\n■ パズルと危険を越えて脱出\n夢の中では入り組んだ道や仕掛けを攻略し、潜む危険を避けながら生還を目指す。開発はOMEGAMES STUDIO、販売はPilot Games。対応機種はPC（Steam）で、発売日は未定。物語の核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月23日",
-        "text": "新作発表、Steamページとアナウンストレイラーを公開。"
-      },
-      {
-        "date": "未定",
-        "text": "PC（Steam）版の発売日は未発表。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Steam公式ページ",
-        "url": "https://store.steampowered.com/app/5410840/",
-        "date": "2026-10-23",
-        "type": "公式"
-      },
-      {
-        "name": "4Gamer・新作発表の報道",
-        "url": "https://www.4gamer.net/tags/TA/TA006/",
-        "date": "2026-10-23",
-        "type": "報道"
-      }
-    ],
-    "story_id": "dream-divers-reveal-20261023"
-  },
-  {
-    "id": "china-latest-20261023-genshin-v72-release",
-    "date": "2026-10-23",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『原神』Ver.7.2、11月4日に配信決定",
-    "summary": "HoYoverseは10月23日の特別番組と公式PVでVer.7.2の情報を公開し、11月4日の配信を案内した。本記事では新キャラクターや物語・PVの核心には触れない。",
-    "url": "https://genshin.hoyoverse.com/m/ja/home",
-    "source": "『原神』公式サイト / Gematsu",
-    "tags": [
-      "原神",
-      "HoYoverse",
-      "Ver.7.2",
-      "大型アップデート",
-      "PC",
-      "PS5",
-      "Xbox",
-      "iOS",
-      "Android"
-    ],
-    "spoiler": false,
-    "body": "■ Ver.7.2は11月4日配信\nHoYoverseは2026年10月23日、『原神』Ver.7.2の特別番組と公式PVを公開し、11月4日の配信を発表した。対応中のPC、PS5、Xbox Series、iOS、Android向けアップデートとなる。\n\n■ ネタバレを避けて記録\n公式発表には新キャラクター、イベント、物語に関する情報が含まれるが、本記事ではストーリーの核心やPVの展開には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月23日",
-        "text": "Ver.7.2特別番組と公式PVを公開。"
-      },
-      {
-        "date": "2026年11月4日",
-        "text": "Ver.7.2を配信予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『原神』日本公式サイト",
-        "url": "https://genshin.hoyoverse.com/m/ja/home",
-        "date": "2026-10-23",
-        "type": "公式"
-      },
-      {
-        "name": "Gematsu・Ver.7.2配信日の報道",
-        "url": "https://www.gematsu.com/2026/10/genshin-impact-version-version-7-2-update-hour-of-ruin-launches-november-4",
-        "date": "2026-10-23",
-        "type": "報道"
-      }
-    ],
-    "story_id": "genshin-v72-release-20261104"
-  },
-  {
-    "id": "china-latest-20261023-petit-planet-preview-program",
-    "date": "2026-10-23",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "HoYoverse新作『プチプラネット』、11月1日にリリース予告番組を配信",
-    "summary": "2026年冬の正式リリースを予定するスローライフゲーム。11月1日20:00（日本時間）から公式YouTubeとXで番組を配信し、ゲーム内容や今後のイベント・キャンペーンを紹介する。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
-    "source": "HoYoverse / COGNOSPHERE公式発表",
-    "tags": [
-      "HoYoverse",
-      "プチプラネット",
-      "新作",
-      "リリース予告番組",
-      "PC",
-      "iOS",
-      "Android",
-      "事前登録"
-    ],
-    "spoiler": false,
-    "body": "■ 11月1日20:00から公式番組\nHoYoverseは2026年10月23日、新作スローライフゲーム『プチプラネット』の「リリース予告番組」を11月1日20:00（日本時間）から公式YouTubeと公式Xで配信すると発表した。開発チームとゲストが、ゲーム内容や今後のイベント・キャンペーンを紹介する。\n\n■ 今冬リリース、全プラットフォームで事前登録中\n正式リリースは2026年冬を予定。PC、iOS、Android間のデータ連携に対応し、全プラットフォームで事前登録を受け付けている。番組や作品の物語の核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月23日",
-        "text": "リリース予告番組の配信日を発表。"
-      },
-      {
-        "date": "2026年11月1日",
-        "text": "20:00（日本時間）から公式YouTube・公式Xで番組を配信予定。"
-      },
-      {
-        "date": "2026年冬",
-        "text": "PC・iOS・Android向けに正式リリース予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "HoYoverse / COGNOSPHERE公式発表",
-        "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
-        "date": "2026-10-23",
-        "type": "公式"
-      },
-      {
-        "name": "『プチプラネット』公式YouTube配信待機ページ",
-        "url": "https://youtube.com/live/APPc11eocMM?feature=share",
-        "date": "2026-10-23",
-        "type": "公式"
-      }
-    ],
-    "story_id": "petit-planet-preview-program-20261101"
-  },
-  {
-    "id": "hsr-20261023-aeon-aha-v47-confirmed",
-    "date": "2026-10-23",
-    "category": "スタレ",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "『スタレ』Ver.4.7は11月11日公開予定、初のプレイアブル星神「星神★アッハ」を実装へ",
-    "summary": "HoYoverseは10月23日付の公式プレスリリースで、Ver.4.7を11月11日に公開予定と明記。初のプレイアブル星神「星神★アッハ」の実装も公式に案内した。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000458.000096124.html",
-    "source": "HoYoverse / COGNOSPHERE公式プレスリリース（2026年10月23日）",
-    "tags": [
-      "崩壊スターレイル",
-      "Ver.4.7",
-      "星神★アッハ",
-      "公式発表",
-      "11月11日"
-    ],
-    "spoiler": false,
-    "body": "■ 11月11日のVer.4.7を公式が予告\nHoYoverseが2026年10月23日に公開した横浜市コラボの公式発表には、Ver.4.7の公開予定日が11月11日（水）と記載されている。\n\n■ シリーズ初のプレイアブル星神\n同発表で、初のプレイアブル星神（アイオーン）「星神★アッハ」を実装すると明記された。Ver.4.0から続く「二相楽園」の物語が最終章を迎えることも予告されている。\n\n■ 情報の範囲\n上記は公式発表に記載された予告情報。ガチャの細かな仕様・性能・実装後の状況は未確認。物語の詳細なネタバレには触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月23日",
-        "text": "HoYoverse公式発表でVer.4.7の11月11日公開予定と、初のプレイアブル星神「星神★アッハ」の実装を明記。"
-      },
-      {
-        "date": "2026年11月11日（予定）",
-        "text": "Ver.4.7公開予定。実際の配信開始は未確認。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "HoYoverse / COGNOSPHERE公式プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000000458.000096124.html",
-        "date": "2026-10-23",
-        "type": "公式"
-      }
-    ],
-    "story_id": "hsr-v47-playable-aeon-aha-20261111"
   },
   {
     "id": "wuwa-leak-20261023-v38-lily-beta-kit-gameplay",
@@ -535,108 +250,289 @@
     "story_id": "wuwa-v38-lily-beta-kit-gameplay-20261023"
   },
   {
-    "id": "china-latest-20261022-draw-and-stow-reveal",
-    "date": "2026-10-22",
-    "category": "中国ゲーム・最新",
+    "id": "hsr-20261023-aeon-aha-v47-confirmed",
+    "date": "2026-10-23",
+    "category": "スタレ",
     "status": "公式発表",
-    "lang": "ZH",
-    "title": "『LONESTAR』開発チームの新作『Draw & Stow』発表、Steamページを公開",
-    "summary": "中国のMath Tideが開発しThermite Gamesが販売するローグライト戦略ゲーム。カード構築、バッグ管理、アイテム合成を組み合わせ、10月24～25日の北京G-Fusionで初の試遊展示を行う。",
-    "url": "https://store.steampowered.com/app/4608170/Draw_Stow/",
-    "source": "Steam公式ページ / GamerSky",
+    "lang": "JP",
+    "title": "『スタレ』Ver.4.7は11月11日公開予定、初のプレイアブル星神「星神★アッハ」を実装へ",
+    "summary": "HoYoverseは10月23日付の公式プレスリリースで、Ver.4.7を11月11日に公開予定と明記。初のプレイアブル星神「星神★アッハ」の実装も公式に案内した。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000458.000096124.html",
+    "source": "HoYoverse / COGNOSPHERE公式プレスリリース（2026年10月23日）",
     "tags": [
-      "Draw & Stow",
-      "Math Tide",
-      "Thermite Games",
-      "Steam",
-      "新作",
-      "ローグライト",
-      "カード構築"
+      "崩壊スターレイル",
+      "Ver.4.7",
+      "星神★アッハ",
+      "公式発表",
+      "11月11日"
     ],
     "spoiler": false,
-    "body": "■ 『LONESTAR』チームの新作\n中国のMath Tideは2026年10月22日、Thermite Gamesが販売する新作『Draw & Stow』を発表し、Steamストアページと最初のゲームプレイ映像を公開した。発売日は未定。\n\n■ カード構築とバッグ管理を融合\n本作はカードを選び、バッグ内のアイテムを配置・合成して連鎖効果を作るローグライト戦略ゲーム。複数の職業ごとに異なるアイテムとルールを用意する。10月24～25日に北京で開催されるG-Fusionで、最初の職業の一連のプレイを試せる展示を行う予定。",
+    "body": "■ 11月11日のVer.4.7を公式が予告\nHoYoverseが2026年10月23日に公開した横浜市コラボの公式発表には、Ver.4.7の公開予定日が11月11日（水）と記載されている。\n\n■ シリーズ初のプレイアブル星神\n同発表で、初のプレイアブル星神（アイオーン）「星神★アッハ」を実装すると明記された。Ver.4.0から続く「二相楽園」の物語が最終章を迎えることも予告されている。\n\n■ 情報の範囲\n上記は公式発表に記載された予告情報。ガチャの細かな仕様・性能・実装後の状況は未確認。物語の詳細なネタバレには触れない。",
     "timeline": [
       {
-        "date": "2026年10月22日",
-        "text": "Steamストアページと最初のゲームプレイ映像を公開。"
+        "date": "2026年10月23日",
+        "text": "HoYoverse公式発表でVer.4.7の11月11日公開予定と、初のプレイアブル星神「星神★アッハ」の実装を明記。"
       },
       {
-        "date": "2026年10月24～25日",
-        "text": "北京G-Fusionで初の試遊展示を実施予定。"
+        "date": "2026年11月11日（予定）",
+        "text": "Ver.4.7公開予定。実際の配信開始は未確認。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "HoYoverse / COGNOSPHERE公式プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000458.000096124.html",
+        "date": "2026-10-23",
+        "type": "公式"
+      }
+    ],
+    "story_id": "hsr-v47-playable-aeon-aha-20261111"
+  },
+  {
+    "id": "china-latest-20261023-petit-planet-preview-program",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "HoYoverse新作『プチプラネット』、11月1日にリリース予告番組を配信",
+    "summary": "2026年冬の正式リリースを予定するスローライフゲーム。11月1日20:00（日本時間）から公式YouTubeとXで番組を配信し、ゲーム内容や今後のイベント・キャンペーンを紹介する。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
+    "source": "HoYoverse / COGNOSPHERE公式発表",
+    "tags": [
+      "HoYoverse",
+      "プチプラネット",
+      "新作",
+      "リリース予告番組",
+      "PC",
+      "iOS",
+      "Android",
+      "事前登録"
+    ],
+    "spoiler": false,
+    "body": "■ 11月1日20:00から公式番組\nHoYoverseは2026年10月23日、新作スローライフゲーム『プチプラネット』の「リリース予告番組」を11月1日20:00（日本時間）から公式YouTubeと公式Xで配信すると発表した。開発チームとゲストが、ゲーム内容や今後のイベント・キャンペーンを紹介する。\n\n■ 今冬リリース、全プラットフォームで事前登録中\n正式リリースは2026年冬を予定。PC、iOS、Android間のデータ連携に対応し、全プラットフォームで事前登録を受け付けている。番組や作品の物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "リリース予告番組の配信日を発表。"
+      },
+      {
+        "date": "2026年11月1日",
+        "text": "20:00（日本時間）から公式YouTube・公式Xで番組を配信予定。"
+      },
+      {
+        "date": "2026年冬",
+        "text": "PC・iOS・Android向けに正式リリース予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "HoYoverse / COGNOSPHERE公式発表",
+        "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "『プチプラネット』公式YouTube配信待機ページ",
+        "url": "https://youtube.com/live/APPc11eocMM?feature=share",
+        "date": "2026-10-23",
+        "type": "公式"
+      }
+    ],
+    "story_id": "petit-planet-preview-program-20261101"
+  },
+  {
+    "id": "china-latest-20261023-genshin-v72-release",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『原神』Ver.7.2、11月4日に配信決定",
+    "summary": "HoYoverseは10月23日の特別番組と公式PVでVer.7.2の情報を公開し、11月4日の配信を案内した。本記事では新キャラクターや物語・PVの核心には触れない。",
+    "url": "https://genshin.hoyoverse.com/m/ja/home",
+    "source": "『原神』公式サイト / Gematsu",
+    "tags": [
+      "原神",
+      "HoYoverse",
+      "Ver.7.2",
+      "大型アップデート",
+      "PC",
+      "PS5",
+      "Xbox",
+      "iOS",
+      "Android"
+    ],
+    "spoiler": false,
+    "body": "■ Ver.7.2は11月4日配信\nHoYoverseは2026年10月23日、『原神』Ver.7.2の特別番組と公式PVを公開し、11月4日の配信を発表した。対応中のPC、PS5、Xbox Series、iOS、Android向けアップデートとなる。\n\n■ ネタバレを避けて記録\n公式発表には新キャラクター、イベント、物語に関する情報が含まれるが、本記事ではストーリーの核心やPVの展開には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "Ver.7.2特別番組と公式PVを公開。"
+      },
+      {
+        "date": "2026年11月4日",
+        "text": "Ver.7.2を配信予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『原神』日本公式サイト",
+        "url": "https://genshin.hoyoverse.com/m/ja/home",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・Ver.7.2配信日の報道",
+        "url": "https://www.gematsu.com/2026/10/genshin-impact-version-version-7-2-update-hour-of-ruin-launches-november-4",
+        "date": "2026-10-23",
+        "type": "報道"
+      }
+    ],
+    "story_id": "genshin-v72-release-20261104"
+  },
+  {
+    "id": "china-latest-20261023-dream-divers-reveal",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "中国製協力ADV『Dream Divers』発表、最大4人で他人の夢を探索",
+    "summary": "OMEGAMES STUDIOが、他人の夢に潜って埋もれた記憶を回収する協力型アドベンチャーを発表。最大4人プレイに対応し、Steamストアページとアナウンストレイラーを公開した。発売日は未定。",
+    "url": "https://store.steampowered.com/app/5410840/",
+    "source": "Steam公式ページ / 4Gamer",
+    "tags": [
+      "Dream Divers",
+      "OMEGAMES STUDIO",
+      "Pilot Games",
+      "新作",
+      "Steam",
+      "協力プレイ",
+      "アドベンチャー"
+    ],
+    "spoiler": false,
+    "body": "■ 最大4人で夢の世界へ\nOMEGAMES STUDIOは2026年10月23日、新作協力型アドベンチャー『Dream Divers』を発表し、Steamストアページとアナウンストレイラーを公開した。プレイヤーは夢のネットワーク運営会社の一員となり、最大4人で他人の夢へ入り、奥深くに埋もれた記憶を回収する。\n\n■ パズルと危険を越えて脱出\n夢の中では入り組んだ道や仕掛けを攻略し、潜む危険を避けながら生還を目指す。開発はOMEGAMES STUDIO、販売はPilot Games。対応機種はPC（Steam）で、発売日は未定。物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "新作発表、Steamページとアナウンストレイラーを公開。"
       },
       {
         "date": "未定",
-        "text": "正式発売日は未発表。"
+        "text": "PC（Steam）版の発売日は未発表。"
       }
     ],
     "sources": [
       {
         "name": "Steam公式ページ",
-        "url": "https://store.steampowered.com/app/4608170/Draw_Stow/",
-        "date": "2026-10-22",
+        "url": "https://store.steampowered.com/app/5410840/",
+        "date": "2026-10-23",
         "type": "公式"
       },
       {
-        "name": "『LONESTAR』Steam公式ニュース",
-        "url": "https://store.steampowered.com/news/app/2056210/",
-        "date": "2026-10-22",
-        "type": "公式"
-      },
-      {
-        "name": "GamerSky・新作発表の報道",
-        "url": "https://www.gamersky.com/news/202610/2233311.shtml",
-        "date": "2026-10-22",
+        "name": "4Gamer・新作発表の報道",
+        "url": "https://www.4gamer.net/tags/TA/TA006/",
+        "date": "2026-10-23",
         "type": "報道"
       }
     ],
-    "story_id": "draw-and-stow-reveal-20261022"
+    "story_id": "dream-divers-reveal-20261023"
   },
   {
-    "id": "china-latest-20261022-lost-castle-2-mobile-launch",
-    "date": "2026-10-22",
+    "id": "china-latest-20261023-basketball-girls-launch",
+    "date": "2026-10-23",
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "ZH",
-    "title": "『Lost Castle 2』モバイル版が正式サービス開始、『Magicraft』コラボも同時実装",
-    "summary": "Hunter Studio開発、Leiting Games運営の横スクロール型アクションローグライトが、10月22日にiOS・Androidで正式サービスを開始。『Magicraft』とのコラボコンテンツも同時に実装された。",
-    "url": "https://game.leiting.com/list/slcb2/news/19205",
-    "source": "Leiting Games公式サイト",
+    "title": "育成ゲーム『バスケットボール少女：頂点へ』、PC・スマホで正式サービス開始",
+    "summary": "Lingxi Gamesのバスケットボール少女育成ゲームが、10月23日10:00（中国時間）にPC・iOS・Androidで正式サービスを開始。同一アカウントによる機種間のデータ連携に対応する。",
+    "url": "https://www.taptap.cn/moment/861692715182589427",
+    "source": "公式TapTap",
     "tags": [
-      "Lost Castle 2",
-      "Hunter Studio",
-      "Leiting Games",
+      "Lingxi Games",
+      "バスケットボール少女",
       "正式サービス",
+      "PC",
       "iOS",
       "Android",
-      "Magicraft"
+      "育成ゲーム"
     ],
     "spoiler": false,
-    "body": "■ モバイル版が正式サービス開始\nHunter Studioが開発し、Leiting Gamesが運営する『Lost Castle 2』モバイル版は、2026年10月22日5:00（中国時間、日本時間6:00）に正式サービスを開始した。対応プラットフォームはiOSとAndroid。\n\n■ 『Magicraft』とのコラボを同時実装\n正式サービス開始と同時に『Magicraft』とのコラボも始まり、協力キャラクター、コラボ武器、外観などが追加された。本作は横スクロール型アクションとランダムな装備・強化構築を組み合わせ、複数人での協力プレイにも対応する。物語の核心には触れない。",
+    "body": "■ 10月23日に正式サービス開始\nLingxi Gamesの育成ゲーム『バスケットボール少女：頂点へ』は、2026年10月23日10:00（中国時間、日本時間11:00）に正式サービスを開始する。対応プラットフォームはPC、iOS、Androidで、同一アカウントを使った機種間のデータ連携に対応する。\n\n■ チーム育成と試合運用を組み合わせる作品\nプレイヤーはバスケットボールチームの指導者となり、選手の育成計画や試合中の戦術を選択する。公式は公測前にクライアントの事前ダウンロードとゲームプレイ映像を公開した。物語の核心には触れない。",
     "timeline": [
       {
         "date": "2026年10月21日",
-        "text": "モバイル版の事前ダウンロードを開始。"
+        "text": "PC・iOS・Android向けの事前ダウンロードを開始。"
       },
       {
-        "date": "2026年10月22日",
-        "text": "中国時間5:00に正式サービス開始。『Magicraft』コラボも同時実装。"
+        "date": "2026年10月23日",
+        "text": "中国時間10:00に正式サービス開始。"
       }
     ],
     "sources": [
       {
-        "name": "Leiting Games公式・配信時刻とコラボ内容",
-        "url": "https://game.leiting.com/list/slcb2/news/19205",
-        "date": "2026-10-20",
+        "name": "公式TapTap・事前ダウンロードと配信時刻",
+        "url": "https://www.taptap.cn/moment/861692715182589427",
+        "date": "2026-10-21",
         "type": "公式"
       },
       {
-        "name": "Leiting Games公式・配信前FAQ",
-        "url": "https://game.leiting.com/list/slcb2/news/19212",
+        "name": "公式TapTap・ゲームプレイ映像",
+        "url": "https://www.taptap.cn/moment/861705270424767857",
         "date": "2026-10-21",
         "type": "公式"
       }
     ],
-    "story_id": "lost-castle-2-mobile-launch-20261022"
+    "story_id": "basketball-girls-launch-20261023"
+  },
+  {
+    "id": "china-latest-20261023-azur-promilia-release-date",
+    "date": "2026-10-23",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "『アズールプロミリア』、11月26日に日本・中国など4地域で正式リリース",
+    "summary": "Manjuu Games開発、Yostar共同運営のファンタジーワールドRPGが、11月26日に日本・中国・韓国・台湾でPC・iOS・Android向けに正式リリースされる。日本公式も日程を発表し、事前登録を受付中。",
+    "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
+    "source": "『アズールプロミリア』日本公式X / Gematsu",
+    "tags": [
+      "アズールプロミリア",
+      "Manjuu Games",
+      "Yostar",
+      "正式リリース",
+      "PC",
+      "iOS",
+      "Android"
+    ],
+    "spoiler": false,
+    "body": "■ 11月26日に4地域で正式リリース\nManjuu Gamesが開発し、日本ではYostarと共同展開する『アズールプロミリア』は、2026年11月26日に日本・中国・韓国・台湾で正式リリースされる。対応プラットフォームはPC、iOS、Androidで、基本プレイ無料。日本公式は10月23日に発売日を告知し、事前登録を受け付けている。\n\n■ 英語版は別日程\n海外報道によると、英語版は2027年夏のオープンベータを目標としており、今回発表された11月26日の対象地域には含まれない。物語や映像の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "日本公式が正式リリース日を発表。"
+      },
+      {
+        "date": "2026年11月26日",
+        "text": "日本・中国・韓国・台湾でPC・iOS・Android版を正式リリース予定。"
+      },
+      {
+        "date": "2027年夏",
+        "text": "英語版のオープンベータを目標。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『アズールプロミリア』日本公式X",
+        "url": "https://x.com/AzurPromilia_JP/status/2113466648586047817",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・地域別リリース日と英語版計画",
+        "url": "https://www.gematsu.com/2026/10/azur-promilia-launches-november-26-in-japan-south-korea-taiwan-and-china",
+        "date": "2026-10-23",
+        "type": "報道"
+      }
+    ],
+    "story_id": "azur-promilia-release-date-20261126"
   },
   {
     "id": "china-latest-20261022-phantom-blade-zero-final-trailer",
@@ -700,6 +596,110 @@
     "story_id": "phantom-blade-zero-final-trailer-20261022"
   },
   {
+    "id": "china-latest-20261022-lost-castle-2-mobile-launch",
+    "date": "2026-10-22",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "『Lost Castle 2』モバイル版が正式サービス開始、『Magicraft』コラボも同時実装",
+    "summary": "Hunter Studio開発、Leiting Games運営の横スクロール型アクションローグライトが、10月22日にiOS・Androidで正式サービスを開始。『Magicraft』とのコラボコンテンツも同時に実装された。",
+    "url": "https://game.leiting.com/list/slcb2/news/19205",
+    "source": "Leiting Games公式サイト",
+    "tags": [
+      "Lost Castle 2",
+      "Hunter Studio",
+      "Leiting Games",
+      "正式サービス",
+      "iOS",
+      "Android",
+      "Magicraft"
+    ],
+    "spoiler": false,
+    "body": "■ モバイル版が正式サービス開始\nHunter Studioが開発し、Leiting Gamesが運営する『Lost Castle 2』モバイル版は、2026年10月22日5:00（中国時間、日本時間6:00）に正式サービスを開始した。対応プラットフォームはiOSとAndroid。\n\n■ 『Magicraft』とのコラボを同時実装\n正式サービス開始と同時に『Magicraft』とのコラボも始まり、協力キャラクター、コラボ武器、外観などが追加された。本作は横スクロール型アクションとランダムな装備・強化構築を組み合わせ、複数人での協力プレイにも対応する。物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月21日",
+        "text": "モバイル版の事前ダウンロードを開始。"
+      },
+      {
+        "date": "2026年10月22日",
+        "text": "中国時間5:00に正式サービス開始。『Magicraft』コラボも同時実装。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Leiting Games公式・配信時刻とコラボ内容",
+        "url": "https://game.leiting.com/list/slcb2/news/19205",
+        "date": "2026-10-20",
+        "type": "公式"
+      },
+      {
+        "name": "Leiting Games公式・配信前FAQ",
+        "url": "https://game.leiting.com/list/slcb2/news/19212",
+        "date": "2026-10-21",
+        "type": "公式"
+      }
+    ],
+    "story_id": "lost-castle-2-mobile-launch-20261022"
+  },
+  {
+    "id": "china-latest-20261022-draw-and-stow-reveal",
+    "date": "2026-10-22",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "『LONESTAR』開発チームの新作『Draw & Stow』発表、Steamページを公開",
+    "summary": "中国のMath Tideが開発しThermite Gamesが販売するローグライト戦略ゲーム。カード構築、バッグ管理、アイテム合成を組み合わせ、10月24～25日の北京G-Fusionで初の試遊展示を行う。",
+    "url": "https://store.steampowered.com/app/4608170/Draw_Stow/",
+    "source": "Steam公式ページ / GamerSky",
+    "tags": [
+      "Draw & Stow",
+      "Math Tide",
+      "Thermite Games",
+      "Steam",
+      "新作",
+      "ローグライト",
+      "カード構築"
+    ],
+    "spoiler": false,
+    "body": "■ 『LONESTAR』チームの新作\n中国のMath Tideは2026年10月22日、Thermite Gamesが販売する新作『Draw & Stow』を発表し、Steamストアページと最初のゲームプレイ映像を公開した。発売日は未定。\n\n■ カード構築とバッグ管理を融合\n本作はカードを選び、バッグ内のアイテムを配置・合成して連鎖効果を作るローグライト戦略ゲーム。複数の職業ごとに異なるアイテムとルールを用意する。10月24～25日に北京で開催されるG-Fusionで、最初の職業の一連のプレイを試せる展示を行う予定。",
+    "timeline": [
+      {
+        "date": "2026年10月22日",
+        "text": "Steamストアページと最初のゲームプレイ映像を公開。"
+      },
+      {
+        "date": "2026年10月24～25日",
+        "text": "北京G-Fusionで初の試遊展示を実施予定。"
+      },
+      {
+        "date": "未定",
+        "text": "正式発売日は未発表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Steam公式ページ",
+        "url": "https://store.steampowered.com/app/4608170/Draw_Stow/",
+        "date": "2026-10-22",
+        "type": "公式"
+      },
+      {
+        "name": "『LONESTAR』Steam公式ニュース",
+        "url": "https://store.steampowered.com/news/app/2056210/",
+        "date": "2026-10-22",
+        "type": "公式"
+      },
+      {
+        "name": "GamerSky・新作発表の報道",
+        "url": "https://www.gamersky.com/news/202610/2233311.shtml",
+        "date": "2026-10-22",
+        "type": "報道"
+      }
+    ],
+    "story_id": "draw-and-stow-reveal-20261022"
+  },
+  {
     "id": "china-latest-20261021-ordinary-oddness-reveal",
     "date": "2026-10-21",
     "category": "中国ゲーム・最新",
@@ -754,56 +754,6 @@
     "story_id": "ordinary-oddness-reveal-20261021"
   },
   {
-    "id": "china-industry-20261020-qingci-gbits-cooperation",
-    "date": "2026-10-20",
-    "category": "中国ゲーム業界",
-    "status": "公式発表",
-    "lang": "CN",
-    "title": "Qingci GamesとG-bits、2027～2029年のゲーム協力枠組みを更新",
-    "summary": "Qingci Gamesは主要株主G-bitsと、ゲームのマーケティング・プロモーションを相互提供する枠組み契約を締結。2027年に複数の新作投入を計画し、2029年末までの協力継続を見込む。一部取引は独立株主の承認が必要。",
-    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
-    "source": "Qingci Games・香港証券取引所公告",
-    "tags": [
-      "Qingci Games",
-      "G-bits",
-      "中国ゲーム業界",
-      "業務提携",
-      "マーケティング",
-      "新作計画"
-    ],
-    "spoiler": false,
-    "body": "■ 2029年末までのゲーム協力枠組みを締結\nQingci Gamesは2026年10月20日、主要株主のG-bitsと新たなゲーム協力枠組み契約を締結した。両社は2027年から2029年まで、ゲームのマーケティング、宣伝、広告などのサービスを相互に提供する。\n\n■ 2027年に複数の新作投入を計画\nQingci Gamesは、2027年に複数の新作を投入する計画を年間上限設定の根拠として示した。同社がG-bitsへ支払うマーケティング費用の年間上限は、2027年7,500万元、2028年9,000万元、2029年1億800万元。逆方向の年間上限はそれぞれ450万元、600万元、700万元としている。これは上限額であり、実際の支払額や確定投資額ではない。\n\n■ 一部取引は株主承認が必要\nQingci GamesがG-bitsへ支払う取引と年間上限は、独立株主の承認対象となる。会社は関連資料を11月27日までに送付する予定としている。",
-    "timeline": [
-      {
-        "date": "2026年10月20日",
-        "text": "2027～2029年を対象とするゲーム協力枠組み契約を締結。"
-      },
-      {
-        "date": "2026年11月27日まで",
-        "text": "独立株主向けの通函を送付予定。"
-      },
-      {
-        "date": "2027～2029年",
-        "text": "マーケティング・プロモーション協力の契約期間。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Qingci Games・香港証券取引所公告",
-        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
-        "date": "2026-10-20",
-        "type": "公式"
-      },
-      {
-        "name": "鳳凰網・協力枠組み契約の報道",
-        "url": "https://news.ifeng.com/c/8xNirUVRc1j",
-        "date": "2026-10-20",
-        "type": "報道"
-      }
-    ],
-    "story_id": "qingci-gbits-cooperation-20261020"
-  },
-  {
     "id": "china-latest-20261020-reblade-demo",
     "date": "2026-10-20",
     "category": "中国ゲーム・最新",
@@ -854,60 +804,54 @@
     "story_id": "reblade-demo-20261020"
   },
   {
-    "id": "china-latest-20261018-monster-hunter-outlanders-13m",
-    "date": "2026-10-18",
-    "category": "中国ゲーム・最新",
+    "id": "china-industry-20261020-qingci-gbits-cooperation",
+    "date": "2026-10-20",
+    "category": "中国ゲーム業界",
     "status": "公式発表",
-    "lang": "EN",
-    "title": "TiMi『Monster Hunter Outlanders』、世界事前登録1,300万件を突破",
-    "summary": "Tencent傘下TiMi Studio Group開発のモバイル向けオープンワールドアクションが、世界事前登録1,300万件を突破。1,000万件達成報酬として双剣の冒険者Rayaを正式サービス開始時に配布する。世界版は10月29日、中国本土版は2027年以降の予定。",
-    "url": "https://x.com/MHO_English/status/2111638399228707042",
-    "source": "『Monster Hunter Outlanders』公式X",
+    "lang": "CN",
+    "title": "Qingci GamesとG-bits、2027～2029年のゲーム協力枠組みを更新",
+    "summary": "Qingci Gamesは主要株主G-bitsと、ゲームのマーケティング・プロモーションを相互提供する枠組み契約を締結。2027年に複数の新作投入を計画し、2029年末までの協力継続を見込む。一部取引は独立株主の承認が必要。",
+    "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
+    "source": "Qingci Games・香港証券取引所公告",
     "tags": [
-      "Tencent",
-      "TiMi Studio Group",
-      "Monster Hunter Outlanders",
-      "事前登録",
-      "世界展開",
-      "10月29日"
+      "Qingci Games",
+      "G-bits",
+      "中国ゲーム業界",
+      "業務提携",
+      "マーケティング",
+      "新作計画"
     ],
     "spoiler": false,
-    "body": "■ 世界事前登録1,300万件を公式発表\n『Monster Hunter Outlanders』公式は2026年10月18日、世界の事前登録数が1,300万件を超えたと発表した。集計には中国本土版と、メール登録および各ストアでの事前登録が含まれる。ダウンロード数やアクティブ利用者数を示す数字ではない。\n\n■ 1,000万件達成報酬と配信日\n1,000万件達成報酬として、双剣を使う冒険者Rayaが正式サービス開始時に部隊へ加入する。Tencent傘下のTiMi Studio GroupがCapcomの協力を得て開発するモバイル向けオープンワールドアクションで、世界版は10月29日に正式配信予定。中国本土版は2027年以降の配信を予定している。",
+    "body": "■ 2029年末までのゲーム協力枠組みを締結\nQingci Gamesは2026年10月20日、主要株主のG-bitsと新たなゲーム協力枠組み契約を締結した。両社は2027年から2029年まで、ゲームのマーケティング、宣伝、広告などのサービスを相互に提供する。\n\n■ 2027年に複数の新作投入を計画\nQingci Gamesは、2027年に複数の新作を投入する計画を年間上限設定の根拠として示した。同社がG-bitsへ支払うマーケティング費用の年間上限は、2027年7,500万元、2028年9,000万元、2029年1億800万元。逆方向の年間上限はそれぞれ450万元、600万元、700万元としている。これは上限額であり、実際の支払額や確定投資額ではない。\n\n■ 一部取引は株主承認が必要\nQingci GamesがG-bitsへ支払う取引と年間上限は、独立株主の承認対象となる。会社は関連資料を11月27日までに送付する予定としている。",
     "timeline": [
       {
-        "date": "2026年10月18日",
-        "text": "世界事前登録1,300万件突破と1,000万件達成報酬を公式発表。"
+        "date": "2026年10月20日",
+        "text": "2027～2029年を対象とするゲーム協力枠組み契約を締結。"
       },
       {
-        "date": "2026年10月29日",
-        "text": "世界版を正式配信予定。"
+        "date": "2026年11月27日まで",
+        "text": "独立株主向けの通函を送付予定。"
       },
       {
-        "date": "2027年以降",
-        "text": "中国本土版を配信予定。"
+        "date": "2027～2029年",
+        "text": "マーケティング・プロモーション協力の契約期間。"
       }
     ],
     "sources": [
       {
-        "name": "『Monster Hunter Outlanders』公式X",
-        "url": "https://x.com/MHO_English/status/2111638399228707042",
-        "date": "2026-10-18",
+        "name": "Qingci Games・香港証券取引所公告",
+        "url": "https://www.hkexnews.hk/listedco/listconews/sehk/2026/1020/2026102000970_c.pdf",
+        "date": "2026-10-20",
         "type": "公式"
       },
       {
-        "name": "GamerSky・事前登録1,300万件突破の報道",
-        "url": "https://www.gamersky.com/news/202610/2230386.shtml",
-        "date": "2026-10-19",
-        "type": "報道"
-      },
-      {
-        "name": "17173・事前登録節目の報道",
-        "url": "https://news.17173.com/content/10192026/103130527.shtml",
-        "date": "2026-10-19",
+        "name": "鳳凰網・協力枠組み契約の報道",
+        "url": "https://news.ifeng.com/c/8xNirUVRc1j",
+        "date": "2026-10-20",
         "type": "報道"
       }
     ],
-    "story_id": "monster-hunter-outlanders-13m-20261018"
+    "story_id": "qingci-gbits-cooperation-20261020"
   },
   {
     "id": "wuwa-official-20261018-suoming-profile-combat-showcase",
@@ -1006,6 +950,62 @@
     "story_id": "wuwa-suoming-profile-combat-showcase-20261018"
   },
   {
+    "id": "china-latest-20261018-monster-hunter-outlanders-13m",
+    "date": "2026-10-18",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "EN",
+    "title": "TiMi『Monster Hunter Outlanders』、世界事前登録1,300万件を突破",
+    "summary": "Tencent傘下TiMi Studio Group開発のモバイル向けオープンワールドアクションが、世界事前登録1,300万件を突破。1,000万件達成報酬として双剣の冒険者Rayaを正式サービス開始時に配布する。世界版は10月29日、中国本土版は2027年以降の予定。",
+    "url": "https://x.com/MHO_English/status/2111638399228707042",
+    "source": "『Monster Hunter Outlanders』公式X",
+    "tags": [
+      "Tencent",
+      "TiMi Studio Group",
+      "Monster Hunter Outlanders",
+      "事前登録",
+      "世界展開",
+      "10月29日"
+    ],
+    "spoiler": false,
+    "body": "■ 世界事前登録1,300万件を公式発表\n『Monster Hunter Outlanders』公式は2026年10月18日、世界の事前登録数が1,300万件を超えたと発表した。集計には中国本土版と、メール登録および各ストアでの事前登録が含まれる。ダウンロード数やアクティブ利用者数を示す数字ではない。\n\n■ 1,000万件達成報酬と配信日\n1,000万件達成報酬として、双剣を使う冒険者Rayaが正式サービス開始時に部隊へ加入する。Tencent傘下のTiMi Studio GroupがCapcomの協力を得て開発するモバイル向けオープンワールドアクションで、世界版は10月29日に正式配信予定。中国本土版は2027年以降の配信を予定している。",
+    "timeline": [
+      {
+        "date": "2026年10月18日",
+        "text": "世界事前登録1,300万件突破と1,000万件達成報酬を公式発表。"
+      },
+      {
+        "date": "2026年10月29日",
+        "text": "世界版を正式配信予定。"
+      },
+      {
+        "date": "2027年以降",
+        "text": "中国本土版を配信予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『Monster Hunter Outlanders』公式X",
+        "url": "https://x.com/MHO_English/status/2111638399228707042",
+        "date": "2026-10-18",
+        "type": "公式"
+      },
+      {
+        "name": "GamerSky・事前登録1,300万件突破の報道",
+        "url": "https://www.gamersky.com/news/202610/2230386.shtml",
+        "date": "2026-10-19",
+        "type": "報道"
+      },
+      {
+        "name": "17173・事前登録節目の報道",
+        "url": "https://news.17173.com/content/10192026/103130527.shtml",
+        "date": "2026-10-19",
+        "type": "報道"
+      }
+    ],
+    "story_id": "monster-hunter-outlanders-13m-20261018"
+  },
+  {
     "id": "china-latest-20261017-justice-new-world-miao-expansion-details",
     "date": "2026-10-17",
     "category": "中国ゲーム・最新",
@@ -1052,6 +1052,49 @@
       }
     ],
     "story_id": "justice-new-world-first-expansion-details-20261017"
+  },
+  {
+    "id": "wuwa-official-20261016-aihuishou-collab",
+    "date": "2026-10-16",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "CN",
+    "title": "『鳴潮』、愛回収とのリサイクル連動企画を開始",
+    "summary": "『鳴潮』中国公式は、リユース事業者・愛回収との「返航新生」連動企画を10月16日に開始。リサイクル課題や招待企画で限定グッズを提供し、10月17日から広州の連動バスと4都市の屋外広告も展開する。",
+    "url": "https://www.taptap.cn/moment/859389442639531449",
+    "source": "『鳴潮』公式TapTap",
+    "tags": [
+      "鳴潮",
+      "KURO GAMES",
+      "愛回収",
+      "連動企画",
+      "リサイクル",
+      "中国"
+    ],
+    "spoiler": false,
+    "body": "■ 10月16日に中国で連動企画を開始\n『鳴潮』中国公式は、リユース事業者・愛回収との「返航新生」連動企画を2026年10月16日10時に開始した。参加者はリサイクルに関する「グリーンチャレンジ」や友人招待、抽選企画などを通じ、ステッカー、アクリルスタンド、記念コインなどの限定グッズを入手できる。\n\n■ 10月17日から4都市で屋外展開\n10月14日から複数都市で連動装飾車両を展開。10月17日からは広州でテーマバスが巡回し、広州・上海・深圳・成都の4都市に連動大型広告を掲出する。",
+    "timeline": [
+      {
+        "date": "2026年10月14日",
+        "text": "企画予約と一部の屋外展開を開始。"
+      },
+      {
+        "date": "2026年10月16日",
+        "text": "リサイクル連動企画を正式開始。"
+      },
+      {
+        "date": "2026年10月17日",
+        "text": "広州のテーマバス巡回と4都市の大型広告を開始予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『鳴潮』公式TapTap・愛回収連動企画",
+        "url": "https://www.taptap.cn/moment/859389442639531449",
+        "type": "公式"
+      }
+    ],
+    "story_id": "wuwa-aihuishou-collab-20261016"
   },
   {
     "id": "china-industry-20261016-ac-destiny-cancelled-report",
@@ -1103,138 +1146,46 @@
     "story_id": "ac-destiny-cancelled-report-20261016"
   },
   {
-    "id": "wuwa-official-20261016-aihuishou-collab",
-    "date": "2026-10-16",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "CN",
-    "title": "『鳴潮』、愛回収とのリサイクル連動企画を開始",
-    "summary": "『鳴潮』中国公式は、リユース事業者・愛回収との「返航新生」連動企画を10月16日に開始。リサイクル課題や招待企画で限定グッズを提供し、10月17日から広州の連動バスと4都市の屋外広告も展開する。",
-    "url": "https://www.taptap.cn/moment/859389442639531449",
-    "source": "『鳴潮』公式TapTap",
-    "tags": [
-      "鳴潮",
-      "KURO GAMES",
-      "愛回収",
-      "連動企画",
-      "リサイクル",
-      "中国"
-    ],
-    "spoiler": false,
-    "body": "■ 10月16日に中国で連動企画を開始\n『鳴潮』中国公式は、リユース事業者・愛回収との「返航新生」連動企画を2026年10月16日10時に開始した。参加者はリサイクルに関する「グリーンチャレンジ」や友人招待、抽選企画などを通じ、ステッカー、アクリルスタンド、記念コインなどの限定グッズを入手できる。\n\n■ 10月17日から4都市で屋外展開\n10月14日から複数都市で連動装飾車両を展開。10月17日からは広州でテーマバスが巡回し、広州・上海・深圳・成都の4都市に連動大型広告を掲出する。",
-    "timeline": [
-      {
-        "date": "2026年10月14日",
-        "text": "企画予約と一部の屋外展開を開始。"
-      },
-      {
-        "date": "2026年10月16日",
-        "text": "リサイクル連動企画を正式開始。"
-      },
-      {
-        "date": "2026年10月17日",
-        "text": "広州のテーマバス巡回と4都市の大型広告を開始予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『鳴潮』公式TapTap・愛回収連動企画",
-        "url": "https://www.taptap.cn/moment/859389442639531449",
-        "type": "公式"
-      }
-    ],
-    "story_id": "wuwa-aihuishou-collab-20261016"
-  },
-  {
-    "id": "china-latest-20261015-ecc-redline-first-test",
+    "id": "china-latest-20261015-sword-of-justice-nier-collab",
     "date": "2026-10-15",
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "CN",
-    "title": "NetEase新作『極限戦場』、10月15日10時から初のPC限定テスト",
-    "summary": "NetEaseの自社開発による極限スポーツ競技シューター『極限戦場（ECC: REDLINE）』が、中国時間10月15日10時から初回テストを実施。今回はPC限定・人数限定のデータ削除テストで、1万5000人分の参加資格が配布された。",
-    "url": "https://www.taptap.cn/moment/859148729087689044",
-    "source": "『極限戦場』公式TapTap",
+    "title": "NetEase『Sword of Justice』、『NieR:Automata』コラボを開始",
+    "summary": "NetEaseのMMORPG『Sword of Justice』が10月15日から11月15日まで『NieR:Automata』とのコラボを実施。テーマ衣装やペットなどを展開する。ストーリーの詳細には触れない。",
+    "url": "https://www.swordofjustice.com/zh-cht/news/official/20261014/40324_1316612.html",
+    "source": "『Sword of Justice』公式サイト",
     "tags": [
       "NetEase",
-      "極限戦場",
-      "ECC: REDLINE",
-      "新作",
-      "PCテスト",
-      "シューター"
+      "Sword of Justice",
+      "NieR:Automata",
+      "コラボ",
+      "MMORPG"
     ],
     "spoiler": false,
-    "body": "■ 初回テストはPC限定\nNetEaseが自社開発する新作『極限戦場（ECC: REDLINE）』は、中国時間2026年10月15日10時から初回テストを開始する。今回はPCのみを対象とした人数限定・データ削除型のテストで、公式は1万5000人分の参加資格を配布し、前日から事前ダウンロードを開放した。\n\n■ 極限スポーツと競技シューターを組み合わせる新作\n公式は本作を、速い試合展開、滑らかな操作、比較的高い許容度を掲げる極限スポーツ競技シューターと説明。初公開から約1週間で最初のテストへ進む短い日程となっている。モバイル版のストアページも用意されているが、今回のテスト対象はPCのみ。",
+    "body": "■ 10月15日から1か月間のコラボ\nNetEaseのMMORPG『Sword of Justice』は、2026年10月15日から11月15日まで『NieR:Automata』との期間限定コラボを実施する。公式はコラボ衣装、ペット、各種テーマアイテムなどを案内している。\n\n■ 物語の内容は記載しない\n公式告知にはコラボの世界観や演出に関する説明も含まれるが、本記事ではストーリーや予告映像の核心に触れず、開催期間と実装内容の概要だけを整理する。",
     "timeline": [
-      {
-        "date": "2026年10月9日",
-        "text": "NetEaseが『極限戦場』を正式公開し、初回PCテストの募集を開始。"
-      },
       {
         "date": "2026年10月14日",
-        "text": "1万5000人分の参加資格を配布し、事前ダウンロードを開始。"
-      },
-      {
-        "date": "2026年10月15日10:00（中国時間）",
-        "text": "PC限定の初回テストを開始予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『極限戦場』公式TapTap・参加資格と事前ダウンロード",
-        "url": "https://www.taptap.cn/moment/859148729087689044",
-        "type": "公式"
-      },
-      {
-        "name": "『極限戦場』公式TapTap・初公開とテスト概要",
-        "url": "https://www.taptap.cn/moment/857390367039818630",
-        "type": "公式"
-      }
-    ],
-    "story_id": "ecc-redline-first-test-20261015"
-  },
-  {
-    "id": "china-latest-20261015-endfield-sanctuary-of-ink",
-    "date": "2026-10-15",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "EN",
-    "title": "『アークナイツ：エンドフィールド』大型更新「丹青渡」を配信、Steam版も開始",
-    "summary": "Hypergryph系の『アークナイツ：エンドフィールド』が大型更新「丹青渡」を配信。新地域・新オペレーター・複数イベントを追加し、同日にSteam版の配信も開始した。",
-    "url": "https://endfield.gryphline.com/news/9560",
-    "source": "『アークナイツ：エンドフィールド』公式サイト",
-    "tags": [
-      "アークナイツ：エンドフィールド",
-      "Hypergryph",
-      "丹青渡",
-      "大型アップデート",
-      "Steam"
-    ],
-    "spoiler": false,
-    "body": "■ 新地域を含む大型更新\n『アークナイツ：エンドフィールド』は2026年10月15日、大型更新「丹青渡」を配信した。新地域「祀の絵」、新オペレーター、新武器、敵、期間限定イベントなどを追加している。\n\n■ Steam版も同日開始\n大型更新に合わせ、Steam版の配信も開始。既存の公式ランチャー、Epic Games Store、PS5、iOS、AndroidにSteamが加わった。ストーリーの核心には触れず、追加要素と対応プラットフォームだけを整理する。",
-    "timeline": [
-      {
-        "date": "2026年10月6日",
-        "text": "大型更新とSteam版の10月15日配信を発表。"
+        "text": "公式サイトがコラボ内容と開催日程を発表。"
       },
       {
         "date": "2026年10月15日",
-        "text": "大型更新「丹青渡」とSteam版を配信開始。"
+        "text": "『NieR:Automata』コラボを開始。"
+      },
+      {
+        "date": "2026年11月15日",
+        "text": "コラボ終了予定。"
       }
     ],
     "sources": [
       {
-        "name": "『アークナイツ：エンドフィールド』公式・更新内容",
-        "url": "https://endfield.gryphline.com/news/9560",
+        "name": "『Sword of Justice』公式サイト・コラボ告知",
+        "url": "https://www.swordofjustice.com/zh-cht/news/official/20261014/40324_1316612.html",
         "type": "公式"
-      },
-      {
-        "name": "Gematsu・大型更新とSteam版",
-        "url": "https://www.gematsu.com/2026/10/arknights-endfield-version-update-sanctuary-of-ink-launches-october-15-alongside-steam-release",
-        "type": "報道"
       }
     ],
-    "story_id": "endfield-sanctuary-of-ink-20261015"
+    "story_id": "sword-of-justice-nier-collab-20261015"
   },
   {
     "id": "china-latest-20261015-jx-world4-launch",
@@ -1285,119 +1236,174 @@
     "story_id": "jx-world4-launch-20261015"
   },
   {
-    "id": "china-latest-20261015-sword-of-justice-nier-collab",
+    "id": "china-latest-20261015-endfield-sanctuary-of-ink",
+    "date": "2026-10-15",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "EN",
+    "title": "『アークナイツ：エンドフィールド』大型更新「丹青渡」を配信、Steam版も開始",
+    "summary": "Hypergryph系の『アークナイツ：エンドフィールド』が大型更新「丹青渡」を配信。新地域・新オペレーター・複数イベントを追加し、同日にSteam版の配信も開始した。",
+    "url": "https://endfield.gryphline.com/news/9560",
+    "source": "『アークナイツ：エンドフィールド』公式サイト",
+    "tags": [
+      "アークナイツ：エンドフィールド",
+      "Hypergryph",
+      "丹青渡",
+      "大型アップデート",
+      "Steam"
+    ],
+    "spoiler": false,
+    "body": "■ 新地域を含む大型更新\n『アークナイツ：エンドフィールド』は2026年10月15日、大型更新「丹青渡」を配信した。新地域「祀の絵」、新オペレーター、新武器、敵、期間限定イベントなどを追加している。\n\n■ Steam版も同日開始\n大型更新に合わせ、Steam版の配信も開始。既存の公式ランチャー、Epic Games Store、PS5、iOS、AndroidにSteamが加わった。ストーリーの核心には触れず、追加要素と対応プラットフォームだけを整理する。",
+    "timeline": [
+      {
+        "date": "2026年10月6日",
+        "text": "大型更新とSteam版の10月15日配信を発表。"
+      },
+      {
+        "date": "2026年10月15日",
+        "text": "大型更新「丹青渡」とSteam版を配信開始。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『アークナイツ：エンドフィールド』公式・更新内容",
+        "url": "https://endfield.gryphline.com/news/9560",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・大型更新とSteam版",
+        "url": "https://www.gematsu.com/2026/10/arknights-endfield-version-update-sanctuary-of-ink-launches-october-15-alongside-steam-release",
+        "type": "報道"
+      }
+    ],
+    "story_id": "endfield-sanctuary-of-ink-20261015"
+  },
+  {
+    "id": "china-latest-20261015-ecc-redline-first-test",
     "date": "2026-10-15",
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "CN",
-    "title": "NetEase『Sword of Justice』、『NieR:Automata』コラボを開始",
-    "summary": "NetEaseのMMORPG『Sword of Justice』が10月15日から11月15日まで『NieR:Automata』とのコラボを実施。テーマ衣装やペットなどを展開する。ストーリーの詳細には触れない。",
-    "url": "https://www.swordofjustice.com/zh-cht/news/official/20261014/40324_1316612.html",
-    "source": "『Sword of Justice』公式サイト",
+    "title": "NetEase新作『極限戦場』、10月15日10時から初のPC限定テスト",
+    "summary": "NetEaseの自社開発による極限スポーツ競技シューター『極限戦場（ECC: REDLINE）』が、中国時間10月15日10時から初回テストを実施。今回はPC限定・人数限定のデータ削除テストで、1万5000人分の参加資格が配布された。",
+    "url": "https://www.taptap.cn/moment/859148729087689044",
+    "source": "『極限戦場』公式TapTap",
     "tags": [
       "NetEase",
-      "Sword of Justice",
-      "NieR:Automata",
-      "コラボ",
-      "MMORPG"
+      "極限戦場",
+      "ECC: REDLINE",
+      "新作",
+      "PCテスト",
+      "シューター"
     ],
     "spoiler": false,
-    "body": "■ 10月15日から1か月間のコラボ\nNetEaseのMMORPG『Sword of Justice』は、2026年10月15日から11月15日まで『NieR:Automata』との期間限定コラボを実施する。公式はコラボ衣装、ペット、各種テーマアイテムなどを案内している。\n\n■ 物語の内容は記載しない\n公式告知にはコラボの世界観や演出に関する説明も含まれるが、本記事ではストーリーや予告映像の核心に触れず、開催期間と実装内容の概要だけを整理する。",
+    "body": "■ 初回テストはPC限定\nNetEaseが自社開発する新作『極限戦場（ECC: REDLINE）』は、中国時間2026年10月15日10時から初回テストを開始する。今回はPCのみを対象とした人数限定・データ削除型のテストで、公式は1万5000人分の参加資格を配布し、前日から事前ダウンロードを開放した。\n\n■ 極限スポーツと競技シューターを組み合わせる新作\n公式は本作を、速い試合展開、滑らかな操作、比較的高い許容度を掲げる極限スポーツ競技シューターと説明。初公開から約1週間で最初のテストへ進む短い日程となっている。モバイル版のストアページも用意されているが、今回のテスト対象はPCのみ。",
     "timeline": [
       {
+        "date": "2026年10月9日",
+        "text": "NetEaseが『極限戦場』を正式公開し、初回PCテストの募集を開始。"
+      },
+      {
         "date": "2026年10月14日",
-        "text": "公式サイトがコラボ内容と開催日程を発表。"
+        "text": "1万5000人分の参加資格を配布し、事前ダウンロードを開始。"
       },
       {
-        "date": "2026年10月15日",
-        "text": "『NieR:Automata』コラボを開始。"
-      },
-      {
-        "date": "2026年11月15日",
-        "text": "コラボ終了予定。"
+        "date": "2026年10月15日10:00（中国時間）",
+        "text": "PC限定の初回テストを開始予定。"
       }
     ],
     "sources": [
       {
-        "name": "『Sword of Justice』公式サイト・コラボ告知",
-        "url": "https://www.swordofjustice.com/zh-cht/news/official/20261014/40324_1316612.html",
+        "name": "『極限戦場』公式TapTap・参加資格と事前ダウンロード",
+        "url": "https://www.taptap.cn/moment/859148729087689044",
+        "type": "公式"
+      },
+      {
+        "name": "『極限戦場』公式TapTap・初公開とテスト概要",
+        "url": "https://www.taptap.cn/moment/857390367039818630",
         "type": "公式"
       }
     ],
-    "story_id": "sword-of-justice-nier-collab-20261015"
+    "story_id": "ecc-redline-first-test-20261015"
   },
   {
-    "id": "china-industry-20261014-kuro-yanzhiyu-ai-stake",
+    "id": "china-latest-20261014-order-new-dawn-delay",
     "date": "2026-10-14",
-    "category": "中国ゲーム業界",
-    "status": "報道",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
     "lang": "CN",
-    "title": "KURO GAMES、AI新興企業の株式15％を取得。創業者が取締役に",
-    "summary": "中国メディアGame Tuoluoは、KURO GAMESが深圳のAI新興企業Yanzhiyu Technologyの株式15％を取得し、創業者の劉勝氏が取締役に就いたと報道。投資額は非公表で、約2億元という数字は同社の評価額とされる。",
-    "url": "https://www.youxituoluo.com/534962.html",
-    "source": "Game Tuoluo",
+    "title": "『秩序：新曙光』Steam早期アクセス、ストア再審査で1～2日延期",
+    "summary": "10月14日にSteam早期アクセスを予定していた中国製コロニー運営シミュレーション『秩序：新曙光』が、ストアページの再審査を理由に開始を1～2日延期すると発表。新しい確定日時はまだ示されていない。",
+    "url": "https://store.steampowered.com/app/3080070/Order_The_New_Dawn/?l=schinese",
+    "source": "『秩序：新曙光』Steam公式ページ",
     "tags": [
-      "KURO GAMES",
-      "AI",
-      "出資",
-      "Yanzhiyu Technology",
-      "マルチモーダル"
+      "秩序：新曙光",
+      "Order: The New Dawn",
+      "Steam",
+      "早期アクセス",
+      "延期",
+      "中国インディー"
     ],
     "spoiler": false,
-    "body": "■ AI新興企業へ初の公開投資\nGame Tuoluoは2026年10月14日、KURO GAMESが深圳のAI新興企業Yanzhiyu Technologyの新規株主となり、株式15％を取得したと報じた。KURO GAMES創業者の劉勝氏も同社取締役に就任した。公開情報で確認できるKURO GAMESのAI企業投資としては初の事例とされる。\n\n■ 音声・映像・3Dキャラクター技術を展開\n出資先は、超写実的な音声生成、音楽・効果音生成、動画翻訳、リアルタイム対話、3Dキャラクター駆動などのマルチモーダル技術を手掛ける。Game Tuoluoはエンジェルラウンド時の評価額を約2億元と伝えているが、KURO GAMESの実際の出資額は公表されていない。",
+    "body": "■ 予定日の当日に延期を告知\n中国製コロニー運営シミュレーション『秩序：新曙光（Order: The New Dawn）』は、2026年10月14日に予定していたSteam早期アクセスについて、ストアページを再審査する必要が生じたため1～2日延期すると公式ページで案内した。\n\n■ 確定した新日程は未発表\n告知時点では新しい配信開始日時は確定していない。TapTapのAndroid版も10月14日予定として案内されていたが、Steamの延期告知だけからAndroid版への影響までは断定できない。",
     "timeline": [
       {
         "date": "2026年10月14日",
-        "text": "Game TuoluoがKURO GAMESによる株式15％取得と取締役就任を報道。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Game Tuoluo・KURO GAMESのAI企業出資報道",
-        "url": "https://www.youxituoluo.com/534962.html",
-        "type": "報道"
-      }
-    ],
-    "story_id": "kuro-yanzhiyu-ai-stake-20261014"
-  },
-  {
-    "id": "china-industry-20261014-mobile-market-q3",
-    "date": "2026-10-14",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "CN",
-    "title": "世界モバイルゲーム売上、2026年7～9月は前年比7％減。中国は最大市場を維持",
-    "summary": "Game TuoluoがAream & Coの市場資料を基に、2026年7～9月の世界モバイルゲーム課金売上は196億ドルで前年比7％減と報道。直近1年の国・地域別では中国が255億ドルで首位を維持した。",
-    "url": "https://www.youxituoluo.com/534960.html",
-    "source": "Game Tuoluo / Aream & Co",
-    "tags": [
-      "中国ゲーム市場",
-      "モバイルゲーム",
-      "市場動向",
-      "売上",
-      "Aream & Co"
-    ],
-    "spoiler": false,
-    "body": "■ 7～9月の世界売上は196億ドル\nGame TuoluoはAream & Coの市場資料を基に、2026年7～9月の世界モバイルゲーム課金売上が196億ドルとなり、前年同期比で7％減少したと報じた。直近1年のダウンロード数も約10％減少したという。\n\n■ 中国が最大市場を維持\n直近1年間の国・地域別モバイルゲーム売上では、中国が255億ドルで首位と報じられた。一方、世界の売上上位タイトルに2026年の新作はなく、長期運営タイトルへの集中が続いている。",
-    "timeline": [
-      {
-        "date": "2026年10月14日",
-        "text": "Game TuoluoがAream & Coの2026年7～9月市場資料を報道。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Game Tuoluo・世界モバイルゲーム市場報道",
-        "url": "https://www.youxituoluo.com/534960.html",
-        "type": "報道"
+        "text": "Steam早期アクセス開始予定日。ストアページの再審査を理由に1～2日の延期を発表。"
       },
       {
-        "name": "Aream & Co・Video Game Market Update Q3 2026",
-        "url": "https://www.aream.co/",
-        "type": "調査元"
+        "date": "告知時点",
+        "text": "新しい確定配信日時は未発表。"
       }
     ],
-    "story_id": "mobile-market-q3-20261014"
+    "sources": [
+      {
+        "name": "『秩序：新曙光』Steam公式ページ・延期告知",
+        "url": "https://store.steampowered.com/app/3080070/Order_The_New_Dawn/?l=schinese",
+        "type": "公式"
+      }
+    ],
+    "story_id": "order-new-dawn-delay-20261014"
+  },
+  {
+    "id": "china-latest-20261014-no-such-place-ea",
+    "date": "2026-10-14",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "CN",
+    "title": "中国インディー『No Such Place』、Steam早期アクセスを開始",
+    "summary": "ChillyRoomとCritTeamが開発する見下ろし型PvE脱出シューター『No Such Place』がSteam早期アクセスを開始。1人プレイとオンライン協力に対応し、拠点整備や装備収集を組み合わせる。",
+    "url": "https://store.steampowered.com/app/3299050/No_Such_Place/?l=schinese",
+    "source": "『No Such Place』Steam公式ページ",
+    "tags": [
+      "No Such Place",
+      "ChillyRoom",
+      "CritTeam",
+      "Steam",
+      "早期アクセス",
+      "PvE",
+      "協力プレイ"
+    ],
+    "spoiler": false,
+    "body": "■ Steamで早期アクセス開始\nChillyRoomとCritTeamが開発する『No Such Place』がSteam早期アクセスを開始した。中国向け告知では2026年10月14日開始と案内され、Steam上では地域・時差により10月13日と表示される場合がある。\n\n■ 見下ろし型のPvE脱出シューター\n本作は怪異調査を題材にした見下ろし型PvE脱出シューターで、単独プレイとオンライン協力に対応。探索で物資や手掛かりを回収し、脱出後に装備と拠点を整えて次の任務へ進む構成となっている。早期アクセス中のため、内容や仕様は今後変更される可能性がある。",
+    "timeline": [
+      {
+        "date": "2026年9月24日",
+        "text": "開発元が10月14日のSteam早期アクセス開始を告知。"
+      },
+      {
+        "date": "2026年10月14日（中国向け告知基準）",
+        "text": "Steam早期アクセスを開始。Steamの地域表示では10月13日となる場合がある。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『No Such Place』Steam公式ページ",
+        "url": "https://store.steampowered.com/app/3299050/No_Such_Place/?l=schinese",
+        "type": "公式"
+      }
+    ],
+    "story_id": "no-such-place-ea-20261014"
   },
   {
     "id": "china-industry-20261014-tencent-turkey-investments",
@@ -1453,83 +1459,116 @@
     "story_id": "tencent-turkey-investments-20261014"
   },
   {
-    "id": "china-latest-20261014-no-such-place-ea",
+    "id": "china-industry-20261014-mobile-market-q3",
     "date": "2026-10-14",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
+    "category": "中国ゲーム業界",
+    "status": "報道",
     "lang": "CN",
-    "title": "中国インディー『No Such Place』、Steam早期アクセスを開始",
-    "summary": "ChillyRoomとCritTeamが開発する見下ろし型PvE脱出シューター『No Such Place』がSteam早期アクセスを開始。1人プレイとオンライン協力に対応し、拠点整備や装備収集を組み合わせる。",
-    "url": "https://store.steampowered.com/app/3299050/No_Such_Place/?l=schinese",
-    "source": "『No Such Place』Steam公式ページ",
+    "title": "世界モバイルゲーム売上、2026年7～9月は前年比7％減。中国は最大市場を維持",
+    "summary": "Game TuoluoがAream & Coの市場資料を基に、2026年7～9月の世界モバイルゲーム課金売上は196億ドルで前年比7％減と報道。直近1年の国・地域別では中国が255億ドルで首位を維持した。",
+    "url": "https://www.youxituoluo.com/534960.html",
+    "source": "Game Tuoluo / Aream & Co",
     "tags": [
-      "No Such Place",
-      "ChillyRoom",
-      "CritTeam",
-      "Steam",
-      "早期アクセス",
-      "PvE",
-      "協力プレイ"
+      "中国ゲーム市場",
+      "モバイルゲーム",
+      "市場動向",
+      "売上",
+      "Aream & Co"
     ],
     "spoiler": false,
-    "body": "■ Steamで早期アクセス開始\nChillyRoomとCritTeamが開発する『No Such Place』がSteam早期アクセスを開始した。中国向け告知では2026年10月14日開始と案内され、Steam上では地域・時差により10月13日と表示される場合がある。\n\n■ 見下ろし型のPvE脱出シューター\n本作は怪異調査を題材にした見下ろし型PvE脱出シューターで、単独プレイとオンライン協力に対応。探索で物資や手掛かりを回収し、脱出後に装備と拠点を整えて次の任務へ進む構成となっている。早期アクセス中のため、内容や仕様は今後変更される可能性がある。",
-    "timeline": [
-      {
-        "date": "2026年9月24日",
-        "text": "開発元が10月14日のSteam早期アクセス開始を告知。"
-      },
-      {
-        "date": "2026年10月14日（中国向け告知基準）",
-        "text": "Steam早期アクセスを開始。Steamの地域表示では10月13日となる場合がある。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『No Such Place』Steam公式ページ",
-        "url": "https://store.steampowered.com/app/3299050/No_Such_Place/?l=schinese",
-        "type": "公式"
-      }
-    ],
-    "story_id": "no-such-place-ea-20261014"
-  },
-  {
-    "id": "china-latest-20261014-order-new-dawn-delay",
-    "date": "2026-10-14",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "CN",
-    "title": "『秩序：新曙光』Steam早期アクセス、ストア再審査で1～2日延期",
-    "summary": "10月14日にSteam早期アクセスを予定していた中国製コロニー運営シミュレーション『秩序：新曙光』が、ストアページの再審査を理由に開始を1～2日延期すると発表。新しい確定日時はまだ示されていない。",
-    "url": "https://store.steampowered.com/app/3080070/Order_The_New_Dawn/?l=schinese",
-    "source": "『秩序：新曙光』Steam公式ページ",
-    "tags": [
-      "秩序：新曙光",
-      "Order: The New Dawn",
-      "Steam",
-      "早期アクセス",
-      "延期",
-      "中国インディー"
-    ],
-    "spoiler": false,
-    "body": "■ 予定日の当日に延期を告知\n中国製コロニー運営シミュレーション『秩序：新曙光（Order: The New Dawn）』は、2026年10月14日に予定していたSteam早期アクセスについて、ストアページを再審査する必要が生じたため1～2日延期すると公式ページで案内した。\n\n■ 確定した新日程は未発表\n告知時点では新しい配信開始日時は確定していない。TapTapのAndroid版も10月14日予定として案内されていたが、Steamの延期告知だけからAndroid版への影響までは断定できない。",
+    "body": "■ 7～9月の世界売上は196億ドル\nGame TuoluoはAream & Coの市場資料を基に、2026年7～9月の世界モバイルゲーム課金売上が196億ドルとなり、前年同期比で7％減少したと報じた。直近1年のダウンロード数も約10％減少したという。\n\n■ 中国が最大市場を維持\n直近1年間の国・地域別モバイルゲーム売上では、中国が255億ドルで首位と報じられた。一方、世界の売上上位タイトルに2026年の新作はなく、長期運営タイトルへの集中が続いている。",
     "timeline": [
       {
         "date": "2026年10月14日",
-        "text": "Steam早期アクセス開始予定日。ストアページの再審査を理由に1～2日の延期を発表。"
-      },
-      {
-        "date": "告知時点",
-        "text": "新しい確定配信日時は未発表。"
+        "text": "Game TuoluoがAream & Coの2026年7～9月市場資料を報道。"
       }
     ],
     "sources": [
       {
-        "name": "『秩序：新曙光』Steam公式ページ・延期告知",
-        "url": "https://store.steampowered.com/app/3080070/Order_The_New_Dawn/?l=schinese",
-        "type": "公式"
+        "name": "Game Tuoluo・世界モバイルゲーム市場報道",
+        "url": "https://www.youxituoluo.com/534960.html",
+        "type": "報道"
+      },
+      {
+        "name": "Aream & Co・Video Game Market Update Q3 2026",
+        "url": "https://www.aream.co/",
+        "type": "調査元"
       }
     ],
-    "story_id": "order-new-dawn-delay-20261014"
+    "story_id": "mobile-market-q3-20261014"
+  },
+  {
+    "id": "china-industry-20261014-kuro-yanzhiyu-ai-stake",
+    "date": "2026-10-14",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "KURO GAMES、AI新興企業の株式15％を取得。創業者が取締役に",
+    "summary": "中国メディアGame Tuoluoは、KURO GAMESが深圳のAI新興企業Yanzhiyu Technologyの株式15％を取得し、創業者の劉勝氏が取締役に就いたと報道。投資額は非公表で、約2億元という数字は同社の評価額とされる。",
+    "url": "https://www.youxituoluo.com/534962.html",
+    "source": "Game Tuoluo",
+    "tags": [
+      "KURO GAMES",
+      "AI",
+      "出資",
+      "Yanzhiyu Technology",
+      "マルチモーダル"
+    ],
+    "spoiler": false,
+    "body": "■ AI新興企業へ初の公開投資\nGame Tuoluoは2026年10月14日、KURO GAMESが深圳のAI新興企業Yanzhiyu Technologyの新規株主となり、株式15％を取得したと報じた。KURO GAMES創業者の劉勝氏も同社取締役に就任した。公開情報で確認できるKURO GAMESのAI企業投資としては初の事例とされる。\n\n■ 音声・映像・3Dキャラクター技術を展開\n出資先は、超写実的な音声生成、音楽・効果音生成、動画翻訳、リアルタイム対話、3Dキャラクター駆動などのマルチモーダル技術を手掛ける。Game Tuoluoはエンジェルラウンド時の評価額を約2億元と伝えているが、KURO GAMESの実際の出資額は公表されていない。",
+    "timeline": [
+      {
+        "date": "2026年10月14日",
+        "text": "Game TuoluoがKURO GAMESによる株式15％取得と取締役就任を報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Tuoluo・KURO GAMESのAI企業出資報道",
+        "url": "https://www.youxituoluo.com/534962.html",
+        "type": "報道"
+      }
+    ],
+    "story_id": "kuro-yanzhiyu-ai-stake-20261014"
+  },
+  {
+    "id": "china-industry-20261013-glacier-network-q3-loss",
+    "date": "2026-10-13",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "Glacier Network、2026年1～9月は最大1.78億元の赤字見通し",
+    "summary": "中国ゲーム企業Glacier Networkは、2026年1～9月の純損失を1.25億～1.78億元と予想。Game Tuoluoは、新作『X-Clash』などの広告宣伝費増加と既存作の減収が響いたと報じた。",
+    "url": "https://www.youxituoluo.com/534965.html",
+    "source": "Game Tuoluo",
+    "tags": [
+      "Glacier Network",
+      "決算",
+      "業績予想",
+      "X-Clash",
+      "広告費",
+      "中国ゲーム企業"
+    ],
+    "spoiler": false,
+    "body": "■ 1～9月は赤字転落の見通し\nGame Tuoluoによると、中国ゲーム企業Glacier Networkは2026年10月13日、1～9月の株主帰属純損失が1.25億～1.78億元になるとの業績予想を公表した。前年同期は5.02億元の黒字だった。\n\n■ 新作の宣伝費と既存作の減収が重荷\n7～9月だけでも1.07億～1.52億元の純損失を見込む。報道は『X-Clash』など新作のユーザー獲得・広告宣伝費が増えた一方、既存タイトルの売上が減少したことを主因として挙げている。",
+    "timeline": [
+      {
+        "date": "2026年10月13日",
+        "text": "Glacier Networkが2026年1～9月の業績予想を公表。"
+      },
+      {
+        "date": "2026年10月15日",
+        "text": "Game Tuoluoが赤字見通しと費用構造を詳報。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Tuoluo・Glacier Network業績予想報道",
+        "url": "https://www.youxituoluo.com/534965.html",
+        "type": "報道"
+      }
+    ],
+    "story_id": "glacier-network-q3-loss-20261013"
   },
   {
     "id": "china-industry-20261012-tencent-bond-plan",
@@ -1576,90 +1615,44 @@
     "story_id": "tencent-bond-plan-20261012"
   },
   {
-    "id": "china-industry-20261013-glacier-network-q3-loss",
-    "date": "2026-10-13",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "CN",
-    "title": "Glacier Network、2026年1～9月は最大1.78億元の赤字見通し",
-    "summary": "中国ゲーム企業Glacier Networkは、2026年1～9月の純損失を1.25億～1.78億元と予想。Game Tuoluoは、新作『X-Clash』などの広告宣伝費増加と既存作の減収が響いたと報じた。",
-    "url": "https://www.youxituoluo.com/534965.html",
-    "source": "Game Tuoluo",
-    "tags": [
-      "Glacier Network",
-      "決算",
-      "業績予想",
-      "X-Clash",
-      "広告費",
-      "中国ゲーム企業"
-    ],
-    "spoiler": false,
-    "body": "■ 1～9月は赤字転落の見通し\nGame Tuoluoによると、中国ゲーム企業Glacier Networkは2026年10月13日、1～9月の株主帰属純損失が1.25億～1.78億元になるとの業績予想を公表した。前年同期は5.02億元の黒字だった。\n\n■ 新作の宣伝費と既存作の減収が重荷\n7～9月だけでも1.07億～1.52億元の純損失を見込む。報道は『X-Clash』など新作のユーザー獲得・広告宣伝費が増えた一方、既存タイトルの売上が減少したことを主因として挙げている。",
-    "timeline": [
-      {
-        "date": "2026年10月13日",
-        "text": "Glacier Networkが2026年1～9月の業績予想を公表。"
-      },
-      {
-        "date": "2026年10月15日",
-        "text": "Game Tuoluoが赤字見通しと費用構造を詳報。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Game Tuoluo・Glacier Network業績予想報道",
-        "url": "https://www.youxituoluo.com/534965.html",
-        "type": "報道"
-      }
-    ],
-    "story_id": "glacier-network-q3-loss-20261013"
-  },
-  {
-    "id": "china-industry-20261012-division2-cn-shutdown",
+    "id": "wuwa-leak-20261012-v38-v0-test",
     "date": "2026-10-12",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "CN",
-    "title": "テンセント運営版『ディビジョン2』、中国本土サービスを12月14日に終了へ",
-    "summary": "中国本土版の運営チームが事業戦略の変更を理由に終了日程を告知。10月12日に課金と新規登録を停止し、12月14日にサーバーと公式サイト、12月22日にフォーラムと専用サポートを閉じる。",
-    "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
-    "source": "IT之家（鳳凰網掲載）・快科技（鳳凰網掲載）",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "JP",
+    "title": "【未確認】鳴潮Ver.3.8の初期テスト開始が近いとの投稿",
+    "summary": "リーク情報を扱う公開アカウントが、外部情報提供者を出典としてVer.3.8のV0テスト開始が近いと投稿。KURO GAMESの公式告知は確認できず、日程・内容とも未確定。",
+    "url": "https://x.com/soraris_news/status/2108919515023396949",
+    "source": "WuWa Leaks（GameDataLeaks情報の転載、未確認）",
     "tags": [
-      "テンセント",
-      "Ubisoft",
-      "ディビジョン2",
-      "中国本土版",
-      "サービス終了"
+      "鳴潮",
+      "Ver.3.8",
+      "ベータテスト",
+      "V0",
+      "未確認"
     ],
     "spoiler": false,
-    "body": "■ 中国本土版の終了日程\n2026年10月12日、中国本土版『ディビジョン2』運営チームの終了告知を中国メディアが報道した。10月12日11時に課金と新規登録を停止し、12月14日11時にサーバーと公式サイト、12月22日11時にフォーラムと専用サポートを閉鎖する予定。\n\n■ 運営期間と補償\n中国本土版はテンセント運営で2023年11月に正式サービスを開始した。未使用の有償通貨などを対象に、テンセントの他タイトル向けアイテムを受け取れる補償措置も案内されている。終了理由は『事業発展戦略の変更』とされ、詳細な業績要因は公表されていない。",
+    "teaser_title": "Ver.3.8初期テスト開始が近いとの未確認情報",
+    "body": "■ 公開リーク投稿の内容\nリーク情報を扱う公開アカウントが2026年10月12日、GameDataLeaks由来として、Ver.3.8のV0テストが翌日に始まる見込みだと投稿した。別投稿では、テスター募集期間が10月10日から13日18時までとの情報も出ている。\n\n■ 確認状況\nKURO GAMESまたは『鳴潮』公式から、Ver.3.8テストの開始日時や募集日程を裏付ける告知は確認できていない。投稿自体も二次転載のため、日程変更や誤情報の可能性がある。公式発表が出るまでは未確認情報として扱う。",
     "timeline": [
       {
-        "date": "2026年10月12日11:00",
-        "text": "課金と新規ユーザー登録を停止。"
-      },
-      {
-        "date": "2026年12月14日11:00",
-        "text": "中国本土版のサーバーと公式サイトを閉鎖予定。"
-      },
-      {
-        "date": "2026年12月22日11:00",
-        "text": "公式フォーラムと専用サポートを閉鎖予定。"
+        "date": "2026年10月12日",
+        "text": "公開リークアカウントがVer.3.8のV0テスト開始見込みを投稿。公式確認はなし。"
       }
     ],
     "sources": [
       {
-        "name": "IT之家（鳳凰網掲載）",
-        "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
-        "type": "報道"
+        "name": "WuWa Leaks・V0開始見込み投稿",
+        "url": "https://x.com/soraris_news/status/2108919515023396949",
+        "type": "未確認・二次転載"
       },
       {
-        "name": "快科技（鳳凰網掲載）",
-        "url": "https://gs.ifeng.com/c/8xAI5StSofJ",
-        "type": "報道"
+        "name": "WuWa Leaks・テスター募集期間投稿",
+        "url": "https://x.com/soraris_news/status/2108870636101841145",
+        "type": "未確認・二次転載"
       }
     ],
-    "story_id": "division2-cn-shutdown-20261012"
+    "story_id": "wuwa-v38-v0-test-20261012"
   },
   {
     "id": "manual-20261012-zzz-skin-male-character-fanservice-debate",
@@ -1753,44 +1746,83 @@
     "story_id": "zzz-skin-debate-202610"
   },
   {
-    "id": "wuwa-leak-20261012-v38-v0-test",
+    "id": "china-industry-20261012-division2-cn-shutdown",
     "date": "2026-10-12",
-    "category": "リーク",
-    "status": "未確認の噂",
-    "lang": "JP",
-    "title": "【未確認】鳴潮Ver.3.8の初期テスト開始が近いとの投稿",
-    "summary": "リーク情報を扱う公開アカウントが、外部情報提供者を出典としてVer.3.8のV0テスト開始が近いと投稿。KURO GAMESの公式告知は確認できず、日程・内容とも未確定。",
-    "url": "https://x.com/soraris_news/status/2108919515023396949",
-    "source": "WuWa Leaks（GameDataLeaks情報の転載、未確認）",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "テンセント運営版『ディビジョン2』、中国本土サービスを12月14日に終了へ",
+    "summary": "中国本土版の運営チームが事業戦略の変更を理由に終了日程を告知。10月12日に課金と新規登録を停止し、12月14日にサーバーと公式サイト、12月22日にフォーラムと専用サポートを閉じる。",
+    "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
+    "source": "IT之家（鳳凰網掲載）・快科技（鳳凰網掲載）",
     "tags": [
-      "鳴潮",
-      "Ver.3.8",
-      "ベータテスト",
-      "V0",
-      "未確認"
+      "テンセント",
+      "Ubisoft",
+      "ディビジョン2",
+      "中国本土版",
+      "サービス終了"
     ],
     "spoiler": false,
-    "teaser_title": "Ver.3.8初期テスト開始が近いとの未確認情報",
-    "body": "■ 公開リーク投稿の内容\nリーク情報を扱う公開アカウントが2026年10月12日、GameDataLeaks由来として、Ver.3.8のV0テストが翌日に始まる見込みだと投稿した。別投稿では、テスター募集期間が10月10日から13日18時までとの情報も出ている。\n\n■ 確認状況\nKURO GAMESまたは『鳴潮』公式から、Ver.3.8テストの開始日時や募集日程を裏付ける告知は確認できていない。投稿自体も二次転載のため、日程変更や誤情報の可能性がある。公式発表が出るまでは未確認情報として扱う。",
+    "body": "■ 中国本土版の終了日程\n2026年10月12日、中国本土版『ディビジョン2』運営チームの終了告知を中国メディアが報道した。10月12日11時に課金と新規登録を停止し、12月14日11時にサーバーと公式サイト、12月22日11時にフォーラムと専用サポートを閉鎖する予定。\n\n■ 運営期間と補償\n中国本土版はテンセント運営で2023年11月に正式サービスを開始した。未使用の有償通貨などを対象に、テンセントの他タイトル向けアイテムを受け取れる補償措置も案内されている。終了理由は『事業発展戦略の変更』とされ、詳細な業績要因は公表されていない。",
     "timeline": [
       {
-        "date": "2026年10月12日",
-        "text": "公開リークアカウントがVer.3.8のV0テスト開始見込みを投稿。公式確認はなし。"
+        "date": "2026年10月12日11:00",
+        "text": "課金と新規ユーザー登録を停止。"
+      },
+      {
+        "date": "2026年12月14日11:00",
+        "text": "中国本土版のサーバーと公式サイトを閉鎖予定。"
+      },
+      {
+        "date": "2026年12月22日11:00",
+        "text": "公式フォーラムと専用サポートを閉鎖予定。"
       }
     ],
     "sources": [
       {
-        "name": "WuWa Leaks・V0開始見込み投稿",
-        "url": "https://x.com/soraris_news/status/2108919515023396949",
-        "type": "未確認・二次転載"
+        "name": "IT之家（鳳凰網掲載）",
+        "url": "https://tech.ifeng.com/c/8xA7UIdeYAX",
+        "type": "報道"
       },
       {
-        "name": "WuWa Leaks・テスター募集期間投稿",
-        "url": "https://x.com/soraris_news/status/2108870636101841145",
-        "type": "未確認・二次転載"
+        "name": "快科技（鳳凰網掲載）",
+        "url": "https://gs.ifeng.com/c/8xAI5StSofJ",
+        "type": "報道"
       }
     ],
-    "story_id": "wuwa-v38-v0-test-20261012"
+    "story_id": "division2-cn-shutdown-20261012"
+  },
+  {
+    "id": "wuwa-official-20261011-starry-stage-redeem-codes",
+    "date": "2026-10-11",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮の同人番組記念コード2種公開！10月14日0:59までに交換",
+    "summary": "STARRYSTAGE2とKEEPONSHININGが公開。それぞれ星声80個、合計160個。交換期限は2026年10月14日0:59（日本時間）と案内されている。",
+    "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
+    "source": "鳴潮同人番組・鳴潮Wiki・GameWith",
+    "tags": [
+      "鳴潮",
+      "交換コード",
+      "星声",
+      "期限あり"
+    ],
+    "spoiler": false,
+    "body": "■ 記念引換コード\nSTARRYSTAGE2：星声80個\nKEEPONSHINING：星声80個\n合計：星声160個\n\n■ 期限\n2026年10月14日（水）0:59（JST）まで。期限切れ前の入力を推奨。実際の利用可否はゲーム内で確認してほしい。",
+    "sources": [
+      {
+        "name": "鳴潮Wiki・引換コード",
+        "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
+        "type": "コード一覧"
+      },
+      {
+        "name": "GameWith",
+        "url": "https://gamewith.jp/wutheringwaves/",
+        "type": "期限と報酬"
+      }
+    ],
+    "story_id": "wuwa-solaris-starry-stage-season2"
   },
   {
     "id": "wuwa-official-20261011-solaris-starry-stage-2",
@@ -1825,36 +1857,76 @@
     "story_id": "wuwa-solaris-starry-stage-season2"
   },
   {
-    "id": "wuwa-official-20261011-starry-stage-redeem-codes",
-    "date": "2026-10-11",
-    "category": "鳴潮",
-    "status": "公式発表",
+    "id": "manual-20261010-zzz-hsr-collab-fairness",
+    "date": "2026-10-10",
+    "category": "ホヨバ",
+    "status": "論争",
     "lang": "JP",
-    "title": "鳴潮の同人番組記念コード2種公開！10月14日0:59までに交換",
-    "summary": "STARRYSTAGE2とKEEPONSHININGが公開。それぞれ星声80個、合計160個。交換期限は2026年10月14日0:59（日本時間）と案内されている。",
-    "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
-    "source": "鳴潮同人番組・鳴潮Wiki・GameWith",
+    "title": "「ロビンとカフカを渡してエレン？」ゼンゼロ×スタレ自社コラボの人選で炎上！約44万表示のX投稿が波紋",
+    "summary": "ゼンゼロ×スタレの自社コラボをめぐり、@gacha_touristが『ロビンとカフカに対してエレンでは不公平』とキャラ選定に反発。投稿スクショは約44万表示。人気キャラの選定基準と、自社IPコラボの新鮮味・コンテンツの価値が争点になっている。",
+    "url": "",
+    "source": "X @gacha_tourist（ユーザー提供スクリーンショット）",
     "tags": [
-      "鳴潮",
-      "交換コード",
-      "星声",
-      "期限あり"
+      "ゼンゼロ",
+      "スタレ",
+      "自社コラボ",
+      "ロビン",
+      "カフカ",
+      "エレン",
+      "キャラ選定",
+      "X炎上",
+      "44万表示"
     ],
     "spoiler": false,
-    "body": "■ 記念引換コード\nSTARRYSTAGE2：星声80個\nKEEPONSHINING：星声80個\n合計：星声160個\n\n■ 期限\n2026年10月14日（水）0:59（JST）まで。期限切れ前の入力を推奨。実際の利用可否はゲーム内で確認してほしい。",
-    "sources": [
+    "body": "■ 『これはフェアなトレードなのか？』――不満が約44万表示\nXのsaf 🌹（@gacha_tourist）は、ゼンゼロとスタレの自社コラボに登場するキャラクターの選定を批判。スクリーンショットでは、スタレ側のロビンとカフカを対価に、ゼンゼロ側のエレン・ジョーでは見合わないと主張し、『なんでこんな人選が認められたんだ』と不満を露わにした。投稿は撮影時点で約44万表示。画面に表示されているのはXによる英語からの自動翻訳であり、英語原文や正確な元ポストURLは未取得だ。\n\n■ 問われているのは『自社コラボだから何でも喜べ』という空気\n自社IP同士のコラボは企業にとって実施しやすい一方、ファンが期待する目新しさや他作品との意外な組み合わせが欠けると受け取られることもある。今回の投稿は特に、双方から登場する人気キャラの選び方に偏りがあるのではないかという不満を示したものだ。コラボを歓迎する反応が存在しても、それだけで人選の公平性やコンテンツ自体の出来を証明したことにはならない。注目すべきは『何が実装されるのか』『コラボならではの遊びがあるのか』という具体的内容だ。\n\n■ ロビン・カフカ対エレンという比較にも注意点\n『スタレで一番人気の2人』や『エレンはランダムなサメメイド』という表現は投稿者による評価で、人気順位を裏付ける統一指標ではない。しかし、参加するキャラの知名度や選考理由をファンが問題視するのは独立した批評として成立する。現時点で自社コラボが実際につまらない、開発が外部コンテンツを作れないから逃げた、とまで立証されたわけではない。だからこそ実装内容とキャラ選定の説明を継続して追う必要がある。\n\n■ HARA WATCHの論点\n『肯定的なコメントが多いから問題はない』というまとめは採用しない。運営側の具体的な発表、ユーザーから出た批判の中身、実装後のコンテンツの評価を分けて確認する。今回の投稿については英語原文・正確なポストURLと、コラボ登場キャラの公式発表内容を引き続き調査する。",
+    "timeline": [
       {
-        "name": "鳴潮Wiki・引換コード",
-        "url": "https://wikiwiki.jp/w-w/%E5%BC%95%E6%8F%9B%E3%82%B3%E3%83%BC%E3%83%89",
-        "type": "コード一覧"
-      },
-      {
-        "name": "GameWith",
-        "url": "https://gamewith.jp/wutheringwaves/",
-        "type": "期限と報酬"
+        "date": "2026年10月9日21:19（画像上の表示）",
+        "text": "@gacha_touristがロビン・カフカとエレンの自社コラボ人選を『不公平』と批判。スクリーンショットでは約44万表示。"
       }
     ],
-    "story_id": "wuwa-solaris-starry-stage-season2"
+    "post_author": "saf 🌹（@gacha_tourist）",
+    "post_date": "2026-10-09 21:19（スクリーンショットの表示）",
+    "post_text": "英語原文は未取得。以下はスクリーンショットに表示されたXの自動翻訳。",
+    "post_text_ja": "私だけがこれってただ…フェアじゃないトレードだと思ってるの？向こうは私たちのROBINとKAFKAを手に入れるんだよ、hsrで文字通り一番人気の2キャラなのに、私たちは何を手に入れるの？\n\nなんかランダムなサメメイドのEllen Joeとか、どうやってこんなの許可したんだよ omfg",
+    "post_views": 440000,
+    "post_url": "",
+    "sources": [],
+    "needs_research": true,
+    "story_id": "zzz-hsr-collab-fairness-202610"
+  },
+  {
+    "id": "china-industry-20261010-october-game-launch-lineup",
+    "date": "2026-10-10",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "中国の10月ゲーム新作は28本、限定テスト10本の予定。国慶節明けに集中",
+    "summary": "中国のゲーム専門メディア『游戏陀螺』が10月10日、2026年10月の配信予定新作28本、限定テスト予定10本を独自集計。PC・モバイル両対応の新作や10月後半のリリース集中を報じた。媒体の不完全集計であり、公式統計ではない。",
+    "url": "https://t.cj.sina.com.cn/articles/view/2953054937/b0040ad900101qgya",
+    "source": "游戏陀螺（新浪财经転載）",
+    "tags": [
+      "中国ゲーム業界",
+      "10月新作",
+      "新作28本",
+      "限定テスト10本"
+    ],
+    "spoiler": false,
+    "body": "■ 中国の10月新作予定\nゲーム専門メディア『游戏陀螺』は10月10日、10月に発売予定の新作が28本、限定テスト開始・実施予定が10本と集計した。国慶節明けの10月中下旬に発売が集中し、PC・モバイル両対応や海外展開が目立つという。\n\n■ 集計の限界\n数字は同媒体の独自の不完全統計。中国市場の確定統計ではなく、各タイトルの実際の発売日程は別途確認が必要。",
+    "timeline": [
+      {
+        "date": "2026年10月10日",
+        "text": "中国ゲーム専門メディアが独自集計を発表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "游戏陀螺（新浪财经転載）",
+        "url": "https://t.cj.sina.com.cn/articles/view/2953054937/b0040ad900101qgya",
+        "date": "2026-10-10",
+        "type": "報道"
+      }
+    ]
   },
   {
     "id": "china-industry-20261010-national-day-ios-revenue",
@@ -1897,116 +1969,43 @@
     ]
   },
   {
-    "id": "china-industry-20261010-october-game-launch-lineup",
-    "date": "2026-10-10",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "CN",
-    "title": "中国の10月ゲーム新作は28本、限定テスト10本の予定。国慶節明けに集中",
-    "summary": "中国のゲーム専門メディア『游戏陀螺』が10月10日、2026年10月の配信予定新作28本、限定テスト予定10本を独自集計。PC・モバイル両対応の新作や10月後半のリリース集中を報じた。媒体の不完全集計であり、公式統計ではない。",
-    "url": "https://t.cj.sina.com.cn/articles/view/2953054937/b0040ad900101qgya",
-    "source": "游戏陀螺（新浪财经転載）",
-    "tags": [
-      "中国ゲーム業界",
-      "10月新作",
-      "新作28本",
-      "限定テスト10本"
-    ],
-    "spoiler": false,
-    "body": "■ 中国の10月新作予定\nゲーム専門メディア『游戏陀螺』は10月10日、10月に発売予定の新作が28本、限定テスト開始・実施予定が10本と集計した。国慶節明けの10月中下旬に発売が集中し、PC・モバイル両対応や海外展開が目立つという。\n\n■ 集計の限界\n数字は同媒体の独自の不完全統計。中国市場の確定統計ではなく、各タイトルの実際の発売日程は別途確認が必要。",
-    "timeline": [
-      {
-        "date": "2026年10月10日",
-        "text": "中国ゲーム専門メディアが独自集計を発表。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "游戏陀螺（新浪财经転載）",
-        "url": "https://t.cj.sina.com.cn/articles/view/2953054937/b0040ad900101qgya",
-        "date": "2026-10-10",
-        "type": "報道"
-      }
-    ]
-  },
-  {
-    "id": "manual-20261010-zzz-hsr-collab-fairness",
-    "date": "2026-10-10",
-    "category": "ホヨバ",
-    "status": "論争",
+    "id": "zzz-20261009-hsr-crossover-announced",
+    "date": "2026-10-09",
+    "category": "ゼンゼロ",
+    "status": "公式発表",
     "lang": "JP",
-    "title": "「ロビンとカフカを渡してエレン？」ゼンゼロ×スタレ自社コラボの人選で炎上！約44万表示のX投稿が波紋",
-    "summary": "ゼンゼロ×スタレの自社コラボをめぐり、@gacha_touristが『ロビンとカフカに対してエレンでは不公平』とキャラ選定に反発。投稿スクショは約44万表示。人気キャラの選定基準と、自社IPコラボの新鮮味・コンテンツの価値が争点になっている。",
-    "url": "",
-    "source": "X @gacha_tourist（ユーザー提供スクリーンショット）",
+    "title": "『ゼンゼロ』×『スタレ』コラボ予告が公式解禁、詳細内容や開催日は未発表",
+    "summary": "HoYoverseは10月9日のゼンゼロVer.3.3公式告知で、『崩壊：スターレイル』とのコラボ予告を解禁したと発表。開催日・形式・報酬の詳細は当該告知には記載されていない。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000452.000096124.html",
+    "source": "HoYoverse / COGNOSPHERE公式プレスリリース（2026年10月9日）",
     "tags": [
       "ゼンゼロ",
       "スタレ",
-      "自社コラボ",
-      "ロビン",
-      "カフカ",
-      "エレン",
-      "キャラ選定",
-      "X炎上",
-      "44万表示"
+      "コラボ",
+      "HoYoverse",
+      "公式予告"
     ],
     "spoiler": false,
-    "body": "■ 『これはフェアなトレードなのか？』――不満が約44万表示\nXのsaf 🌹（@gacha_tourist）は、ゼンゼロとスタレの自社コラボに登場するキャラクターの選定を批判。スクリーンショットでは、スタレ側のロビンとカフカを対価に、ゼンゼロ側のエレン・ジョーでは見合わないと主張し、『なんでこんな人選が認められたんだ』と不満を露わにした。投稿は撮影時点で約44万表示。画面に表示されているのはXによる英語からの自動翻訳であり、英語原文や正確な元ポストURLは未取得だ。\n\n■ 問われているのは『自社コラボだから何でも喜べ』という空気\n自社IP同士のコラボは企業にとって実施しやすい一方、ファンが期待する目新しさや他作品との意外な組み合わせが欠けると受け取られることもある。今回の投稿は特に、双方から登場する人気キャラの選び方に偏りがあるのではないかという不満を示したものだ。コラボを歓迎する反応が存在しても、それだけで人選の公平性やコンテンツ自体の出来を証明したことにはならない。注目すべきは『何が実装されるのか』『コラボならではの遊びがあるのか』という具体的内容だ。\n\n■ ロビン・カフカ対エレンという比較にも注意点\n『スタレで一番人気の2人』や『エレンはランダムなサメメイド』という表現は投稿者による評価で、人気順位を裏付ける統一指標ではない。しかし、参加するキャラの知名度や選考理由をファンが問題視するのは独立した批評として成立する。現時点で自社コラボが実際につまらない、開発が外部コンテンツを作れないから逃げた、とまで立証されたわけではない。だからこそ実装内容とキャラ選定の説明を継続して追う必要がある。\n\n■ HARA WATCHの論点\n『肯定的なコメントが多いから問題はない』というまとめは採用しない。運営側の具体的な発表、ユーザーから出た批判の中身、実装後のコンテンツの評価を分けて確認する。今回の投稿については英語原文・正確なポストURLと、コラボ登場キャラの公式発表内容を引き続き調査する。",
-    "timeline": [
-      {
-        "date": "2026年10月9日21:19（画像上の表示）",
-        "text": "@gacha_touristがロビン・カフカとエレンの自社コラボ人選を『不公平』と批判。スクリーンショットでは約44万表示。"
-      }
-    ],
-    "post_author": "saf 🌹（@gacha_tourist）",
-    "post_date": "2026-10-09 21:19（スクリーンショットの表示）",
-    "post_text": "英語原文は未取得。以下はスクリーンショットに表示されたXの自動翻訳。",
-    "post_text_ja": "私だけがこれってただ…フェアじゃないトレードだと思ってるの？向こうは私たちのROBINとKAFKAを手に入れるんだよ、hsrで文字通り一番人気の2キャラなのに、私たちは何を手に入れるの？\n\nなんかランダムなサメメイドのEllen Joeとか、どうやってこんなの許可したんだよ omfg",
-    "post_views": 440000,
-    "post_url": "",
-    "sources": [],
-    "needs_research": true,
-    "story_id": "zzz-hsr-collab-fairness-202610"
-  },
-  {
-    "id": "china-latest-20261009-where-winds-meet-qingzhou",
-    "date": "2026-10-09",
-    "category": "中国ゲーム・最新",
-    "status": "公式",
-    "lang": "JP",
-    "title": "NetEase『燕雲十六声』Ver.2.3、新地域「青州」を10月15日に実装",
-    "summary": "NetEase傘下Everstone Studioの武侠オープンワールド『燕雲十六声』は、Ver.2.3で山東省を着想源とする新地域「青州」を10月15日に開放すると発表。山岳・平原・海岸を巡る探索に加え、地域NPCを同行させて移動や謎解きを補助してもらう新システムを導入する。",
-    "url": "https://www.wherewindsmeetgame.com/hmt/news/official/1009devletter.html",
-    "source": "『燕雲十六声』公式サイト",
-    "tags": [
-      "燕雲十六声",
-      "NetEase",
-      "Everstone Studio",
-      "Ver.2.3",
-      "青州",
-      "大型アップデート",
-      "新地域"
-    ],
-    "spoiler": false,
-    "body": "■ Ver.2.3の新地域は10月15日開放\n『燕雲十六声』公式は10月9日、Ver.2.3で新地域「青州」を10月15日に実装すると発表した。青州は中国・山東省の地形や文化を着想源とし、山岳から平原、黄河河口、海岸、島へ移る景観を一つの地域として構成する。\n\n■ 地域NPCが探索に参加\n青州では新たに「老郷」システムを導入する。各地の住民を同行者として招き、道案内、探索地点の発見、謎解き、移動や採集などを手伝ってもらえる。同行者の得意分野によって同じ場面でも解決方法が変わる設計で、公式はこれまでで最もNPCが探索に深く関わる地域になるとしている。\n\n■ 公式情報として確定している範囲\n10月15日の新地域開放、山東省を着想源とした地域設計、「老郷」システムは公式発表。物語の核心には触れず、追加の新玩法については今後の続報で説明される予定。",
+    "body": "■ 2作品のコラボ予告を公式が発表\n2026年10月9日付の『ゼンレスゾーンゼロ』Ver.3.3告知末尾で、HoYoverseは『ゼンレスゾーンゼロ』×『崩壊：スターレイル』のコラボ予告解禁を明記した。\n\n■ 内容は未確定\nこのプレスリリースでは、コラボの具体的な開催日、実装形態、配布・ガチャの有無、登場キャラクターなどは確認できない。予告の存在のみを公式確定情報として扱い、憶測は記載しない。\n\n■ 掲載について\n10月25日の調査で既存記事への未掲載を確認したため、10月9日付の公式発表を遅れて記録した。10月25日に新発表があったという意味ではない。",
     "timeline": [
       {
         "date": "2026年10月9日",
-        "text": "公式がVer.2.3開発者レターを公開し、新地域「青州」と探索システムを発表。"
+        "text": "ゼンゼロVer.3.3公式プレスリリースで、スタレとのコラボ予告解禁を発表。"
       },
       {
-        "date": "2026年10月15日",
-        "text": "Ver.2.3で新地域「青州」を開放予定。"
+        "date": "2026年10月25日確認時点",
+        "text": "同プレスリリースからはコラボ開催日や実装形態を確認できず。"
       }
     ],
     "sources": [
       {
-        "name": "『燕雲十六声』公式サイト",
-        "url": "https://www.wherewindsmeetgame.com/hmt/news/official/1009devletter.html",
+        "name": "HoYoverse / COGNOSPHERE公式プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000452.000096124.html",
         "date": "2026-10-09",
         "type": "公式"
       }
-    ]
+    ],
+    "story_id": "zzz-hsr-collab-official-teaser-20261009"
   },
   {
     "id": "manual-20261009-lily-ai-accusation",
@@ -2092,195 +2091,44 @@
     "post_views": null
   },
   {
-    "id": "zzz-20261009-hsr-crossover-announced",
+    "id": "china-latest-20261009-where-winds-meet-qingzhou",
     "date": "2026-10-09",
-    "category": "ゼンゼロ",
-    "status": "公式発表",
+    "category": "中国ゲーム・最新",
+    "status": "公式",
     "lang": "JP",
-    "title": "『ゼンゼロ』×『スタレ』コラボ予告が公式解禁、詳細内容や開催日は未発表",
-    "summary": "HoYoverseは10月9日のゼンゼロVer.3.3公式告知で、『崩壊：スターレイル』とのコラボ予告を解禁したと発表。開催日・形式・報酬の詳細は当該告知には記載されていない。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000452.000096124.html",
-    "source": "HoYoverse / COGNOSPHERE公式プレスリリース（2026年10月9日）",
+    "title": "NetEase『燕雲十六声』Ver.2.3、新地域「青州」を10月15日に実装",
+    "summary": "NetEase傘下Everstone Studioの武侠オープンワールド『燕雲十六声』は、Ver.2.3で山東省を着想源とする新地域「青州」を10月15日に開放すると発表。山岳・平原・海岸を巡る探索に加え、地域NPCを同行させて移動や謎解きを補助してもらう新システムを導入する。",
+    "url": "https://www.wherewindsmeetgame.com/hmt/news/official/1009devletter.html",
+    "source": "『燕雲十六声』公式サイト",
     "tags": [
-      "ゼンゼロ",
-      "スタレ",
-      "コラボ",
-      "HoYoverse",
-      "公式予告"
+      "燕雲十六声",
+      "NetEase",
+      "Everstone Studio",
+      "Ver.2.3",
+      "青州",
+      "大型アップデート",
+      "新地域"
     ],
     "spoiler": false,
-    "body": "■ 2作品のコラボ予告を公式が発表\n2026年10月9日付の『ゼンレスゾーンゼロ』Ver.3.3告知末尾で、HoYoverseは『ゼンレスゾーンゼロ』×『崩壊：スターレイル』のコラボ予告解禁を明記した。\n\n■ 内容は未確定\nこのプレスリリースでは、コラボの具体的な開催日、実装形態、配布・ガチャの有無、登場キャラクターなどは確認できない。予告の存在のみを公式確定情報として扱い、憶測は記載しない。\n\n■ 掲載について\n10月25日の調査で既存記事への未掲載を確認したため、10月9日付の公式発表を遅れて記録した。10月25日に新発表があったという意味ではない。",
+    "body": "■ Ver.2.3の新地域は10月15日開放\n『燕雲十六声』公式は10月9日、Ver.2.3で新地域「青州」を10月15日に実装すると発表した。青州は中国・山東省の地形や文化を着想源とし、山岳から平原、黄河河口、海岸、島へ移る景観を一つの地域として構成する。\n\n■ 地域NPCが探索に参加\n青州では新たに「老郷」システムを導入する。各地の住民を同行者として招き、道案内、探索地点の発見、謎解き、移動や採集などを手伝ってもらえる。同行者の得意分野によって同じ場面でも解決方法が変わる設計で、公式はこれまでで最もNPCが探索に深く関わる地域になるとしている。\n\n■ 公式情報として確定している範囲\n10月15日の新地域開放、山東省を着想源とした地域設計、「老郷」システムは公式発表。物語の核心には触れず、追加の新玩法については今後の続報で説明される予定。",
     "timeline": [
       {
         "date": "2026年10月9日",
-        "text": "ゼンゼロVer.3.3公式プレスリリースで、スタレとのコラボ予告解禁を発表。"
+        "text": "公式がVer.2.3開発者レターを公開し、新地域「青州」と探索システムを発表。"
       },
       {
-        "date": "2026年10月25日確認時点",
-        "text": "同プレスリリースからはコラボ開催日や実装形態を確認できず。"
+        "date": "2026年10月15日",
+        "text": "Ver.2.3で新地域「青州」を開放予定。"
       }
     ],
     "sources": [
       {
-        "name": "HoYoverse / COGNOSPHERE公式プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000000452.000096124.html",
+        "name": "『燕雲十六声』公式サイト",
+        "url": "https://www.wherewindsmeetgame.com/hmt/news/official/1009devletter.html",
         "date": "2026-10-09",
         "type": "公式"
       }
-    ],
-    "story_id": "zzz-hsr-collab-official-teaser-20261009"
-  },
-  {
-    "id": "china-industry-20261008-apple-china-developers-global",
-    "date": "2026-10-08",
-    "category": "中国ゲーム業界",
-    "status": "公式",
-    "lang": "CN",
-    "title": "中国開発者の海外売上比率が52％へ上昇。AppleがKURO GAMESを世界展開の事例に紹介",
-    "summary": "Appleが10月8日に公表した調査では、中国開発者の海外売上比率は2020年の32％から2025年に52％へ上昇し、76％が海外で事業を展開。KURO GAMESも代表例として紹介され、李松倫CEOは『鳴潮』『戦双帕弥什』が世界の数千万規模のプレイヤーに届いていると説明した。",
-    "url": "https://www.apple.com.cn/newsroom/2026/10/new-data-shows-app-store-ecosystem-is-fueling-developer-success/",
-    "source": "Apple Newsroom 中国",
-    "tags": [
-      "中国ゲーム業界",
-      "海外展開",
-      "KURO GAMES",
-      "鳴潮",
-      "App Store",
-      "中国開発者"
-    ],
-    "spoiler": false,
-    "body": "■ 中国開発者の海外売上比率が5年で20ポイント上昇\nAppleが2026年10月8日に公表した調査では、中国開発者の海外売上比率は2020年の32％から2025年には52％へ上昇した。2025年は中国開発者の76％が海外で事業を展開し、海外ユーザーによる中国製アプリのダウンロードは38億回に達したとされる。\n\n■ KURO GAMESを代表例として紹介\nAppleは、中国のゲームスタジオがApp Storeを通じて世界市場へ展開する事例としてKURO GAMESを挙げた。KURO GAMES CEOの李松倫氏は、『戦双帕弥什』『鳴潮』でAppleの技術を活用し、世界のほぼすべての地域にいる数千万規模のプレイヤーへ届けていると説明した。\n\n■ 中国ゲーム企業の海外展開を示す公式データ\n個別ゲームの売上や利用者数ではなく、中国のアプリ開発者全体を対象とする調査である。ゲーム以外のアプリも含むため中国ゲーム市場だけの指標ではないが、KURO GAMESを含む中国開発企業が海外売上と利用者を拡大している流れを示す一次資料として記録する。",
-    "timeline": [
-      {
-        "date": "2020年",
-        "text": "中国開発者の海外売上比率は32％。"
-      },
-      {
-        "date": "2025年",
-        "text": "海外売上比率が52％へ上昇。中国開発者の76％が海外で事業を展開し、海外ダウンロードは38億回。"
-      },
-      {
-        "date": "2026年10月8日",
-        "text": "Appleが調査結果を公表し、KURO GAMESを中国ゲーム企業の世界展開事例として紹介。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Apple Newsroom 中国",
-        "url": "https://www.apple.com.cn/newsroom/2026/10/new-data-shows-app-store-ecosystem-is-fueling-developer-success/",
-        "date": "2026-10-08",
-        "type": "公式資料"
-      }
-    ],
-    "quoted_reactions": [],
-    "reactions": [],
-    "needs_research": false
-  },
-  {
-    "id": "china-industry-20261008-delta-force-58m-dau",
-    "date": "2026-10-08",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "CN",
-    "title": "Tencent『三角洲行動』中国版のDAUが5,800万を突破。3月の5,000万からさらに増加",
-    "summary": "Tencent傘下の『三角洲行動』は2026年10月8日、中国国内版の日間アクティブユーザー数が5,800万を超えたと発表した。3月時点の5,000万から増えており、中国の運営型シューター市場で突出した利用規模を示している。",
-    "url": "https://finance.eastmoney.com/a/202610083889770613.html",
-    "source": "東方財富／南方財経・36Kr・IT之家",
-    "spoiler": false,
-    "tags": [
-      "Tencent",
-      "三角洲行動",
-      "DAU",
-      "中国ゲーム業界"
-    ],
-    "body": "■ 国服DAUが5,800万を突破\n2026年10月8日、Tencent傘下の『三角洲行動』は中国国内版の日間アクティブユーザー数が5,800万を超えたと公表した。3月に発表した5,000万から、約半年でさらに800万増えたことになる。\n\n■ Tencentのゲーム事業を支える大型タイトル\nTencentの2026年第2四半期決算では、ネットゲーム事業の売上高が前年同期比11％増の659億元となり、『三角洲行動』は成長を支える主要タイトルの一つとして挙げられていた。\n\n■ 長期運営への移行\n9月の2周年施策では新モードのテストや今後の大型更新計画も示された。今回の数字は、サービス開始後の一時的な初動ではなく、大規模な利用者を維持・拡大していることを示す新しい指標となる。",
-    "timeline": [
-      {
-        "date": "2026年3月",
-        "text": "中国国内版のDAUが5,000万を突破したと発表。"
-      },
-      {
-        "date": "2026年9月26日",
-        "text": "2周年イベントで新モードや今後の更新計画を紹介。"
-      },
-      {
-        "date": "2026年10月8日",
-        "text": "中国国内版のDAUが5,800万を突破したと公表。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "東方財富／南方財経",
-        "url": "https://finance.eastmoney.com/a/202610083889770613.html",
-        "date": "2026-10-08",
-        "type": "報道"
-      },
-      {
-        "name": "36Kr",
-        "url": "https://www.36kr.com/p/4017128711278725",
-        "date": "2026-10-08",
-        "type": "報道"
-      },
-      {
-        "name": "IT之家",
-        "url": "https://www.ithome.com/1/010/672.htm",
-        "date": "2026-10-08",
-        "type": "報道"
-      }
-    ],
-    "quoted_reactions": [],
-    "reactions": [],
-    "needs_research": false
-  },
-  {
-    "id": "china-latest-20261008-naraka-devouring-season",
-    "date": "2026-10-08",
-    "category": "中国ゲーム・最新",
-    "status": "公式",
-    "lang": "CN",
-    "title": "『永劫無間』大型更新「呑天」シーズンが10月9日開始。『秦時明月』連動玩法などを追加",
-    "summary": "NetEaseの『永劫無間』は10月9日の更新で新シーズン「呑天」を開始する。『秦時明月』との連動玩法、PvEイベント「斬妖台」の復刻、各モードとランク周辺の調整を含む大型更新で、モバイル版には新英雄「甘璇」も追加される。",
-    "url": "https://www.yjwujian.cn/news/update/20260921/33456_1314532.html",
-    "source": "『永劫無間』中国公式",
-    "spoiler": false,
-    "tags": [
-      "永劫無間",
-      "NetEase",
-      "大型アップデート",
-      "秦時明月"
-    ],
-    "body": "■ 10月9日に新シーズン開始\n『永劫無間』は2026年10月9日のメンテナンス後、新シーズン「呑天」を開始する。\n\n■ 連動玩法とPvEを追加\n『秦時明月』との連動では、生存モードなどに専用エリアや仕掛けが登場する。PvEコンテンツ「征神之路」では期間限定イベント「斬妖台」が復刻し、複数の難度と報酬を用意する。\n\n■ モード・システム調整\nランクの定段戦、探索系モード、シーズン商店などにも調整が入る。モバイル版は新英雄「甘璇」と新しいPvEボスを追加する。",
-    "timeline": [
-      {
-        "date": "2026年10月8日",
-        "text": "PC版・モバイル版の更新内容を公式が公開。"
-      },
-      {
-        "date": "2026年10月9日",
-        "text": "メンテナンス後に新シーズンと各種連動玩法を開始。"
-      },
-      {
-        "date": "2026年10月21日",
-        "text": "PvEイベント「斬妖台」の第2章を開放予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『永劫無間』中国公式",
-        "url": "https://www.yjwujian.cn/news/update/20260921/33456_1314532.html",
-        "date": "2026-10-08",
-        "type": "公式"
-      },
-      {
-        "name": "『永劫無間』モバイル中国公式",
-        "url": "https://m.yjwujian.cn/news/update/20261008/40282_1315950.html",
-        "date": "2026-10-08",
-        "type": "公式"
-      }
-    ],
-    "quoted_reactions": [],
-    "reactions": [],
-    "needs_research": false
+    ]
   },
   {
     "id": "manual-20261008-zhongli-female-theory",
@@ -2348,44 +2196,104 @@
     "story_id": "genshin-zhongli-gender-theory-202610"
   },
   {
-    "id": "china-industry-20261007-kuro-liu-sheng-interview",
-    "date": "2026-10-07",
-    "category": "中国ゲーム業界",
-    "status": "報道",
+    "id": "china-latest-20261008-naraka-devouring-season",
+    "date": "2026-10-08",
+    "category": "中国ゲーム・最新",
+    "status": "公式",
     "lang": "CN",
-    "title": "KURO GAMES創業者・劉勝氏、海外アクティブユーザーは約4割と説明",
-    "summary": "10月7日公開の報道で、KURO GAMES創業者の劉勝氏は海外アクティブユーザーが約4割、国内が約6割と説明した。技術更新、自社パブリッシング、世界規模のマルチプラットフォーム運営を「難しいが正しいこと」として継続する方針も語った。元インタビューは10月4日公開。",
-    "url": "https://cgames.com/contents/2/13065.html",
-    "source": "競核（Cgames）／広州日報・大洋網",
+    "title": "『永劫無間』大型更新「呑天」シーズンが10月9日開始。『秦時明月』連動玩法などを追加",
+    "summary": "NetEaseの『永劫無間』は10月9日の更新で新シーズン「呑天」を開始する。『秦時明月』との連動玩法、PvEイベント「斬妖台」の復刻、各モードとランク周辺の調整を含む大型更新で、モバイル版には新英雄「甘璇」も追加される。",
+    "url": "https://www.yjwujian.cn/news/update/20260921/33456_1314532.html",
+    "source": "『永劫無間』中国公式",
     "spoiler": false,
     "tags": [
-      "KURO GAMES",
-      "劉勝",
-      "海外展開",
-      "企業戦略"
+      "永劫無間",
+      "NetEase",
+      "大型アップデート",
+      "秦時明月"
     ],
-    "body": "■ 国内6割・海外4割\nKURO GAMES創業者・董事長の劉勝氏は、同社のアクティブユーザーについて、中国国内が約6割、海外が約4割と説明した。海外ユーザーは日本・韓国、欧米、東南アジアなどに分布しているという。\n\n■ 『鳴潮』の反響は想定以上\n劉氏は『鳴潮』の世界巡回コンサートの反響が予想を超えたと振り返り、成功の理由については製品自体を丁寧に作ったことを挙げた。\n\n■ 技術・自社展開・世界運営を継続\n技術の更新、自社パブリッシング、世界規模のマルチプラットフォーム運営を、難しいが正しい取り組みとして継続すると説明。中国ゲーム企業の海外展開が、外部に頼る段階から自ら世界市場を運営する段階へ移っているとの認識も示した。",
+    "body": "■ 10月9日に新シーズン開始\n『永劫無間』は2026年10月9日のメンテナンス後、新シーズン「呑天」を開始する。\n\n■ 連動玩法とPvEを追加\n『秦時明月』との連動では、生存モードなどに専用エリアや仕掛けが登場する。PvEコンテンツ「征神之路」では期間限定イベント「斬妖台」が復刻し、複数の難度と報酬を用意する。\n\n■ モード・システム調整\nランクの定段戦、探索系モード、シーズン商店などにも調整が入る。モバイル版は新英雄「甘璇」と新しいPvEボスを追加する。",
     "timeline": [
       {
-        "date": "2026年10月4日",
-        "text": "広州日報・大洋網がKURO GAMES創業者へのインタビューを公開。"
+        "date": "2026年10月8日",
+        "text": "PC版・モバイル版の更新内容を公式が公開。"
       },
       {
-        "date": "2026年10月7日",
-        "text": "競核がインタビュー内容を整理し、国内外ユーザー比率などを報道。"
+        "date": "2026年10月9日",
+        "text": "メンテナンス後に新シーズンと各種連動玩法を開始。"
+      },
+      {
+        "date": "2026年10月21日",
+        "text": "PvEイベント「斬妖台」の第2章を開放予定。"
       }
     ],
     "sources": [
       {
-        "name": "競核（Cgames）",
-        "url": "https://cgames.com/contents/2/13065.html",
-        "date": "2026-10-07",
+        "name": "『永劫無間』中国公式",
+        "url": "https://www.yjwujian.cn/news/update/20260921/33456_1314532.html",
+        "date": "2026-10-08",
+        "type": "公式"
+      },
+      {
+        "name": "『永劫無間』モバイル中国公式",
+        "url": "https://m.yjwujian.cn/news/update/20261008/40282_1315950.html",
+        "date": "2026-10-08",
+        "type": "公式"
+      }
+    ],
+    "quoted_reactions": [],
+    "reactions": [],
+    "needs_research": false
+  },
+  {
+    "id": "china-industry-20261008-delta-force-58m-dau",
+    "date": "2026-10-08",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "Tencent『三角洲行動』中国版のDAUが5,800万を突破。3月の5,000万からさらに増加",
+    "summary": "Tencent傘下の『三角洲行動』は2026年10月8日、中国国内版の日間アクティブユーザー数が5,800万を超えたと発表した。3月時点の5,000万から増えており、中国の運営型シューター市場で突出した利用規模を示している。",
+    "url": "https://finance.eastmoney.com/a/202610083889770613.html",
+    "source": "東方財富／南方財経・36Kr・IT之家",
+    "spoiler": false,
+    "tags": [
+      "Tencent",
+      "三角洲行動",
+      "DAU",
+      "中国ゲーム業界"
+    ],
+    "body": "■ 国服DAUが5,800万を突破\n2026年10月8日、Tencent傘下の『三角洲行動』は中国国内版の日間アクティブユーザー数が5,800万を超えたと公表した。3月に発表した5,000万から、約半年でさらに800万増えたことになる。\n\n■ Tencentのゲーム事業を支える大型タイトル\nTencentの2026年第2四半期決算では、ネットゲーム事業の売上高が前年同期比11％増の659億元となり、『三角洲行動』は成長を支える主要タイトルの一つとして挙げられていた。\n\n■ 長期運営への移行\n9月の2周年施策では新モードのテストや今後の大型更新計画も示された。今回の数字は、サービス開始後の一時的な初動ではなく、大規模な利用者を維持・拡大していることを示す新しい指標となる。",
+    "timeline": [
+      {
+        "date": "2026年3月",
+        "text": "中国国内版のDAUが5,000万を突破したと発表。"
+      },
+      {
+        "date": "2026年9月26日",
+        "text": "2周年イベントで新モードや今後の更新計画を紹介。"
+      },
+      {
+        "date": "2026年10月8日",
+        "text": "中国国内版のDAUが5,800万を突破したと公表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "東方財富／南方財経",
+        "url": "https://finance.eastmoney.com/a/202610083889770613.html",
+        "date": "2026-10-08",
         "type": "報道"
       },
       {
-        "name": "広州日報・大洋網",
-        "url": "https://news.dayoo.com/guangdong/202610/04/139996_55009815.htm",
-        "date": "2026-10-04",
+        "name": "36Kr",
+        "url": "https://www.36kr.com/p/4017128711278725",
+        "date": "2026-10-08",
+        "type": "報道"
+      },
+      {
+        "name": "IT之家",
+        "url": "https://www.ithome.com/1/010/672.htm",
+        "date": "2026-10-08",
         "type": "報道"
       }
     ],
@@ -2394,88 +2302,50 @@
     "needs_research": false
   },
   {
-    "id": "china-latest-20261007-marvel-rivals-season-10-5",
-    "date": "2026-10-07",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP / EN",
-    "title": "『マーベル・ライバルズ』シーズン10.5は10月9日開幕。22日には50人協力PvEを追加",
-    "summary": "NetEase GamesとMarvel Gamesが新シーズンの詳細を公開。2人組6チームで戦う新PvPに加え、10月22日には50人でサノス軍に挑むPvEが登場する。",
-    "url": "https://img.inside-games.jp/release/prtimes/20261007/311274.html",
-    "source": "NetEase Games / Marvel Games（PR TIMES配信・インサイド掲載）",
-    "spoiler": false,
+    "id": "china-industry-20261008-apple-china-developers-global",
+    "date": "2026-10-08",
+    "category": "中国ゲーム業界",
+    "status": "公式",
+    "lang": "CN",
+    "title": "中国開発者の海外売上比率が52％へ上昇。AppleがKURO GAMESを世界展開の事例に紹介",
+    "summary": "Appleが10月8日に公表した調査では、中国開発者の海外売上比率は2020年の32％から2025年に52％へ上昇し、76％が海外で事業を展開。KURO GAMESも代表例として紹介され、李松倫CEOは『鳴潮』『戦双帕弥什』が世界の数千万規模のプレイヤーに届いていると説明した。",
+    "url": "https://www.apple.com.cn/newsroom/2026/10/new-data-shows-app-store-ecosystem-is-fueling-developer-success/",
+    "source": "Apple Newsroom 中国",
     "tags": [
-      "NetEase",
-      "大型アップデート",
-      "協力プレイ"
+      "中国ゲーム業界",
+      "海外展開",
+      "KURO GAMES",
+      "鳴潮",
+      "App Store",
+      "中国開発者"
     ],
-    "body": "■ 10月9日にシーズン10.5へ\nNetEase GamesとMarvel Gamesは10月7日付の日本語リリースで、新シーズンの内容を発表した。公式パッチノートでは10月9日18時（日本時間）から約2時間のメンテナンスを予定している。\n\n■ 2人組でストーンを奪い合う新PvP\n『アベンジャーズ／インフィニティ・ウォー』を題材に、12人が2人ずつの6チームに分かれて戦う。ラウンドの合間にカードを選んで能力を強化し、インフィニティ・ストーンを集めて勝利を目指す。\n\n■ 10月22日は50人協力PvE\n『アベンジャーズ／エンドゲーム』を題材にしたモードでは、50人がアベンジャーズの基地に集まり、サノスと軍勢に挑む。18対18の既存モードにも『アルケマックス本社』を追加する。\n\n■ シーズン中のイベント\n10月15日と29日にはハロウィン関連イベントを予定。公式パッチノートではソーの衣装を無料で獲得できるシーズンイベントも案内している。",
+    "spoiler": false,
+    "body": "■ 中国開発者の海外売上比率が5年で20ポイント上昇\nAppleが2026年10月8日に公表した調査では、中国開発者の海外売上比率は2020年の32％から2025年には52％へ上昇した。2025年は中国開発者の76％が海外で事業を展開し、海外ユーザーによる中国製アプリのダウンロードは38億回に達したとされる。\n\n■ KURO GAMESを代表例として紹介\nAppleは、中国のゲームスタジオがApp Storeを通じて世界市場へ展開する事例としてKURO GAMESを挙げた。KURO GAMES CEOの李松倫氏は、『戦双帕弥什』『鳴潮』でAppleの技術を活用し、世界のほぼすべての地域にいる数千万規模のプレイヤーへ届けていると説明した。\n\n■ 中国ゲーム企業の海外展開を示す公式データ\n個別ゲームの売上や利用者数ではなく、中国のアプリ開発者全体を対象とする調査である。ゲーム以外のアプリも含むため中国ゲーム市場だけの指標ではないが、KURO GAMESを含む中国開発企業が海外売上と利用者を拡大している流れを示す一次資料として記録する。",
     "timeline": [
       {
-        "date": "2026年10月6日",
-        "text": "公式英語パッチノートを公開。更新時刻と追加内容を告知。"
+        "date": "2020年",
+        "text": "中国開発者の海外売上比率は32％。"
       },
       {
-        "date": "2026年10月7日",
-        "text": "日本語プレスリリースでシーズン全体の予定を発表。"
+        "date": "2025年",
+        "text": "海外売上比率が52％へ上昇。中国開発者の76％が海外で事業を展開し、海外ダウンロードは38億回。"
       },
       {
-        "date": "2026年10月9日",
-        "text": "シーズン10.5開幕予定。2人組6チームの新PvPを追加。"
-      },
+        "date": "2026年10月8日",
+        "text": "Appleが調査結果を公表し、KURO GAMESを中国ゲーム企業の世界展開事例として紹介。"
+      }
+    ],
+    "sources": [
       {
-        "date": "2026年10月22日",
-        "text": "50人でサノス軍に挑むPvEモードを追加予定。"
+        "name": "Apple Newsroom 中国",
+        "url": "https://www.apple.com.cn/newsroom/2026/10/new-data-shows-app-store-ecosystem-is-fueling-developer-success/",
+        "date": "2026-10-08",
+        "type": "公式資料"
       }
     ],
     "quoted_reactions": [],
     "reactions": [],
-    "needs_research": false,
-    "sources": [
-      {
-        "name": "NetEase Games / Marvel Games・日本語リリース",
-        "url": "https://img.inside-games.jp/release/prtimes/20261007/311274.html",
-        "date": "2026-10-07",
-        "type": "公式"
-      },
-      {
-        "name": "マーベル・ライバルズ公式パッチノート",
-        "url": "https://www.marvelrivals.com/20261006/41525_1315865.html",
-        "date": "2026-10-06",
-        "type": "公式"
-      }
-    ]
-  },
-  {
-    "id": "wuwa-official-20261007-lily-reveal",
-    "date": "2026-10-07",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "鳴潮、新共鳴者「リリー」を正式公開！回折・拳銃のキャラクター",
-    "summary": "10月7日にリリーのキャラクター情報が公開。10月8日には公式の共鳴者アーカイブプレビューも公開され、回折属性・拳銃武器が紹介された。実装時期は公式確定情報と予想を区別する。",
-    "url": "https://www.youtube.com/@WutheringWavesJP",
-    "source": "鳴潮公式YouTube・公式X、GameWith",
-    "tags": [
-      "鳴潮",
-      "リリー",
-      "新キャラ",
-      "公式情報"
-    ],
-    "spoiler": false,
-    "body": "■ 10月7日：リリーのキャラクター紹介\n公式YouTubeで『後悲鳴人類記事：交錯する星群れ』——リリーが公開。リリーは鋭い嗅覚を持ち、調香で他者の精神を癒やす短い夢を作るという設定が紹介された。\n\n■ 10月8日：アーカイブプレビュー\n公式の『共鳴者アーカイブプレビュー｜リリー』が公開。共鳴属性は回折、武器は拳銃。\n\n■ 実装時期\nVer.3.8実装の可能性は攻略サイトで予想されているが、正式な実装日と混同しない。",
-    "sources": [
-      {
-        "name": "鳴潮公式動画掲載履歴",
-        "url": "https://yutura.net/channel/97834/latest/",
-        "type": "公式動画の掲載情報"
-      },
-      {
-        "name": "GameWith最新情報",
-        "url": "https://gamewith.jp/wutheringwaves/",
-        "type": "補足"
-      }
-    ]
+    "needs_research": false
   },
   {
     "id": "zzz-20261007-evelyn-birthday-shipping-debate",
@@ -2569,6 +2439,136 @@
     "story_id": "zzz-evelyn-shipping-202610"
   },
   {
+    "id": "wuwa-official-20261007-lily-reveal",
+    "date": "2026-10-07",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "鳴潮、新共鳴者「リリー」を正式公開！回折・拳銃のキャラクター",
+    "summary": "10月7日にリリーのキャラクター情報が公開。10月8日には公式の共鳴者アーカイブプレビューも公開され、回折属性・拳銃武器が紹介された。実装時期は公式確定情報と予想を区別する。",
+    "url": "https://www.youtube.com/@WutheringWavesJP",
+    "source": "鳴潮公式YouTube・公式X、GameWith",
+    "tags": [
+      "鳴潮",
+      "リリー",
+      "新キャラ",
+      "公式情報"
+    ],
+    "spoiler": false,
+    "body": "■ 10月7日：リリーのキャラクター紹介\n公式YouTubeで『後悲鳴人類記事：交錯する星群れ』——リリーが公開。リリーは鋭い嗅覚を持ち、調香で他者の精神を癒やす短い夢を作るという設定が紹介された。\n\n■ 10月8日：アーカイブプレビュー\n公式の『共鳴者アーカイブプレビュー｜リリー』が公開。共鳴属性は回折、武器は拳銃。\n\n■ 実装時期\nVer.3.8実装の可能性は攻略サイトで予想されているが、正式な実装日と混同しない。",
+    "sources": [
+      {
+        "name": "鳴潮公式動画掲載履歴",
+        "url": "https://yutura.net/channel/97834/latest/",
+        "type": "公式動画の掲載情報"
+      },
+      {
+        "name": "GameWith最新情報",
+        "url": "https://gamewith.jp/wutheringwaves/",
+        "type": "補足"
+      }
+    ]
+  },
+  {
+    "id": "china-latest-20261007-marvel-rivals-season-10-5",
+    "date": "2026-10-07",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP / EN",
+    "title": "『マーベル・ライバルズ』シーズン10.5は10月9日開幕。22日には50人協力PvEを追加",
+    "summary": "NetEase GamesとMarvel Gamesが新シーズンの詳細を公開。2人組6チームで戦う新PvPに加え、10月22日には50人でサノス軍に挑むPvEが登場する。",
+    "url": "https://img.inside-games.jp/release/prtimes/20261007/311274.html",
+    "source": "NetEase Games / Marvel Games（PR TIMES配信・インサイド掲載）",
+    "spoiler": false,
+    "tags": [
+      "NetEase",
+      "大型アップデート",
+      "協力プレイ"
+    ],
+    "body": "■ 10月9日にシーズン10.5へ\nNetEase GamesとMarvel Gamesは10月7日付の日本語リリースで、新シーズンの内容を発表した。公式パッチノートでは10月9日18時（日本時間）から約2時間のメンテナンスを予定している。\n\n■ 2人組でストーンを奪い合う新PvP\n『アベンジャーズ／インフィニティ・ウォー』を題材に、12人が2人ずつの6チームに分かれて戦う。ラウンドの合間にカードを選んで能力を強化し、インフィニティ・ストーンを集めて勝利を目指す。\n\n■ 10月22日は50人協力PvE\n『アベンジャーズ／エンドゲーム』を題材にしたモードでは、50人がアベンジャーズの基地に集まり、サノスと軍勢に挑む。18対18の既存モードにも『アルケマックス本社』を追加する。\n\n■ シーズン中のイベント\n10月15日と29日にはハロウィン関連イベントを予定。公式パッチノートではソーの衣装を無料で獲得できるシーズンイベントも案内している。",
+    "timeline": [
+      {
+        "date": "2026年10月6日",
+        "text": "公式英語パッチノートを公開。更新時刻と追加内容を告知。"
+      },
+      {
+        "date": "2026年10月7日",
+        "text": "日本語プレスリリースでシーズン全体の予定を発表。"
+      },
+      {
+        "date": "2026年10月9日",
+        "text": "シーズン10.5開幕予定。2人組6チームの新PvPを追加。"
+      },
+      {
+        "date": "2026年10月22日",
+        "text": "50人でサノス軍に挑むPvEモードを追加予定。"
+      }
+    ],
+    "quoted_reactions": [],
+    "reactions": [],
+    "needs_research": false,
+    "sources": [
+      {
+        "name": "NetEase Games / Marvel Games・日本語リリース",
+        "url": "https://img.inside-games.jp/release/prtimes/20261007/311274.html",
+        "date": "2026-10-07",
+        "type": "公式"
+      },
+      {
+        "name": "マーベル・ライバルズ公式パッチノート",
+        "url": "https://www.marvelrivals.com/20261006/41525_1315865.html",
+        "date": "2026-10-06",
+        "type": "公式"
+      }
+    ]
+  },
+  {
+    "id": "china-industry-20261007-kuro-liu-sheng-interview",
+    "date": "2026-10-07",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "CN",
+    "title": "KURO GAMES創業者・劉勝氏、海外アクティブユーザーは約4割と説明",
+    "summary": "10月7日公開の報道で、KURO GAMES創業者の劉勝氏は海外アクティブユーザーが約4割、国内が約6割と説明した。技術更新、自社パブリッシング、世界規模のマルチプラットフォーム運営を「難しいが正しいこと」として継続する方針も語った。元インタビューは10月4日公開。",
+    "url": "https://cgames.com/contents/2/13065.html",
+    "source": "競核（Cgames）／広州日報・大洋網",
+    "spoiler": false,
+    "tags": [
+      "KURO GAMES",
+      "劉勝",
+      "海外展開",
+      "企業戦略"
+    ],
+    "body": "■ 国内6割・海外4割\nKURO GAMES創業者・董事長の劉勝氏は、同社のアクティブユーザーについて、中国国内が約6割、海外が約4割と説明した。海外ユーザーは日本・韓国、欧米、東南アジアなどに分布しているという。\n\n■ 『鳴潮』の反響は想定以上\n劉氏は『鳴潮』の世界巡回コンサートの反響が予想を超えたと振り返り、成功の理由については製品自体を丁寧に作ったことを挙げた。\n\n■ 技術・自社展開・世界運営を継続\n技術の更新、自社パブリッシング、世界規模のマルチプラットフォーム運営を、難しいが正しい取り組みとして継続すると説明。中国ゲーム企業の海外展開が、外部に頼る段階から自ら世界市場を運営する段階へ移っているとの認識も示した。",
+    "timeline": [
+      {
+        "date": "2026年10月4日",
+        "text": "広州日報・大洋網がKURO GAMES創業者へのインタビューを公開。"
+      },
+      {
+        "date": "2026年10月7日",
+        "text": "競核がインタビュー内容を整理し、国内外ユーザー比率などを報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "競核（Cgames）",
+        "url": "https://cgames.com/contents/2/13065.html",
+        "date": "2026-10-07",
+        "type": "報道"
+      },
+      {
+        "name": "広州日報・大洋網",
+        "url": "https://news.dayoo.com/guangdong/202610/04/139996_55009815.htm",
+        "date": "2026-10-04",
+        "type": "報道"
+      }
+    ],
+    "quoted_reactions": [],
+    "reactions": [],
+    "needs_research": false
+  },
+  {
     "id": "china-latest-20261006-endfield-1-6",
     "date": "2026-10-06",
     "category": "中国ゲーム・最新",
@@ -2606,6 +2606,39 @@
     ]
   },
   {
+    "id": "china-latest-20261005-hoyo-yuanchu-license",
+    "date": "2026-10-05",
+    "category": "中国ゲーム・最新",
+    "status": "報道",
+    "lang": "CN",
+    "title": "HoYoverseのUnreal Engine 5新作『源初之結』が中国で版号を取得。モバイル・PC向けで審査通過",
+    "summary": "中国の2026年9月ゲーム版号一覧で、HoYoverseの新作『源初之結』がモバイル・PC向けタイトルとして審査を通過したと報じられた。8月のGamescomで公開されたUnreal Engine 5採用の新作として注目されており、今後のテスト展開が焦点になる。",
+    "url": "https://news.17173.com/content/10052026/083106002.shtml",
+    "spoiler": false,
+    "source": "17173",
+    "tags": [
+      "新作",
+      "HoYoverse",
+      "版号",
+      "Unreal Engine 5"
+    ],
+    "body": "■ 今回の動き\n中国で2026年9月分のゲーム版号が公開され、HoYoverseの新作『源初之結』がモバイル・PC向けタイトルとして審査を通過したと報じられた。\n\n■ 注目点\n本作は2026年8月のGamescomで披露されたUnreal Engine 5採用の新作。中国国内での正式サービスに必要な版号を取得したことで、今後はテストや事前登録など次の展開が注目される。\n\n■ 現状\n版号取得は確認できる一方、初回テスト日程や正式リリース日はまだ発表されていない。",
+    "timeline": [
+      {
+        "date": "2026年8月",
+        "text": "GamescomでHoYoverseのUnreal Engine 5採用新作として公開。"
+      },
+      {
+        "date": "2026年9月30日",
+        "text": "中国当局が9月分のゲーム版号一覧を公開。"
+      },
+      {
+        "date": "2026年10月5日",
+        "text": "中国ゲームメディアが『源初之結』のモバイル・PC向け版号取得を取り上げる。"
+      }
+    ]
+  },
+  {
     "id": "china-industry-20261005-license-q3-record",
     "date": "2026-10-05",
     "category": "中国ゲーム業界",
@@ -2639,39 +2672,6 @@
       {
         "date": "2026年9月",
         "text": "国産206本・輸入3本の計209本を承認。"
-      }
-    ]
-  },
-  {
-    "id": "china-latest-20261005-hoyo-yuanchu-license",
-    "date": "2026-10-05",
-    "category": "中国ゲーム・最新",
-    "status": "報道",
-    "lang": "CN",
-    "title": "HoYoverseのUnreal Engine 5新作『源初之結』が中国で版号を取得。モバイル・PC向けで審査通過",
-    "summary": "中国の2026年9月ゲーム版号一覧で、HoYoverseの新作『源初之結』がモバイル・PC向けタイトルとして審査を通過したと報じられた。8月のGamescomで公開されたUnreal Engine 5採用の新作として注目されており、今後のテスト展開が焦点になる。",
-    "url": "https://news.17173.com/content/10052026/083106002.shtml",
-    "spoiler": false,
-    "source": "17173",
-    "tags": [
-      "新作",
-      "HoYoverse",
-      "版号",
-      "Unreal Engine 5"
-    ],
-    "body": "■ 今回の動き\n中国で2026年9月分のゲーム版号が公開され、HoYoverseの新作『源初之結』がモバイル・PC向けタイトルとして審査を通過したと報じられた。\n\n■ 注目点\n本作は2026年8月のGamescomで披露されたUnreal Engine 5採用の新作。中国国内での正式サービスに必要な版号を取得したことで、今後はテストや事前登録など次の展開が注目される。\n\n■ 現状\n版号取得は確認できる一方、初回テスト日程や正式リリース日はまだ発表されていない。",
-    "timeline": [
-      {
-        "date": "2026年8月",
-        "text": "GamescomでHoYoverseのUnreal Engine 5採用新作として公開。"
-      },
-      {
-        "date": "2026年9月30日",
-        "text": "中国当局が9月分のゲーム版号一覧を公開。"
-      },
-      {
-        "date": "2026年10月5日",
-        "text": "中国ゲームメディアが『源初之結』のモバイル・PC向け版号取得を取り上げる。"
       }
     ]
   },
@@ -2736,25 +2736,6 @@
     ]
   },
   {
-    "id": "manual-20261005-newfed-fractsidus",
-    "date": "2026-10-01",
-    "category": "リーク",
-    "status": "未確認の噂",
-    "lang": "EN",
-    "title": "4.x新連邦編はフラクトシデス色が強いとの見方。新連邦が主要拠点という話が継続",
-    "summary": "4.xで新連邦へ向かうというコミュニティ予想と、フラクトシデスの主要拠点・幹部が新連邦に関わるという過去リーク/作中示唆が結び付けられている。『フラクトシデス中心の章になる』という部分はまだ公式確定ではない。",
-    "url": "https://www.reddit.com/r/WutheringWaves/comments/1wupa0g/whatre_ur_expectations_for_4x/",
-    "spoiler": true,
-    "source": "Reddit / community discussion",
-    "tags": [
-      "ストーリー",
-      "新国",
-      "フラクトシデス",
-      "未確認"
-    ],
-    "teaser_title": "鳴潮リーク：ストーリー関連の新情報"
-  },
-  {
     "id": "manual-20261005-starrail-inflation",
     "date": "2026-10-01",
     "category": "スタレ",
@@ -2813,6 +2794,25 @@
         "display_text": "運営に選ばれし接待キャラ以外カス"
       }
     ]
+  },
+  {
+    "id": "manual-20261005-newfed-fractsidus",
+    "date": "2026-10-01",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "EN",
+    "title": "4.x新連邦編はフラクトシデス色が強いとの見方。新連邦が主要拠点という話が継続",
+    "summary": "4.xで新連邦へ向かうというコミュニティ予想と、フラクトシデスの主要拠点・幹部が新連邦に関わるという過去リーク/作中示唆が結び付けられている。『フラクトシデス中心の章になる』という部分はまだ公式確定ではない。",
+    "url": "https://www.reddit.com/r/WutheringWaves/comments/1wupa0g/whatre_ur_expectations_for_4x/",
+    "spoiler": true,
+    "source": "Reddit / community discussion",
+    "tags": [
+      "ストーリー",
+      "新国",
+      "フラクトシデス",
+      "未確認"
+    ],
+    "teaser_title": "鳴潮リーク：ストーリー関連の新情報"
   },
   {
     "id": "manual-20261005-calcharo-sp-rumor",
