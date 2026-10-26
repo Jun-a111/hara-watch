@@ -1,5 +1,66 @@
 [
   {
+    "id": "china-latest-20261027-hungry-wilderness-early-access",
+    "date": "2026-10-27",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "Tencent配信の生存ゲーム『Hungry Wilderness』、10月27日に先行体験サーバー開始",
+    "summary": "Klei正式ライセンスの『Don't Starve Together』系モバイル生存ゲーム。Shengqu Games傘下Pigman Studioが開発し、Tencentが中国で配信する。対象資格者向け先行体験サーバーを10月27日11時（日本時間）に開始予定で、正式サービスは11月24日。",
+    "url": "https://news.qq.com/rain/a/20261023A0D4XV00",
+    "source": "『Hungry Wilderness』公式 / Tencent App Store",
+    "tags": [
+      "中国ゲーム",
+      "Hungry Wilderness",
+      "Tencent",
+      "Shengqu Games",
+      "Klei",
+      "先行体験",
+      "モバイル"
+    ],
+    "spoiler": false,
+    "story_id": "hungry-wilderness-early-access-20261027",
+    "body": "■ 10月27日に先行体験サーバーを開始予定\nTencentが中国で配信するモバイル向けサンドボックス生存ゲーム『Hungry Wilderness』は、2026年10月27日10:00（中国標準時、日本時間11:00）に先行体験サーバーを開始予定。過去のテスト参加者は原則として自動的に資格を得られ、公式コミュニティでも追加資格を配布している。一般公開の正式サービスとは異なる限定環境なので、全員参加可能とは扱わない。\n\n■ 正式サービスは11月24日\n本作はKlei Entertainmentの正式ライセンスを取得し、『Don't Starve Together』を基にShengqu Games傘下のPigman Studioが開発。Tencentが中国で運営・配信し、iOSとAndroidの正式サービスを11月24日に開始予定。探索、資源収集、クラフト、建築、協力プレイを軸にする。",
+    "timeline": [
+      {
+        "date": "2026年10月21日",
+        "text": "公式特別番組で11月24日の正式サービス開始を発表。"
+      },
+      {
+        "date": "2026年10月26日",
+        "text": "先行体験資格の確認・当選案内を実施。"
+      },
+      {
+        "date": "2026年10月27日 11:00 JST",
+        "text": "資格保有者向け先行体験サーバー開始予定。"
+      },
+      {
+        "date": "2026年11月24日",
+        "text": "中国でiOS・Android版の正式サービス開始予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『Hungry Wilderness』公式・先行体験資格案内",
+        "url": "https://news.qq.com/rain/a/20261023A0D4XV00",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "Tencent App Store・公式予約ページ",
+        "url": "https://m.yyb.qq.com/new-game/booking-detail/?appid=54307264",
+        "date": "2026-10-27",
+        "type": "公式"
+      },
+      {
+        "name": "公式TapTap・先行体験資格抽選案内",
+        "url": "https://www.taptap.cn/moment/862339567418608321",
+        "date": "2026-10-26",
+        "type": "公式"
+      }
+    ]
+  },
+  {
     "id": "wuwa-20261026-ikeharo-halloween-official-event",
     "date": "2026-10-26",
     "category": "鳴潮",
@@ -729,8 +790,8 @@
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "ZH",
-    "title": "『Phantom Blade Zero』最終映像を公開、10月27日から事前ダウンロード",
-    "summary": "S-GAMEは発売前の最終映像を公開し、10月27日10:00からPC・PS5版の事前ダウンロード、10月29日10:00から正式配信すると案内。PS5パッケージ版は2027年発売予定。",
+    "title": "『Phantom Blade Zero』レビュー解禁、戦闘を中心に高評価　10月29日発売",
+    "summary": "S-GAMEの中国製アクションRPGは10月26日に海外レビューが解禁。TheGamerは5/5、GameRantは9/10を付け、戦闘・美術・音楽を高く評価した。レビュー集計も高水準で、10月27日にPC・PS5版の事前ダウンロード、10月29日に正式配信予定。",
     "url": "https://x.com/pbzero_official",
     "source": "『Phantom Blade Zero』公式X / IT之家",
     "tags": [
@@ -743,11 +804,15 @@
       "パッケージ版"
     ],
     "spoiler": false,
-    "body": "■ 発売前の最終映像を公開\nS-GAMEは2026年10月22日、『Phantom Blade Zero』の発売前最終映像を公開した。本記事では映像に含まれる物語やボス演出の核心には触れない。\n\n■ 10月29日にPC・PS5で正式配信\n事前ダウンロードは10月27日10:00、正式配信は10月29日10:00に開始予定。対応プラットフォームはPCとPS5で、PS5のパッケージ版は2027年に発売予定と案内された。",
+    "body": "■ 発売前の最終映像を公開\nS-GAMEは2026年10月22日、『Phantom Blade Zero』の発売前最終映像を公開した。本記事では映像に含まれる物語やボス演出の核心には触れない。\n\n■ 10月29日にPC・PS5で正式配信\n事前ダウンロードは10月27日10:00、正式配信は10月29日10:00に開始予定。対応プラットフォームはPCとPS5で、PS5のパッケージ版は2027年に発売予定と案内された。\n\n■ 10月26日、海外レビュー解禁\n発売に先立って海外メディアのレビューが公開された。TheGamerは5/5、GameRantは9/10を付け、特に高速かつ奥行きのある戦闘、美術、音楽を評価。TheGamerの集計記事ではOpenCritic平均92点・推奨率100%と報じられたが、集計値はレビュー追加により変動する。好評一色ではなく、物語への感情移入の難しさ、序盤の粗さ、PS5画質モードのフレームレートを弱点に挙げるレビューもある。ストーリーやボスの核心には触れない。",
     "timeline": [
       {
         "date": "2026年10月22日",
         "text": "発売前最終映像とPS5パッケージ版の計画を公開。"
+      },
+      {
+        "date": "2026年10月26日",
+        "text": "海外メディアのレビューが解禁。戦闘を中心に高評価を獲得。"
       },
       {
         "date": "2026年10月27日",
@@ -780,6 +845,24 @@
         "url": "https://www.playstation.com/en-sg/ps5/games/",
         "date": "2026-10-22",
         "type": "公式"
+      },
+      {
+        "name": "TheGamer・レビュー（5/5）",
+        "url": "https://www.thegamer.com/phantom-blade-zero-review/",
+        "date": "2026-10-25",
+        "type": "報道・レビュー"
+      },
+      {
+        "name": "GameRant・レビュー（9/10）",
+        "url": "https://gamerant.com/phantom-blade-zero-review/",
+        "date": "2026-10-26",
+        "type": "報道・レビュー"
+      },
+      {
+        "name": "TheGamer・レビュー集計",
+        "url": "https://www.thegamer.com/phantom-blade-zero-review-round-up/",
+        "date": "2026-10-26",
+        "type": "報道"
       }
     ],
     "story_id": "phantom-blade-zero-final-trailer-20261022"
