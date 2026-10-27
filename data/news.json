@@ -6,9 +6,9 @@
     "status": "公式発表",
     "lang": "EN",
     "title": "Tencent『Roco Kingdom』海外向け初回CBTが10月27日開始　PC・スマホで招待制テスト",
-    "summary": "Tencent傘下Morefun Studios開発のオープンワールド精霊収集RPG『Roco Kingdom（洛克王国：世界）』が、10月27日13:30（日本時間）に海外向け初回CBT「Quack Quack Test」を開始。公式サイトはテスト実施中と表示し、参加資格を持つLevel Infiniteアカウントのみ利用可能と案内している。",
+    "summary": "Tencent傘下Morefun Studios開発のオープンワールド精霊収集RPG『Roco Kingdom（洛克王国：世界）』が、10月27日13:30（日本時間）に海外向け初回CBT「Quack Quack Test」を開始。PC・iOS・Androidを対象とする招待制テストで、英語・日本語に対応する。",
     "url": "https://rocokingdom.com/",
-    "source": "Roco Kingdom公式サイト / IT之家",
+    "source": "Roco Kingdom公式サイト / PR TIMES / IT之家",
     "tags": [
       "Tencent",
       "Morefun Studios",
@@ -21,7 +21,7 @@
     ],
     "spoiler": false,
     "story_id": "roco-kingdom-global-quack-quack-cbt-20261027",
-    "body": "■ 海外向け初回クローズドβテストが開始\nTencent傘下Morefun Studiosが開発する精霊収集オープンワールドRPG『Roco Kingdom（洛克王国：世界）』は、2026年10月27日04:30 UTC（日本時間13:30）から海外向けの「Quack Quack Test」を開始。公式サイトには「THE QUACK QUACK TEST IS NOW LIVE!」と掲示されている。\n\n■ 参加は招待されたアカウントに限定\n参加資格は段階的に付与され、当選したLevel Infiniteアカウントでのログインが必要。PCランチャー、AndroidのGoogle Play、iOSのTestFlightを使った導入方法を公式が説明している。応募期間は8月26日～10月20日で、一般公開の正式サービスではない。\n\n■ 400種類以上の精霊を収集\n公式サイトは400種類以上の精霊（Jinies）、オープンワールド探索、協力プレイ、戦略性を重視したPvPを紹介。海外向け正式リリース日は現時点で確認できない。国際版の展開先としてPC・モバイルに加えPS5やXboxなども事前発表されているが、今回のCBTの対応機種と混同しない。",
+    "body": "■ 海外向け初回クローズドβテストが開始\nTencent傘下Morefun Studiosが開発する精霊収集オープンワールドRPG『Roco Kingdom（洛克王国：世界）』は、2026年10月27日04:30 UTC（日本時間13:30）から海外向けの「Quack Quack Test」を開始。公式サイトには「THE QUACK QUACK TEST IS NOW LIVE!」と掲示されている。\n\n■ 参加は招待されたアカウントに限定\n参加資格は段階的に付与され、当選したLevel Infiniteアカウントでのログインが必要。PCランチャー、AndroidのGoogle Play、iOSのTestFlightを使った導入方法を公式が説明している。応募期間は8月26日～10月20日で、一般公開の正式サービスではない。公式FAQでは英語・日本語対応、PC・モバイル間の進捗共有、課金なし、終了後のデータ削除も案内されている。\n\n■ 400種類以上の精霊を収集\n公式サイトは400種類以上の精霊（Jinies）、オープンワールド探索、協力プレイ、戦略性を重視したPvPを紹介。海外向け正式リリース日は現時点で確認できない。国際版の展開先としてPC・モバイルに加えPS5やXboxなども事前発表されているが、今回のCBTの対応機種と混同しない。",
     "timeline": [
       {
         "date": "2026年8月26日",
@@ -41,6 +41,18 @@
         "name": "Roco Kingdom海外公式サイト・CBT開始時刻と参加条件",
         "url": "https://rocokingdom.com/",
         "date": "2026-10-27",
+        "type": "公式"
+      },
+      {
+        "name": "PR TIMES・初のグローバルCBT開始発表",
+        "url": "https://prtimes.jp/main/html/rd/p/000000003.000188702.html",
+        "date": "2026-10-27",
+        "type": "公式"
+      },
+      {
+        "name": "Roco Kingdom公式・クローズドβテストFAQ",
+        "url": "https://rocokingdom.com/m/en/news/detail/?id=znurhprswirr9pk38ca86uct",
+        "date": "2026-08-26",
         "type": "公式"
       },
       {
