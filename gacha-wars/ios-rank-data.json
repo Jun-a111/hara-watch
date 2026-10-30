@@ -1,18 +1,18 @@
 {
   "schema": "gacha-wars-ios-v1",
-  "updated_at": "2026-10-30T12:09:02+00:00",
+  "updated_at": "2026-10-30T18:06:47+00:00",
   "market_status": {
     "jp": {
       "ok": true,
       "chart_depth": 100,
       "matched": [
-        "hsr",
-        "ww"
+        "hsr"
       ],
       "not_seen_in_top_chart": [
         "end",
         "gi",
         "nte",
+        "ww",
         "zzz"
       ],
       "app_store_lookup": {
@@ -29,11 +29,11 @@
         "alternate_region_id": [],
         "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"
       },
-      "checked_at": "2026-10-30T12:09:02+00:00"
+      "checked_at": "2026-10-30T18:06:47+00:00"
     },
     "cn": {
       "ok": true,
-      "chart_depth": 100,
+      "chart_depth": 99,
       "matched": [
         "end",
         "hsr"
@@ -59,11 +59,11 @@
         "alternate_region_id": [],
         "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"
       },
-      "checked_at": "2026-10-30T12:09:02+00:00"
+      "checked_at": "2026-10-30T18:06:47+00:00"
     },
     "tw": {
       "ok": true,
-      "chart_depth": 100,
+      "chart_depth": 99,
       "matched": [
         "ww"
       ],
@@ -88,7 +88,7 @@
         "alternate_region_id": [],
         "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"
       },
-      "checked_at": "2026-10-30T12:09:02+00:00"
+      "checked_at": "2026-10-30T18:06:47+00:00"
     },
     "hk": {
       "ok": true,
@@ -116,7 +116,7 @@
         "alternate_region_id": [],
         "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"
       },
-      "checked_at": "2026-10-30T12:09:02+00:00"
+      "checked_at": "2026-10-30T18:06:47+00:00"
     },
     "kr": {
       "ok": true,
@@ -145,7 +145,7 @@
         "alternate_region_id": [],
         "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"
       },
-      "checked_at": "2026-10-30T12:09:02+00:00"
+      "checked_at": "2026-10-30T18:06:47+00:00"
     },
     "us": {
       "ok": true,
@@ -173,15 +173,15 @@
         "alternate_region_id": [],
         "note": "Apple lookupでIDが見つからない場合も、別ID・地域差の可能性があるため配信終了や未配信とは断定しない"
       },
-      "checked_at": "2026-10-30T12:09:02+00:00"
+      "checked_at": "2026-10-30T18:06:47+00:00"
     }
   },
   "integrity": {
     "jp": {
       "ok": true,
       "missing_rank_records": [],
-      "matched_count": 2,
-      "recorded_count": 2
+      "matched_count": 1,
+      "recorded_count": 1
     },
     "cn": {
       "ok": true,
@@ -19358,6 +19358,76 @@
       "store": "ios",
       "value": 60,
       "date": "2026-10-30T12:09:02+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/kr/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "6475033368",
+      "matched_by": "verified_app_id"
+    },
+    {
+      "game": "hsr",
+      "region": "jp",
+      "kind": "rank",
+      "store": "ios",
+      "value": 91,
+      "date": "2026-10-30T18:06:47+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/jp/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 100,
+      "app_id": "1599719154",
+      "matched_by": "name"
+    },
+    {
+      "game": "end",
+      "region": "cn",
+      "kind": "rank",
+      "store": "ios",
+      "value": 82,
+      "date": "2026-10-30T18:06:47+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/cn/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 99,
+      "app_id": "6753859465",
+      "matched_by": "name"
+    },
+    {
+      "game": "hsr",
+      "region": "cn",
+      "kind": "rank",
+      "store": "ios",
+      "value": 87,
+      "date": "2026-10-30T18:06:47+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/cn/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 99,
+      "app_id": "1523037824",
+      "matched_by": "name"
+    },
+    {
+      "game": "ww",
+      "region": "tw",
+      "kind": "rank",
+      "store": "ios",
+      "value": 68,
+      "date": "2026-10-30T18:06:47+00:00",
+      "source": "Apple iTunes top grossing Games RSS",
+      "source_url": "https://itunes.apple.com/tw/rss/topgrossingapplications/limit=100/genre=6014/json",
+      "chart": "topgrossingapplications",
+      "chart_depth": 99,
+      "app_id": "6475033368",
+      "matched_by": "name"
+    },
+    {
+      "game": "ww",
+      "region": "kr",
+      "kind": "rank",
+      "store": "ios",
+      "value": 60,
+      "date": "2026-10-30T18:06:47+00:00",
       "source": "Apple iTunes top grossing Games RSS",
       "source_url": "https://itunes.apple.com/kr/rss/topgrossingapplications/limit=100/genre=6014/json",
       "chart": "topgrossingapplications",
