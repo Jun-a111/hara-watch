@@ -1,5 +1,115 @@
 [
   {
+    "id": "kuro-new-20261030-second-solaris-unwritten-dreams",
+    "date": "2026-10-30",
+    "category": "新作",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "KURO GAMES、『第二ソラリス：題なき夢』を発表　MGPで事前予約開始",
+    "summary": "『鳴潮』の「第二ソラリス」シリーズから、学園生活を題材にした新作テキストADVが発表された。Meta Games Platform（MGP）で事前予約を開始し、オープニング映像も公開。追加情報は11月6日のVer.3.8予告特別通信で案内予定。",
+    "url": "https://secondcomingofsolaris.kurogames-global.com/?lang=jp",
+    "source": "『鳴潮』日本公式 / KURO GAMES",
+    "tags": [
+      "KURO GAMES",
+      "鳴潮",
+      "第二ソラリス",
+      "題なき夢",
+      "テキストADV",
+      "MGP",
+      "事前予約"
+    ],
+    "spoiler": false,
+    "story_id": "kuro-second-solaris-unwritten-dreams-20261030",
+    "body": "■ 「第二ソラリス」シリーズの新作ADV\nKURO GAMESは10月30日、『鳴潮』内外で展開する「第二ソラリス」シリーズの新作テキストアドベンチャー『第二ソラリス：題なき夢』を発表した。Meta Games Platform（MGP）の専用ページを公開し、事前予約を開始している。\n\n■ オープニング映像を公開\n公式はオープニングテーマ「JUST WITH YOU: After-School Hours with You」の映像も公開した。本記事では物語や映像の核心には触れない。\n\n■ 続報は11月6日\nゲームの詳しい仕様、公開時期、対応環境は現時点で未発表。公式は11月6日20:00（日本時間）の『鳴潮』Ver.3.8予告特別通信で続報を案内するとしている。『鳴潮』本編のVer.3.8更新と、このスピンオフADVの公開時期を同一とは扱わない。",
+    "timeline": [
+      {
+        "date": "2026年10月30日",
+        "text": "新作テキストADVを発表し、MGPで事前予約を開始。オープニング映像も公開。"
+      },
+      {
+        "date": "2026年11月6日 20:00 JST",
+        "text": "『鳴潮』Ver.3.8予告特別通信で続報を案内予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『第二ソラリス：題なき夢』MGP公式ページ",
+        "url": "https://secondcomingofsolaris.kurogames-global.com/?lang=jp",
+        "date": "2026-10-30",
+        "type": "公式"
+      },
+      {
+        "name": "『鳴潮』日本公式X",
+        "url": "https://x.com/WW_JP_Official",
+        "date": "2026-10-30",
+        "type": "公式"
+      },
+      {
+        "name": "『第二ソラリス：題なき夢』公式オープニング映像",
+        "url": "https://www.youtube.com/watch?v=JcbyaVNNDCU",
+        "date": "2026-10-30",
+        "type": "公式"
+      }
+    ]
+  },
+  {
+    "id": "china-industry-20261030-perfect-world-nte-q3",
+    "date": "2026-10-30",
+    "category": "中国ゲーム業界",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "Perfect World、『NTE』世界累計課金額27億元超を開示　海外が中国国内を上回る",
+    "summary": "Perfect Worldの2026年第3四半期報告によると、10月28日時点の『NTE』世界累計課金額は27億元超。公式PC・Android決済が約6割を占め、海外市場の累計課金額は中国国内を上回った。販売本数や会社の純売上高ではない。",
+    "url": "https://www.pwrd.com/cn/news/press/p2026/20261030/89216.shtml",
+    "source": "Perfect World・2026年第3四半期報告",
+    "tags": [
+      "Perfect World",
+      "NTE",
+      "Neverness to Everness",
+      "決算",
+      "累計課金額",
+      "海外展開",
+      "中国ゲーム業界"
+    ],
+    "spoiler": false,
+    "story_id": "perfect-world-nte-q3-gross-billings-20261030",
+    "body": "■ 世界累計課金額が27億元超\nPerfect Worldは2026年第3四半期報告で、10月28日時点の『NTE: Neverness to Everness』世界累計課金額（流水）が27億元を超えたと開示した。これはユーザー課金の総流通額に相当する指標で、販売本数、会社の純売上高、利益とは異なる。\n\n■ 公式PC・Android決済が約6割\n累計課金額のうち、公式PC版と公式Android版を通じた決済が約60％を占める。海外市場の累計課金額は中国国内を上回ったとしている。\n\n■ 第3四半期は増収増益、通期では単純比較できない\n7～9月期の会社全体の売上高は23.62億元、親会社株主に帰属する純利益は5.06億元。一方、1～9月累計では前年のスタジオ売却益の反動などにより会社全体は減収減益で、サービス開始時の販売促進費も利益率を押し下げたと説明した。『NTE』単体の利益額は開示されていない。",
+    "timeline": [
+      {
+        "date": "2026年4月29日",
+        "text": "『NTE』が世界サービスを開始。"
+      },
+      {
+        "date": "2026年10月28日",
+        "text": "世界累計課金額が27億元を超え、海外累計が中国国内を上回ったと集計。"
+      },
+      {
+        "date": "2026年10月29日～30日",
+        "text": "Perfect Worldが第3四半期報告と解説を公開。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Perfect World・2026年第3四半期報告一覧",
+        "url": "https://www.pwrd.com/cn/report.html",
+        "date": "2026-10-29",
+        "type": "公式・決算"
+      },
+      {
+        "name": "Perfect World・第3四半期決算解説",
+        "url": "https://www.pwrd.com/cn/news/press/p2026/20261030/89216.shtml",
+        "date": "2026-10-30",
+        "type": "公式"
+      },
+      {
+        "name": "GameBusiness.jp・日本語報道",
+        "url": "https://www.gamebusiness.jp/article/2026/10/30/28506.html",
+        "date": "2026-10-30",
+        "type": "報道"
+      }
+    ]
+  },
+  {
     "id": "china-latest-20261030-infinity-nikki-v211",
     "date": "2026-10-30",
     "category": "中国ゲーム・最新",
