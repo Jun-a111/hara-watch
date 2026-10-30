@@ -50,52 +50,44 @@
     ]
   },
   {
-    "id": "china-industry-20261029-october-game-licenses",
+    "id": "wuwa-20261029-taiwan-hongkong-37-popup-event",
     "date": "2026-10-29",
-    "category": "中国ゲーム業界",
-    "status": "公式発表",
+    "category": "鳴潮",
+    "status": "報道",
     "lang": "ZH",
-    "title": "中国当局、10月分のゲーム版号を公表　国内183本・輸入12本を承認",
-    "summary": "中国国家新聞出版署が10月29日に公表した一覧で、10月28日付の国内ゲーム183本と輸入ゲーム12本の承認を確認。Tencent、NetEase、Perfect World、MICA Team系などの新規タイトルが国内承認リストに含まれる。",
-    "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
-    "source": "中国国家新聞出版署",
+    "title": "『鳴潮』Ver.3.7記念イベント、10月31日～11月1日に台北・香港で開催予定",
+    "summary": "台湾のゲームメディア4Gamersが10月24日、Ver.3.7テーマのポップアップイベント「同赴朝月燈火」を10月31日～11月1日に台北・香港で開催すると報道。UID・聯覚レベル50以上でスタンプラリー参加などを案内。主催者の個別公式告知URLは未確認。",
+    "url": "https://www.4gamers.com.tw/news/detail/82847/wuthering-waves-3-point-7-pop-up-event-in-taiwan-and-hongkong",
+    "source": "4Gamers（台湾ゲーム報道・10月24日公開）",
     "tags": [
-      "中国ゲーム業界",
-      "版号",
-      "ゲーム審査",
-      "国家新聞出版署",
-      "Tencent",
-      "NetEase",
-      "Perfect World",
-      "MICA Team"
+      "鳴潮",
+      "Ver.3.7",
+      "台湾",
+      "香港",
+      "ポップアップイベント",
+      "同赴朝月燈火"
     ],
     "spoiler": false,
-    "story_id": "china-october-2026-game-licenses",
-    "body": "■ 国内183本・輸入12本を承認\n中国国家新聞出版署が10月29日に公開した審査結果では、10月28日付で国内ゲーム183本、輸入ゲーム12本に版号が付与された。件数は公式一覧の連番で確認した。\n\n■ 大手・注目企業の案件も掲載\n国内承認リストにはTencent、NetEase、Perfect World、MICA Team系企業などが運営・出版に関わる案件が含まれる。輸入枠には『オーディン：ヴァルハラ・ライジング』など12本が掲載された。承認は中国本土での商業展開に必要な手続きであり、個別タイトルの配信日確定を意味しない。",
+    "body": "■ 台湾・香港で10月31日～11月1日に開催予定\n台湾のゲームメディア4Gamersが2026年10月24日に報じたところによると、『鳴潮』Ver.3.7のテーマイベント「同赴朝月燈火」が、10月31日～11月1日に台北の瓶蓋工廠台北製造所M棟と、香港の鑽石山・荷里活廣場の中庭で同時開催される予定。\n\n■ 参加企画・景品\n報道では、UID提示と聯覚レベル50以上を条件にスタンプカードを配布し、指定SNSフォロー、ミニゲーム、写真投稿などでスタンプを集める企画を紹介。抽選で招待状セット、共鳴者キーホルダー、灯籠などの景品が案内されている。景品は数量限定。\n\n■ 確認範囲\n開催概要は4Gamersの報道で確認したが、主催者による個別公式投稿URL・最新の変更や中止告知は取得できていない。実施済みとは記載せず、開催予定として扱う。",
     "timeline": [
       {
-        "date": "2026年10月28日",
-        "text": "国内183本、輸入12本を承認。"
+        "date": "2026年10月24日",
+        "text": "台湾4Gamersが台北・香港のVer.3.7ポップアップイベント概要を報道。"
       },
       {
-        "date": "2026年10月29日",
-        "text": "国家新聞出版署が承認一覧を公開。"
+        "date": "2026年10月31日～11月1日",
+        "text": "両地域での開催予定（当日の実施状況は未確認）。"
       }
     ],
     "sources": [
       {
-        "name": "中国国家新聞出版署・2026年10月国内ゲーム承認一覧",
-        "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
-        "date": "2026-10-29",
-        "type": "公式"
-      },
-      {
-        "name": "中国国家新聞出版署・2026年輸入ゲーム承認一覧",
-        "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
-        "date": "2026-10-29",
-        "type": "公式"
+        "name": "4Gamers・鳴潮Ver.3.7台北・香港ポップアップ報道",
+        "url": "https://www.4gamers.com.tw/news/detail/82847/wuthering-waves-3-point-7-pop-up-event-in-taiwan-and-hongkong",
+        "date": "2026-10-24",
+        "type": "報道"
       }
-    ]
+    ],
+    "story_id": "wuwa-37-taiwan-hongkong-popup-20261031"
   },
   {
     "id": "china-latest-20261029-nte-ver15-preview",
@@ -152,46 +144,6 @@
         "type": "公式"
       }
     ]
-  },
-  {
-    "id": "wuwa-20261029-taiwan-hongkong-37-popup-event",
-    "date": "2026-10-29",
-    "category": "鳴潮",
-    "status": "報道",
-    "lang": "ZH",
-    "title": "『鳴潮』Ver.3.7記念イベント、10月31日～11月1日に台北・香港で開催予定",
-    "summary": "台湾のゲームメディア4Gamersが10月24日、Ver.3.7テーマのポップアップイベント「同赴朝月燈火」を10月31日～11月1日に台北・香港で開催すると報道。UID・聯覚レベル50以上でスタンプラリー参加などを案内。主催者の個別公式告知URLは未確認。",
-    "url": "https://www.4gamers.com.tw/news/detail/82847/wuthering-waves-3-point-7-pop-up-event-in-taiwan-and-hongkong",
-    "source": "4Gamers（台湾ゲーム報道・10月24日公開）",
-    "tags": [
-      "鳴潮",
-      "Ver.3.7",
-      "台湾",
-      "香港",
-      "ポップアップイベント",
-      "同赴朝月燈火"
-    ],
-    "spoiler": false,
-    "body": "■ 台湾・香港で10月31日～11月1日に開催予定\n台湾のゲームメディア4Gamersが2026年10月24日に報じたところによると、『鳴潮』Ver.3.7のテーマイベント「同赴朝月燈火」が、10月31日～11月1日に台北の瓶蓋工廠台北製造所M棟と、香港の鑽石山・荷里活廣場の中庭で同時開催される予定。\n\n■ 参加企画・景品\n報道では、UID提示と聯覚レベル50以上を条件にスタンプカードを配布し、指定SNSフォロー、ミニゲーム、写真投稿などでスタンプを集める企画を紹介。抽選で招待状セット、共鳴者キーホルダー、灯籠などの景品が案内されている。景品は数量限定。\n\n■ 確認範囲\n開催概要は4Gamersの報道で確認したが、主催者による個別公式投稿URL・最新の変更や中止告知は取得できていない。実施済みとは記載せず、開催予定として扱う。",
-    "timeline": [
-      {
-        "date": "2026年10月24日",
-        "text": "台湾4Gamersが台北・香港のVer.3.7ポップアップイベント概要を報道。"
-      },
-      {
-        "date": "2026年10月31日～11月1日",
-        "text": "両地域での開催予定（当日の実施状況は未確認）。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "4Gamers・鳴潮Ver.3.7台北・香港ポップアップ報道",
-        "url": "https://www.4gamers.com.tw/news/detail/82847/wuthering-waves-3-point-7-pop-up-event-in-taiwan-and-hongkong",
-        "date": "2026-10-24",
-        "type": "報道"
-      }
-    ],
-    "story_id": "wuwa-37-taiwan-hongkong-popup-20261031"
   },
   {
     "id": "china-latest-20261029-monster-hunter-outlanders-launch",
@@ -252,6 +204,54 @@
         "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814",
         "date": "2026-10-29",
         "type": "公式ストア"
+      }
+    ]
+  },
+  {
+    "id": "china-industry-20261029-october-game-licenses",
+    "date": "2026-10-29",
+    "category": "中国ゲーム業界",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "中国当局、10月分のゲーム版号を公表　国内183本・輸入12本を承認",
+    "summary": "中国国家新聞出版署が10月29日に公表した一覧で、10月28日付の国内ゲーム183本と輸入ゲーム12本の承認を確認。Tencent、NetEase、Perfect World、MICA Team系などの新規タイトルが国内承認リストに含まれる。",
+    "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
+    "source": "中国国家新聞出版署",
+    "tags": [
+      "中国ゲーム業界",
+      "版号",
+      "ゲーム審査",
+      "国家新聞出版署",
+      "Tencent",
+      "NetEase",
+      "Perfect World",
+      "MICA Team"
+    ],
+    "spoiler": false,
+    "story_id": "china-october-2026-game-licenses",
+    "body": "■ 国内183本・輸入12本を承認\n中国国家新聞出版署が10月29日に公開した審査結果では、10月28日付で国内ゲーム183本、輸入ゲーム12本に版号が付与された。件数は公式一覧の連番で確認した。\n\n■ 大手・注目企業の案件も掲載\n国内承認リストにはTencent、NetEase、Perfect World、MICA Team系企業などが運営・出版に関わる案件が含まれる。輸入枠には『オーディン：ヴァルハラ・ライジング』など12本が掲載された。承認は中国本土での商業展開に必要な手続きであり、個別タイトルの配信日確定を意味しない。",
+    "timeline": [
+      {
+        "date": "2026年10月28日",
+        "text": "国内183本、輸入12本を承認。"
+      },
+      {
+        "date": "2026年10月29日",
+        "text": "国家新聞出版署が承認一覧を公開。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "中国国家新聞出版署・2026年10月国内ゲーム承認一覧",
+        "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/gcwlyxspxx/202610/t20261029_1015044.html",
+        "date": "2026-10-29",
+        "type": "公式"
+      },
+      {
+        "name": "中国国家新聞出版署・2026年輸入ゲーム承認一覧",
+        "url": "https://www.nppa.gov.cn/bsfw/jggs/yxspjg/jkwlyxspxx/202601/t20260126_947910.html",
+        "date": "2026-10-29",
+        "type": "公式"
       }
     ]
   },
