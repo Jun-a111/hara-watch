@@ -1,5 +1,31 @@
 [
   {
+    "date": "2026-10-30",
+    "outcome": "一部調査",
+    "candidates": 3,
+    "added": 0,
+    "updated": 1,
+    "rejected": 2,
+    "checked_categories": [
+      "ハラ",
+      "スタレ",
+      "ゼンゼロ",
+      "ホヨバ",
+      "鳴潮",
+      "リーク",
+      "新作",
+      "中国ゲーム・最新",
+      "中国ゲーム業界"
+    ],
+    "unchecked_categories": [
+      "X元ポストの返信・引用全件、最新表示数と拡散規模の直接確認",
+      "微博・bilibiliの個別コメントと韓国語SNSの網羅的確認",
+      "鳴潮Ver.3.8未確認リークの原本とKURO新作公式告知の全件確認"
+    ],
+    "notes": "2026-10-30夜JST。GitHub news.json/research-log.json/index.htmlを先に取得。日英中韓でハラ・スタレ・ゼンゼロ・HoYoverseの炎上・ファンダム論争、鳴潮公式・リーク、KURO新作、中国ゲーム最新・業界を検索。X投稿検索・Reddit・bilibili関連検索・公式発表・報道を照合。候補3件：①HoYoverse『プチプラネット』12月4日正式リリース・12月1日事前DL（COGNOSPHERE 10/30公式発表とHoYoLABを照合し10/23既存記事を更新1）、②『インフィニティニキ』Ver2.11/3.0日程（同日記事がすでに登録済みのため重複見送り）、③スタレRedditの削除済み投稿（本文と拡散規模が不明で見送り）。Xの大規模炎上を確証できず、未調査範囲を新情報なしとは判断しない。未確認のX投稿本文・日時・表示数は追加していない。index.htmlは変更せず削除済みの注目・watchboard・ログ表示枠・保存専用ボタンを復活させない。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/75757f14c184502850fa27446d44edee767a5278"
+  },
+  {
     "date": "2026-10-29",
     "outcome": "一部調査",
     "candidates": 4,
