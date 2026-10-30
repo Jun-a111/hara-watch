@@ -968,9 +968,9 @@
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "JP",
-    "title": "HoYoverse新作『プチプラネット』、11月1日にリリース予告番組を配信",
-    "summary": "2026年冬の正式リリースを予定するスローライフゲーム。11月1日20:00（日本時間）から公式YouTubeとXで番組を配信し、ゲーム内容や今後のイベント・キャンペーンを紹介する。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
+    "title": "HoYoverse『プチプラネット』12月4日正式リリース決定、12月1日から事前DL",
+    "summary": "HoYoverse / COGNOSPHEREが10月30日、PC・iOS・Android向けスローライフゲーム『プチプラネット』を12月4日に正式配信すると発表。12月1日から事前ダウンロード、11月1日20時にリリース予告番組を配信予定。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000461.000096124.html",
     "source": "HoYoverse / COGNOSPHERE公式発表",
     "tags": [
       "HoYoverse",
@@ -980,34 +980,51 @@
       "PC",
       "iOS",
       "Android",
-      "事前登録"
+      "事前登録",
+      "2026年12月4日",
+      "事前ダウンロード",
+      "正式リリース日"
     ],
     "spoiler": false,
-    "body": "■ 11月1日20:00から公式番組\nHoYoverseは2026年10月23日、新作スローライフゲーム『プチプラネット』の「リリース予告番組」を11月1日20:00（日本時間）から公式YouTubeと公式Xで配信すると発表した。開発チームとゲストが、ゲーム内容や今後のイベント・キャンペーンを紹介する。\n\n■ 今冬リリース、全プラットフォームで事前登録中\n正式リリースは2026年冬を予定。PC、iOS、Android間のデータ連携に対応し、全プラットフォームで事前登録を受け付けている。番組や作品の物語の核心には触れない。",
+    "body": "■ 10月30日、正式リリース日を発表\nHoYoverse / COGNOSPHEREは2026年10月30日、新作スローライフゲーム『プチプラネット』の正式リリース日を12月4日（金）と発表した。PC・iOS・Androidに対応し、事前ダウンロードは12月1日から。事前登録者には『星空ペンライト』『星の苗』が配布される。\n\n■ 11月1日20時からリリース予告番組\n開発チームとゲストがゲーム内容や今後のイベント・キャンペーンを紹介する。公式YouTubeとXで配信予定。正式リリース前の予定であり、配信開始・サービス稼働を確認したものではない。\n\n■ 発表と反応を区別\n本記事の配信日・事前DL・事前登録特典は公式発表に基づく。SNSでの賛否や人気の規模は独立検証していない。",
     "timeline": [
       {
         "date": "2026年10月23日",
-        "text": "リリース予告番組の配信日を発表。"
+        "text": "11月1日20時のリリース予告番組を告知。"
       },
       {
-        "date": "2026年11月1日",
-        "text": "20:00（日本時間）から公式YouTube・公式Xで番組を配信予定。"
+        "date": "2026年10月30日",
+        "text": "HoYoverseが12月4日正式リリースと12月1日事前ダウンロードを発表。"
       },
       {
-        "date": "2026年冬",
-        "text": "PC・iOS・Android向けに正式リリース予定。"
+        "date": "2026年11月1日 20:00 JST",
+        "text": "公式YouTube・Xでリリース予告番組を配信予定。"
+      },
+      {
+        "date": "2026年12月1日",
+        "text": "事前ダウンロード開始予定。"
+      },
+      {
+        "date": "2026年12月4日",
+        "text": "PC・iOS・Androidで正式リリース予定。"
       }
     ],
     "sources": [
       {
-        "name": "HoYoverse / COGNOSPHERE公式発表",
-        "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
-        "date": "2026-10-23",
+        "name": "COGNOSPHERE公式プレスリリース（配信日決定）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000461.000096124.html",
+        "date": "2026-10-30",
         "type": "公式"
       },
       {
-        "name": "『プチプラネット』公式YouTube配信待機ページ",
-        "url": "https://youtube.com/live/APPc11eocMM?feature=share",
+        "name": "Petit Planet公式HoYoLAB（Release Date Reveal Trailer）",
+        "url": "https://www.hoyolab.com/article/47247395",
+        "date": "2026-10-30",
+        "type": "公式"
+      },
+      {
+        "name": "COGNOSPHERE公式プレスリリース（予告番組）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
         "date": "2026-10-23",
         "type": "公式"
       }
