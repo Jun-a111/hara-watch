@@ -123,7 +123,7 @@
     "status": "公式発表",
     "lang": "JP",
     "title": "『白銀の城』12月14日に世界同時リリース決定　PC・PS5・スマホ向け",
-    "summary": "Elementaは10月31日、UE5製オープンワールドアクションRPG『白銀の城』（Silver Palace）を2026年12月14日に世界同時配信すると正式発表。PC・PS5・iOS・Android対応、公式サイトで事前登録受付中。",
+    "summary": "Elementaは10月31日、UE5製オープンワールドアクションRPG『白銀の城』（Silver Palace）を2026年12月14日に世界同時配信すると正式発表。PC・PS5・iOS・Android対応。英語版公式発表では事前登録1500万件突破と12言語対応も案内。",
     "url": "https://prtimes.jp/main/html/rd/p/000000006.000187774.html",
     "source": "Elementa公式プレスリリース（PR TIMES、2026年10月31日）",
     "tags": [
@@ -137,7 +137,7 @@
     ],
     "spoiler": false,
     "story_id": "silver-palace-global-launch-20261214",
-    "body": "■ 10月31日、発売日を正式発表\nElementaは2026年10月31日13時10分に公式プレスリリースを公開し、『白銀の城』（Silver Palace）を12月14日に全世界同時リリースすると発表した。対応機種はPC、PlayStation 5、iOS、Android。発売・配信の実施は将来予定であり、開始済みではない。\n\n■ 探偵アドベンチャー×リアルタイム戦闘\nUnreal Engine 5を使用するオープンワールドアクションRPG。ヴィクトリア朝風の都市で探偵として事件を調べ、仲間をリアルタイムに切り替えて連携攻撃する。物語の核心部分には触れない。\n\n■ 事前登録と出展予定\n公式サイト、各ストアで事前登録を案内。gamescom asia x Thailand Game Show 2026とAnime X Game Festival 2026への出展も予告した。予約人数などの数値は今回の公式プレスリリースで確認できないため記載しない。",
+    "body": "■ 10月31日、発売日を正式発表\nElementaは2026年10月31日13時10分に公式プレスリリースを公開し、『白銀の城』（Silver Palace）を12月14日に全世界同時リリースすると発表した。対応機種はPC、PlayStation 5、iOS、Android。発売・配信の実施は将来予定であり、開始済みではない。\n\n■ 探偵アドベンチャー×リアルタイム戦闘\nUnreal Engine 5を使用するオープンワールドアクションRPG。ヴィクトリア朝風の都市で探偵として事件を調べ、仲間をリアルタイムに切り替えて連携攻撃する。物語の核心部分には触れない。\n\n■ 事前登録と出展予定\n公式サイト、各ストアで事前登録を案内。英語版公式プレスリリースでは、全世界事前登録1500万件超、ローンチ時の12言語対応、登録達成特典のキャンペーンを発表している。gamescom asia x Thailand Game Show 2026とAnime X Game Festival 2026への出展も予告した。事前登録件数は運営発表値であり、実際のプレイヤー数ではない。",
     "timeline": [
       {
         "date": "2026年10月31日",
@@ -166,6 +166,12 @@
         "url": "https://www.4gamer.net/games/908/G090896/20261030054/",
         "date": "2026-10-31",
         "type": "報道"
+      },
+      {
+        "name": "Elementa英語版公式プレスリリース（Games Press・事前登録1500万件と12言語）",
+        "url": "https://www.gamespress.com/uk-UA/Silver-Palace-Sets-Global-Launch-Date-for-December-14-2026",
+        "date": "2026-10-31",
+        "type": "公式"
       }
     ]
   },
