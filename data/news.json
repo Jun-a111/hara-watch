@@ -59,6 +59,49 @@
     ]
   },
   {
+    "id": "wuwa-leak-20261031-v4x-lucille-preview",
+    "date": "2026-10-31",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "JP",
+    "title": "【未確認】『鳴潮』4.x向けとされる「Lucille」外観プレビューが公開コミュニティで拡散",
+    "summary": "公開Telegramチャンネルが、StepLeak提供とする4.x向け「Lucille」の外観プレビューを再掲。キャラクター名・登場時期・属性・武器・性能は公式未確認で、元のStepLeak投稿も確認できていない。",
+    "url": "https://t.me/Wuthering_Waves_Legacy/6861",
+    "source": "Wuthering Waves Legacy（StepLeak提供とする画像の転載、未確認）",
+    "tags": [
+      "鳴潮",
+      "Wuthering Waves",
+      "4.x",
+      "Lucille",
+      "キャラクターリーク",
+      "未確認"
+    ],
+    "spoiler": false,
+    "teaser_title": "4.x向けとされる「Lucille」の外観プレビュー",
+    "story_id": "wuwa-v4x-lucille-preview-20261031",
+    "body": "■ 4.x向けとされる外観プレビュー\n2026年10月31日時点で、公開Telegramチャンネル「Wuthering Waves Legacy」に、4.x向けとされる「Lucille」の外観プレビューが掲載されている。投稿者は画像の出典をStepLeakとしているが、今回確認できたのは転載先の公開投稿まで。\n\n■ 名前・登場時期・性能は未確認\n「Lucille」という名称、4.xでの登場、属性・武器・役割・実装時期はいずれもKURO GAMESの公式発表で確認できていない。元のStepLeak投稿やデータの真正性も確認できていないため、キャラクター実装の確定情報として扱わない。ストーリーに関する情報は掲載しない。",
+    "timeline": [
+      {
+        "date": "2026年10月31日時点",
+        "text": "公開TelegramチャンネルがStepLeak提供とする4.x向け「Lucille」の外観プレビューを転載。一次投稿と公式確認は未確認。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wuthering Waves Legacy・公開Telegram転載",
+        "url": "https://t.me/Wuthering_Waves_Legacy/6861",
+        "date": "2026-10-31",
+        "type": "未確認・転載"
+      },
+      {
+        "name": "WuWa Leaks・公開投稿ミラー",
+        "url": "https://www.sotwe.com/soraris_news",
+        "date": "2026-10-31",
+        "type": "未確認・二次情報"
+      }
+    ]
+  },
+  {
     "id": "kuro-new-20261030-second-solaris-unwritten-dreams",
     "date": "2026-10-30",
     "category": "新作",
@@ -215,6 +258,59 @@
         "url": "https://www.gamebusiness.jp/article/2026/10/30/28506.html",
         "date": "2026-10-30",
         "type": "報道"
+      }
+    ]
+  },
+  {
+    "id": "china-latest-20261030-showa-american-story-content-complete",
+    "date": "2026-10-30",
+    "category": "中国ゲーム・最新",
+    "status": "報道",
+    "lang": "JP",
+    "title": "『昭和米国物語』ゲーム内容は完成、現在は品質調整段階　メインストーリー約25時間",
+    "summary": "NEKCOM Gamesの羅翔宇クリエイティブディレクターは10月30日公開のAUTOMATONインタビューで、ゲーム内容は完成し現在は品質の磨き込み中と説明。カットシーンを飛ばすメイン進行は約25時間、全演出を見ると約50時間近くになる見込み。発売日は未発表で2026年予定のまま。",
+    "url": "https://automaton-media.com/articles/interviewsjp/20261030-476729/",
+    "source": "AUTOMATON（NEKCOM Games・羅翔宇氏インタビュー）",
+    "tags": [
+      "NEKCOM Games",
+      "昭和米国物語",
+      "Showa American Story",
+      "開発状況",
+      "25時間",
+      "PC",
+      "PS5"
+    ],
+    "spoiler": false,
+    "story_id": "showa-american-story-development-progress-20261030",
+    "body": "■ ゲーム内容は完成、現在は品質磨き込み\nNEKCOM Gamesのクリエイティブディレクター羅翔宇氏は、北京で開催されたG-Fusionでのインタビューで、ゲーム内容そのものはすべて完成し、現在は全体の品質調整・磨き込みを進めていると説明した。試遊者からは操作の手触りやアクション表現について意見が寄せられており、戦闘も改善を続けている。\n\n■ メインストーリーは約25時間\nカットシーンをすべて飛ばしてメインストーリーだけ進める場合は約25時間。全カットシーンをじっくり見ると、その約2倍に近づく見込み。サブクエストや収集要素の所要時間はプレイスタイルによって異なるため、固定値は示されていない。\n\n■ 発売前の体験版は現時点で予定なし\n開発側は、追加の人員と時間を体験版制作に割くより、現段階では製品版の品質向上に集中したいと説明。PC・PS5向けに2026年発売予定だが、具体的な発売日は未発表。内容完成を発売日確定や発売準備完了とは扱わない。物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月30日",
+        "text": "AUTOMATONが羅翔宇氏へのインタビューを掲載。ゲーム内容完成と品質磨き込み段階を明らかに。"
+      },
+      {
+        "date": "2026年内（予定）",
+        "text": "PC・PS5向けに発売予定。具体的な発売日は未発表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "AUTOMATON日本語版・羅翔宇氏インタビュー",
+        "url": "https://automaton-media.com/articles/interviewsjp/20261030-476729/",
+        "date": "2026-10-30",
+        "type": "報道・開発者インタビュー"
+      },
+      {
+        "name": "AUTOMATON WEST・英語版インタビュー",
+        "url": "https://automaton-media.com/en/interviews/showa-american-story-director-talks-about-the-games-progress-preserving-cultural-references-in-localization-and-the-easy-mode-even-a-cat-could-beat/",
+        "date": "2026-10-30",
+        "type": "報道・開発者インタビュー"
+      },
+      {
+        "name": "『昭和米国物語』公式サイト",
+        "url": "https://www.showaamericanstory.com/",
+        "date": "2026-08-17",
+        "type": "公式"
       }
     ]
   },
@@ -425,6 +521,62 @@
     ]
   },
   {
+    "id": "china-industry-20261029-black-myth-overseas-player-share",
+    "date": "2026-10-29",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "JP",
+    "title": "『黒神話：悟空』海外プレイヤー比率が50％超に　楊奇氏の発言と中国メディアが報道",
+    "summary": "Game Science共同創業者・美術総監督の楊奇氏が10月29日の中国美術学院での対談で、海外プレイヤー比率が50％を超えたと述べたとGamerSkyとZOLが報道。販売本数や売上の海外比率ではない。対談の一次映像・公式記録は今回確認できておらず、報道ベース。",
+    "url": "https://www.gamersky.com/news/202610/2238238.shtml",
+    "source": "GamerSky / ZOL（中国語報道）",
+    "tags": [
+      "Game Science",
+      "黒神話：悟空",
+      "Black Myth: Wukong",
+      "楊奇",
+      "海外プレイヤー",
+      "中国ゲーム業界"
+    ],
+    "spoiler": false,
+    "story_id": "black-myth-wukong-overseas-player-share-20261029",
+    "body": "■ 海外プレイヤー比率が50％超と報道\nGame Science共同創業者で『黒神話：悟空』美術総監督の楊奇氏が、2026年10月29日に中国美術学院で行われた対談で、海外プレイヤーの比率が全体の50％を超えたと語ったとGamerSkyとZOLが報じた。\n\n■ 販売本数・売上比率とは区別\n今回報じられた数字は海外プレイヤーの構成比であり、海外売上比率や海外販売本数を示すものではない。一部記事見出しに「海外売上」と読める表現があるが、本文の説明はプレイヤー比率としているため、本記事ではその区別を維持する。\n\n■ 一次資料の確認状況\n今回確認できたのは中国ゲームメディア2社の報道で、対談の公式録画・全文記録は確認できていない。したがって、楊氏の発言として報じられた内容であることを明記し、会社が別途公表した販売統計とは扱わない。",
+    "timeline": [
+      {
+        "date": "2026年10月29日",
+        "text": "中国美術学院で楊奇氏が参加する対談が行われ、海外プレイヤー比率について発言したと報道。"
+      },
+      {
+        "date": "2026年10月30日",
+        "text": "GamerSkyが海外プレイヤー比率50％超との内容を掲載。"
+      },
+      {
+        "date": "2026年10月31日",
+        "text": "GamerSkyとZOLが関連報道を掲載。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GamerSky・楊奇氏の発言に関する報道",
+        "url": "https://www.gamersky.com/news/202610/2238081.shtml",
+        "date": "2026-10-30",
+        "type": "報道"
+      },
+      {
+        "name": "GamerSky・続報",
+        "url": "https://www.gamersky.com/news/202610/2238238.shtml",
+        "date": "2026-10-31",
+        "type": "報道"
+      },
+      {
+        "name": "ZOL・海外プレイヤー比率に関する報道",
+        "url": "https://game.zol.com.cn/1267/12670009.html",
+        "date": "2026-10-31",
+        "type": "報道"
+      }
+    ]
+  },
+  {
     "id": "hoyoverse-20261028-hsr-beta-leak-court-one-million-yuan",
     "date": "2026-10-28",
     "category": "ホヨバ",
@@ -525,6 +677,67 @@
         "url": "https://youtube.com/live/u9Lppo3w_Mo?feature=share",
         "date": "2026-11-03",
         "type": "公式"
+      }
+    ]
+  },
+  {
+    "id": "china-industry-20261028-gamingonphone-awards-chinese-winners",
+    "date": "2026-10-28",
+    "category": "中国ゲーム業界",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "GamingonPhone Awards 2026、中国ゲームが複数部門を受賞　『Where Winds Meet』が年間最優秀",
+    "summary": "10月28日にバンコクで開かれた第6回GamingonPhone Awardsで、NetEaseの『Where Winds Meet』がMobile Game of the Year、XDの『Heartopia』がPlayers’ Choice、鳴潮×『Cyberpunk: Edgerunners』がMobile Game IP Crossover of the Year、Hypergryphの『Arknights: Endfield』がBest Audio Designを受賞。主催者は10月29日に受賞結果を公表した。",
+    "url": "https://x.com/GamingonPhone/status/2115781178657837063",
+    "source": "GamingonPhone Awards 2026主催者発表・受賞結果",
+    "tags": [
+      "GamingonPhone Awards 2026",
+      "NetEase",
+      "Where Winds Meet",
+      "XD",
+      "Heartopia",
+      "KURO GAMES",
+      "鳴潮",
+      "Hypergryph",
+      "Arknights Endfield"
+    ],
+    "spoiler": false,
+    "story_id": "gamingonphone-awards-2026-chinese-games-20261028",
+    "body": "■ 中国ゲーム関連タイトルが複数部門を受賞\n2026年10月28日にバンコクで開催された第6回GamingonPhone Awardsで、中国企業が関わる複数タイトルが受賞。主催者は10月29日に公式アカウントで結果を発表した。\n\n■ 主な受賞タイトル\n・『Where Winds Meet』（NetEase）：Mobile Game of the Year\n・『Heartopia』（XD）：Players’ Choice\n・『鳴潮』×『Cyberpunk: Edgerunners』（KURO GAMES）：Mobile Game IP Crossover of the Year\n・『Arknights: Endfield』（Hypergryph）：Best Audio Design\n\n■ 受賞の位置づけ\n各賞はGamingonPhone Awardsの部門別受賞結果であり、販売本数・売上・市場シェアを示すものではない。鳴潮の受賞はコラボレーション部門であり、ゲーム本編のアップデートや今後のコラボ予定を意味しない。",
+    "timeline": [
+      {
+        "date": "2026年10月28日",
+        "text": "バンコクでGamingonPhone Awards 2026の授賞式を開催。"
+      },
+      {
+        "date": "2026年10月29日",
+        "text": "主催者が『鳴潮』×『Cyberpunk: Edgerunners』などの受賞結果を公式アカウントで発表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GamingonPhone公式X・受賞発表",
+        "url": "https://x.com/GamingonPhone/status/2115781178657837063",
+        "date": "2026-10-29",
+        "type": "公式"
+      },
+      {
+        "name": "GamingonPhone Awards 2026公式ページ",
+        "url": "https://gamingonphone.com/awards/gpa-2026/",
+        "date": "2026-10-29",
+        "type": "公式"
+      },
+      {
+        "name": "iXBT Games・受賞結果の報道",
+        "url": "https://ixbt.games/en/news/2026/10/30/where-winds-meet-stala-igroi-a-talking-tom-cat-obosla-genshin-impact-obieiavleny-pobediteli-gamingonphone-awards-2026.html",
+        "date": "2026-10-30",
+        "type": "報道"
+      },
+      {
+        "name": "Esports Info BD・受賞結果の報道",
+        "url": "https://esports.info.bd/news/gamingonphone-awards-2026-crowns-winners-in-bangkok-where-winds-meet-free-fire-and-heartopia-take-top-honors",
+        "date": "2026-10-29",
+        "type": "報道"
       }
     ]
   },
