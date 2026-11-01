@@ -1,5 +1,48 @@
 [
   {
+    "id": "wuwa-leak-20261031-v4x-lucille-preview",
+    "date": "2026-10-31",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "JP",
+    "title": "【未確認】『鳴潮』4.x向けとされる「Lucille」外観プレビューが公開コミュニティで拡散",
+    "summary": "公開Telegramチャンネルが、StepLeak提供とする4.x向け「Lucille」の外観プレビューを再掲。キャラクター名・登場時期・属性・武器・性能は公式未確認で、元のStepLeak投稿も確認できていない。",
+    "url": "https://t.me/Wuthering_Waves_Legacy/6861",
+    "source": "Wuthering Waves Legacy（StepLeak提供とする画像の転載、未確認）",
+    "tags": [
+      "鳴潮",
+      "Wuthering Waves",
+      "4.x",
+      "Lucille",
+      "キャラクターリーク",
+      "未確認"
+    ],
+    "spoiler": false,
+    "teaser_title": "4.x向けとされる「Lucille」の外観プレビュー",
+    "story_id": "wuwa-v4x-lucille-preview-20261031",
+    "body": "■ 4.x向けとされる外観プレビュー\n2026年10月31日時点で、公開Telegramチャンネル「Wuthering Waves Legacy」に、4.x向けとされる「Lucille」の外観プレビューが掲載されている。投稿者は画像の出典をStepLeakとしているが、今回確認できたのは転載先の公開投稿まで。\n\n■ 名前・登場時期・性能は未確認\n「Lucille」という名称、4.xでの登場、属性・武器・役割・実装時期はいずれもKURO GAMESの公式発表で確認できていない。元のStepLeak投稿やデータの真正性も確認できていないため、キャラクター実装の確定情報として扱わない。ストーリーに関する情報は掲載しない。",
+    "timeline": [
+      {
+        "date": "2026年10月31日時点",
+        "text": "公開TelegramチャンネルがStepLeak提供とする4.x向け「Lucille」の外観プレビューを転載。一次投稿と公式確認は未確認。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Wuthering Waves Legacy・公開Telegram転載",
+        "url": "https://t.me/Wuthering_Waves_Legacy/6861",
+        "date": "2026-10-31",
+        "type": "未確認・転載"
+      },
+      {
+        "name": "WuWa Leaks・公開投稿ミラー",
+        "url": "https://www.sotwe.com/soraris_news",
+        "date": "2026-10-31",
+        "type": "未確認・二次情報"
+      }
+    ]
+  },
+  {
     "id": "china-latest-20261031-silver-palace-dec14-global-launch",
     "date": "2026-10-31",
     "category": "中国ゲーム・最新",
@@ -59,49 +102,6 @@
     ]
   },
   {
-    "id": "wuwa-leak-20261031-v4x-lucille-preview",
-    "date": "2026-10-31",
-    "category": "リーク",
-    "status": "未確認の噂",
-    "lang": "JP",
-    "title": "【未確認】『鳴潮』4.x向けとされる「Lucille」外観プレビューが公開コミュニティで拡散",
-    "summary": "公開Telegramチャンネルが、StepLeak提供とする4.x向け「Lucille」の外観プレビューを再掲。キャラクター名・登場時期・属性・武器・性能は公式未確認で、元のStepLeak投稿も確認できていない。",
-    "url": "https://t.me/Wuthering_Waves_Legacy/6861",
-    "source": "Wuthering Waves Legacy（StepLeak提供とする画像の転載、未確認）",
-    "tags": [
-      "鳴潮",
-      "Wuthering Waves",
-      "4.x",
-      "Lucille",
-      "キャラクターリーク",
-      "未確認"
-    ],
-    "spoiler": false,
-    "teaser_title": "4.x向けとされる「Lucille」の外観プレビュー",
-    "story_id": "wuwa-v4x-lucille-preview-20261031",
-    "body": "■ 4.x向けとされる外観プレビュー\n2026年10月31日時点で、公開Telegramチャンネル「Wuthering Waves Legacy」に、4.x向けとされる「Lucille」の外観プレビューが掲載されている。投稿者は画像の出典をStepLeakとしているが、今回確認できたのは転載先の公開投稿まで。\n\n■ 名前・登場時期・性能は未確認\n「Lucille」という名称、4.xでの登場、属性・武器・役割・実装時期はいずれもKURO GAMESの公式発表で確認できていない。元のStepLeak投稿やデータの真正性も確認できていないため、キャラクター実装の確定情報として扱わない。ストーリーに関する情報は掲載しない。",
-    "timeline": [
-      {
-        "date": "2026年10月31日時点",
-        "text": "公開TelegramチャンネルがStepLeak提供とする4.x向け「Lucille」の外観プレビューを転載。一次投稿と公式確認は未確認。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Wuthering Waves Legacy・公開Telegram転載",
-        "url": "https://t.me/Wuthering_Waves_Legacy/6861",
-        "date": "2026-10-31",
-        "type": "未確認・転載"
-      },
-      {
-        "name": "WuWa Leaks・公開投稿ミラー",
-        "url": "https://www.sotwe.com/soraris_news",
-        "date": "2026-10-31",
-        "type": "未確認・二次情報"
-      }
-    ]
-  },
-  {
     "id": "kuro-new-20261030-second-solaris-unwritten-dreams",
     "date": "2026-10-30",
     "category": "新作",
@@ -150,6 +150,59 @@
         "name": "『第二ソラリス：題なき夢』公式オープニング映像",
         "url": "https://www.youtube.com/watch?v=JcbyaVNNDCU",
         "date": "2026-10-30",
+        "type": "公式"
+      }
+    ]
+  },
+  {
+    "id": "china-latest-20261030-showa-american-story-content-complete",
+    "date": "2026-10-30",
+    "category": "中国ゲーム・最新",
+    "status": "報道",
+    "lang": "JP",
+    "title": "『昭和米国物語』ゲーム内容は完成、現在は品質調整段階　メインストーリー約25時間",
+    "summary": "NEKCOM Gamesの羅翔宇クリエイティブディレクターは10月30日公開のAUTOMATONインタビューで、ゲーム内容は完成し現在は品質の磨き込み中と説明。カットシーンを飛ばすメイン進行は約25時間、全演出を見ると約50時間近くになる見込み。発売日は未発表で2026年予定のまま。",
+    "url": "https://automaton-media.com/articles/interviewsjp/20261030-476729/",
+    "source": "AUTOMATON（NEKCOM Games・羅翔宇氏インタビュー）",
+    "tags": [
+      "NEKCOM Games",
+      "昭和米国物語",
+      "Showa American Story",
+      "開発状況",
+      "25時間",
+      "PC",
+      "PS5"
+    ],
+    "spoiler": false,
+    "story_id": "showa-american-story-development-progress-20261030",
+    "body": "■ ゲーム内容は完成、現在は品質磨き込み\nNEKCOM Gamesのクリエイティブディレクター羅翔宇氏は、北京で開催されたG-Fusionでのインタビューで、ゲーム内容そのものはすべて完成し、現在は全体の品質調整・磨き込みを進めていると説明した。試遊者からは操作の手触りやアクション表現について意見が寄せられており、戦闘も改善を続けている。\n\n■ メインストーリーは約25時間\nカットシーンをすべて飛ばしてメインストーリーだけ進める場合は約25時間。全カットシーンをじっくり見ると、その約2倍に近づく見込み。サブクエストや収集要素の所要時間はプレイスタイルによって異なるため、固定値は示されていない。\n\n■ 発売前の体験版は現時点で予定なし\n開発側は、追加の人員と時間を体験版制作に割くより、現段階では製品版の品質向上に集中したいと説明。PC・PS5向けに2026年発売予定だが、具体的な発売日は未発表。内容完成を発売日確定や発売準備完了とは扱わない。物語の核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年10月30日",
+        "text": "AUTOMATONが羅翔宇氏へのインタビューを掲載。ゲーム内容完成と品質磨き込み段階を明らかに。"
+      },
+      {
+        "date": "2026年内（予定）",
+        "text": "PC・PS5向けに発売予定。具体的な発売日は未発表。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "AUTOMATON日本語版・羅翔宇氏インタビュー",
+        "url": "https://automaton-media.com/articles/interviewsjp/20261030-476729/",
+        "date": "2026-10-30",
+        "type": "報道・開発者インタビュー"
+      },
+      {
+        "name": "AUTOMATON WEST・英語版インタビュー",
+        "url": "https://automaton-media.com/en/interviews/showa-american-story-director-talks-about-the-games-progress-preserving-cultural-references-in-localization-and-the-easy-mode-even-a-cat-could-beat/",
+        "date": "2026-10-30",
+        "type": "報道・開発者インタビュー"
+      },
+      {
+        "name": "『昭和米国物語』公式サイト",
+        "url": "https://www.showaamericanstory.com/",
+        "date": "2026-08-17",
         "type": "公式"
       }
     ]
@@ -258,59 +311,6 @@
         "url": "https://www.gamebusiness.jp/article/2026/10/30/28506.html",
         "date": "2026-10-30",
         "type": "報道"
-      }
-    ]
-  },
-  {
-    "id": "china-latest-20261030-showa-american-story-content-complete",
-    "date": "2026-10-30",
-    "category": "中国ゲーム・最新",
-    "status": "報道",
-    "lang": "JP",
-    "title": "『昭和米国物語』ゲーム内容は完成、現在は品質調整段階　メインストーリー約25時間",
-    "summary": "NEKCOM Gamesの羅翔宇クリエイティブディレクターは10月30日公開のAUTOMATONインタビューで、ゲーム内容は完成し現在は品質の磨き込み中と説明。カットシーンを飛ばすメイン進行は約25時間、全演出を見ると約50時間近くになる見込み。発売日は未発表で2026年予定のまま。",
-    "url": "https://automaton-media.com/articles/interviewsjp/20261030-476729/",
-    "source": "AUTOMATON（NEKCOM Games・羅翔宇氏インタビュー）",
-    "tags": [
-      "NEKCOM Games",
-      "昭和米国物語",
-      "Showa American Story",
-      "開発状況",
-      "25時間",
-      "PC",
-      "PS5"
-    ],
-    "spoiler": false,
-    "story_id": "showa-american-story-development-progress-20261030",
-    "body": "■ ゲーム内容は完成、現在は品質磨き込み\nNEKCOM Gamesのクリエイティブディレクター羅翔宇氏は、北京で開催されたG-Fusionでのインタビューで、ゲーム内容そのものはすべて完成し、現在は全体の品質調整・磨き込みを進めていると説明した。試遊者からは操作の手触りやアクション表現について意見が寄せられており、戦闘も改善を続けている。\n\n■ メインストーリーは約25時間\nカットシーンをすべて飛ばしてメインストーリーだけ進める場合は約25時間。全カットシーンをじっくり見ると、その約2倍に近づく見込み。サブクエストや収集要素の所要時間はプレイスタイルによって異なるため、固定値は示されていない。\n\n■ 発売前の体験版は現時点で予定なし\n開発側は、追加の人員と時間を体験版制作に割くより、現段階では製品版の品質向上に集中したいと説明。PC・PS5向けに2026年発売予定だが、具体的な発売日は未発表。内容完成を発売日確定や発売準備完了とは扱わない。物語の核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年10月30日",
-        "text": "AUTOMATONが羅翔宇氏へのインタビューを掲載。ゲーム内容完成と品質磨き込み段階を明らかに。"
-      },
-      {
-        "date": "2026年内（予定）",
-        "text": "PC・PS5向けに発売予定。具体的な発売日は未発表。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "AUTOMATON日本語版・羅翔宇氏インタビュー",
-        "url": "https://automaton-media.com/articles/interviewsjp/20261030-476729/",
-        "date": "2026-10-30",
-        "type": "報道・開発者インタビュー"
-      },
-      {
-        "name": "AUTOMATON WEST・英語版インタビュー",
-        "url": "https://automaton-media.com/en/interviews/showa-american-story-director-talks-about-the-games-progress-preserving-cultural-references-in-localization-and-the-easy-mode-even-a-cat-could-beat/",
-        "date": "2026-10-30",
-        "type": "報道・開発者インタビュー"
-      },
-      {
-        "name": "『昭和米国物語』公式サイト",
-        "url": "https://www.showaamericanstory.com/",
-        "date": "2026-08-17",
-        "type": "公式"
       }
     ]
   },
