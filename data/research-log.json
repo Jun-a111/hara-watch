@@ -1,5 +1,32 @@
 [
   {
+    "date": "2026-11-02",
+    "outcome": "一部調査",
+    "candidates": 7,
+    "added": 1,
+    "updated": 2,
+    "rejected": 4,
+    "checked_categories": [
+      "鳴潮",
+      "リーク",
+      "KURO GAMES",
+      "新作",
+      "中国ゲーム・最新",
+      "中国ゲーム業界",
+      "HoYoverse",
+      "NetEase",
+      "S-GAME",
+      "Bilibili"
+    ],
+    "unchecked_categories": [
+      "X本体・公開ミラーの返信／引用全件と最新表示数の直接取得",
+      "微博・bilibiliの個別コメントと韓国語圏SNSの網羅的照合",
+      "StepLeakの一次投稿と4.x向けLucille画像の原本・真偽"
+    ],
+    "notes": "2026-11-02朝JST。最新README.md、data/news.json、data/research-log.json、index.htmlを取得し、READMEの運用ルール・記事スキーマを確認してから日英中の公開情報を調査。更新前news.jsonは89件。候補7件：①HoYoverse『プチプラネット』が11/1の公式番組でNintendo Switch 2版を2027年に発売予定と発表、PC・iOS・Android版は12/4、事前DLは12/1（既存記事を更新1）。②『Phantom Blade Zero』SteamDB公開データで11/1のSteam同時接続ピーク833,921人を確認。10/29の72万3876人から更新、販売本数とは区別（既存記事を更新1）。③『Wuhua Mixin』は開発チームCipaishe Studioが10/31に運営主体移管を発表、Bilibili公式運営チームは旧運営会社Longyuan Networkによるサーバー停止・契約違反を主張。双方の公式発表とIT之家・界面新聞報道を照合し、主張の対立と未確定点を分けて新規追加1。④『Where Winds Meet』1周年記念特別番組は11/3 JST予定。既存記事に掲載済みのため記事追加・更新なし。⑤鳴潮Ver.3.8特別番組とKURO GAMES『第二ソラリス：題なき夢』は前回までの既存記事と重複のため再登録せず。⑥鳴潮4.xリークはLucilleの既存未確認記事以外に一次資料を確認できず、既存記事を維持。⑦鳴潮のM.RAGE関連グッズ・現地イベントなどは今回の速報基準では重要度不足として見送り。記事ID・URL重複なし、categoryは指定文字列を維持。news.jsonは90件となり、更新2・新規1を再取得して本文・カテゴリ・出典を確認。index.htmlは変更せず。現行index.htmlでは中国ゲーム・最新/中国ゲーム業界のカテゴリ表示は確認できたが、CHINA GAME WATCH / CHINA GAME TODAYという見出し文字列は確認できなかったため、既存UIを推測で改変せず保留。X返信・引用、微博/bilibili個別コメント、韓国語圏SNS、StepLeak一次投稿は網羅できておらず、新情報なしとは断定しない。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/ee05ccbc50c2c40823b05a865444a85565174cf9"
+  },
+  {
     "date": "2026-11-01",
     "outcome": "一部調査",
     "candidates": 14,
