@@ -1,5 +1,131 @@
 [
   {
+    "id": "china-industry-20261102-thailand-game-awards-2026",
+    "date": "2026-11-02",
+    "category": "中国ゲーム業界",
+    "status": "主催者発表・報道",
+    "lang": "JP",
+    "title": "Thailand Game Awards 2026でKURO GAMESが3部門受賞　鳴潮が2冠、エンドフィールドも受賞",
+    "summary": "gamescom asia x Thailand Game Show 2026の受賞結果を4Gamerが11月2日に報道。KURO GAMESはBest Game Publisher、『鳴潮』はBest Ongoing GameとPopular Voteを獲得。『アークナイツ：エンドフィールド』はBest Free-to-Play Game、中国MyACG Studioの『Cinderia』はBest in Showを受賞した。",
+    "url": "https://www.4gamer.net/games/991/G999110/20261102017/",
+    "source": "4Gamer / Thailand Game Awards 2026主催者発表",
+    "tags": [
+      "KURO GAMES",
+      "鳴潮",
+      "Thailand Game Awards 2026",
+      "gamescom asia",
+      "Thailand Game Show",
+      "Best Game Publisher",
+      "Best Ongoing Game",
+      "Popular Vote",
+      "アークナイツ：エンドフィールド",
+      "Cinderia",
+      "MyACG Studio",
+      "2026年11月2日"
+    ],
+    "spoiler": false,
+    "body": "■ gamescom asia x Thailand Game Show 2026が閉幕\n2026年10月29日から11月1日まで、タイ・バンコクのQSNCCで開催。4日間で113の国・地域から21万9546人が来場し、出展社・パビリオンは29か国から335。来場者の64％はタイ国外からだったと主催者が発表し、4Gamerが11月2日に報道した。\n\n■ KURO GAMESが3部門を受賞\nThailand Game Awards 2026でKURO GAMESはBest Game Publisherを受賞。『鳴潮』はBest Ongoing GameとPopular Voteを獲得した。Popular Voteは来場者投票による賞として紹介されている。\n\n■ 中国ゲーム関連の受賞\n『アークナイツ：エンドフィールド』はBest Free-to-Play Game、中国のMyACG Studioが開発する『Cinderia』はインディー部門のBest in Showを受賞した。\n\n■ 受賞の範囲\n本記事は主催者が発表した受賞結果とイベント来場実績を整理したもの。受賞はイベント内の各部門の結果であり、世界全体の販売規模や市場シェアを示す数値ではない。",
+    "timeline": [
+      {
+        "date": "2026年10月29日〜11月1日",
+        "text": "gamescom asia x Thailand Game Show 2026をバンコクで開催。"
+      },
+      {
+        "date": "2026年11月1日",
+        "text": "イベント最終日に主催者が来場実績とThailand Game Awards 2026の受賞結果を発表。"
+      },
+      {
+        "date": "2026年11月2日",
+        "text": "4Gamerが受賞結果とイベント来場実績を報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "4Gamer・gamescom asia x Thailand Game Show 2026閉幕と受賞結果",
+        "url": "https://www.4gamer.net/games/991/G999110/20261102017/",
+        "date": "2026-11-02",
+        "type": "報道（主催者発表引用）"
+      },
+      {
+        "name": "beartai・Thailand Game Awards 2026受賞結果",
+        "url": "https://www.beartai.com/read/1511659/",
+        "date": "2026-11-01",
+        "type": "報道"
+      },
+      {
+        "name": "GamerSky・鳴潮とKURO GAMESの3部門受賞",
+        "url": "https://www.gamersky.com/news/202611/2239151.shtml",
+        "date": "2026-11-02",
+        "type": "報道"
+      }
+    ],
+    "story_id": "thailand-game-awards-2026-chinese-studios-20261102"
+  },
+  {
+    "id": "china-industry-20261102-delta-force-season-aurora",
+    "date": "2026-11-02",
+    "category": "中国ゲーム業界",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "Team Jade『Delta Force』新シーズン「オーロラ」11月10日開始　Phantom Blade Zeroコラボも",
+    "summary": "TiMi Studio Groupは11月2日、『Delta Force』の新シーズン「オーロラ」をグローバル版で11月10日に開始すると発表。新マップ「ゼニスポート」、新オペレーター「マルテロ」、ブラッケシュ2.0、AN94などに加え、『Phantom Blade Zero』とのコラボを予定する。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000053.000150971.html",
+    "source": "TiMi Studio Group / Team Jade公式プレスリリース",
+    "tags": [
+      "TiMi Studio Group",
+      "Team Jade",
+      "Delta Force",
+      "三角洲行动",
+      "Season Aurora",
+      "オーロラ",
+      "Phantom Blade Zero",
+      "S-GAME",
+      "コラボ",
+      "ゼニスポート",
+      "マルテロ",
+      "ブラッケシュ2.0",
+      "AN94",
+      "2026年11月10日"
+    ],
+    "spoiler": false,
+    "body": "■ 新シーズン「オーロラ」は11月10日開始\nTiMi Studio Groupは2026年11月2日、Team Jadeが手掛けるタクティカルシューター『Delta Force』の新シーズン「オーロラ」を、グローバル版で11月10日から配信すると発表した。対象はPC、家庭用ゲーム機、モバイル。\n\n■ ウォーフェアに新マップ「ゼニスポート」\nUnreal Engine 5の表現を拡張した新マップを追加。低地の拠点が浸水して戦闘の中心が高所へ移るダイナミックイベント「リプタイド」も導入する。\n\n■ 新オペレーターと既存コンテンツ刷新\n新突撃型オペレーター「マルテロ」が参戦。オペレーションズの「ブラッケシュ」は「ブラッケシュ2.0」として探索ルートや任務を刷新する。新武器AN94、期間限定AZ3チャレンジ、移動ターゲットや統計機能を備えた射撃場2.0も予定。\n\n■ 『Phantom Blade Zero』とのコラボ\nS-GAMEのアクションRPG『Phantom Blade Zero』とのコラボを実施し、『Delta Force』初となる両手持ち近接武器や、同作の世界観をモチーフにしたコスメティックアイテムを追加予定。個別アイテムの価格・入手条件・提供期間は発表時点で未確定。\n\n■ 地域別の日程に注意\n本記事の11月10日はTiMi Studio Groupの日本語公式発表が対象とするグローバル版の日程。中国本土版は別のシーズン名・日程で案内されているため、同一日程として扱わない。",
+    "timeline": [
+      {
+        "date": "2026年10月30日",
+        "text": "Team Jadeがシーズンプレビュー配信で「オーロラ」と『Phantom Blade Zero』コラボを紹介。"
+      },
+      {
+        "date": "2026年11月2日",
+        "text": "TiMi Studio Groupが日本語公式プレスリリースで、グローバル版の開始日を11月10日と発表。"
+      },
+      {
+        "date": "2026年11月10日",
+        "text": "グローバル版シーズン「オーロラ」配信予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "TiMi Studio Group公式プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000053.000150971.html",
+        "date": "2026-11-02",
+        "type": "公式"
+      },
+      {
+        "name": "Gamer・シーズン「オーロラ」発表",
+        "url": "https://www.gamer.ne.jp/news/202611020015/",
+        "date": "2026-11-02",
+        "type": "報道（公式発表引用）"
+      },
+      {
+        "name": "Worthplaying・Season AuroraとPhantom Blade Zeroコラボ",
+        "url": "https://www.worthplaying.com/article/2026/10/30/news/151325-delta-force-season-aurora-begins-in-november-reveals-content-details-and-phantom-blade-zero-collaboration-trailer/",
+        "date": "2026-10-30",
+        "type": "報道（公式配信引用）"
+      }
+    ],
+    "story_id": "delta-force-season-aurora-phantom-blade-zero-20261102"
+  },
+  {
     "id": "kuro-new-20261030-second-solaris-unwritten-dreams",
     "date": "2026-11-02",
     "category": "新作",
@@ -280,14 +406,14 @@
   },
   {
     "id": "china-latest-20261022-phantom-blade-zero-final-trailer",
-    "date": "2026-11-01",
+    "date": "2026-11-02",
     "category": "中国ゲーム・最新",
-    "status": "公式発売・公開データ",
-    "lang": "ZH",
-    "title": "『Phantom Blade Zero』Steam同時接続ピーク83万3921人に更新　11月1日に最高記録",
-    "summary": "SteamDBの公開データでは、Steam版の同時接続ピークが11月1日に833,921人を記録し、10月29日の72万3876人を上回った。これはSteam版の同時接続人数で、販売本数やPS5版を含む全機種のプレイヤー数ではない。",
-    "url": "https://steamdb.info/app/4115450/charts/",
-    "source": "SteamDB公開データ / Steam公式ストア",
+    "status": "公式発表・公開データ",
+    "lang": "JP",
+    "title": "『Phantom Blade Zero』発売72時間で400万本突破　Steam同時接続ピークは83万3921人",
+    "summary": "S-GAMEは11月2日、PC・PS5向け『Phantom Blade Zero』が発売72時間で全機種合計400万本超を販売したと公式Xで発表。機種別内訳は非公表。Steam版の同時接続ピークは11月1日に833,921人を記録しており、販売本数とは別の指標。",
+    "url": "https://game.watch.impress.co.jp/docs/news/2153047.html",
+    "source": "S-GAME公式X / GAME Watch / SteamDB",
     "tags": [
       "Phantom Blade Zero",
       "S-GAME",
@@ -303,10 +429,19 @@
       "SteamDB",
       "833921人",
       "2026年11月1日",
-      "Steam同時接続ピーク"
+      "Steam同時接続ピーク",
+      "400万本",
+      "72時間",
+      "S-GAME公式発表",
+      "2026年11月2日",
+      "販売本数",
+      "不具合修正予定",
+      "NVIDIA 617.42",
+      "NVIDIA 621.01",
+      "621.12 Hotfix"
     ],
     "spoiler": false,
-    "body": "■ 発売前の最終映像を公開\nS-GAMEは2026年10月22日、『Phantom Blade Zero』の発売前最終映像を公開した。本記事では映像に含まれる物語やボス演出の核心には触れない。\n\n■ 10月29日にPC・PS5で正式配信\n事前ダウンロードは10月27日10:00（中国標準時／日本時間11:00）、正式配信は10月29日10:00（中国標準時／日本時間11:00）に開始すると案内。対応プラットフォームはPCとPS5で、PS5のパッケージ版は2027年に発売予定と案内された。\n\n■ 事前ダウンロードの容量・必要ストレージ\n10月25日付IT之家の公式発表引用によると、ゲーム本体は約145GB。事前ダウンロードの仕組み上、空き容量は300GB以上を確保するよう案内している。SSDへのインストールとGPUドライバーの更新も推奨。PC/PS5双方の実ダウンロード完了状況を独立に確認したものではない。\n\n■ 10月26日、海外レビュー解禁\n発売に先立って海外メディアのレビューが公開された。TheGamerは5/5、GameRantは9/10を付け、特に高速かつ奥行きのある戦闘、美術、音楽を評価。TheGamerの集計記事ではOpenCritic平均92点・推奨率100%と報じられたが、集計値はレビュー追加により変動する。好評一色ではなく、物語への感情移入の難しさ、序盤の粗さ、PS5画質モードのフレームレートを弱点に挙げるレビューもある。ストーリーやボスの核心には触れない。\n\n■ 予約はSteam・PS5で約85万本との第三者推計\nAlinea AnalyticsのRhys Elliott氏による推計をGamesRadar+などが10月28日に報道。10月27日時点でSteam・PS5合計約85万本、レビュー解禁後に約8万本増えたとしている。WeGameを加えると100万本を超えるとの見方も示されたが、WeGameの実数は公表されておらず、S-GAMEも販売本数を公式発表していない。したがって85万本・100万本超はいずれも公式確定値ではない。\n\n■ 10月29日、PC・PS5向けに正式発売（10月29日追記）\nSteam公式ストアで購入可能となり、中国メディア『每日经济新闻』も10月29日の正式発売を報道。Steamストアは米国時間表示で10月28日発売と記載しているため、日本・中国の10月29日という日付と矛盾しない。\n\n■ Steam初日の同時接続43万人超（当日の途中経過）\n『每日经济新闻』は、10月29日13:30までのSteamDB観測値として初日の同時接続が43万人を超え、Steam世界売上ランキング首位に立ったと報じた。これはその時点での観測値であり、最終的な初日ピークや販売本数ではない。\n\n■ 予約販売数は公式発表ではない\nSteamとPS5の予約約85万本、売上約4300万ドルという数値はAlinea Analyticsの第三者推計。S-GAMEの確定販売本数や純収入としては扱わない。\n\n■ Steam同時接続の確定ピークを追記（10月30日確認）\nSteamDBの公開データでは、10月29日のSteam版同時接続ピークが72万3876人に達し、同日時点でSteam世界売上ランキング1位を記録した。これはPC版の同時接続人数で、販売本数やPS5版を含む総プレイヤー数ではない。S-GAMEは現時点で全機種合計の確定販売本数を公表していない。\n\n■ 11月1日、Steam同時接続ピークを更新\nSteamDBの公開チャートでは、Steam版の同時接続ピークが2026年11月1日に833,921人を記録。10月29日の72万3876人からさらに上昇した。GamerSkyも11月1日夜に83.3万人到達を報じている。\n\n■ 数値の範囲に注意\n833,921人はSteam版の同時接続ピークであり、累計販売本数・ユニークプレイヤー数・PS5版の人数を含む全機種合計ではない。S-GAMEはこの数値を販売本数として公式発表していない。",
+    "body": "■ 発売前の最終映像を公開\nS-GAMEは2026年10月22日、『Phantom Blade Zero』の発売前最終映像を公開した。本記事では映像に含まれる物語やボス演出の核心には触れない。\n\n■ 10月29日にPC・PS5で正式配信\n事前ダウンロードは10月27日10:00（中国標準時／日本時間11:00）、正式配信は10月29日10:00（中国標準時／日本時間11:00）に開始すると案内。対応プラットフォームはPCとPS5で、PS5のパッケージ版は2027年に発売予定と案内された。\n\n■ 事前ダウンロードの容量・必要ストレージ\n10月25日付IT之家の公式発表引用によると、ゲーム本体は約145GB。事前ダウンロードの仕組み上、空き容量は300GB以上を確保するよう案内している。SSDへのインストールとGPUドライバーの更新も推奨。PC/PS5双方の実ダウンロード完了状況を独立に確認したものではない。\n\n■ 10月26日、海外レビュー解禁\n発売に先立って海外メディアのレビューが公開された。TheGamerは5/5、GameRantは9/10を付け、特に高速かつ奥行きのある戦闘、美術、音楽を評価。TheGamerの集計記事ではOpenCritic平均92点・推奨率100%と報じられたが、集計値はレビュー追加により変動する。好評一色ではなく、物語への感情移入の難しさ、序盤の粗さ、PS5画質モードのフレームレートを弱点に挙げるレビューもある。ストーリーやボスの核心には触れない。\n\n■ 予約はSteam・PS5で約85万本との第三者推計\nAlinea AnalyticsのRhys Elliott氏による推計をGamesRadar+などが10月28日に報道。10月27日時点でSteam・PS5合計約85万本、レビュー解禁後に約8万本増えたとしている。WeGameを加えると100万本を超えるとの見方も示されたが、WeGameの実数は公表されておらず、S-GAMEも販売本数を公式発表していない。したがって85万本・100万本超はいずれも公式確定値ではない。\n\n■ 10月29日、PC・PS5向けに正式発売（10月29日追記）\nSteam公式ストアで購入可能となり、中国メディア『每日经济新闻』も10月29日の正式発売を報道。Steamストアは米国時間表示で10月28日発売と記載しているため、日本・中国の10月29日という日付と矛盾しない。\n\n■ Steam初日の同時接続43万人超（当日の途中経過）\n『每日经济新闻』は、10月29日13:30までのSteamDB観測値として初日の同時接続が43万人を超え、Steam世界売上ランキング首位に立ったと報じた。これはその時点での観測値であり、最終的な初日ピークや販売本数ではない。\n\n■ 予約販売数は公式発表ではない\nSteamとPS5の予約約85万本、売上約4300万ドルという数値はAlinea Analyticsの第三者推計。S-GAMEの確定販売本数や純収入としては扱わない。\n\n■ Steam同時接続の確定ピークを追記（10月30日確認）\nSteamDBの公開データでは、10月29日のSteam版同時接続ピークが72万3876人に達し、同日時点でSteam世界売上ランキング1位を記録した。これはPC版の同時接続人数で、販売本数やPS5版を含む総プレイヤー数ではない。S-GAMEは11月2日に全機種合計400万本超を公式発表した（下記参照）。10月27日時点の予約推計とは集計期間が異なる。\n\n■ 11月1日、Steam同時接続ピークを更新\nSteamDBの公開チャートでは、Steam版の同時接続ピークが2026年11月1日に833,921人を記録。10月29日の72万3876人からさらに上昇した。GamerSkyも11月1日夜に83.3万人到達を報じている。\n\n■ 数値の範囲に注意\n833,921人はSteam版の同時接続ピークであり、累計販売本数・ユニークプレイヤー数・PS5版の人数を含む全機種合計ではない。S-GAMEはこの数値を販売本数として公式発表していない。\n\n■ 11月2日、発売72時間で全機種合計400万本を突破（公式発表）\nS-GAMEは11月2日、公式Xで『Phantom Blade Zero』が発売から72時間で400万本超を販売したと発表した。PC・PS5などの機種別内訳、地域別内訳、売上金額は公表していない。11月1日のSteam版同時接続ピーク833,921人とは別指標であり、同時接続人数を販売本数として扱わない。\n\n■ プレイヤー報告の不具合を修正予定\n中国メディアは、S-GAMEがプレイヤーから寄せられた問題を記録し、近く目立つ不具合の修正を行うと案内したと報道。パッチの配信日時や修正項目の全リストは未発表。\n\n■ PC版のNVIDIAドライバーに関する開発者の注意（10月28日）\nS-GAME創業者の梁其偉氏は、NVIDIA 621.01に一部不安定な性能が見られ、テスト上は617.42が現時点で最適として、より新しいドライバーを導入済みの場合は617.42へのクリーンインストールでのロールバックを案内したとIT之家が報道。一方、NVIDIAは10月27日に621.12 Hotfixを公開しているが、公式修正一覧は一部RTX 50シリーズの動画再生不具合やUE5.8の特定条件でのクラッシュなどで、Phantom Blade Zero固有の性能不安定を解消したとは明記していない。両者の案内を混同しない。",
     "timeline": [
       {
         "date": "2026年10月22日",
@@ -347,6 +482,18 @@
       {
         "date": "2026年11月1日（SteamDB公開データ）",
         "text": "Steam版の同時接続ピークが833,921人に到達。10月29日の72万3876人を更新。販売本数ではない。"
+      },
+      {
+        "date": "2026年10月27日",
+        "text": "NVIDIAがGeForce Hotfix 621.12を公開。修正一覧は動画再生やUE5.8の特定条件などで、Phantom Blade Zero固有の性能問題の解消を明記していない。"
+      },
+      {
+        "date": "2026年10月28日",
+        "text": "S-GAME創業者の梁其偉氏がNVIDIA 621.01の不安定性に言及し、617.42を推奨したとIT之家が報道。"
+      },
+      {
+        "date": "2026年11月2日",
+        "text": "S-GAMEが発売72時間で全機種合計400万本超を販売したと公式Xで発表。機種別内訳は非公表。"
       }
     ],
     "sources": [
@@ -421,6 +568,36 @@
         "url": "https://www.gamersky.com/news/202611/2238756.shtml",
         "date": "2026-11-01",
         "type": "報道"
+      },
+      {
+        "name": "S-GAME公式X・販売400万本発表（公開ミラー）",
+        "url": "https://www.sotwe.com/Pbzero_official",
+        "date": "2026-11-02",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "GAME Watch・72時間で400万本突破",
+        "url": "https://game.watch.impress.co.jp/docs/news/2153047.html",
+        "date": "2026-11-02",
+        "type": "報道（公式X引用）"
+      },
+      {
+        "name": "4Gamers・72時間販売とSteam同時接続データ",
+        "url": "https://www.4gamers.com.tw/news/detail/83007/phantom-blade-zero-4-million-sales-72-hours",
+        "date": "2026-11-02",
+        "type": "報道（公式発表・公開データ）"
+      },
+      {
+        "name": "IT之家・初日パッチとNVIDIAドライバーに関する開発者発言",
+        "url": "https://www.ithome.com/1/019/152.htm",
+        "date": "2026-10-28",
+        "type": "報道（開発者発言引用）"
+      },
+      {
+        "name": "NVIDIA公式・GeForce Hotfix 621.12",
+        "url": "https://nvidia.custhelp.com/app/answers/detail/a_id/5938",
+        "date": "2026-10-27",
+        "type": "公式"
       }
     ],
     "story_id": "phantom-blade-zero-final-trailer-20261022"
