@@ -318,5 +318,39 @@
     ],
     "notes": "2026-11-03朝。前回報告以降の新情報を優先し、朝のブリーフで確認した内容を再利用。①S-GAMEは11月2日、『Phantom Blade Zero』が発売72時間で全機種合計400万本超を販売したと公式Xで発表。機種別内訳は非公表。SteamDBの11月1日ピーク833,921人はSteam版同時接続であり、販売本数とは別指標。既存の中国ゲーム・最新記事を更新。あわせて10月28日の開発者によるNVIDIA 621.01の不安定性・617.42推奨と、NVIDIA 621.12 Hotfixの公式修正範囲を区別して追記。②Thailand Game Awards 2026はKURO GAMESがBest Game Publisher、『鳴潮』がBest Ongoing GameとPopular Voteを受賞。『アークナイツ：エンドフィールド』はBest Free-to-Play Game、中国MyACG Studioの『Cinderia』はBest in Show。イベント来場者21万9546人・113の国と地域・335出展社/パビリオンは主催者発表を4Gamerが報道。中国ゲーム業界に新規追加。③TiMi Studio Groupの11月2日公式発表で『Delta Force』グローバル版Season Auroraは11月10日開始。新マップ、新オペレーター、ブラッケシュ2.0、Phantom Blade Zeroコラボ等を中国ゲーム業界に新規追加。中国本土版の日程とグローバル版の日程は混同しない。④『第二ソラリス：題なき夢』OP曲の配信開始は既存の新作記事に記録済みのため重複追加なし。⑤原神Ver.7.2の事前ダウンロード開始は公式確認したが、既存のハラ/HoYoverse分類を中国ゲーム新カテゴリへ移さないルールに従い、今回の中国ゲーム別枠には追加しない。⑥Wuwa 4.xのAmethyst属性情報とされる投稿は一次資料を確認できず、未確認情報としても具体性・裏付け不足のため採用せず。⑦NTEのアカウント処分告知は定例運営情報で重要度不足、Where Winds Meet 1周年番組は前回報告済みのため再掲せず。朝の通知に含める候補は5件に満たない場合も水増ししない。X本体の返信・引用、Weibo・bilibili個別コメント、韓国語圏SNS、StepLeak原本は網羅確認できていない。既存のHoYoverse炎上カテゴリ全体の横断調査も本日の中国ゲーム別枠更新では未実施。index.htmlは変更せず、既存カテゴリ表示・記事を保護。data/news.jsonは93件、記事ID重複0。追加2件、既存記事更新1件。 夜間調査（2026-11-03 JST）では日英中韓の検索を追加し、HoYoverse各タイトルの既存論争・Ship War、鳴潮公式・4.xリーク、KURO新作、中国ゲーム最新・業界を確認。追加候補6件：①『Delta Force』中国本土版「微光」は11/5開始との公式認証Weibo投稿（10/30）と11/3報道を確認し、既存の同一シーズン記事を更新1。グローバル版「オーロラ」11/10とは地域別に分け、名称対応を断定しない。②『モンスターハンターアウトランダーズ』は17173（11/2）と快科技（10/30）が19か国・地域無料ランキング1位、34か国・地域トップ10、日本iOS売上2位を報道。既存の世界版ローンチ記事を更新1。順位は報道時点のストア順位で販売本数・売上額と混同しない。③HSRのReddit年間総括スレッド（検索時156ポイント）は一般的な不満・パワークリープ意見の集約で、独立した大規模炎上・新規イベントとは認定せず見送り。④鳴潮公式の池ハロ振り返り投稿は通常のイベント記録で重要度不足のため見送り。⑤ゼンゼロ公式の柚葉誕生日・イベント告知は通常の定例発信で、今回の炎上・ファンダム論争の発端ではないため見送り。⑥鳴潮4.0予想記事は二次集約・周期推測中心で一次リーク原本を確認できず、未確認情報としても採用せず見送り。既存のハラ引退宣言、ゼンゼロ衣装論争、スタレ×ゼンゼロ人選、鍾離性別考察、イヴリンのShip War、上坂すみれ脅迫関連などは日本語・英語・中国語・韓国語で検索を継続したが、新たな裏付けある進展は確認できず。Xの個別投稿URLを直接開く操作はDisabledError、公開ミラーの一部も取得不可。RedditはHSRの年間総括スレッドを確認したが、Weibo・bilibili個別コメントと韓国語圏の網羅確認は未達。未取得範囲を「新情報なし」や沈静化とは扱わない。朝の実績（候補12・新規2・続報1・見送り5）に夜間分を統合し、当日合計は候補18・新規2・続報3・見送り9。",
     "commit_url": "https://github.com/Jun-a111/hara-watch/commit/f22e15216f21abc7189bcd28ad6fb8c5c09b19eb"
+  },
+  {
+    "date": "2026-11-04",
+    "outcome": "一部調査",
+    "candidates": 8,
+    "added": 2,
+    "updated": 1,
+    "rejected": 5,
+    "checked_categories": [
+      "鳴潮",
+      "リーク",
+      "新作",
+      "中国ゲーム・最新",
+      "中国ゲーム業界",
+      "ハラ",
+      "スタレ",
+      "ゼンゼロ",
+      "ホヨバ",
+      "NetEase",
+      "Everstone Studio",
+      "Bilibili Game",
+      "Tencent",
+      "KURO GAMES",
+      "HoYoverse"
+    ],
+    "unchecked_categories": [
+      "X本体の返信・引用全件と最新表示数の直接取得",
+      "Weibo・bilibili個別コメントと拡散規模の網羅的照合",
+      "韓国語圏SNSの網羅確認",
+      "StepLeakの一次投稿・鳴潮4.xリーク画像原本",
+      "KURO GAMES全公式SNS・採用情報の網羅確認"
+    ],
+    "notes": "2026-11-04朝JST。最新README.md、data/news.json、data/research-log.json、index.htmlを再取得。READMEの運用ルールに従い、朝のブリーフで確認した保存価値のある情報を既存ID・URL・出来事と照合して差分統合。記事スキーマは現行data/news.jsonの既存オブジェクト（id/date/category/status/lang/title/summary/url/source/tags/spoiler/body/timeline/sources/story_id）に準拠。別個のJSON Schemaファイルはリポジトリ直下・data内で確認できず。①NetEase/Everstone Studio『Where Winds Meet』は11/3の1周年記念番組でグローバル版の報酬情報を公開。公式YouTube告知リンクを照合し、Daily Mediaの11/3報道で12着から衣装1着選択、Lingering Melodies 42個、Resonating Melodies 27個、11～12月に追加無料衣装5着、コード1113HUTUOGOを確認。コードの報酬内容・有効期限は報道でも不明。既存の中国ゲーム・最新記事（story_id維持）を更新1。Hutuoは11/13 UTC＝11/14 JST、Dual Spearsは11月下旬予定。物語ネタバレなし。②Game Gyroの11/3市場レポート（新浪财经掲載）は独自の不完全統計として11月の中国モバイル新作27タイトル、限定テスト18タイトルと報道。公式網羅統計ではないことを明示し、中国ゲーム業界に新規追加1。③Bilibili Game『Lumi Master』の10/30公式Trick Festival更新（期間限定イベント10/30～11/12、祭典マップ、ホーム刷新、限定Lumi 8種、ミシックAura Lumi Qing Long、Creator Incentive Program 2.0）を確認。直前報告以降の新着ではなく、過去の朝ブリーフに未掲載だった重要情報の補完として元の発表日10/30を維持して中国ゲーム・最新に新規追加1。④鳴潮Ver.3.8特別通信11/6予定は既報のため再掲せず。⑤4.x向けAmethyst等の投稿は一次資料未確認で、確かな新リークとして採用せず。⑥KURO GAMES新作は『第二ソラリス：題なき夢』以外に裏付けある新発表を確認できず。⑦11/3『诛仙』の不正チャージ対策告知は単一タイトルの運営告知で重要度不足のため見送り。⑧ゲーム株指数の11/2上昇記事は金融市場の短期変動でありゲーム自体の新情報ではないため見送り。⑨11/3 Game Gyro記事の掲載タイトル日程は媒体独自集計のため、公式確定日程と混同しない。日英中の検索を実施。X本体の投稿返信・引用、Weibo/bilibili個別コメント、韓国語圏SNS、StepLeak一次投稿、KURO公式全チャンネルの完全網羅は未達であり、未取得範囲を「新情報なし」とは扱わない。最新news.json 93件から95件へ、追加2・更新1。記事ID・primary URLの重複なし、category文字列完全一致、JSON parse成功。index.htmlは現行mainで中国カテゴリフィルター「中国ゲーム・最新」「中国ゲーム業界」を確認。依頼文の「CHINA GAME WATCH」「CHINA GAME TODAY」文字列はindex.html内に存在せず、UIは推測で変更せずindex.htmlは未変更。過去記事・手動記事を保護。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/aa0405be49627a9bfc8715814434f73b1b062b5f"
   }
 ]
