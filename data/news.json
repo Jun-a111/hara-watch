@@ -1,67 +1,5 @@
 [
   {
-    "id": "china-industry-20261102-thailand-game-awards-2026",
-    "date": "2026-11-02",
-    "category": "中国ゲーム業界",
-    "status": "主催者発表・報道",
-    "lang": "JP",
-    "title": "Thailand Game Awards 2026でKURO GAMESが3部門受賞　鳴潮が2冠、エンドフィールドも受賞",
-    "summary": "gamescom asia x Thailand Game Show 2026の受賞結果を4Gamerが11月2日に報道。KURO GAMESはBest Game Publisher、『鳴潮』はBest Ongoing GameとPopular Voteを獲得。『アークナイツ：エンドフィールド』はBest Free-to-Play Game、中国MyACG Studioの『Cinderia』はBest in Showを受賞した。",
-    "url": "https://www.4gamer.net/games/991/G999110/20261102017/",
-    "source": "4Gamer / Thailand Game Awards 2026主催者発表",
-    "tags": [
-      "KURO GAMES",
-      "鳴潮",
-      "Thailand Game Awards 2026",
-      "gamescom asia",
-      "Thailand Game Show",
-      "Best Game Publisher",
-      "Best Ongoing Game",
-      "Popular Vote",
-      "アークナイツ：エンドフィールド",
-      "Cinderia",
-      "MyACG Studio",
-      "2026年11月2日"
-    ],
-    "spoiler": false,
-    "body": "■ gamescom asia x Thailand Game Show 2026が閉幕\n2026年10月29日から11月1日まで、タイ・バンコクのQSNCCで開催。4日間で113の国・地域から21万9546人が来場し、出展社・パビリオンは29か国から335。来場者の64％はタイ国外からだったと主催者が発表し、4Gamerが11月2日に報道した。\n\n■ KURO GAMESが3部門を受賞\nThailand Game Awards 2026でKURO GAMESはBest Game Publisherを受賞。『鳴潮』はBest Ongoing GameとPopular Voteを獲得した。Popular Voteは来場者投票による賞として紹介されている。\n\n■ 中国ゲーム関連の受賞\n『アークナイツ：エンドフィールド』はBest Free-to-Play Game、中国のMyACG Studioが開発する『Cinderia』はインディー部門のBest in Showを受賞した。\n\n■ 受賞の範囲\n本記事は主催者が発表した受賞結果とイベント来場実績を整理したもの。受賞はイベント内の各部門の結果であり、世界全体の販売規模や市場シェアを示す数値ではない。",
-    "timeline": [
-      {
-        "date": "2026年10月29日〜11月1日",
-        "text": "gamescom asia x Thailand Game Show 2026をバンコクで開催。"
-      },
-      {
-        "date": "2026年11月1日",
-        "text": "イベント最終日に主催者が来場実績とThailand Game Awards 2026の受賞結果を発表。"
-      },
-      {
-        "date": "2026年11月2日",
-        "text": "4Gamerが受賞結果とイベント来場実績を報道。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "4Gamer・gamescom asia x Thailand Game Show 2026閉幕と受賞結果",
-        "url": "https://www.4gamer.net/games/991/G999110/20261102017/",
-        "date": "2026-11-02",
-        "type": "報道（主催者発表引用）"
-      },
-      {
-        "name": "beartai・Thailand Game Awards 2026受賞結果",
-        "url": "https://www.beartai.com/read/1511659/",
-        "date": "2026-11-01",
-        "type": "報道"
-      },
-      {
-        "name": "GamerSky・鳴潮とKURO GAMESの3部門受賞",
-        "url": "https://www.gamersky.com/news/202611/2239151.shtml",
-        "date": "2026-11-02",
-        "type": "報道"
-      }
-    ],
-    "story_id": "thailand-game-awards-2026-chinese-studios-20261102"
-  },
-  {
     "id": "china-industry-20261102-delta-force-season-aurora",
     "date": "2026-11-03",
     "category": "中国ゲーム業界",
@@ -214,6 +152,92 @@
     ]
   },
   {
+    "id": "china-latest-20261029-monster-hunter-outlanders-launch",
+    "date": "2026-11-02",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "TiMi『モンスターハンターアウトランダーズ』世界版、19か国・地域の無料ランキング1位　日本iOS売上2位と報道",
+    "summary": "Tencent傘下TiMi Studio Group開発の世界版は10月29日に正式サービス開始。中国メディアは初動について、19か国・地域の無料ランキング1位、34か国・地域でトップ10入り、日本のiOS売上ランキング2位と報道。いずれも報道時点のストア順位で、販売本数・売上額そのものではない。",
+    "url": "https://monsterhunteroutlanders.com/ja/news-frequently-asked-questions-faq-regarding-the-official-service-launch-of-monster-hunter-outlanders.html",
+    "source": "『モンスターハンターアウトランダーズ』公式 / Capcom",
+    "tags": [
+      "Tencent",
+      "TiMi Studio Group",
+      "Capcom",
+      "Monster Hunter Outlanders",
+      "モンスターハンター",
+      "正式サービス",
+      "iOS",
+      "Android",
+      "19か国無料ランキング1位",
+      "34か国トップ10",
+      "日本iOS売上ランキング2位",
+      "初動"
+    ],
+    "spoiler": false,
+    "story_id": "monster-hunter-outlanders-global-launch-20261029",
+    "body": "■ 10月29日に世界版が正式サービス開始\nTencent傘下TiMi Studio Groupが開発し、Capcomの正式ライセンスを受けた『モンスターハンターアウトランダーズ』が、iOS・Android向けに10月29日の正式サービス開始日を迎えた。基本プレイ無料でゲーム内課金を含む。中国本土版は2027年以降の配信予定。\n\n■ 公式FAQが推奨環境を案内\n10月28日公開の日本語公式FAQでは、推奨OSをiOS 17.0以降／Android 12.0以降、推奨端末をRAM 6GB以上のスマートフォン・タブレットとしている。コントローラーにも対応する。\n\n■ 既報との区別\n10月18日の世界事前登録1,300万件突破とは別の正式サービス開始情報。ストーリーや公開映像の核心には触れない。\n\n■ 世界版の初動ストアランキング（報道ベース）\n17173は11月2日、世界版が19か国・地域の無料ランキングで1位となり、日本ではiOS売上ランキング2位、無料ランキングでも首位を獲得したと報道した。快科技（MyDrivers）は10月30日、19か国・地域で無料ランキング1位、34か国・地域でトップ10入りしたと報じている。\n\n■ 数値の扱い\nこれらは各報道が紹介した配信初期のストア順位であり、販売本数、売上額、継続的な順位を示すものではない。順位の集計時点・対象ストアは報道ごとに異なるため、長期的な世界売上やアクティブユーザー数とは区別する。",
+    "timeline": [
+      {
+        "date": "2026年10月18日",
+        "text": "世界事前登録1,300万件突破を公式発表。"
+      },
+      {
+        "date": "2026年10月28日",
+        "text": "正式サービス開始FAQを公開し、推奨環境とコントローラー対応を案内。"
+      },
+      {
+        "date": "2026年10月29日",
+        "text": "iOS・Android向け世界版の正式サービス開始日。"
+      },
+      {
+        "date": "2026年10月30日",
+        "text": "快科技（MyDrivers）が、世界版の初動として19か国・地域の無料ランキング1位、34か国・地域でトップ10入りと報道。"
+      },
+      {
+        "date": "2026年11月2日",
+        "text": "17173が、19か国・地域の無料ランキング1位と日本のiOS売上ランキング2位を報道。いずれも報道時点のストア順位。"
+      },
+      {
+        "date": "2027年以降",
+        "text": "中国本土版を配信予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "日本語公式・正式サービス開始FAQ",
+        "url": "https://monsterhunteroutlanders.com/ja/news-frequently-asked-questions-faq-regarding-the-official-service-launch-of-monster-hunter-outlanders.html",
+        "date": "2026-10-28",
+        "type": "公式"
+      },
+      {
+        "name": "Capcom・配信日発表",
+        "url": "https://www.capcom.co.jp/ir/news/html/260929.html",
+        "date": "2026-09-29",
+        "type": "公式"
+      },
+      {
+        "name": "日本App Store・製品ページ",
+        "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814",
+        "date": "2026-10-29",
+        "type": "公式ストア"
+      },
+      {
+        "name": "17173・世界版の初動ランキング（19か国・日本iOS売上2位）",
+        "url": "https://news.17173.com/content/11022026/105820814.shtml",
+        "date": "2026-11-02",
+        "type": "報道"
+      },
+      {
+        "name": "快科技（MyDrivers）・19か国無料ランキング1位、34か国トップ10",
+        "url": "https://news.mydrivers.com/1/1161/1161949.htm",
+        "date": "2026-10-30",
+        "type": "報道"
+      }
+    ]
+  },
+  {
     "id": "china-latest-20261023-genshin-v72-release",
     "date": "2026-11-02",
     "category": "ハラ",
@@ -275,159 +299,6 @@
       }
     ],
     "story_id": "genshin-v72-release-20261104"
-  },
-  {
-    "id": "china-industry-20261101-wuhua-mixin-operator-transfer",
-    "date": "2026-11-02",
-    "category": "中国ゲーム業界",
-    "status": "報道（当事者双方の公式声明）",
-    "lang": "JP",
-    "title": "『Wuhua Mixin』運営移管問題で開発元とBilibiliが対立　11月2日も中国メディアが続報",
-    "summary": "開発チームCipaishe Studioが運営主体の移管を発表した一方、Bilibiliは旧運営会社Longyuan Networkによる公式サーバー停止と契約違反を主張。11月2日付の南方都市報もプレイヤーが強制的にオフラインとなった経緯を報じた。責任の所在や契約問題は未確定。",
-    "url": "https://www.taptap.cn/moment/865384997752670047",
-    "source": "Cipaishe Studio公式TapTap公告 / Bilibili公式声明 / IT之家報道",
-    "tags": [
-      "Wuhua Mixin",
-      "Cipaishe Studio",
-      "Bilibili",
-      "Longyuan Network",
-      "運営主体変更",
-      "運営上の対立",
-      "アカウント移行"
-    ],
-    "spoiler": false,
-    "teaser_title": "開発チームが運営引き継ぎを発表、Bilibiliは旧運営会社の対応を問題視",
-    "story_id": "wuhua-mixin-operator-transfer-dispute-20261101",
-    "body": "■ 10月31日、開発チームが運営主体の移管を発表\nCipaishe Studioは公式TapTapアカウントで、従来の運営・配信側と運営方針の合意が難しくなったとして、運営主体を開発チームへ移し、今後のバージョン更新と運営サービスを担当すると発表した。開発チーム側は既存のゲーム資産に影響はないと説明し、アカウントとキャラクターの紐付け、専用クライアント、決済方法の移行案内を公開。従来クライアント内のチャージ機能は停止し、公式Webチャージを案内している。\n\n■ Bilibili側は旧運営会社によるサーバー停止を主張\nBilibiliのゲーム運営チームは10月31日付の公式声明で、同日0時10分にLongyuan Networkが事前の連絡なく公式サーバーへのアクセスを停止し、プレイヤーデータを第三者サーバーへ移すよう求めたと主張した。Bilibili側は証拠を保全し、法的手段を取る意向を示している。また、パスワードや認証コードを外部に提出しないよう注意喚起した。\n\n■ 現時点で確定していない点\n開発チーム側は運営方針の相違を理由に挙げ、Bilibili側は契約違反やサーバー停止を主張しており、両者の説明は一致していない。契約違反・債務問題などは当事者の主張であり、裁判所の判断や独立確認済みの事実として扱わない。\n\n■ 11月2日、南方都市報が続報\n南方都市報は11月2日、10月31日未明のサーバー停止と運営移管を巡る対立を続報として報じた。記事では、サーバーへのアクセス停止によりプレイヤーが強制的にオフラインとなった経緯や、開発側とBilibili側の説明の食い違いを紹介している。Bilibili側は旧運営会社の一方的なサーバー停止と契約違反を主張し、証拠保全と法的対応の意向を表明。一方、開発チーム側は運営方針の相違を理由に運営主体の移管を発表している。\n\n■ 追加報道でも責任の所在は確定していない\n今回確認できた続報は、主に当事者の公式声明を引用した報道である。契約違反、債務問題、サーバー停止の責任、アカウント移行後のデータ安全性について、裁判所の判断や独立した調査結果が確認できたわけではない。各当事者の主張と確定事実を分けて扱う。",
-    "timeline": [
-      {
-        "date": "2026年10月31日",
-        "text": "Cipaishe Studioが運営主体を開発チームへ移管し、以降の更新・運営を担当すると発表。"
-      },
-      {
-        "date": "2026年10月31日",
-        "text": "Bilibiliの運営チームが旧運営会社のサーバー停止を主張し、証拠保全と法的対応の意向を表明。"
-      },
-      {
-        "date": "2026年11月1日",
-        "text": "IT之家など中国メディアが双方の発表を報道。"
-      },
-      {
-        "date": "2026年11月2日",
-        "text": "南方都市報がサーバー停止と運営移管を巡る対立を続報。双方の主張は食い違ったままで、責任の所在は未確定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Cipaishe Studio公式・TapTap「運営主体調整公告」",
-        "url": "https://www.taptap.cn/moment/865384997752670047",
-        "date": "2026-10-31",
-        "type": "公式"
-      },
-      {
-        "name": "Bilibili公式・運営チーム声明",
-        "url": "https://www.bilibili.com/opus/1265260278391504905",
-        "date": "2026-10-31",
-        "type": "公式・当事者の主張"
-      },
-      {
-        "name": "IT之家・運営主体移管と双方の声明に関する報道",
-        "url": "https://www.ithome.com/1/020/674.htm",
-        "date": "2026-11-01",
-        "type": "報道"
-      },
-      {
-        "name": "界面新聞・Bilibiliの声明と開発チーム側の公告",
-        "url": "https://www.jiemian.com/article/15278576.html",
-        "date": "2026-11-01",
-        "type": "報道"
-      },
-      {
-        "name": "南方都市報（東方財富転載）・運営移管問題の続報",
-        "url": "https://finance.eastmoney.com/a/202611023918481826.html",
-        "date": "2026-11-02",
-        "type": "報道（当事者の主張を引用）"
-      }
-    ]
-  },
-  {
-    "id": "china-latest-20261023-petit-planet-preview-program",
-    "date": "2026-11-01",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "HoYoverse『プチプラネット』Switch 2版を2027年に発売へ　PC・スマホ版は12月4日",
-    "summary": "HoYoverseは11月1日のリリース予告番組でNintendo Switch 2版を2027年に発売予定と発表。PC・iOS・Android版は12月4日に全世界同時リリース、事前ダウンロードは12月1日。番組ではローンチイベントや各種特典も案内した。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000463.000096124.html",
-    "source": "HoYoverse / COGNOSPHERE公式発表",
-    "tags": [
-      "HoYoverse",
-      "プチプラネット",
-      "新作",
-      "リリース予告番組",
-      "PC",
-      "iOS",
-      "Android",
-      "事前登録",
-      "2026年12月4日",
-      "事前ダウンロード",
-      "正式リリース日",
-      "Nintendo Switch 2",
-      "2027年",
-      "ローンチ特典",
-      "2026年11月1日"
-    ],
-    "spoiler": false,
-    "body": "■ 10月30日、正式リリース日を発表\nHoYoverse / COGNOSPHEREは2026年10月30日、新作スローライフゲーム『プチプラネット』の正式リリース日を12月4日（金）と発表した。PC・iOS・Androidに対応し、事前ダウンロードは12月1日から。事前登録者には『星空ペンライト』『星の苗』が配布される。\n\n■ 11月1日20時からリリース予告番組\n開発チームとゲストがゲーム内容や今後のイベント・キャンペーンを紹介する。公式YouTubeとXで配信予定。正式リリース前の予定であり、配信開始・サービス稼働を確認したものではない。\n\n■ 発表と反応を区別\n本記事の配信日・事前DL・事前登録特典は公式発表に基づく。SNSでの賛否や人気の規模は独立検証していない。\n\n■ 11月1日、Nintendo Switch 2版を発表\nCOGNOSPHEREは11月1日20:50（日本時間）、リリース予告番組でNintendo Switch 2版を2027年に発売予定と発表した。Switch 2版は開発中で、実機プレイ映像や詳細は後日案内予定。PC・iOS・Android版は従来発表どおり12月4日に全世界同時リリース、事前ダウンロードは12月1日から。\n\n■ ローンチ時の特典も公開\n7日間ログインで「キュリオの海笛」10個、ルーカの樹をレベル30まで育てることで海笛10個を獲得できるローンチ報酬を案内。Switch 2版発表記念の公式Xキャンペーンも実施する。",
-    "timeline": [
-      {
-        "date": "2026年10月23日",
-        "text": "11月1日20時のリリース予告番組を告知。"
-      },
-      {
-        "date": "2026年10月30日",
-        "text": "HoYoverseが12月4日正式リリースと12月1日事前ダウンロードを発表。"
-      },
-      {
-        "date": "2026年12月1日",
-        "text": "事前ダウンロード開始予定。"
-      },
-      {
-        "date": "2026年12月4日",
-        "text": "PC・iOS・Androidで正式リリース予定。"
-      },
-      {
-        "date": "2026年11月1日 20:50 JST",
-        "text": "リリース予告番組でNintendo Switch 2版を2027年に発売予定と発表。PC・iOS・Android版は12月4日、事前ダウンロードは12月1日。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "COGNOSPHERE公式プレスリリース（配信日決定）",
-        "url": "https://prtimes.jp/main/html/rd/p/000000461.000096124.html",
-        "date": "2026-10-30",
-        "type": "公式"
-      },
-      {
-        "name": "Petit Planet公式HoYoLAB（Release Date Reveal Trailer）",
-        "url": "https://www.hoyolab.com/article/47247395",
-        "date": "2026-10-30",
-        "type": "公式"
-      },
-      {
-        "name": "COGNOSPHERE公式プレスリリース（予告番組）",
-        "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
-        "date": "2026-10-23",
-        "type": "公式"
-      },
-      {
-        "name": "COGNOSPHERE公式プレスリリース（Nintendo Switch 2版・ローンチ情報）",
-        "url": "https://prtimes.jp/main/html/rd/p/000000463.000096124.html",
-        "date": "2026-11-01",
-        "type": "公式"
-      }
-    ],
-    "story_id": "petit-planet-preview-program-20261101"
   },
   {
     "id": "china-latest-20261022-phantom-blade-zero-final-trailer",
@@ -626,6 +497,221 @@
       }
     ],
     "story_id": "phantom-blade-zero-final-trailer-20261022"
+  },
+  {
+    "id": "china-industry-20261102-thailand-game-awards-2026",
+    "date": "2026-11-02",
+    "category": "中国ゲーム業界",
+    "status": "主催者発表・報道",
+    "lang": "JP",
+    "title": "Thailand Game Awards 2026でKURO GAMESが3部門受賞　鳴潮が2冠、エンドフィールドも受賞",
+    "summary": "gamescom asia x Thailand Game Show 2026の受賞結果を4Gamerが11月2日に報道。KURO GAMESはBest Game Publisher、『鳴潮』はBest Ongoing GameとPopular Voteを獲得。『アークナイツ：エンドフィールド』はBest Free-to-Play Game、中国MyACG Studioの『Cinderia』はBest in Showを受賞した。",
+    "url": "https://www.4gamer.net/games/991/G999110/20261102017/",
+    "source": "4Gamer / Thailand Game Awards 2026主催者発表",
+    "tags": [
+      "KURO GAMES",
+      "鳴潮",
+      "Thailand Game Awards 2026",
+      "gamescom asia",
+      "Thailand Game Show",
+      "Best Game Publisher",
+      "Best Ongoing Game",
+      "Popular Vote",
+      "アークナイツ：エンドフィールド",
+      "Cinderia",
+      "MyACG Studio",
+      "2026年11月2日"
+    ],
+    "spoiler": false,
+    "body": "■ gamescom asia x Thailand Game Show 2026が閉幕\n2026年10月29日から11月1日まで、タイ・バンコクのQSNCCで開催。4日間で113の国・地域から21万9546人が来場し、出展社・パビリオンは29か国から335。来場者の64％はタイ国外からだったと主催者が発表し、4Gamerが11月2日に報道した。\n\n■ KURO GAMESが3部門を受賞\nThailand Game Awards 2026でKURO GAMESはBest Game Publisherを受賞。『鳴潮』はBest Ongoing GameとPopular Voteを獲得した。Popular Voteは来場者投票による賞として紹介されている。\n\n■ 中国ゲーム関連の受賞\n『アークナイツ：エンドフィールド』はBest Free-to-Play Game、中国のMyACG Studioが開発する『Cinderia』はインディー部門のBest in Showを受賞した。\n\n■ 受賞の範囲\n本記事は主催者が発表した受賞結果とイベント来場実績を整理したもの。受賞はイベント内の各部門の結果であり、世界全体の販売規模や市場シェアを示す数値ではない。",
+    "timeline": [
+      {
+        "date": "2026年10月29日〜11月1日",
+        "text": "gamescom asia x Thailand Game Show 2026をバンコクで開催。"
+      },
+      {
+        "date": "2026年11月1日",
+        "text": "イベント最終日に主催者が来場実績とThailand Game Awards 2026の受賞結果を発表。"
+      },
+      {
+        "date": "2026年11月2日",
+        "text": "4Gamerが受賞結果とイベント来場実績を報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "4Gamer・gamescom asia x Thailand Game Show 2026閉幕と受賞結果",
+        "url": "https://www.4gamer.net/games/991/G999110/20261102017/",
+        "date": "2026-11-02",
+        "type": "報道（主催者発表引用）"
+      },
+      {
+        "name": "beartai・Thailand Game Awards 2026受賞結果",
+        "url": "https://www.beartai.com/read/1511659/",
+        "date": "2026-11-01",
+        "type": "報道"
+      },
+      {
+        "name": "GamerSky・鳴潮とKURO GAMESの3部門受賞",
+        "url": "https://www.gamersky.com/news/202611/2239151.shtml",
+        "date": "2026-11-02",
+        "type": "報道"
+      }
+    ],
+    "story_id": "thailand-game-awards-2026-chinese-studios-20261102"
+  },
+  {
+    "id": "china-industry-20261101-wuhua-mixin-operator-transfer",
+    "date": "2026-11-02",
+    "category": "中国ゲーム業界",
+    "status": "報道（当事者双方の公式声明）",
+    "lang": "JP",
+    "title": "『Wuhua Mixin』運営移管問題で開発元とBilibiliが対立　11月2日も中国メディアが続報",
+    "summary": "開発チームCipaishe Studioが運営主体の移管を発表した一方、Bilibiliは旧運営会社Longyuan Networkによる公式サーバー停止と契約違反を主張。11月2日付の南方都市報もプレイヤーが強制的にオフラインとなった経緯を報じた。責任の所在や契約問題は未確定。",
+    "url": "https://www.taptap.cn/moment/865384997752670047",
+    "source": "Cipaishe Studio公式TapTap公告 / Bilibili公式声明 / IT之家報道",
+    "tags": [
+      "Wuhua Mixin",
+      "Cipaishe Studio",
+      "Bilibili",
+      "Longyuan Network",
+      "運営主体変更",
+      "運営上の対立",
+      "アカウント移行"
+    ],
+    "spoiler": false,
+    "teaser_title": "開発チームが運営引き継ぎを発表、Bilibiliは旧運営会社の対応を問題視",
+    "story_id": "wuhua-mixin-operator-transfer-dispute-20261101",
+    "body": "■ 10月31日、開発チームが運営主体の移管を発表\nCipaishe Studioは公式TapTapアカウントで、従来の運営・配信側と運営方針の合意が難しくなったとして、運営主体を開発チームへ移し、今後のバージョン更新と運営サービスを担当すると発表した。開発チーム側は既存のゲーム資産に影響はないと説明し、アカウントとキャラクターの紐付け、専用クライアント、決済方法の移行案内を公開。従来クライアント内のチャージ機能は停止し、公式Webチャージを案内している。\n\n■ Bilibili側は旧運営会社によるサーバー停止を主張\nBilibiliのゲーム運営チームは10月31日付の公式声明で、同日0時10分にLongyuan Networkが事前の連絡なく公式サーバーへのアクセスを停止し、プレイヤーデータを第三者サーバーへ移すよう求めたと主張した。Bilibili側は証拠を保全し、法的手段を取る意向を示している。また、パスワードや認証コードを外部に提出しないよう注意喚起した。\n\n■ 現時点で確定していない点\n開発チーム側は運営方針の相違を理由に挙げ、Bilibili側は契約違反やサーバー停止を主張しており、両者の説明は一致していない。契約違反・債務問題などは当事者の主張であり、裁判所の判断や独立確認済みの事実として扱わない。\n\n■ 11月2日、南方都市報が続報\n南方都市報は11月2日、10月31日未明のサーバー停止と運営移管を巡る対立を続報として報じた。記事では、サーバーへのアクセス停止によりプレイヤーが強制的にオフラインとなった経緯や、開発側とBilibili側の説明の食い違いを紹介している。Bilibili側は旧運営会社の一方的なサーバー停止と契約違反を主張し、証拠保全と法的対応の意向を表明。一方、開発チーム側は運営方針の相違を理由に運営主体の移管を発表している。\n\n■ 追加報道でも責任の所在は確定していない\n今回確認できた続報は、主に当事者の公式声明を引用した報道である。契約違反、債務問題、サーバー停止の責任、アカウント移行後のデータ安全性について、裁判所の判断や独立した調査結果が確認できたわけではない。各当事者の主張と確定事実を分けて扱う。",
+    "timeline": [
+      {
+        "date": "2026年10月31日",
+        "text": "Cipaishe Studioが運営主体を開発チームへ移管し、以降の更新・運営を担当すると発表。"
+      },
+      {
+        "date": "2026年10月31日",
+        "text": "Bilibiliの運営チームが旧運営会社のサーバー停止を主張し、証拠保全と法的対応の意向を表明。"
+      },
+      {
+        "date": "2026年11月1日",
+        "text": "IT之家など中国メディアが双方の発表を報道。"
+      },
+      {
+        "date": "2026年11月2日",
+        "text": "南方都市報がサーバー停止と運営移管を巡る対立を続報。双方の主張は食い違ったままで、責任の所在は未確定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Cipaishe Studio公式・TapTap「運営主体調整公告」",
+        "url": "https://www.taptap.cn/moment/865384997752670047",
+        "date": "2026-10-31",
+        "type": "公式"
+      },
+      {
+        "name": "Bilibili公式・運営チーム声明",
+        "url": "https://www.bilibili.com/opus/1265260278391504905",
+        "date": "2026-10-31",
+        "type": "公式・当事者の主張"
+      },
+      {
+        "name": "IT之家・運営主体移管と双方の声明に関する報道",
+        "url": "https://www.ithome.com/1/020/674.htm",
+        "date": "2026-11-01",
+        "type": "報道"
+      },
+      {
+        "name": "界面新聞・Bilibiliの声明と開発チーム側の公告",
+        "url": "https://www.jiemian.com/article/15278576.html",
+        "date": "2026-11-01",
+        "type": "報道"
+      },
+      {
+        "name": "南方都市報（東方財富転載）・運営移管問題の続報",
+        "url": "https://finance.eastmoney.com/a/202611023918481826.html",
+        "date": "2026-11-02",
+        "type": "報道（当事者の主張を引用）"
+      }
+    ]
+  },
+  {
+    "id": "china-latest-20261023-petit-planet-preview-program",
+    "date": "2026-11-01",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "HoYoverse『プチプラネット』Switch 2版を2027年に発売へ　PC・スマホ版は12月4日",
+    "summary": "HoYoverseは11月1日のリリース予告番組でNintendo Switch 2版を2027年に発売予定と発表。PC・iOS・Android版は12月4日に全世界同時リリース、事前ダウンロードは12月1日。番組ではローンチイベントや各種特典も案内した。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000463.000096124.html",
+    "source": "HoYoverse / COGNOSPHERE公式発表",
+    "tags": [
+      "HoYoverse",
+      "プチプラネット",
+      "新作",
+      "リリース予告番組",
+      "PC",
+      "iOS",
+      "Android",
+      "事前登録",
+      "2026年12月4日",
+      "事前ダウンロード",
+      "正式リリース日",
+      "Nintendo Switch 2",
+      "2027年",
+      "ローンチ特典",
+      "2026年11月1日"
+    ],
+    "spoiler": false,
+    "body": "■ 10月30日、正式リリース日を発表\nHoYoverse / COGNOSPHEREは2026年10月30日、新作スローライフゲーム『プチプラネット』の正式リリース日を12月4日（金）と発表した。PC・iOS・Androidに対応し、事前ダウンロードは12月1日から。事前登録者には『星空ペンライト』『星の苗』が配布される。\n\n■ 11月1日20時からリリース予告番組\n開発チームとゲストがゲーム内容や今後のイベント・キャンペーンを紹介する。公式YouTubeとXで配信予定。正式リリース前の予定であり、配信開始・サービス稼働を確認したものではない。\n\n■ 発表と反応を区別\n本記事の配信日・事前DL・事前登録特典は公式発表に基づく。SNSでの賛否や人気の規模は独立検証していない。\n\n■ 11月1日、Nintendo Switch 2版を発表\nCOGNOSPHEREは11月1日20:50（日本時間）、リリース予告番組でNintendo Switch 2版を2027年に発売予定と発表した。Switch 2版は開発中で、実機プレイ映像や詳細は後日案内予定。PC・iOS・Android版は従来発表どおり12月4日に全世界同時リリース、事前ダウンロードは12月1日から。\n\n■ ローンチ時の特典も公開\n7日間ログインで「キュリオの海笛」10個、ルーカの樹をレベル30まで育てることで海笛10個を獲得できるローンチ報酬を案内。Switch 2版発表記念の公式Xキャンペーンも実施する。",
+    "timeline": [
+      {
+        "date": "2026年10月23日",
+        "text": "11月1日20時のリリース予告番組を告知。"
+      },
+      {
+        "date": "2026年10月30日",
+        "text": "HoYoverseが12月4日正式リリースと12月1日事前ダウンロードを発表。"
+      },
+      {
+        "date": "2026年12月1日",
+        "text": "事前ダウンロード開始予定。"
+      },
+      {
+        "date": "2026年12月4日",
+        "text": "PC・iOS・Androidで正式リリース予定。"
+      },
+      {
+        "date": "2026年11月1日 20:50 JST",
+        "text": "リリース予告番組でNintendo Switch 2版を2027年に発売予定と発表。PC・iOS・Android版は12月4日、事前ダウンロードは12月1日。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "COGNOSPHERE公式プレスリリース（配信日決定）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000461.000096124.html",
+        "date": "2026-10-30",
+        "type": "公式"
+      },
+      {
+        "name": "Petit Planet公式HoYoLAB（Release Date Reveal Trailer）",
+        "url": "https://www.hoyolab.com/article/47247395",
+        "date": "2026-10-30",
+        "type": "公式"
+      },
+      {
+        "name": "COGNOSPHERE公式プレスリリース（予告番組）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000457.000096124.html",
+        "date": "2026-10-23",
+        "type": "公式"
+      },
+      {
+        "name": "COGNOSPHERE公式プレスリリース（Nintendo Switch 2版・ローンチ情報）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000463.000096124.html",
+        "date": "2026-11-01",
+        "type": "公式"
+      }
+    ],
+    "story_id": "petit-planet-preview-program-20261101"
   },
   {
     "id": "wuwa-leak-20261031-v4x-lucille-preview",
@@ -1033,92 +1119,6 @@
         "url": "https://x.com/NTE_JP",
         "date": "2026-10-28",
         "type": "公式"
-      }
-    ]
-  },
-  {
-    "id": "china-latest-20261029-monster-hunter-outlanders-launch",
-    "date": "2026-11-02",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "TiMi『モンスターハンターアウトランダーズ』世界版、19か国・地域の無料ランキング1位　日本iOS売上2位と報道",
-    "summary": "Tencent傘下TiMi Studio Group開発の世界版は10月29日に正式サービス開始。中国メディアは初動について、19か国・地域の無料ランキング1位、34か国・地域でトップ10入り、日本のiOS売上ランキング2位と報道。いずれも報道時点のストア順位で、販売本数・売上額そのものではない。",
-    "url": "https://monsterhunteroutlanders.com/ja/news-frequently-asked-questions-faq-regarding-the-official-service-launch-of-monster-hunter-outlanders.html",
-    "source": "『モンスターハンターアウトランダーズ』公式 / Capcom",
-    "tags": [
-      "Tencent",
-      "TiMi Studio Group",
-      "Capcom",
-      "Monster Hunter Outlanders",
-      "モンスターハンター",
-      "正式サービス",
-      "iOS",
-      "Android",
-      "19か国無料ランキング1位",
-      "34か国トップ10",
-      "日本iOS売上ランキング2位",
-      "初動"
-    ],
-    "spoiler": false,
-    "story_id": "monster-hunter-outlanders-global-launch-20261029",
-    "body": "■ 10月29日に世界版が正式サービス開始\nTencent傘下TiMi Studio Groupが開発し、Capcomの正式ライセンスを受けた『モンスターハンターアウトランダーズ』が、iOS・Android向けに10月29日の正式サービス開始日を迎えた。基本プレイ無料でゲーム内課金を含む。中国本土版は2027年以降の配信予定。\n\n■ 公式FAQが推奨環境を案内\n10月28日公開の日本語公式FAQでは、推奨OSをiOS 17.0以降／Android 12.0以降、推奨端末をRAM 6GB以上のスマートフォン・タブレットとしている。コントローラーにも対応する。\n\n■ 既報との区別\n10月18日の世界事前登録1,300万件突破とは別の正式サービス開始情報。ストーリーや公開映像の核心には触れない。\n\n■ 世界版の初動ストアランキング（報道ベース）\n17173は11月2日、世界版が19か国・地域の無料ランキングで1位となり、日本ではiOS売上ランキング2位、無料ランキングでも首位を獲得したと報道した。快科技（MyDrivers）は10月30日、19か国・地域で無料ランキング1位、34か国・地域でトップ10入りしたと報じている。\n\n■ 数値の扱い\nこれらは各報道が紹介した配信初期のストア順位であり、販売本数、売上額、継続的な順位を示すものではない。順位の集計時点・対象ストアは報道ごとに異なるため、長期的な世界売上やアクティブユーザー数とは区別する。",
-    "timeline": [
-      {
-        "date": "2026年10月18日",
-        "text": "世界事前登録1,300万件突破を公式発表。"
-      },
-      {
-        "date": "2026年10月28日",
-        "text": "正式サービス開始FAQを公開し、推奨環境とコントローラー対応を案内。"
-      },
-      {
-        "date": "2026年10月29日",
-        "text": "iOS・Android向け世界版の正式サービス開始日。"
-      },
-      {
-        "date": "2026年10月30日",
-        "text": "快科技（MyDrivers）が、世界版の初動として19か国・地域の無料ランキング1位、34か国・地域でトップ10入りと報道。"
-      },
-      {
-        "date": "2026年11月2日",
-        "text": "17173が、19か国・地域の無料ランキング1位と日本のiOS売上ランキング2位を報道。いずれも報道時点のストア順位。"
-      },
-      {
-        "date": "2027年以降",
-        "text": "中国本土版を配信予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "日本語公式・正式サービス開始FAQ",
-        "url": "https://monsterhunteroutlanders.com/ja/news-frequently-asked-questions-faq-regarding-the-official-service-launch-of-monster-hunter-outlanders.html",
-        "date": "2026-10-28",
-        "type": "公式"
-      },
-      {
-        "name": "Capcom・配信日発表",
-        "url": "https://www.capcom.co.jp/ir/news/html/260929.html",
-        "date": "2026-09-29",
-        "type": "公式"
-      },
-      {
-        "name": "日本App Store・製品ページ",
-        "url": "https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814",
-        "date": "2026-10-29",
-        "type": "公式ストア"
-      },
-      {
-        "name": "17173・世界版の初動ランキング（19か国・日本iOS売上2位）",
-        "url": "https://news.17173.com/content/11022026/105820814.shtml",
-        "date": "2026-11-02",
-        "type": "報道"
-      },
-      {
-        "name": "快科技（MyDrivers）・19か国無料ランキング1位、34か国トップ10",
-        "url": "https://news.mydrivers.com/1/1161/1161949.htm",
-        "date": "2026-10-30",
-        "type": "報道"
       }
     ]
   },
