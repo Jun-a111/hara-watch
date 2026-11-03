@@ -1276,39 +1276,39 @@
   },
   {
     "id": "china-latest-20261028-where-winds-meet-hutuo-anniversary",
-    "date": "2026-10-28",
+    "date": "2026-11-03",
     "category": "中国ゲーム・最新",
-    "status": "公式発表",
+    "status": "公式配信・報道（報酬詳細は二次報道）",
     "lang": "JP",
-    "title": "NetEase『風燕伝：Where Winds Meet』、11月14日に1周年大型更新　新エリア「滹沱」を実装",
-    "summary": "NetEase GamesとEverstone Studioは、11月14日のグローバル版1周年に新エリア「滹沱」、新戦闘コンテンツ、野良首領、2種類のボードゲーム型モードを実装すると発表。11月下旬には袁和平氏監修の新武術「双槍」も追加予定。",
+    "title": "NetEase『風燕伝：Where Winds Meet』1周年記念報酬を公開　12着から衣装1着選択、召喚用アイテム42＋27個",
+    "summary": "11月3日の1周年記念番組で、11月13日UTC（日本時間11月14日）の周年更新「滹沱」で受け取れる報酬の概要が公開された。ログインで12着から衣装1着を選べるほか、Lingering Melodies 42個・Resonating Melodies 27個、11～12月に追加の無料衣装5着を予定。記念コード「1113HUTUOGO」も案内されたが、コードの報酬内容と有効期限は報道時点で未確認。",
     "url": "https://prtimes.jp/main/html/rd/p/000000688.000071247.html",
-    "source": "NetEase Games / PR TIMES",
+    "source": "NetEase Games / Everstone Studio公式配信・Daily Media報道",
     "tags": [
-      "NetEase",
+      "NetEase Games",
       "Everstone Studio",
       "風燕伝",
       "Where Winds Meet",
-      "燕雲十六声",
       "1周年",
-      "大型アップデート",
-      "滹沱"
+      "Hutuo",
+      "記念報酬",
+      "公式配信"
     ],
     "spoiler": false,
     "story_id": "where-winds-meet-hutuo-anniversary-update-20261028",
-    "body": "■ 11月14日にグローバル版1周年大型更新\nNetEase GamesとEverstone Studioは10月28日、『風燕伝：Where Winds Meet』のグローバル版1周年に合わせ、11月14日に新エリア「滹沱」を実装すると発表した。物語の核心には触れない。\n\n■ 戦闘とボードゲーム型コンテンツを追加\n新エリアには新たな戦闘コンテンツ、2体の野良首領、プレイヤー自身が盤上を移動する「打馬棋」、編成構築型の「江湖弈」を追加。1周年記念としてサービス開始以来最大規模とするゲーム内報酬も予定している。\n\n■ 袁和平氏監修の新武術は11月下旬\n11月下旬には、軽槍と重槍を切り替える新武術「双槍」を追加予定。映画アクション監督の袁和平氏が監修する。11月3日には1周年記念特別番組を配信し、更新内容の詳細を紹介する。",
+    "body": "■ 11月3日の1周年記念番組\n『Where Winds Meet』のグローバル版1周年記念特別番組を配信。番組内容をまとめた報道では、11月13日UTC（日本時間11月14日）の周年更新に向けたグローバル版の報酬が紹介された。\n\n■ グローバル版の周年報酬\n・更新後のログインで、対象の衣装12着から1着を選択可能。\n・Lingering Melodies 42個、Resonating Melodies 27個を、ゲーム内メール・イベント・記念ショップなどで獲得可能。\n・11月から12月にかけて、さらに無料衣装5着を追加予定。\n・記念コード「1113HUTUOGO」も案内。報道時点でコードの報酬内容と有効期限は明らかになっていない。\n※報酬の具体的な数量・内訳は公式配信内容をまとめた二次報道と照合。配布条件や交換経路はゲーム内告知で再確認が必要。\n\n■ 「滹沱」周年アップデート\n新エリア「滹沱」、戦闘コンテンツ、2種類のボードゲーム型モードを追加予定。新武術「双槍」は11月下旬予定で、袁和平氏がアクションを監修する。\n物語の核心や予告映像のネタバレは掲載しない。",
     "timeline": [
       {
         "date": "2026年10月28日",
-        "text": "1周年大型更新の内容を公式発表。"
+        "text": "NetEase Gamesが1周年大型更新「滹沱」と新コンテンツを公式発表。"
       },
       {
         "date": "2026年11月3日",
-        "text": "1周年記念特別番組を配信予定。"
+        "text": "1周年記念特別番組を配信。グローバル版の記念報酬を公開したと報道。"
       },
       {
-        "date": "2026年11月14日",
-        "text": "新エリア「滹沱」と1周年更新を実装予定。"
+        "date": "2026年11月13日 UTC／11月14日 JST",
+        "text": "新エリア「滹沱」と1周年アップデートを実装予定。"
       },
       {
         "date": "2026年11月下旬",
@@ -1317,16 +1317,34 @@
     ],
     "sources": [
       {
-        "name": "NetEase Games・日本語公式発表（PR TIMES）",
+        "name": "NetEase Games・日本語公式プレスリリース",
         "url": "https://prtimes.jp/main/html/rd/p/000000688.000071247.html",
         "date": "2026-10-28",
         "type": "公式"
       },
       {
-        "name": "1周年記念特別番組・公式YouTube",
+        "name": "Where Winds Meet・1st Anniversary Special Broadcast（公式YouTube／公式X告知リンク）",
+        "url": "https://www.youtube.com/live/ds8XJ4F0Moo?feature=share",
+        "date": "2026-11-03",
+        "type": "公式配信"
+      },
+      {
+        "name": "Where Winds Meet・1st Anniversary Special Preview Stream（PR TIMES告知記載URL）",
         "url": "https://youtube.com/live/u9Lppo3w_Mo?feature=share",
         "date": "2026-11-03",
-        "type": "公式"
+        "type": "公式配信"
+      },
+      {
+        "name": "Daily Media・グローバル版1周年報酬の報道",
+        "url": "https://daily-media.net/games/pc/where-winds-meet-jubilaeum-livestream-belohnungen-code",
+        "date": "2026-11-03",
+        "type": "報道"
+      },
+      {
+        "name": "PlayStation Blog・Hutuoアップデート紹介",
+        "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13/",
+        "date": "2026-10-27",
+        "type": "公式・開発者ブログ"
       }
     ]
   },
@@ -4989,5 +5007,82 @@
         "text": "Push Squareも『alleged censorship（検閲疑惑）』として取り上げ、問題の核心は“変更後そのもの”より、プレイヤーが元のデザインをすでに見ており、差分を明確に認識できた点にあると整理している。"
       }
     ]
+  },
+  {
+    "id": "china-industry-20261103-november-mobile-market-schedule",
+    "date": "2026-11-03",
+    "category": "中国ゲーム業界",
+    "status": "報道（不完全統計）",
+    "lang": "ZH",
+    "title": "11月の中国モバイル市場、27タイトルの新作配信・18タイトルの限定テスト予定と報道",
+    "summary": "Game Gyroは11月3日、独自の不完全集計として、中国モバイル市場で11月に27タイトルの新作配信と18タイトルの限定テストが予定されていると報道。中旬以降に配信・テストが集中し、二次元、MMO、サンドボックス生存、格闘などが目立つと分析した。全タイトルの確定スケジュールを網羅した公式統計ではない。",
+    "url": "https://cj.sina.com.cn/articles/view/2953054937/b0040ad900101rou4",
+    "source": "Game Gyro（新浪财经掲載）",
+    "tags": [
+      "中国ゲーム業界",
+      "中国モバイル市場",
+      "新作配信",
+      "限定テスト",
+      "2026年11月",
+      "市場動向"
+    ],
+    "spoiler": false,
+    "body": "■ 11月の配信・テスト予定を独自集計\n中国ゲーム業界メディアGame Gyroは2026年11月3日、独自の不完全集計として、11月に27タイトルの新作配信、18タイトルの限定テストが予定されていると報じた。\n\n■ 中旬以降に配信が集中\n同記事は、11月中旬から下旬にかけて配信予定が集中し、二次元、MMO、サンドボックス生存、格闘などのタイトルが並ぶと分析。ジャンルの複合化や、長期運営を意識したコンテンツ重視の設計も傾向として挙げた。\n\n■ 数値の扱い\n27タイトル・18テストは媒体独自の不完全集計であり、中国全体を網羅する公式統計ではない。予定段階の作品も含むため、実際の配信・テスト開始や延期は各タイトルの公式告知で確認する必要がある。",
+    "timeline": [
+      {
+        "date": "2026年11月3日",
+        "text": "Game Gyroが11月の中国モバイル新作・テスト予定の独自集計を公開。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Gyro・11月の新作配信／限定テスト市場レポート（新浪财经掲載）",
+        "url": "https://cj.sina.com.cn/articles/view/2953054937/b0040ad900101rou4",
+        "date": "2026-11-03",
+        "type": "報道・不完全統計"
+      }
+    ],
+    "story_id": "china-mobile-game-market-november-2026-schedule-20261103"
+  },
+  {
+    "id": "china-latest-20261030-lumi-master-trick-festival",
+    "date": "2026-10-30",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "EN",
+    "title": "Bilibili Game『Lumi Master』初のフェスティバル更新「Trick Festival」開始　限定マップ・8種の祭典Lumiを追加",
+    "summary": "Bilibili Gameは10月30日、『Lumi Master』のフェスティバル更新「Trick Festival」を開始。期間限定イベント「Headless Knight」は10月30日～11月12日。祭典マップ、ホーム機能の刷新、期間限定Lumi 8種、ミシック級のAura Lumi「Qing Long」を追加し、クリエイター向け報奨プログラム2.0も再開した。",
+    "url": "https://www.gamespress.com/ko-KR/Lumi-Master-Launches-Trick-Festival-Update-Sending-the-Headless-Knight",
+    "source": "Bilibili Game公式プレスリリース（Games Press掲載）",
+    "tags": [
+      "Bilibili Game",
+      "Lumi Master",
+      "Trick Festival",
+      "イベント更新",
+      "Qing Long",
+      "Creator Incentive Program",
+      "モバイルゲーム"
+    ],
+    "spoiler": false,
+    "body": "■ 初のフェスティバル更新「Trick Festival」\nBilibili Gameは2026年10月30日、モンスター収集型アドベンチャーRPG『Lumi Master』の季節イベント更新「Trick Festival」を開始した。期間限定イベント「The Headless Knight: Search for the Lost Head」は10月30日から11月12日まで開催。\n\n■ 期間限定マップとLumiを追加\n祭典専用マップ、季節装飾を追加したホーム機能の刷新、祭典テーマの限定Lumi 8種を実装。イベントでは日替わりボスに挑戦し、獲得したイベント通貨を衣装などと交換できる。\nミシック級のAura Lumi「Qing Long（青龍）」も登場。電気・ドラゴンの2タイプを持つ。\n\n■ クリエイター報奨プログラム2.0\n公式クリエイター向けプログラムを再開。応募条件をなくし、条件を満たす投稿には参加報酬を用意。再生数・反応の目標を達成した投稿者は、賞金プールや長期の公式クリエイター契約を目指せる。",
+    "timeline": [
+      {
+        "date": "2026年10月30日",
+        "text": "Trick Festival更新と期間限定イベントを開始。"
+      },
+      {
+        "date": "2026年11月12日",
+        "text": "「Headless Knight」期間限定イベント終了予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Bilibili Game公式プレスリリース（Games Press掲載）",
+        "url": "https://www.gamespress.com/ko-KR/Lumi-Master-Launches-Trick-Festival-Update-Sending-the-Headless-Knight",
+        "date": "2026-10-30",
+        "type": "公式"
+      }
+    ],
+    "story_id": "lumi-master-trick-festival-update-20261030"
   }
 ]
