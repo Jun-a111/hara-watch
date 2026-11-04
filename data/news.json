@@ -1,5 +1,227 @@
 [
   {
+    "id": "china-latest-20261104-yiren-zhixia-final-test",
+    "date": "2026-11-04",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "ZH",
+    "title": "Tencent『異人之下』終局テストが11月4日10時開始　PC・スマホ対応の期間限定データ消去テスト",
+    "summary": "Tencent魔方工作室群の3D格闘ゲーム『異人之下』は、公式TapTap告知で11月4日10:00に終局テストを開始。PC、Android、iOS、HarmonyOSに対応する期間限定のデータ消去テストで、終了時に進行データは消去。iOS・HarmonyOSではテスト中のチャージが未開放。",
+    "url": "https://www.taptap.cn/moment/866987280395407037?group_id=860863",
+    "source": "『異人之下』公式・TapTap公式フォーラム",
+    "tags": [
+      "Tencent",
+      "魔方工作室群",
+      "異人之下",
+      "一人之下",
+      "終局テスト",
+      "3D格闘ゲーム",
+      "PC",
+      "Android",
+      "iOS",
+      "HarmonyOS"
+    ],
+    "spoiler": false,
+    "body": "■ 11月4日10:00に終局テスト開始\nTencent魔方工作室群が開発する3D格闘ゲーム『異人之下』は、公式TapTapフォーラムで2026年11月4日10:00に「終局テスト」を開始したと告知した。テスト終了日は別途案内予定。\n\n■ テスト形式と対応機種\n本テストは期間限定のデータ消去テスト。PC、Android、iOS、HarmonyOSに対応し、テスト終了後は段位、キャラクター、装束、通貨などのゲームデータが消去される。テスト内容は開発中であり、正式版の品質を示すものではない。\n\n■ チャージに関する注意\n公式告知によると、機種側の方針によりiOS・HarmonyOSではテスト中のチャージが未開放。PCまたはAndroidではチャージ可能で、テスト期間中の累計チャージは正式サービス開始後に所定の返還ルールで返還される。\n\n■ 正式サービスとは区別\n今回の開始は正式リリースではなく、2026年12月の正式サービスに向けたテスト。正式版の配信日や内容が変更される可能性は残る。",
+    "timeline": [
+      {
+        "date": "2026年10月15日",
+        "text": "公式が終局テストの参加者募集を開始。11月4日の開始予定を告知。"
+      },
+      {
+        "date": "2026年11月4日 10:00（中国時間）",
+        "text": "公式TapTapフォーラムで終局テスト開始を告知。PC・Android・iOS・HarmonyOSに対応。"
+      },
+      {
+        "date": "2026年12月（予定）",
+        "text": "正式サービス開始予定。テスト開始告知では正式サービスの具体的な日付は未確定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『異人之下』公式・終局テスト開服公告（TapTap）",
+        "url": "https://www.taptap.cn/moment/866987280395407037?group_id=860863",
+        "date": "2026-11-04",
+        "type": "公式"
+      },
+      {
+        "name": "『異人之下』公式・終局テスト募集公告（TapTap）",
+        "url": "https://www.taptap.cn/moment/863272011575593360",
+        "date": "2026-10-24",
+        "type": "公式"
+      }
+    ],
+    "story_id": "yiren-zhixia-final-test-20261104"
+  },
+  {
+    "id": "china-latest-20261103-where-winds-meet-dlss5",
+    "date": "2026-11-03",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "NetEase『風燕伝：Where Winds Meet』DLSS 5対応日を発表　NVIDIAは11月23日、中国版は24日と報道",
+    "summary": "NVIDIAは11月3日、『Where Winds Meet』に3D-Guided Neural Rendering対応DLSS 5を11月23日から導入すると発表。IT之家は中国版11月24日、北米版11月23日と報道した。DLSS 5はRTX 50シリーズから対応し、RTX 40シリーズ対応は後日予定。",
+    "url": "https://www.nvidia.com/en-au/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/",
+    "source": "NVIDIA GeForce公式／NetEase Games公式発表／IT之家",
+    "tags": [
+      "NetEase Games",
+      "Everstone Studio",
+      "風燕伝",
+      "Where Winds Meet",
+      "NVIDIA",
+      "DLSS 5",
+      "3D-Guided Neural Rendering",
+      "RTX 50シリーズ"
+    ],
+    "spoiler": false,
+    "body": "■ NVIDIAが11月3日に対応日を具体化\nNVIDIAは2026年11月3日、武侠オープンワールドRPG『Where Winds Meet』に、3D-Guided Neural Renderingを用いたDLSS 5を11月23日から導入すると発表した。NVIDIAの説明では、ゲームエンジンが描画したフレームを基礎として、AIモデルが光や素材の表現を補強する。\n\n■ 中国版・北米版の日程\nIT之家は11月4日、中国版の実装を11月24日、北米版を11月23日と報道。NVIDIAの英語発表は11月23日を案内しているため、地域別日程は報道内容と分けて記録する。NetEaseの10月14日付公式発表は「11月下旬」としており、11月3日のNVIDIA発表で日付が具体化した。\n\n■ 対応GPU\nIT之家によると、初回はGeForce RTX 50シリーズが対象で、RTX 40シリーズへの対応は後日予定。DLSS 5は単なる解像度アップスケーリングではなく、3D-Guided Neural Renderingによる光・素材表現の再構成を含む。\n\n■ 既存の周年・Hutuo記事とは別件\n11月3日の1周年記念配信・Hutuoアップデートとは別の技術対応情報として新規記録。両者のstory_idは統合しない。",
+    "timeline": [
+      {
+        "date": "2026年10月14日",
+        "text": "NetEase GamesとEverstone StudioがDLSS 5対応を11月下旬に予定すると公式発表。"
+      },
+      {
+        "date": "2026年11月3日",
+        "text": "NVIDIAが『Where Winds Meet』のDLSS 5対応を11月23日からと発表。"
+      },
+      {
+        "date": "2026年11月4日",
+        "text": "IT之家が中国版11月24日、北米版11月23日と報道。地域別日程として区別して記録。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "NVIDIA GeForce公式・DLSS 5の対応タイトルと日程",
+        "url": "https://www.nvidia.com/en-au/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/",
+        "date": "2026-11-03",
+        "type": "公式"
+      },
+      {
+        "name": "NetEase Games / Everstone Studio公式プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000683.000071247.html",
+        "date": "2026-10-14",
+        "type": "公式"
+      },
+      {
+        "name": "IT之家・中国版11月24日実装の報道",
+        "url": "https://www.ithome.com/1/021/935.htm",
+        "date": "2026-11-04",
+        "type": "報道"
+      }
+    ],
+    "story_id": "where-winds-meet-dlss5-release-20261123"
+  },
+  {
+    "id": "china-latest-20261028-where-winds-meet-hutuo-anniversary",
+    "date": "2026-11-03",
+    "category": "中国ゲーム・最新",
+    "status": "公式配信・報道（報酬詳細は二次報道）",
+    "lang": "JP",
+    "title": "NetEase『風燕伝：Where Winds Meet』1周年記念報酬を公開　12着から衣装1着選択、召喚用アイテム42＋27個",
+    "summary": "11月3日の1周年記念番組で、11月13日UTC（日本時間11月14日）の周年更新「滹沱」で受け取れる報酬の概要が公開された。ログインで12着から衣装1着を選べるほか、Lingering Melodies 42個・Resonating Melodies 27個、11～12月に追加の無料衣装5着を予定。記念コード「1113HUTUOGO」も案内されたが、コードの報酬内容と有効期限は報道時点で未確認。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000688.000071247.html",
+    "source": "NetEase Games / Everstone Studio公式配信・Daily Media報道",
+    "tags": [
+      "NetEase Games",
+      "Everstone Studio",
+      "風燕伝",
+      "Where Winds Meet",
+      "1周年",
+      "Hutuo",
+      "記念報酬",
+      "公式配信"
+    ],
+    "spoiler": false,
+    "story_id": "where-winds-meet-hutuo-anniversary-update-20261028",
+    "body": "■ 11月3日の1周年記念番組\n『Where Winds Meet』のグローバル版1周年記念特別番組を配信。番組内容をまとめた報道では、11月13日UTC（日本時間11月14日）の周年更新に向けたグローバル版の報酬が紹介された。\n\n■ グローバル版の周年報酬\n・更新後のログインで、対象の衣装12着から1着を選択可能。\n・Lingering Melodies 42個、Resonating Melodies 27個を、ゲーム内メール・イベント・記念ショップなどで獲得可能。\n・11月から12月にかけて、さらに無料衣装5着を追加予定。\n・記念コード「1113HUTUOGO」も案内。報道時点でコードの報酬内容と有効期限は明らかになっていない。\n※報酬の具体的な数量・内訳は公式配信内容をまとめた二次報道と照合。配布条件や交換経路はゲーム内告知で再確認が必要。\n\n■ 「滹沱」周年アップデート\n新エリア「滹沱」、戦闘コンテンツ、2種類のボードゲーム型モードを追加予定。新武術「双槍」は11月下旬予定で、袁和平氏がアクションを監修する。\n物語の核心や予告映像のネタバレは掲載しない。",
+    "timeline": [
+      {
+        "date": "2026年10月28日",
+        "text": "NetEase Gamesが1周年大型更新「滹沱」と新コンテンツを公式発表。"
+      },
+      {
+        "date": "2026年11月3日",
+        "text": "1周年記念特別番組を配信。グローバル版の記念報酬を公開したと報道。"
+      },
+      {
+        "date": "2026年11月13日 UTC／11月14日 JST",
+        "text": "新エリア「滹沱」と1周年アップデートを実装予定。"
+      },
+      {
+        "date": "2026年11月下旬",
+        "text": "袁和平氏監修の新武術「双槍」を追加予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "NetEase Games・日本語公式プレスリリース",
+        "url": "https://prtimes.jp/main/html/rd/p/000000688.000071247.html",
+        "date": "2026-10-28",
+        "type": "公式"
+      },
+      {
+        "name": "Where Winds Meet・1st Anniversary Special Broadcast（公式YouTube／公式X告知リンク）",
+        "url": "https://www.youtube.com/live/ds8XJ4F0Moo?feature=share",
+        "date": "2026-11-03",
+        "type": "公式配信"
+      },
+      {
+        "name": "Where Winds Meet・1st Anniversary Special Preview Stream（PR TIMES告知記載URL）",
+        "url": "https://youtube.com/live/u9Lppo3w_Mo?feature=share",
+        "date": "2026-11-03",
+        "type": "公式配信"
+      },
+      {
+        "name": "Daily Media・グローバル版1周年報酬の報道",
+        "url": "https://daily-media.net/games/pc/where-winds-meet-jubilaeum-livestream-belohnungen-code",
+        "date": "2026-11-03",
+        "type": "報道"
+      },
+      {
+        "name": "PlayStation Blog・Hutuoアップデート紹介",
+        "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13/",
+        "date": "2026-10-27",
+        "type": "公式・開発者ブログ"
+      }
+    ]
+  },
+  {
+    "id": "china-industry-20261103-november-mobile-market-schedule",
+    "date": "2026-11-03",
+    "category": "中国ゲーム業界",
+    "status": "報道（不完全統計）",
+    "lang": "ZH",
+    "title": "11月の中国モバイル市場、27タイトルの新作配信・18タイトルの限定テスト予定と報道",
+    "summary": "Game Gyroは11月3日、独自の不完全集計として、中国モバイル市場で11月に27タイトルの新作配信と18タイトルの限定テストが予定されていると報道。中旬以降に配信・テストが集中し、二次元、MMO、サンドボックス生存、格闘などが目立つと分析した。全タイトルの確定スケジュールを網羅した公式統計ではない。",
+    "url": "https://cj.sina.com.cn/articles/view/2953054937/b0040ad900101rou4",
+    "source": "Game Gyro（新浪财经掲載）",
+    "tags": [
+      "中国ゲーム業界",
+      "中国モバイル市場",
+      "新作配信",
+      "限定テスト",
+      "2026年11月",
+      "市場動向"
+    ],
+    "spoiler": false,
+    "body": "■ 11月の配信・テスト予定を独自集計\n中国ゲーム業界メディアGame Gyroは2026年11月3日、独自の不完全集計として、11月に27タイトルの新作配信、18タイトルの限定テストが予定されていると報じた。\n\n■ 中旬以降に配信が集中\n同記事は、11月中旬から下旬にかけて配信予定が集中し、二次元、MMO、サンドボックス生存、格闘などのタイトルが並ぶと分析。ジャンルの複合化や、長期運営を意識したコンテンツ重視の設計も傾向として挙げた。\n\n■ 数値の扱い\n27タイトル・18テストは媒体独自の不完全集計であり、中国全体を網羅する公式統計ではない。予定段階の作品も含むため、実際の配信・テスト開始や延期は各タイトルの公式告知で確認する必要がある。",
+    "timeline": [
+      {
+        "date": "2026年11月3日",
+        "text": "Game Gyroが11月の中国モバイル新作・テスト予定の独自集計を公開。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Game Gyro・11月の新作配信／限定テスト市場レポート（新浪财经掲載）",
+        "url": "https://cj.sina.com.cn/articles/view/2953054937/b0040ad900101rou4",
+        "date": "2026-11-03",
+        "type": "報道・不完全統計"
+      }
+    ],
+    "story_id": "china-mobile-game-market-november-2026-schedule-20261103"
+  },
+  {
     "id": "china-industry-20261102-delta-force-season-aurora",
     "date": "2026-11-03",
     "category": "中国ゲーム業界",
@@ -569,6 +791,43 @@
     "story_id": "thailand-game-awards-2026-chinese-studios-20261102"
   },
   {
+    "id": "china-industry-20261102-china-ip-popup-market-report",
+    "date": "2026-11-02",
+    "category": "中国ゲーム業界",
+    "status": "報道",
+    "lang": "JP",
+    "title": "中国IPポップアップ市場、2026年夏は売上減少　342イベント調査で14社中9社が減収",
+    "summary": "Gamebizが紹介した中国調査会社・雷報のレポートによると、2026年夏に中国9都市で342件のIPポップアップを集計。14社中9社で売上減少が見られ、上海の大型催事も前年同期比17%減。過剰供給と企業間の明暗を分析する内容だが、Gamebizは原資料の数値誤植等を修正せず紹介していると注記。",
+    "url": "https://gamebiz.jp/news/434922",
+    "source": "gamebiz・中国最新レポート（雷報調査の紹介）",
+    "tags": [
+      "中国ゲーム業界",
+      "中国IP市場",
+      "IPポップアップ",
+      "雷報",
+      "ゲーム・アニメIP",
+      "市場調査",
+      "ライセンスビジネス"
+    ],
+    "spoiler": false,
+    "body": "■ 中国9都市のIPポップアップ342件を集計\nGamebizが2026年11月2日に掲載した中国最新レポートは、中国調査会社「雷報」の調査を紹介。北京・上海・広州・深圳・杭州・成都・重慶・南京・武漢の9都市で、2026年夏休み期間中に開催されたIPポップアップ342件を集計した。上海だけで135件に達したという。\n\n■ イベント数が増えても売上は減少\nレポートによると、上海・静安大悦城の大型催事では、2026年のポップアップ全体売上が7,300万元超。2025年の8,800万元超に比べて約17%減となった。2026年は開催件数や「全国初開催」のIPが増えた一方、1イベント当たりの収益性が低下したと分析している。\n\n■ IP権利者14社中9社で売上減\n雷報が集計したIPライセンス関連14社のうち、少なくとも9社で売上高が前年同期比で減少。過剰供給、消費市場の低迷、IP人気のピークアウトなどが要因として挙げられた。一方、阿里魚やサンリオ中国など、IP企画・運営・小売まで関与する企業は成長例として紹介されている。\n\n■ 数値の取り扱いに注意\nGamebizは、元記事が雷報の視点によるIPリテーラー調査であり、数字の誤植や版権理解の違いを修正せず掲載すると明記している。中国ゲーム業界全体の公式統計ではなく、アニメ・漫画等を含むIPポップアップ市場の調査として扱う。",
+    "timeline": [
+      {
+        "date": "2026年11月2日",
+        "text": "Gamebizが雷報の中国IPポップアップ市場レポートを紹介。9都市342件の集計と、2026年夏の売上減少・企業間格差を掲載。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "gamebiz・中国最新レポート後編（雷報調査の紹介）",
+        "url": "https://gamebiz.jp/news/434922",
+        "date": "2026-11-02",
+        "type": "報道・市場調査"
+      }
+    ],
+    "story_id": "china-ip-popup-market-saturation-20261102"
+  },
+  {
     "id": "china-industry-20261101-wuhua-mixin-operator-transfer",
     "date": "2026-11-02",
     "category": "中国ゲーム業界",
@@ -928,6 +1187,47 @@
     ]
   },
   {
+    "id": "china-latest-20261030-lumi-master-trick-festival",
+    "date": "2026-10-30",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "EN",
+    "title": "Bilibili Game『Lumi Master』初のフェスティバル更新「Trick Festival」開始　限定マップ・8種の祭典Lumiを追加",
+    "summary": "Bilibili Gameは10月30日、『Lumi Master』のフェスティバル更新「Trick Festival」を開始。期間限定イベント「Headless Knight」は10月30日～11月12日。祭典マップ、ホーム機能の刷新、期間限定Lumi 8種、ミシック級のAura Lumi「Qing Long」を追加し、クリエイター向け報奨プログラム2.0も再開した。",
+    "url": "https://www.gamespress.com/ko-KR/Lumi-Master-Launches-Trick-Festival-Update-Sending-the-Headless-Knight",
+    "source": "Bilibili Game公式プレスリリース（Games Press掲載）",
+    "tags": [
+      "Bilibili Game",
+      "Lumi Master",
+      "Trick Festival",
+      "イベント更新",
+      "Qing Long",
+      "Creator Incentive Program",
+      "モバイルゲーム"
+    ],
+    "spoiler": false,
+    "body": "■ 初のフェスティバル更新「Trick Festival」\nBilibili Gameは2026年10月30日、モンスター収集型アドベンチャーRPG『Lumi Master』の季節イベント更新「Trick Festival」を開始した。期間限定イベント「The Headless Knight: Search for the Lost Head」は10月30日から11月12日まで開催。\n\n■ 期間限定マップとLumiを追加\n祭典専用マップ、季節装飾を追加したホーム機能の刷新、祭典テーマの限定Lumi 8種を実装。イベントでは日替わりボスに挑戦し、獲得したイベント通貨を衣装などと交換できる。\nミシック級のAura Lumi「Qing Long（青龍）」も登場。電気・ドラゴンの2タイプを持つ。\n\n■ クリエイター報奨プログラム2.0\n公式クリエイター向けプログラムを再開。応募条件をなくし、条件を満たす投稿には参加報酬を用意。再生数・反応の目標を達成した投稿者は、賞金プールや長期の公式クリエイター契約を目指せる。",
+    "timeline": [
+      {
+        "date": "2026年10月30日",
+        "text": "Trick Festival更新と期間限定イベントを開始。"
+      },
+      {
+        "date": "2026年11月12日",
+        "text": "「Headless Knight」期間限定イベント終了予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Bilibili Game公式プレスリリース（Games Press掲載）",
+        "url": "https://www.gamespress.com/ko-KR/Lumi-Master-Launches-Trick-Festival-Update-Sending-the-Headless-Knight",
+        "date": "2026-10-30",
+        "type": "公式"
+      }
+    ],
+    "story_id": "lumi-master-trick-festival-update-20261030"
+  },
+  {
     "id": "china-latest-20261030-infinity-nikki-v211",
     "date": "2026-10-30",
     "category": "中国ゲーム・最新",
@@ -1279,80 +1579,6 @@
         "url": "https://www.yicai.com/brief/103412938.html",
         "date": "2026-10-28",
         "type": "報道"
-      }
-    ]
-  },
-  {
-    "id": "china-latest-20261028-where-winds-meet-hutuo-anniversary",
-    "date": "2026-11-03",
-    "category": "中国ゲーム・最新",
-    "status": "公式配信・報道（報酬詳細は二次報道）",
-    "lang": "JP",
-    "title": "NetEase『風燕伝：Where Winds Meet』1周年記念報酬を公開　12着から衣装1着選択、召喚用アイテム42＋27個",
-    "summary": "11月3日の1周年記念番組で、11月13日UTC（日本時間11月14日）の周年更新「滹沱」で受け取れる報酬の概要が公開された。ログインで12着から衣装1着を選べるほか、Lingering Melodies 42個・Resonating Melodies 27個、11～12月に追加の無料衣装5着を予定。記念コード「1113HUTUOGO」も案内されたが、コードの報酬内容と有効期限は報道時点で未確認。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000688.000071247.html",
-    "source": "NetEase Games / Everstone Studio公式配信・Daily Media報道",
-    "tags": [
-      "NetEase Games",
-      "Everstone Studio",
-      "風燕伝",
-      "Where Winds Meet",
-      "1周年",
-      "Hutuo",
-      "記念報酬",
-      "公式配信"
-    ],
-    "spoiler": false,
-    "story_id": "where-winds-meet-hutuo-anniversary-update-20261028",
-    "body": "■ 11月3日の1周年記念番組\n『Where Winds Meet』のグローバル版1周年記念特別番組を配信。番組内容をまとめた報道では、11月13日UTC（日本時間11月14日）の周年更新に向けたグローバル版の報酬が紹介された。\n\n■ グローバル版の周年報酬\n・更新後のログインで、対象の衣装12着から1着を選択可能。\n・Lingering Melodies 42個、Resonating Melodies 27個を、ゲーム内メール・イベント・記念ショップなどで獲得可能。\n・11月から12月にかけて、さらに無料衣装5着を追加予定。\n・記念コード「1113HUTUOGO」も案内。報道時点でコードの報酬内容と有効期限は明らかになっていない。\n※報酬の具体的な数量・内訳は公式配信内容をまとめた二次報道と照合。配布条件や交換経路はゲーム内告知で再確認が必要。\n\n■ 「滹沱」周年アップデート\n新エリア「滹沱」、戦闘コンテンツ、2種類のボードゲーム型モードを追加予定。新武術「双槍」は11月下旬予定で、袁和平氏がアクションを監修する。\n物語の核心や予告映像のネタバレは掲載しない。",
-    "timeline": [
-      {
-        "date": "2026年10月28日",
-        "text": "NetEase Gamesが1周年大型更新「滹沱」と新コンテンツを公式発表。"
-      },
-      {
-        "date": "2026年11月3日",
-        "text": "1周年記念特別番組を配信。グローバル版の記念報酬を公開したと報道。"
-      },
-      {
-        "date": "2026年11月13日 UTC／11月14日 JST",
-        "text": "新エリア「滹沱」と1周年アップデートを実装予定。"
-      },
-      {
-        "date": "2026年11月下旬",
-        "text": "袁和平氏監修の新武術「双槍」を追加予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "NetEase Games・日本語公式プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000000688.000071247.html",
-        "date": "2026-10-28",
-        "type": "公式"
-      },
-      {
-        "name": "Where Winds Meet・1st Anniversary Special Broadcast（公式YouTube／公式X告知リンク）",
-        "url": "https://www.youtube.com/live/ds8XJ4F0Moo?feature=share",
-        "date": "2026-11-03",
-        "type": "公式配信"
-      },
-      {
-        "name": "Where Winds Meet・1st Anniversary Special Preview Stream（PR TIMES告知記載URL）",
-        "url": "https://youtube.com/live/u9Lppo3w_Mo?feature=share",
-        "date": "2026-11-03",
-        "type": "公式配信"
-      },
-      {
-        "name": "Daily Media・グローバル版1周年報酬の報道",
-        "url": "https://daily-media.net/games/pc/where-winds-meet-jubilaeum-livestream-belohnungen-code",
-        "date": "2026-11-03",
-        "type": "報道"
-      },
-      {
-        "name": "PlayStation Blog・Hutuoアップデート紹介",
-        "url": "https://blog.playstation.com/2026/10/27/where-winds-meets-climactic-hutuo-battlefield-narrative-arc-revealed-out-nov-13/",
-        "date": "2026-10-27",
-        "type": "公式・開発者ブログ"
       }
     ]
   },
@@ -5015,231 +5241,5 @@
         "text": "Push Squareも『alleged censorship（検閲疑惑）』として取り上げ、問題の核心は“変更後そのもの”より、プレイヤーが元のデザインをすでに見ており、差分を明確に認識できた点にあると整理している。"
       }
     ]
-  },
-  {
-    "id": "china-industry-20261103-november-mobile-market-schedule",
-    "date": "2026-11-03",
-    "category": "中国ゲーム業界",
-    "status": "報道（不完全統計）",
-    "lang": "ZH",
-    "title": "11月の中国モバイル市場、27タイトルの新作配信・18タイトルの限定テスト予定と報道",
-    "summary": "Game Gyroは11月3日、独自の不完全集計として、中国モバイル市場で11月に27タイトルの新作配信と18タイトルの限定テストが予定されていると報道。中旬以降に配信・テストが集中し、二次元、MMO、サンドボックス生存、格闘などが目立つと分析した。全タイトルの確定スケジュールを網羅した公式統計ではない。",
-    "url": "https://cj.sina.com.cn/articles/view/2953054937/b0040ad900101rou4",
-    "source": "Game Gyro（新浪财经掲載）",
-    "tags": [
-      "中国ゲーム業界",
-      "中国モバイル市場",
-      "新作配信",
-      "限定テスト",
-      "2026年11月",
-      "市場動向"
-    ],
-    "spoiler": false,
-    "body": "■ 11月の配信・テスト予定を独自集計\n中国ゲーム業界メディアGame Gyroは2026年11月3日、独自の不完全集計として、11月に27タイトルの新作配信、18タイトルの限定テストが予定されていると報じた。\n\n■ 中旬以降に配信が集中\n同記事は、11月中旬から下旬にかけて配信予定が集中し、二次元、MMO、サンドボックス生存、格闘などのタイトルが並ぶと分析。ジャンルの複合化や、長期運営を意識したコンテンツ重視の設計も傾向として挙げた。\n\n■ 数値の扱い\n27タイトル・18テストは媒体独自の不完全集計であり、中国全体を網羅する公式統計ではない。予定段階の作品も含むため、実際の配信・テスト開始や延期は各タイトルの公式告知で確認する必要がある。",
-    "timeline": [
-      {
-        "date": "2026年11月3日",
-        "text": "Game Gyroが11月の中国モバイル新作・テスト予定の独自集計を公開。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Game Gyro・11月の新作配信／限定テスト市場レポート（新浪财经掲載）",
-        "url": "https://cj.sina.com.cn/articles/view/2953054937/b0040ad900101rou4",
-        "date": "2026-11-03",
-        "type": "報道・不完全統計"
-      }
-    ],
-    "story_id": "china-mobile-game-market-november-2026-schedule-20261103"
-  },
-  {
-    "id": "china-latest-20261030-lumi-master-trick-festival",
-    "date": "2026-10-30",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "EN",
-    "title": "Bilibili Game『Lumi Master』初のフェスティバル更新「Trick Festival」開始　限定マップ・8種の祭典Lumiを追加",
-    "summary": "Bilibili Gameは10月30日、『Lumi Master』のフェスティバル更新「Trick Festival」を開始。期間限定イベント「Headless Knight」は10月30日～11月12日。祭典マップ、ホーム機能の刷新、期間限定Lumi 8種、ミシック級のAura Lumi「Qing Long」を追加し、クリエイター向け報奨プログラム2.0も再開した。",
-    "url": "https://www.gamespress.com/ko-KR/Lumi-Master-Launches-Trick-Festival-Update-Sending-the-Headless-Knight",
-    "source": "Bilibili Game公式プレスリリース（Games Press掲載）",
-    "tags": [
-      "Bilibili Game",
-      "Lumi Master",
-      "Trick Festival",
-      "イベント更新",
-      "Qing Long",
-      "Creator Incentive Program",
-      "モバイルゲーム"
-    ],
-    "spoiler": false,
-    "body": "■ 初のフェスティバル更新「Trick Festival」\nBilibili Gameは2026年10月30日、モンスター収集型アドベンチャーRPG『Lumi Master』の季節イベント更新「Trick Festival」を開始した。期間限定イベント「The Headless Knight: Search for the Lost Head」は10月30日から11月12日まで開催。\n\n■ 期間限定マップとLumiを追加\n祭典専用マップ、季節装飾を追加したホーム機能の刷新、祭典テーマの限定Lumi 8種を実装。イベントでは日替わりボスに挑戦し、獲得したイベント通貨を衣装などと交換できる。\nミシック級のAura Lumi「Qing Long（青龍）」も登場。電気・ドラゴンの2タイプを持つ。\n\n■ クリエイター報奨プログラム2.0\n公式クリエイター向けプログラムを再開。応募条件をなくし、条件を満たす投稿には参加報酬を用意。再生数・反応の目標を達成した投稿者は、賞金プールや長期の公式クリエイター契約を目指せる。",
-    "timeline": [
-      {
-        "date": "2026年10月30日",
-        "text": "Trick Festival更新と期間限定イベントを開始。"
-      },
-      {
-        "date": "2026年11月12日",
-        "text": "「Headless Knight」期間限定イベント終了予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Bilibili Game公式プレスリリース（Games Press掲載）",
-        "url": "https://www.gamespress.com/ko-KR/Lumi-Master-Launches-Trick-Festival-Update-Sending-the-Headless-Knight",
-        "date": "2026-10-30",
-        "type": "公式"
-      }
-    ],
-    "story_id": "lumi-master-trick-festival-update-20261030"
-  },
-  {
-    "id": "china-latest-20261103-where-winds-meet-dlss5",
-    "date": "2026-11-03",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "NetEase『風燕伝：Where Winds Meet』DLSS 5対応日を発表　NVIDIAは11月23日、中国版は24日と報道",
-    "summary": "NVIDIAは11月3日、『Where Winds Meet』に3D-Guided Neural Rendering対応DLSS 5を11月23日から導入すると発表。IT之家は中国版11月24日、北米版11月23日と報道した。DLSS 5はRTX 50シリーズから対応し、RTX 40シリーズ対応は後日予定。",
-    "url": "https://www.nvidia.com/en-au/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/",
-    "source": "NVIDIA GeForce公式／NetEase Games公式発表／IT之家",
-    "tags": [
-      "NetEase Games",
-      "Everstone Studio",
-      "風燕伝",
-      "Where Winds Meet",
-      "NVIDIA",
-      "DLSS 5",
-      "3D-Guided Neural Rendering",
-      "RTX 50シリーズ"
-    ],
-    "spoiler": false,
-    "body": "■ NVIDIAが11月3日に対応日を具体化\nNVIDIAは2026年11月3日、武侠オープンワールドRPG『Where Winds Meet』に、3D-Guided Neural Renderingを用いたDLSS 5を11月23日から導入すると発表した。NVIDIAの説明では、ゲームエンジンが描画したフレームを基礎として、AIモデルが光や素材の表現を補強する。\n\n■ 中国版・北米版の日程\nIT之家は11月4日、中国版の実装を11月24日、北米版を11月23日と報道。NVIDIAの英語発表は11月23日を案内しているため、地域別日程は報道内容と分けて記録する。NetEaseの10月14日付公式発表は「11月下旬」としており、11月3日のNVIDIA発表で日付が具体化した。\n\n■ 対応GPU\nIT之家によると、初回はGeForce RTX 50シリーズが対象で、RTX 40シリーズへの対応は後日予定。DLSS 5は単なる解像度アップスケーリングではなく、3D-Guided Neural Renderingによる光・素材表現の再構成を含む。\n\n■ 既存の周年・Hutuo記事とは別件\n11月3日の1周年記念配信・Hutuoアップデートとは別の技術対応情報として新規記録。両者のstory_idは統合しない。",
-    "timeline": [
-      {
-        "date": "2026年10月14日",
-        "text": "NetEase GamesとEverstone StudioがDLSS 5対応を11月下旬に予定すると公式発表。"
-      },
-      {
-        "date": "2026年11月3日",
-        "text": "NVIDIAが『Where Winds Meet』のDLSS 5対応を11月23日からと発表。"
-      },
-      {
-        "date": "2026年11月4日",
-        "text": "IT之家が中国版11月24日、北米版11月23日と報道。地域別日程として区別して記録。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "NVIDIA GeForce公式・DLSS 5の対応タイトルと日程",
-        "url": "https://www.nvidia.com/en-au/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/",
-        "date": "2026-11-03",
-        "type": "公式"
-      },
-      {
-        "name": "NetEase Games / Everstone Studio公式プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000000683.000071247.html",
-        "date": "2026-10-14",
-        "type": "公式"
-      },
-      {
-        "name": "IT之家・中国版11月24日実装の報道",
-        "url": "https://www.ithome.com/1/021/935.htm",
-        "date": "2026-11-04",
-        "type": "報道"
-      }
-    ],
-    "story_id": "where-winds-meet-dlss5-release-20261123"
-  },
-  {
-    "id": "china-industry-20261102-china-ip-popup-market-report",
-    "date": "2026-11-02",
-    "category": "中国ゲーム業界",
-    "status": "報道",
-    "lang": "JP",
-    "title": "中国IPポップアップ市場、2026年夏は売上減少　342イベント調査で14社中9社が減収",
-    "summary": "Gamebizが紹介した中国調査会社・雷報のレポートによると、2026年夏に中国9都市で342件のIPポップアップを集計。14社中9社で売上減少が見られ、上海の大型催事も前年同期比17%減。過剰供給と企業間の明暗を分析する内容だが、Gamebizは原資料の数値誤植等を修正せず紹介していると注記。",
-    "url": "https://gamebiz.jp/news/434922",
-    "source": "gamebiz・中国最新レポート（雷報調査の紹介）",
-    "tags": [
-      "中国ゲーム業界",
-      "中国IP市場",
-      "IPポップアップ",
-      "雷報",
-      "ゲーム・アニメIP",
-      "市場調査",
-      "ライセンスビジネス"
-    ],
-    "spoiler": false,
-    "body": "■ 中国9都市のIPポップアップ342件を集計\nGamebizが2026年11月2日に掲載した中国最新レポートは、中国調査会社「雷報」の調査を紹介。北京・上海・広州・深圳・杭州・成都・重慶・南京・武漢の9都市で、2026年夏休み期間中に開催されたIPポップアップ342件を集計した。上海だけで135件に達したという。\n\n■ イベント数が増えても売上は減少\nレポートによると、上海・静安大悦城の大型催事では、2026年のポップアップ全体売上が7,300万元超。2025年の8,800万元超に比べて約17%減となった。2026年は開催件数や「全国初開催」のIPが増えた一方、1イベント当たりの収益性が低下したと分析している。\n\n■ IP権利者14社中9社で売上減\n雷報が集計したIPライセンス関連14社のうち、少なくとも9社で売上高が前年同期比で減少。過剰供給、消費市場の低迷、IP人気のピークアウトなどが要因として挙げられた。一方、阿里魚やサンリオ中国など、IP企画・運営・小売まで関与する企業は成長例として紹介されている。\n\n■ 数値の取り扱いに注意\nGamebizは、元記事が雷報の視点によるIPリテーラー調査であり、数字の誤植や版権理解の違いを修正せず掲載すると明記している。中国ゲーム業界全体の公式統計ではなく、アニメ・漫画等を含むIPポップアップ市場の調査として扱う。",
-    "timeline": [
-      {
-        "date": "2026年11月2日",
-        "text": "Gamebizが雷報の中国IPポップアップ市場レポートを紹介。9都市342件の集計と、2026年夏の売上減少・企業間格差を掲載。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "gamebiz・中国最新レポート後編（雷報調査の紹介）",
-        "url": "https://gamebiz.jp/news/434922",
-        "date": "2026-11-02",
-        "type": "報道・市場調査"
-      }
-    ],
-    "story_id": "china-ip-popup-market-saturation-20261102"
-  },
-  {
-    "id": "china-latest-20261104-yiren-zhixia-final-test",
-    "date": "2026-11-04",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "ZH",
-    "title": "Tencent『異人之下』終局テストが11月4日10時開始　PC・スマホ対応の期間限定データ消去テスト",
-    "summary": "Tencent魔方工作室群の3D格闘ゲーム『異人之下』は、公式TapTap告知で11月4日10:00に終局テストを開始。PC、Android、iOS、HarmonyOSに対応する期間限定のデータ消去テストで、終了時に進行データは消去。iOS・HarmonyOSではテスト中のチャージが未開放。",
-    "url": "https://www.taptap.cn/moment/866987280395407037?group_id=860863",
-    "source": "『異人之下』公式・TapTap公式フォーラム",
-    "tags": [
-      "Tencent",
-      "魔方工作室群",
-      "異人之下",
-      "一人之下",
-      "終局テスト",
-      "3D格闘ゲーム",
-      "PC",
-      "Android",
-      "iOS",
-      "HarmonyOS"
-    ],
-    "spoiler": false,
-    "body": "■ 11月4日10:00に終局テスト開始\nTencent魔方工作室群が開発する3D格闘ゲーム『異人之下』は、公式TapTapフォーラムで2026年11月4日10:00に「終局テスト」を開始したと告知した。テスト終了日は別途案内予定。\n\n■ テスト形式と対応機種\n本テストは期間限定のデータ消去テスト。PC、Android、iOS、HarmonyOSに対応し、テスト終了後は段位、キャラクター、装束、通貨などのゲームデータが消去される。テスト内容は開発中であり、正式版の品質を示すものではない。\n\n■ チャージに関する注意\n公式告知によると、機種側の方針によりiOS・HarmonyOSではテスト中のチャージが未開放。PCまたはAndroidではチャージ可能で、テスト期間中の累計チャージは正式サービス開始後に所定の返還ルールで返還される。\n\n■ 正式サービスとは区別\n今回の開始は正式リリースではなく、2026年12月の正式サービスに向けたテスト。正式版の配信日や内容が変更される可能性は残る。",
-    "timeline": [
-      {
-        "date": "2026年10月15日",
-        "text": "公式が終局テストの参加者募集を開始。11月4日の開始予定を告知。"
-      },
-      {
-        "date": "2026年11月4日 10:00（中国時間）",
-        "text": "公式TapTapフォーラムで終局テスト開始を告知。PC・Android・iOS・HarmonyOSに対応。"
-      },
-      {
-        "date": "2026年12月（予定）",
-        "text": "正式サービス開始予定。テスト開始告知では正式サービスの具体的な日付は未確定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『異人之下』公式・終局テスト開服公告（TapTap）",
-        "url": "https://www.taptap.cn/moment/866987280395407037?group_id=860863",
-        "date": "2026-11-04",
-        "type": "公式"
-      },
-      {
-        "name": "『異人之下』公式・終局テスト募集公告（TapTap）",
-        "url": "https://www.taptap.cn/moment/863272011575593360",
-        "date": "2026-10-24",
-        "type": "公式"
-      }
-    ],
-    "story_id": "yiren-zhixia-final-test-20261104"
   }
 ]
