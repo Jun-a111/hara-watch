@@ -54,6 +54,55 @@
     "story_id": "yiren-zhixia-final-test-20261104"
   },
   {
+    "id": "china-industry-20261104-amc-yodo1-ip-licensing",
+    "date": "2026-11-04",
+    "category": "中国ゲーム業界",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "Yodo1、AMCと戦略的IPライセンス提携　中国ゲーム開発会社向けに「ウォーキング・デッド」などのIPを開放",
+    "summary": "AMC Global MediaとYodo1 Gamesは11月4日、戦略的なデジタルライセンス提携を発表。Yodo1 LicensingがAMCの窓口となり、中国のゲーム開発会社・パブリッシャーと「ウォーキング・デッド」シリーズやアン・ライスの「イモータル・ユニバース」などのIPを使ったゲーム開発・世界展開を支援する。参加する開発会社や個別タイトルは未発表。",
+    "url": "https://yodo1.cn/cn/blog/amc-yodo1-licensing-partnership",
+    "source": "Yodo1公式発表／AMC Global Media／Games Press",
+    "tags": [
+      "Yodo1",
+      "AMC Global Media",
+      "IPライセンス",
+      "中国ゲーム開発",
+      "海外展開",
+      "The Walking Dead",
+      "Interview with the Vampire"
+    ],
+    "spoiler": false,
+    "body": "■ 11月4日に戦略的ライセンス提携を発表\nAMC Global MediaとYodo1 Gamesは2026年11月4日、デジタルライセンス分野で戦略的提携を発表した。Yodo1 LicensingがAMCのライセンス窓口となり、中国のゲーム開発会社・パブリッシャーを発掘、支援する。\n\n■ 対象IPと目的\n対象には「The Walking Dead」シリーズと、アン・ライス作品を基にした「Immortal Universe」が含まれる。中国の開発会社がこれらのIPを使ったゲームを企画・開発し、世界市場向けに展開するため、企画提案、IP統合、ライセンス調整、グローバル展開までをYodo1が支援する。\n\n■ 現時点で未発表の事項\n今回発表されたのはライセンス提携の枠組み。参加する中国の開発会社、具体的なゲームタイトル、開発開始時期、対応プラットフォーム、配信時期は発表されていない。特定の新作がすでに開発中・発売決定したものとして扱わない。\n\n■ 業界上の意味\n海外IP保有企業と、中国の開発・運営会社をつなぎ、最初から世界市場を視野に入れたゲーム化を支援する取り組み。Yodo1はHasbro、Paramount、CD PROJEKT REDなどとのIP協業実績も紹介している。",
+    "timeline": [
+      {
+        "date": "2026年11月4日",
+        "text": "AMC Global MediaとYodo1 Gamesが戦略的デジタルライセンス提携を発表。Yodo1 Licensingが中国のゲーム開発会社・パブリッシャー向けのAMC IPライセンス窓口を担う。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Yodo1公式発表・AMCとのIPライセンス提携",
+        "url": "https://yodo1.cn/cn/blog/amc-yodo1-licensing-partnership",
+        "date": "2026-11-04",
+        "type": "公式"
+      },
+      {
+        "name": "Games Press・AMC Global Media and Yodo1 Partner to Bring Leading IP to Chinese Game Developers",
+        "url": "https://www.gamespress.com/uk-UA/AMC-Global-Media-and-Yodo1-Partner-to-Bring-Leading-IP-to-Chinese-Game",
+        "date": "2026-11-04",
+        "type": "公式プレスリリース配信"
+      },
+      {
+        "name": "GamesBeat・AMCとYodo1の中国ゲーム開発会社向け提携報道",
+        "url": "https://gamesbeat.com/amc-global-media-and-yodo1-partner-to-bring-ip-to-chinese-game-developers-for-worldwide-collaborations/",
+        "date": "2026-11-04",
+        "type": "報道"
+      }
+    ],
+    "story_id": "amc-yodo1-china-game-ip-licensing-partnership-20261104"
+  },
+  {
     "id": "china-latest-20261103-where-winds-meet-dlss5",
     "date": "2026-11-03",
     "category": "中国ゲーム・最新",
@@ -900,6 +949,82 @@
         "type": "報道（当事者の主張を引用）"
       }
     ]
+  },
+  {
+    "id": "china-industry-20261102-nagoshi-studio-dissolution",
+    "date": "2026-11-02",
+    "category": "中国ゲーム業界",
+    "status": "官報公告（解散）／報道（資金提供停止）",
+    "lang": "JP",
+    "title": "NetEase出資の名越スタジオ、10月31日の株主総会決議で解散　『GANG OF DRAGON』の今後は未発表",
+    "summary": "2026年11月2日付官報（号外第240号）で、NetEase Gamesの出資を受けて設立された名越スタジオが10月31日の株主総会決議により解散したことが判明。代表清算人は森永実氏。NetEaseによる資金提供停止は3月に報じられていたが、今回の解散との直接的な因果関係は公式説明されていない。『GANG OF DRAGON』の開発中止・権利移転も公式発表なし。",
+    "url": "https://www.kanpo.go.jp/20261102/20261102g00240/20261102g002400176f.html",
+    "source": "官報（2026年11月2日号外第240号）／GameBusiness.jp／GAME Watch／AUTOMATON West",
+    "tags": [
+      "NetEase Games",
+      "名越スタジオ",
+      "GANG OF DRAGON",
+      "スタジオ解散",
+      "清算手続き",
+      "海外スタジオ投資"
+    ],
+    "spoiler": false,
+    "body": "■ 官報で解散公告を確認\n2026年11月2日付の官報（号外第240号）に掲載された解散公告によると、株式会社名越スタジオは2026年10月31日の株主総会決議により解散した。公告には代表清算人として森永実氏が記載され、債権者に対して公告掲載の翌日から2か月以内に申し出るよう案内している。\n\n■ NetEase Gamesとの関係\n名越スタジオはNetEase Gamesの出資を受けて設立された日本のゲーム開発会社。2026年3月、Bloombergの報道として、NetEaseが同スタジオへの資金提供を5月に打ち切る方針であること、開発中のゲーム完成には追加で約70億円が必要とされたことが伝えられていた。\nただし、官報の解散公告に解散理由は記載されていない。資金提供停止の報道と今回の解散との直接的な因果関係を、会社やNetEaseが公式に説明したものではない。\n\n■ 『GANG OF DRAGON』の状態\n同スタジオが2025年12月に発表した『GANG OF DRAGON』の今後は未確定。報道時点でSteamストアページは残っているが、開発中止、IP・開発資産の譲渡、別会社による開発継続について公式発表は確認されていない。会社の解散公告と、ゲームの正式な開発中止発表は区別する。\n\n■ 今回確認できる範囲\n確定しているのは株主総会決議による会社の解散と清算手続き。解散の経営判断の詳細やゲームの権利の帰属は、官報公告だけでは分からない。",
+    "timeline": [
+      {
+        "date": "2022年",
+        "text": "NetEase Gamesの出資を受け、名越スタジオがゲーム開発会社として設立された。"
+      },
+      {
+        "date": "2025年12月",
+        "text": "The Game Awards 2025で、スタジオ初の発表タイトル『GANG OF DRAGON』を公開。"
+      },
+      {
+        "date": "2026年3月7日",
+        "text": "Bloombergの報道として、NetEaseが5月に資金提供を打ち切る方針と、完成に追加資金が必要との情報が報じられた。"
+      },
+      {
+        "date": "2026年10月31日",
+        "text": "株主総会の決議により名越スタジオが解散。"
+      },
+      {
+        "date": "2026年11月2日",
+        "text": "官報（号外第240号）に解散公告が掲載され、代表清算人として森永実氏が記載された。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "官報・令和8年11月2日号外第240号 176ページ",
+        "url": "https://www.kanpo.go.jp/20261102/20261102g00240/20261102g002400176f.html",
+        "date": "2026-11-02",
+        "type": "官報公告"
+      },
+      {
+        "name": "GameBusiness.jp・名越スタジオ解散公告の報道",
+        "url": "https://www.gamebusiness.jp/article/2026/11/02/28527.html",
+        "date": "2026-11-02",
+        "type": "報道"
+      },
+      {
+        "name": "GAME Watch・名越スタジオの解散情報",
+        "url": "https://game.watch.impress.co.jp/docs/news/2153034.html",
+        "date": "2026-11-02",
+        "type": "報道"
+      },
+      {
+        "name": "AUTOMATON West・名越スタジオの解散公告",
+        "url": "https://automaton-media.com/en/news/nagoshi-studio-officially-dissolved-as-of-october-31-according-to-japanese-government-gazette/",
+        "date": "2026-11-02",
+        "type": "報道"
+      },
+      {
+        "name": "Gematsu・NetEase Gamesの資金提供停止に関するBloomberg報道の紹介",
+        "url": "https://www.gematsu.com/2026/03/netease-games-to-stop-funding-nagoshi-studio-in-may",
+        "date": "2026-03-07",
+        "type": "報道（Bloomberg報道の引用）"
+      }
+    ],
+    "story_id": "nagoshistudio-dissolution-gang-of-dragon-20261031"
   },
   {
     "id": "china-latest-20261023-petit-planet-preview-program",
