@@ -110,7 +110,7 @@
     "lang": "JP",
     "title": "NetEase『永劫無間』がDLSS 5を先行実装　『燕雲十六声』は11月24日予定、公式の「公式協力」投稿も話題に",
     "summary": "『永劫無間』公式は11月5日、DLSS 5・神経レンダリングと最大6倍フレーム生成への対応を発表。RTX 50シリーズ向けに実装した。同日、『燕雲十六声』公式がNVIDIAのDLSS 5投稿を「公式協力を確認して」との文言付きで再投稿したと中国メディアが報道。『燕雲十六声』の対応予定日は11月24日（北米11月23日）。投稿の意図は公式に説明されておらず、メディアの解釈と事実を分けて記録する。",
-    "url": "https://www.nvidia.com/en-au/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/",
+    "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-DLSS-5-Delivers-AI-Powered-Breakthrough-in-Visual-Fidelity-for-Games/default.aspx",
     "source": "NVIDIA GeForce公式／『永劫無間』公式微博／NetEase Games・Everstone Studio／IT之家・游民星空・17173",
     "tags": [
       "NetEase Games",
@@ -134,12 +134,12 @@
         "text": "NVIDIAがDLSS 5を発表し、対応予定タイトルの一覧に『NARAKA: BLADEPOINT』と『Where Winds Meet』を掲載。"
       },
       {
-        "date": "2026年10月14日",
-        "text": "NetEase Games／Everstone Studioが『Where Winds Meet』へのDLSS 5導入を11月下旬予定と発表。"
+        "date": "2026年10月13日",
+        "text": "『燕雲十六声』公式微博が、11月にDLSS 5へ対応し、NVIDIAとの共同調整を行う予定と告知。"
       },
       {
         "date": "2026年11月3日",
-        "text": "NVIDIAが『Where Winds Meet』のDLSS 5対応を11月23日からと発表。"
+        "text": "NVIDIA GeForce公式が、DLSS 5の『Where Winds Meet』対応を11月下旬に予定していると案内。"
       },
       {
         "date": "2026年11月4日",
@@ -156,16 +156,22 @@
     ],
     "sources": [
       {
-        "name": "NVIDIA GeForce公式・DLSS 5対応タイトル一覧",
-        "url": "https://www.nvidia.com/en-au/geforce/news/hogwarts-legacy-war-thunder-dlss-5-3d-guided-neural-rendering/",
-        "date": "2026-11-03",
+        "name": "NVIDIA公式・DLSS 5発表と対応予定タイトル一覧",
+        "url": "https://investor.nvidia.com/news/press-release-details/2026/NVIDIA-DLSS-5-Delivers-AI-Powered-Breakthrough-in-Visual-Fidelity-for-Games/default.aspx",
+        "date": "2026-03-16",
         "type": "公式"
       },
       {
-        "name": "NetEase Games / Everstone Studio公式プレスリリース",
-        "url": "https://prtimes.jp/main/html/rd/p/000000683.000071247.html",
-        "date": "2026-10-14",
-        "type": "公式"
+        "name": "『燕雲十六声』公式微博・11月のDLSS 5対応告知（公開ミラー）",
+        "url": "https://www.sina.cn/news/detail/5353648798564438.html",
+        "date": "2026-10-13",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "NVIDIA GeForce中国公式・DLSS 5の11月対応予定",
+        "url": "https://www.nvidia.cn/geforce/news/",
+        "date": "2026-11-03",
+        "type": "公式ニュース一覧"
       },
       {
         "name": "IT之家・『Where Winds Meet』DLSS 5の地域別日程",
