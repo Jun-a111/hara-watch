@@ -377,5 +377,29 @@
     ],
     "notes": "2026-11-05朝JST。最新README.md、data/news.json、data/research-log.json、index.htmlを再取得してから調査。READMEの中国ゲーム枠運用ルールと既存記事スキーマ（id/date/category/status/lang/title/summary/url/source/tags/spoiler/body/timeline/sources/story_id）に準拠し、日英中の公開情報を横断。候補7件。①AMC Global MediaとYodo1 Gamesが11/4に戦略的デジタルライセンス提携を発表。Yodo1 LicensingがAMCの窓口となり、中国の開発会社・パブリッシャーがThe Walking Dead UniverseやAnne Rice's Immortal Universe等のIPを用いたゲームを世界展開するため支援する。Yodo1公式中国語発表、Games Press、GamesBeatで照合。具体的な参加開発会社・タイトル・配信日は未発表として中国ゲーム業界に新規追加。②NetEase Games出資の名越スタジオは10/31の株主総会決議で解散。11/2付官報（号外第240号）の公告をGameBusiness.jp、GAME Watch、AUTOMATON West、Game*Spark英語版で照合し、中国ゲーム業界に新規追加。官報ページの直接取得はWeb側で失敗したが、官報を引用する複数の日本語・英語報道で解散決議日と代表清算人の記載が一致。NetEaseの資金提供停止は3月のBloomberg報道として別扱いにし、解散との直接因果は未確認と明記。『GANG OF DRAGON』の正式中止・権利移転は発表されていない。③『三角洲行动』中国本土版S12「微光」は11/5開始予定。既存記事china-industry-20261102-delta-force-season-auroraに記録済みのため重複追加・更新なし。11/5 08:55 JST時点で実際のサーバー開始は未確認なので「本日開始予定」として通知で扱う。グローバル版「オーロラ」11/10とは地域別日程を区別。④Tencent Hy4は11/4発表を確認したが汎用AIモデルでゲーム固有の新情報ではないため対象外。⑤World of Warcraft: Foreverは11/5開始情報を確認したが中国企業・中国ゲームの範囲外のため対象外。⑥鳴潮Ver.3.8特別通信は11/6 20:00 JST予定の既報で新情報なし、再掲せず。⑦鳴潮4.x関連投稿は一次リーク原本・画像を確認できず採用せず。既存のHoYoverse炎上カテゴリは今回の中国ゲーム朝ブリーフの対象外で、全件調査したとは扱わない。追加2件、既存更新0件。最新data/news.jsonは98件から100件へ、category完全一致、記事ID・URL・story_id重複なし、JSON parse成功。index.htmlは変更せず、既存フィルターと表示を保護。X・Weibo・bilibili・韓国語圏SNSおよびStepLeak一次投稿は網羅できておらず、未取得範囲を新情報なしとは扱わない。\n\n2026-11-05夜JSTの追加調査・同日統合。追加候補9件。①『永劫無間』公式微博が11/5 12:14（中国時間）、DLSS 5・Neural Renderingと最大6倍フレーム生成への対応を告知。IT之家でRTX 50シリーズ対応と更新内容を照合。②『燕雲十六声』公式が「请认准官方合作（公式協力を確認して）」との文言を添えてNVIDIAのDLSS 5投稿を再投稿したと、游民星空・17173が報道。両媒体は『永劫無間』の先行実装への反応ではないかと解釈したが、公式投稿は相手を名指しせず意図も説明していない。既存のWhere Winds Meet DLSS 5記事（同一story_id）に時系列・一次情報・報道を追加更新1。NVIDIA公式の対応予定タイトル一覧には両作品が含まれることも照合。②完美世界の2026年Q3報告（10/29）と10/30公式解説を確認。Q3売上高23.62億元、親会社株主帰属純利益5.06億元。『異環』世界累計流水は10/28時点27億元超、公式PC・Android等が約60%、海外流水が国内を上回るとの会社発表を中国ゲーム業界に新規追加1。「流水」は課金総額指標で会計上の売上・利益とは別と明記。③『三角洲行动』S12「微光」は11/5開始予定の既報を確認。公式の事前告知は確認したが、検索時点の事後的なサーバー稼働を公式ソースで確認できず、既存記事は更新しない。④名越スタジオ解散の11/2以降の報道を追加検索したが、官報公告以上の新たな公式事実・『GANG OF DRAGON』の正式な中止発表は確認できず、既存記事を更新しない。⑤鳴潮Ver.3.8特別通信は11/6 20:00 JST予定の既報で、追加情報を確認できず更新なし。⑥Project NAMI／Burn Nor Blazeの名称説は9月の商標・SNSアカウント登録報道以降、正式名称・新たな公式発表を確認できず、既存記事を更新しない。⑦HSR×ZZZコラボの人選・Ship War関連はRedditとbilibiliを確認。検索結果は主に10/4～10/12の投稿・動画で、新しい大規模な展開や公式対応は確認できず、既存炎上記事の続報更新なし。⑧ZZZの誕生日・定例公式投稿は通常告知であり、炎上・論争の発端ではないため見送り。⑨HSR「貨幣戦争」新シーズン告知は通常のゲーム内更新であり、今回の炎上・ファンダム調査対象外のため見送り。HoYoverseの既存炎上案件（原神引退宣言、ゼンゼロ衣装論争、コラボ人選論争、スタレのShip War等）は日英中韓で検索し、Reddit・bilibiliも確認したが、新たな裏付けのある進展は確認できなかった。ただしXの原投稿・返信・引用は直接取得できず、Weibo/bilibili個別コメントと韓国語圏SNSの網羅も未達。未確認範囲を「新情報なし」や沈静化とは判断していない。朝の候補7・新規2・続報0・見送り5と夜の候補9・新規1・続報1・見送り2を統合し、11/5累計は候補16・新規3・続報更新1・見送り7。news.jsonは100件から101件へ。index.htmlは変更せず、既存UI・記事を保護。",
     "commit_url": "https://github.com/Jun-a111/hara-watch/commit/330b52a3df5859b92aa45c38d2c4006c8d582fa2"
+  },
+  {
+    "date": "2026-11-06",
+    "outcome": "一部調査・反映成功",
+    "candidates": 8,
+    "added": 1,
+    "updated": 2,
+    "rejected": 5,
+    "checked_categories": [
+      "中国ゲーム・最新",
+      "中国ゲーム業界",
+      "KURO GAMES",
+      "鳴潮",
+      "リーク",
+      "新作"
+    ],
+    "unchecked_categories": [
+      "X本体の元投稿・返信・引用の直接取得（取得制限）",
+      "Weibo・bilibiliの個別コメントの網羅確認",
+      "韓国語圏SNSの網羅確認",
+      "StepLeakの一次投稿・画像原本"
+    ],
+    "notes": "2026-11-06朝JST。README.md、data/news.json、data/research-log.json、index.htmlの最新内容を再取得してから調査。記事スキーマ（id/date/category/status/lang/title/summary/url/source/tags/spoiler/body/timeline/sources/story_id）を確認し、日本語・英語・中国語の公開情報を横断。候補8件。①鳴潮Steam版は11/5付公式Steam告知で、Ver.3.8メンテナンス中に公式ランチャー方式へ切り替えると案内。旧Steamパッケージを完全アンインストールしてSteamから新ランチャーを入れ直す必要があるが、アカウント情報・ゲーム進行は保持。将来のリソースをUHD/HD/SDから選択でき、事前ダウンロードはVer.4.0の事前DL開始時から対応予定。Steam告知ページはWeb側で直接取得できず、公式告知IDを示す公開ミラーと公式リソース段階別ダウンロード案内で照合。朝の通知には掲載するが、READMEにある「鳴潮はリーク・テスト情報のみ」という既存分類を守り、HARA WATCHには保存しない。②中国本土版『Delta Force』S12「Glimmer」は11/5開幕。公式TapTapの11/5投稿でシーズンとPhantom Blade Zeroコラボの開始を確認。G3 Battle Rifle「Seven Stars」外観など任務で獲得できる報酬を告知。既存記事china-industry-20261102-delta-force-season-auroraを更新し、個別タイトルの更新なのでcategoryを「中国ゲーム業界」から「中国ゲーム・最新」へ単記事のみ修正。グローバル版Auroraは11/10で別日程。③『アークナイツ：エンドフィールド』Ver.1.6後半の★6「Argent Flow」募集と★6片手剣「Lunar Calling」募集は11/5 12:00サーバー時間開始。11/4付GRYPHLINE公式英語告知で確認。7日間ログイン許可証5枚、30回募集後の無料10回（天井・報酬累計には不加算）を含め、既存記事china-latest-20261006-endfield-1-6を更新。旧記事にstory_idがなかったため識別用story_idを追加。④『NARAKA: BLADEPOINT』公式11/5アップデートを新規追加。新英雄Kael、水中武器Bident、Showdown「Vanquisher's Trials」、ペットイベント「Martial Cutie」、リソース読み込み機構改修を公式更新ノートで確認。⑤『永劫無間』DLSS 5・神経レンダリング・最大6倍フレーム生成の11/5実装と、『燕雲十六声』公式の「公式協力を確認して」との再投稿を巡る報道は、既存記事china-latest-20261103-where-winds-meet-dlss5に掲載済みのため重複更新なし。投稿意図は公式未説明として扱う。⑥Where Winds Meet 1周年報酬は11/4朝ブリーフで報告済みのため再掲なし。⑦Perfect World／NTEのQ3決算・27億元流水は既存記事2件に保存済みのため追加・更新なし。⑧鳴潮Ver.3.8特別通信は11/6 20:00 JSTの既報で再掲せず。新規1件・既存更新2件・重複追加なし。news.jsonは101件から102件へ。JSON解析、ID重複、追加記事URL、category完全一致、本文・時系列・出典を読み返して確認。index.htmlの中国カテゴリフィルターは存在するが、「CHINA GAME WATCH」「CHINA GAME TODAY」の文字列は現行ファイル内で確認できず。既存UIを変更せずindex.htmlは未変更。X原投稿・返信・引用、Weibo/bilibili個別コメント、韓国語圏SNS、StepLeak一次投稿は網羅できておらず、未確認範囲を新情報なしとは扱わない。KURO WATCHへの保存・更新は行わない。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/fda1f913f3d926bcba858ab2e6aa21ce5c8daffd"
   }
 ]
