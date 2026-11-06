@@ -1,6 +1,6 @@
 {
   "schema": "gacha-wars-release-candidates-v1",
-  "updated_at": "2026-11-05T16:27:25+00:00",
+  "updated_at": "2026-11-06T03:25:05+00:00",
   "status": {
     "ww": {
       "ok": true,
@@ -17,13 +17,13 @@
       "browser_diagnostics": {
         "api_json": 0,
         "api_pairs": 0,
-        "dom_anchors": 0,
+        "dom_anchors": 6,
         "filtered": 0,
         "json_responses_seen": 0,
         "api_shapes": [],
-        "rejected": 0,
-        "body_text_sample": "",
-        "title_like_nodes": 0,
+        "rejected": 6,
+        "body_text_sample": "戻る Back NEWS 最新情報 当サイトでは、お客様により良いサービスを提供するため、クッキー（cookie）を使用しています。 サイトのクッキー（cookie）の使用に関しては、 「プライバシーポリシー」 をお読みください。サイトのご利用を続行することにより、お客様は当サイトのクッキー（cookie）初期設定に同意したものとみなします。 確認",
+        "title_like_nodes": 1,
         "news_detail_dom_urls": 0,
         "page_url": "https://wutheringwaves.kurogames.com/jp/main/news",
         "kuro_text_click_attempts": 0,
@@ -129,142 +129,34 @@
         "english_mobile_error": "ok"
       },
       "seed_links": 4,
-      "checked_at": "2026-11-05T16:27:25+00:00"
+      "checked_at": "2026-11-06T03:25:05+00:00"
     },
     "end": {
       "ok": true,
-      "body_cached": 7,
+      "body_cached": 3,
       "body_rendered": 0,
       "body_errors": 0,
-      "body_parsed": 7,
+      "body_parsed": 3,
       "body_refresh_failed": 0,
-      "links_found": 7,
+      "links_found": 3,
       "index_links_found": 3,
       "static_index_error": "",
-      "browser_links_found": 4,
+      "browser_links_found": 0,
       "browser_index_error": "",
       "browser_diagnostics": {
-        "api_json": 8,
-        "api_pairs": 10,
-        "dom_anchors": 23,
-        "filtered": 4,
-        "json_responses_seen": 5,
-        "api_shapes": [
-          [
-            "code",
-            "data",
-            "msg"
-          ],
-          [
-            "current",
-            "list",
-            "pageSize",
-            "total"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "author",
-            "brief",
-            "cid",
-            "cover",
-            "displayTime",
-            "extraCover",
-            "sticky",
-            "tab",
-            "title"
-          ],
-          [
-            "code",
-            "data",
-            "msg"
-          ],
-          [
-            "code",
-            "data",
-            "msg"
-          ]
-        ],
-        "endfield_cid_pairs": 10,
-        "rejected": 29
+        "api_json": 1,
+        "api_pairs": 0,
+        "dom_anchors": 17,
+        "filtered": 0,
+        "json_responses_seen": 1,
+        "api_shapes": [],
+        "endfield_cid_pairs": 0,
+        "rejected": 17,
+        "clickable_titles": 5,
+        "clicked_routes": 0
       },
       "seed_links": 0,
-      "checked_at": "2026-11-05T16:27:25+00:00"
+      "checked_at": "2026-11-06T03:25:05+00:00"
     },
     "gi": {
       "ok": true,
@@ -288,7 +180,7 @@
         "rejected": 31
       },
       "seed_links": 3,
-      "checked_at": "2026-11-05T16:27:25+00:00"
+      "checked_at": "2026-11-06T03:25:05+00:00"
     },
     "hsr": {
       "ok": true,
@@ -305,14 +197,14 @@
       "browser_diagnostics": {
         "api_json": 0,
         "api_pairs": 0,
-        "dom_anchors": 36,
+        "dom_anchors": 27,
         "filtered": 0,
         "json_responses_seen": 0,
         "api_shapes": [],
-        "rejected": 36
+        "rejected": 27
       },
       "seed_links": 1,
-      "checked_at": "2026-11-05T16:27:25+00:00"
+      "checked_at": "2026-11-06T03:25:05+00:00"
     },
     "zzz": {
       "ok": true,
@@ -336,7 +228,7 @@
         "rejected": 53
       },
       "seed_links": 4,
-      "checked_at": "2026-11-05T16:27:25+00:00"
+      "checked_at": "2026-11-06T03:25:05+00:00"
     },
     "nte": {
       "ok": true,
@@ -360,7 +252,7 @@
         "rejected": 76
       },
       "seed_links": 1,
-      "checked_at": "2026-11-05T16:27:25+00:00"
+      "checked_at": "2026-11-06T03:25:05+00:00"
     }
   },
   "candidates": [
@@ -368,7 +260,7 @@
       "game": "ww",
       "title": "Ver.3.7 配信開始のお知らせ",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5530",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -377,8 +269,8 @@
       "character_candidates": [],
       "body_status": "rendered",
       "extraction_version": 3,
-      "refresh_error": "本文の先頭: 戻る Back 関連情報 復帰イベント【帰還の潮唄】のメンテナンスのお知らせ ニュース 音骸素材 期間限定2倍イベント「響き渡る音弦」 ニュース 月相解読イベント「月相解明」 お知らせ 期間限定探索・依頼イベント「潮騒探検・リナシータ」 お知らせ 『鳴潮』Ver2.7 メンテナンスのお知らせ お知らせ 『鳴潮』 Ver2.7「暗き潮に映る夜明け」アップデート情報 お知らせ 『鳴潮』Ver2.7「暗き潮に映る夜明け」アップデート情報 お知",
-      "refresh_checked_at": "2026-11-05T16:27:25+00:00",
+      "refresh_error": "本文の先頭: お知らせ Ver.3.7「鏡に鎖す妄世、心で照らす紅塵」が、9月30日に配信開始！ 戻る Back 26.09.28 関連情報 復帰イベント【帰還の潮唄】のメンテナンスのお知らせ ニュース 音骸素材 期間限定2倍イベント「響き渡る音弦」 ニュース 月相解読イベント「月相解明」 お知らせ 期間限定探索・依頼イベント「潮騒探検・リナシータ」 お知らせ 『鳴潮』Ver2.7 メンテナンスのお知らせ お知らせ 『鳴潮』 Ver2.7「暗き潮に映",
+      "refresh_checked_at": "2026-11-06T03:25:05+00:00",
       "body_review_status": "image_based_official_notice",
       "review_note": "公式ページは画像中心の告知。テキスト本文抽出未確認。内容を推測して期間・キャラを登録しない。",
       "alternative_official_source": "https://prtimes.jp/main/html/rd/p/000000036.000144940.html"
@@ -387,7 +279,7 @@
       "game": "ww",
       "title": "Ver.3.7 共鳴者・武器集音 第一期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/5547",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -404,7 +296,7 @@
       "game": "ww",
       "title": "Ver.3.2 共鳴者・武器集音 第二期",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4497",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-04-09",
@@ -435,7 +327,7 @@
       "game": "ww",
       "title": "共鳴者集音 明日へ焼き付ける記憶",
       "url": "https://wutheringwaves.kurogames.com/jp/main/news/detail/4887",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-06-13",
@@ -461,7 +353,7 @@
       "game": "gi",
       "title": "Luna V 前半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/162721",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -475,7 +367,7 @@
       "game": "gi",
       "title": "Luna V 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163094",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-03-17",
@@ -500,7 +392,7 @@
       "game": "gi",
       "title": "Luna VI 後半祈願 公式告知",
       "url": "https://genshin.hoyoverse.com/en/news/detail/163629",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-04-28",
@@ -525,7 +417,7 @@
       "game": "hsr",
       "title": "Ver.3.0「再創紀の凱歌」アップデートについて",
       "url": "https://hsr.hoyoverse.com/ja-jp/news/127987",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -539,7 +431,7 @@
       "game": "zzz",
       "title": "Ver.3.2期間限定チャンネル（後半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/166475",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "second",
@@ -553,7 +445,7 @@
       "game": "zzz",
       "title": "Ver.3.2 予告番組・情報まとめ",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/165917",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -567,7 +459,7 @@
       "game": "zzz",
       "title": "Ver.2.6期間限定チャンネル（前半）",
       "url": "https://zenless.hoyoverse.com/ja-jp/news/162496",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "first",
@@ -581,7 +473,7 @@
       "game": "zzz",
       "title": "Ver.3.3予告番組のお知らせ",
       "url": "https://zenless.hoyoverse.com/m/ja-jp/news/166552",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -595,7 +487,7 @@
       "game": "end",
       "title": "特別スカウト「臨淵望北」",
       "url": "https://endfield.gryphline.com/ja-jp/news/2656",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -620,7 +512,7 @@
       "game": "nte",
       "title": "Ver.1.4「名もなき祈歌」アップデートのお知らせ Ver.1.4「名もなき祈歌」アップデートのお知らせ 2026-09-29 ニュース",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260929/264412.html",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -634,7 +526,7 @@
       "game": "nte",
       "title": "NTE 正式サービス開始",
       "url": "https://nte.perfectworld.com/jp/article/news/gamenews/20260428/261953.html",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -732,7 +624,7 @@
       "game": "end",
       "title": "「雪氷の幽夢」バージョンアップデートについて",
       "url": "https://endfield.gryphline.com/ja-jp/news/5208",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [
         "2026-09-02",
@@ -1190,7 +1082,7 @@
       "game": "ww",
       "title": "Wuthering Waves Update Content | Version 3.7 \"Prism's Illusion, Heart's Illumination\" Planned for Release on September 30th (UTC+8)",
       "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5529",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1267,7 +1159,7 @@
       "game": "end",
       "title": "バージョンスケジュール",
       "url": "https://endfield.gryphline.com/ja-jp#calendar",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
@@ -1395,7 +1287,7 @@
       "game": "ww",
       "title": "Upcoming Events in Wuthering Waves Version 3.7",
       "url": "https://wutheringwaves.kurogames.com/en/main/news/detail/5653",
-      "detected_at": "2026-11-05T16:27:25+00:00",
+      "detected_at": "2026-11-06T03:25:05+00:00",
       "verification": "unreviewed",
       "date_candidates": [],
       "phase_hint": "unknown",
