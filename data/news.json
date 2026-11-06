@@ -1,5 +1,96 @@
 [
   {
+    "id": "wuwa-20261106-tappo-improvements-roadmap",
+    "date": "2026-11-06",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "KURO GAMES、デスクトップマスコット「Wuwa Tappo」の改善計画を公開　Steam・macOS対応を準備",
+    "summary": "KURO GAMESは11月6日、デスクトップマスコット「Wuwa Tappo」の改善計画を公開。マルチルームのホスト権限移譲・メンバー退出、他プレイヤーのTappo非表示、同時起動時のキーボード・マウス入力遅延の修正を案内した。今後はSteam対応の準備、macOS対応、キャラクター追加を予定。引換コード「RareTappo」はランダムなRare（紫）キャラクター1体で、11月13日12:00 JSTまで有効。",
+    "url": "https://www.sotwe.com/WW_JP_Official",
+    "source": "『鳴潮』日本公式X・英語公式X（公開ミラー）",
+    "tags": [
+      "鳴潮",
+      "Wuwa Tappo",
+      "デスクトップマスコット",
+      "Steam",
+      "macOS",
+      "引換コード"
+    ],
+    "spoiler": false,
+    "body": "■ 11月6日、公式が改善状況と今後の開発方針を公開\nKURO GAMESはデスクトップマスコットソフト「Wuwa Tappo」について、ユーザーからのフィードバックを受けた機能改善と今後の開発計画を告知した。\n\n■ 直近の改善\n・マルチルームでホスト権限を別メンバーへ譲渡できる機能、特定メンバーを退出させる機能を追加。\n・マルチルームで他プレイヤーのデスクトップマスコットをワンクリックで非表示にできる機能を追加。\n・Wuwa Tappoと他のゲーム・ソフトを同時起動した際に発生するキーボード／マウス操作の入力遅延を修正。\n\n■ 今後の開発計画\n・Steam対応：配信に向けた準備を進行中。配信日や具体的な手順は未発表。\n・macOS対応：正式に開発ロードマップへ追加。実装時期は未発表。\n・キャラクター追加：今後も共鳴者を追加する方針。\n\n■ 引換コード「RareTappo」\nWuwa Tappo内の「設定」→「引換コード」から「RareTappo」を入力すると、レア度Rare（紫）のキャラクターをランダムで1体獲得できる。日本公式の案内では有効期限は2026年11月13日（金）12:00（日本標準時）。英語公式の案内にある11:00（UTC+8）と同じ時刻。\nこのコードはデスクトップマスコット「Wuwa Tappo」専用であり、『鳴潮』本編の星声交換コードではない。",
+    "timeline": [
+      {
+        "date": "2026年11月6日",
+        "text": "『鳴潮』日本・英語公式アカウントがWuwa Tappoの直近の改善、Steam・macOS対応の開発計画、キャラクター追加方針と引換コードRareTappoを告知。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『鳴潮』日本公式X・公開ミラー（Wuwa Tappo改善計画・RareTappo告知）",
+        "url": "https://www.sotwe.com/WW_JP_Official",
+        "date": "2026-11-06",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "Wuthering Waves公式X・公開ミラー（Wuwa Tappo improvements and roadmap）",
+        "url": "https://www.sotwe.com/Wuthering_Waves",
+        "date": "2026-11-06",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "Wuwa Tappo公式ダウンロードページ",
+        "url": "https://download-wutheringwaves-wuwatappo.kurogames-global.com/download/jp/",
+        "date": "2026-10-26",
+        "type": "公式"
+      }
+    ],
+    "story_id": "wuwa-tappo-roadmap-20261106"
+  },
+  {
+    "id": "china-latest-20261105-naraka-bladepoint-update",
+    "date": "2026-11-05",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表・更新実施",
+    "lang": "JP",
+    "title": "NetEase『NARAKA: BLADEPOINT』11月5日大型更新　新英雄Kael・水中武器Bident・新Showdownモードを追加",
+    "summary": "NetEaseは『NARAKA: BLADEPOINT』の11月5日更新を実施。新英雄Kael、水中エリア限定の新武器Bident、Showdown新モード「Vanquisher’s Trials」、ペット育成イベント「Martial Cutie」などを追加した。リソース読み込み機構も改修し、重い場面での引っ掛かりや不安定さの軽減を図る。",
+    "url": "https://www.narakathegame.com/news/update/20261026/33459_1317743.html",
+    "source": "NARAKA: BLADEPOINT公式サイト / NetEase",
+    "tags": [
+      "NetEase",
+      "NARAKA: BLADEPOINT",
+      "24 Entertainment",
+      "Kael",
+      "Bident",
+      "Vanquisher's Trials",
+      "Martial Cutie",
+      "大型アップデート",
+      "2026年11月5日"
+    ],
+    "spoiler": false,
+    "body": "■ 11月5日付の大型アップデート\nNetEaseは『NARAKA: BLADEPOINT』の11月5日更新内容を公式サイトで公開。メンテナンスは11月4日23:00～11月5日04:00（UTC）に実施された。\n\n■ 新英雄Kaelと新武器Bident\n新英雄「Kael」が参戦。新武器「Bident」は水中戦用に設計され、水流のある「Wanchu - Dark Pearl Abyss」内でのみ使用できる。\n\n■ Showdownに「Vanquisher's Trials」\n新たなShowdownモード「Vanquisher's Trials」を追加。難易度はNightscreamとLegendの2種類で、それぞれ3ステージを用意。専用のプリセット英雄・装備を使う形式で、Legendではソロと3人チームのランキング報酬も設けられる。\n\n■ ペットイベント「Martial Cutie」\nペットの育成・装備・対戦を行う期間限定イベントを開始。新ペット「Molin」も追加され、イベント期間中にペットステージやマッチング対戦を楽しめる。追加マップや装備は11月19日以降に順次開放予定。\n\n■ 読み込み処理を改修\nゲームのリソース読み込み機構を再設計し、重い読み込み時にメインスレッドが引っ掛かる問題を軽減。場面切り替えや画面を初めて開く際の読み込みをより滑らかにし、安定性を高めるとしている。",
+    "timeline": [
+      {
+        "date": "2026年11月5日",
+        "text": "公式アップデートを実施。Kael、Bident、Vanquisher's Trials、Martial Cutieなどを追加し、リソース読み込み機構も改修。"
+      },
+      {
+        "date": "2026年11月19日",
+        "text": "ペットイベントの追加マップ・装備などを開放予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "NARAKA: BLADEPOINT公式・2026年11月5日アップデートノート",
+        "url": "https://www.narakathegame.com/news/update/20261026/33459_1317743.html",
+        "date": "2026-11-05",
+        "type": "公式"
+      }
+    ],
+    "story_id": "naraka-bladepoint-update-20261105"
+  },
+  {
     "id": "china-latest-20261103-where-winds-meet-dlss5",
     "date": "2026-11-05",
     "category": "中国ゲーム・最新",
@@ -5540,96 +5631,5 @@
         "text": "Push Squareも『alleged censorship（検閲疑惑）』として取り上げ、問題の核心は“変更後そのもの”より、プレイヤーが元のデザインをすでに見ており、差分を明確に認識できた点にあると整理している。"
       }
     ]
-  },
-  {
-    "id": "china-latest-20261105-naraka-bladepoint-update",
-    "date": "2026-11-05",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表・更新実施",
-    "lang": "JP",
-    "title": "NetEase『NARAKA: BLADEPOINT』11月5日大型更新　新英雄Kael・水中武器Bident・新Showdownモードを追加",
-    "summary": "NetEaseは『NARAKA: BLADEPOINT』の11月5日更新を実施。新英雄Kael、水中エリア限定の新武器Bident、Showdown新モード「Vanquisher’s Trials」、ペット育成イベント「Martial Cutie」などを追加した。リソース読み込み機構も改修し、重い場面での引っ掛かりや不安定さの軽減を図る。",
-    "url": "https://www.narakathegame.com/news/update/20261026/33459_1317743.html",
-    "source": "NARAKA: BLADEPOINT公式サイト / NetEase",
-    "tags": [
-      "NetEase",
-      "NARAKA: BLADEPOINT",
-      "24 Entertainment",
-      "Kael",
-      "Bident",
-      "Vanquisher's Trials",
-      "Martial Cutie",
-      "大型アップデート",
-      "2026年11月5日"
-    ],
-    "spoiler": false,
-    "body": "■ 11月5日付の大型アップデート\nNetEaseは『NARAKA: BLADEPOINT』の11月5日更新内容を公式サイトで公開。メンテナンスは11月4日23:00～11月5日04:00（UTC）に実施された。\n\n■ 新英雄Kaelと新武器Bident\n新英雄「Kael」が参戦。新武器「Bident」は水中戦用に設計され、水流のある「Wanchu - Dark Pearl Abyss」内でのみ使用できる。\n\n■ Showdownに「Vanquisher's Trials」\n新たなShowdownモード「Vanquisher's Trials」を追加。難易度はNightscreamとLegendの2種類で、それぞれ3ステージを用意。専用のプリセット英雄・装備を使う形式で、Legendではソロと3人チームのランキング報酬も設けられる。\n\n■ ペットイベント「Martial Cutie」\nペットの育成・装備・対戦を行う期間限定イベントを開始。新ペット「Molin」も追加され、イベント期間中にペットステージやマッチング対戦を楽しめる。追加マップや装備は11月19日以降に順次開放予定。\n\n■ 読み込み処理を改修\nゲームのリソース読み込み機構を再設計し、重い読み込み時にメインスレッドが引っ掛かる問題を軽減。場面切り替えや画面を初めて開く際の読み込みをより滑らかにし、安定性を高めるとしている。",
-    "timeline": [
-      {
-        "date": "2026年11月5日",
-        "text": "公式アップデートを実施。Kael、Bident、Vanquisher's Trials、Martial Cutieなどを追加し、リソース読み込み機構も改修。"
-      },
-      {
-        "date": "2026年11月19日",
-        "text": "ペットイベントの追加マップ・装備などを開放予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "NARAKA: BLADEPOINT公式・2026年11月5日アップデートノート",
-        "url": "https://www.narakathegame.com/news/update/20261026/33459_1317743.html",
-        "date": "2026-11-05",
-        "type": "公式"
-      }
-    ],
-    "story_id": "naraka-bladepoint-update-20261105"
-  },
-  {
-    "id": "wuwa-20261106-tappo-improvements-roadmap",
-    "date": "2026-11-06",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "KURO GAMES、デスクトップマスコット「Wuwa Tappo」の改善計画を公開　Steam・macOS対応を準備",
-    "summary": "KURO GAMESは11月6日、デスクトップマスコット「Wuwa Tappo」の改善計画を公開。マルチルームのホスト権限移譲・メンバー退出、他プレイヤーのTappo非表示、同時起動時のキーボード・マウス入力遅延の修正を案内した。今後はSteam対応の準備、macOS対応、キャラクター追加を予定。引換コード「RareTappo」はランダムなRare（紫）キャラクター1体で、11月13日12:00 JSTまで有効。",
-    "url": "https://www.sotwe.com/WW_JP_Official",
-    "source": "『鳴潮』日本公式X・英語公式X（公開ミラー）",
-    "tags": [
-      "鳴潮",
-      "Wuwa Tappo",
-      "デスクトップマスコット",
-      "Steam",
-      "macOS",
-      "引換コード"
-    ],
-    "spoiler": false,
-    "body": "■ 11月6日、公式が改善状況と今後の開発方針を公開\nKURO GAMESはデスクトップマスコットソフト「Wuwa Tappo」について、ユーザーからのフィードバックを受けた機能改善と今後の開発計画を告知した。\n\n■ 直近の改善\n・マルチルームでホスト権限を別メンバーへ譲渡できる機能、特定メンバーを退出させる機能を追加。\n・マルチルームで他プレイヤーのデスクトップマスコットをワンクリックで非表示にできる機能を追加。\n・Wuwa Tappoと他のゲーム・ソフトを同時起動した際に発生するキーボード／マウス操作の入力遅延を修正。\n\n■ 今後の開発計画\n・Steam対応：配信に向けた準備を進行中。配信日や具体的な手順は未発表。\n・macOS対応：正式に開発ロードマップへ追加。実装時期は未発表。\n・キャラクター追加：今後も共鳴者を追加する方針。\n\n■ 引換コード「RareTappo」\nWuwa Tappo内の「設定」→「引換コード」から「RareTappo」を入力すると、レア度Rare（紫）のキャラクターをランダムで1体獲得できる。日本公式の案内では有効期限は2026年11月13日（金）12:00（日本標準時）。英語公式の案内にある11:00（UTC+8）と同じ時刻。\nこのコードはデスクトップマスコット「Wuwa Tappo」専用であり、『鳴潮』本編の星声交換コードではない。",
-    "timeline": [
-      {
-        "date": "2026年11月6日",
-        "text": "『鳴潮』日本・英語公式アカウントがWuwa Tappoの直近の改善、Steam・macOS対応の開発計画、キャラクター追加方針と引換コードRareTappoを告知。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『鳴潮』日本公式X・公開ミラー（Wuwa Tappo改善計画・RareTappo告知）",
-        "url": "https://www.sotwe.com/WW_JP_Official",
-        "date": "2026-11-06",
-        "type": "公式投稿の公開ミラー"
-      },
-      {
-        "name": "Wuthering Waves公式X・公開ミラー（Wuwa Tappo improvements and roadmap）",
-        "url": "https://www.sotwe.com/Wuthering_Waves",
-        "date": "2026-11-06",
-        "type": "公式投稿の公開ミラー"
-      },
-      {
-        "name": "Wuwa Tappo公式ダウンロードページ",
-        "url": "https://download-wutheringwaves-wuwatappo.kurogames-global.com/download/jp/",
-        "date": "2026-10-26",
-        "type": "公式"
-      }
-    ],
-    "story_id": "wuwa-tappo-roadmap-20261106"
   }
 ]
