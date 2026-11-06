@@ -1,5 +1,62 @@
 [
   {
+    "id": "china-industry-20261106-bytedance-moonton-samr-approval",
+    "date": "2026-11-06",
+    "category": "中国ゲーム業界",
+    "status": "当局発表・報道",
+    "lang": "JP",
+    "title": "ByteDanceによるMoonton売却、中国当局が無条件承認　Savvy Gamesへの60億ドル超の取引が前進",
+    "summary": "中国国家市場監督管理総局は11月6日、10月26日～11月1日の無条件承認案件一覧を公開し、サウジアラビアのSaudi Electronic Games HoldingによるMoonton Holdingsなど2社の株式取得を10月29日付で承認した。ByteDanceは3月、Savvy Games GroupへのMoonton売却で合意しており、取引額は60億ドル超と報道されている。今回の公示は中国の独禁審査段階の承認で、最終的な取引完了には他の契約条件が残る。",
+    "url": "https://www.samr.gov.cn/jzxts/ajgs/wtjjzajgs/art/2026/art_e078bb4cd8834448a9af3b2ac4d3dfaf.html",
+    "source": "中国国家市場監督管理総局／DoNews／Reuters",
+    "tags": [
+      "ByteDance",
+      "Moonton",
+      "Savvy Games Group",
+      "Mobile Legends: Bang Bang",
+      "企業買収",
+      "独占禁止審査",
+      "中国ゲーム業界"
+    ],
+    "spoiler": false,
+    "body": "■ 中国当局がMoonton関連の株式取得を無条件承認\n中国国家市場監督管理総局は2026年11月6日、10月26日～11月1日の「無条件承認された企業結合案件一覧」を公表した。掲載案件の4番目に、Saudi Electronic Games HoldingによるMoonton Holdings LimitedおよびShanghai Moonton Technology Co., Ltd.などの株式取得が記載され、審結日は2026年10月29日となっている。\n\n■ ByteDanceからSavvy Games Groupへの売却\nByteDanceは2026年3月、上海を拠点とするMoontonをサウジアラビアのSavvy Games Groupへ売却する契約に合意したと発表・報道されている。Moontonは『Mobile Legends: Bang Bang』などを手掛ける。取引額は60億ドル超とReutersなどが報じたが、当局の承認一覧自体には金額は記載されていない。\n\n■ 今回の承認が意味すること\n11月6日に公表されたのは中国の企業結合・独占禁止審査における無条件承認。これだけで売却の最終交割が完了したことを意味しない。契約上のその他の条件や手続きが残ると報道されている。\n\n■ 今後の確認点\n最終的な株式移転・買収完了日、Moontonの経営体制や各ゲームの運営方針について、今回の当局公示だけでは追加情報は確認できない。ByteDanceの売却完了と誤認しないよう、審査承認と最終交割を区別する。",
+    "timeline": [
+      {
+        "date": "2026年3月20日",
+        "text": "ByteDanceがSavvy Games GroupへのMoonton売却に合意したと発表・報道。取引額は60億ドル超と報道された。"
+      },
+      {
+        "date": "2026年10月29日",
+        "text": "中国国家市場監督管理総局の企業結合審査で、Saudi Electronic Games HoldingによるMoonton関連会社の株式取得案件を無条件承認。"
+      },
+      {
+        "date": "2026年11月6日",
+        "text": "中国国家市場監督管理総局が10月26日～11月1日の無条件承認案件一覧を公開し、Moonton関連案件を掲載。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "中国国家市場監督管理総局・2026年10月26日～11月1日無条件承認案件一覧",
+        "url": "https://www.samr.gov.cn/jzxts/ajgs/wtjjzajgs/art/2026/art_e078bb4cd8834448a9af3b2ac4d3dfaf.html",
+        "date": "2026-11-06",
+        "type": "当局公表"
+      },
+      {
+        "name": "DoNews・ByteDanceによるMoonton売却の審査承認報道",
+        "url": "https://www.donews.com/news/detail/1/6768231.html",
+        "date": "2026-11-06",
+        "type": "報道"
+      },
+      {
+        "name": "Reuters・ByteDanceのMoonton売却合意",
+        "url": "https://www.reuters.com/world/asia-pacific/bytedance-sell-gaming-unit-moonton-saudi-pif-owned-firm-2026-03-20/",
+        "date": "2026-03-20",
+        "type": "報道"
+      }
+    ],
+    "story_id": "bytedance-moonton-savvy-acquisition-20261106"
+  },
+  {
     "id": "wuwa-20261106-tappo-improvements-roadmap",
     "date": "2026-11-06",
     "category": "鳴潮",
@@ -510,52 +567,53 @@
   },
   {
     "id": "kuro-new-20261030-second-solaris-unwritten-dreams",
-    "date": "2026-11-02",
+    "date": "2026-11-06",
     "category": "新作",
     "status": "公式発表",
     "lang": "JP",
-    "title": "KURO GAMES『第二ソラリス：題なき夢』OP曲がSpotify・Apple Musicで配信開始",
-    "summary": "KURO GAMESが発表した新作テキストADV『第二ソラリス：題なき夢』のオープニング曲「JUST WITH YOU: After-School Hours with You」が、11月2日にSpotifyとApple Musicで配信開始。ゲーム本体の配信日・対応環境などは引き続き未発表で、11月6日の鳴潮Ver.3.8予告特別通信で続報予定。",
-    "url": "https://secondcomingofsolaris.kurogames-global.com/?lang=jp",
-    "source": "『鳴潮』日本公式 / KURO GAMES",
+    "title": "KURO GAMES『第二ソラリス：題なき夢』11月12日発売予定　MGP公式ページに日付掲載",
+    "summary": "KURO GAMESのテキストアドベンチャー『第二ソラリス：題なき夢』について、MGP公式ページが発売日を2026年11月12日と表示。10月30日に事前予約とオープニングテーマが公開され、11月6日のVer.3.8予告特別通信で続報が案内された。第二ソラリス学園でのキャンパスライフを描く作品で、対応プラットフォームや価格などの詳細は公式ページで確認できない。",
+    "url": "https://secondcomingofsolaris.kurogames-global.com/",
+    "source": "Meta Games Platform公式ページ／KURO GAMES",
     "tags": [
       "KURO GAMES",
-      "鳴潮",
       "第二ソラリス",
       "題なき夢",
-      "テキストADV",
+      "Second Coming of Solaris",
+      "Unwritten Dreams",
+      "テキストアドベンチャー",
       "MGP",
-      "事前予約"
+      "発売日"
     ],
     "spoiler": false,
     "story_id": "kuro-second-solaris-unwritten-dreams-20261030",
-    "body": "■ 「第二ソラリス」シリーズの新作ADV\nKURO GAMESは10月30日、『鳴潮』内外で展開する「第二ソラリス」シリーズの新作テキストアドベンチャー『第二ソラリス：題なき夢』を発表した。Meta Games Platform（MGP）の専用ページを公開し、事前予約を開始している。\n\n■ オープニング映像を公開\n公式はオープニングテーマ「JUST WITH YOU: After-School Hours with You」の映像も公開した。本記事では物語や映像の核心には触れない。\n\n■ 続報は11月6日\nゲームの詳しい仕様、公開時期、対応環境は現時点で未発表。公式は11月6日20:00（日本時間）の『鳴潮』Ver.3.8予告特別通信で続報を案内するとしている。『鳴潮』本編のVer.3.8更新と、このスピンオフADVの公開時期を同一とは扱わない。\n\n■ 11月2日、オープニング曲を音楽配信サービスで公開\n『鳴潮』日本公式アカウントは11月2日、「JUST WITH YOU: After-School Hours with You」がSpotifyおよびApple Musicで配信開始したと告知した。これは『第二ソラリス：題なき夢』のオープニングソングに関する更新であり、ゲーム本体のサービス開始を意味するものではない。\n\n■ ゲーム本体の詳細は11月6日の続報待ち\nゲームの配信日、対応環境、具体的なゲームシステムは引き続き未発表。KURO GAMESは11月6日の『鳴潮』Ver.3.8予告特別通信で追加情報を案内するとしている。",
+    "body": "■ MGP公式ページに発売日を掲載\nKURO GAMESが「第二ソラリス」シリーズの新作として案内しているテキストアドベンチャー『第二ソラリス：題なき夢』（Second Coming of Solaris: Unwritten Dreams）について、MGP公式ページは発売日を2026年11月12日と表示している。ページ上では「2026/11/12 Coming soon!」と案内されている。\n\n■ 作品概要\n公式告知では、プレイヤーが第二ソラリス学園へ転入し、新しいキャンパスライフを始めるテキストアドベンチャーとして紹介。MGPで事前予約を受け付け、オープニングテーマ「JUST WITH YOU: After-School Hours with You」も公開済み。\n\n■ 鳴潮Ver.3.8との関係\n『鳴潮』Ver.3.8の公式アップデート案内にも、同名の「第二ソラリス：題なき夢」がゲーム内のレジャーイベントとして記載されている。MGP掲載のテキストアドベンチャー本体と、鳴潮内イベントを混同しない。\n\n■ 未発表事項\nMGPページで確認できる発売日以外に、対応プラットフォーム、価格、配信開始時刻、各地域の提供範囲は今回確認できなかった。発売日表示は公式ページの記載に基づく。",
     "timeline": [
       {
         "date": "2026年10月30日",
-        "text": "新作テキストADVを発表し、MGPで事前予約を開始。オープニング映像も公開。"
+        "text": "KURO GAMESが新作テキストアドベンチャーを発表し、MGPで事前予約を開始。オープニングテーマも公開。"
       },
       {
-        "date": "2026年11月6日 20:00 JST",
-        "text": "『鳴潮』Ver.3.8予告特別通信で続報を案内予定。"
+        "date": "2026年11月6日",
+        "text": "Ver.3.8予告特別通信後に確認したMGP公式ページで、発売日が2026年11月12日と表示されていることを確認。"
       },
       {
-        "date": "2026年11月2日",
-        "text": "オープニングソング「JUST WITH YOU: After-School Hours with You」がSpotify・Apple Musicで配信開始と公式アカウントが告知。ゲーム本体の配信開始ではない。"
+        "date": "2026年11月12日",
+        "text": "MGP公式ページに表示された発売予定日。"
       }
     ],
     "sources": [
       {
-        "name": "『第二ソラリス：題なき夢』MGP公式ページ",
-        "url": "https://secondcomingofsolaris.kurogames-global.com/?lang=jp",
-        "date": "2026-10-30",
+        "name": "Meta Games Platform公式・第二ソラリス：題なき夢",
+        "url": "https://secondcomingofsolaris.kurogames-global.com/",
+        "date": "2026-11-06",
         "type": "公式"
       },
       {
-        "name": "『鳴潮』日本公式X",
-        "url": "https://x.com/WW_JP_Official",
+        "name": "『鳴潮』日本公式X・公開ミラー（新作発表・事前予約）",
+        "url": "https://www.sotwe.com/WW_JP_Official",
         "date": "2026-10-30",
-        "type": "公式"
+        "type": "公式投稿の公開ミラー"
       },
       {
         "name": "『第二ソラリス：題なき夢』公式オープニング映像",
@@ -564,10 +622,10 @@
         "type": "公式"
       },
       {
-        "name": "『鳴潮』日本公式X・公開ミラー（Spotify／Apple Music配信開始告知）",
-        "url": "https://www.sotwe.com/WW_JP_Official",
-        "date": "2026-11-02",
-        "type": "公式投稿の公開ミラー"
+        "name": "KURO GAMES公式・鳴潮Ver.3.8アップデート発表（同名のゲーム内イベント案内）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
+        "date": "2026-11-06",
+        "type": "公式"
       }
     ]
   },
@@ -1358,89 +1416,71 @@
   },
   {
     "id": "wuwa-official-20261030-v38-preview-broadcast",
-    "date": "2026-10-30",
-    "category": "鳴潮",
+    "date": "2026-11-06",
+    "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "JP",
-    "title": "『鳴潮』Ver.3.8「旧夢で朽ちゆく小百合花」は11月12日配信　追憶集音の復刻対象も発表",
-    "summary": "『鳴潮』公式は11月6日のVer.3.8予告特別通信後、バージョン名を「旧夢で朽ちゆく小百合花」と発表し、11月12日配信を告知。共鳴者集音（追憶）の指定対象はツバキ、ロココ、フィービー、ブラント。武器集音（追憶）は春裁ち、トラジコメディア、光のハルモニア、エンドレスボヤージュを指定できる。追憶集音の開催期間はVer.3.8アップデート後から2026年12月21日12:59（日本時間）まで。",
-    "url": "https://www.youtube.com/live/V-YCRamfKMc",
-    "source": "『鳴潮』日本公式X・公式YouTube配信ページ",
+    "title": "KURO GAMES『鳴潮』Ver.3.8、11月12日配信　新★5「リリー」とPC・コンソール最適化を発表",
+    "summary": "KURO GAMESは11月6日、Ver.3.8「旧夢で朽ちゆく小百合花」を11月12日に配信すると発表。新★5共鳴者「リリー」（回折・拳銃）と★5武器「ララバイ」、潮汐任務第四章第五幕、新たな戦闘・ミニイベント、緋雪の衣装を追加する。漂泊者の音骸セット自動切替、素材ダンジョンの再挑戦、PCのリソース選択・整理、対応コンソールの画質設定、PS5 ProのPSSRにも対応。Ver.4.0の世界・物語設定を先行して示す更新と公式が説明した。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
+    "source": "KURO GAMES公式発表／PR TIMES",
     "tags": [
       "鳴潮",
-      "Wuthering Waves",
+      "KURO GAMES",
       "Ver.3.8",
-      "予告特別通信",
-      "生放送",
-      "KURO GAMES"
+      "リリー",
+      "ララバイ",
+      "11月12日配信",
+      "PC最適化",
+      "PS5 Pro",
+      "PSSR",
+      "中国ゲーム"
     ],
     "spoiler": false,
     "teaser_title": "Ver.3.8予告特別通信の配信日時",
-    "body": "■ 11月6日の予告特別通信後、Ver.3.8の正式タイトルと配信日を発表\n『鳴潮』日本公式は2026年11月6日、Ver.3.8のPVとともに、バージョン名を「旧夢で朽ちゆく小百合花」と発表した。英語版タイトルは「Lilies in a Dying Dream」。公式告知では2026年11月12日（木）に正式リリース予定としている。\n\n■ 共鳴者集音（追憶）の指定対象\nVer.3.8アップデート後から2026年12月21日12:59（日本標準時）まで、「共鳴者集音（追憶）」を開催。今期に指定できる★5共鳴者はツバキ、ロココ、フィービー、ブラント。対象は開催中いつでも変更できる。\n本イベントでは★5獲得時に50%の確率で指定対象となり、指定対象でなかった場合は次回の★5が指定対象で確定する。追憶の共鳴者集音どうしで★5未出現回数を共有し、獲得後はカウントがリセットされる。未出現回数は次回の追憶集音へ引き継がれる。\n\n■ 武器集音（追憶）の指定対象\n同期間の「武器集音（追憶）」では、春裁ち、トラジコメディア、光のハルモニア、エンドレスボヤージュを指定できる。★5武器を獲得した場合は指定対象が確定。追憶の武器集音どうしで★5未出現回数を共有し、次回へ引き継ぐ仕組みも案内された。\n\n■ 確認範囲\n本記事は公式YouTube配信ページ、公式Xアカウントの公開ミラー、公式投稿に添付された告知画像で確認できた内容に限定して更新した。配信全編の文字起こしは取得できていないため、番組内の全発表を網羅したものではない。未確認のβ情報やリークは公式発表として扱わない。",
+    "body": "■ 11月6日にVer.3.8の内容を発表、11月12日配信\nKURO GAMESは2026年11月6日、オープンワールドアクションRPG『鳴潮』のVer.3.8「旧夢で朽ちゆく小百合花」を11月12日（木）に配信すると発表した。対応プラットフォームはWindows、Mac、PlayStation 5、Xbox、iOS、Android。\n\n■ 新共鳴者・新武器\n前半に新限定★5共鳴者「リリー」が登場。属性は回折、武器は拳銃で、CVは高森奈津美。新★5拳銃「ララバイ」も実装される。前半にはシグリカと仇遠の復刻、後半には秧秧・玄翎、穂穂、緋雪の集音イベントを予定。\n\n■ 新コンテンツ・イベント\n潮汐任務第四章第五幕「明日へ捧ぐ花束」、新たな戦闘挑戦「ホロタクティクス・演武」、複数の期間限定イベントを追加。緋雪のスペシャル衣装「霜に沈む月」とアクセサリー「灼ける桜」もストアに登場する。\n\n■ 「第二ソラリス：題なき夢」\nVer.3.8内のミニイベントとして、第二ソラリス学園で授業・勉強・課外活動などを組み立てる学園生活コンテンツを実施。行動や選択によりエンディングが変化する。MGPで事前予約を受け付けている同名のテキストアドベンチャー作品とは、ゲーム内イベントとMGP掲載作品を区別して扱う。\n\n■ システム改善\n・漂泊者の音序変換画面を刷新し、属性変更後に対応する音骸セットへ自動切替。\n・ソラガイドや育成プランから素材ダンジョンへ直接移動できるマップピンを追加。報酬受取後に再読み込みせず再挑戦できる機能も追加。\n・振り返り、移動のつなぎ、被ダメージ時など共鳴者の一部モーションを改善。\n・PC版は「全部のリソース／必要リソース」の選択とリソースクリーンアップを改善。いずれも限定テストとして順次実装予定。\n・対応コンソールでは「パフォーマンス優先／グラフィック優先」を選択可能。ただしPS5およびXbox Series Sはこの設定の対象外。PS5 ProではPSSRを有効化すると最大4K解像度に対応。\n\n■ Ver.4.0への接続\n公式はVer.3.8がVer.4.0の世界・物語設定の始まりとなり、次章を先行して垣間見せる更新になると説明。未公開ストーリーの核心やリーク情報は本記事に含めない。",
     "timeline": [
       {
         "date": "2026年10月30日",
-        "text": "『鳴潮』日本公式がVer.3.8予告特別通信の配信日時と事前番組を告知。"
-      },
-      {
-        "date": "2026年11月6日 19:20 JST",
-        "text": "本編前の「鳴潮予告特別通信～ちょこっとお茶会～」を配信。男性漂泊者役・増田俊樹、アンコ役・伊吹誓乃が出演予定と告知されていた。"
+        "text": "『鳴潮』公式がVer.3.8予告特別通信の配信日時を告知。"
       },
       {
         "date": "2026年11月6日 20:00 JST",
-        "text": "Ver.3.8予告特別通信が公式YouTubeで開始。"
+        "text": "Ver.3.8予告特別通信を公式配信。"
       },
       {
         "date": "2026年11月6日",
-        "text": "公式がVer.3.8の正式タイトル「旧夢で朽ちゆく小百合花」と11月12日配信を告知。"
+        "text": "KURO GAMESがVer.3.8の正式タイトル、11月12日の配信日、新共鳴者リリー、武器ララバイ、イベント、システム改善を発表。"
       },
       {
-        "date": "2026年11月6日",
-        "text": "公式が共鳴者集音（追憶）・武器集音（追憶）の指定対象と開催期間を画像付きで公開。"
+        "date": "2026年11月12日",
+        "text": "Ver.3.8「旧夢で朽ちゆく小百合花」配信予定。"
       }
     ],
     "sources": [
       {
-        "name": "『鳴潮』Ver.3.8予告特別通信・公式YouTube配信ページ",
-        "url": "https://www.youtube.com/live/V-YCRamfKMc",
-        "date": "2026-10-30",
+        "name": "KURO GAMES公式・Ver.3.8アップデート発表（PR TIMES）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
+        "date": "2026-11-06",
         "type": "公式"
       },
       {
-        "name": "『鳴潮』日本公式X・公開ミラー（Ver.3.8正式タイトル・11月12日配信告知）",
-        "url": "https://www.sotwe.com/WW_JP_Official",
+        "name": "Wuthering Waves公式プレスリリース（Games Press・英語）",
+        "url": "https://www.gamespress.com/en-GB/Wuthering-Waves-Version-38-Lilies-in-a-Dying-Dream-Introduces-Lily-a-N",
         "date": "2026-11-06",
-        "type": "公式投稿の公開ミラー"
+        "type": "公式プレスリリース"
       },
       {
-        "name": "『鳴潮』日本公式X・公開ミラー（追憶集音の告知）",
-        "url": "https://www.sotwe.com/WW_JP_Official",
+        "name": "『鳴潮』Ver.3.8予告特別通信・公式YouTube",
+        "url": "https://www.youtube.com/live/V-YCRamfKMc",
         "date": "2026-11-06",
-        "type": "公式投稿の公開ミラー"
+        "type": "公式"
       },
       {
-        "name": "共鳴者集音（追憶）・公式告知画像",
-        "url": "https://pbs.twimg.com/media/HWbrGqhbgAAcHS0.jpg",
-        "date": "2026-11-06",
-        "type": "公式投稿添付画像"
-      },
-      {
-        "name": "武器集音（追憶）・公式告知画像",
-        "url": "https://pbs.twimg.com/media/HWbrIISaUAAMEQF.jpg",
-        "date": "2026-11-06",
-        "type": "公式投稿添付画像"
-      },
-      {
-        "name": "集音（追憶）ルール説明・公式告知画像",
-        "url": "https://pbs.twimg.com/media/HWbrE1KboAEKbP3.jpg",
-        "date": "2026-11-06",
-        "type": "公式投稿添付画像"
-      },
-      {
-        "name": "Wuthering Waves公式X・公開ミラー（英語版タイトル・配信日）",
-        "url": "https://www.sotwe.com/Wuthering_Waves",
-        "date": "2026-11-06",
-        "type": "公式投稿の公開ミラー"
+        "name": "4Gamer・Ver.3.8配信日と新共鳴者の報道",
+        "url": "https://www.4gamer.net/games/634/G063420/20261106056/",
+        "date": "2026-11-07",
+        "type": "報道"
       }
     ],
     "story_id": "wuwa-v38-preview-broadcast-20261106"
