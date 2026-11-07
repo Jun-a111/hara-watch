@@ -1,60 +1,186 @@
 [
   {
-    "id": "china-latest-20261104-phantom-blade-zero-first-patch",
-    "date": "2026-11-04",
+    "id": "wuwa-official-20261030-v38-preview-broadcast",
+    "date": "2026-11-06",
     "category": "中国ゲーム・最新",
-    "status": "公式アップデート",
+    "status": "公式発表",
     "lang": "JP",
-    "title": "『Phantom Blade Zero（影之刃零）』発売後初のパッチ1.0302256を配信　操作・音響・PC起動処理を改善",
-    "summary": "S-GAMEは11月3日、発売後初のパッチ1.0302256を公式公開し、Steam版にも11月4日配信。命中音響の個別調整、PC・キーボード／コントローラーのインタラクトキー変更、特定難易度でのボス「花嫁・阿花」の掴み頻度低下、PCのレイトレーシング用シェーダー起動時コンパイル廃止、Bluetoothコントローラーのスタッター軽減、NVIDIA Reflexと垂直同期の併用改善、不具合修正を実施。Steam版容量は快科技報道で3.7GB。",
-    "url": "https://pbz.s-game.com/en-US/news/patch-notes-2026-11-03/",
-    "source": "S-GAME公式／Steamニュース／快科技・新浪",
+    "title": "KURO GAMES『鳴潮』Ver.3.8、11月12日配信　新★5「リリー」とPC・コンソール最適化を発表",
+    "summary": "KURO GAMESは11月6日、Ver.3.8「旧夢で朽ちゆく小百合花」を11月12日に配信すると発表。新★5共鳴者「リリー」（回折・拳銃）と★5武器「ララバイ」、潮汐任務第四章第五幕、新たな戦闘・ミニイベント、緋雪の衣装を追加する。漂泊者の音骸セット自動切替、素材ダンジョンの再挑戦、PCのリソース選択・整理、対応コンソールの画質設定、PS5 ProのPSSRにも対応。Ver.4.0の世界・物語設定を先行して示す更新と公式が説明した。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
+    "source": "KURO GAMES公式発表／PR TIMES",
     "tags": [
-      "S-GAME",
-      "Phantom Blade Zero",
-      "影之刃零",
-      "パッチ1.0302256",
+      "鳴潮",
+      "KURO GAMES",
+      "Ver.3.8",
+      "リリー",
+      "ララバイ",
+      "11月12日配信",
       "PC最適化",
-      "操作設定",
-      "不具合修正"
+      "PS5 Pro",
+      "PSSR",
+      "中国ゲーム"
     ],
     "spoiler": false,
-    "body": "■ 発売後初のパッチを公開\nS-GAMEは2026年11月3日、アクションゲーム『Phantom Blade Zero（影之刃零）』のパッチノート1.0302256を公式サイトで公開した。同じ内容のSteamニュースは11月4日付。快科技の報道によると、Steam版の更新容量は3.7GBで、WeGame版に続いてSteam版にも配信された。\n\n■ 新しい設定項目\n・音声設定に「命中音響の強度」「命中時の衝撃音響の強度」を追加。\n・PC版ではキーボードとコントローラーの両方で「インタラクト／会話」操作をキー変更できるようにした。\n\n■ 戦闘・操作・パフォーマンスの調整\n・一部エリアの動作パフォーマンスを改善。\n・一部ボス、敵、環境ギミックの挙動を調整。\n・「入陣者」「破局者」難易度で、ボス「花嫁・阿花」が掴み攻撃を使う頻度を低下。他の難易度は変更対象外。\n・武器攻撃のヒットフィードバックを改善し、一部効果音・台詞音量を調整。\n・武器説明、スキル説明、コントローラーのボタンアイコンを更新。\n\n■ PC版の起動処理・周辺機器対応\nレイトレーシング用シェーダーを起動時に標準でコンパイルしない方式へ変更し、起動時間を大幅に短縮。パッチ適用前にレイトレーシングを無効にしていた場合は、初回起動時に一度だけ短時間のシェーダー再コンパイルが必要。以前から有効にしていた場合は再コンパイルせず起動できる。後からレイトレーシングを有効にした場合は、次回再起動時に必要なシェーダーを個別にコンパイルする。\n・Bluetooth接続コントローラーで発生する場合があったスタッターを軽減。\n・NVIDIA Reflexを「自動」に設定し、垂直同期を有効にした場合もReflexが機能するよう改善。\n\n■ 不具合修正と注意点\n・特定条件で進行不能になる問題、キャラクターが地形などに引っ掛かる問題、カットシーン・映像表示、戦闘関連の複数の問題を修正。\n・特定のドライバーを使用する一部AMD GPUで、キャラクターの髪が正しく描画されない問題を修正。\n・公式は一部のサードパーティ製Modが今回の更新と互換性を持たず、異常の原因になる場合があると注意。更新後に問題が起きた場合は導入済みModを外すよう案内している。\n・クラッシュやスタッターが続く場合は、Steamのゲームフォルダー内にあるPBZProjectPBZSavedCacheの中身を削除して再起動し、シェーダーを再生成するよう案内。\n\n今回の公式ノートは設定・操作・パフォーマンス・不具合修正が中心で、新エリアや新ボスの追加は発表していない。性能改善の具体的なフレームレート向上値も公表されていない。",
+    "teaser_title": "Ver.3.8予告特別通信の配信日時",
+    "body": "■ 11月6日にVer.3.8の内容を発表、11月12日配信\nKURO GAMESは2026年11月6日、オープンワールドアクションRPG『鳴潮』のVer.3.8「旧夢で朽ちゆく小百合花」を11月12日（木）に配信すると発表した。対応プラットフォームはWindows、Mac、PlayStation 5、Xbox、iOS、Android。\n\n■ 新共鳴者・新武器\n前半に新限定★5共鳴者「リリー」が登場。属性は回折、武器は拳銃で、CVは高森奈津美。新★5拳銃「ララバイ」も実装される。前半にはシグリカと仇遠の復刻、後半には秧秧・玄翎、穂穂、緋雪の集音イベントを予定。\n\n■ 新コンテンツ・イベント\n潮汐任務第四章第五幕「明日へ捧ぐ花束」、新たな戦闘挑戦「ホロタクティクス・演武」、複数の期間限定イベントを追加。緋雪のスペシャル衣装「霜に沈む月」とアクセサリー「灼ける桜」もストアに登場する。\n\n■ 「第二ソラリス：題なき夢」\nVer.3.8内のミニイベントとして、第二ソラリス学園で授業・勉強・課外活動などを組み立てる学園生活コンテンツを実施。行動や選択によりエンディングが変化する。MGPで事前予約を受け付けている同名のテキストアドベンチャー作品とは、ゲーム内イベントとMGP掲載作品を区別して扱う。\n\n■ システム改善\n・漂泊者の音序変換画面を刷新し、属性変更後に対応する音骸セットへ自動切替。\n・ソラガイドや育成プランから素材ダンジョンへ直接移動できるマップピンを追加。報酬受取後に再読み込みせず再挑戦できる機能も追加。\n・振り返り、移動のつなぎ、被ダメージ時など共鳴者の一部モーションを改善。\n・PC版は「全部のリソース／必要リソース」の選択とリソースクリーンアップを改善。いずれも限定テストとして順次実装予定。\n・対応コンソールでは「パフォーマンス優先／グラフィック優先」を選択可能。ただしPS5およびXbox Series Sはこの設定の対象外。PS5 ProではPSSRを有効化すると最大4K解像度に対応。\n\n■ Ver.4.0への接続\n公式はVer.3.8がVer.4.0の世界・物語設定の始まりとなり、次章を先行して垣間見せる更新になると説明。未公開ストーリーの核心やリーク情報は本記事に含めない。",
     "timeline": [
       {
-        "date": "2026年10月28日",
-        "text": "Steamストア上の発売日。"
+        "date": "2026年10月30日",
+        "text": "『鳴潮』公式がVer.3.8予告特別通信の配信日時を告知。"
       },
       {
-        "date": "2026年11月3日",
-        "text": "S-GAMEが公式サイトでパッチノート1.0302256を公開。"
+        "date": "2026年11月6日 20:00 JST",
+        "text": "Ver.3.8予告特別通信を公式配信。"
       },
       {
-        "date": "2026年11月4日",
-        "text": "同内容のSteamニュースを公開。快科技はSteam版の配信と容量3.7GBを報道。"
+        "date": "2026年11月6日",
+        "text": "KURO GAMESがVer.3.8の正式タイトル、11月12日の配信日、新共鳴者リリー、武器ララバイ、イベント、システム改善を発表。"
+      },
+      {
+        "date": "2026年11月12日",
+        "text": "Ver.3.8「旧夢で朽ちゆく小百合花」配信予定。"
       }
     ],
     "sources": [
       {
-        "name": "S-GAME公式・Patch Notes (Version 1.0302256)",
-        "url": "https://pbz.s-game.com/en-US/news/patch-notes-2026-11-03/",
-        "date": "2026-11-03",
+        "name": "KURO GAMES公式・Ver.3.8アップデート発表（PR TIMES）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
+        "date": "2026-11-06",
         "type": "公式"
       },
       {
-        "name": "Phantom Blade Zero公式Steamニュース・Patch Notes (Version 1.0302256)",
-        "url": "https://store.steampowered.com/news/app/4115450/view/698779962638863174",
-        "date": "2026-11-04",
+        "name": "Wuthering Waves公式プレスリリース（Games Press・英語）",
+        "url": "https://www.gamespress.com/en-GB/Wuthering-Waves-Version-38-Lilies-in-a-Dying-Dream-Introduces-Lily-a-N",
+        "date": "2026-11-06",
+        "type": "公式プレスリリース"
+      },
+      {
+        "name": "『鳴潮』Ver.3.8予告特別通信・公式YouTube",
+        "url": "https://www.youtube.com/live/V-YCRamfKMc",
+        "date": "2026-11-06",
         "type": "公式"
       },
       {
-        "name": "快科技・新浪科技『Phantom Blade Zero』発売後初のSteam更新パッチ",
-        "url": "https://finance.sina.com.cn/tech/discovery/2026-11-04/doc-inixqnsx0117686.shtml",
-        "date": "2026-11-04",
+        "name": "4Gamer・Ver.3.8配信日と新共鳴者の報道",
+        "url": "https://www.4gamer.net/games/634/G063420/20261106056/",
+        "date": "2026-11-07",
         "type": "報道"
       }
     ],
-    "story_id": "phantom-blade-zero-first-patch-20261103"
+    "story_id": "wuwa-v38-preview-broadcast-20261106"
+  },
+  {
+    "id": "wuwa-20261106-tappo-improvements-roadmap",
+    "date": "2026-11-06",
+    "category": "鳴潮",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "KURO GAMES、デスクトップマスコット「Wuwa Tappo」の改善計画を公開　Steam・macOS対応を準備",
+    "summary": "KURO GAMESは11月6日、デスクトップマスコット「Wuwa Tappo」の改善計画を公開。マルチルームのホスト権限移譲・メンバー退出、他プレイヤーのTappo非表示、同時起動時のキーボード・マウス入力遅延の修正を案内した。今後はSteam対応の準備、macOS対応、キャラクター追加を予定。引換コード「RareTappo」はランダムなRare（紫）キャラクター1体で、11月13日12:00 JSTまで有効。",
+    "url": "https://www.sotwe.com/WW_JP_Official",
+    "source": "『鳴潮』日本公式X・英語公式X（公開ミラー）",
+    "tags": [
+      "鳴潮",
+      "Wuwa Tappo",
+      "デスクトップマスコット",
+      "Steam",
+      "macOS",
+      "引換コード"
+    ],
+    "spoiler": false,
+    "body": "■ 11月6日、公式が改善状況と今後の開発方針を公開\nKURO GAMESはデスクトップマスコットソフト「Wuwa Tappo」について、ユーザーからのフィードバックを受けた機能改善と今後の開発計画を告知した。\n\n■ 直近の改善\n・マルチルームでホスト権限を別メンバーへ譲渡できる機能、特定メンバーを退出させる機能を追加。\n・マルチルームで他プレイヤーのデスクトップマスコットをワンクリックで非表示にできる機能を追加。\n・Wuwa Tappoと他のゲーム・ソフトを同時起動した際に発生するキーボード／マウス操作の入力遅延を修正。\n\n■ 今後の開発計画\n・Steam対応：配信に向けた準備を進行中。配信日や具体的な手順は未発表。\n・macOS対応：正式に開発ロードマップへ追加。実装時期は未発表。\n・キャラクター追加：今後も共鳴者を追加する方針。\n\n■ 引換コード「RareTappo」\nWuwa Tappo内の「設定」→「引換コード」から「RareTappo」を入力すると、レア度Rare（紫）のキャラクターをランダムで1体獲得できる。日本公式の案内では有効期限は2026年11月13日（金）12:00（日本標準時）。英語公式の案内にある11:00（UTC+8）と同じ時刻。\nこのコードはデスクトップマスコット「Wuwa Tappo」専用であり、『鳴潮』本編の星声交換コードではない。",
+    "timeline": [
+      {
+        "date": "2026年11月6日",
+        "text": "『鳴潮』日本・英語公式アカウントがWuwa Tappoの直近の改善、Steam・macOS対応の開発計画、キャラクター追加方針と引換コードRareTappoを告知。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『鳴潮』日本公式X・公開ミラー（Wuwa Tappo改善計画・RareTappo告知）",
+        "url": "https://www.sotwe.com/WW_JP_Official",
+        "date": "2026-11-06",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "Wuthering Waves公式X・公開ミラー（Wuwa Tappo improvements and roadmap）",
+        "url": "https://www.sotwe.com/Wuthering_Waves",
+        "date": "2026-11-06",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "Wuwa Tappo公式ダウンロードページ",
+        "url": "https://download-wutheringwaves-wuwatappo.kurogames-global.com/download/jp/",
+        "date": "2026-10-26",
+        "type": "公式"
+      }
+    ],
+    "story_id": "wuwa-tappo-roadmap-20261106"
+  },
+  {
+    "id": "kuro-new-20261030-second-solaris-unwritten-dreams",
+    "date": "2026-11-06",
+    "category": "新作",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "KURO GAMES『第二ソラリス：題なき夢』11月12日発売予定　MGP公式ページに日付掲載",
+    "summary": "KURO GAMESのテキストアドベンチャー『第二ソラリス：題なき夢』について、MGP公式ページが発売日を2026年11月12日と表示。10月30日に事前予約とオープニングテーマが公開され、11月6日のVer.3.8予告特別通信で続報が案内された。第二ソラリス学園でのキャンパスライフを描く作品で、対応プラットフォームや価格などの詳細は公式ページで確認できない。",
+    "url": "https://secondcomingofsolaris.kurogames-global.com/",
+    "source": "Meta Games Platform公式ページ／KURO GAMES",
+    "tags": [
+      "KURO GAMES",
+      "第二ソラリス",
+      "題なき夢",
+      "Second Coming of Solaris",
+      "Unwritten Dreams",
+      "テキストアドベンチャー",
+      "MGP",
+      "発売日"
+    ],
+    "spoiler": false,
+    "story_id": "kuro-second-solaris-unwritten-dreams-20261030",
+    "body": "■ MGP公式ページに発売日を掲載\nKURO GAMESが「第二ソラリス」シリーズの新作として案内しているテキストアドベンチャー『第二ソラリス：題なき夢』（Second Coming of Solaris: Unwritten Dreams）について、MGP公式ページは発売日を2026年11月12日と表示している。ページ上では「2026/11/12 Coming soon!」と案内されている。\n\n■ 作品概要\n公式告知では、プレイヤーが第二ソラリス学園へ転入し、新しいキャンパスライフを始めるテキストアドベンチャーとして紹介。MGPで事前予約を受け付け、オープニングテーマ「JUST WITH YOU: After-School Hours with You」も公開済み。\n\n■ 鳴潮Ver.3.8との関係\n『鳴潮』Ver.3.8の公式アップデート案内にも、同名の「第二ソラリス：題なき夢」がゲーム内のレジャーイベントとして記載されている。MGP掲載のテキストアドベンチャー本体と、鳴潮内イベントを混同しない。\n\n■ 未発表事項\nMGPページで確認できる発売日以外に、対応プラットフォーム、価格、配信開始時刻、各地域の提供範囲は今回確認できなかった。発売日表示は公式ページの記載に基づく。",
+    "timeline": [
+      {
+        "date": "2026年10月30日",
+        "text": "KURO GAMESが新作テキストアドベンチャーを発表し、MGPで事前予約を開始。オープニングテーマも公開。"
+      },
+      {
+        "date": "2026年11月6日",
+        "text": "Ver.3.8予告特別通信後に確認したMGP公式ページで、発売日が2026年11月12日と表示されていることを確認。"
+      },
+      {
+        "date": "2026年11月12日",
+        "text": "MGP公式ページに表示された発売予定日。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Meta Games Platform公式・第二ソラリス：題なき夢",
+        "url": "https://secondcomingofsolaris.kurogames-global.com/",
+        "date": "2026-11-06",
+        "type": "公式"
+      },
+      {
+        "name": "『鳴潮』日本公式X・公開ミラー（新作発表・事前予約）",
+        "url": "https://www.sotwe.com/WW_JP_Official",
+        "date": "2026-10-30",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "『第二ソラリス：題なき夢』公式オープニング映像",
+        "url": "https://www.youtube.com/watch?v=JcbyaVNNDCU",
+        "date": "2026-10-30",
+        "type": "公式"
+      },
+      {
+        "name": "KURO GAMES公式・鳴潮Ver.3.8アップデート発表（同名のゲーム内イベント案内）",
+        "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
+        "date": "2026-11-06",
+        "type": "公式"
+      }
+    ]
   },
   {
     "id": "china-industry-20261106-bytedance-moonton-samr-approval",
@@ -112,54 +238,6 @@
       }
     ],
     "story_id": "bytedance-moonton-savvy-acquisition-20261106"
-  },
-  {
-    "id": "wuwa-20261106-tappo-improvements-roadmap",
-    "date": "2026-11-06",
-    "category": "鳴潮",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "KURO GAMES、デスクトップマスコット「Wuwa Tappo」の改善計画を公開　Steam・macOS対応を準備",
-    "summary": "KURO GAMESは11月6日、デスクトップマスコット「Wuwa Tappo」の改善計画を公開。マルチルームのホスト権限移譲・メンバー退出、他プレイヤーのTappo非表示、同時起動時のキーボード・マウス入力遅延の修正を案内した。今後はSteam対応の準備、macOS対応、キャラクター追加を予定。引換コード「RareTappo」はランダムなRare（紫）キャラクター1体で、11月13日12:00 JSTまで有効。",
-    "url": "https://www.sotwe.com/WW_JP_Official",
-    "source": "『鳴潮』日本公式X・英語公式X（公開ミラー）",
-    "tags": [
-      "鳴潮",
-      "Wuwa Tappo",
-      "デスクトップマスコット",
-      "Steam",
-      "macOS",
-      "引換コード"
-    ],
-    "spoiler": false,
-    "body": "■ 11月6日、公式が改善状況と今後の開発方針を公開\nKURO GAMESはデスクトップマスコットソフト「Wuwa Tappo」について、ユーザーからのフィードバックを受けた機能改善と今後の開発計画を告知した。\n\n■ 直近の改善\n・マルチルームでホスト権限を別メンバーへ譲渡できる機能、特定メンバーを退出させる機能を追加。\n・マルチルームで他プレイヤーのデスクトップマスコットをワンクリックで非表示にできる機能を追加。\n・Wuwa Tappoと他のゲーム・ソフトを同時起動した際に発生するキーボード／マウス操作の入力遅延を修正。\n\n■ 今後の開発計画\n・Steam対応：配信に向けた準備を進行中。配信日や具体的な手順は未発表。\n・macOS対応：正式に開発ロードマップへ追加。実装時期は未発表。\n・キャラクター追加：今後も共鳴者を追加する方針。\n\n■ 引換コード「RareTappo」\nWuwa Tappo内の「設定」→「引換コード」から「RareTappo」を入力すると、レア度Rare（紫）のキャラクターをランダムで1体獲得できる。日本公式の案内では有効期限は2026年11月13日（金）12:00（日本標準時）。英語公式の案内にある11:00（UTC+8）と同じ時刻。\nこのコードはデスクトップマスコット「Wuwa Tappo」専用であり、『鳴潮』本編の星声交換コードではない。",
-    "timeline": [
-      {
-        "date": "2026年11月6日",
-        "text": "『鳴潮』日本・英語公式アカウントがWuwa Tappoの直近の改善、Steam・macOS対応の開発計画、キャラクター追加方針と引換コードRareTappoを告知。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "『鳴潮』日本公式X・公開ミラー（Wuwa Tappo改善計画・RareTappo告知）",
-        "url": "https://www.sotwe.com/WW_JP_Official",
-        "date": "2026-11-06",
-        "type": "公式投稿の公開ミラー"
-      },
-      {
-        "name": "Wuthering Waves公式X・公開ミラー（Wuwa Tappo improvements and roadmap）",
-        "url": "https://www.sotwe.com/Wuthering_Waves",
-        "date": "2026-11-06",
-        "type": "公式投稿の公開ミラー"
-      },
-      {
-        "name": "Wuwa Tappo公式ダウンロードページ",
-        "url": "https://download-wutheringwaves-wuwatappo.kurogames-global.com/download/jp/",
-        "date": "2026-10-26",
-        "type": "公式"
-      }
-    ],
-    "story_id": "wuwa-tappo-roadmap-20261106"
   },
   {
     "id": "china-latest-20261105-naraka-bladepoint-update",
@@ -361,6 +439,63 @@
       }
     ],
     "story_id": "yiren-zhixia-final-test-20261104"
+  },
+  {
+    "id": "china-latest-20261104-phantom-blade-zero-first-patch",
+    "date": "2026-11-04",
+    "category": "中国ゲーム・最新",
+    "status": "公式アップデート",
+    "lang": "JP",
+    "title": "『Phantom Blade Zero（影之刃零）』発売後初のパッチ1.0302256を配信　操作・音響・PC起動処理を改善",
+    "summary": "S-GAMEは11月3日、発売後初のパッチ1.0302256を公式公開し、Steam版にも11月4日配信。命中音響の個別調整、PC・キーボード／コントローラーのインタラクトキー変更、特定難易度でのボス「花嫁・阿花」の掴み頻度低下、PCのレイトレーシング用シェーダー起動時コンパイル廃止、Bluetoothコントローラーのスタッター軽減、NVIDIA Reflexと垂直同期の併用改善、不具合修正を実施。Steam版容量は快科技報道で3.7GB。",
+    "url": "https://pbz.s-game.com/en-US/news/patch-notes-2026-11-03/",
+    "source": "S-GAME公式／Steamニュース／快科技・新浪",
+    "tags": [
+      "S-GAME",
+      "Phantom Blade Zero",
+      "影之刃零",
+      "パッチ1.0302256",
+      "PC最適化",
+      "操作設定",
+      "不具合修正"
+    ],
+    "spoiler": false,
+    "body": "■ 発売後初のパッチを公開\nS-GAMEは2026年11月3日、アクションゲーム『Phantom Blade Zero（影之刃零）』のパッチノート1.0302256を公式サイトで公開した。同じ内容のSteamニュースは11月4日付。快科技の報道によると、Steam版の更新容量は3.7GBで、WeGame版に続いてSteam版にも配信された。\n\n■ 新しい設定項目\n・音声設定に「命中音響の強度」「命中時の衝撃音響の強度」を追加。\n・PC版ではキーボードとコントローラーの両方で「インタラクト／会話」操作をキー変更できるようにした。\n\n■ 戦闘・操作・パフォーマンスの調整\n・一部エリアの動作パフォーマンスを改善。\n・一部ボス、敵、環境ギミックの挙動を調整。\n・「入陣者」「破局者」難易度で、ボス「花嫁・阿花」が掴み攻撃を使う頻度を低下。他の難易度は変更対象外。\n・武器攻撃のヒットフィードバックを改善し、一部効果音・台詞音量を調整。\n・武器説明、スキル説明、コントローラーのボタンアイコンを更新。\n\n■ PC版の起動処理・周辺機器対応\nレイトレーシング用シェーダーを起動時に標準でコンパイルしない方式へ変更し、起動時間を大幅に短縮。パッチ適用前にレイトレーシングを無効にしていた場合は、初回起動時に一度だけ短時間のシェーダー再コンパイルが必要。以前から有効にしていた場合は再コンパイルせず起動できる。後からレイトレーシングを有効にした場合は、次回再起動時に必要なシェーダーを個別にコンパイルする。\n・Bluetooth接続コントローラーで発生する場合があったスタッターを軽減。\n・NVIDIA Reflexを「自動」に設定し、垂直同期を有効にした場合もReflexが機能するよう改善。\n\n■ 不具合修正と注意点\n・特定条件で進行不能になる問題、キャラクターが地形などに引っ掛かる問題、カットシーン・映像表示、戦闘関連の複数の問題を修正。\n・特定のドライバーを使用する一部AMD GPUで、キャラクターの髪が正しく描画されない問題を修正。\n・公式は一部のサードパーティ製Modが今回の更新と互換性を持たず、異常の原因になる場合があると注意。更新後に問題が起きた場合は導入済みModを外すよう案内している。\n・クラッシュやスタッターが続く場合は、Steamのゲームフォルダー内にあるPBZProjectPBZSavedCacheの中身を削除して再起動し、シェーダーを再生成するよう案内。\n\n今回の公式ノートは設定・操作・パフォーマンス・不具合修正が中心で、新エリアや新ボスの追加は発表していない。性能改善の具体的なフレームレート向上値も公表されていない。",
+    "timeline": [
+      {
+        "date": "2026年10月28日",
+        "text": "Steamストア上の発売日。"
+      },
+      {
+        "date": "2026年11月3日",
+        "text": "S-GAMEが公式サイトでパッチノート1.0302256を公開。"
+      },
+      {
+        "date": "2026年11月4日",
+        "text": "同内容のSteamニュースを公開。快科技はSteam版の配信と容量3.7GBを報道。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "S-GAME公式・Patch Notes (Version 1.0302256)",
+        "url": "https://pbz.s-game.com/en-US/news/patch-notes-2026-11-03/",
+        "date": "2026-11-03",
+        "type": "公式"
+      },
+      {
+        "name": "Phantom Blade Zero公式Steamニュース・Patch Notes (Version 1.0302256)",
+        "url": "https://store.steampowered.com/news/app/4115450/view/698779962638863174",
+        "date": "2026-11-04",
+        "type": "公式"
+      },
+      {
+        "name": "快科技・新浪科技『Phantom Blade Zero』発売後初のSteam更新パッチ",
+        "url": "https://finance.sina.com.cn/tech/discovery/2026-11-04/doc-inixqnsx0117686.shtml",
+        "date": "2026-11-04",
+        "type": "報道"
+      }
+    ],
+    "story_id": "phantom-blade-zero-first-patch-20261103"
   },
   {
     "id": "china-industry-20261104-amc-yodo1-ip-licensing",
@@ -621,70 +756,6 @@
       }
     ],
     "story_id": "delta-force-season-aurora-phantom-blade-zero-20261102"
-  },
-  {
-    "id": "kuro-new-20261030-second-solaris-unwritten-dreams",
-    "date": "2026-11-06",
-    "category": "新作",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "KURO GAMES『第二ソラリス：題なき夢』11月12日発売予定　MGP公式ページに日付掲載",
-    "summary": "KURO GAMESのテキストアドベンチャー『第二ソラリス：題なき夢』について、MGP公式ページが発売日を2026年11月12日と表示。10月30日に事前予約とオープニングテーマが公開され、11月6日のVer.3.8予告特別通信で続報が案内された。第二ソラリス学園でのキャンパスライフを描く作品で、対応プラットフォームや価格などの詳細は公式ページで確認できない。",
-    "url": "https://secondcomingofsolaris.kurogames-global.com/",
-    "source": "Meta Games Platform公式ページ／KURO GAMES",
-    "tags": [
-      "KURO GAMES",
-      "第二ソラリス",
-      "題なき夢",
-      "Second Coming of Solaris",
-      "Unwritten Dreams",
-      "テキストアドベンチャー",
-      "MGP",
-      "発売日"
-    ],
-    "spoiler": false,
-    "story_id": "kuro-second-solaris-unwritten-dreams-20261030",
-    "body": "■ MGP公式ページに発売日を掲載\nKURO GAMESが「第二ソラリス」シリーズの新作として案内しているテキストアドベンチャー『第二ソラリス：題なき夢』（Second Coming of Solaris: Unwritten Dreams）について、MGP公式ページは発売日を2026年11月12日と表示している。ページ上では「2026/11/12 Coming soon!」と案内されている。\n\n■ 作品概要\n公式告知では、プレイヤーが第二ソラリス学園へ転入し、新しいキャンパスライフを始めるテキストアドベンチャーとして紹介。MGPで事前予約を受け付け、オープニングテーマ「JUST WITH YOU: After-School Hours with You」も公開済み。\n\n■ 鳴潮Ver.3.8との関係\n『鳴潮』Ver.3.8の公式アップデート案内にも、同名の「第二ソラリス：題なき夢」がゲーム内のレジャーイベントとして記載されている。MGP掲載のテキストアドベンチャー本体と、鳴潮内イベントを混同しない。\n\n■ 未発表事項\nMGPページで確認できる発売日以外に、対応プラットフォーム、価格、配信開始時刻、各地域の提供範囲は今回確認できなかった。発売日表示は公式ページの記載に基づく。",
-    "timeline": [
-      {
-        "date": "2026年10月30日",
-        "text": "KURO GAMESが新作テキストアドベンチャーを発表し、MGPで事前予約を開始。オープニングテーマも公開。"
-      },
-      {
-        "date": "2026年11月6日",
-        "text": "Ver.3.8予告特別通信後に確認したMGP公式ページで、発売日が2026年11月12日と表示されていることを確認。"
-      },
-      {
-        "date": "2026年11月12日",
-        "text": "MGP公式ページに表示された発売予定日。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Meta Games Platform公式・第二ソラリス：題なき夢",
-        "url": "https://secondcomingofsolaris.kurogames-global.com/",
-        "date": "2026-11-06",
-        "type": "公式"
-      },
-      {
-        "name": "『鳴潮』日本公式X・公開ミラー（新作発表・事前予約）",
-        "url": "https://www.sotwe.com/WW_JP_Official",
-        "date": "2026-10-30",
-        "type": "公式投稿の公開ミラー"
-      },
-      {
-        "name": "『第二ソラリス：題なき夢』公式オープニング映像",
-        "url": "https://www.youtube.com/watch?v=JcbyaVNNDCU",
-        "date": "2026-10-30",
-        "type": "公式"
-      },
-      {
-        "name": "KURO GAMES公式・鳴潮Ver.3.8アップデート発表（同名のゲーム内イベント案内）",
-        "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
-        "date": "2026-11-06",
-        "type": "公式"
-      }
-    ]
   },
   {
     "id": "china-latest-20261029-monster-hunter-outlanders-launch",
@@ -1470,77 +1541,6 @@
         "type": "公式"
       }
     ]
-  },
-  {
-    "id": "wuwa-official-20261030-v38-preview-broadcast",
-    "date": "2026-11-06",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "KURO GAMES『鳴潮』Ver.3.8、11月12日配信　新★5「リリー」とPC・コンソール最適化を発表",
-    "summary": "KURO GAMESは11月6日、Ver.3.8「旧夢で朽ちゆく小百合花」を11月12日に配信すると発表。新★5共鳴者「リリー」（回折・拳銃）と★5武器「ララバイ」、潮汐任務第四章第五幕、新たな戦闘・ミニイベント、緋雪の衣装を追加する。漂泊者の音骸セット自動切替、素材ダンジョンの再挑戦、PCのリソース選択・整理、対応コンソールの画質設定、PS5 ProのPSSRにも対応。Ver.4.0の世界・物語設定を先行して示す更新と公式が説明した。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
-    "source": "KURO GAMES公式発表／PR TIMES",
-    "tags": [
-      "鳴潮",
-      "KURO GAMES",
-      "Ver.3.8",
-      "リリー",
-      "ララバイ",
-      "11月12日配信",
-      "PC最適化",
-      "PS5 Pro",
-      "PSSR",
-      "中国ゲーム"
-    ],
-    "spoiler": false,
-    "teaser_title": "Ver.3.8予告特別通信の配信日時",
-    "body": "■ 11月6日にVer.3.8の内容を発表、11月12日配信\nKURO GAMESは2026年11月6日、オープンワールドアクションRPG『鳴潮』のVer.3.8「旧夢で朽ちゆく小百合花」を11月12日（木）に配信すると発表した。対応プラットフォームはWindows、Mac、PlayStation 5、Xbox、iOS、Android。\n\n■ 新共鳴者・新武器\n前半に新限定★5共鳴者「リリー」が登場。属性は回折、武器は拳銃で、CVは高森奈津美。新★5拳銃「ララバイ」も実装される。前半にはシグリカと仇遠の復刻、後半には秧秧・玄翎、穂穂、緋雪の集音イベントを予定。\n\n■ 新コンテンツ・イベント\n潮汐任務第四章第五幕「明日へ捧ぐ花束」、新たな戦闘挑戦「ホロタクティクス・演武」、複数の期間限定イベントを追加。緋雪のスペシャル衣装「霜に沈む月」とアクセサリー「灼ける桜」もストアに登場する。\n\n■ 「第二ソラリス：題なき夢」\nVer.3.8内のミニイベントとして、第二ソラリス学園で授業・勉強・課外活動などを組み立てる学園生活コンテンツを実施。行動や選択によりエンディングが変化する。MGPで事前予約を受け付けている同名のテキストアドベンチャー作品とは、ゲーム内イベントとMGP掲載作品を区別して扱う。\n\n■ システム改善\n・漂泊者の音序変換画面を刷新し、属性変更後に対応する音骸セットへ自動切替。\n・ソラガイドや育成プランから素材ダンジョンへ直接移動できるマップピンを追加。報酬受取後に再読み込みせず再挑戦できる機能も追加。\n・振り返り、移動のつなぎ、被ダメージ時など共鳴者の一部モーションを改善。\n・PC版は「全部のリソース／必要リソース」の選択とリソースクリーンアップを改善。いずれも限定テストとして順次実装予定。\n・対応コンソールでは「パフォーマンス優先／グラフィック優先」を選択可能。ただしPS5およびXbox Series Sはこの設定の対象外。PS5 ProではPSSRを有効化すると最大4K解像度に対応。\n\n■ Ver.4.0への接続\n公式はVer.3.8がVer.4.0の世界・物語設定の始まりとなり、次章を先行して垣間見せる更新になると説明。未公開ストーリーの核心やリーク情報は本記事に含めない。",
-    "timeline": [
-      {
-        "date": "2026年10月30日",
-        "text": "『鳴潮』公式がVer.3.8予告特別通信の配信日時を告知。"
-      },
-      {
-        "date": "2026年11月6日 20:00 JST",
-        "text": "Ver.3.8予告特別通信を公式配信。"
-      },
-      {
-        "date": "2026年11月6日",
-        "text": "KURO GAMESがVer.3.8の正式タイトル、11月12日の配信日、新共鳴者リリー、武器ララバイ、イベント、システム改善を発表。"
-      },
-      {
-        "date": "2026年11月12日",
-        "text": "Ver.3.8「旧夢で朽ちゆく小百合花」配信予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "KURO GAMES公式・Ver.3.8アップデート発表（PR TIMES）",
-        "url": "https://prtimes.jp/main/html/rd/p/000000037.000144940.html",
-        "date": "2026-11-06",
-        "type": "公式"
-      },
-      {
-        "name": "Wuthering Waves公式プレスリリース（Games Press・英語）",
-        "url": "https://www.gamespress.com/en-GB/Wuthering-Waves-Version-38-Lilies-in-a-Dying-Dream-Introduces-Lily-a-N",
-        "date": "2026-11-06",
-        "type": "公式プレスリリース"
-      },
-      {
-        "name": "『鳴潮』Ver.3.8予告特別通信・公式YouTube",
-        "url": "https://www.youtube.com/live/V-YCRamfKMc",
-        "date": "2026-11-06",
-        "type": "公式"
-      },
-      {
-        "name": "4Gamer・Ver.3.8配信日と新共鳴者の報道",
-        "url": "https://www.4gamer.net/games/634/G063420/20261106056/",
-        "date": "2026-11-07",
-        "type": "報道"
-      }
-    ],
-    "story_id": "wuwa-v38-preview-broadcast-20261106"
   },
   {
     "id": "china-latest-20261030-showa-american-story-content-complete",
