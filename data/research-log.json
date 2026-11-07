@@ -410,25 +410,34 @@
   {
     "date": "2026-11-07",
     "outcome": "一部調査",
-    "candidates": 3,
-    "added": 1,
+    "candidates": 6,
+    "added": 2,
     "updated": 2,
-    "rejected": 0,
+    "rejected": 2,
     "checked_categories": [
       "鳴潮",
       "KURO GAMES",
       "新作",
       "中国ゲーム・最新",
-      "中国ゲーム業界"
+      "中国ゲーム業界",
+      "ハラ",
+      "スタレ",
+      "ゼンゼロ",
+      "ホヨバ",
+      "リーク"
     ],
     "unchecked_categories": [
       "鳴潮4.xリーク一次投稿・画像原本の網羅確認",
       "X本体の元投稿・返信・引用・最新表示数の直接取得",
       "Weibo・bilibili個別コメントの網羅確認",
       "韓国語圏SNSの網羅確認",
-      "ハラ・スタレ・ゼンゼロ・ホヨバの炎上監視全件（今回の朝ブリーフ対象外）"
+      "ハラ・スタレ・ゼンゼロ・ホヨバの炎上監視全件（今回の朝ブリーフ対象外）",
+      "X本体の元投稿・返信・引用・最新表示数の直接取得（既存の原神引退宣言、ゼンゼロ衣装論争、スタレ×ゼンゼロ人選論争、鍾離考察、イヴリンのShip War等。既知のX URLを開いたがDisabledError／403）",
+      "Weibo・bilibiliの個別コメントと拡散規模の網羅的照合（bilibili検索では既存コラボ関連の古い動画等のみ確認）",
+      "韓国語圏SNSの個別投稿・拡散規模の網羅的確認",
+      "鳴潮4.xリークの一次投稿・画像原本、Project NAMIの全公式チャンネル・採用情報の網羅確認"
     ],
-    "notes": "2026-11-07朝JST。README.md、data/news.json、data/research-log.json、index.htmlの最新mainを取得してから調査・差分統合。READMEの中国ゲーム枠運用ルールと既存記事スキーマ（id/date/category/status/lang/title/summary/url/source/tags/spoiler/body/timeline/sources/story_id）を確認。独立したJSON Schemaファイルは今回も確認できず、news.json既存オブジェクトに準拠。日本語・英語・中国語の公開情報を検索。候補3件を採用。①KURO GAMES『鳴潮』Ver.3.8は11/6公式発表で11/12配信、新★5リリー（回折・拳銃）とララバイ、メイン任務、戦闘・学園イベント、緋雪衣装、漂泊者の音骸セット自動切替、素材ダンジョンの連続再挑戦、PCリソース選択・整理、対応コンソールの画質設定、PS5 Pro PSSRを確認。PR TIMESのKURO GAMES公式発表、Games Pressの英語公式プレスリリース、4Gamerを照合。既存記事wuwa-official-20261030-v38-preview-broadcastを更新し、個別タイトルの最新情報に該当するためcategoryを「鳴潮」から専用の「中国ゲーム・最新」へ単記事のみ変更。既存ID/story_idを維持し、ストーリー核心は記載しない。②KURO GAMESの新作テキストADV『第二ソラリス：題なき夢』はMGP公式ページが発売日を2026-11-12と表示していることを確認。10/30の事前予約・OP曲発表記事を更新し、category「新作」を維持。対応プラットフォーム・価格・配信時刻は公式ページから確認できず未記載。鳴潮Ver.3.8内にも同名のレジャーイベントがあるため、MGP掲載作品本体とゲーム内イベントを区別して説明。③中国国家市場監督管理総局は11/6、10/26～11/1の無条件承認案件一覧を公表。Saudi Electronic Games HoldingによるMoonton Holdings等の株式取得案件を10/29付で無条件承認したと当局一覧で確認。DoNewsと观点网の報道、Reutersの3/20売却合意報道でSavvy Games Groupへの売却と60億ドル超の取引額を照合。今回の公示は中国の独禁審査承認であり、最終交割は他の契約条件が残ると明記し、中国ゲーム業界に新規追加。追加1、既存更新2。既存news.jsonは103件から104件へ。記事ID重複なし、category完全一致、追加記事の一次出典・日付・公式/報道区分を確認。既存のWuwa Tappo改善、NARAKA 11/5更新、DLSS 5関連などは既存記事に掲載済みで重複追加せず。鳴潮4.xリークは検索で一次投稿・画像原本を確認できる新情報なし（網羅確認とは扱わない）。index.htmlは未変更。今回取得したindex.html内に「CHINA GAME WATCH」「CHINA GAME TODAY」の完全一致文字列は見つからなかったが、既存UIの推測変更は行わず。X返信・引用、Weibo/bilibili個別コメント、韓国語圏SNS、鳴潮リーク一次情報は未網羅。これらを新情報なしとは判断しない。KURO WATCHへの保存・更新なし。",
-    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/0cd102096b7b6c4964f852d9333fc1bf49354700"
+    "notes": "2026-11-07朝JST。README.md、data/news.json、data/research-log.json、index.htmlの最新mainを取得してから調査・差分統合。READMEの中国ゲーム枠運用ルールと既存記事スキーマ（id/date/category/status/lang/title/summary/url/source/tags/spoiler/body/timeline/sources/story_id）を確認。独立したJSON Schemaファイルは今回も確認できず、news.json既存オブジェクトに準拠。日本語・英語・中国語の公開情報を検索。候補3件を採用。①KURO GAMES『鳴潮』Ver.3.8は11/6公式発表で11/12配信、新★5リリー（回折・拳銃）とララバイ、メイン任務、戦闘・学園イベント、緋雪衣装、漂泊者の音骸セット自動切替、素材ダンジョンの連続再挑戦、PCリソース選択・整理、対応コンソールの画質設定、PS5 Pro PSSRを確認。PR TIMESのKURO GAMES公式発表、Games Pressの英語公式プレスリリース、4Gamerを照合。既存記事wuwa-official-20261030-v38-preview-broadcastを更新し、個別タイトルの最新情報に該当するためcategoryを「鳴潮」から専用の「中国ゲーム・最新」へ単記事のみ変更。既存ID/story_idを維持し、ストーリー核心は記載しない。②KURO GAMESの新作テキストADV『第二ソラリス：題なき夢』はMGP公式ページが発売日を2026-11-12と表示していることを確認。10/30の事前予約・OP曲発表記事を更新し、category「新作」を維持。対応プラットフォーム・価格・配信時刻は公式ページから確認できず未記載。鳴潮Ver.3.8内にも同名のレジャーイベントがあるため、MGP掲載作品本体とゲーム内イベントを区別して説明。③中国国家市場監督管理総局は11/6、10/26～11/1の無条件承認案件一覧を公表。Saudi Electronic Games HoldingによるMoonton Holdings等の株式取得案件を10/29付で無条件承認したと当局一覧で確認。DoNewsと观点网の報道、Reutersの3/20売却合意報道でSavvy Games Groupへの売却と60億ドル超の取引額を照合。今回の公示は中国の独禁審査承認であり、最終交割は他の契約条件が残ると明記し、中国ゲーム業界に新規追加。追加1、既存更新2。既存news.jsonは103件から104件へ。記事ID重複なし、category完全一致、追加記事の一次出典・日付・公式/報道区分を確認。既存のWuwa Tappo改善、NARAKA 11/5更新、DLSS 5関連などは既存記事に掲載済みで重複追加せず。鳴潮4.xリークは検索で一次投稿・画像原本を確認できる新情報なし（網羅確認とは扱わない）。index.htmlは未変更。今回取得したindex.html内に「CHINA GAME WATCH」「CHINA GAME TODAY」の完全一致文字列は見つからなかったが、既存UIの推測変更は行わず。X返信・引用、Weibo/bilibili個別コメント、韓国語圏SNS、鳴潮リーク一次情報は未網羅。これらを新情報なしとは判断しない。KURO WATCHへの保存・更新なし。\n\n2026-11-07夜JST追記。朝の候補3・新規1・続報更新2・見送り0に夜間分を統合。夜間候補3件：①S-GAME公式は11/3、Steam公式は11/4に『Phantom Blade Zero』発売後初のパッチ1.0302256を公開。公式パッチノートとSteam Newsを照合し、快科技／新浪の11/4報道でSteam版3.7GB・WeGame版に続くSteam配信を確認。音響スライダー、PCのインタラクトキー変更、特定難易度での花嫁・阿花の掴み頻度低下、レイトレーシング用シェーダーの起動時コンパイル変更、Bluetoothコントローラーのスタッター軽減、NVIDIA ReflexとV-Syncの併用、進行不能・AMD髪描画等の修正、Mod互換性とシェーダーキャッシュの公式注意をまとめた新規記事china-latest-20261104-phantom-blade-zero-first-patchを追加1。既存の発売72時間400万本記事とは別イベントのため別story_id。②『ゼンレスゾーンゼロ』公式の限定W-Engine「禁断の監獄」プレビュー（11/7公開）は通常の装備告知であり、炎上・論争の発端ではないため見送り。③『鳴潮』Ver.3.8の4Gamer記事（11/7 00:00）は朝の更新済み記事に既に出典登録済みで重複更新せず見送り。HoYoverse既存炎上案件を日英中韓で検索し、Reddit・bilibiliも横断。検索結果で確認できた関連bilibili動画は主に9月～10月初旬の既存コラボ議論等で、11/7時点の新しい拡散・反論・公式対応を裏付けるものではない。Xの既知の原投稿URL（4469SHO、gacha_tourist等）を直接開いたがDisabledError、プロフィールは403。Xの返信・引用・最新表示数を取得できず、Weibo/bilibiliの個別コメントと韓国語圏SNSも網羅未達。したがって既存のハラ引退宣言、ゼンゼロ衣装論争、スタレ×ゼンゼロ人選論争、鍾離考察、イヴリンShip War、上坂すみれ脅迫関連は続報更新なしだが、沈静化・新情報なしとは断定しない。Project NAMI／Burn Nor Blazeの新たな公式確定情報、鳴潮4.xリーク一次投稿も確認できず、一次資料未取得として記録。朝夜累計候補6、新規2、続報更新2、見送り2。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/25ef1a9fbd7732a40986a07626ae799843c658af"
   }
 ]
