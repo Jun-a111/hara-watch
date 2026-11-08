@@ -464,5 +464,30 @@
     ],
     "notes": "2026-11-08朝JST。README.md、data/news.json、data/research-log.json、index.htmlの最新mainを再取得してから差分統合。READMEと既存news.jsonの実オブジェクト構造（id/date/category/status/lang/title/summary/url/source/tags/spoiler/teaser_title/body/timeline/sources/story_id）を確認し、独立JSON Schemaファイルは確認できなかったため既存記事構造に準拠。\n\n日本語・英語・中国語の公開情報を横断。①『鳴潮』Ver.3.8は既存記事wuwa-official-20261030-v38-preview-broadcastを更新。11/7の日本公式告知でメンテナンス日時11/12 05:00～12:00 JST、補填星声300・結晶波長溶剤2、緋雪衣装「霜に沈む月」の常設販売とVer.3.8期間中1,980月相・終了後2,480月相を確認。日本公式Xの公開ミラーで引換コードTRAINOFSOULS/BLOOMINGFLOWERS/SCHOOLLIFEの期限が11/9 00:59 JSTであることも確認し、本文・要約・時系列・出典を追記。ストーリー核心は追記せず。\n\n②Wuwa TappoのSteam対応準備、macOS対応計画、マルチルーム管理、入力遅延修正、RareTappoコード（11/13 12:00 JSTまで）は既存記事wuwa-20261106-tappo-improvements-roadmapに全項目が保存済み。重複更新・再追加なし。\n\n③NTE Ver.1.5は既存記事china-latest-20261029-nte-ver15-previewを更新。公式サイトが11/4に発表したファン作品コンテスト（応募11/5～12/13 23:59 UTC+8、最大1,000米ドル＋Annulith 6,480、AI生成・転載・再利用禁止）を追記。Ver.1.5の11/11配信予定は10/28の公式予告番組とGematsuの報道を照合。既存ID/story_idを維持。\n\n④『2026年中国ゲーム産業IP発展報告』は11/3のゲームIP生態大会で公開。中国音像・デジタル出版協会とGamma Dataの報告として、2026年IP市場2,992.3億元予測、1～9月IP製品流水の市場比81.4%、モバイル売上TOP100のIP作品比率63%、原作IP1,467.83億元（前年比8.4%増）、ライセンスIP1,335.83億元（11.2%増）などを確認。GamerSky、The Paper掲載の大会情報、投資界を照合し、中国ゲーム業界へ新規追加。これらは報告の推計値であり確定決算・政府統計ではないと明記。\n\n候補6件のうち新規追加1、既存更新2。既存Tappo記事、MGP掲載『第二ソラリス：題なき夢』発売日記事は登録済みのため重複追加せず。鳴潮4.xリークは一次投稿・画像原本を確認できず不採用。検索失敗・未確認範囲を新情報なしとは扱わない。更新前105件、更新後106件。記事ID重複なし、新規story_id重複なし。既存news.jsonに元から存在するstory_id重複2組（Endfield関連記事、鳴潮Solaris/Starry Stage関連記事）は今回は編集せず保護。category完全一致、JSON再解析成功。index.htmlは読み返したが変更せず、既存UIと手動記事を保護。KURO WATCHへの保存・更新なし。\n\nX本体の返信・引用の直接取得、Weibo/bilibiliの個別コメント、韓国語圏SNS、鳴潮4.xリーク一次資料は未網羅。日本公式X情報は公開ミラーで確認した。",
     "commit_url": "https://github.com/Jun-a111/hara-watch/commit/272be95914d81deb172911f98501a4d729a01871"
+  },
+  {
+    "date": "2026-11-09",
+    "outcome": "差分反映成功（調査範囲に未確認部分あり）",
+    "candidates": 5,
+    "added": 0,
+    "updated": 1,
+    "rejected": 4,
+    "checked_categories": [
+      "鳴潮",
+      "KURO GAMES",
+      "新作",
+      "中国ゲーム・最新",
+      "中国ゲーム業界",
+      "リーク"
+    ],
+    "unchecked_categories": [
+      "X本体の元投稿・返信・引用・最新表示数の直接取得",
+      "Weibo・bilibiliの個別コメントと拡散規模の網羅確認",
+      "韓国語圏SNSの個別投稿・拡散規模の網羅確認",
+      "鳴潮4.xリークの一次投稿・画像原本の網羅確認",
+      "中国ゲーム企業の全公式チャンネル・採用情報の網羅確認"
+    ],
+    "notes": "2026-11-09朝JST。README.md、data/news.json、data/research-log.json、index.htmlを最新mainから取得。READMEの中国ゲーム枠運用ルールを確認し、既存news.jsonの実オブジェクト構造（id/date/category/status/lang/title/summary/url/source/tags/spoiler/teaser_title/body/timeline/sources/story_id）に準拠。独立JSON Schemaファイルは確認できなかったため既存記事形式を維持。\n\n日本語・英語・中国語の公開情報を検索。候補5件：①KURO GAMESは11/8に公式英語サイトで『鳴潮』Ver.3.8新共鳴者リリーのプロフィールを公開。香水師で、連邦共鳴者戦争中に珍しい共鳴能力を用いて兵士の心をケアした人物として紹介。公式YouTubeは同日リリーの共鳴者実戦トレーラーを公開。既存記事wuwa-official-20261030-v38-preview-broadcastに本文・要約・時系列・出典を追記し更新1。物語の核心は含めない。②同記事に11/7日本公式メンテナンス告知の事前ダウンロード情報が未記載だったため補完。開始は11/10 10:00 UTC+8＝11:00 JST。PCは空き15GB／実パッケージ約13GB、Android/iOSは空き13GB／実パッケージ約9GB。公式日本語告知URLを追加。③Ver.3.8交換コード3種は期限が11/9 00:59 JSTで終了済みのため、本文で期限終了済みと明記し、通知では再掲しない。④NTE Ver.1.5（11/11予定）と『風燕伝』Hutuo（11/13予定）は既存記事に記録済みで、新しい公式情報を確認できなかったため重複更新なし。⑤中国語圏で「2026年11月9日ゲーム市場热点」と題する11/8夜の毎日経済新聞記事を発見したが、取得ページには見出し以外の本文がなく具体的な新情報を検証できないため採用せず。その他、日英中の公開検索で11/8～11/9の中国ゲーム業界に関する新たな公式発表・報道を追加確認できず。ただし検索結果の範囲であり全チャンネル網羅ではない。\n\n追加記事0、既存更新1。news.jsonの記事数は106件のまま。記事ID・story_idは変更せず、既存記事にのみ差分統合。categoryは「中国ゲーム・最新」を維持。JSON解析、記事本文・要約・タイムライン・出典を更新後に再取得して確認。index.htmlは変更せず、既存UI・手動記事を保護。KURO WATCHへの保存・更新なし。\n\n未確認範囲：X本体の投稿・返信・引用・表示数、Weibo/bilibili個別コメント、韓国語圏SNS、鳴潮4.xリーク一次投稿・画像原本、全企業公式チャンネル・採用情報。これらを新情報なしとは扱わない。",
+    "commit_url": ""
   }
 ]
