@@ -489,5 +489,33 @@
     ],
     "notes": "2026-11-09朝JST。README.md、data/news.json、data/research-log.json、index.htmlを最新mainから取得。READMEの中国ゲーム枠運用ルールを確認し、既存news.jsonの実オブジェクト構造（id/date/category/status/lang/title/summary/url/source/tags/spoiler/teaser_title/body/timeline/sources/story_id）に準拠。独立JSON Schemaファイルは確認できなかったため既存記事形式を維持。\n\n日本語・英語・中国語の公開情報を検索。候補5件：①KURO GAMESは11/8に公式英語サイトで『鳴潮』Ver.3.8新共鳴者リリーのプロフィールを公開。香水師で、連邦共鳴者戦争中に珍しい共鳴能力を用いて兵士の心をケアした人物として紹介。公式YouTubeは同日リリーの共鳴者実戦トレーラーを公開。既存記事wuwa-official-20261030-v38-preview-broadcastに本文・要約・時系列・出典を追記し更新1。物語の核心は含めない。②同記事に11/7日本公式メンテナンス告知の事前ダウンロード情報が未記載だったため補完。開始は11/10 10:00 UTC+8＝11:00 JST。PCは空き15GB／実パッケージ約13GB、Android/iOSは空き13GB／実パッケージ約9GB。公式日本語告知URLを追加。③Ver.3.8交換コード3種は期限が11/9 00:59 JSTで終了済みのため、本文で期限終了済みと明記し、通知では再掲しない。④NTE Ver.1.5（11/11予定）と『風燕伝』Hutuo（11/13予定）は既存記事に記録済みで、新しい公式情報を確認できなかったため重複更新なし。⑤中国語圏で「2026年11月9日ゲーム市場热点」と題する11/8夜の毎日経済新聞記事を発見したが、取得ページには見出し以外の本文がなく具体的な新情報を検証できないため採用せず。その他、日英中の公開検索で11/8～11/9の中国ゲーム業界に関する新たな公式発表・報道を追加確認できず。ただし検索結果の範囲であり全チャンネル網羅ではない。\n\n追加記事0、既存更新1。news.jsonの記事数は106件のまま。記事ID・story_idは変更せず、既存記事にのみ差分統合。categoryは「中国ゲーム・最新」を維持。JSON解析、記事本文・要約・タイムライン・出典を更新後に再取得して確認。index.htmlは変更せず、既存UI・手動記事を保護。KURO WATCHへの保存・更新なし。\n\n未確認範囲：X本体の投稿・返信・引用・表示数、Weibo/bilibili個別コメント、韓国語圏SNS、鳴潮4.xリーク一次投稿・画像原本、全企業公式チャンネル・採用情報。これらを新情報なしとは扱わない。",
     "commit_url": ""
+  },
+  {
+    "date": "2026-11-10",
+    "outcome": "差分反映成功（調査範囲に未確認部分あり）",
+    "candidates": 9,
+    "added": 1,
+    "updated": 1,
+    "rejected": 7,
+    "checked_categories": [
+      "鳴潮",
+      "KURO GAMES",
+      "新作",
+      "中国ゲーム・最新",
+      "中国ゲーム業界",
+      "リーク",
+      "ハラ",
+      "スタレ",
+      "ゼンゼロ",
+      "ホヨバ"
+    ],
+    "unchecked_categories": [
+      "X本体の元投稿・返信・引用・最新表示数の直接取得（鳴潮4.xリークの一次投稿を含む）",
+      "Weibo・bilibiliの個別コメントと拡散規模の網羅確認",
+      "韓国語圏SNSの個別投稿・拡散規模の網羅確認",
+      "中国ゲーム企業すべての公式チャンネル・採用情報の網羅確認"
+    ],
+    "notes": "2026-11-10朝JST。README.md、data/news.json、data/research-log.json、index.htmlを最新mainから再取得。READMEの中国ゲーム枠・朝ブリーフ反映ルールを確認し、既存記事オブジェクト構造（id/date/category/status/lang/title/summary/url/source/tags/spoiler/teaser_title/body/timeline/sources/story_id）に準拠。日本語・英語・中国語の公開情報を横断。\n\n①鳴潮公式は11/9、リリーの公式イメージソング「Wuthering Waves EP3.8 — Lily - Lily Grace」を公開。約3分17秒、ボーカルAurora Sky、作曲・プロデュースAurora Sky／Lucien X、作詞Oil Li。公式YouTube動画と公式日本語アカウントの公開投稿ミラーで照合。既存記事wuwa-official-20261030-v38-preview-broadcastへ本文・要約・時系列・出典を追記。②同日、鳴潮公式サイトにVer.3.8のイベントカレンダーが掲載されたことを公式サイトの英語ニュース一覧および詳細ページID 5736、公式Xの公開投稿ミラーで確認。詳細ページはテキスト抽出できず、カレンダー画像内の個別日程を推測転記せず、公開事実と公式リンクのみ既存記事へ追記。③GachaNewsは11/9、Ima Dei Tup由来としてスカーとゲシュリンがVer.4.x後半にプレイアブル化するとの主張を掲載。KURO GAMESの公式発表はなく、元のX投稿は独立取得できなかったため「未確認の噂」としてcategory「リーク」に新規追加。性能・属性・実装時期等を補完せず、ストーリー核心も記載しない。④鳴潮Ver.3.8事前ダウンロードは既報の11/10 10:00 UTC+8＝11:00 JST、本日開始予定。PC空き15GB（実容量約13GB）、Android/iOS空き13GB（実容量約9GB）。既存記事に記載済みのため重複更新せず、通知では時間が近い予定として再案内。⑤Delta Forceグローバル版S12 Auroraの11/10開始、⑥NTE Ver.1.5の11/11開始、⑦Where Winds Meet Hutuoの11/13開始は既存記事・既報に記載済みで新規追加せず。⑧ZZZ公式の11/9イベント告知は通常のゲーム内イベントであり、READMEの既存分類（ハラ・スタレ・ゼンゼロ・ホヨバは炎上監視）を崩さないため新カテゴリへ追加せず。⑨中国ゲーム企業の新たな重要発表・投資・スタジオ動向は日英中の検索で具体的な一次情報を確認できず、採用なし。検索取得できなかったX返信・Weibo/bilibiliコメント等は新情報なしと断定しない。\n\n新規追加1、既存更新1、見送り7。追加記事ID・URL・story_idは既存news.jsonと照合し重複なし。既存の別件story_id重複は変更せず保護。既存手動記事と過去記事を保護。index.htmlは確認したが変更せず。README上の指定カテゴリ文字列を維持。KURO WATCHへの保存・更新なし。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/a135dd4fd3af0a0d56d32963c0eaf4e80f86d390"
   }
 ]
