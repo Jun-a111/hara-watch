@@ -1,5 +1,42 @@
 [
   {
+    "id": "wuwa-leak-20261109-scar-geshu-lin-playable",
+    "date": "2026-11-09",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "JP",
+    "title": "【未確認】『鳴潮』4.x後半で「スカー」「ゲシュリン」がプレイアブル化するとのリーク報道",
+    "summary": "GachaNewsは11月9日、リーカーIma Dei Tup由来として、Ver.4.x後半にスカーとゲシュリンがプレイアブル化するとの情報を紹介した。KURO GAMESの公式発表はなく、元のX投稿も独立確認できていないため未確認の噂。実装時期・性能・属性・武器は不明。",
+    "url": "https://gachanews.net/news/wuthering-waves-leaks-scar-and-geshu-lin-playable/",
+    "source": "GachaNews（リーク情報の二次報道）",
+    "tags": [
+      "鳴潮",
+      "Ver.4.x",
+      "スカー",
+      "ゲシュリン",
+      "未確認リーク",
+      "プレイアブル化"
+    ],
+    "spoiler": false,
+    "teaser_title": "Ver.4.x後半のプレイアブル化説",
+    "body": "■ 11月9日、GachaNewsが4.x関連の未確認情報を紹介\nGachaNewsは2026年11月9日、リーカー「Ima Dei Tup」由来の情報として、「スカー」と「ゲシュリン」がVer.4.x後半にプレイアブルキャラクターとして登場するとの主張を掲載した。\n\n■ 確認状況\n・KURO GAMESによる公式発表はない。\n・GachaNewsの記事は元情報をIma Dei Tupに帰属させているが、元のX投稿を今回独立して取得・確認できなかった。\n・実装バージョンの細かな時期、属性、武器、性能、ガチャ順は確認できない。\n\nしたがって現段階では未確認の噂として扱い、確定情報として予測や編成計画に使用しない。ストーリーの核心に関する情報は掲載していない。",
+    "timeline": [
+      {
+        "date": "2026年11月9日",
+        "text": "GachaNewsがIma Dei Tup由来とするスカー・ゲシュリンのプレイアブル化説を未確認情報として紹介。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "GachaNews・鳴潮4.xリークの二次報道",
+        "url": "https://gachanews.net/news/wuthering-waves-leaks-scar-and-geshu-lin-playable/",
+        "date": "2026-11-09",
+        "type": "未確認リークの二次報道"
+      }
+    ],
+    "story_id": "wuwa-v4x-scar-geshu-playable-rumor-20261109"
+  },
+  {
     "id": "wuwa-official-20261030-v38-preview-broadcast",
     "date": "2026-11-06",
     "category": "中国ゲーム・最新",
@@ -5908,42 +5945,5 @@
         "text": "Push Squareも『alleged censorship（検閲疑惑）』として取り上げ、問題の核心は“変更後そのもの”より、プレイヤーが元のデザインをすでに見ており、差分を明確に認識できた点にあると整理している。"
       }
     ]
-  },
-  {
-    "id": "wuwa-leak-20261109-scar-geshu-lin-playable",
-    "date": "2026-11-09",
-    "category": "リーク",
-    "status": "未確認の噂",
-    "lang": "JP",
-    "title": "【未確認】『鳴潮』4.x後半で「スカー」「ゲシュリン」がプレイアブル化するとのリーク報道",
-    "summary": "GachaNewsは11月9日、リーカーIma Dei Tup由来として、Ver.4.x後半にスカーとゲシュリンがプレイアブル化するとの情報を紹介した。KURO GAMESの公式発表はなく、元のX投稿も独立確認できていないため未確認の噂。実装時期・性能・属性・武器は不明。",
-    "url": "https://gachanews.net/news/wuthering-waves-leaks-scar-and-geshu-lin-playable/",
-    "source": "GachaNews（リーク情報の二次報道）",
-    "tags": [
-      "鳴潮",
-      "Ver.4.x",
-      "スカー",
-      "ゲシュリン",
-      "未確認リーク",
-      "プレイアブル化"
-    ],
-    "spoiler": false,
-    "teaser_title": "Ver.4.x後半のプレイアブル化説",
-    "body": "■ 11月9日、GachaNewsが4.x関連の未確認情報を紹介\nGachaNewsは2026年11月9日、リーカー「Ima Dei Tup」由来の情報として、「スカー」と「ゲシュリン」がVer.4.x後半にプレイアブルキャラクターとして登場するとの主張を掲載した。\n\n■ 確認状況\n・KURO GAMESによる公式発表はない。\n・GachaNewsの記事は元情報をIma Dei Tupに帰属させているが、元のX投稿を今回独立して取得・確認できなかった。\n・実装バージョンの細かな時期、属性、武器、性能、ガチャ順は確認できない。\n\nしたがって現段階では未確認の噂として扱い、確定情報として予測や編成計画に使用しない。ストーリーの核心に関する情報は掲載していない。",
-    "timeline": [
-      {
-        "date": "2026年11月9日",
-        "text": "GachaNewsがIma Dei Tup由来とするスカー・ゲシュリンのプレイアブル化説を未確認情報として紹介。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "GachaNews・鳴潮4.xリークの二次報道",
-        "url": "https://gachanews.net/news/wuthering-waves-leaks-scar-and-geshu-lin-playable/",
-        "date": "2026-11-09",
-        "type": "未確認リークの二次報道"
-      }
-    ],
-    "story_id": "wuwa-v4x-scar-geshu-playable-rumor-20261109"
   }
 ]
