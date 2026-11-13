@@ -1,5 +1,69 @@
 [
   {
+    "id": "china-latest-20261110-sea-of-remnants-cbt-december-4",
+    "date": "2026-11-10",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "NetEase『シーオブレムナンツ』12月4日からCBT　PC・PS5・Xbox・iOS・Android対応、最新PV公開",
+    "summary": "NetEase Gamesは11月10日、Joker Studioの新作『シーオブレムナンツ（Sea of Remnants）』のクローズドβテストを12月4日～18日に実施すると発表。事前受付は11月26日開始、事前ダウンロードは12月1日。Windows PC、PS5、Xbox Series X、iOS、Androidに対応し、日本語を含む5言語のテキストと日本語・英語・中国語音声を用意。ターン制バトル、自由なチーム編成、ローグライク要素を紹介した。テストデータは終了後に削除され、正式版へ引き継がれない。",
+    "url": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+    "source": "NetEase Games公式日本語発表",
+    "tags": [
+      "NetEase Games",
+      "Joker Studio",
+      "Sea of Remnants",
+      "シーオブレムナンツ",
+      "新作",
+      "CBT",
+      "クローズドβテスト",
+      "ターン制バトル",
+      "ローグライク",
+      "PC",
+      "PS5",
+      "Xbox Series X",
+      "iOS",
+      "Android",
+      "日本語対応",
+      "2026年12月4日"
+    ],
+    "spoiler": false,
+    "body": "■ 11月10日、12月4日からのCBT開催を発表\nNetEase Gamesは、Joker Studio（『Identity V』開発スタジオ）の新作『シーオブレムナンツ（Sea of Remnants）』について、2026年12月4日～12月18日にクローズドβテストを実施すると発表。開催決定に合わせて、海賊・海軍などの勢力を紹介する最新PVも公開した。\n\n■ CBTで体験できる内容\n・個性の異なるキャラクターを集め、能力を活かして自由にチーム編成。\n・敵や状況に応じて行動を選ぶターン制バトル。\n・挑戦ごとに異なる展開を楽しむローグライク要素。\n・一部カジュアル対戦ミニゲームでは、ほかのプレイヤーとのマッチングに対応。\n正式サービス後はマルチプレイコンテンツをさらに拡充する予定としている。\n\n■ CBT日程・対応環境\n・事前受付開始：2026年11月26日\n・事前ダウンロード：2026年12月1日\n・CBT：2026年12月4日～12月18日\n・対応：Windows PC、PlayStation 5、Xbox Series X、iOS、Android\n・テキスト：英語、日本語、韓国語、簡体字中国語、繁体字中国語\n・音声：英語、日本語、中国語\n\n■ 参加方法と注意点\n公式サイトからの事前応募抽選に加え、12月4日のテスト開始後は先着順で参加できる。ただし参加人数に上限があり、定員に達すると受付終了。テスト終了後にプレイデータは削除され、正式リリース版へ引き継がれない。詳細な応募期間・必要スペックは公式サイトで今後案内される。",
+    "timeline": [
+      {
+        "date": "2026年11月10日",
+        "text": "NetEase Gamesが『シーオブレムナンツ』の12月CBT開催と最新PV公開を発表。"
+      },
+      {
+        "date": "2026年11月26日",
+        "text": "公式サイトでCBT事前受付を開始予定。"
+      },
+      {
+        "date": "2026年12月1日",
+        "text": "CBTクライアントの事前ダウンロード開始予定。"
+      },
+      {
+        "date": "2026年12月4日～12月18日",
+        "text": "Windows PC、PS5、Xbox Series X、iOS、AndroidでCBTを実施予定。テストデータは終了後に削除される。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "NetEase Games公式・『シーオブレムナンツ』CBT開催告知",
+        "url": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
+        "date": "2026-11-10",
+        "type": "公式"
+      },
+      {
+        "name": "NetEase Games公式・『シーオブレムナンツ』最新PV",
+        "url": "https://youtu.be/br93rGwU48Y",
+        "date": "2026-11-10",
+        "type": "公式動画"
+      }
+    ],
+    "story_id": "sea-of-remnants-global-cbt-20261204"
+  },
+  {
     "id": "china-industry-20261110-tencent-eciyuan-ai-companion-beta",
     "date": "2026-11-10",
     "category": "中国ゲーム業界",
@@ -6212,69 +6276,5 @@
         "text": "Push Squareも『alleged censorship（検閲疑惑）』として取り上げ、問題の核心は“変更後そのもの”より、プレイヤーが元のデザインをすでに見ており、差分を明確に認識できた点にあると整理している。"
       }
     ]
-  },
-  {
-    "id": "china-latest-20261110-sea-of-remnants-cbt-december-4",
-    "date": "2026-11-10",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "NetEase『シーオブレムナンツ』12月4日からCBT　PC・PS5・Xbox・iOS・Android対応、最新PV公開",
-    "summary": "NetEase Gamesは11月10日、Joker Studioの新作『シーオブレムナンツ（Sea of Remnants）』のクローズドβテストを12月4日～18日に実施すると発表。事前受付は11月26日開始、事前ダウンロードは12月1日。Windows PC、PS5、Xbox Series X、iOS、Androidに対応し、日本語を含む5言語のテキストと日本語・英語・中国語音声を用意。ターン制バトル、自由なチーム編成、ローグライク要素を紹介した。テストデータは終了後に削除され、正式版へ引き継がれない。",
-    "url": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
-    "source": "NetEase Games公式日本語発表",
-    "tags": [
-      "NetEase Games",
-      "Joker Studio",
-      "Sea of Remnants",
-      "シーオブレムナンツ",
-      "新作",
-      "CBT",
-      "クローズドβテスト",
-      "ターン制バトル",
-      "ローグライク",
-      "PC",
-      "PS5",
-      "Xbox Series X",
-      "iOS",
-      "Android",
-      "日本語対応",
-      "2026年12月4日"
-    ],
-    "spoiler": false,
-    "body": "■ 11月10日、12月4日からのCBT開催を発表\nNetEase Gamesは、Joker Studio（『Identity V』開発スタジオ）の新作『シーオブレムナンツ（Sea of Remnants）』について、2026年12月4日～12月18日にクローズドβテストを実施すると発表。開催決定に合わせて、海賊・海軍などの勢力を紹介する最新PVも公開した。\n\n■ CBTで体験できる内容\n・個性の異なるキャラクターを集め、能力を活かして自由にチーム編成。\n・敵や状況に応じて行動を選ぶターン制バトル。\n・挑戦ごとに異なる展開を楽しむローグライク要素。\n・一部カジュアル対戦ミニゲームでは、ほかのプレイヤーとのマッチングに対応。\n正式サービス後はマルチプレイコンテンツをさらに拡充する予定としている。\n\n■ CBT日程・対応環境\n・事前受付開始：2026年11月26日\n・事前ダウンロード：2026年12月1日\n・CBT：2026年12月4日～12月18日\n・対応：Windows PC、PlayStation 5、Xbox Series X、iOS、Android\n・テキスト：英語、日本語、韓国語、簡体字中国語、繁体字中国語\n・音声：英語、日本語、中国語\n\n■ 参加方法と注意点\n公式サイトからの事前応募抽選に加え、12月4日のテスト開始後は先着順で参加できる。ただし参加人数に上限があり、定員に達すると受付終了。テスト終了後にプレイデータは削除され、正式リリース版へ引き継がれない。詳細な応募期間・必要スペックは公式サイトで今後案内される。",
-    "timeline": [
-      {
-        "date": "2026年11月10日",
-        "text": "NetEase Gamesが『シーオブレムナンツ』の12月CBT開催と最新PV公開を発表。"
-      },
-      {
-        "date": "2026年11月26日",
-        "text": "公式サイトでCBT事前受付を開始予定。"
-      },
-      {
-        "date": "2026年12月1日",
-        "text": "CBTクライアントの事前ダウンロード開始予定。"
-      },
-      {
-        "date": "2026年12月4日～12月18日",
-        "text": "Windows PC、PS5、Xbox Series X、iOS、AndroidでCBTを実施予定。テストデータは終了後に削除される。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "NetEase Games公式・『シーオブレムナンツ』CBT開催告知",
-        "url": "https://www.neteasegames.com/jp/news/SeaOfRemnants/20261110/43515_1319176.html",
-        "date": "2026-11-10",
-        "type": "公式"
-      },
-      {
-        "name": "NetEase Games公式・『シーオブレムナンツ』最新PV",
-        "url": "https://youtu.be/br93rGwU48Y",
-        "date": "2026-11-10",
-        "type": "公式動画"
-      }
-    ],
-    "story_id": "sea-of-remnants-global-cbt-20261204"
   }
 ]
