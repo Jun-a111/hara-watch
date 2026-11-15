@@ -1,5 +1,64 @@
 [
   {
+    "id": "china-industry-20261111-sensortower-top100-revenue-share",
+    "date": "2026-11-11",
+    "category": "中国ゲーム業界",
+    "status": "報道（BloombergがSensor Towerデータを引用）",
+    "lang": "JP",
+    "title": "Sensor Tower推計、世界上位100モバイルゲーム売上で中国系が40％　米国系は16.5％",
+    "summary": "BloombergがSensor Towerデータを引用した報道によると、2026年半ば、世界上位100モバイルゲームの売上構成で中国系パブリッシャーが40％、米国系が16.5％。米国市場の上位100タイトルでも中国系タイトルの売上比率は18％超に上昇した。数値は上位100タイトルを対象とする推計で、世界モバイルゲーム市場全体の国別シェアとは異なる。",
+    "url": "https://www.pocketgamer.biz/china-takes-40-of-global-mobile-games-revenue-as-us-share-falls-to-165/",
+    "source": "Bloomberg／PocketGamer.biz／The Japan Times",
+    "tags": [
+      "中国ゲーム業界",
+      "中国ゲーム企業",
+      "モバイルゲーム",
+      "世界市場",
+      "Sensor Tower",
+      "Bloomberg",
+      "売上構成",
+      "米国市場"
+    ],
+    "spoiler": false,
+    "teaser_title": "世界上位100タイトルの売上構成",
+    "body": "■ 11月11日、BloombergがSensor Tower推計を報道\nPocketGamer.bizは2026年11月11日、Bloombergが紹介したSensor Towerのデータをもとに、世界の上位100モバイルゲームにおける中国系・米国系パブリッシャーの売上構成を報じた。The Japan Timesも同日、Bloomberg記事を掲載している。\n\n■ 2026年半ば、中国系40％・米国系16.5％\n世界上位100タイトルの売上に占める中国系パブリッシャーの比率は2026年半ばに40％、米国系は16.5％と推計された。2024年初頭には両国はほぼ拮抗していたが、その後中国系が差を広げたという。記事では『Honor of Kings』『Whiteout Survival』などを例に挙げている。\n\n■ 米国市場でも中国系タイトルの存在感が上昇\n米国の上位100モバイルゲームでは、中国系タイトルが生み出す売上の比率が2020年代初頭の約8％から18％超へ上昇。同期間に米国系パブリッシャーの比率は約40％から30％未満へ低下したと報じられた。\n\n■ 上位100タイトルの本数にも変化\n世界上位100タイトルに入る中国系パブリッシャーのゲームは10年前の21本から40本へ増加。一方、米国系は22本から13本へ減少した。\n\n■ 数値の対象範囲\nこれらはSensor Towerの推計に基づく「世界上位100モバイルゲーム」の売上構成であり、全モバイルゲーム市場の国別売上シェア、各国企業全体の売上、プレイヤー数を示すものではない。上位100タイトルという対象範囲を保って記録する。",
+    "timeline": [
+      {
+        "date": "2024年初頭",
+        "text": "Sensor Towerデータでは、世界上位100モバイルゲームの売上構成において中国系と米国系の比率はほぼ拮抗していた。"
+      },
+      {
+        "date": "2026年半ば",
+        "text": "世界上位100タイトルの売上構成で中国系パブリッシャーが40％、米国系が16.5％と推計。米国の上位100タイトルでも中国系タイトルの売上比率は18％超となった。"
+      },
+      {
+        "date": "2026年11月11日",
+        "text": "PocketGamer.bizがBloombergによるSensor Towerデータの報道を掲載。The Japan TimesもBloomberg記事を同日掲載。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "PocketGamer.biz・Sensor Towerデータに基づく中国系モバイルゲームの売上構成報道",
+        "url": "https://www.pocketgamer.biz/china-takes-40-of-global-mobile-games-revenue-as-us-share-falls-to-165/",
+        "date": "2026-11-11",
+        "type": "報道（Bloomberg／Sensor Towerデータ引用）"
+      },
+      {
+        "name": "The Japan Times・Bloomberg記事「米国、1210億ドルのモバイルゲーム市場で中国に後れ」",
+        "url": "https://www.japantimes.co.jp/business/2026/11/11/tech/us-mobile-gaming-china/",
+        "date": "2026-11-11",
+        "type": "Bloomberg記事の転載"
+      },
+      {
+        "name": "Bloomberg原報",
+        "url": "https://www.bloomberg.com/news/features/2026-11-10/honor-of-kings-whiteout-survival-help-china-seize-mobile-gaming-crown-from-us",
+        "date": "2026-11-10",
+        "type": "報道（有料記事）"
+      }
+    ],
+    "story_id": "china-mobile-top100-revenue-share-20261111"
+  },
+  {
     "id": "china-industry-20261113-mihoyo-counterfeit-merch-enforcement",
     "date": "2026-11-13",
     "category": "中国ゲーム業界",
