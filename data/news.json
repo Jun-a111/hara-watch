@@ -1,5 +1,78 @@
 [
   {
+    "id": "china-industry-20261118-tga2026-chinese-games-nominations",
+    "date": "2026-11-18",
+    "category": "中国ゲーム業界",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "TGA 2026、中国開発作が躍進　『影之刃零』GOTY含む5部門、モバイル部門は5作中4作",
+    "summary": "The Game Awards 2026の候補作が日本時間11月18日に発表。S-GAME『Phantom Blade Zero（影之刃零）』はGame of the Year、ゲームディレクション、アートディレクション、音楽、アクションの5部門に選出された。ベストモバイルゲームは『アークナイツ：エンドフィールド』『モンスターハンターアウトランダーズ』『異環』『Where Winds Meet』『Pokémon Champions』で、5作中4作が中国スタジオ開発。受賞作は12月10日の授賞式で決まる。",
+    "url": "https://thegameawards.com/categories/game-of-the-year",
+    "source": "The Game Awards公式／Gematsu／Game Informer",
+    "tags": [
+      "The Game Awards 2026",
+      "TGA 2026",
+      "Phantom Blade Zero",
+      "影之刃零",
+      "S-GAME",
+      "アークナイツ：エンドフィールド",
+      "異環",
+      "Where Winds Meet",
+      "モンスターハンターアウトランダーズ",
+      "中国ゲーム業界"
+    ],
+    "spoiler": false,
+    "teaser_title": "TGA 2026で中国開発作品が複数部門に選出",
+    "body": "■ 『影之刃零』がGOTYを含む5部門\nThe Game Awardsは米国東部時間11月17日、日本時間11月18日に2026年の候補作を発表。中国のS-GAMEが開発した『Phantom Blade Zero（影之刃零）』は、Game of the Year、Best Game Direction、Best Art Direction、Best Score and Music、Best Action Gameの5部門に選出された。ノミネートであり、受賞確定ではない。\n\n■ ベストモバイルゲームは5作中4作が中国スタジオ開発\n候補は『アークナイツ：エンドフィールド』（Hypergryph／GRYPHLINE）、『モンスターハンターアウトランダーズ』（TiMi Studio Group／Level Infinite）、『異環』（Hotta Studio／Perfect World Games）、『Where Winds Meet』（Everstone Studio／NetEase Games）、『Pokémon Champions』の5作。このうち前4作は中国スタジオが開発している。\n\n■ 投票と発表日\n受賞作は審査員票90％、一般投票10％の合算で決定。一般投票は12月9日18時（米国太平洋時間）まで、授賞式は12月10日に開催予定。\n\n■ 『鳴潮』について\n今回発表された候補一覧に『鳴潮』は含まれていない。前年以前の作品も大型更新などが評価されれば候補になり得る規定だが、2026年の候補作には選出されなかった。",
+    "timeline": [
+      {
+        "date": "2026年11月18日（日本時間）",
+        "text": "The Game Awards 2026の候補作が発表。『影之刃零』がGOTYを含む5部門に入り、ベストモバイルゲームでは5作中4作を中国スタジオ開発作品が占めた。"
+      },
+      {
+        "date": "2026年12月9日（米国太平洋時間）",
+        "text": "一般投票の締切予定。"
+      },
+      {
+        "date": "2026年12月10日",
+        "text": "ロサンゼルスで授賞式を開催予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Game Awards公式・Game of the Year",
+        "url": "https://thegameawards.com/categories/game-of-the-year",
+        "date": "2026-11-17",
+        "type": "公式"
+      },
+      {
+        "name": "The Game Awards公式・Best Game Direction",
+        "url": "https://thegameawards.com/categories/best-game-direction",
+        "date": "2026-11-17",
+        "type": "公式"
+      },
+      {
+        "name": "The Game Awards公式・Best Score and Music",
+        "url": "https://thegameawards.com/categories/best-score-and-music",
+        "date": "2026-11-17",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・The Game Awards 2026候補一覧",
+        "url": "https://www.gematsu.com/2026/11/the-game-awards-2026-nominees-announced",
+        "date": "2026-11-17",
+        "type": "報道"
+      },
+      {
+        "name": "Game Informer・The Game Awards 2026候補一覧",
+        "url": "https://gameinformer.com/2026/11/17/here-are-the-nominees-for-the-game-awards-2026",
+        "date": "2026-11-17",
+        "type": "報道"
+      }
+    ],
+    "story_id": "tga-2026-chinese-games-nominations"
+  },
+  {
     "id": "china-latest-20261116-sangokushi-senkiban-launch",
     "date": "2026-11-16",
     "category": "中国ゲーム・最新",
