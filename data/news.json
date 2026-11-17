@@ -1,5 +1,61 @@
 [
   {
+    "id": "china-latest-20261116-sangokushi-senkiban-launch",
+    "date": "2026-11-16",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "Qookka Games『三國志 戦棋版』、12月1日に日本を含む8地域で正式サービス",
+    "summary": "Qookka Gamesは11月16日、スマートフォン向けSRPG×SLG『三國志 戦棋版』を12月1日に日本を含む8地域で配信すると発表。『三國志14』の正式ライセンス作品で、事前登録者数は40万人を突破。配信開始に合わせ『ファイナルファンタジータクティクス - イヴァリース クロニクルズ』とのコラボも実施する。",
+    "url": "https://prtimes.jp/main/html/rd/p/000000060.000159236.html",
+    "source": "Qookka Games公式発表／PR TIMES／4Gamer",
+    "tags": [
+      "Qookka Games",
+      "三國志 戦棋版",
+      "新作",
+      "正式サービス",
+      "iOS",
+      "Android",
+      "2026年12月1日",
+      "三國志14",
+      "ファイナルファンタジータクティクス"
+    ],
+    "spoiler": false,
+    "teaser_title": "12月1日、日本を含む8地域で配信",
+    "body": "■ 12月1日に8地域で正式サービス\nQookka Gamesは2026年11月16日、スマートフォン向け『三國志 戦棋版』を12月1日に日本を含むアジア8地域で正式配信すると発表した。対応プラットフォームはiOSとAndroid。\n\n■ SRPGとSLGを組み合わせた新作\nコーエーテクモゲームスの『三國志14』から正式ライセンスを受けた作品で、マス目状の戦場を使う戦棋形式の戦闘と、領地運営・同盟戦などのSLG要素を組み合わせる。事前登録者数は公式発表時点で40万人を突破した。\n\n■ 配信開始時のコラボ\n配信開始に合わせて『ファイナルファンタジータクティクス - イヴァリース クロニクルズ』とのコラボを実施予定。登場人物や物語の核心には触れず、開催事実のみを記録する。",
+    "timeline": [
+      {
+        "date": "2026年11月16日",
+        "text": "Qookka Gamesが12月1日の正式サービス開始と事前登録40万人突破を発表。"
+      },
+      {
+        "date": "2026年12月1日",
+        "text": "日本を含む8地域でiOS・Android版を配信予定。配信開始に合わせてコラボを実施予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Qookka Games公式発表・PR TIMES",
+        "url": "https://prtimes.jp/main/html/rd/p/000000060.000159236.html",
+        "date": "2026-11-16",
+        "type": "公式"
+      },
+      {
+        "name": "『三國志 戦棋版』日本公式サイト",
+        "url": "https://sangokushi-senkiban.qookkagames.jp/",
+        "date": "2026-11-16",
+        "type": "公式"
+      },
+      {
+        "name": "4Gamer・配信日発表の報道",
+        "url": "https://www.4gamer.net/games/951/G095123/20261116010/",
+        "date": "2026-11-16",
+        "type": "報道"
+      }
+    ],
+    "story_id": "sangokushi-senkiban-asia-launch-20261201"
+  },
+  {
     "id": "china-latest-20261116-harry-potter-magic-awakened-shutdown",
     "date": "2026-11-16",
     "category": "中国ゲーム・最新",
@@ -55,62 +111,6 @@
       }
     ],
     "story_id": "harry-potter-magic-awakened-shutdown-20270303"
-  },
-  {
-    "id": "china-latest-20261116-sangokushi-senkiban-launch",
-    "date": "2026-11-16",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "Qookka Games『三國志 戦棋版』、12月1日に日本を含む8地域で正式サービス",
-    "summary": "Qookka Gamesは11月16日、スマートフォン向けSRPG×SLG『三國志 戦棋版』を12月1日に日本を含む8地域で配信すると発表。『三國志14』の正式ライセンス作品で、事前登録者数は40万人を突破。配信開始に合わせ『ファイナルファンタジータクティクス - イヴァリース クロニクルズ』とのコラボも実施する。",
-    "url": "https://prtimes.jp/main/html/rd/p/000000060.000159236.html",
-    "source": "Qookka Games公式発表／PR TIMES／4Gamer",
-    "tags": [
-      "Qookka Games",
-      "三國志 戦棋版",
-      "新作",
-      "正式サービス",
-      "iOS",
-      "Android",
-      "2026年12月1日",
-      "三國志14",
-      "ファイナルファンタジータクティクス"
-    ],
-    "spoiler": false,
-    "teaser_title": "12月1日、日本を含む8地域で配信",
-    "body": "■ 12月1日に8地域で正式サービス\nQookka Gamesは2026年11月16日、スマートフォン向け『三國志 戦棋版』を12月1日に日本を含むアジア8地域で正式配信すると発表した。対応プラットフォームはiOSとAndroid。\n\n■ SRPGとSLGを組み合わせた新作\nコーエーテクモゲームスの『三國志14』から正式ライセンスを受けた作品で、マス目状の戦場を使う戦棋形式の戦闘と、領地運営・同盟戦などのSLG要素を組み合わせる。事前登録者数は公式発表時点で40万人を突破した。\n\n■ 配信開始時のコラボ\n配信開始に合わせて『ファイナルファンタジータクティクス - イヴァリース クロニクルズ』とのコラボを実施予定。登場人物や物語の核心には触れず、開催事実のみを記録する。",
-    "timeline": [
-      {
-        "date": "2026年11月16日",
-        "text": "Qookka Gamesが12月1日の正式サービス開始と事前登録40万人突破を発表。"
-      },
-      {
-        "date": "2026年12月1日",
-        "text": "日本を含む8地域でiOS・Android版を配信予定。配信開始に合わせてコラボを実施予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Qookka Games公式発表・PR TIMES",
-        "url": "https://prtimes.jp/main/html/rd/p/000000060.000159236.html",
-        "date": "2026-11-16",
-        "type": "公式"
-      },
-      {
-        "name": "『三國志 戦棋版』日本公式サイト",
-        "url": "https://sangokushi-senkiban.qookkagames.jp/",
-        "date": "2026-11-16",
-        "type": "公式"
-      },
-      {
-        "name": "4Gamer・配信日発表の報道",
-        "url": "https://www.4gamer.net/games/951/G095123/20261116010/",
-        "date": "2026-11-16",
-        "type": "報道"
-      }
-    ],
-    "story_id": "sangokushi-senkiban-asia-launch-20261201"
   },
   {
     "id": "china-industry-20261113-mihoyo-counterfeit-merch-enforcement",
