@@ -727,5 +727,35 @@
     ],
     "notes": "2026-11-18 08:43 JST。最新README.md、data/news.json、data/research-log.jsonを取得し、前回11月17日朝以降の日本語・英語・中国語公開情報を調査。保存直前にnewsとresearch-logを再取得して差分統合した。\n\n①The Game Awards 2026の候補作が米国東部時間11月17日、日本時間11月18日に発表。S-GAME『Phantom Blade Zero（影之刃零）』がGame of the Year、Best Game Direction、Best Art Direction、Best Score and Music、Best Action Gameの5部門に選出。公式カテゴリーページとGematsu、Game Informerの全候補一覧で照合した。\n\n②Best Mobile Game候補は『アークナイツ：エンドフィールド』（Hypergryph／GRYPHLINE）、『モンスターハンターアウトランダーズ』（TiMi／Level Infinite）、『異環』（Hotta Studio／Perfect World Games）、『Where Winds Meet』（Everstone Studio／NetEase Games）、『Pokémon Champions』。5作中4作が中国スタジオ開発で、中国ゲーム企業全体の動向として保存価値が高いと判断し「中国ゲーム業界」へ1記事に統合。個別タイトルへ重複登録しない。受賞確定ではなくノミネートであること、受賞発表は12月10日予定であることを明記。\n\n③鳴潮Ver.3.8配信後の11月17日以降について、通知水準の新しい公式発表を確認できず。TGA候補一覧にも『鳴潮』は含まれていない。KURO GAMES新作・NTEにも新しい確定発表なし。鳴潮4.xは一次投稿やβデータ原本を確認できる新リークがなく不採用。\n\n④王者栄耀のグローバル英雄イベント、既存タイトルの定例アップデート、11月16日以前に発表済みの配信・テスト情報は確認したが、今回の主要ニュースとしてTGA発表より優先度が低いか、前回報告以前の発表が中心のため採用せず。古い情報の再掲・件数合わせは行わない。\n\nnews.jsonは115件から116件。新規1件、既存更新0件。記事ID・story_id・主出典URLの重複なし。categoryは指定文字列「中国ゲーム業界」と完全一致。ストーリー・予告編の核心は記載していない。index.htmlは変更せず、既存UIと過去記事を保護。KURO WATCHへの保存・更新なし。検索できなかった範囲を新情報なしとは扱っていない。",
     "commit_url": "https://github.com/Jun-a111/hara-watch/commit/6b426382bd39cb9c8c8b57b5b0abc9c4fde9868a"
+  },
+  {
+    "date": "2026-11-19",
+    "outcome": "鳴潮Ver.4.0年度篇章の正式発表を追加（その他は新規採用情報なし）",
+    "candidates": 7,
+    "added": 1,
+    "updated": 0,
+    "rejected": 6,
+    "checked_categories": [
+      "鳴潮",
+      "KURO GAMES",
+      "中国ゲーム・最新",
+      "中国ゲーム業界",
+      "リーク",
+      "G-STAR 2026",
+      "Tencent",
+      "NetEase",
+      "HoYoverse",
+      "Perfect World",
+      "Hypergryph"
+    ],
+    "unchecked_categories": [
+      "Xの返信・引用・表示数の網羅確認",
+      "Weibo・bilibiliの個別投稿・コメントの網羅確認",
+      "韓国語圏SNSの個別投稿・拡散規模の網羅確認",
+      "鳴潮4.xリークの一次投稿・βデータ原本",
+      "中国ゲーム企業各社の採用・投資・商標情報の全件確認"
+    ],
+    "notes": "2026-11-19 08:26 JST。最新README.md、data/news.json、data/research-log.jsonを取得し、前回11月18日朝以降の日本語・英語・中国語公開情報を調査。保存直前にnewsとresearch-logを再取得して差分統合。\n\n①KURO GAMESは11月18日、『鳴潮』の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると公式発表。公式投稿のハッシュタグでWuthering Waves 4.0と明記され、新舞台ネオユニオンを紹介する映像「Beneath Promeus's Embrace」と事前登録ページを公開。事前登録者には新バージョン開始後のログインで星声を配布すると案内した。公式TapTap、英語公式X投稿、報道で照合し「中国ゲーム・最新」に新規追加。ストーリーの核心・映像内容は記載していない。\n\n②公式アカウントはAnna、April、Gordia、Lucielle、Cairn、IYA、Simulsysの人物ビジュアルを公開。ただし全員のプレイアブル化、実装時期、レアリティ、属性、武器、性能、ガチャ順は明言されていないため、本文で未発表と明記。未確認リークを混ぜていない。\n\n③G-STAR 2026 Premiere、HoYoverseの出展、新作試遊、NetEaseのSea of Remnants／Where Winds Meet出展を確認したが、前回報告以降に採用水準の新しい配信日・テスト日程・ゲーム仕様を確認できず。既報のG-STAR出展・11月25日CBT・12月CBT情報は重複登録しない。\n\n④鳴潮4.x関連の二次リーク記事も確認したが、公式発表で確認できた事実を超える一次投稿・βデータ原本を確認できず不採用。企業投資・採用・商標の全件は網羅できておらず、検索できない範囲を新情報なしとは扱わない。\n\nnews.jsonは116件から117件。新規1件、既存更新0件。記事ID・story_id・主出典URLの重複なし。categoryは指定文字列「中国ゲーム・最新」と完全一致。index.htmlは変更せず、既存UIと過去記事を保護。KURO WATCHへの保存・更新なし。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/03a4a16c6cd9b76d4da387c493c152b1fd709e38"
   }
 ]
