@@ -1,5 +1,68 @@
 [
   {
+    "id": "china-latest-20261118-wuthering-waves-v40-new-federation",
+    "date": "2026-11-18",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "KURO GAMES『鳴潮』Ver.4.0、12月22日開始　年度篇章「Embers of the Everbright」とネオユニオンを正式公開",
+    "summary": "KURO GAMESは11月18日、『鳴潮』Ver.4.0の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると発表。新たな舞台ネオユニオンを紹介する映像「Beneath Promeus's Embrace」と事前登録ページを公開し、登録者には新バージョン開始後に星声を配布する。あわせて7人分の人物ビジュアルを公開したが、全員のプレイアブル化、実装時期、属性・武器・性能は未発表。",
+    "url": "https://www.taptap.cn/moment/872051851250371308",
+    "source": "『鳴潮』公式TapTap／Wuthering Waves公式X／ACGCH",
+    "tags": [
+      "鳴潮",
+      "Wuthering Waves",
+      "KURO GAMES",
+      "Ver.4.0",
+      "Embers of the Everbright",
+      "ネオユニオン",
+      "年度篇章",
+      "2026年12月22日",
+      "事前登録",
+      "新キャラクター"
+    ],
+    "spoiler": false,
+    "teaser_title": "Ver.4.0年度篇章、12月22日開始",
+    "body": "■ Ver.4.0年度篇章は12月22日開始\nKURO GAMESは2026年11月18日、『鳴潮』の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると公式発表した。公式投稿には「Wuthering Waves 4.0」の表記があり、Ver.3.8に続く大型更新として案内されている。\n\n■ 新舞台ネオユニオンと映像を公開\n新たな舞台ネオユニオンを紹介するプロモーション映像「Beneath Promeus's Embrace」を公開。ストーリーの核心や映像内の展開には触れず、舞台と公開事実のみを記録する。\n\n■ 事前登録を開始\n公式の事前登録ページが公開され、登録を完了したプレイヤーは新バージョン開始後のログインで星声を受け取れる。好きな共鳴者を選んだネオユニオン用の登録証を生成でき、追加の登録イベントも今後公開予定。\n\n■ 7人分の人物ビジュアルを公開\n公式アカウントはAnna、April、Gordia、Lucielle、Cairn、IYA、Simulsysの人物ビジュアルを順次公開した。ただし、公式投稿は7人全員がプレイアブルになるとは明言しておらず、実装時期、レアリティ、属性、武器、性能、ガチャ順も未発表。リーク情報を混ぜず、公式に確認できた名前とビジュアル公開の事実だけを扱う。",
+    "timeline": [
+      {
+        "date": "2026年11月18日",
+        "text": "KURO GAMESが年度篇章「Embers of the Everbright」の映像とネオユニオンの事前登録ページを公開。7人分の人物ビジュアルも順次公開した。"
+      },
+      {
+        "date": "2026年12月22日（UTC+8）",
+        "text": "『鳴潮』Ver.4.0年度篇章を開始予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『鳴潮』公式TapTap・年度篇章告知",
+        "url": "https://www.taptap.cn/moment/872051851250371308",
+        "date": "2026-11-18",
+        "type": "公式"
+      },
+      {
+        "name": "Wuthering Waves公式X・年度篇章告知",
+        "url": "https://x.com/Wuthering_Waves/status/2122886924063150269",
+        "date": "2026-11-18",
+        "type": "公式"
+      },
+      {
+        "name": "Wuthering Waves公式X・ネオユニオン事前登録告知",
+        "url": "https://x.com/Wuthering_Waves/status/2122932816900132974",
+        "date": "2026-11-18",
+        "type": "公式"
+      },
+      {
+        "name": "ACGCH・公式投稿と人物ビジュアルの整理",
+        "url": "https://acgch.com/en/news/wuthering-waves-embers-of-the-everbright-december-22",
+        "date": "2026-11-18",
+        "type": "報道"
+      }
+    ],
+    "story_id": "wuthering-waves-v40-new-federation-20261222"
+  },
+  {
     "id": "china-industry-20261118-tga2026-chinese-games-nominations",
     "date": "2026-11-18",
     "category": "中国ゲーム業界",
