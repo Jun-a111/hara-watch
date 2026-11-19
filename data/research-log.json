@@ -757,5 +757,35 @@
     ],
     "notes": "2026-11-19 08:26 JST。最新README.md、data/news.json、data/research-log.jsonを取得し、前回11月18日朝以降の日本語・英語・中国語公開情報を調査。保存直前にnewsとresearch-logを再取得して差分統合。\n\n①KURO GAMESは11月18日、『鳴潮』の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると公式発表。公式投稿のハッシュタグでWuthering Waves 4.0と明記され、新舞台ネオユニオンを紹介する映像「Beneath Promeus's Embrace」と事前登録ページを公開。事前登録者には新バージョン開始後のログインで星声を配布すると案内した。公式TapTap、英語公式X投稿、報道で照合し「中国ゲーム・最新」に新規追加。ストーリーの核心・映像内容は記載していない。\n\n②公式アカウントはAnna、April、Gordia、Lucielle、Cairn、IYA、Simulsysの人物ビジュアルを公開。ただし全員のプレイアブル化、実装時期、レアリティ、属性、武器、性能、ガチャ順は明言されていないため、本文で未発表と明記。未確認リークを混ぜていない。\n\n③G-STAR 2026 Premiere、HoYoverseの出展、新作試遊、NetEaseのSea of Remnants／Where Winds Meet出展を確認したが、前回報告以降に採用水準の新しい配信日・テスト日程・ゲーム仕様を確認できず。既報のG-STAR出展・11月25日CBT・12月CBT情報は重複登録しない。\n\n④鳴潮4.x関連の二次リーク記事も確認したが、公式発表で確認できた事実を超える一次投稿・βデータ原本を確認できず不採用。企業投資・採用・商標の全件は網羅できておらず、検索できない範囲を新情報なしとは扱わない。\n\nnews.jsonは116件から117件。新規1件、既存更新0件。記事ID・story_id・主出典URLの重複なし。categoryは指定文字列「中国ゲーム・最新」と完全一致。index.htmlは変更せず、既存UIと過去記事を保護。KURO WATCHへの保存・更新なし。",
     "commit_url": "https://github.com/Jun-a111/hara-watch/commit/03a4a16c6cd9b76d4da387c493c152b1fd709e38"
+  },
+  {
+    "date": "2026-11-20",
+    "outcome": "NetEase 2026年Q3決算を中国ゲーム業界記事として追加（鳴潮・KURO GAMESの新規採用情報なし）",
+    "candidates": 7,
+    "added": 1,
+    "updated": 0,
+    "rejected": 6,
+    "checked_categories": [
+      "鳴潮",
+      "KURO GAMES",
+      "中国ゲーム・最新",
+      "中国ゲーム業界",
+      "リーク",
+      "G-STAR 2026",
+      "NetEase",
+      "Tencent",
+      "HoYoverse",
+      "Perfect World",
+      "Hypergryph"
+    ],
+    "unchecked_categories": [
+      "Xの返信・引用・表示数の網羅確認",
+      "Weibo・bilibiliの個別投稿・コメントの網羅確認",
+      "韓国語圏SNSの個別投稿・拡散規模の網羅確認",
+      "鳴潮4.xリークの一次投稿・βデータ原本",
+      "中国ゲーム企業各社の採用・投資・商標情報の全件確認"
+    ],
+    "notes": "2026-11-20 08時台JST。最新README.md、data/news.json、data/research-log.jsonを確認し、前回11月19日朝以降の日本語・英語・中国語公開情報を調査。保存直前にnewsとresearch-logを再取得して差分統合。\n\n①NetEaseは11月19日、2026年7〜9月期の未監査決算を発表。ゲーム・関連付加価値サービス売上は229億元で前年同期比1.7％減、全社売上は279億元で同1.8％減。一方、粗利益は190億元で同4.8％増。公式決算リリースとQ3投資家向け資料で照合し、企業動向として「中国ゲーム業界」に新規追加した。\n\n②同資料は『ANANTA（無限大）』について2027年1月15日の世界マルチプラットフォーム展開予定を再確認。発売日は2026年8月に発表済みのため、独立した新作記事にはせず、決算記事内で「予定維持」と明記した。ほかの開発中タイトルは追加のタイトル名・日程が開示されていないため推測しない。\n\n③『鳴潮』Ver.4.0については11月18日の正式発表後、前回報告以降に採用水準の追加公式発表を確認できず。11月19日開始の定例ゲーム内イベントは重要度基準から不採用。KURO GAMES新作・NTEにも新たな確定発表なし。公開リークは一次投稿・βデータ原本を確認できる新情報がなく不採用。\n\n④G-STAR 2026開幕、HoYoverseの『Petit Planet』『Nexus Anima』韓国初試遊、NetEase出展を確認したが、新しい配信日・テスト日程・仕様発表ではなく、既報の出展・試遊情報が中心のため記事化しない。古い情報の再掲や件数合わせは行わない。\n\nnews.jsonは117件から118件。新規1件、既存更新0件。記事ID・story_id・主出典URLの重複なし。categoryは指定文字列「中国ゲーム業界」と完全一致。index.htmlは変更せず、既存UIと過去記事を保護。KURO WATCHへの保存・更新なし。検索できなかった範囲を新情報なしとは扱っていない。",
+    "commit_url": "https://github.com/Jun-a111/hara-watch/commit/0ec3c77daa746d9df0daa589247e6daefcbfa571"
   }
 ]
