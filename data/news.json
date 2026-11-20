@@ -1,5 +1,60 @@
 [
   {
+    "id": "china-industry-20261120-gstar-chinese-publishers-presence",
+    "date": "2026-11-20",
+    "category": "中国ゲーム業界",
+    "status": "報道（開催情報は公式確認）",
+    "lang": "JP",
+    "title": "G-STAR 2026、韓国大手4社不在で中国勢が存在感　HoYoverseは4年ぶり、NetEaseは2ブース",
+    "summary": "韓国最大級のゲーム展示会G-STAR 2026が11月19日に釜山で開幕。1,237社・41カ国が参加する一方、韓国大手5社のうちNexon、NC、Netmarble、Kakao Gamesの4社が一般展示を見送った。HoYoverseは4年ぶりに出展し『Honkai: Nexus Anima』『Petit Planet』を韓国で初めてオフライン試遊展示。NetEaseも『Sea of Remnants』などを扱う2ブースを展開し、中国系パブリッシャーの存在感が増した。",
+    "url": "https://www.koreatimes.co.kr/business/companies/20261120/foreign-game-developers-fill-korean-firms-absence-at-g-star-game-expo",
+    "source": "The Korea Times／釜山市公式",
+    "tags": [
+      "G-STAR 2026",
+      "中国ゲーム業界",
+      "HoYoverse",
+      "NetEase Games",
+      "Century Games",
+      "Honkai: Nexus Anima",
+      "Petit Planet",
+      "Sea of Remnants",
+      "韓国ゲーム市場",
+      "海外展開"
+    ],
+    "spoiler": false,
+    "teaser_title": "G-STAR 2026、韓国大手不在で中国勢が出展拡大",
+    "body": "■ 1,237社・41カ国が参加\nG-STAR 2026は2026年11月19日、韓国・釜山のBEXCOで開幕した。The Korea Timesによると参加企業は1,237社、参加国は41カ国で、前年より36社減少。会期は11月22日まで。\n\n■ 韓国大手4社が一般展示を見送り\n韓国の主要ゲーム会社5社のうち、Nexon、NC、Netmarble、Kakao Gamesの4社は一般向けブースを出展せず、Kraftonのみが参加した。報道は、韓国企業がGamescomや東京ゲームショウなど海外で注目度の高い展示会を優先する傾向を背景として挙げている。\n\n■ 中国企業が空白を補う\nHoYoverseは4年ぶりにG-STARへ戻り、開発中の『Honkai: Nexus Anima』と『Petit Planet』を韓国で初めてオフライン試遊展示した。NetEase Gamesは2ブースを設け、開発中の『Sea of Remnants』と運営中の『Once Human』などを紹介。Century Gamesも出展した。今回の会場発表では、これら開発中タイトルの新しい配信日やテスト日程は確認できないため、既存の個別タイトル記事とは重複登録せず、展示会における企業動向として記録する。",
+    "timeline": [
+      {
+        "date": "2026年11月19日",
+        "text": "G-STAR 2026が釜山BEXCOで開幕。HoYoverse、NetEase Games、Century Gamesなど中国系企業が出展。"
+      },
+      {
+        "date": "2026年11月20日",
+        "text": "The Korea Timesが、韓国主要4社の不在と中国系パブリッシャーの出展拡大を報道。"
+      },
+      {
+        "date": "2026年11月22日",
+        "text": "G-STAR 2026閉幕予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "The Korea Times・G-STAR 2026現地報道",
+        "url": "https://www.koreatimes.co.kr/business/companies/20261120/foreign-game-developers-fill-korean-firms-absence-at-g-star-game-expo",
+        "date": "2026-11-20",
+        "type": "報道"
+      },
+      {
+        "name": "釜山市公式・G-STAR 2026開催案内",
+        "url": "https://www.busan.go.kr/eng/bsevents/1759473",
+        "date": "2026-11-19",
+        "type": "公式"
+      }
+    ],
+    "story_id": "gstar-2026-chinese-publishers-presence"
+  },
+  {
     "id": "china-industry-20261119-netease-q3-results",
     "date": "2026-11-19",
     "category": "中国ゲーム業界",
@@ -55,8 +110,8 @@
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "JP",
-    "title": "KURO GAMES『鳴潮』Ver.4.0、12月22日開始　年度篇章「Embers of the Everbright」とネオユニオンを正式公開",
-    "summary": "KURO GAMESは11月18日、『鳴潮』Ver.4.0の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると発表。新たな舞台ネオユニオンを紹介する映像「Beneath Promeus's Embrace」と事前登録ページを公開し、登録者には新バージョン開始後に星声を配布する。あわせて7人分の人物ビジュアルを公開したが、全員のプレイアブル化、実装時期、属性・武器・性能は未発表。",
+    "title": "KURO GAMES『鳴潮』Ver.4.0、12月22日開始　ネオユニオン公開、ルシェルの公式プロフィールも発表",
+    "summary": "KURO GAMESは11月18日、『鳴潮』Ver.4.0の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると発表。新舞台ネオユニオンと事前登録ページ、7人分の人物ビジュアルを公開した。11月20日にはルシェルを「寰宇人類注疏：群星交錯」の対象として正式紹介し、黒石の欠片で反響生物に姿を与え、相棒の小型グラウコロスと共に黒石造物を操る能力を説明した。属性・武器・レアリティ・実装時期は未発表。",
     "url": "https://www.taptap.cn/moment/872051851250371308",
     "source": "『鳴潮』公式TapTap／Wuthering Waves公式X／ACGCH",
     "tags": [
@@ -69,11 +124,13 @@
       "年度篇章",
       "2026年12月22日",
       "事前登録",
-      "新キャラクター"
+      "新キャラクター",
+      "ルシェル",
+      "黒石塑形"
     ],
     "spoiler": false,
     "teaser_title": "Ver.4.0年度篇章、12月22日開始",
-    "body": "■ Ver.4.0年度篇章は12月22日開始\nKURO GAMESは2026年11月18日、『鳴潮』の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると公式発表した。公式投稿には「Wuthering Waves 4.0」の表記があり、Ver.3.8に続く大型更新として案内されている。\n\n■ 新舞台ネオユニオンと映像を公開\n新たな舞台ネオユニオンを紹介するプロモーション映像「Beneath Promeus's Embrace」を公開。ストーリーの核心や映像内の展開には触れず、舞台と公開事実のみを記録する。\n\n■ 事前登録を開始\n公式の事前登録ページが公開され、登録を完了したプレイヤーは新バージョン開始後のログインで星声を受け取れる。好きな共鳴者を選んだネオユニオン用の登録証を生成でき、追加の登録イベントも今後公開予定。\n\n■ 7人分の人物ビジュアルを公開\n公式アカウントはAnna、April、Gordia、Lucielle、Cairn、IYA、Simulsysの人物ビジュアルを順次公開した。ただし、公式投稿は7人全員がプレイアブルになるとは明言しておらず、実装時期、レアリティ、属性、武器、性能、ガチャ順も未発表。リーク情報を混ぜず、公式に確認できた名前とビジュアル公開の事実だけを扱う。",
+    "body": "■ Ver.4.0年度篇章は12月22日開始\nKURO GAMESは2026年11月18日、『鳴潮』の年度篇章「Embers of the Everbright」を12月22日（UTC+8）に開始すると公式発表した。公式投稿には「Wuthering Waves 4.0」の表記があり、Ver.3.8に続く大型更新として案内されている。\n\n■ 新舞台ネオユニオンと映像を公開\n新たな舞台ネオユニオンを紹介するプロモーション映像「Beneath Promeus's Embrace」を公開。ストーリーの核心や映像内の展開には触れず、舞台と公開事実のみを記録する。\n\n■ 事前登録を開始\n公式の事前登録ページが公開され、登録を完了したプレイヤーは新バージョン開始後のログインで星声を受け取れる。好きな共鳴者を選んだネオユニオン用の登録証を生成でき、追加の登録イベントも今後公開予定。\n\n■ 7人分の人物ビジュアルを公開\n公式アカウントはAnna、April、Gordia、Lucielle、Cairn、IYA、Simulsysの人物ビジュアルを順次公開した。ただし、公式投稿は7人全員がプレイアブルになるとは明言しておらず、実装時期、レアリティ、属性、武器、性能、ガチャ順も未発表。リーク情報を混ぜず、公式に確認できた名前とビジュアル公開の事実だけを扱う。\n\n■ 11月20日追記：ルシェルの公式プロフィール\nKURO GAMESは公式TapTapでルシェルを「寰宇人類注疏：群星交錯」の対象として紹介した。水牛岩の猫耳ゴールドランナーで、信頼されるリーダーを目指す人物と説明。能力は「黒石塑形」で、黒石の欠片を使って形のない反響生物に姿を与え、戦闘の仲間にできる。豪雨期を再現して相棒の小型グラウコロスを呼び、複数の黒石造物を操るとも説明された。公式プロフィールの公開によりルシェルが共鳴者紹介の対象であることは確認できたが、属性、武器、レアリティ、実装バージョン、ガチャ順は未発表。",
     "timeline": [
       {
         "date": "2026年11月18日",
@@ -82,6 +139,10 @@
       {
         "date": "2026年12月22日（UTC+8）",
         "text": "『鳴潮』Ver.4.0年度篇章を開始予定。"
+      },
+      {
+        "date": "2026年11月20日",
+        "text": "KURO GAMESがルシェルの公式プロフィールを公開。「黒石塑形」で反響生物に姿を与え、相棒の小型グラウコロスと共に黒石造物を操る能力を説明。属性・武器・実装時期は未発表。"
       }
     ],
     "sources": [
@@ -108,6 +169,12 @@
         "url": "https://acgch.com/en/news/wuthering-waves-embers-of-the-everbright-december-22",
         "date": "2026-11-18",
         "type": "報道"
+      },
+      {
+        "name": "『鳴潮』公式TapTap・ルシェル公式プロフィール",
+        "url": "https://www.taptap.cn/moment/872783115058154603",
+        "date": "2026-11-20",
+        "type": "公式"
       }
     ],
     "story_id": "wuthering-waves-v40-new-federation-20261222"
