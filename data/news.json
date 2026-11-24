@@ -1,5 +1,73 @@
 [
   {
+    "id": "china-latest-20261124-azur-promilia-preload",
+    "date": "2026-11-24",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "Manjuu新作『アズールプロミリア』事前DL開始　日本は11月26日11時サービス開始",
+    "summary": "Manjuu GamesとYostarは11月24日、PC・iOS・Android向け新作RPG『アズールプロミリア』の日本版事前ダウンロードを開始した。正式サービスは11月26日11:00（日本時間）開始予定。中国版もPC・iOS・Android・HarmonyOSで事前ダウンロードを開始し、同日11:00（日本時間）に開服予定。",
+    "url": "https://www.sotwe.com/AzurPromilia_JP",
+    "source": "『アズールプロミリア』日本公式X／日本公式サイト／中国公式TapTap",
+    "tags": [
+      "アズールプロミリア",
+      "Azur Promilia",
+      "Manjuu Games",
+      "Yostar",
+      "新作",
+      "事前ダウンロード",
+      "正式サービス",
+      "PC",
+      "iOS",
+      "Android",
+      "2026年11月26日"
+    ],
+    "spoiler": false,
+    "teaser_title": "事前DL開始、日本は11月26日11時開服",
+    "body": "■ 日本版の事前ダウンロードを開始\nManjuu GamesとYostarは2026年11月24日16:00（日本時間）、PC、iOS、Android向け新作ファンタジーワールドRPG『アズールプロミリア』の事前ダウンロードを開始した。正式サービス前はログインできず、追加リソースまで事前にダウンロードしておく必要がある。\n\n■ 日本版は11月26日11時開始予定\n日本公式は正式サービスを11月26日11:00（日本時間）に開始予定と案内。対応プラットフォームはWindows PC、iOS、Android。PlayStation 5版の同日配信は確認できない。\n\n■ 中国版も4プラットフォームで事前配布\n中国公式は11月24日15:00（UTC+8）からPC、Android、iOS、HarmonyOS向け事前ダウンロードを開始。公測サーバーは11月26日10:00（UTC+8、日本時間11:00）に開く予定としている。中国版の推奨空き容量はPCが120GB以上、モバイルが55GB以上だが、日本版で同じ容量が必要とは断定しない。\n\n■ 新作の概要\n『アズールレーン』開発元のManjuu Gamesが手がける、星霊「キボ」と探索・戦闘・建設・農業を行うファンタジーワールドRPG。日本ではYostar、中国ではManjuu Games、韓国ではNexonが展開する。ストーリーやPVの核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年11月24日16:00（日本時間）",
+        "text": "日本版のPC、iOS、Android向け事前ダウンロードを開始。"
+      },
+      {
+        "date": "2026年11月24日15:00（UTC+8）",
+        "text": "中国版のPC、iOS、Android、HarmonyOS向け事前ダウンロードを開始。"
+      },
+      {
+        "date": "2026年11月26日11:00（日本時間）",
+        "text": "日本版・中国版の正式サービスを開始予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "『アズールプロミリア』日本公式X・事前ダウンロード開始告知（公開ミラー）",
+        "url": "https://www.sotwe.com/AzurPromilia_JP",
+        "date": "2026-11-24",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "『アズールプロミリア』日本公式サイト",
+        "url": "https://azurpromilia.jp/",
+        "date": "2026-11-24",
+        "type": "公式"
+      },
+      {
+        "name": "中国公式TapTap・事前ダウンロード開始告知",
+        "url": "https://www.taptap.cn/moment/874039660215534701",
+        "date": "2026-11-24",
+        "type": "公式"
+      },
+      {
+        "name": "Gematsu・日本／中国／韓国／台湾の配信日報道",
+        "url": "https://www.gematsu.com/2026/10/azur-promilia-launches-november-26-in-japan-south-korea-taiwan-and-china",
+        "date": "2026-10-23",
+        "type": "報道"
+      }
+    ],
+    "story_id": "azur-promilia-launch-20261126"
+  },
+  {
     "id": "china-latest-20261124-dont-starve-newhome-china-launch",
     "date": "2026-11-24",
     "category": "中国ゲーム・最新",
