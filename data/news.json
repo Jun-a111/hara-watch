@@ -1,5 +1,63 @@
 [
   {
+    "id": "china-latest-20261124-dont-starve-newhome-china-launch",
+    "date": "2026-11-24",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "Tencent配信『Don't Starve: Newhome』、中国で11月24日11時に正式サービス",
+    "summary": "Klei Entertainmentの正式ライセンスを受け、Shengqu Gamesが開発、Tencentが中国で配信するモバイル向けサバイバルゲーム『Don't Starve: Newhome』が、11月24日11:00（日本時間）に正式サービスを開始予定。iOS、Android、HarmonyOSに対応し、武器・ペットのガチャは廃止、外見アイテム中心の課金方式を採用する。",
+    "url": "https://www.taptap.cn/moment/872603097178833842",
+    "source": "『Don't Starve: Newhome』中国公式TapTap／中国App Store／Level Infinite",
+    "tags": [
+      "Don't Starve: Newhome",
+      "Tencent",
+      "Shengqu Games",
+      "Klei Entertainment",
+      "正式サービス",
+      "中国",
+      "iOS",
+      "Android",
+      "HarmonyOS",
+      "サバイバル",
+      "2026年11月24日"
+    ],
+    "spoiler": false,
+    "teaser_title": "中国で11月24日11時に正式サービス",
+    "body": "■ 11月24日11時に中国で正式サービス\nKlei Entertainmentの正式ライセンスを受け、Shengqu Gamesが開発、Tencentが中国で配信するモバイル向けサバイバルゲーム『Don't Starve: Newhome』は、2026年11月24日10:00（UTC+8、日本時間11:00）に正式サービスを開始予定。確認時点は開服前のため、開始済みとは記載しない。\n\n■ 対応環境\n中国公式FAQによると、iOS、Android、HarmonyOSに対応。Androidエミュレーターもサポートし、同じアカウントでiOS・Android・エミュレーター間の進行を共有できる。事前ダウンロードは実施せず、開服後に公式サイトや各アプリストアから配信する。\n\n■ ゲーム内容と課金方針\n『Don't Starve Together』を基礎に、ランダム生成マップ、季節・昼夜、探索・クラフト・協力プレイをモバイル向けに再構成。独立した安全なホームエリア、テーマシーズン、乗り物・ペットなどを追加する。公式は武器・ペットのガチャを廃止し、外見アイテム中心の課金方式にすると説明している。\n\n■ 中国向けサービス\n今回確認できた正式サービスは中国向け。Level Infiniteのグローバル公式ページは配信時期をTBAとしており、中国国外の同日配信は確認できない。",
+    "timeline": [
+      {
+        "date": "2026年11月20日",
+        "text": "中国公式が正式サービスFAQを公開し、11月24日10:00（UTC+8）の開服時刻と対応環境を案内。"
+      },
+      {
+        "date": "2026年11月24日10:00（UTC+8）／11:00（日本時間）",
+        "text": "中国でiOS、Android、HarmonyOS向け正式サービスを開始予定。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "中国公式TapTap・正式サービスFAQ",
+        "url": "https://www.taptap.cn/moment/872603097178833842",
+        "date": "2026-11-20",
+        "type": "公式"
+      },
+      {
+        "name": "中国App Store・製品ページ",
+        "url": "https://apps.apple.com/cn/app/id6479747214",
+        "date": "2026-11-24",
+        "type": "公式ストア"
+      },
+      {
+        "name": "Level Infinite・Don’t Starve: Newhome公式ページ",
+        "url": "https://www.levelinfinite.com/game/dont-starve-newhome/",
+        "date": "2026-11-24",
+        "type": "公式"
+      }
+    ],
+    "story_id": "dont-starve-newhome-china-launch-20261124"
+  },
+  {
     "id": "china-latest-20261124-azur-promilia-preload",
     "date": "2026-11-24",
     "category": "中国ゲーム・最新",
@@ -66,64 +124,6 @@
       }
     ],
     "story_id": "azur-promilia-launch-20261126"
-  },
-  {
-    "id": "china-latest-20261124-dont-starve-newhome-china-launch",
-    "date": "2026-11-24",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "Tencent配信『Don't Starve: Newhome』、中国で11月24日11時に正式サービス",
-    "summary": "Klei Entertainmentの正式ライセンスを受け、Shengqu Gamesが開発、Tencentが中国で配信するモバイル向けサバイバルゲーム『Don't Starve: Newhome』が、11月24日11:00（日本時間）に正式サービスを開始予定。iOS、Android、HarmonyOSに対応し、武器・ペットのガチャは廃止、外見アイテム中心の課金方式を採用する。",
-    "url": "https://www.taptap.cn/moment/872603097178833842",
-    "source": "『Don't Starve: Newhome』中国公式TapTap／中国App Store／Level Infinite",
-    "tags": [
-      "Don't Starve: Newhome",
-      "Tencent",
-      "Shengqu Games",
-      "Klei Entertainment",
-      "正式サービス",
-      "中国",
-      "iOS",
-      "Android",
-      "HarmonyOS",
-      "サバイバル",
-      "2026年11月24日"
-    ],
-    "spoiler": false,
-    "teaser_title": "中国で11月24日11時に正式サービス",
-    "body": "■ 11月24日11時に中国で正式サービス\nKlei Entertainmentの正式ライセンスを受け、Shengqu Gamesが開発、Tencentが中国で配信するモバイル向けサバイバルゲーム『Don't Starve: Newhome』は、2026年11月24日10:00（UTC+8、日本時間11:00）に正式サービスを開始予定。確認時点は開服前のため、開始済みとは記載しない。\n\n■ 対応環境\n中国公式FAQによると、iOS、Android、HarmonyOSに対応。Androidエミュレーターもサポートし、同じアカウントでiOS・Android・エミュレーター間の進行を共有できる。事前ダウンロードは実施せず、開服後に公式サイトや各アプリストアから配信する。\n\n■ ゲーム内容と課金方針\n『Don't Starve Together』を基礎に、ランダム生成マップ、季節・昼夜、探索・クラフト・協力プレイをモバイル向けに再構成。独立した安全なホームエリア、テーマシーズン、乗り物・ペットなどを追加する。公式は武器・ペットのガチャを廃止し、外見アイテム中心の課金方式にすると説明している。\n\n■ 中国向けサービス\n今回確認できた正式サービスは中国向け。Level Infiniteのグローバル公式ページは配信時期をTBAとしており、中国国外の同日配信は確認できない。",
-    "timeline": [
-      {
-        "date": "2026年11月20日",
-        "text": "中国公式が正式サービスFAQを公開し、11月24日10:00（UTC+8）の開服時刻と対応環境を案内。"
-      },
-      {
-        "date": "2026年11月24日10:00（UTC+8）／11:00（日本時間）",
-        "text": "中国でiOS、Android、HarmonyOS向け正式サービスを開始予定。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "中国公式TapTap・正式サービスFAQ",
-        "url": "https://www.taptap.cn/moment/872603097178833842",
-        "date": "2026-11-20",
-        "type": "公式"
-      },
-      {
-        "name": "中国App Store・製品ページ",
-        "url": "https://apps.apple.com/cn/app/id6479747214",
-        "date": "2026-11-24",
-        "type": "公式ストア"
-      },
-      {
-        "name": "Level Infinite・Don’t Starve: Newhome公式ページ",
-        "url": "https://www.levelinfinite.com/game/dont-starve-newhome/",
-        "date": "2026-11-24",
-        "type": "公式"
-      }
-    ],
-    "story_id": "dont-starve-newhome-china-launch-20261124"
   },
   {
     "id": "china-latest-20261123-honkai-nexus-anima-final-cbt-preload",
