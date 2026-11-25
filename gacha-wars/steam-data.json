@@ -1,21 +1,21 @@
 {
   "schema": "gacha-wars-steam-v1",
-  "updated_at": "2026-11-25T01:33:42+00:00",
+  "updated_at": "2026-11-25T15:59:45+00:00",
   "game_status": {
     "ww": {
       "ok": true,
-      "checked_at": "2026-11-25T01:33:42+00:00",
-      "players": 5393
+      "checked_at": "2026-11-25T15:59:45+00:00",
+      "players": 8764
     },
     "zzz": {
       "ok": true,
-      "checked_at": "2026-11-25T01:33:42+00:00",
-      "players": 5148
+      "checked_at": "2026-11-25T15:59:45+00:00",
+      "players": 7381
     },
     "nte": {
       "ok": true,
-      "checked_at": "2026-11-25T01:33:42+00:00",
-      "players": 1848
+      "checked_at": "2026-11-25T15:59:45+00:00",
+      "players": 2820
     }
   },
   "records": [
@@ -4956,6 +4956,36 @@
       "store": "steam",
       "value": 1848,
       "date": "2026-11-25T01:33:42+00:00",
+      "source": "Steam Web API",
+      "source_url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=4508340"
+    },
+    {
+      "game": "ww",
+      "region": "global",
+      "kind": "steam",
+      "store": "steam",
+      "value": 8764,
+      "date": "2026-11-25T15:59:45+00:00",
+      "source": "Steam Web API",
+      "source_url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=3513350"
+    },
+    {
+      "game": "zzz",
+      "region": "global",
+      "kind": "steam",
+      "store": "steam",
+      "value": 7381,
+      "date": "2026-11-25T15:59:45+00:00",
+      "source": "Steam Web API",
+      "source_url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=4162040"
+    },
+    {
+      "game": "nte",
+      "region": "global",
+      "kind": "steam",
+      "store": "steam",
+      "value": 2820,
+      "date": "2026-11-25T15:59:45+00:00",
       "source": "Steam Web API",
       "source_url": "https://api.steampowered.com/ISteamUserStats/GetNumberOfCurrentPlayers/v1/?appid=4508340"
     }
