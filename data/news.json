@@ -1,5 +1,70 @@
 [
   {
+    "id": "wuwa-leak-20261126-simulsys-havoc-echo-dmg",
+    "date": "2026-11-26",
+    "category": "リーク",
+    "status": "未確認の噂",
+    "lang": "EN",
+    "title": "【未確認】『鳴潮』シミュシスは消滅属性・音骸ダメージ型との初期リーク　Ver.4.3説も公式未発表",
+    "summary": "リーカーSeele由来として、ネオユニオンの公式公開キャラクター「シミュシス」が消滅属性で音骸ダメージを軸にするとの初期情報が拡散した。Reddit投稿は600票超を集めたが、情報元自身が変更可能と注記。Ver.4.3実装、武器、具体的性能、リリーとの相性はいずれも公式未確認。",
+    "url": "https://www.reddit.com/r/WutheringWavesLeaks/comments/1y4y92e/43_simulsys_attribute_via_seele/",
+    "source": "Seele Leaks由来の公開投稿／Reddit転載／GachaNews",
+    "tags": [
+      "鳴潮",
+      "シミュシス",
+      "ネオユニオン",
+      "Ver.4.3",
+      "消滅",
+      "音骸ダメージ",
+      "未確認リーク",
+      "Seele Leaks"
+    ],
+    "spoiler": false,
+    "teaser_title": "シミュシスの属性・戦闘軸に関する初期リーク",
+    "body": "■ シミュシスの属性・戦闘軸を示す初期情報\n2026年11月25日から26日にかけ、リーカー「Seele」由来として、シミュシスが消滅属性で音骸ダメージを軸にするとの情報が公開コミュニティで拡散した。Redditの転載投稿は確認時点で600票超を集めている。\n\n■ 公式確認できるのはキャラクターの存在まで\nKURO GAMESはシミュシスの姿と名称を公式公開済みだが、属性、武器、レアリティ、戦闘性能、実装バージョン、集音日程は発表していない。情報元も非常に早い段階の内容で変更される可能性があると注記している。\n\n■ Ver.4.3実装説も未確認\nシミュシスとエイプリルをVer.4.3候補とする一覧が出回っているが、これも公式日程ではない。Ver.4.3という配置を属性・役割情報と同じ確度で扱わない。\n\n■ リリーとの相性は判断不能\n一部転載では、シミュシスを目的にリリーを引く判断を急がないよう注意が添えられている。これは確定した編成情報ではなく、現段階で両者の相性や必須関係を裏付ける公式性能・完全なキットは存在しない。抽選・凸計画は公式発表を待つ必要がある。\n\nストーリーに関する情報は掲載していない。",
+    "timeline": [
+      {
+        "date": "2026年11月18日",
+        "text": "KURO GAMESがネオユニオン編の登場人物としてシミュシスを公式公開。属性・武器・性能は未発表。"
+      },
+      {
+        "date": "2026年11月25日",
+        "text": "Seele由来として「消滅属性・音骸ダメージ型」とする初期情報が公開コミュニティへ転載。"
+      },
+      {
+        "date": "2026年11月26日",
+        "text": "Redditや複数の公開転載チャンネルで拡散を確認。情報は変更可能と明記されている。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Reddit・WutheringWavesLeaks転載投稿",
+        "url": "https://www.reddit.com/r/WutheringWavesLeaks/comments/1y4y92e/43_simulsys_attribute_via_seele/",
+        "date": "2026-11-25",
+        "type": "未確認リークの転載"
+      },
+      {
+        "name": "公開Telegram転載・WuWa News",
+        "url": "https://t.me/s/waves_wuthering?after=13668",
+        "date": "2026-11-26",
+        "type": "未確認リークの転載"
+      },
+      {
+        "name": "GachaNews・未確認リーク報道",
+        "url": "https://gachanews.net/news/wuthering-waves-4-3-leaks-simulsys/",
+        "date": "2026-11-25",
+        "type": "未確認リークの二次報道"
+      },
+      {
+        "name": "GameWith・シミュシス公式公開範囲の確認",
+        "url": "https://gamewith.jp/wutheringwaves/588237",
+        "date": "2026-11-21",
+        "type": "報道"
+      }
+    ],
+    "story_id": "wuwa-simulsys-havoc-echo-dmg-rumor-20261126"
+  },
+  {
     "id": "china-latest-20261125-tencent-shou-reveal",
     "date": "2026-11-25",
     "category": "中国ゲーム・最新",
@@ -169,14 +234,14 @@
   },
   {
     "id": "china-latest-20261124-azur-promilia-preload",
-    "date": "2026-11-24",
+    "date": "2026-11-26",
     "category": "中国ゲーム・最新",
     "status": "公式発表",
     "lang": "JP",
-    "title": "Manjuu新作『アズールプロミリア』事前DL開始　日本は11月26日11時サービス開始",
-    "summary": "Manjuu GamesとYostarは11月24日、PC・iOS・Android向け新作RPG『アズールプロミリア』の日本版事前ダウンロードを開始した。正式サービスは11月26日11:00（日本時間）開始予定。中国版もPC・iOS・Android・HarmonyOSで事前ダウンロードを開始し、同日11:00（日本時間）に開服予定。",
-    "url": "https://www.sotwe.com/AzurPromilia_JP",
-    "source": "『アズールプロミリア』日本公式X／日本公式サイト／中国公式TapTap",
+    "title": "Manjuu新作『アズールプロミリア』正式サービス開始　日本・中国でPC／スマホ向けに展開",
+    "summary": "Manjuu Games開発、Yostar共同配信の『アズールプロミリア』は11月26日11:00（日本時間）、日本と中国で正式サービスを開始した。日本版はWindows PC・iOS・Android、中国版はPC・iOS・Android・HarmonyOSに対応。日本版PlayStation 5の同日配信は確認できない。",
+    "url": "https://www.4gamer.net/games/784/G078489/20261126013/",
+    "source": "Yostar公式発表／『アズールプロミリア』日本公式X／中国公式TapTap",
     "tags": [
       "アズールプロミリア",
       "Azur Promilia",
@@ -188,11 +253,13 @@
       "PC",
       "iOS",
       "Android",
-      "2026年11月26日"
+      "2026年11月26日",
+      "正式サービス開始",
+      "HarmonyOS"
     ],
     "spoiler": false,
-    "teaser_title": "事前DL開始、日本は11月26日11時開服",
-    "body": "■ 日本版の事前ダウンロードを開始\nManjuu GamesとYostarは2026年11月24日16:00（日本時間）、PC、iOS、Android向け新作ファンタジーワールドRPG『アズールプロミリア』の事前ダウンロードを開始した。正式サービス前はログインできず、追加リソースまで事前にダウンロードしておく必要がある。\n\n■ 日本版は11月26日11時開始予定\n日本公式は正式サービスを11月26日11:00（日本時間）に開始予定と案内。対応プラットフォームはWindows PC、iOS、Android。PlayStation 5版の同日配信は確認できない。\n\n■ 中国版も4プラットフォームで事前配布\n中国公式は11月24日15:00（UTC+8）からPC、Android、iOS、HarmonyOS向け事前ダウンロードを開始。公測サーバーは11月26日10:00（UTC+8、日本時間11:00）に開く予定としている。中国版の推奨空き容量はPCが120GB以上、モバイルが55GB以上だが、日本版で同じ容量が必要とは断定しない。\n\n■ 新作の概要\n『アズールレーン』開発元のManjuu Gamesが手がける、星霊「キボ」と探索・戦闘・建設・農業を行うファンタジーワールドRPG。日本ではYostar、中国ではManjuu Games、韓国ではNexonが展開する。ストーリーやPVの核心には触れない。",
+    "teaser_title": "日本・中国で11月26日に正式サービス開始",
+    "body": "■ 日本版の正式サービスを開始\nManjuu GamesとYostarは2026年11月26日11:00（日本時間）、ファンタジーワールドRPG『アズールプロミリア』の日本版正式サービスを開始した。日本版の対応プラットフォームはWindows PC、iOS、Android。基本プレイ無料のアイテム課金方式で提供される。\n\n■ 中国版も同時刻に開服\n中国版『藍色星原：旅謡』も11月26日10:00（UTC+8、日本時間11:00）に正式サービスを開始。PC、Android、iOS、HarmonyOSに対応し、公式サーバーでは4プラットフォーム間の進行データ連携に対応する。中国版の一部チャネルサーバーは公式サーバーとデータ連携しない。\n\n■ 日本版PlayStation 5は同日配信を確認できず\n日本公式が開始時に案内した環境はPC、iOS、Android。PlayStation 5版の同日配信は確認できないため、対応済みとは記載しない。\n\n■ 事前ダウンロードは11月24日から実施\n日本版は11月24日16:00、中国版は同日15:00（UTC+8）から事前ダウンロードを実施していた。中国版の推奨空き容量はPC 120GB以上、モバイル55GB以上だが、日本版も同じ要件とは断定しない。\n\nストーリーやPVの核心には触れない。",
     "timeline": [
       {
         "date": "2026年11月24日16:00（日本時間）",
@@ -204,33 +271,39 @@
       },
       {
         "date": "2026年11月26日11:00（日本時間）",
-        "text": "日本版・中国版の正式サービスを開始予定。"
+        "text": "日本版・中国版の正式サービスを開始。"
       }
     ],
     "sources": [
       {
-        "name": "『アズールプロミリア』日本公式X・事前ダウンロード開始告知（公開ミラー）",
+        "name": "Yostar公式発表掲載・4Gamer",
+        "url": "https://www.4gamer.net/games/784/G078489/20261126013/",
+        "date": "2026-11-26",
+        "type": "公式発表掲載"
+      },
+      {
+        "name": "『アズールプロミリア』日本公式X（公開ミラー）",
         "url": "https://www.sotwe.com/AzurPromilia_JP",
-        "date": "2026-11-24",
+        "date": "2026-11-26",
         "type": "公式投稿の公開ミラー"
       },
       {
-        "name": "『アズールプロミリア』日本公式サイト",
-        "url": "https://azurpromilia.jp/",
+        "name": "日本公式サイト・正式サービスFAQ",
+        "url": "https://azurpromilia.jp/news/5190",
         "date": "2026-11-24",
         "type": "公式"
       },
       {
-        "name": "中国公式TapTap・事前ダウンロード開始告知",
-        "url": "https://www.taptap.cn/moment/874039660215534701",
-        "date": "2026-11-24",
+        "name": "中国公式TapTap・正式サービス開始告知",
+        "url": "https://www.taptap.cn/moment/874680644175659328",
+        "date": "2026-11-26",
         "type": "公式"
       },
       {
-        "name": "Gematsu・日本／中国／韓国／台湾の配信日報道",
-        "url": "https://www.gematsu.com/2026/10/azur-promilia-launches-november-26-in-japan-south-korea-taiwan-and-china",
-        "date": "2026-10-23",
-        "type": "報道"
+        "name": "中国公式サイト・公測FAQ",
+        "url": "https://azurpromilia.manjuu.com/home/news/detail/912070871064121344/",
+        "date": "2026-11-24",
+        "type": "公式"
       }
     ],
     "story_id": "azur-promilia-launch-20261126"
