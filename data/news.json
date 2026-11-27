@@ -65,6 +65,82 @@
     "story_id": "wuwa-simulsys-havoc-echo-dmg-rumor-20261126"
   },
   {
+    "id": "china-latest-20261124-azur-promilia-preload",
+    "date": "2026-11-26",
+    "category": "中国ゲーム・最新",
+    "status": "公式発表",
+    "lang": "JP",
+    "title": "Manjuu新作『アズールプロミリア』正式サービス開始　日本・中国でPC／スマホ向けに展開",
+    "summary": "Manjuu Games開発、Yostar共同配信の『アズールプロミリア』は11月26日11:00（日本時間）、日本と中国で正式サービスを開始した。日本版はWindows PC・iOS・Android、中国版はPC・iOS・Android・HarmonyOSに対応。日本版PlayStation 5の同日配信は確認できない。",
+    "url": "https://www.4gamer.net/games/784/G078489/20261126013/",
+    "source": "Yostar公式発表／『アズールプロミリア』日本公式X／中国公式TapTap",
+    "tags": [
+      "アズールプロミリア",
+      "Azur Promilia",
+      "Manjuu Games",
+      "Yostar",
+      "新作",
+      "事前ダウンロード",
+      "正式サービス",
+      "PC",
+      "iOS",
+      "Android",
+      "2026年11月26日",
+      "正式サービス開始",
+      "HarmonyOS"
+    ],
+    "spoiler": false,
+    "teaser_title": "日本・中国で11月26日に正式サービス開始",
+    "body": "■ 日本版の正式サービスを開始\nManjuu GamesとYostarは2026年11月26日11:00（日本時間）、ファンタジーワールドRPG『アズールプロミリア』の日本版正式サービスを開始した。日本版の対応プラットフォームはWindows PC、iOS、Android。基本プレイ無料のアイテム課金方式で提供される。\n\n■ 中国版も同時刻に開服\n中国版『藍色星原：旅謡』も11月26日10:00（UTC+8、日本時間11:00）に正式サービスを開始。PC、Android、iOS、HarmonyOSに対応し、公式サーバーでは4プラットフォーム間の進行データ連携に対応する。中国版の一部チャネルサーバーは公式サーバーとデータ連携しない。\n\n■ 日本版PlayStation 5は同日配信を確認できず\n日本公式が開始時に案内した環境はPC、iOS、Android。PlayStation 5版の同日配信は確認できないため、対応済みとは記載しない。\n\n■ 事前ダウンロードは11月24日から実施\n日本版は11月24日16:00、中国版は同日15:00（UTC+8）から事前ダウンロードを実施していた。中国版の推奨空き容量はPC 120GB以上、モバイル55GB以上だが、日本版も同じ要件とは断定しない。\n\nストーリーやPVの核心には触れない。",
+    "timeline": [
+      {
+        "date": "2026年11月24日16:00（日本時間）",
+        "text": "日本版のPC、iOS、Android向け事前ダウンロードを開始。"
+      },
+      {
+        "date": "2026年11月24日15:00（UTC+8）",
+        "text": "中国版のPC、iOS、Android、HarmonyOS向け事前ダウンロードを開始。"
+      },
+      {
+        "date": "2026年11月26日11:00（日本時間）",
+        "text": "日本版・中国版の正式サービスを開始。"
+      }
+    ],
+    "sources": [
+      {
+        "name": "Yostar公式発表掲載・4Gamer",
+        "url": "https://www.4gamer.net/games/784/G078489/20261126013/",
+        "date": "2026-11-26",
+        "type": "公式発表掲載"
+      },
+      {
+        "name": "『アズールプロミリア』日本公式X（公開ミラー）",
+        "url": "https://www.sotwe.com/AzurPromilia_JP",
+        "date": "2026-11-26",
+        "type": "公式投稿の公開ミラー"
+      },
+      {
+        "name": "日本公式サイト・正式サービスFAQ",
+        "url": "https://azurpromilia.jp/news/5190",
+        "date": "2026-11-24",
+        "type": "公式"
+      },
+      {
+        "name": "中国公式TapTap・正式サービス開始告知",
+        "url": "https://www.taptap.cn/moment/874680644175659328",
+        "date": "2026-11-26",
+        "type": "公式"
+      },
+      {
+        "name": "中国公式サイト・公測FAQ",
+        "url": "https://azurpromilia.manjuu.com/home/news/detail/912070871064121344/",
+        "date": "2026-11-24",
+        "type": "公式"
+      }
+    ],
+    "story_id": "azur-promilia-launch-20261126"
+  },
+  {
     "id": "china-latest-20261125-tencent-shou-reveal",
     "date": "2026-11-25",
     "category": "中国ゲーム・最新",
@@ -231,82 +307,6 @@
       }
     ],
     "story_id": "dnf-classic-codename-fight-china-20261124"
-  },
-  {
-    "id": "china-latest-20261124-azur-promilia-preload",
-    "date": "2026-11-26",
-    "category": "中国ゲーム・最新",
-    "status": "公式発表",
-    "lang": "JP",
-    "title": "Manjuu新作『アズールプロミリア』正式サービス開始　日本・中国でPC／スマホ向けに展開",
-    "summary": "Manjuu Games開発、Yostar共同配信の『アズールプロミリア』は11月26日11:00（日本時間）、日本と中国で正式サービスを開始した。日本版はWindows PC・iOS・Android、中国版はPC・iOS・Android・HarmonyOSに対応。日本版PlayStation 5の同日配信は確認できない。",
-    "url": "https://www.4gamer.net/games/784/G078489/20261126013/",
-    "source": "Yostar公式発表／『アズールプロミリア』日本公式X／中国公式TapTap",
-    "tags": [
-      "アズールプロミリア",
-      "Azur Promilia",
-      "Manjuu Games",
-      "Yostar",
-      "新作",
-      "事前ダウンロード",
-      "正式サービス",
-      "PC",
-      "iOS",
-      "Android",
-      "2026年11月26日",
-      "正式サービス開始",
-      "HarmonyOS"
-    ],
-    "spoiler": false,
-    "teaser_title": "日本・中国で11月26日に正式サービス開始",
-    "body": "■ 日本版の正式サービスを開始\nManjuu GamesとYostarは2026年11月26日11:00（日本時間）、ファンタジーワールドRPG『アズールプロミリア』の日本版正式サービスを開始した。日本版の対応プラットフォームはWindows PC、iOS、Android。基本プレイ無料のアイテム課金方式で提供される。\n\n■ 中国版も同時刻に開服\n中国版『藍色星原：旅謡』も11月26日10:00（UTC+8、日本時間11:00）に正式サービスを開始。PC、Android、iOS、HarmonyOSに対応し、公式サーバーでは4プラットフォーム間の進行データ連携に対応する。中国版の一部チャネルサーバーは公式サーバーとデータ連携しない。\n\n■ 日本版PlayStation 5は同日配信を確認できず\n日本公式が開始時に案内した環境はPC、iOS、Android。PlayStation 5版の同日配信は確認できないため、対応済みとは記載しない。\n\n■ 事前ダウンロードは11月24日から実施\n日本版は11月24日16:00、中国版は同日15:00（UTC+8）から事前ダウンロードを実施していた。中国版の推奨空き容量はPC 120GB以上、モバイル55GB以上だが、日本版も同じ要件とは断定しない。\n\nストーリーやPVの核心には触れない。",
-    "timeline": [
-      {
-        "date": "2026年11月24日16:00（日本時間）",
-        "text": "日本版のPC、iOS、Android向け事前ダウンロードを開始。"
-      },
-      {
-        "date": "2026年11月24日15:00（UTC+8）",
-        "text": "中国版のPC、iOS、Android、HarmonyOS向け事前ダウンロードを開始。"
-      },
-      {
-        "date": "2026年11月26日11:00（日本時間）",
-        "text": "日本版・中国版の正式サービスを開始。"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Yostar公式発表掲載・4Gamer",
-        "url": "https://www.4gamer.net/games/784/G078489/20261126013/",
-        "date": "2026-11-26",
-        "type": "公式発表掲載"
-      },
-      {
-        "name": "『アズールプロミリア』日本公式X（公開ミラー）",
-        "url": "https://www.sotwe.com/AzurPromilia_JP",
-        "date": "2026-11-26",
-        "type": "公式投稿の公開ミラー"
-      },
-      {
-        "name": "日本公式サイト・正式サービスFAQ",
-        "url": "https://azurpromilia.jp/news/5190",
-        "date": "2026-11-24",
-        "type": "公式"
-      },
-      {
-        "name": "中国公式TapTap・正式サービス開始告知",
-        "url": "https://www.taptap.cn/moment/874680644175659328",
-        "date": "2026-11-26",
-        "type": "公式"
-      },
-      {
-        "name": "中国公式サイト・公測FAQ",
-        "url": "https://azurpromilia.manjuu.com/home/news/detail/912070871064121344/",
-        "date": "2026-11-24",
-        "type": "公式"
-      }
-    ],
-    "story_id": "azur-promilia-launch-20261126"
   },
   {
     "id": "china-latest-20261123-honkai-nexus-anima-final-cbt-preload",
